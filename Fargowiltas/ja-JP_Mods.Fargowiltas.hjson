@@ -1517,7 +1517,7 @@ Items: {
 		DisplayName: 龍のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadBetsy.DisplayName}を使用すると得られる
 			「三千年待った気分だ」
 			'''
 	}
@@ -1526,7 +1526,7 @@ Items: {
 		DisplayName: 天才的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadBrain.DisplayName}を使用すると得られる
 			「You are a browser crusher! ahahaha ahaha a ahahaha...」
 			'''
 	}
@@ -1535,7 +1535,7 @@ Items: {
 		DisplayName: 狂気のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadCultist.DisplayName}を使用すると得られる
 			「あなたはおそらく狂っている」
 			'''
 	}
@@ -1544,7 +1544,7 @@ Items: {
 		DisplayName: ミステリアスなエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadDarkMage.DisplayName}を使用すると得られる
 			「千年間待った気分だ」
 			'''
 	}
@@ -1553,7 +1553,7 @@ Items: {
 		DisplayName: シカトされたエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadDeer.DisplayName}を使用すると得られる
 			「おなか
 			  へた」
 			'''
@@ -1563,7 +1563,7 @@ Items: {
 		DisplayName: 破壊のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadDestroyer.DisplayName}を使用すると得られる
 			「子供たちを壊したくなる機械、デストロイヤッ！」
 			'''
 	}
@@ -1572,7 +1572,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー・エクストラ
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadSkele.DisplayName}を使用すると得られる
 			「意地悪な牛を思い出す」
 			'''
 	}
@@ -1581,7 +1581,7 @@ Items: {
 		DisplayName: 妖精のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadEmpress.DisplayName}を使用すると得られる
 			「部屋を明るくして、離れてみてください」
 			'''
 	}
@@ -1590,7 +1590,7 @@ Items: {
 		DisplayName: 光学的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadEye.DisplayName}を使用すると得られる
 			「あなたと自宅を監視することが趣味です」
 			'''
 	}
@@ -1599,7 +1599,7 @@ Items: {
 		DisplayName: とれたてピチピチのエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadFish.DisplayName}を使用すると得られる
 			「とても満足しているようだ」
 			'''
 	}
@@ -1608,7 +1608,7 @@ Items: {
 		DisplayName: 電池としても使えるエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadGolem.DisplayName}を使用すると得られる
 			「単三電池だったらよかったのに」
 			'''
 	}
@@ -1617,7 +1617,7 @@ Items: {
 		DisplayName: 月のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadMoon.DisplayName}を使用すると得られる
 			「ムンロは、チーズがたべたいだけなのです！」
 			'''
 	}
@@ -1626,7 +1626,7 @@ Items: {
 		DisplayName: 葉っぱのエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadPlant.DisplayName}を使用すると得られる
 			「いつか葉が茂って、根っこは大きく育って」
 			'''
 	}
@@ -1635,7 +1635,7 @@ Items: {
 		DisplayName: プレミアムエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadPrime.DisplayName}を使用すると得られる
 			「広告がなくなった気分」
 			'''
 	}
@@ -1644,7 +1644,7 @@ Items: {
 		DisplayName: 水晶のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadQueenSlime.DisplayName}を使用すると得られる
 			「とてもぬるぬるする」
 			'''
 	}
@@ -1653,7 +1653,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadSkele.DisplayName}を使用すると得られる
 			「牛を連想させる」
 			'''
 	}
@@ -1662,7 +1662,7 @@ Items: {
 		DisplayName: べとべとしたエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadSlimeCrown.DisplayName}を使用すると得られる
 			「少しぬるぬるした感じがする」
 			'''
 	}
@@ -1671,7 +1671,7 @@ Items: {
 		DisplayName: 兄弟のエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadTwins.DisplayName}を使用すると得られる
 			「兄弟といえば赤と緑」
 			'''
 	}
@@ -1680,7 +1680,7 @@ Items: {
 		DisplayName: ウォーリーのエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadWall.DisplayName}を使用すると得られる
 			「ウォールを探せ！」
 			'''
 	}
@@ -1689,7 +1689,7 @@ Items: {
 		DisplayName: うねうねエネルゲイザー
 		Tooltip:
 			'''
-			10個の???を使用すると得られる
+			10個の{$OverloadWorm.DisplayName}を使用すると得られる
 			'少し糸を引いている'
 			'''
 	}
