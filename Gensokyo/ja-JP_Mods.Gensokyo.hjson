@@ -1,0 +1,5424 @@
+# Contents of {curly brackets} should be left untranslated.
+# [Square brackets] followed by some letters and numbers (for example: [c/ffff40: text]) are used to generate colored text.
+# In these cases, everything after the colon (:) should be translated as normal, except if it is in {curly brackets} (see above).
+# Take care not accidentally delete quotation marks.
+
+
+Biomes: {
+	SubterraneanSun: {
+		DisplayName: 地底の太陽 #元ネタ的には間欠泉地下センター?
+		TownNPCDialogueName: 地底の太陽
+	}
+
+	BambooGrove: {
+		DisplayName: 竹林 #これも元ネタ的には迷いの竹林？
+		TownNPCDialogueName: 竹林
+	}
+}
+
+Buffs: {
+	Buff_BambooVitality: {
+		DisplayName: 竹の活力
+		Description: マナの回復量が増加し、発光する
+	}
+
+	Buff_ButterflyPheromones: {
+		DisplayName: 蝶のフェロモン
+		Description: 蝶のスポーン率を増加
+	}
+
+	Buff_CelestialPeach: {
+		DisplayName: 昇天
+		Description: 防御力とライフリジェネが大幅に増加
+	}
+
+	Buff_ChickenBlessing: {
+		DisplayName: 鶏の祝福
+		Description: ライフリジェネを増加
+	}
+
+	BufCursedBloodInjectf_ion: {
+		DisplayName: 呪いの血液の注射
+		Description:
+			'''
+			{AttackDamage}% ダメージ増加
+			定期的に呪われた血を放出する
+			ライフが減少していき、防御力が低下
+			'''
+	}
+
+	Buff_DangoPower1: {
+		DisplayName: 団子パワー
+		Description:
+			'''
+			{MiningSpeed}% 採掘速度が増加
+			受けるダメージが {DamageTakenMalus}% 増加
+			'''
+	}
+
+	Buff_DangoPower2: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Buff_DangoPower1.DisplayName}"
+		Description:
+			'''
+			{MiningSpeed}% 採掘速度が増加
+			{MovementSpeed}% 移動速度が増加
+			受けるダメージが {DamageTakenMalus}% 増加
+			'''
+	}
+
+	Buff_DangoPower3: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Buff_DangoPower1.DisplayName}"
+		Description:
+			'''
+			{MiningSpeed}% 採掘速度が増加
+			{MovementSpeed}% 移動速度が増加
+			相手の防御力を {ArmorPen} 無視
+			受けるダメージが {DamageTakenMalus}% 増加
+			'''
+	}
+
+	Buff_DangoPower4: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Buff_DangoPower1.DisplayName}"
+		Description:
+			'''
+			{MiningSpeed}% 採掘速度が増加
+			{MovementSpeed}% 移動速度が増加
+			相手の防御力を {ArmorPen} 無視
+			クリティカル率を {CritChance}% 増加
+			受けるダメージが {DamageTakenMalus}% 増加
+			'''
+	}
+
+	Buff_DangoPower5: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Buff_DangoPower1.DisplayName}"
+		Description:
+			'''
+			{MiningSpeed}% 採掘速度が増加
+			{MovementSpeed}% 移動速度が増加
+			相手の防御力を {ArmorPen} 無視
+			クリティカル率を {CritChance}% 増加
+			{AttackDamage}% ダメージ増加
+			受けるダメージが {DamageTakenMalus}% 増加
+			'''
+	}
+
+	Buff_DefensiveStance: {
+		DisplayName: ディフェンススタンス
+		Description: "{DamageReduction}% ダメージ減少"
+	}
+
+	Buff_ForbiddenPower: {
+		DisplayName: 禁断の力
+		Description: マナの回復量を増加
+	}
+
+	Buff_HardShell: {
+		DisplayName: 硬い殻
+		Description: 防御力を {DefenseBoost} 増加
+	}
+
+	Buff_InchlingSized: {
+		DisplayName: 一寸法師
+		Description: 一寸法師のように小さくなる
+	}
+
+	Buff_Intangible: {
+		DisplayName: 無形
+		Description: 攻撃が当たらない
+	}
+
+	Buff_InTheDark: {
+		DisplayName: 闇に抱かれて
+		Description: ライフとマナの回復量が少し増加する
+	}
+
+	Buff_Invigorated: {
+		DisplayName: 活性化
+		Description: マナの回復量を増加
+	}
+
+	Buff_OmoikaneMedicine: {
+		DisplayName: オモイカネの薬
+		Description: ライフリジェネが大幅に上昇
+	}
+
+	Buff_Overclocked: {
+		DisplayName: オーバークロック
+		Description: "{MovementSpeed}% 移動速度が増加し、 {DodgeChance}% 攻撃をかわす確率を増加する "
+	}
+
+	Buff_PoweredUp: {
+		DisplayName: パワーアップ
+		Description:
+			'''
+			{Damage}% ダメージ増加
+			{Crit}% クリティカル率を増加
+			'''
+	}
+
+	Buff_RedRibbon: {
+		DisplayName: 赤いリボン
+		Description: デバフを他のプレイヤーに押し付ける
+	}
+
+	Buff_SakeBoth: {
+		DisplayName: 粉砕
+		Description: 近接攻撃能力、ライフリジェネが大幅に上昇
+	}
+
+	Buff_SakeIbaraki: {
+		DisplayName: ドロドロ
+		Description: 近接攻撃能力、ライフリジェネが大幅に上昇
+	}
+
+	Buff_SpiritEnergy: {
+		DisplayName: 過給
+		Description: 防御力を {ArmorPen} 無視
+	}
+
+	Cooldown_MapleShield: {
+		DisplayName: ディフェンス疲れ
+		Description: ずっと守りに入ってるわけにはいかないんだ
+	}
+
+	Cooldown_SwallowCowrieShell: {
+		DisplayName: 最近生き返った
+		Description: もう死からは逃れられない
+	}
+
+	Debuff_Bleeding: {
+		DisplayName: 出血
+		Description: ライフが減少していく
+	}
+
+	Debuff_Ceramicbow: {
+		DisplayName: "{$Mods.Gensokyo.Items.Ceramicbow.DisplayName}"
+		Description: NPS専用デバフ
+	}
+
+	Debuff_CursedBlood: {
+		DisplayName: 呪われた血液
+		Description: ライフの減少していき、防御力の低下
+	}
+
+	Debuff_Diseased: {
+		DisplayName: 病気
+		Description: ゆっくりとライフが減少し、移動速度が低下する
+	}
+
+	Debuff_Drowsy: {
+		DisplayName: 眠い
+		Description: 与えるダメージの減少
+	}
+
+	Debuff_Electrified: {
+		DisplayName: 電化
+		Description: ライフが減少していく
+	}
+
+	Debuff_EvilMagic: {
+		DisplayName: Evil Magic
+		Description: NPC専用デバフ
+	}
+
+	Debuff_Exorcised: {
+		DisplayName: Exorcised
+		Description: ライフが減少していく
+	}
+
+	Debuff_FemtofiberWhip: {
+		DisplayName: "{$Mods.Gensokyo.Items.FemtofiberWhip.DisplayName}"
+		Description: NPC専用デバフ
+	}
+
+	Debuff_GraspingVine: {
+		DisplayName: "{$Mods.Gensokyo.Items.GraspingVine.DisplayName}"
+		Description: NPC専用デバフ
+	}
+
+	Debuff_GravityInverted: {
+		DisplayName: 反転
+		Description: 重力が反転する
+	}
+
+	Debuff_Harmless: {
+		DisplayName: 無害
+		Description: NPC専用デバフ
+	}
+
+	Debuff_Misfortune: {
+		DisplayName: 呪われた
+		Description: クリティカルヒットを受ける確率が10%増加する
+	}
+
+	Debuff_MovementInverted: {
+		DisplayName: 逆転
+		Description: 動きが反転する
+	}
+
+	Debuff_Neurotoxin: {
+		DisplayName: 神経毒
+		Description: ライフが減少していき, 視力とダメージが著しく低下する
+	}
+
+	Debuff_NightblindNonCombat: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Debuff_Nightblind1.DisplayName}"
+		Description: なぜか視界が悪くなっている...
+	}
+
+	Debuff_Nightblind1: {
+		DisplayName: 鳥目
+		Description: 闇が迫っている...
+	}
+
+	Debuff_Nightblind2: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Debuff_Nightblind1.DisplayName}"
+		Description: "{$Mods.Gensokyo.Buffs.Debuff_Nightblind1.Description}"
+	}
+
+	Debuff_Nightblind3: {
+		DisplayName: "{$Mods.Gensokyo.Buffs.Debuff_Nightblind1.DisplayName}"
+		Description: "{$Mods.Gensokyo.Buffs.Debuff_Nightblind1.Description}"
+	}
+
+	Debuff_OmoikanePoison: {
+		DisplayName: オモイカネの毒
+		Description: 高速でライフが減少していく
+	}
+
+	Debuff_ShanghaiDoll: {
+		DisplayName: "{$Mods.Gensokyo.Items.ShanghaiDoll.DisplayName}"
+		Description: NPC専用デバフ
+	}
+
+	Debuff_SakeHoshiguma: {
+		DisplayName: 酔っ払い
+		Description: 近接攻撃力が大幅に上昇、防御力が低下
+	}
+
+	Debuff_TailFinSlapper: {
+		DisplayName: "{$Mods.Gensokyo.Items.TailFinSlapper.DisplayName}"
+		Description: NPC専用デバフ
+	}
+
+	Debuff_TimeSlow: {
+		DisplayName: 遅い
+		Description: 時間の流れが遅くなる
+	}
+
+	Debuff_TimeStop: {
+		DisplayName: 時間の凍結
+		Description: 時よ止まれ
+	}
+
+	Debuff_Toxin: {
+		DisplayName: 毒素
+		Description: ライフが減少していき、視力が低下
+	}
+
+	Debuff_Unlucky: {
+		DisplayName: 不運
+		Description: 本当に不運だと感じている
+	}
+
+	Debuff_VampiricCorruption: {
+		DisplayName: 吸血鬼の堕落
+		Description: ヒーリングポーションは通常の {HealPotionMultiplierPercent}% しか回復しない。
+	}
+
+	Debuff_Vaporizing: {
+		DisplayName: 蒸発
+		Description: 素早くプラズマの雲に変わる
+	}
+
+	Minion_Dolls: {
+		DisplayName: 人形
+		Description: アリスの人形があなたのために戦います
+	}
+
+	Minion_Firefly: {
+		DisplayName: 蛍
+		Description: 蛍があなたのために戦い、輝きます
+	}
+
+	Minion_Haniwa: {
+		DisplayName: 埴輪
+		Description: 埴輪の兵士があなたのために戦います
+	}
+
+	Minion_Mouse: {
+		DisplayName: 鼠
+		Description: ナズーリンの鼠があなたのために戦います
+	}
+
+	Minion_Rabbit: {
+		DisplayName: 兎
+		Description: 兎があなたのために戦います
+	}
+
+	Minion_SekibankiHead: {
+		DisplayName: デュラハンの頭
+		Description: 赤蛮奇の頭があなたのために戦います
+	}
+
+	Minion_Sparrow: {
+		DisplayName: 雀
+		Description: 小さな雀があなたのために戦います
+	}
+
+	Minion_Ufo: {
+		DisplayName: UFO
+		Description: 正体不明のUFOがあなたのために戦います
+	}
+
+	Minion_Vermin: {
+		DisplayName: 害獣
+		Description: 異常な大きさの害虫はあなたのために戦います
+	}
+
+	Mount_GiantFrog: {
+		DisplayName: 巨大な蛙
+		Description: 原住民の最高神の祝福を受けた
+	}
+
+	Mount_Keystone: {
+		DisplayName: 要石
+		Description: 地球からこれを取り除いたことで、地震の1つや2つは起きたかもしれない
+	}
+
+	Mount_MagicianBroom: {
+		DisplayName: 魔法使いの箒
+		Description: 魔女は箒を持たなければならない、たとえ箒なしで飛べるとしても
+	}
+
+	Pet_Komainu: {
+		DisplayName: 狛犬
+		Description: 狛犬があなたについていく
+	}
+
+	Pet_WingedDoll: {
+		DisplayName: 翼の生えた人形
+		Description: それはあなたの破滅を企てているかもしれない
+	}
+}
+
+Common: {
+	AltfireManaCost: "[c/ffff40:{AltMana} マナを使う] "
+	AltfireCooldown: "[c/ffff40:クールダウン: {Cooldown} 秒] "
+	Banner: バナー
+	CreatedByNnerdragon: "'nnerdragon'" #これら三つは恐らく作者及び曲の作成者
+	CreatedByJuhou: Juhouによって
+	CreatedByUmbra: Umbrakineticによって
+	MusicBox: オルゴール
+	Painting: 染料
+	TreasureBag: トレジャーバック
+}
+
+Conditions: {
+	# Vanilla bosses
+	DefeatedMechanicalBosses: メカニカルボス 討伐後
+	DefeatedPlantera: プランテラ 討伐後
+	DefeatedMoonLord: ムーンロード 討伐後
+	# Mod bosses
+	DefeatedLilyWhite: リリーホワイト 討伐後
+	DefeatedMystiaLorelei: ミスティア・ローレライ 討伐後
+	DefeatedSeijaKijin: 鬼人 正邪 討伐後
+	DefeatedKaguyaHouraisan: 蓬莱山 輝夜 討伐後
+	DefeatedKoishiKomeiji: 古明地 こいし 討伐後
+	DefeatedToyosatomimiNoMiko: 豊聡耳 神子 討伐後
+	DefeatedTenshiHinanawi: 比那名居 天子 討伐後
+	DefeatedTsukumoSisters: 九十九姉妹 討伐後
+	# Other
+	YamawaroWeaponInInventory: 山童の武器がインベントリにあるとき
+	KappaWeaponInInventory: 河童の武器がインベントリにあるとき
+}
+
+Configs: {
+	GensokyoConfigClient: {
+		DisplayName: クライアント側の設定
+
+		Headers: {
+			Bosses:　ボス戦
+			ToolToggleHeader: ツール機能のトグル
+			Visuals: ビジュアル
+			ShopFilters: 森近霖之助のショップのフィルター #Curio Trader＝骨董品のトレーダーだが元ネタ的に森近霖之助
+		}
+
+		DisplaySpellcardNames: {
+			Label: チャットにスペルカードを表示する
+			Tooltip: ボスが使用したスペルカードをチャットでアナウンスするかどうかを決定します。
+		}
+
+		ArenaDisplayMode: {
+			Label: ボスアリーナ表示モード
+			Tooltip:
+				'''
+				高ティアのボスのアリーナをどのように表示するかを決定する。
+				アリーナの外から攻撃したプレイヤーは、特殊な攻撃を受けることになる。
+				'''
+		}
+
+		MochiPoundingMalletToolToggle: {
+			Label: "{$Mods.Gensokyo.Items.MochiPoundingMallet.DisplayName}"
+			Tooltip:  餅つき杵で壁を壊したり、タイルの勾配を変えたりするのを防ぐためには無効にします。
+		}
+
+		HeadsmanAxeToolToggle: {
+			Label: "{$Mods.Gensokyo.Items.HeadsmanAxe.DisplayName}"
+			Tooltip: 死刑執行人の斧が木やサボテンを壊すのを防ぐためにはこれを無効にすします。
+		}
+
+		DisplayDollStrings: {
+			Label: 人形の文字列を表示
+			Tooltip: ドールスタッフによって作成された人形が、文字列を介してオーナーと目に見える形でつながっているかどうかを決定します。
+		}
+
+		DisplayRitualStrawDollAoE: {
+			Label: 儀式用の藁人形の効果範囲を表示する
+			Tooltip: 有効にすると、儀式用の藁人形の効果範囲が緑のリングで表示されます。
+		}
+
+		DisplayRedRibbonAoE: {
+			Label: 赤いリボンの効果範囲を表示する
+			Tooltip: 有効にすると、レッドリボンのエフェクトエリアが濃い赤のリングで表示される。
+		}
+
+		DisplayVampireFangAoE: {
+			Label: ヴァンパイアの牙の効果範囲を表示する
+			Tooltip: 有効にすると、ヴァンパイアの牙の効果範囲が血のように赤いリングで表示される。
+		}
+
+		InfernoRingDisplayMode: {
+			Label: 獄炎のポーションの表示モード
+			Tooltip:
+				'''
+				火鼠の皮衣とサラマンダーシールドのダメージゾーンを炎のリングとして表示するかどうかを決定する。
+				この設定の効果は視覚的なものであり、実際にアイテムがダメージを与えるかどうかには影響しない。
+				'''
+		}
+
+		ShopFilters: {
+			Label: ショップフィルター
+			Tooltip: 森近霖之助のショップでカテゴリーを有効または無効にする
+		}
+	}
+
+	ArenaOptions: {
+		ShowNever.Label: 表示しない
+		FadeOut.Label: 端にのみ表示
+		ShowAlways.Label: 常に表示する
+		Tooltip: ""
+
+	InfernoRingOptions: {
+		ShowNever.Label: 表示しない
+		WhenAccessoryVisible.Label: 端にのみ表示
+		ShowAlways.Label: 常に表示する
+		Tooltip: ""
+	}
+
+	ShopCategory: {
+		Tooltip: ""
+		Weapons.Label:武器
+		Tools.Label: ツール
+		Armor.Label: 防具
+		Vanity.Label: 装飾品
+		Accessories.Label: アクセサリー
+		Pets.Label: ペット
+		Mounts.Label: マウント
+		Potions.Label: ポーション
+		Consumables.Label: 消耗品
+		Placeables.Label: 置物
+		Miscellaneous.Label: その他
+		Buyback.Label: 買い戻し
+	}
+}
+
+Crafting: {
+	AnyButterfly: 任意の蝶
+	AnyBunny: 任意の兎
+	AnyGemstone: 任意の宝石
+	AnyHerb: 任意のハーブ
+}
+
+DeathReason: {
+	CursedBlood: "{0} は汚染された血液を注入された"
+	PhoenixFlames: "{0} は耐火性がなかった."
+	Toxin: "{0} は深く吸い込みすぎた"
+	Vaporizing: "{0} は太陽に近づきすぎた"
+}
+}
+Items: {
+	# ----- Accessories -----　
+	# ----- アクセサリー -----
+	AmuletOfVitality: {
+		DisplayName: 活力の護符
+		Tooltip:
+			'''
+			生命力に満ち溢れている
+			ヒーリングポーションのライフ回復量が{ExtraHeal}%増加する。
+			ヒーリングポーションを飲むと、ランダムなデバフを失い、{BuffTime}秒間のライフリジェネを得る。
+			'''
+	}
+
+	BlasphemousFocus: {
+		DisplayName: 冒涜的な焦点
+		Tooltip:
+			'''
+			邪悪な仙人が作り出した邪悪なもの
+			マナポーションを飲むと{BuffTime}秒間のマナ再生を得る。
+			さらに近くの敵は{BonusDamage}%ダメージ増加のデバフを得る。
+			'''
+	}
+
+	BloomWings: {
+		DisplayName: 春の翼
+		Tooltip:
+			'''
+			"春ですよー!"
+			翼のソウルを使ってアップグレードが可能
+			'''
+	}
+
+	BlossomWings: {
+		DisplayName: 春の翼
+		Tooltip:
+			'''
+			"春ですよー!"
+			ライフリジェネを与える
+			'''
+	}
+
+	BuddhaBeggingbowl: {
+		DisplayName: 仏の御石の鉢
+		Tooltip:
+			'''
+			伝説の5つの無理難題のうちの1つ
+			敵に与えた魔法ダメージでマナを回復する
+			{MagicDamageReduction} ％魔法ダメージを軽減する。
+			'''
+	}
+
+	BuddhistDiamond: {
+		DisplayName: 仏のダイヤモンドの鉢
+		Tooltip:
+			'''
+			「僧侶がダイヤモンドの鉢を持って物乞いに来ても、誰も小銭を投げたりはしないだろう」
+			マナスターの回収範囲増加
+			敵に与えた魔法ダメージでマナを回復
+			{MagicDamageReduction} %魔法ダメージを軽減する。
+			'''
+	}
+
+	BurstingRedFrog: {
+		DisplayName: 破裂する赤いカエル
+		Tooltip:
+			'''
+			どうやら、このカエルは時々勝手に爆発するらしい。
+			各攻撃は{ExplosionChance}%の確率で二次爆発を発生させる。
+			爆発は{ExplosionDamageMultiplier}%のダメージを与える。
+			'''
+	}
+
+	CattainsCoat: {
+		DisplayName: キャプテンのコート
+		Tooltip:
+			'''
+			防水で非常にスタイリッシュ
+		    DOWN をダブルタップすると{IntangibilityDuration}秒間無形状態になる。
+			クールダウン: {CooldownTime} 秒
+			'''
+	}
+
+	CatStatuette: {
+		DisplayName: 猫の像
+		Tooltip:
+			'''
+			運が上がり、すべての敵に金貨を落とす確率が 2% 増加します。
+			'''
+	}
+
+	CleansedCrystalMirror: {
+		DisplayName: 浄玻璃の鏡
+		Tooltip:
+			'''
+			言葉は行いに転じ、思考に転じ、罪を捕らえる真実に転じる。
+			持ち主の周囲を回る鏡を作る。
+			鏡に当たった敵の発射物は破壊され、新しい発射物が2つ生成される。
+			一方の発射物は近くの敵を狙い、もう一方の弾丸は持ち主の体力を回復させる。
+			'''
+	}
+
+	CloakOfDarkness: {
+		DisplayName:闇の外套
+		Tooltip:
+			'''
+			夏の日差しを防ぐ
+			特に暗闇では、敵に狙われにくくなる。
+			バブルに入った敵は混乱する。
+			敵からの攻撃によるダメージが少し減少する。
+			{$Mods.Gensokyo.Items.SealingTalisman.DisplayName} と {$Mods.Gensokyo.Items.MoonlightRay.DisplayName} の条件付き効果が常に適用される。
+			視力を低下させる
+			'''
+	}
+
+	ClosedThirdEye: {
+		DisplayName: 閉じた第三の眼
+		Tooltip:
+			'''
+			目を閉じても、世界はそこにある。
+			敵に狙われにくくなる
+			自分をターゲットしていない敵に対して{ExtraDamage}%のボーナスダメージを与える
+			{DodgeChance}%の確率で敵の攻撃をかわし、全方位にバラを放つ
+			被弾時、無意識の反撃が発動することがある
+			'''
+	}
+
+	CropBasket: {
+		DisplayName: 作物バスケット
+		Tooltip:
+			'''
+			収穫の女神に十分な賛辞を捧げることを忘れずに。
+			草からハートやサツマイモを集めることができる
+			'''
+	}
+
+	CrystalWings: {
+		DisplayName: クリスタルの翼
+		Tooltip:
+			'''
+		そして誰もいなくなった
+			{DamageDealtBonus}% ダメージを増加
+			{DamageTakenMalus}% 被ダメージ増加	
+			'''
+	}
+
+	DragonStar: {
+		DisplayName: 龍星
+		Tooltip:
+			'''
+			気の操作に熟達していることを示す
+			{MeleeSpeedBonus}% 近接攻撃速度が増加する
+			近接クリティカル確率が {MeleeCritChanceBonus}% 増加する
+			ダブルタップによるダッシュが可能になる。
+			'''
+	}
+
+	DiamondPendulum: {
+		DisplayName: ダイヤモンド・ペンデュラム
+		Tooltip:
+			'''
+			宝物の価値に大きさは関係ない
+			受けるダメージを {DamageReduction}% 軽減する
+			鉱石、宝石、宝物が近くにあると発光する
+			'''
+	}
+
+	EnchantedHourglass: {
+		DisplayName: 魔法の砂時計
+		Tooltip:
+			'''
+			時折、砂の流れが速くなる
+			アイテムのクールダウン時間を {CooldownReduction} %短縮する。
+			'''
+	}
+
+	EverlastingWings: {
+		DisplayName: エタニティの翼
+		Tooltip:
+			'''
+			「真夏の戦争の時間だ」
+			飛行中、角度を変えながら定期的に3発の弾丸を発射する
+			'''
+	}
+
+	EyeOfYatagarasu: {
+		DisplayName: 八咫烏の目
+		Tooltip:
+			'''
+			黒い太陽の力
+			{AllDamageBonus}% ダメージを増加
+			{CritChanceBonus}% クリティカル確率増加
+			炎と呪いの炎に対する耐性
+			溶岩耐性
+			'''
+	}
+
+	FeatherTalisman: {
+		DisplayName: 羽のお守り
+		Tooltip:
+			'''
+			喉の病気から解放される。
+			ヒーリングポーションを飲むとランダムなデバフを失い、{BuffTime} 秒のライフリジェネを得る。
+			'''
+	}
+
+	FireRatRobe: {
+		DisplayName: 火鼠の皮衣
+		Tooltip:
+			'''
+			伝説の5つの無理難題のうちの1つ。
+			燃えるブロックとOn Fireデバフに対する耐性を付与する。
+			近くの敵に着火する。
+			'''
+	}
+
+	GadgetBackpack: {
+		DisplayName: ガジェットバックパック
+		Tooltip:
+			'''
+			ほとんどの河童は魔法による飛行が可能だが、これを使う方がより洗練されていると考えられる。
+			カーソルに最も近い敵にミサイルや迫撃砲弾を自動的に発射する。
+			'''
+	}
+
+	GaleGeta: {
+		DisplayName: 疾風の下駄
+		Tooltip:
+			'''
+			風のように動く
+			超高速走行が可能
+			移動速度と加速度が増加
+			ジャンプ速度が少し上がる
+			攻撃を{DodgeChance}%の確率でかわす
+			'''
+	}
+
+	GrimoireOfAlice: {
+		DisplayName: アリスの魔導書
+		Tooltip:
+			'''
+			七色の光で輝く
+			{MagicAndSummonDamageBonus}% 魔法・召喚ダメージが%増加する
+			Iミニオンの最大数が増加する
+			最大マナが {MaxManaBonus} 増加する
+			'''
+	}
+
+	HaniwaCommanderInsignia: {
+		DisplayName: 埴輪の指揮官記章
+		Tooltip:
+			'''
+			ミニオンの忠誠心を力に変える
+			ミニオンスロットが1つ埋まるごとに{DefenseBonusPerMinion} の防御力を付与する。
+			ミニオンスロットが1つ埋まるごとに {DamageBonusPerMinion}%の近接・遠距離・魔法ダメージ増加効果を付与する。
+			'''
+	}
+
+	HellfireMantle: {
+		DisplayName: 灼熱地獄
+		Tooltip:
+			'''
+			音速の10倍で反応できる
+			左または右をダブルタップすると急降下し、敵に接触するとダメージを与える。
+			クールダウン: {CooldownTime} 秒
+			'''
+	}
+
+	IcicleWings: {
+		DisplayName: つららの翼で
+		Tooltip:
+			'''
+			輝きと鋭さ
+			凍えに対する耐性を得る
+			飛行中、狙いを定めて氷柱を放つ。
+			'''
+	}
+
+	KappaOpticalCamouflage: {
+		DisplayName: 河童式光学迷彩装置
+		Tooltip:
+			'''
+			河童光学迷彩装置
+			ステルス効果
+			水中での移動力を増加させ、 {UnderwaterDamageBonus}% の遠距離ダメージを増加させる
+			'''
+	}
+
+	Koban: {
+		DisplayName: 小判
+		Tooltip:
+			'''
+			巨大なコイン。お金を稼ぐにはお金を使う必要がある。
+			ヒットするたびに、ターゲットが落とすコインの量が増える。
+			'''
+	}
+
+	LilyOfTheValley: {
+		DisplayName: スズラン
+		Tooltip:
+			'''
+			心の毒
+			近接武器と近接ミニオンに毒を付与する。
+			'''
+	}
+
+	LuckyRabbitCharm: {
+		DisplayName: 幸運の兎のお守り
+		Tooltip:
+			'''
+			「幸運 」とはこのように単純なものである。 「幸福 」はもっと深いものだ。
+			運が上昇し、敵がポイントアイテムをドロップする確率が上昇する。
+			クリティカル確率が {CritChanceBonus}% 増加する。
+			妖怪兎が友好的になる
+			'''
+	}
+
+	ManaIntakeOptimizer: {
+		DisplayName: 式神の護符
+		Tooltip:
+			'''
+			元々は式神のアップグレードで、スピードとミスディレクションに重点を置いたモデル用に調整された。
+			マナポーションはマナを {ExtraMana}% 多く回復する
+			マナポーションを飲むと、{BuffTime} 秒間、移動速度と攻撃をかわすチャンスを得る。
+			'''
+	}
+
+	MapleShield: {
+		DisplayName: 椛の盾
+		Tooltip:
+			'''
+			天狗の盾、紅葉模様。
+			近接クリティカル確率が {MeleeCritChanceBonus}% 増加する
+			ノックバック耐性
+			ダブルタップすると{BuffTime}秒間防御姿勢になる。
+			防御中、受けるダメージが{DamageReduction}%減少するが、動きが遅くなる
+			'''
+	}
+
+	MermaidScale: {
+		DisplayName: 人魚の鱗
+		Tooltip:
+			'''
+			未知の海を探索するのに便利
+			ライフリジェネの増加と水中での呼吸を可能にする
+			'''
+	}
+
+	MusicalString: {
+		DisplayName: 音楽の弦
+		Tooltip:
+			'''
+			響く、届く、どこにでも響く
+			ヨーヨーの射程距離が伸びる
+			敵に当たると音符を発射
+			'''
+	}
+
+	MusicalYoyoBag: {
+		DisplayName: ミュージックヨーヨーバッグ
+		Tooltip:
+			'''
+			響く、届く、どこにでも響く
+			使用者にヨーヨーのマスタースキルを与える
+			敵に当たると、音符の弾丸が発射される。
+			'''
+	}
+
+	NightSparrowWings: {
+		DisplayName: 夜雀の翼
+		Tooltip:
+			'''
+			「夜に飛ぶ鳥は怖くないのか？」
+			暗闇、ブラックアウト、沈黙、混乱に対する耐性を得る
+			'''
+	}
+
+	Osmeterium: {
+		DisplayName: 臭角
+		Tooltip: 
+        攻撃を受けると、悪臭を放ち、敵を撃退し、毒にする。
+	}
+
+	PestilentWebSlinger: {
+		DisplayName: 病気の蜘蛛糸
+		Tooltip:
+			'''
+			皮膚に謎の這いを感じる。
+			フックに触れると敵に病気をうつす。
+			'''
+	}
+
+	PowerOfDarkness: {
+		DisplayName: 闇の力
+		Tooltip:
+			'''
+			暗闇、ブラックアウト、シャドウフレイムに対する耐性を得る
+			夜間視力を増加させる
+			夜間・暗闇時、マナの最大値を {MaxManaBonus} 増加させ、マナの回復速度を増加させる。
+			さらに魔法攻撃にシャドウフレイムを付与する
+			暗闇の中にいる限り、↑をダブルタップすると現在のマウスの位置にテレポートする。
+			クールダウン: {CooldownTime} 秒
+			'''
+	}
+
+	RedRibbon: {
+		DisplayName: 赤いリボン
+		Tooltip:
+			'''
+			それぞれの運命には2つの側面がある。
+			自チームのプレイヤーに付与されたデバフを吸収する。
+			デバフを受けている時、ライフを回復する。
+			'''
+	}
+
+	RitualStrawDoll: {
+		DisplayName: 儀式用の藁人形
+		Tooltip:
+			'''
+			「この世界が妬ましい、全てを呪ってやる」
+			近くにいる有害なデバフを持つ敵1体につき、クリティカル確率が{CritChanceBonus}% 増加する({CritChanceBonushat} %まで)
+			着用者に有害なデバフがかかっている場合、クリティカルダメージが {CritDamageBonus}% 増加する( {CritDamageBonushat}% まで)
+			'''
+	}
+
+	RoyalCape: {
+		DisplayName: 王族のケープ
+		Tooltip:
+			'''
+			近接・魔法ダメージ {MeleeAndMagicDamageBonus}% 増加
+			↑をダブルタップで現在のマウス位置にテレポート
+			テレポート範囲は {MaxDistanceInTiles} タイルまでに制限される。
+			クールダウン: {CooldownTime} 秒
+			'''
+	}
+
+	SalamanderShield: {
+		DisplayName: サラマンダー・シールド
+		Tooltip:
+			'''
+			ノックバックと燃えるブロックに対する耐性を付与する
+			ほとんどのデバフに対して耐性を付与する
+			近くの敵に着火する。
+			'''
+	}
+
+	SealingTalisman: {
+		DisplayName:  封印の護符
+		Tooltip:
+			'''
+			夜盲症の人にはあまり役に立たないかもしれないが...。
+			暗闇でのライフとマナの回復量が増加する
+			'''
+	}
+
+	Shimenawa: {
+		DisplayName: しめ縄
+		Tooltip:
+			'''
+			山の神は奇跡を起こすが、貢ぎ物を要求する
+			ハートとマナスターの回収範囲を拡大
+			敵が攻撃を受けるたびに、わずかな確率でライフとマナスターをドロップするようになる
+			'''
+	}
+
+	SigilOfEternityAndTheInstant: {
+		DisplayName: 永遠と瞬間の紋章
+		Tooltip:
+			'''
+			すべてのアイテムのクールダウンを解除する
+			[c/ff0000:Cheat Item]
+			[c/ff0000:May break things]
+			'''
+	}
+
+	SigilOfTheCosmicDao: {
+		DisplayName: 太極の印章 #Daoの意味が不明。一応太極図があるアイテムなのでかなり意訳
+		Tooltip:
+			'''
+			語ることのできる道は永遠の道ではない。それでも役には立つ。
+			マナポーションは {ExtraMana}% のマナを回復し、{BuffTime} 秒間のマナ再生を付与する
+			マナポーションを飲むと、{BuffTime} 秒間、移動速度と攻撃をかわすチャンスを得る。
+			近くの敵に {BonusDamage}% のダメージを与えるデバフを与える。
+			'''
+	}
+
+	Springblossom: {
+		DisplayName: 春の花
+		Tooltip:
+			'''
+			春の活気に満ちている
+			ヒーリングポーションは {ExtraHeal}% のライフを回復する
+			'''
+	}
+
+	SwallowCowrieShell: {
+		DisplayName: 燕の子安貝
+		Tooltip:
+			'''
+			伝説の5つの無理難題のうちの1つ。
+			死を防ぎ、最大体力の{RestoredHealthProportion}%を回復する。
+			クールダウン: {CooldownTime} 秒
+			'''
+	}
+
+	SwallowtailWings: {
+		DisplayName: アゲハ蝶の翼
+		Tooltip:
+			'''
+			「真夏の戦争の時間だ！」
+			飛行中に鱗を発射
+			飛行のソウルでアップグレードが可能
+			'''
+	}
+
+	VampireFang: {
+		DisplayName:吸血鬼の牙
+		Tooltip:
+			'''
+			「楽しい夜になりそうね」
+			近距離で与えたダメージの {LifeSteal}% がライフに変換される
+			ヒーリングポーションの効果が通常値の {HealPenalty}% に減少
+			'''
+	}
+
+	VampireWings: {
+		DisplayName: 吸血鬼の翼
+		Tooltip:
+			'''
+			ヴァンパイアは驚異的な身体能力と魔力を持つ。
+			近接と魔法のクリティカル確率が {MeleeAndMagicCritBonus}% 増加する
+			ブラッドムーンの間は {MeleeAndMagicCritBonusBloodMoon}% に増加する
+			'''
+	}
+
+	WoodenBucket: {
+		DisplayName: 木製バケツ
+		Tooltip:
+			'''
+			「これはバケツだ」 「神様へ」
+			空中で↓をダブルタップすると地面へと叩きつけ、近くの敵にダメージを与える。
+			落下ダメージは無効
+			'''
+	}
+
+	CrystalCluster: {
+		# ----- Ammo -----
+		DisplayName: クリスタルクラスター	
+		Tooltip: ""
+	}
+
+	CursefireCharge: {
+		DisplayName: カースドフレイムのチャージ #Chargeをどう翻訳するのかが不明
+		Tooltip: ""
+	}
+
+	HydroCharge: {
+		DisplayName: ハイドロチャージ
+		Tooltip: ""
+	}
+
+	IchorGlob: {
+		DisplayName: イコルの塊
+		Tooltip: ""
+	}
+
+	SilvaCharge: {
+		DisplayName: シルバチャージ
+		Tooltip: ""
+	}
+
+	# ----- Armor -----
+	#Non-Vanity
+	YamawaroCamoHelmetForest: {
+		DisplayName: 山童の迷彩ヘルメット (森林パターン)
+		Tooltip: 森林環境では、少し溶け込むことができる
+	}
+
+	YamawaroCamoHelmetJungle: {
+		DisplayName: 山童の迷彩ヘルメット (ジャングルパターン)
+		Tooltip: ジャングルの環境では、溶け込むことができる
+	}
+
+	#Vanity
+	AliceMargatroid_Body: {
+		DisplayName: アリスの シャツ
+		Tooltip: ""
+	}
+
+	AliceMargatroid_Head: {
+		DisplayName: アリスの カチューシャ
+		Tooltip: ""
+	}
+
+	AliceMargatroid_Legs: {
+		DisplayName: アリスの スカート
+		Tooltip: ""
+	}
+
+	AyaShameimaru_Body: {
+		DisplayName: 文の シャツ
+		Tooltip: ""
+	}
+
+	AyaShameimaru_Head: {
+		DisplayName: 文の トキン
+		Tooltip: ""
+	}
+
+	AyaShameimaru_Legs: {
+		DisplayName: 文の スカート
+		Tooltip: ""
+	}
+
+	BenbenTsukumo_Body: {
+		DisplayName: 弁々の ドレス
+		Tooltip: ""
+	}
+
+	BenbenTsukumo_Head: {
+		DisplayName: 弁々の 花
+		Tooltip: ""
+	}
+
+	Cirno_Body: {
+		DisplayName: チルノの ドレス
+		Tooltip: ""
+	}
+
+	Cirno_Head: {
+		DisplayName: チルノの リボン
+		Tooltip: ""
+	}
+
+	Clownpiece_Body: {
+		DisplayName: クラウンピースの シャツ
+		Tooltip: ""
+	}
+
+	Clownpiece_Head: {
+		DisplayName: クラウンピースの 帽子
+		Tooltip: ""
+	}
+
+	Clownpiece_Legs: {
+		DisplayName: クラウンピースの ズボン
+		Tooltip: ""
+	}
+
+	DoremySweet_Body: {
+		DisplayName: ドレミ―の ドレス
+		Tooltip: ""
+	}
+
+	DoremySweet_Head: {
+		DisplayName: ドレミ―の 帽子
+		Tooltip: ""
+	}
+
+	EirinYagokoro_Body: {
+		DisplayName:永琳の シャツ
+		Tooltip: ""
+	}
+
+	EirinYagokoro_Head: {
+		DisplayName:永琳の 帽子
+		Tooltip: ""
+	}
+
+	EirinYagokoro_Legs: {
+		DisplayName:永琳の スカート
+		Tooltip: ""
+	}
+
+	EternityLarva_Body: {
+		DisplayName: エタニティ ドレス
+		Tooltip: ""
+	}
+
+	EternityLarva_Head: {
+		DisplayName: エタニティの 葉冠
+		Tooltip: ""
+	}
+
+	FlandreScarlet_Body: {
+		DisplayName: フランドールの シャツ
+		Tooltip: ""
+	}
+
+	FlandreScarlet_Head: {
+		DisplayName: フランドールの ZUN帽子
+		Tooltip: ""
+	}
+
+	FlandreScarlet_Legs: {
+		DisplayName: フランドールの スカート
+		Tooltip: ""
+	}
+
+	FujiwaraNoMokou_Body: {
+		DisplayName: 妹紅の シャツ
+		Tooltip: ""
+	}
+
+	FujiwaraNoMokou_Head: {
+		DisplayName: 妹紅の リボン
+		Tooltip: ""
+	}
+
+	FujiwaraNoMokou_Legs: {
+		DisplayName: 妹紅の ズボン
+		Tooltip: ""
+	}
+
+	HinaKagiyama_Body: {
+		DisplayName: 雛の シャツ
+		Tooltip: ""
+	}
+
+	HinaKagiyama_Head: {
+		DisplayName: 雛の リボン
+		Tooltip: ""
+	}
+
+	HinaKagiyama_Legs: {
+		DisplayName: 雛の スカート
+		Tooltip: ""
+	}
+
+	KagerouImaizumi_Body: {
+		DisplayName: 影狼の ドレス
+		Tooltip: ""
+	}
+
+	KagerouImaizumi_BodyAlt: {
+		DisplayName: 影狼の ドレス (?)
+		Tooltip: '''"なんでみんな、私のドレスが帽子に似ていると思うの?" '''
+	}
+
+	KagerouImaizumi_Head: {
+		DisplayName: 影狼の 耳
+		Tooltip: ""
+	}
+
+	KaguyaHouraisan_Body: {
+		DisplayName: 輝夜の シャツ
+		Tooltip: ""
+	}
+
+	KaguyaHouraisan_Legs: {
+		DisplayName: 輝夜の スカート
+		Tooltip: ""
+	}
+
+	KanakoYasaka_Body: {
+		DisplayName: 神奈子の シャツ
+		Tooltip: ""
+	}
+
+	KanakoYasaka_Head: {
+		DisplayName: 神奈子の ヘアバンド
+		Tooltip: ""
+	}
+
+	KanakoYasaka_Legs: {
+		DisplayName: 神奈子の スカート
+		Tooltip: ""
+	}
+
+	KeikiHaniyasushin_Head: {
+		DisplayName: 袿姫の 頭巾
+		Tooltip: ""
+	}
+
+	KeikiHaniyasushin_Body: {
+		DisplayName: 袿姫の シャツ
+		Tooltip: ""
+	}
+
+	KeikiHaniyasushin_Legs: {
+		DisplayName: 袿姫の スカート
+		Tooltip: ""
+	}
+
+	KoishiKomeiji_Body: {
+		DisplayName: こいしの シャツ
+		Tooltip: ""
+	}
+
+	KoishiKomeiji_Head: {
+		DisplayName: こいしの 帽子
+		Tooltip: ""
+	}
+
+	KoishiKomeiji_Legs: {
+		DisplayName: こいしの スカート
+		Tooltip: ""
+	}
+
+	KomachiOnozuka_Body: {
+		DisplayName: 小町の シャツ
+		Tooltip: ""
+	}
+
+	KomachiOnozuka_Legs: {
+		DisplayName: 小町の スカート
+		Tooltip: ""
+	}
+
+	LilyBlack_Body: {
+		DisplayName: リリーブラックの ドレス
+		Tooltip: ""
+	}
+
+	LilyBlack_Head: {
+		DisplayName: リリーブラックの 帽子
+		Tooltip: ""
+	}
+
+	LilyWhite_Body: {
+		DisplayName: リリーの ドレス
+		Tooltip: ""
+	}
+
+	LilyWhite_Head: {
+		DisplayName: リリーの 帽子
+		Tooltip: ""
+	}
+
+	MaribelHearn_Body: {
+		DisplayName: マエリベリーの ドレス
+		Tooltip: ""
+	}
+
+	MaribelHearn_Head: {
+		DisplayName: マエリベリーの ZUN 帽子
+		Tooltip: ""
+	}
+
+	MarisaKirisame_Body: {
+		DisplayName: 魔理沙の シャツ
+		Tooltip: ""
+	}
+
+	MarisaKirisame_Head: {
+		DisplayName: 魔理沙の 帽子
+		Tooltip: ""
+	}
+
+	MarisaKirisame_Legs: {
+		DisplayName: 魔理沙の スカート
+		Tooltip: ""
+	}
+
+	MayumiJoutouguu_Body: {
+		DisplayName:偶磨弓の 挂甲
+		Tooltip: ""
+	}
+
+	MayumiJoutouguu_Head: {
+		DisplayName:偶磨弓の 髪飾り
+		Tooltip: ""
+	}
+
+	MedicineMelancholy_Body: {
+		DisplayName: メディスンの シャツ
+		Tooltip: ""
+	}
+
+	MedicineMelancholy_Head: {
+		DisplayName: メディスンの リボン
+		Tooltip: ""
+	}
+
+	MedicineMelancholy_Legs: {
+		DisplayName: メディスンの スカート
+		Tooltip: ""
+	}
+
+	MinamitsuMurasa_Body: {
+		DisplayName: 村紗の シャツ
+		Tooltip: ""
+	}
+
+	MinamitsuMurasa_Head: {
+		DisplayName: 村紗の 帽子
+		Tooltip: ""
+	}
+
+	MinamitsuMurasa_Legs: {
+		DisplayName: 村紗の ズボン
+		Tooltip: ""
+	}
+
+	MystiaLorelei_Body: {
+		DisplayName: ミスティアの ドレス
+		Tooltip: ""
+	}
+
+	MystiaLorelei_Head: {
+		DisplayName: ミスティアの 帽子
+		Tooltip: ""
+	}
+
+	MystiaLorelei_Izakaya_Body: {
+		DisplayName: ミスティアの 作業着
+		Tooltip: ""
+	}
+
+	MystiaLorelei_Izakaya_Head: {
+		DisplayName: ミスティアの 料理帽子
+		Tooltip: ""
+	}
+
+	Nazrin_Body: {
+		DisplayName: ナズーリンの ドレス
+		Tooltip: ""
+	}
+
+	Nazrin_Head: {
+		DisplayName: ナズーリンの 耳
+		Tooltip: ""
+	}
+
+	Nazrin_Tail: {
+		DisplayName: ナズーリンの 尻尾
+		Tooltip: ""
+	}
+
+	NitoriKawashiro_Body: {
+		DisplayName: ニトリの シャツ
+		Tooltip: ""
+	}
+
+	NitoriKawashiro_Head: {
+		DisplayName: ニトリの 帽子
+		Tooltip: ""
+	}
+
+	NitoriKawashiro_Legs: {
+		DisplayName: ニトリの スカート
+		Tooltip: ""
+	}
+
+	RaikoHorikawa_Body: {
+		DisplayName: 雷鼓の ジャケット
+		Tooltip: ""
+	}
+
+	RaikoHorikawa_Legs: {
+		DisplayName: 雷鼓の スカート
+		Tooltip: ""
+	}
+
+	ReimuHakurei_Body: {
+		DisplayName: 霊夢の シャツ
+		Tooltip: ""
+	}
+
+	ReimuHakurei_Head: {
+		DisplayName: 霊夢の リボン
+		Tooltip: ""
+	}
+
+	ReimuHakurei_Legs: {
+		DisplayName: 霊夢の スカート
+		Tooltip: ""
+	}
+
+	ReisenUdongeinInaba_Body: {
+		DisplayName: 鈴仙の スーツ
+		Tooltip: ""
+	}
+
+	ReisenUdongeinInaba_BodyAlt: {
+		DisplayName: 鈴仙の シャツ
+		Tooltip: ""
+	}
+
+	ReisenUdongeinInaba_Head: {
+		DisplayName: 鈴仙の 耳
+		Tooltip: ""
+	}
+
+	ReisenUdongeinInaba_Legs: {
+		DisplayName: 鈴仙の Formal スカート
+		Tooltip: ""
+	}
+
+	ReisenUdongeinInaba_LegsAlt: {
+		DisplayName: 鈴仙の スカート
+		Tooltip: ""
+	}
+
+	RemiliaScarlet_Body: {
+		DisplayName: レミリアの シャツ
+		Tooltip: ""
+	}
+
+	RemiliaScarlet_Head: {
+		DisplayName: レミリアの Mob 帽子
+		Tooltip: ""
+	}
+
+	RemiliaScarlet_Legs: {
+		DisplayName: レミリアの スカート
+		Tooltip: ""
+	}
+
+	RenkoUsami_Body: {
+		DisplayName: 蓮子の シャツ
+		Tooltip: ""
+	}
+
+	RenkoUsami_jacket_Body: {
+		DisplayName: 蓮子の ジャケット
+		Tooltip: ""
+	}
+
+	RenkoUsami_Head: {
+		DisplayName: 蓮子の 帽子
+		Tooltip: ""
+	}
+
+	RenkoUsami_Legs: {
+		DisplayName: 蓮子の スカート
+		Tooltip: ""
+	}
+
+	RinnosukeMorichika_Body: {
+		DisplayName: 霖之助の シャツ
+		Tooltip: ""
+	}
+
+	RinnosukeMorichika_Head: {
+		DisplayName: 霖之助の 眼鏡
+		Tooltip: ""
+	}
+
+	RinnosukeMorichika_Legs: {
+		DisplayName: 霖之助の ズボン
+		Tooltip: ""
+	}
+
+	Rumia_Body: {
+		DisplayName: ルーミアの ベスト
+		Tooltip: ""
+	}
+
+	Rumia_Legs: {
+		DisplayName: ルーミアの スカート
+		Tooltip: ""
+	}
+
+	SakuyaIzayoi_Body: {
+		DisplayName: 咲夜の シャツ
+		Tooltip: ""
+	}
+
+	SakuyaIzayoi_Head: {
+		DisplayName: 咲夜の カチューシャ
+		Tooltip: ""
+	}
+
+	SakuyaIzayoi_Legs: {
+		DisplayName: 咲夜の スカート
+		Tooltip: ""
+	}
+
+	SanaeKochiya_Body: {
+		DisplayName: 早苗の シャツ
+		Tooltip: ""
+	}
+
+	SanaeKochiya_Head: {
+		DisplayName: 早苗の ヘアピン
+		Tooltip: ""
+	}
+
+	SanaeKochiya_Legs: {
+		DisplayName: 早苗の スカート
+		Tooltip: ""
+	}
+
+	SatoriKomeiji_Body: {
+		DisplayName: サトリの シャツ
+		Tooltip: ""
+	}
+
+	SatoriKomeiji_Head: {
+		DisplayName: サトリの ヘアバンド
+		Tooltip: ""
+	}
+
+	SatoriKomeiji_Legs: {
+		DisplayName: サトリの スカート
+		Tooltip: ""
+	}
+
+	SeigaKaku_Body: {
+		DisplayName: 青娥の ドレス
+		Tooltip: ""
+	}
+
+	SeigaKaku_Head: {
+		DisplayName: 青娥の ヘアピン
+		Tooltip: ""
+	}
+
+	SeijaKijin_Body: {
+		DisplayName: 正邪の シャツ
+		Tooltip: ""
+	}
+
+	SeijaKijin_Legs: {
+		DisplayName: 正邪の スカート
+		Tooltip: ""
+	}
+
+	Seiran_Body: {
+		DisplayName: 清蘭の ドレス
+		Tooltip: ""
+	}
+
+	Seiran_Head: {
+		DisplayName: 清蘭の 耳
+		Tooltip: ""
+	}
+
+	Sekibanki_Body: {
+		DisplayName: 赤蛮奇 シャツ
+		Tooltip: ""
+	}
+
+	Sekibanki_Head: {
+		DisplayName: 赤蛮奇 リボン
+		Tooltip: ""
+	}
+
+	Sekibanki_Legs: {
+		DisplayName: 赤蛮奇 スカート
+		Tooltip: ""
+	}
+
+	SuikaIbuki_Body: {
+		DisplayName: 萃香の ブラウス
+		Tooltip: ""
+	}
+
+	SuikaIbuki_Head: {
+		DisplayName: 萃香の 角
+		Tooltip: ""
+	}
+
+	SuikaIbuki_Legs: {
+		DisplayName: 萃香の スカート
+		Tooltip: ""
+	}
+
+	SuwakoMoriya_Body: {
+		DisplayName: 諏訪子の シャツ
+		Tooltip: ""
+	}
+
+	SuwakoMoriya_Head: {
+		DisplayName: 諏訪子の 帽子
+		Tooltip: ""
+	}
+
+	SuwakoMoriya_Legs: {
+		DisplayName: 諏訪子の スカート
+		Tooltip: ""
+	}
+
+	TenshiHinanawi_Body: {
+		DisplayName: 天子の シャツ
+		Tooltip: ""
+	}
+
+	TenshiHinanawi_Head: {
+		DisplayName: 天子の 帽子
+		Tooltip: ""
+	}
+
+	TenshiHinanawi_Legs: {
+		DisplayName: 天子の スカート
+		Tooltip: ""
+	}
+
+	ToyosatomimiNoMiko_Body: {
+		DisplayName: 神子の ドレス
+		Tooltip: ""
+	}
+
+	ToyosatomimiNoMiko_Head: {
+		DisplayName: 神子の イヤーマフ
+		Tooltip: ""
+	}
+
+	UtsuhoReiuji_Body: {
+		DisplayName: 空の シャツ
+		Tooltip: ""
+	}
+
+	UtsuhoReiuji_Head: {
+		DisplayName: 空の リボン
+		Tooltip: ""
+	}
+
+	UtsuhoReiuji_Legs: {
+		DisplayName: 空の スカート
+		Tooltip: ""
+	}
+
+	YatsuhashiTsukumo_Body: {
+		DisplayName: 八橋の シャツ
+		Tooltip: ""
+	}
+
+	YatsuhashiTsukumo_Head: {
+		DisplayName: 八橋の カチューシャ
+		Tooltip: ""
+	}
+
+	YatsuhashiTsukumo_Legs: {
+		DisplayName: 八橋の スカート
+		Tooltip: ""
+	}
+
+	YukariYakumo_Head: {
+		DisplayName: 紫の ZUN 帽子
+		Tooltip: ""
+	}
+
+	YoumuKonpaku_Body: {
+		DisplayName: 妖夢の シャツ
+		Tooltip: ""
+	}
+
+	YoumuKonpaku_Head: {
+		DisplayName: 妖夢の リボン
+		Tooltip: ""
+	}
+
+	YoumuKonpaku_Legs: {
+		DisplayName: 妖夢の スカート
+		Tooltip: ""
+	}
+
+	YuyukoSaigyouji_Body: {
+		DisplayName: 幽々子の ドレス
+		Tooltip: ""
+	}
+
+	YuyukoSaigyouji_Head: {
+		DisplayName: 幽々子の ZUN帽子
+		Tooltip: ""
+	}
+
+	# ----- Boss Bags -----
+	# No need to touch these
+	AliceMargatroidBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.AliceMargatroid.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	CirnoBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.Cirno.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	EternityLarvaBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.EternityLarva.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	HinaKagiyamaBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.HinaKagiyama.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	KaguyaHouraisanBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.KaguyaHouraisan.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	KisumeBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.Kisume.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	KoishiKomeijiBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.KoishiKomeiji.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	LilyWhiteBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.LilyWhite.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MayumiJoutouguuBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.MayumiJoutouguu.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MedicineMelancholyBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.MedicineMelancholy.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MinamitsuMurasaBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.MinamitsuMurasa.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	MystiaLoreleiBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.MystiaLorelei.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	NazrinBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.Nazrin.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	NitoriKawashiroBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.NitoriKawashiro.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	RumiaBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.Rumia.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SakuyaIzayoiBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.SakuyaIzayoi.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SeijaKijinBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.SeijaKijin.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SeiranBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.Seiran.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	SekibankiBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.Sekibanki.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	TenshiHinanawiBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.TenshiHinanawi.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	ToyosatomimiNoMikoBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.ToyosatomimiNoMiko.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	TsukumoSistersBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.BenbenTsukumo.BossfightName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	UtsuhoReiujiBag: {
+		DisplayName: "{$Mods.Gensokyo.Common.TreasureBag} ({$Mods.Gensokyo.NPCs.UtsuhoReiuji.DisplayName})"
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	}
+
+	# ----- Boss Spawners ----- #二つ名を初登場の原作どうりにしています、そのため原文と違いがある部分があります
+	AliceMargatroidSpawner: {
+		DisplayName: 怪しい人形
+		Tooltip:
+			'''
+			七色の人形使い、{$Mods.Gensokyo.NPCs.AliceMargatroid.DisplayName}を召喚する
+			[Tier 4]
+			'''
+	}
+
+	CirnoSpawner: {
+		DisplayName: 煌めく雪の結晶
+		Tooltip:
+			'''
+		　  湖上の氷精、{$Mods.Gensokyo.NPCs.Cirno.DisplayName}を召喚する
+			雪原で使用可能
+			[Tier 3]
+			'''
+	}
+
+	EternityLarvaSpawner: {
+		DisplayName: 黄色いアゲハ蝶
+		Tooltip:
+			'''
+			真夏のアゲハ蝶の妖精、{$Mods.Gensokyo.NPCs.EternityLarva.DisplayName}を召喚する
+			日中に使用可能
+			[Tier 1]
+			'''
+	}
+
+	HinaKagiyamaSpawner: {
+		DisplayName: Nagashi-bina Doll
+		Tooltip:
+			'''
+			秘神流し雛、{$Mods.Gensokyo.NPCs.HinaKagiyama.DisplayName}を召喚する
+		    [Tier 2]
+			'''
+	}
+
+	KaguyaHouraisanSpawner: {
+		DisplayName: 蓬莱の玉の枝
+		Tooltip:
+			'''
+			永遠と須臾の罪人、{$Mods.Gensokyo.NPCs.KaguyaHouraisan.DisplayName}を召喚する
+			夜間に使用可能
+			[Tier 6]
+			'''
+	}
+
+	KoishiKomeijiSpawner: {
+		DisplayName: 奇妙な電話
+		Tooltip:
+			'''
+			閉じた恋の瞳、{$Mods.Gensokyo.NPCs.KoishiKomeiji.DisplayName}を召喚する
+			[Tier 6]
+			'''
+	}
+
+	LilyWhiteSpawner: {
+		DisplayName: 花のブーケ
+		Tooltip:
+			'''
+			春を運ぶ妖精、{$Mods.Gensokyo.NPCs.LilyWhite.DisplayName}を召喚する
+			日中に使用可能
+			[Tier 1]
+			'''
+	}
+
+	MayumiJoutouguuSpawner: {
+		DisplayName: 粘土の偶像
+		Tooltip:
+			'''
+			埴輪兵長、{$Mods.Gensokyo.NPCs.MayumiJoutouguu.DisplayName}を召喚する
+			[Tier 5]
+			'''
+	}
+
+	MedicineMelancholySpawner: {
+		DisplayName: 黒い胆汁
+		Tooltip:
+			'''
+			小さなスイートポイズン、{$Mods.Gensokyo.NPCs.MedicineMelancholy.DisplayName}を召喚する
+			[Tier 3]
+			'''
+	}
+
+	MinamitsuMurasaSpawner: {
+		DisplayName: 難破船の錨
+		Tooltip:
+			'''
+			水難事故の念縛霊、{$Mods.Gensokyo.NPCs.MinamitsuMurasa.DisplayName}を召喚する
+			海で使用可能
+			[Tier 4]
+			'''
+	}
+
+	MystiaLoreleiSpawner: {
+		DisplayName:雀のグリル
+		Tooltip:
+			'''
+			夜雀の怪、{$Mods.Gensokyo.NPCs.MystiaLorelei.DisplayName}を召喚する
+			夜間に使用可能
+			[Tier 2]
+			'''
+	}
+
+	NazrinSpawner: {
+		DisplayName: プレミアムマウストラップ
+		Tooltip:
+			'''
+			ダウザーの小さな大将、{$Mods.Gensokyo.NPCs.Nazrin.DisplayName}を召喚する
+			[Tier 1]
+			'''
+	}
+
+	NitoriKawashiroSpawner: {
+		DisplayName: 実験用送信機
+		Tooltip:
+			'''
+			超妖怪弾頭、{$Mods.Gensokyo.NPCs.NitoriKawashiro.DisplayName}の召喚
+			[Tier 3]
+			'''
+	}
+
+	RumiaSpawner: {
+		DisplayName: 出所の疑わしい肉
+		Tooltip:
+			'''
+			宵闇の妖怪、{$Mods.Gensokyo.NPCs.Rumia.DisplayName}を召喚する
+			夜間に使用可能
+			[Tier 1]
+			'''
+	}
+
+	SakuyaIzayoiSpawner: {
+		DisplayName: スペードのジャック
+		Tooltip:
+			'''
+			紅魔館のメイド、{$Mods.Gensokyo.NPCs.SakuyaIzayoi.DisplayName}を召喚する
+			[Tier 5]
+			'''
+	}
+
+	SeijaKijinSpawner: {
+		DisplayName: 革命宣言
+		Tooltip:
+			'''
+			逆襲のあまのじゃく、{$Mods.Gensokyo.NPCs.SeijaKijin.DisplayName}を召喚する
+			[Tier 5]
+			'''
+	}
+
+	SeiranSpawner: {
+		DisplayName: 月との通信機
+		Tooltip:
+			'''
+			浅葱色のイーグルラヴィ、{$Mods.Gensokyo.NPCs.Seiran.DisplayName}を召喚する
+			Usable in Space
+			[Tier 2]
+			'''
+	}
+
+	SekibankiSpawner: {
+		DisplayName: 異常に長い脊椎
+		Tooltip:
+			'''
+			ろくろ首の怪奇、{$Mods.Gensokyo.NPCs.Sekibanki.DisplayName}を召喚する
+			夜間に使用可能
+			[Tier 2]
+			'''
+	}
+
+	TenshiHinanawiSpawner: {
+		DisplayName: 天空のベール
+		Tooltip:
+			'''
+			非想非非想天の娘、{$Mods.Gensokyo.NPCs.TenshiHinanawi.DisplayName}を召喚する
+			宇宙で使用可能
+			[Tier 7]
+			'''
+	}
+
+	ToyosatomimiNoMikoSpawner: {
+		DisplayName: 古代の紋章
+		Tooltip:
+			'''
+			聖徳道士、{$Mods.Gensokyo.NPCs.ToyosatomimiNoMiko.DisplayName}豊聡耳神子を召喚する
+			[Tier 6]
+			'''
+	}
+
+	TsukumoSistersSpawner: {
+		DisplayName: 廃付喪神ハープ
+		Tooltip:
+			'''
+			古びた琵琶の付喪神、{$Mods.Gensokyo.NPCs.BenbenTsukumo.DisplayName} と	古びた琴の付喪神、{$Mods.Gensokyo.NPCs.YatsuhashiTsukumo.DisplayName}を召喚する
+			[Tier 4]
+			'''
+	}
+
+	UtsuhoReiujiSpawner: {
+		DisplayName: 充電された太陽片
+		Tooltip:
+			'''
+			熱かい悩む神の火、{$Mods.Gensokyo.NPCs.UtsuhoReiuji.DisplayName}を召喚する
+			地底の太陽で使用可能
+			地底の太陽がワールドで生成されなかった場合、代わりにアンダーワールドで使用する。
+			[Tier 7]
+			'''
+	}
+
+	# ----- Crafting Materials ----- 
+	# -----     クラフト材料    -----
+	KappaTech: {
+		DisplayName: 壊れた河童テクノロジー
+		Tooltip: 高度で完全な防水性！
+	}
+
+	YamawaroTech: {
+		DisplayName: 壊れた山童テクノロジー
+		Tooltip:山の中で設計された山童技術！
+	}
+
+	# ----- Miscellaneous -----
+	# -----    その他     -----
+		BottomlessLadle: {
+		DisplayName: 底なしの杓
+		Tooltip:
+			'''
+			海を飲み込むことはできないから、代わりに海に飲み込まれよう。
+			無限の水を含んでいる
+			'''
+	}
+
+	BowlOfLunarianMochi: {
+		DisplayName: 月餅のボウル
+		Tooltip:
+			'''
+			何にでも合う！
+			フードバフの持続時間が長くなる。
+			装備する必要はなく、インベントリに入れておくだけでよい。
+			'''
+	}
+
+	CrowTenguCamera: {
+		DisplayName: 鴉天狗のカメラ
+		Tooltip:
+			'''
+			次の時代の決定的なイメージを撮る
+			長押しでファインダーを表示し、離すとターゲットエリアの発射物を破壊する。
+			破壊された弾は{HeartDropChance}%の確率でハートを落とす。
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	CursedDecoyDoll: {
+		DisplayName: 呪いの囮人形
+		Tooltip:
+			'''
+			不可能を可能にする
+				敵の攻撃を自身に引き寄せる。10秒間持続する
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	EssenceOfSpring: {
+		DisplayName: 春のエッセンス
+		Tooltip: どんな成熟したハーブでも、すぐに花を咲かせる
+	}
+
+	GoldFilledBambooStalk: {
+		DisplayName: 金箔入り竹串
+		Tooltip:
+			'''
+			竹林バイオームを生成するために使用することができる。
+			[c/ff0000:Can only be used in Singleplayer]
+			'''
+		InfoAlreadyExists:  竹林はすでにこの世界に存在する
+		InfoGenerationSuccessful: 竹林の生成に成功
+		InfoGenerationFailed: 竹林の生成に失敗しました
+	}
+
+	HoshigumaDish: {
+		DisplayName:　星熊杯
+		Tooltip:
+			'''
+			一滴もこぼさないように注意！
+			アルコールを変身させ、近接武器へのバフを強化
+			また、効果時間も増加する
+			装備する必要はなく、インベントリに入れておくだけでよい。
+			'''
+	}
+
+	IbarakiBox: {
+		DisplayName: 茨木百薬箱
+		Tooltip:
+			'''
+			薬効がある！
+			アルコールを変質させ、その悪影響を取り除き、再生を与える。
+			また、効果時間も長くなる。
+			装備する必要はなく、インベントリに入れておくだけでよい
+			'''
+	}
+
+	KomainuFigurine: {
+		DisplayName: 狛犬フィギュア
+		Tooltip: ペットの狛犬を召喚する
+	}
+
+	PointItem: {
+		DisplayName: 点アイテム
+		Tooltip:特定の店主から特別なアイテムを購入したり、ボス召喚アイテムをクラフトするために使用する
+	}
+
+	SearingDivineFlame: {
+		DisplayName: 灼熱の神火
+		Tooltip:
+			'''
+			WorldGen中に作成されなかったり、他のMODによって上書きされたりした場合、地底の太陽バイオームを生成するために使用できる。
+			[c/ff0000:Can only be used in Singleplayer]
+			[c/ff0000:Just in case, back up your world file before using this]
+			'''
+		InfoAlreadyExists: 地底の太陽はすでにこの世に存在する
+		InfoGenerationSuccessful: 地底の太陽の生成に成功
+	}
+
+	SpiritEnergy: {
+		DisplayName: スピリット・エネルギー
+		Tooltip: これを読んではいけない
+	}
+
+	SpiritPhotographyCamera: {
+		DisplayName: 心霊写真カメラ
+		Tooltip:
+			'''
+			熟練の技が必要
+		　　長押しでファインダーが表示され、離すとターゲットエリアの発射物を破壊する。
+			破壊した弾は{StarDropChance}%の確率でマナの星を落とす。
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	WanderingSpirit: {
+		DisplayName: さまよう魂
+		Tooltip: これを読んではいけない
+	}
+
+	WingedDoll: {
+		DisplayName: 翼の生えた人形
+		Tooltip: S翼の生えた小さな人形を召喚l
+	}
+
+	# ----- Mounts -----
+	# ----- マウント -----
+	BlessedLilyPad: {
+		DisplayName: 祝福された睡蓮
+		Tooltip:
+			'''
+			騎乗可能な巨大なカエルを召喚する。
+			定期的にウォーターオーブを召喚し、近くの敵を攻撃する
+			舌でも敵を攻撃する
+			召喚ダメージの影響を受ける
+			'''
+	}
+
+	Keystone: {
+		DisplayName: 要石
+		Tooltip:
+			'''
+			騎乗可能な要石を召喚
+			定期的に小さな楔石を召喚し、近くの敵を攻撃する
+			近接ダメージの影響を受ける
+			'''
+	}
+
+	MagicianBroom: {
+		DisplayName: 魔法の箒
+		Tooltip:
+			'''
+			乗れるほうきを召喚
+			敵が近くにいる場合、魔法陣を召喚し、定期的に攻撃を行う。
+			魔法ダメージの影響を受ける
+			'''
+	}
+
+	# ----- Placeable -----
+	# ----- 配置可能   -----
+	AlchemyLaboratoryItem: {
+		DisplayName: 錬金術研究所
+		Tooltip:
+			'''
+			「たまたま薬について少し知っている」
+			50％の確率で、ポーションの材料を消費しない
+			'''
+	}
+
+	BackdoorItem: {
+		DisplayName: 後ろ戸
+		Tooltip:
+			'''
+			禁断の扉はこの世界に通じているのか、それともあの世に通じているのか？
+			他のどの裏口へもテレポート可能
+			'''
+	}
+
+	ButterflyPheromones: {
+		DisplayName: 蝶のフェロモン
+        Tooltip: バタフライのスポーン率が上がるが、通常のスポーン条件が適用される
+	}
+
+	IzakayaCookingPot: {
+		DisplayName: 居酒屋鍋
+		Tooltip:
+			'''
+			夜雀居酒屋の看板料理を作るための特別な調理鍋
+			33%の確率で、クラフト時に2つの料理アイテムを生成する。
+			'''
+	}
+
+	LunarianPurificationOrb: {
+		DisplayName: 月の浄化のオーブ
+		Tooltip:
+			'''
+			月の兎が不浄の大地に送られたとき、その穢れから身を守るためにこのオーブを受け取ることができる。
+			周辺の腐敗、クリムゾン、ハロウを取り除く。
+			'''
+	}
+
+	Painting_ComingOfSpring: {
+		DisplayName: 春の訪れ
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByNnerdragon}"
+	}
+
+	PhilosophersStoneItem: {
+		DisplayName: 賢者の石
+		Tooltip:
+			'''
+			元素を把握し、新しいものを創造する
+			金属の変成を可能にする
+			'''
+	}
+
+	# No need to change any of the Placeables below
+	Banner_FairyBamboo: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Bamboo.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Bamboo.DisplayName}"
+	}
+
+	Banner_FairyBlood: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Blood.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Blood.DisplayName}"
+	}
+
+	Banner_FairyBone: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Bone.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Bone.DisplayName}"
+	}
+
+	Banner_FairyCrystal: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Crystal.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Crystal.DisplayName}"
+	}
+
+	Banner_FairyFlower: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Flower.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Flower.DisplayName}"
+	}
+
+	Banner_FairyLava: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Lava.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Lava.DisplayName}"
+	}
+
+	Banner_FairyMetal: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Metal.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Metal.DisplayName}"
+	}
+
+	Banner_FairyRain: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Rain.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Rain.DisplayName}"
+	}
+
+	Banner_FairySand: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Sand.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Sand.DisplayName}"
+	}
+
+	Banner_FairySnow: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Snow.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Snow.DisplayName}"
+	}
+
+	Banner_FairySpore: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Spore.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Spore.DisplayName}"
+	}
+
+	Banner_FairyStone: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Stone.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Stone.DisplayName}"
+	}
+
+	Banner_FairySunflower: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Sunflower.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Sunflower.DisplayName}"
+	}
+
+	Banner_FairyThorn: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Thorn.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Thorn.DisplayName}"
+	}
+
+	Banner_FairyWater: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Fairy_Water.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Fairy_Water.DisplayName}"
+	}
+
+	Banner_HellRaven: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.HellRaven.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.HellRaven.DisplayName}"
+	}
+
+	Banner_Kappa: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Kappa.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Kappa.DisplayName}"
+	}
+
+	Banner_KappaCorruption: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Kappa_Corruption.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Kappa_Corruption.DisplayName}"
+	}
+
+	Banner_KappaCrimson: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Kappa_Crimson.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Kappa_Crimson.DisplayName}"
+	}
+
+	Banner_KappaHallow: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Kappa_Hallow.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Kappa_Hallow.DisplayName}"
+	}
+
+	Banner_VengefulSpirit: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.VengefulSpirit.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.VengefulSpirit.DisplayName}"
+	}
+
+	Banner_YamawaroForest: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Yamawaro_Forest.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Yamawaro_Forest.DisplayName}"
+	}
+
+	Banner_YamawaroJungle: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.Yamawaro_Jungle.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.Yamawaro_Jungle.DisplayName}"
+	}
+
+	Banner_YoukaiRabbit: {
+		DisplayName: "{$Mods.Gensokyo.NPCs.YoukaiRabbit.DisplayName} {$Mods.Gensokyo.Common.Banner}"
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Gensokyo.NPCs.YoukaiRabbit.DisplayName}"
+	}
+
+	MusicBox_AliceMargatroid: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.AliceMargatroid.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_Cirno: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.Cirno.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_EternityLarva: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.EternityLarva.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_HinaKagiyama: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.HinaKagiyama.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_KaguyaHouraisan: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.KaguyaHouraisan.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_KoishiKomeiji: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.KoishiKomeiji.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_LilyWhite: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.LilyWhite.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_MayumiJoutouguu: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.MayumiJoutouguu.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_MedicineMelancholy: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.MedicineMelancholy.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_MinamitsuMurasa: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.MinamitsuMurasa.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_MystiaLorelei: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.MystiaLorelei.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_Nazrin: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.Nazrin.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_NitoriKawashiro: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.NitoriKawashiro.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByJuhou}"
+	}
+
+	MusicBox_Rumia: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.Rumia.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_SakuyaIzayoi: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.SakuyaIzayoi.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_SeijaKijin: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.SeijaKijin.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_Seiran: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.Seiran.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_Sekibanki: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.Sekibanki.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_TenshiHinanawi: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.TenshiHinanawi.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_ToyosatomimiNoMiko: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.ToyosatomimiNoMiko.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_TsukumoSisters: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.BenbenTsukumo.BossfightName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByJuhou}"
+	}
+
+	MusicBox_UtsuhoReiuji: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.NPCs.UtsuhoReiuji.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByUmbra}"
+	}
+
+	MusicBox_SubterraneanSun: {
+		DisplayName: "{$Mods.Gensokyo.Common.MusicBox} ({$Mods.Gensokyo.Biomes.SubterraneanSun.DisplayName})"
+		Tooltip: "{$Mods.Gensokyo.Common.CreatedByJuhou}"
+	}
+
+	# ----- Potions and other consumables -----
+	# -----    ポーションやその他の消耗品   -----
+	BambooBlossom: {
+		DisplayName:竹の花
+		Tooltip:
+			'''
+			生命力が炸裂している。しかし、これ以上おいしくはならない。
+			マナリジェネを増加
+			光のオーラを放つ
+			'''
+	}
+
+	CannedMeat: {
+		DisplayName: 肉の缶詰
+		Tooltip:
+			'''
+			食べ応えはあるが、味はかなり悪い
+			肉の産地は聞かないほうがいい
+			{$CommonItemTooltip.MajorStats}
+			'''
+	}
+
+	CelestialPeach: {
+		DisplayName: 天空の桃
+		Tooltip:
+			'''
+			「全力を尽くせ！」
+			防御力とライフリジェネを大幅に増加
+			'''
+	}
+
+	Cucumber: {
+		DisplayName: キュウリ
+		Tooltip:
+			'''
+			尻子玉をしのぐ河童の大好物
+			{$CommonItemTooltip.MediumStats}
+			'''
+	}
+
+	EagleRaviProvisions: {
+		DisplayName: 「イーグル・ラヴィ」の食料
+		Tooltip:
+			'''
+			ダンゴが好きならいいけど。
+			{$CommonItemTooltip.MinorStats}
+			バフを与える。
+			最大5回までバフを重ねられる。
+			ただし、受けるダメージも増加し、その効果はレベルが上がるごとに指数関数的に増加する。
+			'''
+	}
+
+	GrilledLamprey: {
+		DisplayName: ヤツメウナギの蒲焼
+		Tooltip:
+			'''
+			ミスティアの居酒屋の看板メニュー
+			夜盲症の予防になるという説もあるが、かなり怪しい...。
+			{$CommonItemTooltip.MediumStats}
+			'''
+	}
+
+	FullPowerItem: {
+		DisplayName: パワーアイテム
+		Tooltip:
+			'''
+			レガシーアイテム。もはや用途はないが、お金で売ることができる。
+			将来のアップデートで完全に削除される予定
+			'''
+	}
+
+	IbukiGourd: {
+		DisplayName: 伊吹瓢
+		Tooltip:
+			'''
+			来いよ、誰もが楽しめる場所だ。
+			{$CommonItemTooltip.TipsyStats}
+			特定のアイテムとの併用で効果アップ
+			'''
+	}
+
+	JellyStone: {
+		DisplayName: ジェリーストーン
+		Tooltip:
+			'''
+			中心にたどり着く前に歯が折れてしまうかも！
+			防御力が {DefenseBoost} 増加
+			'''
+	}
+
+	OniSake: {
+		DisplayName: 鬼酒
+		Tooltip:
+			'''
+			最後の一滴まで飲み干す
+			近接戦闘能力、ライフリジェネが大幅にアップ。
+			'''
+	}
+
+	PowerItem: {
+		DisplayName: パワーアイテム
+		Tooltip:
+			'''
+			レガシーアイテム。もはや用途はないが、お金で売ることができる。
+			将来のアップデートで完全に削除される予定
+			'''
+	}
+
+	SweetPotato: {
+		DisplayName: サツマイモ
+		Tooltip:
+			'''
+			秋の人気おやつ
+			{$CommonItemTooltip.MediumStats}
+			'''
+	}
+
+	# ----- Weapons -----
+	AutumnBreeze: {
+		DisplayName: 秋のそよ風
+		Tooltip: それぞれの葉は、秋の女神の一人によって描かれた芸術作品である
+	}
+
+	BewitchedSilverBlade: {
+		DisplayName: 魔法の銀の刃
+		Tooltip:
+			'''
+			なぜか喉を切り裂きたくなる
+			ターゲットの時間が遅くなる
+			[c/ffff40:{AltfireHotKey}:標的にくっつくナイフを発射し、絶えず減速させる]
+			{$Mods.Gensokyo.Common.AltfireCooldown} 
+			'''
+	}
+
+	BlackHorse: {
+		DisplayName: ブラックホース
+		Tooltip:
+			'''
+			ケイガ一族を代表する武器。強力で、暴力的で、極めて大胆。
+			広範囲に弾丸を発射。
+			空中で使用すると反動で後方に吹き飛ばされる。
+			[c/ffff40:{AltfireHotKey}: 広範囲に高性能爆薬弾を発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown} 
+			'''
+	}
+
+	BlessedSpear: {
+		DisplayName: 祝福された毘沙門天の槍
+		Tooltip:
+			'''
+			主にレガリアとして使用されるが、それでも闇の生物に対して極めて効果的だ。
+			[c/ffff40:{AltfireHotKey}:狙った場所の地面から槍が飛び出す]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	BlightedHakkero: {
+		DisplayName: 穢れた八卦炉
+		Tooltip:
+			'''
+			八卦炉の様子がおかしいが、火力は上がっている。ならば問題ないだろうか？
+			[c/ffff40:{AltfireHotKey}: ダークスパーク]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	BombDoll: {
+		DisplayName: Bomb Doll
+		Tooltip:
+			'''
+			黒色火薬を詰めた人形を作るのは、いったいどんな人物なのか？
+            中規模の爆発を引き起こし、一部のタイルを破壊する。
+			'''
+	}
+
+	BoundaryBreaker: {
+		DisplayName: 境界破り
+		Tooltip:
+			'''
+			境界とは視点の問題に過ぎない。
+			弾が画面端に到達すると、反対側から再出現する。
+			[c/ffff40:{AltfireHotKey}: 全方位に弾を発射する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	bowOfOmoikane: {
+		DisplayName: オモイカネの弓
+		Tooltip:
+			'''
+			知識は殺しにも癒しにも使える。
+			敵に命中すると、毒を与え、空から矢を降らせる。
+			味方に命中すると、ライフリジェネを付与する。
+			[c/ffff40:{AltfireHotKey}: ターゲット地点を起点に、レーザーの網を生成する矢を放つ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	BubbleDragon: {
+		DisplayName: バブルドラゴン
+		Tooltip:
+			'''
+			まだ試作段階にある。
+			敵やタイルに接触すると破裂する泡を放つ。
+			ハイドロチャージを弾薬として使用する。
+			[c/ffff40:{AltfireHotKey}:巨大な泡を一発放つ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	BubbleHydra: {
+		DisplayName: バブルヒドラ
+		Tooltip:
+			'''
+			効果は高いが、倫理的には疑わしい。
+			敵やタイルに接触すると破裂する泡を放つ。
+			泡は呪われた炎の水たまりを残す。
+			カースファイアチャージを弾薬として使用（ハイドロチャージからクラフト）
+			[c/ffff40:{AltfireHotKey}: Shoots a single huge bubble]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	CallOfTheDeep: {
+		DisplayName: 深淵の呼び声
+		Tooltip:
+			'''
+			深淵には、決して陽の目を見てはならないものが存在する
+			水中の敵に対して50%の追加ダメージを与える
+			'''
+	}
+
+	Ceramicbow: {
+		DisplayName: セラミックボウ
+		Tooltip:
+			'''
+			一度に2本の矢を放つ。
+			ミニオンのダメージ+{MinionTagDamage}
+			[c/ffff40:{AltfireHotKey}: ターゲット地点に矢の雨を降らせる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	CrownPrinceScepter: {
+		DisplayName: 皇太子の笏
+		Tooltip:
+			'''
+			"我が道こそが天道なり！"
+			[c/ffff40:{AltfireHotKey}: ターゲット地点に黄金の剣を降らせる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	CrystallizedRose: {
+		DisplayName: 結晶の薔薇
+		Tooltip: ""
+	}
+
+	CrystalShardMortar: {
+		DisplayName: 結晶片の迫撃砲
+		Tooltip:
+			'''
+			雨を降らせる。
+			空に向かって撃つと最大限の効果を発揮する。
+			クリスタルクラスターを弾薬として使用（ハイドロチャージからクラフト）
+			'''
+	}
+
+	CursedAnchor: {
+		DisplayName: 呪われた錨
+		Tooltip:
+			'''
+			船長は船と運命を共にする！　#かなり原文と違うが恐らく意味的にこれ
+			水中の敵に対して20%の追加ダメージを与える。
+			[c/ffff40:{AltfireHotKey}: 錨を投げ、そこへ自らを引き寄せる。この間、一時的に無敵になる]
+			[c/ffff40:最大3回まで連続使用可能。連続使用ごとに {ComboBonus}% の追加ダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	CursedBloodSyringe: {
+		DisplayName: 呪われた血の注射器
+		Tooltip:
+			'''
+			旧地獄の血の池地獄から直接汲み上げた血で満たされている
+			対象に呪われた血を注入し、防御を低下させ、最大HPに比例したダメージを与える。
+			[c/ffff40:{AltfireHotKey}: 自らに呪われた血を注入し、与えるダメージを {AttackDamage}% 増加させ、四方に呪われた血を放つ]
+			[c/ffff40:ただし、防御が低下し、時間経過でダメージを受ける]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	CursefireThrower: {
+		DisplayName: 呪いの火炎放射器
+		Tooltip:
+			'''
+			水中で使用可能
+			カースファイアチャージを弾薬として使用（ハイドロチャージからクラフト）
+			'''
+	}
+
+	DeepAnchor: {
+		DisplayName: 深淵の錨
+		Tooltip:
+			'''
+			船長は船と運命を共にする！
+			水中の敵に対して20%の追加ダメージを与える
+			攻撃時に追加の幽霊の錨を投げる
+			[c/ffff40:{AltfireHotKey}: 錨を投げ、そこへ自らを引き寄せる。この間、一時的に無敵になる]
+			[c/ffff40:最大3回まで連続使用可能。連続使用ごとに {ComboBonus}% の追加ダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	DimensionRipper: {
+		DisplayName: ディメンションリッパー
+		Tooltip:
+			'''
+			異なる次元へのポータルを開き、そこから弾丸が放たれる。
+			誰が撃っているのかは謎に包まれている
+			[c/ffff40:{AltfireHotKey}: 長時間持続するポータルを生成し、最も近い敵に向かって弾を発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	DimensionRipperMk2: {
+		DisplayName: ディメンションリッパー Mk2
+		Tooltip:
+			'''
+			異なる次元へのポータルを開き、そこから弾丸が放たれる
+			誰が撃っているのかは謎に包まれている
+			[c/ffff40:{AltfireHotKey}: 長時間持続するポータルを生成し、最も近い敵に向かって弾を発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	Dissonance: {
+		DisplayName: 不協和音
+		Tooltip:
+			'''
+			混沌を奏でる不協和音
+			矢が音符の軌跡を残す
+			'''
+	}
+
+	DivineIronRing: {
+		DisplayName: 洩矢の鉄の輪　#元ネタ的に意訳が入っています
+		Tooltip:
+			'''
+			驚くほど鋭利だが、錆びやすい
+			同時に最大6つのリングまで使用可能
+			[c/ffff40:{AltfireHotKey}: 所持している全てのリングを投げる。最大射程が増加する。]
+			'''
+	}
+
+	DollStaff: {
+		DisplayName: 人形の杖
+		Tooltip:
+			'''
+			糸の上で踊り、舞い踊る
+			あなたのために戦う二体の人形を召喚する
+			'''
+	}
+
+	DowsingRod: {
+		DisplayName: ダウジングロッド
+		Tooltip:
+			'''
+			すべての一歩が目標へと続く
+			本来は武器ではないが、いざという時には役に立つ
+			[c/ffff40:{AltfireHotKey}:{DowsingRadius}タイル以内の鉱石や宝石の鉱床へ導く ]
+			[c/ffff40:最初にインベントリ内にある鉱石または宝石を基準に探索対象を選択する]
+			[c/ffff40:鉱床を発見すると、その鉱石または宝石を1つ消費する]              
+			'''
+	}
+
+	DragonJewel: {
+		DisplayName: 龍の頸の玉
+		Tooltip:
+			'''
+			伝説の5つの無理難題のうちの1つ
+			タイルや敵に接触すると爆発する宝珠を投げる
+			'''
+	}
+
+	DragonPipe: {
+		DisplayName: ドラゴンキセル
+		Tooltip:
+			'''
+			煙を肺一杯に満たせ
+			煙の中にいるプレイヤーのマナ回復速度をわずかに上昇させる。
+			煙の中にいる敵の与えるダメージを{DamageReduction}%低下させる
+			'''
+	}
+
+	EnchantedVajras: {
+		DisplayName: 魔力を帯びた金剛杵
+		Tooltip:
+			'''
+			あなたが見ることを選択さえすれば、この世界は光で満たされる
+			[c/ffff40:{AltfireHotKey}: 強力なノックバックを持つ弾を投げる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	EmbersOfLove: {
+		DisplayName: 恋の埋火 #元ネタ的にスペルカード:復燃「恋の埋火」のことだと思われるため意訳
+
+		Tooltip:
+			'''
+			すべてを手放せば、まるですべてを手に入れたかのように感じるだろう
+			螺旋を描きながら進むハートの弾を二発放つ
+			[c/ffff40:{AltfireHotKey}: 全方向にハートを放ち、その後に引き戻す]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	EsotericHistory: {
+		DisplayName: 秘匿された歴史　#アクセなのになぜかここにある。多分ミス
+		Tooltip:
+			'''
+			歴史を創り、消し去ることは、すなわち現実を形作ることに他ならない
+			敵を倒した際に、その敵によって失ったライフをすべて回復する
+			回復したライフ量に応じてクールダウンが増加する
+			'''
+	}
+
+	FairyFlower: {
+		DisplayName: 妖精の花
+		Tooltip: ""
+	}
+
+	FemtofiberWhip: {
+		DisplayName: フェムトファイバーの鞭
+		Tooltip:
+			'''
+			かつては荒ぶる神々を縛るために使われた、月の民の素材で作られている
+			召喚ダメージ+{MinionTagDamage}
+			敵は召喚攻撃を受けるたびに防御力が1低下する
+			攻撃をチャージすることで射程が延びる。
+			召喚体は攻撃を受けた敵を優先して狙う
+			'''
+	}
+
+	FireflyLantern: {
+		DisplayName: 蛍のランタン
+		Tooltip:
+			'''
+			蛍は観賞するだけのものではない
+			あなたのために戦う蛍を召喚する
+			手に持っている間、光を放つ
+			'''
+	}
+
+	FlowersOfEdo: {
+		DisplayName: 江戸の華 #花か華かは日本語でも揺れがあるので翻訳者の趣味で華にしてます
+		Tooltip:
+			'''
+			"火事と喧嘩は江戸の華"
+			火の玉を放ち、命中時に分裂する
+			'''
+	}
+
+	GhostPrincessFan: {
+		DisplayName: 亡霊姫の扇子
+		Tooltip:
+			'''
+			T儚き時を越え、苦しみから解き放て
+			ボス以外の敵を {InstantKillChance}% の確率で即死させる
+			[c/ffff40:{AltfireHotKey}: 冥界の蝶の群れを召喚する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	GoliathSword: {
+		DisplayName:　ゴリアテの剣
+		Tooltip:本来、それはただの人間が扱える代物ではない
+	}
+
+	GraspingVine: {
+		DisplayName: 絡みつく蔦
+		Tooltip:
+			'''
+			一度捉えたが最後、どんな敵もその束縛から逃れることは叶わない
+			召喚ダメージ+{MinionTagDamage}
+			攻撃が命中すると、敵は蔦に絡まれ、移動速度が低下する
+			ミニオンは攻撃を受けた敵を優先して狙う
+			[c/ffff40:{AltfireHotKey}:最も近い絡みつかれた敵5体から蔦を生やす]
+			[c/ffff40:蔦は他の近くの敵を追尾する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	GravityAbyssEmitter: {
+		DisplayName: 重力深淵放出器
+		Tooltip:
+			'''
+			神々も恐れる
+			ブラックホールを放ち、敵を吸い寄せる
+			[c/ffff40:{AltfireHotKey}:指定した地点に大きな静止したブラックホールを生成する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	GrimoireOfPatchouli: {
+		DisplayName: パチュリーの魔導書
+		Tooltip:
+			'''
+			五つの元素の力を湛えている
+			攻撃は現在の元素によって異なる
+			[c/ffff40:{AltfireHotKey}: 元素を切り替える]
+			'''
+	}
+
+	Gungnir: {
+		DisplayName: グングニル
+		Tooltip:
+			'''
+			紅が流れ始めるように
+			出血を引き起こし、敵の最大HPに比例したダメージを与える
+			左クリックを押し続けて槍を構え、ボタンを離すことで投げることができる
+			'''
+	}
+
+	HakureiPurificationRod: {
+		DisplayName: 博麗のお祓い棒
+		Tooltip:
+			'''
+			追尾するお札を放つ
+			特に妖怪に対して効果的
+			[c/ffff40:{AltfireHotKey}:無想封印]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	Hakurouken: {
+		DisplayName: 白楼剣
+		Tooltip:
+			'''
+			この一振りは破滅をもたらすのか、それとも救いをもたらすのか？
+			霊に対して非常に有効
+			[c/ffff40:{AltfireHotKey}: 弾をカーソルの方向へ反射させる]
+			[c/ffff40:反射された弾は {DeflectedProjDamageMult} %のダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	HaniwaStaff: {
+		DisplayName: 埴輪の杖
+		Tooltip:
+			'''
+			陶器の偶像に信を託せ
+			あなたのために戦う埴輪の兵士を召喚する
+			'''
+	}
+
+	HeadsmanAxe: {
+		DisplayName: 死刑執行人の斧
+		Tooltip:
+			'''
+			彼らの肩の重荷を下ろしてやれ
+			クリティカルヒットは非常に高いダメージを与える
+			'''
+	}
+
+	IchorbombLauncher: {
+		DisplayName: イコルボム・ランチャー
+		Tooltip:
+			'''
+			「お前は地獄でくっつけ直されることになるぞ！」
+			イコルの塊を弾薬として使用（ハイドロチャージからクラフト）
+			[c/ffff40:{AltfireHotKey}: 全ての塊を起爆する]
+			'''
+	}
+
+	IcicleStorm: {
+		DisplayName: つららの嵐
+		Tooltip:
+			'''
+			つららを3本同時に放つ
+			命中した敵に凍傷を与える可能性がある
+			'''
+	}
+
+	IcyGreatsword: {
+		DisplayName: 氷の大剣
+		Tooltip:
+			'''
+			"あたいったら最強ね！"
+			ヒット時に凍傷を与える
+			'''
+	}
+
+	IgnitionCards: {
+		DisplayName: 発火の符
+		Tooltip:
+			'''
+			最後は灰になる
+			爆発するお守りを投げる
+			[c/ffff40:{AltfireHotKey}: 無差別発火の符　ー符を四方八方に投げつける]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	InfusedBamboo: {
+		DisplayName: 竹槍
+		Tooltip:
+			'''
+			妖精の魔法と失われた竹林の神秘的なエネルギーに満ちている
+			[c/ffff40:{AltfireHotKey}:狙った場所の下にタケノコを生やす]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	JeweledBranchOfHourai: {
+		DisplayName: 蓬莱の玉の枝
+		Tooltip:
+			'''
+			O5つの伝説的な無理難題のうちの1つ
+			7つのオーブを放ち、敵を追跡する
+			'''
+	}
+
+	JeweledPagoda: {
+		DisplayName: 毘沙門天の宝塔
+		Tooltip:
+			'''
+			最も輝く宝玉
+			[c/ffff40:{AltfireHotKey}: いくつもの曲がったレーザーを射出する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	KappaWaterPistol: {
+		DisplayName: 河童の水拳銃
+		Tooltip:
+			'''
+			河童の代表的な携帯武器
+			ハイドロチャージを弾薬として使用する
+			[c/ffff40:{AltfireHotKey}: 射程の短い拡散弾を発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	KappaWaterRifle: {
+		DisplayName: 河童の水鉄砲
+		Tooltip:
+			'''
+			水には多くの用途があり、人を撃つこともその一つである
+			8点バースト
+			ハイドロチャージを弾薬として使用する
+			[c/ffff40:{AltfireHotKey}: 高威力の一発を放つ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	Kusanagi: {
+		DisplayName: 草薙剣
+		Tooltip:
+			'''
+			大地を束ね、天を切り裂く力を秘めた剣
+			[c/ffff40:{AltfireHotKey}: 天気を変える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	LeafCutter: {
+		DisplayName: リーフカッター
+		Tooltip:
+			'''
+			信頼性の高いマスケット銃を山童がアップグレードしたもの
+			発射された弾丸はわずかに目標にホーミングする
+			シルバチャージを弾薬として使用
+			[c/ffff40:{AltfireHotKey}: 複数の敵を貫通する高威力のショットを放つ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	LeafCyclone: {
+		DisplayName: リーフサイクロン
+		Tooltip:
+			'''
+			無意味な戦いに利益はない。 Banditry, 一方、盗賊は...
+			シルバチャージを弾薬として使用
+			'''
+	}
+
+	LilyOfMurderousIntent: {
+		DisplayName: 殺意の百合
+		Tooltip: 憎しみの炎が消えることはない
+	}
+
+	LingeringCold: {
+		DisplayName: 残寒
+		Tooltip: 冬の凍てつくような寒さ
+	}
+
+	Liquidator: {
+		DisplayName: 清算人
+		Tooltip:
+			'''
+			グレネードランチャー付き
+			8点バースト
+			対象の防御力を低下させる
+			弾薬としてイコルの塊を使用する (ハイドロチャージからクラフト)
+			[c/ffff40:{AltfireHotKey}: イコールグレネードを発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	LivingUmbrella: {
+		DisplayName: 生きた傘
+		Tooltip:
+			'''
+			すべての芽が祝福されますように
+			蔓を伸ばす
+			[c/ffff40:{AltfireHotKey}: 傘を盾として使用し、5秒間投擲物を防ぐ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	LunaDial: {
+		DisplayName: ルナダイアル
+		Tooltip:
+			'''
+			「咲夜の世界へようこそ」
+			近くにいる全てのNPCと投擲物の時間をフリーズさせる
+			Duration: {TimeStopDuration} 秒
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	LunarClock: {
+		DisplayName: ルナクロック
+		Tooltip:
+			'''
+			「咲夜の世界へようこそ」
+			近くにいる全てのNPCと投擲物の時間をフリーズさせる
+			ルナダイヤルとクールダウンを共有
+			Duration: {TimeStopDuration} 秒
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	LunarianServiceRifle: {
+		DisplayName: 月のサービスライフル
+		Tooltip:
+			'''
+			不浄な地球人の侵略から身を守るため、月兎たちにはこれらのライフルが与えられている
+			[c/ffff40:{AltfireHotKey}: 強力なノックバック付きの銃剣突撃]
+			'''
+	}
+
+	LunaticGun: {
+		DisplayName: ルナティックガン
+		Tooltip:
+			'''
+			その仕組みを理解しようとすれば、あなたはきっと発狂するだろう
+			3種類の武器に変形可能
+			[c/ffff40:{AltfireHotKey}: 射撃モードの切り替え]
+			'''
+	}
+
+	MagicalBiwa: {
+		DisplayName: 魔法の琵琶
+		Tooltip:
+			'''
+			煌めく弦、嵐を呼び起こす！
+			ターゲットとの距離でピッチと発射速度が決まる
+			[c/ffff40:{AltfireHotKey}: 琵琶をしばらく自動演奏させ、左右に放つ]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			[c/ffff40: 琵琶の演奏が停止するまでメイン射撃は使用できない(ただし他の武器に切り替えることはできる)]
+			'''
+	}
+
+	MagicalKoto: {
+		DisplayName: 魔法の琴
+		Tooltip:
+			'''
+			光の弦を弾く
+			ターゲットとの距離でピッチと発射速度が決まる
+			[c/ffff40:{AltfireHotKey}: 琴をしばらく自動演奏させ、全方位に放つ]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			[c/ffff40: メイン射撃は琴の演奏が止まらないと使えない（ただし他の武器に持ち替えは可能）]
+			'''
+	}
+
+	MagicSunflower: {
+		DisplayName: 魔法のひまわり
+		Tooltip: 自身と周囲の味方に 「Happy!」バフを適用する
+	}
+
+	MareKick: {
+		DisplayName: 牝馬の蹴り
+		Tooltip:
+			'''
+			アニマル界のギャングを支配するために必要なもの
+			[c/ffff40:{AltfireHotKey}: 高火力を6発連続で発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	MiniHakkero: {
+		DisplayName: ミニ八卦炉
+		Tooltip:
+			'''
+			「弾幕はパワーだよ。」 #パワーだぜ！とするかは悩みどころ。正しくはパワーだよ。
+			[c/ffff40:{AltfireHotKey}: マスタースパーク]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	MishagujiStaff: {
+		DisplayName: ミシャグジの杖
+		Tooltip:
+			'''
+			{$CommonItemTooltip.Sentry}
+			大地が裂ける
+			静止したミシャグジを召喚し、近くの敵を呪う
+			ミシャグジは2体までしか発動できない。
+			たとえプレイヤーがより高いセントリーキャパシティを持っていても発動できない。
+			'''
+	}
+
+	MiracleMallet: {
+		DisplayName: 打ち出の小槌 #直訳は奇跡の木槌だが…こっちでいいだろう。
+		Tooltip:
+			'''
+			小人族の伝説の宝物
+			小判を放つ
+			倒した敵はより多くの金を落とす
+			[c/ffff40:{AltfireHotKey}:  {ShrinkDuration} 秒間、一寸法師の大きさになる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	MochiPoundingMallet: {
+		DisplayName: 餅つき杵
+		Tooltip:
+			'''
+			月兎が餅つきに使う
+			高確率で混乱を引き起こす
+			'''
+	}
+
+	MoonlightRay: {
+		DisplayName: ムーンライトレイ
+		Tooltip:
+			'''
+			「そーなのかー。」
+			月光の双光線を放つ
+			{ExtraDamageAtNight}% 夜間に追加ダメージ
+			'''
+	}
+
+	MoriyaPurificationRod: {
+		DisplayName: 守谷のお祓い棒
+		Tooltip:
+			'''
+			守矢神社の女神の力を呼び起こす
+			隣接するターゲットを攻撃するヘビや、爆発するカエルの一斉射撃を行う
+			[c/ffff40:{AltfireHotKey}: ショットの種類を切り替える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	MountainMurder: {
+		DisplayName: マウンテンマーダー #尽符「ブラッディマウンテンマーダー」が元ネタと思われる
+		Tooltip:
+			'''
+			獲物やおせっかいな侵入者を切り刻むのに最適
+			[c/ffff40:{AltfireHotKey}: ナイフを4本連続で投げる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	MultiUseDrill: {
+		DisplayName: 多用途ドリル
+		Tooltip:
+			'''
+			河童工学の頂点
+			[c/ffff40:{AltfireHotKey}: ロケット弾を発射（弾薬が必要）]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	NanotechInk: {
+		DisplayName: ナノインク
+		Tooltip:
+			'''
+			非現実の世界から
+			Umbrakinetic へ捧げる #開発者アイテムのようなもの。UmbrakineticさんはこのmodのBGM作成者
+			[c/ffff40:{AltfireHotKey}: 強力なビームを放つ]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	NovaCannon: {
+		DisplayName: ノヴァ・キャノン
+		Tooltip:
+			'''
+			神々も恐れる
+			[c/ffff40:{AltfireHotKey}: 狙った位置に直接、静止した弾丸を発射する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	NuclearDelimiter: {
+		DisplayName: 制御棒
+		Tooltip:
+			'''
+			神々も恐れる
+			[c/ffff40:{AltfireHotKey}: ブロックを貫通する低速で高ダメージの弾を発射する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	OmikujiBomb: {
+		DisplayName: おみくじ爆弾
+		Tooltip:
+			'''
+			ランダムなおみくじを引く
+			[c/ffff40:{AltfireHotKey}: ランダムにおみくじ乱れ打つ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	Onbashira: {
+		DisplayName: 御柱 
+		Tooltip:
+			'''
+			天が崩れ落ちる
+			狙った場所に御柱を呼び寄せる
+			[c/ffff40:{AltfireHotKey}: 狙った場所を中心に御柱の弾幕を降らせる]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	PersuasionNeedles: {
+		DisplayName: パスウェイジョンニードル #元ネタ的にそのままにしてます
+		Tooltip:
+			'''
+			敵に刺さる針を発射し、時間経過とともにダメージを与える
+			特に妖怪に有効
+			'''
+	}
+
+	PhoenixFlames: {
+		DisplayName: フェニックスの炎
+		Tooltip:
+			'''
+			不死鳥は輪廻のサイクルを離れ、忘却の中で生き続ける
+			攻撃するたびに {SelfDamage} ライフを失う
+			[c/ffff40:{AltfireHotKey}: 不死身の捨て身: 炎の柱と化し、直近の {HealInterval} 秒間に自己ダメージによって失われたライフの {HealProportion}% を回復する] #直訳だと贄とか殉死だが効果、元ネタてきにこれでいいと思われる
+			[c/ffff40:回復したライフの量に比例したダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	PossessedSilverBlade: {
+		DisplayName: 憑依された銀の剣
+		Tooltip:
+			'''
+			なぜか喉を切り裂きたくなる。
+			より長い時間、敵の時間を遅くさせる
+			[c/ffff40:{AltfireHotKey}: 複数のナイフを放ち、ターゲットに張り付いて動きを鈍らせる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	ProtectiveTalisman: {
+		DisplayName: 守護の符
+		Tooltip:
+			'''
+			運は毎回変化する
+			デバフがかかっている状態で敵に命中した場合、{DamageBonus}% の追加ダメージを与える。
+			さらに、投擲物には不幸が付与され、対象に対するクリティカル確率が増加する。
+			デバフの残り時間が{DebuffReduction}秒減少する
+			'''
+	}
+
+	PrototypeDollStaff: {
+		DisplayName: 試作人形スタッフ
+		Tooltip:
+			'''
+			{$CommonItemTooltip.Sentry}
+			「さらなる調査が必要だ。」
+			固定された大きな人形を召喚する。まだテスト段階なので注意が必要
+			'''
+	}
+
+	PureFury: {
+		DisplayName: ピュアヒューリーズ
+		Tooltip: 嫦娥よ。見てるか!?
+	}
+
+	PurificationFan: {
+		DisplayName: 浄化扇
+		Tooltip:
+			'''
+			「この地上で生き、死ぬだけで十分な罪である」
+			周囲のあらゆる生物を素粒子レベルで浄化する [c/FF0000:使用には注意が必要]
+			[c/ffff40:{AltfireHotKey}: 真紅、不浄、聖域を浄化する]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	RabbitStaff: {
+		DisplayName: 兎の杖
+		Tooltip:
+			'''
+			凶暴なウサギたち
+			かわいい兎があなたのために戦います
+			'''
+	}
+
+	RedChainOfFate: {
+		DisplayName: 運命の赤い鎖
+		Tooltip:
+			'''
+			運命に怯えて生きろ
+			自分の運命と対象の運命をリンクさせ、プレイヤーが受けるダメージの {TransferredDamageMultiplier} 倍のダメージを相手に与える
+			このダメージは魔法ダメージボーナスによってさらに増加する
+			離れすぎると鎖が切れる
+			'''
+	}
+
+	Reversebow: {
+		DisplayName: リバースボウ
+		Tooltip:
+			'''
+			すべてを逆転させる
+			弓に向かって3本の矢を放つ
+			矢が的に当たった直後、矢が向きを変える
+			'''
+	}
+
+	RodentStaff: {
+		DisplayName: ネズミの杖
+		Tooltip:
+			'''
+			大胆な虎の心臓がネズミを隠す
+			あなたのために戦うネズミを召喚する
+			'''
+	}
+
+	RodOfRemorse: {
+		DisplayName: 悔悟の棒
+		Tooltip:
+			'''
+			「私の目の前の義務は非難することだけだ」
+			蓄積された罪の重さで対象を殴り、防御を無視する
+			[c/ffff40:{AltfireHotKey}: ラストジャッジメント（魔法ダメージを与える）]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	Roukanken: {
+		DisplayName: 楼観剣
+		Tooltip:
+			'''
+			「斬れぬものなど、あんまり無い！」
+			[c/ffff40:{AltfireHotKey}: ダッシュを行う]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	SacredChannelingSword: {
+		DisplayName: 神降ろしの刀 #いい感じの翻訳が思いつかなかったのでだいぶ変わってます
+		Tooltip:
+			'''
+			無数の神々を呼び寄せる
+			攻撃は現在降ろしている神によって異なる
+			[c/ffff40:{AltfireHotKey}: 降ろす神を変更する]
+			'''
+	}
+
+	Scalebow: {
+		DisplayName: 鱗片弓
+		Tooltip:
+			'''
+			アレルギーを誘発する可能性がある
+			木の矢を毒の鱗片に変える
+			'''
+	}
+
+	SealingSmartphone: {
+		DisplayName: 封印されたスマートフォン
+		Tooltip:
+			'''
+			神秘を暴け！
+			オカルトカードの一斉射撃
+			[c/ffff40:{AltfireHotKey}: 押しでファインダーを表示、離すとターゲットエリアの発射物を破壊]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	SevenStarSword: {
+		DisplayName: 七星剣
+		Tooltip: 
+			'''
+			和を以て貴しと為す
+			[c/ffff40:{AltfireHotKey}: 四方に光線を放つ]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	ShanghaiDoll: {
+		DisplayName: 上海人形
+		Tooltip:
+			'''
+			「上海、上海、蓬莱、蓬莱...」
+			狙った場所にビームを放つ人形を投げる
+			召喚ダメージ+{MinionTagDamage}
+			[c/ffff40:{AltfireHotKey}:  全方位にレーザーを放つ人形を投げる]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	Shatterer: {
+		DisplayName: 粉砕者
+		Tooltip:
+			'''
+			掘削も殺しも得意
+			[c/ffff40:{AltfireHotKey}: タイルを破壊し、クリスタルの破片を四方八方に放つクラスター爆弾を発射する]
+			[c/ffff40:クリスタルクラスターを弾薬として使用する（ハイドロチャージでクラフト）]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	ShinigamiScythe: {
+		DisplayName: 死神の大鎌
+		Tooltip:
+			'''
+			全ては不変、この地上では何ひとつ赦されない
+			[c/ffff40:{AltfireHotKey}: 敵に命中すると体力回復アイテム落とす発射物を発射する]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	ShiningNeedleSword: {
+		DisplayName: 輝針剣
+		Tooltip:
+			'''
+			伝説の鬼退治、一寸法師の目刺し針剣
+			[c/ffff40:{AltfireHotKey}: 敵を引っ掛けて使用者の方へ引き寄せる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	SilverThrowingKnives: {
+		DisplayName: 銀の投げナイフ 
+		Tooltip:
+			'''
+			冷たい鋼鉄が死の雨となって降り注ぐ
+			[c/ffff40:{AltfireHotKey}: 狙いを定めた大量のナイフを投げる]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	SkullFlail: {
+		DisplayName: スカルフレイル
+		Tooltip: ブロックや敵に当たると、骨をランダムな方向に発射する
+	}
+
+	SpareRokurokubiHead: {
+		DisplayName: ろくろ首の予備
+		Tooltip:
+			'''
+			特に頭のような重要なものは、常に予備を用意しておくのがよい
+			目から火を噴く
+			[c/ffff40:{AltfireHotKey}: 頭を投げ、少し遅れて大爆発を起こす]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			[c/ffff40: 頭部が爆発するまでメイン射撃は使用できません]
+			'''
+	}
+
+	SparrowSong: {
+		DisplayName: 雀の歌
+		Tooltip:
+			'''
+			歌以外聞こえない
+			確率で混乱を与える
+			[c/ffff40:{AltfireHotKey}: ギターソロを演奏し、各音符が {ExtraDamage}% の追加ダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	SparrowStaff: {
+		DisplayName:雀の杖
+		Tooltip:
+			'''
+			この鳥は驚くほど凶暴
+			あなたのために戦う雀を召喚する
+			'''
+	}
+
+	SpiralOfFate: {
+		DisplayName: 運命の螺旋
+		Tooltip:
+			'''
+			運命は気まぐれな愛人
+			確率で不幸デバフをかけ、かかった敵に対してのクリティカル確率を増加させる
+			'''
+	}
+
+	SwordOfHisou: {
+		DisplayName: 緋想の剣
+		Tooltip:
+			'''
+			天をも揺るがす力
+			敵は霊気を発生させることがあり、1スタックにつき装甲貫通を5付与する
+			[c/ffff40:{AltfireHotKey}: 緋色のエネルギーでできたレーザーを放つ]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	TailFinSlapper: {
+		DisplayName: テイルフィンスラップ
+		Tooltip:
+			'''
+			寿司のネタにしたら最高かもしれない
+			召喚ダメージ＋{MinionTagDamage} 
+			一振りごとに水滴を飛ばす
+			'''
+	}
+
+	TanukiSmokingPipe: {
+		DisplayName: たぬきのキセル
+		Tooltip:
+			'''
+			運命のルーレットを回せ
+			[c/ffff40:{AltfireHotKey}: 敵をランダムなクリーチャーに変身させる]
+			[c/ffff40:ボスには効果がありません]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	TenguFan: {
+		DisplayName: 天狗の扇子
+		Tooltip:
+			'''
+			神風を放つ
+			[c/ffff40:{AltfireHotKey}: 強力な竜巻を3つ放つ]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	TestTubes: {
+		DisplayName: 試験管
+		Tooltip:
+			'''
+			管狐を飼っているかも
+			様々な不審な液体の入った試験管を投げる
+			'''
+	}
+
+	Thorn: {
+		DisplayName: ソーン
+		Tooltip:
+			'''
+			まだテスト段階だが、最近作られた山童の小銃
+			装弾数は3発
+			発射された弾丸はわずかに目標にホーミングする
+			シルバチャージを弾薬として使用
+			[c/ffff40:{AltfireHotKey}: Shoots a single shot that can poison enemies]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	ThunderShot: {
+		DisplayName: サンダーショット
+		Tooltip:
+			'''
+			「電撃」
+			ヒット時、近くの敵に稲妻の弧を描く
+			'''
+	}
+
+	ToxinStaff: {
+		DisplayName: トキシンスタッフ
+		Tooltip:
+			'''
+			憎しみの煮えたぎる100年をかけて醸造された毒
+			有毒ガスの雲を発生させる (duration: {DurationInMinutes} 分)
+			[c/ffff40:{AltfireHotKey}: ガス雲を散らす]
+			'''
+	}
+
+	Trimorphe: {
+		DisplayName: 同質三像 
+		Tooltip:
+			'''
+			Welcome ♡ Hell
+			地球、月、異界を表す3つの球を持つヨーヨー
+			[c/ffff40:{AltfireHotKey}: ヨーヨーを切り替える]
+			'''
+	}
+
+	UfoStaff: {
+		DisplayName: UFOスタッフ
+		Tooltip:
+			'''
+			ただの未確認飛行物体ではない、正体不明の飛行物体だ
+			あなたのために戦うカラフルなUFOを召喚する
+			'''
+	}
+
+	UncannyTrident: {
+		DisplayName: 不気味なトライデント
+		Tooltip:
+			'''
+			始まりに戻ろう、誰もいない暗闇...あの頃は楽しくなかった？
+			謎のヘビを撃つ
+			[c/ffff40:{AltfireHotKey}: 不可解な暗闇の雲を放つ]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	UnconsciousRequiem: {
+		DisplayName: 無意識レクイエム
+		Tooltip:
+			'''
+			「私、今…貴方の後ろにいるの」
+			出血を与え、敵の最大HPに比例したダメージを与える
+			[c/ffff40:{AltfireHotKey}: ターゲットした敵の背後にテレポートして背後から突き刺し、大ダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	UnderworldRose: {
+		DisplayName: 地獄の薔薇
+		Tooltip:
+			'''
+			地獄のバラ。美しいが、壊れやすい。
+			棘のある茎を放ち、標的を狙い撃つ
+			'''
+	}
+
+	VectorReversal: {
+		DisplayName: ベクトル反転
+		Tooltip:
+			'''
+			180度回転
+			近くにある弾の方向とコントロールを逆転させる
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	VerminStaff: {
+		DisplayName: 害獣の杖
+		Tooltip:
+			'''
+			廃墟と腐敗のオーラを放つ
+			あなたのために戦う異常な大きさのげっ歯類を召喚する
+			'''
+	}
+
+	WerewolfClaw: {
+		DisplayName: 狼女の爪
+		Tooltip:
+			'''
+			人狼の獰猛さ、それに伴う煩わしい発毛なし
+			[c/ffff40:{AltfireHotKey}: ダッシュで対象に向かっていき、一時的にダメージを受けない]
+			[c/ffff40:連続で3回まで使用可能。連続で使用するごとに {ComboBonus}% の追加ダメージを与える]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	WillowStaff: {
+		DisplayName: 枝垂れ柳の杖
+		Tooltip:
+			'''
+			先手必勝
+			あなたのために戦う赤蛮奇の頭を召喚する
+			'''
+	}
+
+	WindPriestessStaff: {
+		DisplayName: 風の巫女の杖
+		Tooltip:
+			'''
+			行く手を阻む全てのものを、風にて薙ぎ払え。
+			[c/ffff40:{AltfireHotKey}: 九字刺し - 格子状のレーザーを作り出す]
+			{$Mods.Gensokyo.Common.AltfireManaCost}
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	WispStaff: {
+		DisplayName: 鬼火の杖
+		Tooltip: 敵を追いかける鬼火を放つ
+	}
+
+	WolfTenguSaber: {
+		DisplayName: 白狼天狗の剣
+		Tooltip:
+			'''
+			妖怪の山を守る天狗がよく使う
+			使い手の感覚を研ぎ澄まし、罠や敵を発見する
+			右クリックで拡大することができる
+			'''
+	}
+
+	YamanbaCleaver: {
+		DisplayName: 山姥の包丁
+		Tooltip:
+			'''
+			「お茶でも飲んでいきなよ！恥ずかしがらずに...」 #絶妙に違う気がする
+			ライフを吸収する
+			'''
+	}
+
+	YoukaiSageUmbrella: {
+		DisplayName: 妖怪賢者の傘
+		Tooltip:
+			'''
+			眼はあなたを見つめ、あなたがその脆い境界に触れるのを見守っています。
+			[c/ffff40:{AltfireHotKey}: マウスの位置にテレポートする]
+			{$Mods.Gensokyo.Common.AltfireCooldown}
+			'''
+	}
+
+	BossTester: {
+		# Developer Item
+		DisplayName: ボスカウンター
+		Tooltip: ""
+	}
+
+	DustCounter: {
+		DisplayName: ダストカウンター
+		Tooltip: ""
+	}
+
+	ProjectileCounter: {
+		DisplayName: プロジェクトカウンター
+		Tooltip: ""
+	}
+}
+
+Keybinds.AlternateFireMode.DisplayName: Alternate Fire Mode
+
+Miscellaneous: {
+	CycleInventoryButton: サイクルインベントリ
+	MissingAlternateFireKeybind: '''[c/ffff40:コントロールの設定を入力し "Gensokyo: {$Mods.Gensokyo.Keybinds.AlternateFireMode.DisplayName}" キーを押してください] '''
+	NewShopInventory: 森近霖之助に新しいアイテムが追加されました！
+	RightClick: 右クリック
+}
+
+MusicDisplay: {
+	ModName: Gensokyo
+
+	Biome_SubterraneanSun: {
+		Name: "{$Mods.Gensokyo.Biomes.SubterraneanSun.DisplayName}"
+		Author: Juhou
+	}
+
+	Boss_AliceMargatroid: {
+		Name: "{$Mods.Gensokyo.NPCs.AliceMargatroid.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_Cirno: {
+		Name: "{$Mods.Gensokyo.NPCs.Cirno.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_EternityLarva: {
+		Name: "{$Mods.Gensokyo.NPCs.EternityLarva.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_HinaKagiyama: {
+		Name: "{$Mods.Gensokyo.NPCs.HinaKagiyama.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_KaguyaHouraisan: {
+		Name: "{$Mods.Gensokyo.NPCs.KaguyaHouraisan.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_KoishiKomeiji: {
+		Name: "{$Mods.Gensokyo.NPCs.KoishiKomeiji.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_LilyWhite: {
+		Name: "{$Mods.Gensokyo.NPCs.LilyWhite.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_MayumiJoutouguu: {
+		Name: "{$Mods.Gensokyo.NPCs.MayumiJoutouguu.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_MedicineMelancholy: {
+		Name: "{$Mods.Gensokyo.NPCs.MedicineMelancholy.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_MinamitsuMurasa: {
+		Name: "{$Mods.Gensokyo.NPCs.MinamitsuMurasa.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_MystiaLorelei: {
+		Name: "{$Mods.Gensokyo.NPCs.MystiaLorelei.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_Nazrin: {
+		Name: "{$Mods.Gensokyo.NPCs.Nazrin.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_NitoriKawashiro: {
+		Name: "{$Mods.Gensokyo.NPCs.NitoriKawashiro.DisplayName}"
+		Author: Juhou
+	}
+
+	Boss_Rumia: {
+		Name: "{$Mods.Gensokyo.NPCs.Rumia.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_SakuyaIzayoi: {
+		Name: "{$Mods.Gensokyo.NPCs.SakuyaIzayoi.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_SeijaKijin: {
+		Name: "{$Mods.Gensokyo.NPCs.SeijaKijin.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_Seiran: {
+		Name: "{$Mods.Gensokyo.NPCs.Seiran.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_Sekibanki: {
+		Name: "{$Mods.Gensokyo.NPCs.Sekibanki.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_TenshiHinanawi: {
+		Name: "{$Mods.Gensokyo.NPCs.TenshiHinanawi.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_ToyosatomimiNoMiko: {
+		Name: "{$Mods.Gensokyo.NPCs.ToyosatomimiNoMiko.DisplayName}"
+		Author: Umbrakinetic
+	}
+
+	Boss_TsukumoSisters: {
+		Name: "{$Mods.Gensokyo.NPCs.BenbenTsukumo.BossfightName}"
+		Author: Juhou
+	}
+
+	Boss_UtsuhoReiuji: {
+		Name: "{$Mods.Gensokyo.NPCs.UtsuhoReiuji.DisplayName}"
+		Author: Umbrakinetic
+	}
+}
+
+NPCs: {
+	AliceMargatroid: {
+		# ----- Bosses -----
+		DisplayName: アリス マーガトロイド
+
+		BossChecklistIntegration: {
+			
+			EntryName: "{$Mods.Gensokyo.NPCs.AliceMargatroid.DisplayName}"
+			SpawnInfo:  '''[i:Gensokyo/AliceMargatroidSpawner] を使って召喚することができる '''
+			
+		}
+	}
+
+	BenbenTsukumo: {
+		DisplayName: 九十九 弁々
+		BossfightName: 九十九姉妹
+		SpawnWarning: 魔法の嵐が近づいている…
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.BenbenTsukumo.BossfightName}"
+			SpawnInfo:
+				'''
+				毎夜、機械仕掛けのボスが破壊された後、10%の確率でランダムスポーンする
+				[i:Gensokyo/TsukumoSistersSpawner]を使って召喚することもできる
+				'''
+		}
+	}
+
+	Cirno: {
+		DisplayName: チルノ
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.Cirno.DisplayName}"
+			SpawnInfo: 地上の雪原で[i:Gensokyo/CirnoSpawner] を使って召喚することができる 
+		}
+	}
+
+	EternityLarva: {
+		DisplayName: エタニティ ラルバ
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.EternityLarva.DisplayName}"
+			SpawnInfo: 日中の地上で [i:Gensokyo/EternityLarvaSpawner] を使って召喚することができる
+		}
+	}
+
+	HinaKagiyama: {
+		DisplayName: 鍵山 雛
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.HinaKagiyama.DisplayName}"
+			SpawnInfo:
+				'''
+				Tier2ボス、スケレトロン、Tier1ボス3体撃破後に地表の湖で発見できる
+				[i:Gensokyo/HinaKagiyamaSpawner] を使っても召喚することができる
+				'''
+		}
+	}
+
+	NagashiBinaDoll.DisplayName: 流し雛の人形
+	HinaKagiyama_Friendly.DisplayName: "{$Mods.Gensokyo.NPCs.HinaKagiyama.DisplayName}"
+
+	KaguyaHouraisan: {
+		DisplayName: 蓬莱山 輝夜
+		EventMessage1: 月が何かおかしい...
+		EventMessage2: 本当の月が見えないようにする呪文でもあるのだろうか...
+		EventMessage3: ジャングルの地下のどこかで、誰かが月からの使者を寄せ付けない呪文を唱えている
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.KaguyaHouraisan.DisplayName}"
+			SpawnInfo:
+				'''
+				ゴーレムを倒した後、地下ジャングルの竹林にいる
+				夜に [i:Gensokyo/KaguyaHouraisanSpawner] を使って召喚することができる。
+				'''
+		}
+	}
+
+	KaguyaHouraisan_Friendly.DisplayName: "{$Mods.Gensokyo.NPCs.KaguyaHouraisan.DisplayName}"
+
+	Kisume: {
+		DisplayName: キスメ
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.Kisume.DisplayName}"
+			SpawnInfo: 地下を探検している時、頭に気をつけろ
+		}
+	}
+
+	KoishiKomeiji: {
+		DisplayName: 古明地 こいし
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.KoishiKomeiji.DisplayName}"
+			SpawnInfo:
+				'''
+				Tier6のボス、ゴーレム、またはTier5のボスをすべて倒した後に徘徊していることがある
+				[i:Gensokyo/KoishiKomeijiSpawner] を使って召喚することができる 
+				'''
+		}
+	}
+
+	KoishiKomeiji_Friendly.DisplayName: "{$Mods.Gensokyo.NPCs.KoishiKomeiji.DisplayName}"
+
+	LilyWhite: {
+		DisplayName: リリー ホワイト
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.LilyWhite.DisplayName}"
+			SpawnInfo:日中の地上に [i:Gensokyo/LilyWhiteSpawner] を使って召喚することができる 
+		}
+	}
+
+	MayumiJoutouguu: {
+		DisplayName: 杖刀偶 磨弓
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.MayumiJoutouguu.DisplayName}"
+			SpawnInfo: '''[i:Gensokyo/MayumiJoutouguuSpawner] を使って召喚することができる '''
+		}
+	}
+
+	MedicineMelancholy: {
+		DisplayName: メディスン メランコリー
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.MedicineMelancholy.DisplayName}"
+			SpawnInfo: 地上で [i:Gensokyo/MedicineMelancholySpawner] を使って召喚することができる
+		}
+	}
+
+	MinamitsuMurasa: {
+		DisplayName: 村紗 水蜜
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.MinamitsuMurasa.DisplayName}"
+			SpawnInfo: 海で[i:Gensokyo/MinamitsuMurasaSpawner] を使って召喚することができる 
+		}
+	}
+
+	MystiaLorelei: {
+		DisplayName: ミスティア ローレライ
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.MystiaLorelei.DisplayName}"
+			SpawnInfo:
+				'''
+				ティア2のボス、スケルトロン、またはティア1のボス3体を倒した後、夜の地表で遭遇できる。日の出とともに逃げ去る。
+				夜の地上で[i:Gensokyo/MystiaLoreleiSpawner] を使って召喚することもできる 
+				'''
+		}
+	}
+
+	MystiaLorelei_Friendly.DisplayName: "{$Mods.Gensokyo.NPCs.MystiaLorelei.DisplayName}"
+
+	Nazrin: {
+		DisplayName: ナズーリン
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.Nazrin.DisplayName}"
+			SpawnInfo: '''[i:Gensokyo/NazrinSpawner] を使って召喚することができる'''
+		}
+	}
+
+	NitoriKawashiro: {
+		DisplayName: 河城 にとり
+		SpawnWarning: 河童はなんとか救難信号を発信した…
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.NitoriKawashiro.DisplayName}"
+			SpawnInfo: 河童を30匹倒すと出現。 [i:Gensokyo/NitoriKawashiroSpawner] を使って召喚することもできる 
+		}
+	}
+
+	Rumia: {
+		DisplayName: ルーミア
+		SpawnWarning: 飢えた存在があなたを見ているのを感じる...
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.Rumia.DisplayName}"
+			SpawnInfo:
+				'''
+				25%の確率で、他のGensokyoのボスかクトゥルフの目玉を倒した後、夜にスポーンする。日が昇ると逃げる
+				夜の地上で [i:Gensokyo/RumiaSpawner] を使って召喚することができる 
+				'''
+		}
+	}
+
+	SakuyaIzayoi: {
+		DisplayName: 十六夜 咲夜
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.SakuyaIzayoi.DisplayName}"
+			SpawnInfo: 地上で [i:Gensokyo/SakuyaIzayoiSpawner] を使って召喚することができる 
+		}
+	}
+
+	SeijaKijin: {
+		DisplayName: 鬼人 正邪
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.SeijaKijin.DisplayName}"
+			SpawnInfo: '''[i:Gensokyo/SeijaKijinSpawner] を使って召喚することができる '''
+		}
+	}
+
+	Seiran: {
+		DisplayName: 清蘭
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.Seiran.DisplayName}"
+			SpawnInfo: 宇宙で [i:Gensokyo/SeiranSpawner] を使って召喚することができる
+		}
+	}
+
+	Sekibanki: {
+		DisplayName: 赤蛮奇
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.Sekibanki.DisplayName}"
+			SpawnInfo: 夜に [i:Gensokyo/SekibankiSpawner] を使って召喚することができる
+		}
+	}
+
+	TenshiHinanawi: {
+		DisplayName: 比那名居 天子
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.TenshiHinanawi.DisplayName}"
+			SpawnInfo: 天界で [i:Gensokyo/TenshiHinanawiSpawner] を使って召喚することができる
+		}
+	}
+
+	ToyosatomimiNoMiko: {
+		DisplayName: 豊聡耳 神子
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.ToyosatomimiNoMiko.DisplayName}"
+			SpawnInfo: '''[i:Gensokyo/ToyosatomimiNoMikoSpawner] を使って召喚することができる '''
+		}
+	}
+
+	YatsuhashiTsukumo: {
+		DisplayName: 九十九 八橋
+		BossfightName: 九十九姉妹
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.YatsuhashiTsukumo.BossfightName}"
+			SpawnInfo:
+				'''
+				機械のボスを倒した後、雷雨の時に出現することがある
+				[i:Gensokyo/TsukumoSistersSpawner] を使って召喚することもできる 
+				'''
+		}
+	}
+
+	UtsuhoReiuji: {
+		DisplayName: 霊烏 路空
+
+		BossChecklistIntegration: {
+			EntryName: "{$Mods.Gensokyo.NPCs.UtsuhoReiuji.DisplayName}"
+			SpawnInfo: 地底の太陽で [i:Gensokyo/UtsuhoReiujiSpawner] を使って召喚することができる。 地底の太陽がワールドに生成されなかった場合は、代わりに地底で使用する
+		}
+	}
+
+	# ----- Boss Minions -----
+	Mouse.DisplayName: ネズミ
+	DiamondPendulum.DisplayName: ダイヤモンド・ペンデュラム
+	SekibankiHead.DisplayName: "{$Mods.Gensokyo.NPCs.Sekibanki.DisplayName}"
+	MedicineDoll.DisplayName: 名無し人形
+	CasterDoll.DisplayName: 魔法使いの人形
+	LancerDoll.DisplayName: 槍使いの人形
+	CursedDecoyDoll.DisplayName: 呪いの囮人形
+	HaniwaArcher.DisplayName: 弓兵埴輪
+	HaniwaCavalry.DisplayName: 騎兵埴輪
+	HaniwaProtector.DisplayName: 盾兵埴輪
+	HaniwaSoldier.DisplayName: 剣兵埴輪
+	NightSparrow.DisplayName: 夜雀
+	# ----- Enemies -----
+	Fairy_Bamboo.DisplayName: 竹の妖精
+	Fairy_Blood.DisplayName: 血の妖精
+	Fairy_Bone.DisplayName: 骨の妖精
+	Fairy_Crystal.DisplayName: 結晶の妖精
+	Fairy_Flower.DisplayName: 花の妖精
+	Fairy_Lava.DisplayName: 溶岩の妖精
+	Fairy_Metal.DisplayName: 金属の妖精
+	Fairy_Rain.DisplayName: 雨の妖精
+	Fairy_Sand.DisplayName: 砂の妖精
+	Fairy_Snow.DisplayName: 雪の妖精
+	Fairy_Spore.DisplayName: 胞子の妖精
+	Fairy_Stone.DisplayName: 石の妖精
+	Fairy_Sunflower.DisplayName: 太陽の妖精
+	Fairy_Thorn.DisplayName: 茨の妖精
+	Fairy_Water.DisplayName: 水の妖精
+	HellRaven.DisplayName: 地獄の烏
+	Kappa.DisplayName: 河童の探検家
+	Kappa_Corruption.DisplayName: 河童の開拓者
+	Kappa_Crimson.DisplayName: 河童の先駆者
+	Kappa_Hallow.DisplayName: 河童の冒険者 
+	VengefulSpirit.DisplayName: 怨霊
+	Yamawaro_Forest.DisplayName: 山童の斥候
+	Yamawaro_Jungle.DisplayName: 山童の前衛
+	YoukaiRabbit.DisplayName: 妖怪兎
+	YoukaiRabbit_Bunny.DisplayName: "{$NPCName.Bunny}"
+
+	RinnosukeMorichika: {
+		# ----- Town NPCs -----
+		DisplayName: 森近霖之助
+		TownNPCName: 霖之助
+
+		TownNPCMood: {
+			Content: やぁ。
+			NoHome: 家が必要なんだ。店の在庫を全部持ち歩くなんてできないよ。
+			FarFromHome: 道に迷ってしまったんだ...家に帰る方法を教えてくれないかい？
+			LoveSpace: スペースが広すぎて、なにからするべきかわからないな…
+			DislikeCrowded: 僕はいつも人と一緒にいることに慣れていないんだ...
+			hateCrowded: みんなうるさいんだ。だから僕は人里の外に住むことにしたんだ。
+			LoveBiome: '''{BiomeName} は大好きさ。'''
+			LikeBiome: '''{BiomeName} の風景はとてものどかだ。'''
+			DislikeBiome: '''{BiomeName} は暑くて耐えられない。'''
+			hateBiome:どうして妖怪の中には {BiomeName} のような場所に住むことができるのがいるんだい？
+			LoveNPC:''' {NPCName} は僕に気づいていると思う？'''
+			LikeNPC: 「{NPCName} は故郷の誰かを思い出させる。いい意味でだ。」
+			DislikeNPC: 「{NPCName} は相手にするとかなり疲れてしまうよ。故郷の知人のようにね。」
+			hateNPC: 普通の妖精でも {NPCName} よりは迷惑じゃないだろう。
+			LikeNPC_Princess: 「彼女を気に入ったよ。{NPCName} は僕の品物にとても感心してくれたからね」
+			Princess_LovesNPC: 「{NPCName} は彼の故郷の興味深い話をたくさんしてくれた」
+		}
+
+		Census.SpawnCondition: インベントリに [i:Gensokyo/PointItem] があるか、いずれかの幻想郷のボスを倒す。
+	}
+}
+
+Bestiary: {
+	# ----- Bosses -----
+	AliceMargatroid: アリス・マーガトロイドは、魔法の人形を作り、操ることを専門とする魔法使い。魔法の森の奥深くにある家で過ごすことが多いが、自分の能力を披露するために宴会に顔を出すのも好きらしい。
+	BenbenTsukumo: 輝針城異変で覚醒した琵琶の付喪神。当初は八橋とともに現在の秩序を覆し、仲間の付喪神のための理想郷を作ろうとしていた。しかし、幻想郷の事件解決者たちと出会い、その計画は唐突に終わりを告げた。
+	Cirno: チルノは氷の妖精で、幻想郷の霧の湖の近くによくいる。妖精の基準からすると、彼女は並外れた力を持っている。ただ、残念なことに彼女は自信過剰でもあり、自分が「最強」であることを証明しようとする。
+	EternityLarva: エタニティラルバは昆虫の成長、再生、変態を体現する妖精である。彼女が似ている蝶のように、1年のうち暖かい時期に活動することが多い。
+	HinaKagiyama: 鍵山雛は不幸の女神である。災いを撒き散らすのではなく、災いを集めるのが彼女の神としての務めであるにもかかわらず、彼女は敬遠される。それは、彼女の中に蓄積された災いが、彼女に近づきすぎた者に波及するからである。
+	KaguyaHouraisan: 月の姫君。昔、蓬莱の薬を飲み、真の不老不死を得たが、その罪で地球に追放された。しかし、彼女は地球での生活が気に入っている。
+	Kisume: キスメは、桶の中でしか姿を見せないマイナーな妖怪だ。弱いとはいえ、人間にとっては危険な存在である。
+	KoishiKomeiji: こいしは心を読むことができる妖怪の一種、サトリである。しかし、この能力がもたらす恐怖と憎悪のために、彼女は心を読む第三の目を閉じてしまった。これにより心も閉ざされ、潜在意識下の欲望のままにしか行動できなくなった。
+	LilyWhite: 毎年、春の訪れを告げるリリー・ホワイト。リリー・ホワイトは花や桜を咲かせ、人間に愛される妖精となる。しかし、それ以外の季節は、彼女は普通の妖精のように振舞う。
+	MayumiJoutouguu: 杖刀偶磨弓は、霊長園を敵対する動物霊から守る埴輪軍団の長である。彼女の戦士としての腕前は見事であり、将軍としての腕前は誰も敵わないほどである。
+	MedicineMelancholy: 名もなき丘の毒鈴蘭畑に捨てられていた人形が、最近になって妖怪として息を吹き返し、メディスン・メランコリーと名乗るようになった。様々な毒を作り出すことができるため、非常に危険である。
+	MinamitsuMurasa: 溺死した船乗りの霊で、今は他人を海の底に引きずり込もうとしている。山奥の幻想郷では、彼女にその機会はあまりなかった。
+	MystiaLorelei: ミスティア・ローレライは夜雀の妖怪で、歌を通して人間の心に影響を与える能力を持っている。歌によって近くの人間に夜盲症を与え、特製の焼きヤツメウナギを買うと夜盲症が治る。最近では、友人の響子とパンク・ロック・バンドを結成している。
+	Nazrin: ネズミの妖怪で、毘沙門天の使者。毘沙門天の弟子である寅丸星の助っ人を務めている。また、妖怪、普通を問わず多くのネズミを従えている。
+	NitoriKawashiro: 河城にとりは河童であり、大きな社会を作った数少ない妖怪の一種である。その中でも彼女は、鋭いビジネスセンスと見事な技術力で際立っている。
+	Rumia: ルーミアは夜の弱い妖怪で、闇そのものを操ることができる。一見そう聞くと凄い妖怪のように聞こえるが、ルーミアがこの力を使うのは、主に自分の周りに闇の球体を作り、日光を遮るためである。
+	SakuyaIzayoi: 紅魔館の謎のメイド。十六夜 咲夜の出自や経緯、時を操る能力を持つ者がなぜメイドに甘んじているのか、その理由については何も分かっていない。
+	SeijaKijin: 鬼人 正邪は天邪鬼（あまのじゃく）と呼ばれる妖怪である。幻想郷の社会秩序を破壊しようとした結果、彼女は指名手配され、逃げ回ることになった。
+	Sekibanki: 赤蛮奇は幻想郷の人里に住む妖怪で、人間に化けている。ろくろ首の妖怪で、胴体から首を切り離すことができる。
+	Seiran: 清蘭は月人のイーグルラヴィ部隊に潜入のスペシャリストとして所属していた。幻想郷での浄化作戦が中止されたとき、彼女は月の都に戻るのではなく、地球に残ることを決意した。
+	TenshiHinanawi: 比那名居天子はは天界の人間だが、天界での気ままな生活に飽き、新しい経験を求めて地上に降りてきた。その主な内容は喧嘩を売ることだ。
+	ToyosatomimiNoMiko: 豊聡耳神子は道教を使いこなすことで、自らの死を超えることができた。しかし、道教の仙人の理想に反して、彼女は世俗のことに干渉し続けている。
+	YatsuhashiTsukumo: 輝針城異変で覚醒した琴の付喪神。元道具である弁々とは血のつながりはないが、同じ時期に覚醒したため姉妹となった。
+	UtsuhoReiuji: 霊烏路空は、八咫烏の力を取り込むことで核融合をコントロールする力を得た地獄の鴉である。灼熱地獄の熱を調整する任務に任命された。
+	# ----- Boss Minions -----
+	Mouse: ナズーリンに仕えるネズミ。健康で、よく餌を食べ、彼女のパワーの一部を吹き込まれているが、それ以外は普通のネズミ。
+	SekibankiHead: 赤蛮奇の頭のひとつ。その目から魔法のビームを放つことができる。赤蛮奇のパワーをこれ1つに集中させると、ほぼ無敵になるが、彼女の体は脆弱なままである。
+	NightSparrow: この夜雀はまだ妖怪になるにはほど遠い。しかし、ミスティアの指揮下では、まだ多少危険な存在になりうる。
+	MedicineDoll: いつもメディスンの側にいる小さな人形。人形妖怪の仲間かもしれないし、メディスの正体かもしれない。
+	CasterDoll: アリス・マーガトロイドが魔法を流すことができる人形で、様々な角度から同時に攻撃することができる。ある人形は爆発することもある。
+	LancerDoll: 人形が整然と隊列を組んで乱戦に突進し、遠くから魔法を使う人形が援護し、全員が一心不乱に操られる......人形遣いの技術の頂点である。
+	CursedDecoyDoll: しばらくの間、自分にホーミング弾を引き寄せる呪いの人形。正邪が 「輝針城異変 」後の逃走で使用したチートアイテムのひとつ。
+	HaniwaArcher: 弓兵埴輪は磨弓の埴輪軍の主力である。集団で配備され、圧倒的な火力で敵を圧倒する。
+	HaniwaCavalry: 畜生界の動物霊でさえ、突進してくる埴輪の騎馬隊に崩れずに立ち向かうことはできない。
+	HaniwaProtector:これらの希少な埴輪は、幻想郷からの侵入者に霊長園が襲撃された後、埴安神袿姫によって初めて作られた。重要な人物や場所を守るために設計されている。
+	HaniwaSoldier: 弓兵埴輪が遠方から霊長園の敵を射る一方で、槍兵埴輪は接近を試みる者を迎え撃つ。
+	# ----- Enemies -----
+	Fairy_Bamboo: 竹の妖精は普段はおとなしいが、竹が花を咲かせるごく稀な時期には、狂乱状態に陥る。幻想郷では、ほとんどが迷いの竹林に住んでおり、妖怪兎たちといたずらを仕掛け合っている。
+	Fairy_Blood: 普段は静かで内向的だが、ブラッドムーンの邪悪な影響を受けると文字通り血に飢える。幸いにも、それほど賢くないため、血を操る能力の真の可能性を理解していない。
+	Fairy_Bone: 真紅の生命力から生まれた妖精は非常に好戦的で、接近戦を好む。
+	Fairy_Crystal: 神聖な輝きを放つ聖域の結晶が具現化した妖精。ほかの妖精に比べて冷たく、よそよそしい性格をしている。
+	Fairy_Flower: 妖精は自然そのものから生まれる存在であり、それぞれが自然の一側面を体現している。この妖精は花を象徴し、いたずら好きな性格を持つ。
+	Fairy_Lava: 地底に住む妖精も、ほかの妖精たちと同じようにいたずら好きだ。しかし、彼女たちのいたずらはほぼ例外なく溶岩が絡んでいる。
+	Fairy_Metal: 生息地を共有する石の妖精に比べ、金属の妖精は比較的珍しい。彼女たちは金属を自在に操る能力を持ち、それを活かして人間が使う金属製品を真似て作ることがある。
+	Fairy_Rain: 小雨程度では遊びをやめない。「悪い天気なんてない、悪い服装があるだけ」らしい。
+	Fairy_Sand: 妖精は退屈しやすい性質を持つ。一方、砂漠はあまり面白いことが起こらない場所。この組み合わせは危険だ。
+	Fairy_Snow: すべての妖精は雪合戦が大好きだが、雪の妖精はその中でも格段に上手い。彼女たちは生まれながらにして雪と親和性を持っているためである。
+	Fairy_Spore: ジャングルに生息する妖精たちは、あまりにも毒性が強いため、近くにいるだけで健康を害する恐れがある。ただし、ジャングルの生物はそうした環境に適応しているため、まったく影響を受けない。
+	Fairy_Stone: 地下深くの洞窟で生まれた石の妖精は、ブリンクルートを集めて暗闇を照らしている。
+	Fairy_Sunflower: ひまわりには強い生命力が宿っており、それから生まれる妖精もまた例外ではない。幻想郷ではよく、太陽の畑で遊ぶ姿が見られる。
+	Fairy_Thorn: 不浄の地で生まれた妖精は、ほかの妖精よりも凶暴であり、腐敗の棘を操って攻撃を仕掛ける。
+	Fairy_Water: 水の妖精は、一日中泳いだり、海の生き物たちと遊んだりして過ごす。ただし、海の生き物たちは妖精以上に頭が悪いため、複雑な遊びは成立しないことが多い。
+	HellRaven: 地獄鴉は、灼熱地獄に住む下級妖怪である。
+	Kappa: 河童は好奇心旺盛で発明好きな妖怪であり、主に川や水辺に生息している。
+	Kappa_Corruption: 河童はあらゆる技術の開発に長けている。この河童たちは、素材や発想を求めて不浄の地へと足を踏み入れた者たちである。
+	Kappa_Crimson: 河童はあらゆる技術の開発に長けている。この河童たちは、素材や発想を求めて真紅の地へと足を踏み入れた者たちである。
+	Kappa_Hallow: すべての河童は水を操る能力を持つが、その強さには個体差がある。多くの河童にとっては、遠距離攻撃の武器を使う方が実用的な選択肢となる。
+	VengefulSpirit: 怨霊は、強い恨みを抱いたまま死んだ人間の魂から生まれる。人間や妖怪に取り憑くことができるため、恐れられている。
+	Yamawaro_Forest: 山童は、川を離れ、妖怪の山の森林に住み着いた河童たちである。彼らの技術もまた進化を遂げ、水の代わりに植物を活用するものへと変化していった。
+	Yamawaro_Jungle: 河童から分かれた山童は、水ではなく植物を活用する技術が優れていることを証明しようと決意している。最近では、その技術の有用性を示すため、危険な地域への進出も始めている。
+	YoukaiRabbit: 長い年月を生きたことで妖怪へと変化した兎。多くは迷いの竹林に住んでいるが、中には人間の里でペットとして贅沢な暮らしを楽しんでいる者もいる。月の兎とは異なる存在である。
+	# ----- Town NPCs -----
+	RinnosukeMorichika: 幻想郷出身の半妖で、何らかの理由でここに迷い込んでしまった。故郷では、外の世界の品々を専門に扱う骨董店を営んでいる。
+}
+
+Prefixes: {
+	CooldownReduction: {
+		DisplayName: せっかち
+		Tooltip: 「{0}% アイテムのクールダウン時間を短縮」
+	}
+}
+
+Projectiles: {
+	# ----- Bosses -----
+	#恐らくプレイにおいて関係ないため放置（弾幕の名前っぽい）
+	# Alice Margatroid
+	AliceMargatroid_DollBeam.DisplayName: Magic Ray
+	AliceMargatroid_DollBullet.DisplayName: Danmaku
+	AliceMargatroid_DollExplosion.DisplayName: Explosion
+	# Cirno
+	Cirno_IceClump.DisplayName: Ice Clump
+	Cirno_IcicleLarge.DisplayName: Icicle
+	Cirno_IcicleMedium.DisplayName: Icicle
+	Cirno_IcicleMissile.DisplayName: Ice Shard
+	Cirno_IcicleSmall.DisplayName: Icicle
+	Cirno_PerfectFreeze.DisplayName: Perfect Freeze
+	Cirno_Snowflake.DisplayName: Snowflake
+	# Eternity Larva
+	EternityLarva_BlueBullet.DisplayName: Danmaku
+	EternityLarva_Butterfly.DisplayName: Butterfly
+	EternityLarva_SwallowtailScaleGreen.DisplayName: Swallowtail Scale
+	EternityLarva_SwallowtailScaleYellow.DisplayName: Swallowtail Scale
+	# Hina Kagiyama
+	HinaKagiyama_BrokenTalisman.DisplayName: Broken Talisman
+	HinaKagiyama_CurseNeedle.DisplayName: Curse Needle
+	HinaKagiyama_MisfortuneFamiliar.DisplayName: Miasma
+	HinaKagiyama_MisfortuneOrb.DisplayName: Misfortune Orb
+	HinaKagiyama_OhganeBouncing.DisplayName: Old Lady Ohgane's Fire
+	HinaKagiyama_OhganeFamiliar.DisplayName: Old Lady Ohgane's Fire
+	HinaKagiyama_OhganeFireball.DisplayName: Old Lady Ohgane's Fire
+	# 蓬莱山 輝夜
+	KaguyaHouraisan_Beam.DisplayName: Magic Ray
+	KaguyaHouraisan_BeamSource_BuddhaStonebowl.DisplayName: Beam Source
+	KaguyaHouraisan_BeamSource_SwallowCowrieShell.DisplayName: Beam Source
+	KaguyaHouraisan_BulletSpawner.DisplayName: Danmaku
+	KaguyaHouraisan_FireRatRobe_Fireball.DisplayName: Fireball
+	KaguyaHouraisan_FireRatRobe_Orb.DisplayName: Fiery Orb
+	KaguyaHouraisan_InverterBullet.DisplayName: Danmaku
+	KaguyaHouraisan_Meteor.DisplayName: Night Meteor
+	KaguyaHouraisan_RainbowBullet.DisplayName: Hourai Orb
+	KaguyaHouraisan_RainbowLaserSpear.DisplayName: Laser Spear
+	KaguyaHouraisan_RainbowOrb.DisplayName: Danmaku
+	KaguyaHouraisan_StarDanmaku.DisplayName: Starfall
+	KaguyaHouraisan_StonebowlArrowhead.DisplayName: Danmaku
+	# Kisume
+	Kisume_Bone.DisplayName: Bone
+	Kisume_Skull.DisplayName: Skull
+	Kisume_WillOWisp.DisplayName: Will-o'-Wisp
+	# 古明地 こいし
+	KoishiKomeiji_EmbersOfLove_Heart.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_Heart.DisplayName}"
+	KoishiKomeiji_EmbersOfLove_Source.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_Heart.DisplayName}"
+	KoishiKomeiji_GeneticsOfTheUnconscious_Orb.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_GeneticsOfTheUnconscious_Source.DisplayName}"
+	KoishiKomeiji_GeneticsOfTheUnconscious_Source.DisplayName: Unconscious Attack
+	KoishiKomeiji_Heart.DisplayName: Heart
+	KoishiKomeiji_Mindrazor.DisplayName: Mindrazor
+	KoishiKomeiji_PolygraphBullet.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_PolygraphLaser.DisplayName}"
+	KoishiKomeiji_PolygraphLaser.DisplayName: Youkai Polygraph
+	KoishiKomeiji_Pursuer.DisplayName: Pursuer
+	KoishiKomeiji_SubterraneanRoseStalk.DisplayName: Subterranean Rose
+	KoishiKomeiji_SubterraneanRoseBloom.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_SubterraneanRoseStalk.DisplayName}"
+	KoishiKomeiji_SubterraneanRoseBud.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_SubterraneanRoseStalk.DisplayName}"
+	KoishiKomeiji_SubterraneanRosePetal.DisplayName: "{$Mods.Gensokyo.Projectiles.KoishiKomeiji_SubterraneanRoseStalk.DisplayName}"
+	# Lily White
+	LilyWhite_CherryPetal.DisplayName: Cherry Petal
+	LilyWhite_MagentaPetal.DisplayName: Flower Petal
+	LilyWhite_MagentaPistil.DisplayName: Pistil
+	LilyWhite_WhitePetal.DisplayName: Flower Petal
+	LilyWhite_WhitePistil.DisplayName: Pistil
+	LilyWhite_YellowPetal.DisplayName: Flower Petal
+	# Mayumi Joutouguu
+	MayumiJoutouguu_ClayArrow.DisplayName: Clay Arrow
+	MayumiJoutouguu_ClayBlockArrow.DisplayName: Clay Arrow
+	MayumiJoutouguu_ClayThrowingKnife.DisplayName: Clay Throwing Knife
+	# Medicine Melancholy
+	MedicineMelancholy_DeliriumBullet_Large.DisplayName: Delirium
+	MedicineMelancholy_DeliriumBullet_Small.DisplayName: Delirium
+	MedicineMelancholy_PoisonCloud.DisplayName: Poisonous Gas
+	MedicineMelancholy_PoisonOrb.DisplayName: Poison Orb
+	MedicineMelancholy_PoisonPetal.DisplayName: Poison Petal
+	# Minamitsu Murasa
+	MinamitsuMurasa_CursedAnchor.DisplayName: Cursed Anchor
+	MinamitsuMurasa_Droplet.DisplayName: Droplet
+	MinamitsuMurasa_WaterBullet.DisplayName: Water Orb
+	# ミスティア・ローレライ
+	MystiaLorelei_Note.DisplayName: Piercing Sound
+	MystiaLorelei_SparrowSong.DisplayName: Sparrow Song
+	MystiaLorelei_Moth.DisplayName: Night Moth
+	# Nazrin
+	Nazrin_Diamond.DisplayName: Diamond
+	Nazrin_GuidingLight.DisplayName: Guiding Light
+	Nazrin_Hoard.DisplayName: Treasure Hoard
+	Nazrin_Radar.DisplayName: Treasure Radar
+	# Nitori Kawashiro
+	NitoriKawashiro_BubbleLarge.DisplayName: Bubble
+	NitoriKawashiro_BubbleSmall.DisplayName: Bubble
+	NitoriKawashiro_KappaBomb.DisplayName: Bomb
+	NitoriKawashiro_KappaRocket.DisplayName: Rocket
+	NitoriKawashiro_MortarShell.DisplayName: Mortar Shell
+	NitoriKawashiro_MortarShellExplosion.DisplayName: Mortar Shell
+	NitoriKawashiro_WaterBurst.DisplayName: Water Burst
+	NitoriKawashiro_WaterGrenade.DisplayName: Water Grenade
+	NitoriKawashiro_WaterOrb.DisplayName: Water Orb
+	# Rumia
+	Rumia_MoonlightOrb.DisplayName: Moonlight Orb
+	Rumia_MoonlightRay.DisplayName: Moonlight Ray
+	# Sakuya Izayoi
+	SakuyaIzayoi_PlayingCard.DisplayName: Playing Card
+	SakuyaIzayoi_SilverThrowingKnifeBlue.DisplayName: Silver Throwing Knife
+	SakuyaIzayoi_SilverThrowingKnifeGreen.DisplayName: Silver Throwing Knife
+	SakuyaIzayoi_SilverThrowingKnifeRed.DisplayName: Silver Throwing Knife
+	# 鬼人 正邪
+	SeijaKijin_BrightPinkBullet.DisplayName: Danmaku
+	SeijaKijin_InverterBullet.DisplayName: Inverter Bullet
+	SeijaKijin_ReverseArrow.DisplayName: Reverse Arrow
+	# Seiran
+	Seiran_BulletBlue.DisplayName: Bullet
+	Seiran_BulletRed.DisplayName: Bullet
+	Seiran_DimensionPortal.DisplayName: Dimensional Portal
+	Seiran_EnergyOrb.DisplayName: Energy Orb
+	# Sekibanki
+	Sekibanki_EyeLaser.DisplayName: Eye Laser
+	Sekibanki_PinkOvalBullet.DisplayName: Danmaku
+	Sekibanki_TrailProjectile.DisplayName: Danmaku
+	# 比那名居 天子
+	TenshiHinanawi_FireRing.DisplayName: Sword of Hisou
+	TenshiHinanawi_HomingScarletBullet.DisplayName: Scarlet Orb
+	TenshiHinanawi_KeystoneBig.DisplayName: Keystone
+	TenshiHinanawi_KeystoneMedium.DisplayName: Keystone
+	TenshiHinanawi_KeystoneSmall.DisplayName: Keystone
+	TenshiHinanawi_KeystoneTiny.DisplayName: Keystone
+	TenshiHinanawi_RainbowLaser.DisplayName: Danmaku
+	TenshiHinanawi_ScarletBullet.DisplayName: Spirit Energy
+	TenshiHinanawi_SkyOfScarletPerception.DisplayName: Sky of Scarlet Peception
+	TenshiHinanawi_SkyOfScarletPerceptionSource.DisplayName: Sky of Scarlet Peception
+	# 豊聡耳 神子
+	ToyosatomimiNoMiko_ArmillarySphereBullet.DisplayName: Light Orb
+	ToyosatomimiNoMiko_ArrowOfLight.DisplayName: Arrow of Light
+	ToyosatomimiNoMiko_ColoredRank.DisplayName: Danmaku
+	ToyosatomimiNoMiko_ColoredRank_Laser.DisplayName: Danmaku
+	ToyosatomimiNoMiko_ColoredRank_Orb.DisplayName: Light Orb
+	ToyosatomimiNoMiko_GoldenDagger.DisplayName: Golden Dagger
+	ToyosatomimiNoMiko_GoldenSword.DisplayName: Golden Sword
+	ToyosatomimiNoMiko_LightOrb_GuseFlash.DisplayName: Light Orb
+	ToyosatomimiNoMiko_LightOrb_Taoist.DisplayName: Light Orb
+	ToyosatomimiNoMiko_LightOrb_WayOfHeaven.DisplayName: Light Orb
+	ToyosatomimiNoMiko_LightRay.DisplayName: Light Ray
+	ToyosatomimiNoMiko_ShrapnelBullet.DisplayName: Danmaku
+	# Tsukumo Sisters
+	BenbenTsukumo_Fire.DisplayName: Spirit Fire
+	BenbenTsukumo_FireLarge.DisplayName: "{$Mods.Gensokyo.Projectiles.BenbenTsukumo_Fire.DisplayName}"
+	BenbenTsukumo_Note.DisplayName: "{$Mods.Gensokyo.Items.MagicalBiwa.DisplayName}"
+	BenbenTsukumo_Rest.DisplayName: "{$Mods.Gensokyo.Items.MagicalBiwa.DisplayName}"
+	BenbenTsukumo_String.DisplayName: "{$Mods.Gensokyo.Items.MagicalBiwa.DisplayName}"
+	BenbenTsukumo_TrailingString.DisplayName: "{$Mods.Gensokyo.Items.MagicalBiwa.DisplayName}"
+	TsukumoSisters_Star.DisplayName: Song of Falling Stars
+	YatsuhashiTsukumo_Arrow.DisplayName: Piercing Sound
+	YatsuhashiTsukumo_Note.DisplayName: "{$Mods.Gensokyo.Items.MagicalKoto.DisplayName}"
+	YatsuhashiTsukumo_Rest.DisplayName: "{$Mods.Gensokyo.Items.MagicalKoto.DisplayName}"
+	YatsuhashiTsukumo_ScatterShotNote.DisplayName: "{$Mods.Gensokyo.Items.MagicalKoto.DisplayName}"
+	# Utsuho Reiuji
+	UtsuhoReiuji_ClassMStar.DisplayName: Stellar Orb
+	UtsuhoReiuji_ClassOStar.DisplayName: Stellar Orb
+	UtsuhoReiuji_HeatRay.DisplayName: Fusion Ray
+	UtsuhoReiuji_PlasmaBall.DisplayName: Plasma
+	UtsuhoReiuji_RedGiant.DisplayName: Red Giant
+	UtsuhoReiuji_SolarBullet.DisplayName: Stellar Orb
+	UtsuhoReiuji_SolarEjecta.DisplayName: Stellar Ejecta
+	# ----- Enemies -----
+	BambooStalk.DisplayName: Bamboo Stalk
+	Petal.DisplayName: Petal
+	CrystalSpike.DisplayName: Crystal Spike
+	LavaOrb.DisplayName: Lava Orb
+	OreShot.DisplayName: Ore
+	RainDroplet.DisplayName: Rain Droplet
+	RainCloud.DisplayName: Rain Cloud
+	Sandball.DisplayName: Sandball
+	Sandstorm.DisplayName: Sandstorm
+	Snowball.DisplayName: Snowball
+	SporeCloud.DisplayName: Spore Cloud
+	Stalactite.DisplayName: Stalactite
+	SunflowerPetal.DisplayName: Sunflower Petal
+	Thorn.DisplayName: Thorny Vine
+	WaterDroplet.DisplayName: Water Droplet
+	BloodShot.DisplayName: Blood Shot
+	Fireball.DisplayName: Fireball
+	WaterShot.DisplayName: Water Shot
+	Cursefire.DisplayName: Cursed Fire
+	IchorExplosion.DisplayName: Explosion
+	IchorSticky.DisplayName: Ichor Sticky
+	CrystalMortarShell.DisplayName: Crystal Shard Mortal
+	CrystalShard.DisplayName: Crystal Shard
+	LeafShot.DisplayName: Leaf Shot
+	SpiritFlame.DisplayName: Spirit Flame
+	Firecracker.DisplayName: Firecracker
+	# ----- Player Projectiles -----
+	AutumnBreeze_Leaf.DisplayName: Colorful Leaf
+	BewitchedSilverBlade_Blade.DisplayName: Silver Blade
+	BewitchedSilverBlade_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.BewitchedSilverBlade.DisplayName}"
+	BewitchedSilverBlade_ThrowingKnife.DisplayName: Silver Throwing Knife
+	BlessedSpear_Shot.DisplayName: Blessed Spear
+	BlessedSpear_Spear.DisplayName: Blessed Spear
+	BlightedHakkero_Fire.DisplayName: Blighted Flame
+	BlightedHakkero_DarkSpark.DisplayName: Dark Spark
+	BlightedHakkero_Hakkero.DisplayName: Blighted Hakkero
+	BombDoll_Doll.DisplayName: Bomb Doll
+	BossTester_Projectile.DisplayName: Boss Tester
+	BoundaryBreaker_Phantasm.DisplayName: Phantasm
+	bowOfOmoikane_Arrow.DisplayName: Arrow of Omoikane
+	bowOfOmoikane_GenealogyOfTheCelestialsArrow.DisplayName: "{$Mods.Gensokyo.Projectiles.bowOfOmoikane_Arrow.DisplayName}"
+	bowOfOmoikane_GenealogyOfTheCelestials.DisplayName: Genealogy of the Celestials
+	BubbleDragon_BubbleHuge.DisplayName: "{$Mods.Gensokyo.Projectiles.BubbleDragon_BubbleSmall.DisplayName}"
+	BubbleDragon_BubbleLarge.DisplayName: "{$Mods.Gensokyo.Projectiles.BubbleDragon_BubbleSmall.DisplayName}"
+	BubbleDragon_BubbleSmall.DisplayName: Bubble
+	BubbleHydra_BubbleHuge.DisplayName: "{$Mods.Gensokyo.Projectiles.BubbleHydra_BubbleSmall.DisplayName}"
+	BubbleHydra_BubbleLarge.DisplayName: "{$Mods.Gensokyo.Projectiles.BubbleHydra_BubbleSmall.DisplayName}"
+	BubbleHydra_BubbleSmall.DisplayName: Bubble
+	BubbleHydra_CursedFire.DisplayName: Cursed Fire
+	BuddhaBeggingbowl_Mana.DisplayName: Mana Orb
+	BurstingRedFrog_Explosion.DisplayName: "{$Mods.Gensokyo.Items.BurstingRedFrog.DisplayName}"
+	CallOfTheDeep_Portal.DisplayName: Abyssal Portal
+	CallOfTheDeep_Tentacle.DisplayName: Call of the Deep
+	Ceramicbow_ClayArrow.DisplayName: Clay Arrow
+	CleansedCrystalMirror_Mirror.DisplayName: Crystal Mirror
+	CleansedCrystalMirror_BrightReflection.DisplayName: Bright Reflection
+	CleansedCrystalMirror_DarkReflection.DisplayName: Dark Reflection
+	ClosedThirdEye_Rose.DisplayName: Rose
+	ClosedThirdEye_RosePetal.DisplayName: Rose Petal
+	ClosedThirdEye_Laser.DisplayName: Reflex
+	CrownPrinceScepter_GoldenSword.DisplayName: Golden Sword
+	CrownPrinceScepter_Laser.DisplayName: Light Ray
+	CrownPrinceScepter_LaserPortal.DisplayName: Light Portal
+	CrowTenguCamera_Camera.DisplayName: Crow Tengu Camera
+	CrystallizedRose_CrystalOrb.DisplayName: Crystal Orb
+	CrystallizedRose_CrystalSpike.DisplayName: Crystal Spike
+	CrystalShardMortar_CrystalShard.DisplayName: Crystal Shard
+	CrystalShardMortar_MortarShell.DisplayName: Crystal Shard Mortar
+	CursedAnchor_Anchor.DisplayName: "{$Mods.Gensokyo.Items.CursedAnchor.DisplayName}"
+	CursedBloodSyringe_CursedBlood.DisplayName: Cursed Blood
+	CursedBloodSyringe_Syringe.DisplayName: Syringe
+	CursedDecoyDoll_Doll.DisplayName: Cursed Decoy Doll
+	CursefireThrower_CursedFire.DisplayName: Cursed Fire
+	DeepAnchor_Anchor.DisplayName: "{$Mods.Gensokyo.Items.DeepAnchor.DisplayName}"
+	DeepAnchor_GhostlyAnchor.DisplayName: Ghostly Anchor
+	DimensionRipper_Portal.DisplayName: Dimensional Portal
+	Dissonance_StringTrail.DisplayName: "{$Mods.Gensokyo.Items.Dissonance.DisplayName}"
+	Dissonance_Note.DisplayName: Dissonant Note
+	DivineIronRing_Ring.DisplayName: Divine Iron Ring
+	DollStaff_CasterDoll.DisplayName: Caster Doll
+	DollStaff_CasterDollBullet.DisplayName: Danmaku
+	DollStaff_LancerDoll.DisplayName: Lancer Doll
+	DowsingRod_CombatLight.DisplayName: Guiding Light
+	DowsingRod_GuidingLight.DisplayName: Guiding Light
+	DragonJewel_Jewel.DisplayName: Dragon's Jewel
+	DragonJewel_Laser.DisplayName: Laser Spear
+	DragonJewel_Orb.DisplayName: Danmaku
+	DragonPipe_Smoke.DisplayName: Purple Haze
+	EmbersOfLove_Heart.DisplayName: "{$Mods.Gensokyo.Items.EmbersOfLove.DisplayName}"
+	EmbersOfLove_Main.DisplayName: "{$Mods.Gensokyo.Items.EmbersOfLove.DisplayName}"
+	EnchantedVajras_Projectile.DisplayName: Enchanted Vajra
+	EssenceOfSpring_Projectile.DisplayName: "{$Mods.Gensokyo.Items.EssenceOfSpring.DisplayName}"
+	FairyFlower_Petal.DisplayName: Petal
+	FemtofiberWhip_Whip.DisplayName: "{$Mods.Gensokyo.Items.FemtofiberWhip.DisplayName}"
+	FireflyLantern_Firefly.DisplayName: "{$NPCName.Firefly}"
+	FlowersOfEdo_Fireball.DisplayName: "{$Mods.Gensokyo.Items.FlowersOfEdo.DisplayName}"
+	GadgetBackpack_KappaRocket.DisplayName: Kappa Rocket
+	GadgetBackpack_MortarShell.DisplayName: Kappa Mortar
+	GhostPrincessFan_Butterfly.DisplayName: Netherworld Butterfly
+	GhostPrincessFan_Fan.DisplayName: "{$Mods.Gensokyo.Items.GhostPrincessFan.DisplayName}"
+	GhostPrincessFan_Laser.DisplayName: "{$Mods.Gensokyo.Items.GhostPrincessFan.DisplayName}"
+	GiantFrog_Tongue.DisplayName: Frog Tongue
+	GiantFrog_WaterOrb.DisplayName: Water Orb
+	GraspingVine_Vine.DisplayName: "{$Mods.Gensokyo.Items.GraspingVine.DisplayName}"
+	GraspingVine_Whip.DisplayName: "{$Mods.Gensokyo.Items.GraspingVine.DisplayName}"
+	GravityAbyssEmitter_BlackHole.DisplayName: Black Hole
+	GrimoireOfPatchouli_Fireball.DisplayName: Fireball
+	GrimoireOfPatchouli_Leaf.DisplayName: Leaf
+	GrimoireOfPatchouli_MetalShard.DisplayName: Metal Shard
+	GrimoireOfPatchouli_RockShard.DisplayName: Rock Shard
+	GrimoireOfPatchouli_WaterBubble.DisplayName: Water Bubble
+	Gungnir_Projectile.DisplayName: Gungnir
+	HakureiPurificationRod_SpiritOrb.DisplayName: Fantasy Seal
+	HakureiPurificationRod_Talisman.DisplayName: Exorcism Talisman
+	Hakurouken_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.Hakurouken.DisplayName}"
+	Hakurouken_Shot.DisplayName: "{$Mods.Gensokyo.Items.Hakurouken.DisplayName}"
+	HaniwaStaff_ClayArrow.DisplayName: Clay Arrow
+	HaniwaStaff_HaniwaSoldier.DisplayName: Haniwa Soldier
+	IchorbombLauncher_Explosion.DisplayName: "{$Mods.Gensokyo.Projectiles.IchorbombLauncher_StickyBomb.DisplayName}"
+	IchorbombLauncher_StickyBomb.DisplayName: Ichor Sticky
+	IcicleStorm_Icicle.DisplayName: Icicle
+	IcicleWings_Icicle.DisplayName: Icicle
+	IcyGreatsword_IceClump.DisplayName: Ice Clump
+	IcyGreatsword_Mist.DisplayName: Icy Mist
+	IgnitionCards_Explosion.DisplayName: "{$Mods.Gensokyo.Items.IgnitionCards.DisplayName}"
+	IgnitionCards_IgnitionCard.DisplayName: "{$Mods.Gensokyo.Items.IgnitionCards.DisplayName}"
+	InfusedBamboo_BambooStalk.DisplayName: "{$Mods.Gensokyo.Items.InfusedBamboo.DisplayName}"
+	InfusedBamboo_MagicOrb.DisplayName: "{$Mods.Gensokyo.Items.InfusedBamboo.DisplayName}"
+	InfusedBamboo_Spear.DisplayName: "{$Mods.Gensokyo.Items.InfusedBamboo.DisplayName}"
+	JeweledBranchOfHourai_Orb.DisplayName: Hourai Orb
+	JeweledPagoda_CurvyLaser.DisplayName: Purification Beam
+	JeweledPagoda_Beam.DisplayName: Purification Beam
+	KappaWaterPistol_Shot.DisplayName: Water Shot
+	KappaWaterRifle_Shot.DisplayName: Water Burst
+	Keystone_AttackKeystone.DisplayName: Keystone
+	Koban_Yoyo.DisplayName: "{$Mods.Gensokyo.Items.Koban.DisplayName}"
+	KomainuFigurine_Komainu.DisplayName: Komainu
+	LeafCutter_LeafShot.DisplayName: Leaf Shot
+	LeafCyclone_Leaf.DisplayName: Leaf
+	LilyOfMurderousIntent_CurvyLaser.DisplayName: "{$Mods.Gensokyo.Items.LilyOfMurderousIntent.DisplayName}"
+	LilyOfMurderousIntent_Orb.DisplayName: "{$Mods.Gensokyo.Items.LilyOfMurderousIntent.DisplayName}"
+	LilyOfMurderousIntent_Source.DisplayName: "{$Mods.Gensokyo.Items.LilyOfMurderousIntent.DisplayName}"
+	Liquidator_IchorGrenade.DisplayName: Ichor Grenade
+	Liquidator_Shot.DisplayName: Ichor Burst
+	LivingUmbrella_Shield.DisplayName: Living Umbrella
+	LivingUmbrella_Sunflower.DisplayName: Sunflower
+	LivingUmbrella_Vine.DisplayName: Vine
+	LingeringCold_Mist.DisplayName: "{$Mods.Gensokyo.Items.LingeringCold.DisplayName}"
+	LunaticGun_RifleBullet.DisplayName: Lunatic Wave
+	LunaticGun_PistolBullet.DisplayName: Lunatic Richochet
+	LunaticGun_ShotgunBullet.DisplayName: Lunatic Blast
+	LunaticGun_ShotgunExplosion.DisplayName: "{$Mods.Gensokyo.Projectiles.LunaticGun_ShotgunBullet.DisplayName}"
+	MagicalKoto_Note.DisplayName: "{$Mods.Gensokyo.Items.MagicalKoto.DisplayName}"
+	MagicalKoto_Instrument.DisplayName: "{$Mods.Gensokyo.Items.MagicalKoto.DisplayName}"
+	MagicalBiwa_Instrument.DisplayName: "{$Mods.Gensokyo.Items.MagicalBiwa.DisplayName}"
+	MagicalBiwa_String.DisplayName: "{$Mods.Gensokyo.Items.MagicalBiwa.DisplayName}"
+	MagicianBroom_MagicCircle.DisplayName: Magic Circle
+	MagicianBroom_StarMagic.DisplayName: Star Magic
+	MagicSunflower_Petal.DisplayName: Sunflower Petal
+	MareKick_HighExplosiveBullet.DisplayName: High-Explosive Bullet
+	MiniHakkero_Hakkero.DisplayName: Mini-Hakkero
+	MiniHakkero_MasterSpark.DisplayName: Master Spark
+	MiniHakkero_Shot.DisplayName: Mini-Hakkero
+	MiracleMallet_GoldBrick.DisplayName: Gold Brick
+	MishagujiStaff_Mishaguji.DisplayName: Mishaguji
+	MishagujiStaff_CurseBreath.DisplayName: Curse Breath
+	MochiPoundingMallet_Mochi.DisplayName: Mochi
+	MoonlightRay_Source.DisplayName: Moonlight Ray
+	MoonlightRay_Beam.DisplayName: Moonlight Ray
+	MoriyaPurificationRod_Snake.DisplayName: Blessed Snake
+	MoriyaPurificationRod_Frog.DisplayName: Blessed Frog
+	MountainMurder_FilletKnife.DisplayName: Fillet Knife
+	MultiUseDrill_Drill.DisplayName: "{$Mods.Gensokyo.Items.MultiUseDrill.DisplayName}"
+	MusicalString_Note.DisplayName: "{$Mods.Gensokyo.Items.MusicalString.DisplayName}"
+	NanotechInk_MonochromeRay.DisplayName: Monochrome Ray
+	NanotechInk_MonochromeRaySource.DisplayName: Monochrome Ray
+	NanotechInk_Orb.DisplayName: Nanotech Orb
+	NanotechInk_Shot.DisplayName: Nanotech Ink
+	NovaCannon_Beam.DisplayName: Fusion Ray
+	NovaCannon_Cannon.DisplayName: "{$Mods.Gensokyo.Items.NovaCannon.DisplayName}"
+	NovaCannon_Explosion.DisplayName: "{$Mods.Gensokyo.Projectiles.NovaCannon_Beam.DisplayName}"
+	NovaCannon_Supernova.DisplayName: Supernova
+	NuclearDelimiter_Atom.DisplayName: "{$Mods.Gensokyo.Projectiles.NuclearDelimiter_Beam.DisplayName}"
+	NuclearDelimiter_Beam.DisplayName: Fusion Ray
+	NuclearDelimiter_BlackSun.DisplayName: Black Sun
+	NuclearDelimiter_Cannon.DisplayName: "{$Mods.Gensokyo.Items.NuclearDelimiter.DisplayName}"
+	OmikujiBomb_Omikuji.DisplayName: Omikuji
+	OmikujiBomb_Explosion.DisplayName: "{$Mods.Gensokyo.Projectiles.OmikujiBomb_Omikuji.DisplayName}"
+	OmikujiBomb_GreatBlessingFirework.DisplayName: "{$Mods.Gensokyo.Projectiles.OmikujiBomb_Omikuji.DisplayName}"
+	OmikujiBomb_Pursuer.DisplayName: "{$Mods.Gensokyo.Projectiles.OmikujiBomb_Omikuji.DisplayName}"
+	Onbashira_DivineWind.DisplayName: Divine Wind
+	Onbashira_Onbashira.DisplayName: "{$Mods.Gensokyo.Items.Onbashira.DisplayName}"
+	Osmeterium_StinkyCloud.DisplayName: Stinky Cloud
+	PersuasionNeedles_Needle.DisplayName: Persuasion Needle
+	PestilentWebSlinger_Web.DisplayName: Pestilent Web
+	PhoenixFlames_Slash.DisplayName: "{$Mods.Gensokyo.Items.PhoenixFlames.DisplayName}"
+	PhoenixFlames_PillarOfFire.DisplayName: Pillar of Fire
+	PhoenixFlames_PillarOfFire_Flames.DisplayName: "{$Mods.Gensokyo.Projectiles.PhoenixFlames_PillarOfFire.DisplayName}"
+	PossessedSilverBlade_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.PossessedSilverBlade.DisplayName}"
+	ProtectiveTalisman_Talisman.DisplayName: Protective Talisman
+	PrototypeDollStaff_DollExplosion.DisplayName: Explosion
+	PrototypeDollStaff_GoliathDoll.DisplayName: Goliath Doll
+	PrototypeDollStaff_MagicMissile.DisplayName: Magic Missile
+	PureFury_Orb.DisplayName: "{$Mods.Gensokyo.Items.PureFury.DisplayName}"
+	PurificationFan_PurificationWave.DisplayName: Purification Wave
+	RabbitStaff_Rabbit.DisplayName: Rabbit
+	RedChainOfFate_Chain.DisplayName: "{$Mods.Gensokyo.Items.RedChainOfFate.DisplayName}"
+	RedChainOfFate_Hook.DisplayName: "{$Mods.Gensokyo.Items.RedChainOfFate.DisplayName}"
+	Reversebow_Arrow.DisplayName: Reverse Arrow
+	RodentStaff_Mouse.DisplayName: Mouse
+	RodOfRemorse_JudgementLaser.DisplayName: Last Judgement
+	RodOfRemorse_Rod.DisplayName: "{$Mods.Gensokyo.Items.RodOfRemorse.DisplayName}"
+	Roukanken_Dash.DisplayName: "{$Mods.Gensokyo.Items.Roukanken.DisplayName}"
+	Roukanken_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.Roukanken.DisplayName}"
+	Roukanken_Slash.DisplayName: "{$Mods.Gensokyo.Items.Roukanken.DisplayName}"
+	SacredChannelingSword_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.SacredChannelingSword.DisplayName}"
+	SacredChannelingSword_AmaterasuLightBeam.DisplayName: Light of Amaterasu
+	SacredChannelingSword_GionSword.DisplayName: Sword of Gion
+	SacredChannelingSword_MikaboshiDarkStar.DisplayName: Star of Mikaboshi
+	Scalebow_LargeScale.DisplayName: Butterfly Scale
+	Scalebow_SmallScale.DisplayName: Butterfly Scale
+	SealingSmartphone_Smartphone.DisplayName: "{$Mods.Gensokyo.Items.SealingSmartphone.DisplayName}"
+	SealingSmartphone_ZenerCard.DisplayName: Zener Card
+	SevenStarSword_Beam.DisplayName: Light Ray
+	ShanghaiDoll_Beam.DisplayName: Magic Beam
+	ShanghaiDoll_Doll.DisplayName: "{$Mods.Gensokyo.Items.ShanghailDoll.DisplayName}"
+	Shatterer_Clusterbomb.DisplayName: Crystal Clusterbomb
+	Shatterer_Drill.DisplayName: "{$Mods.Gensokyo.Items.Shatterer.DisplayName}"
+	ShinigamiScythe_Coin.DisplayName: Coin
+	ShinigamiScythe_DeadlyWave.DisplayName: Deadly Wave
+	ShinigamiScythe_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.ShinigamiScythe.DisplayName}"
+	ShiningNeedleSword_Hook.DisplayName: Shining Needle Hook
+	ShiningNeedleSword_Needle.DisplayName: Shining Needle Sword
+	ShiningNeedleSword_Shot.DisplayName: Shining Needle
+	SilverThrowingKnives_ThrowingKnife.DisplayName: Silver Throwing Knife
+	SkullFlail_Bone.DisplayName: Bone
+	SkullFlail_Skull.DisplayName: "{$Mods.Gensokyo.Items.SkullFlail.DisplayName}"
+	SpareRokurokubiHead_Head.DisplayName: "{$Mods.Gensokyo.Items.SpareRokurokubiHead.DisplayName}"
+	SpareRokurokubiHead_Fire.DisplayName: Dark Fire
+	SparrowSong_Note.DisplayName: Punk Rock
+	SparrowStaff_Sparrow.DisplayName: Sparrow
+	SparrowSong_GuitarSolo.DisplayName: "{$Mods.Gensokyo.Items.SparrowSong_Note.DisplayName}"
+	SpiralOfFate_Source.DisplayName: "{$Mods.Gensokyo.Items.SpiralOfFate.DisplayName}"
+	SpiralOfFate_Trail.DisplayName: "{$Mods.Gensokyo.Items.SpiralOfFate.DisplayName}"
+	SpiritPhotographyCamera_Camera.DisplayName: Spirit Photography Camera
+	SwallowCowrieShell_Beam.DisplayName: Light of Life
+	SwallowtailWings_Scale.DisplayName: Swallowtail Scale
+	SwordOfHisou_Beam.DisplayName: "{$Mods.Gensokyo.Items.SwordOfHisou.DisplayName}"
+	SwordOfHisou_FireRing.DisplayName: "{$Mods.Gensokyo.Items.SwordOfHisou.DisplayName}"
+	SwordOfHisou_Source.DisplayName: "{$Mods.Gensokyo.Items.SwordOfHisou.DisplayName}"
+	TailFinSlapper_Whip.DisplayName: "{$Mods.Gensokyo.Items.TailFinSlapper.DisplayName}"
+	TailFinSlapper_Droplet.DisplayName: Water Droplet
+	TanukiSmokingPipe_Bird.DisplayName: Bird Apparition
+	TanukiSmokingPipe_Smoke.DisplayName: Transformative Smoke
+	TenguFan_DivineWind.DisplayName: Divine Wind
+	TenguFan_WindBlast.DisplayName: Wind Blast
+	TestTubes_Explosion.DisplayName: Red Solution
+	TestTubes_IcyMist.DisplayName: Blue Solution
+	TestTubes_PoisonDroplet.DisplayName: Green Solution
+	TestTubes_TestTube.DisplayName: Test Tube
+	Thorn_PoisonThorn.DisplayName: Poison Thorn
+	ThunderShot_Arc.DisplayName: Thunder Shot
+	ThunderShot_Orb.DisplayName: Thunder Shot
+	Trimorphe_CosmicRadiation.DisplayName: Cosmic Radiation
+	Trimorphe_Fire.DisplayName: Otherworldly Fire
+	Trimorphe_Star.DisplayName: Reflected Moonlight
+	Trimorphe_WaterOrb.DisplayName: Pale Blue Orb
+	Trimorphe_Yoyo.DisplayName: "{$Mods.Gensokyo.Items.Trimorphe.DisplayName}"
+	ToxinStaff_GasCloud.DisplayName: Toxic Gas
+	ToxinStaff_Source.DisplayName: Toxic Gas
+	UfoStaff_BlueLaser.DisplayName: Blue UFO
+	UfoStaff_Fireball.DisplayName: Red UFO
+	UfoStaff_GreenBeam.DisplayName: Green UFO
+	UfoStaff_Ufo.DisplayName: UFO
+	UncannyTrident_Darkness.DisplayName: Obscuring Darkness
+	UncannyTrident_Snake.DisplayName: Snake Apparition
+	UncannyTrident_Trident.DisplayName: "{$Mods.Gensokyo.Items.UncannyTrident.DisplayName}"
+	UnconsciousRequiem_MeleeEffect.DisplayName: "{$Mods.Gensokyo.Items.UnconsciousRequiem.DisplayName}"
+	UnconsciousRequiem_Slash.DisplayName: "{$Mods.Gensokyo.Items.UnconsciousRequiem.DisplayName}"
+	UnderworldRose_Petal.DisplayName: "{$Mods.Gensokyo.Items.UnderworldRose.DisplayName}"
+	UnderworldRose_Rose.DisplayName: "{$Mods.Gensokyo.Items.UnderworldRose.DisplayName}"
+	UnderworldRose_Thorn.DisplayName: "{$Mods.Gensokyo.Items.UnderworldRose.DisplayName}"
+	VerminStaff_FoulGlob.DisplayName: Foul Glob
+	VerminStaff_Rat.DisplayName: Giant Rat
+	WerewolfClaw_Slash.DisplayName: "{$Mods.Gensokyo.Items.WerewolfClaw.DisplayName}"
+	WerewolfClaw_Wolf.DisplayName: Werewolf Pounce
+	WillowStaff_SekibankiEyeLaser.DisplayName: Eye Laser
+	WillowStaff_SekibankiHead.DisplayName: Disembodied Head
+	WindPriestessStaff_WindBlast.DisplayName: Wind Blast
+	WindPriestessStaff_SyllableStab.DisplayName: Syllable Stab
+	WingedDoll_Doll.DisplayName: Winged Doll
+	WispStaff_WillOWisp.DisplayName: Will-o'-Wisp
+	WolfTenguSaber_Tooth.DisplayName: "{$Mods.Gensokyo.Items.WolfTenguSaber.DisplayName}"
+	YamanbaCleaver_Slash.DisplayName: "{$Mods.Gensokyo.Items.YamanbaCleaver.DisplayName}"
+	YoukaiSageUmbrella_EyeOfLaplace.DisplayName: Watcher
+	YoukaiSageUmbrella_EyeOfLaplaceLaser.DisplayName: Gaze
+	YoukaiSageUmbrella_Gap.DisplayName: Gap
+	BossProjectile.DisplayName: Boss Projectile
+}
+
+SpellcardNames: {
+	# 99% of spellcard names contain quotation marks themselves. To preserve these, the translation entry needs to
+	# be contained in ''' marks. For consistence, these are used here even for spellcard names where they are not
+	# strictly needed (like Tenshi Stage 7), and this should not be changed.
+	# 結構該当するスペルカードがないものがある。通常弾幕をアレンジしたものもあるらしく、スぺカ該当しなさそうなものは普通に翻訳したり、近しいものがあればそれにしている
+	AliceMargatroid: {
+		Stage1: '''人形「パペットマスター」 ''' 
+		Stage2: '''咒詛「蓬莱人形」 '''
+		Stage3: '''犠牲「スーサイドパクト」 '''
+		Stage4: ''' 騎士「ドールオブラウンドテーブル」'''
+	}
+
+	BenbenTsukumo: {
+		Stage1: '''怨霊「平家の大怨霊」 '''
+		Stage2: '''楽符「邪悪な五線譜」 '''
+		Stage3: '''音符「大熱唱琵琶」'''
+		Stage4: '''弦楽「浄瑠璃世界」 '''
+	}
+
+	Cirno: {
+		Stage1: '''氷符「アイシクルフォール」'''
+		Stage2: '''氷塊「コールドスプリンクラー」 '''
+		Stage3: '''氷符「アイシクルミサイル」 '''
+		Stage4: '''凍符「パーフェクトフリーズ」 '''
+	}
+
+	EternityLarva: {
+		Stage1: '''蝶符「ミニットスケールス」 '''
+		Stage2: '''蝶符「バタフライドリーム」 '''
+		Stage3: '''蝶符「真夏の羽ばたき」 '''
+	}
+
+	HinaKagiyama: {
+		Stage1: '''厄符「厄神様のバイオリズム」 '''
+		Stage2: '''悲運「大鐘婆の火」 '''
+		Stage3: '''創符「ペインフロー」 '''
+	}
+
+	KaguyaHouraisan: {
+		Stage1: '''夜符「流星群」'''
+		Stage2: '''難題「龍の頸の玉-五色の弾丸-」 '''
+		Stage3: '''難題「仏の御石の鉢-砕けぬ意思-」 '''
+		Stage4: '''難題「火鼠の皮衣-焦れぬ心-」 '''
+		Stage5: '''難題「燕の子安貝-永命線-」 '''
+		Stage6: '''難題「蓬莱の弾の枝-虹色の弾幕-」 '''
+	}
+
+	LilyWhite: {
+		Stage1: '''花符「スプリングブロッサム」 '''
+		Stage2: '''春符「春のそよ風」 '''
+		Stage3: '''春符「サプライズスプリング」 '''
+	}
+
+	KoishiKomeiji: {
+		Stage1: '''薔符「世界の薔薇」 '''
+		Stage2: '''
+				本能「イドの解放」
+				抑制「スーパーエゴ」 
+				'''
+		Stage3: '''偏執 「隠れた追跡者」 '''
+		Stage4: '''反応「妖怪ポリグラフ」 '''
+		Stage5: '''深層「無意識の遺伝子」 '''
+		Stage6: 「サブタレイニアンローズ」
+	}
+
+	MayumiJoutouguu: {
+		Stage1: '''弓符 "矢の雨" '''
+		Stage2: '''埴輪「弓兵埴輪」 '''
+		Stage3: '''埴輪「剣士埴輪」 '''
+		Stage4: '''埴輪「騎馬兵埴輪」 '''
+		Stage5: '''埴輪「がらんどうの無尽兵団」 '''
+	}
+
+	MedicineMelancholy: {
+		Stage1: '''毒符「憂鬱の毒」 '''
+		Stage2: '''譫妄「イントゥデリリウム」 '''
+		Stage3: '''人形「見捨てられた人形」 '''
+		Stage4: ポイズンハート
+	}
+
+	MinamitsuMurasa: {
+		Stage1: '''転覆「道連れアンカー」 '''
+		Stage2: '''溺符「ディープヴォーテックス」 '''
+		Stage3: '''湊符「幽霊船の港」 '''
+		Stage4: '''幽霊「忍び寄る柄杓」 '''
+	}
+
+	MystiaLorelei: {
+		Stage1: '''鳥符「ヒューマンケージ」 '''
+		Stage2: '''夜盲「夜雀の歌」 '''
+		Stage3: '''夜雀「真夜中のコーラスマスター」 '''
+	}
+
+	Nazrin: {
+		Stage1: '''捜符「レアメタルディテクター」 '''
+		Stage2: '''棒符 "トレジャーレーダー" '''
+		Stage3: '''守符「ペンデュラムガード」 '''
+	}
+
+	NitoriKawashiro: {
+		Stage1: '''水符「グレートイリュージョナリーウェーブ」 '''
+		Stage2: '''機符「河童テクノロジー」 '''
+		Stage3: '''泡符「撃て!バブルドラゴン」 '''
+		Stage4: '''兵器「超妖怪弾頭」 '''
+	}
+
+	Rumia: {
+		Stage1: '''月符「ムーンライトレイ」 '''
+		Stage2: '''夜符「ナイトバード」 '''
+		Stage3: '''闇符「ダークサイドオブザムーン」 '''
+	}
+
+	SakuyaIzayoi: {
+		Stage1: '''銀符「シルバーレイン」 '''
+		Stage2: '''幻符「殺人ドール」 '''
+		Stage3: '''幻葬「夜霧の幻影殺人鬼」 '''
+		Stage4: '''時符「トンネルエフェクト」 '''
+		Stage5: '''幻世「ザ・ワールド」'''
+	}
+
+	SeijaKijin: {
+		Stage1: '''螺符「天地ひっくり返し」 '''
+		Stage2: '''逆符「イビルインザミラー」 '''
+		Stage3: '''逆符「天下転覆」 '''
+		Stage4: '''逆弓「天壌夢弓」 '''
+		Stage5: '''逆転「リバースヒエラルキー」 '''
+	}
+
+	Seiran: {
+		Stage1: '''弾符「ラビットファルコナー」 '''
+		Stage2: '''弾符「イーグルシューティング」 '''
+		Stage3: '''銃符「ルナティックガン」 '''
+	}
+
+	Sekibanki: {
+		Stage1: '''飛頭「デュラハンナイト」 '''
+		Stage2: '''眼光「ヘルズレイ」 '''
+		Stage3: '''飛首「ヘッドオンアタック」 '''
+	}
+
+	TenshiHinanawi: {
+		Stage1: '''要石「天空の霊石」 '''
+		Stage2: '''天剣「緋想の剣」 '''
+		Stage3: '''虹符「天人の弾幕」 '''
+		Stage4: '''昇符「遥かなる空へ」 '''
+		Stage5: '''要石「カナメファンネル」 '''
+		Stage6: '''墜符「地に降り注ぐ雨」 '''
+		Stage7: 「全テラリアンの緋想天」 "
+	}
+
+	ToyosatomimiNoMiko: {
+		Stage1: '''名誉「十二階の冠位」 '''
+		Stage2: '''仙符「日出ずる処の道士」 '''
+		Stage3: '''秘宝「斑鳩寺の天球儀」 '''
+		Stage4: ''' 宝符「日出ずる所の宝物庫」 '''
+		Stage5: '''光符「グセフラッシュ」 '''
+		Stage6: '''「我こそが天道なり」 '''
+	}
+
+	UtsuhoReiuji: {
+		Stage1: '''陽符「ソーラーエラプション」 '''
+		Stage2: '''核熱「核反応制御不能」 '''
+		Stage3: '''獄炎「インフェルノエラプション」 '''
+		Stage4: '''Atomic Fire "Nuclear Dive" '''
+		Stage5: '''核熱「核反応制御不能ダイブ」 '''
+		Stage6: 「ヘルズトカマク」
+		Stage7: 「地獄の人工太陽」
+	}
+
+	YatsuhashiTsukumo: {
+		Stage1: '''響符「平安の残響」 '''
+		Stage2: '''箏曲「世情騒然レクイエム」 '''
+		Stage3: '''箏符「天の祝詞」 '''
+		Stage4: '''弦楽「浄瑠璃世界」 '''
+	}
+}
+
+ShopMenu: {
+	ShopCurioTrader: 霖之助のショップ
+	ToggleButtonShow: 表示
+	ToggleButtonHide: 非表示
+	SellSlotHoverText: Sell items
+
+	Category: {
+		Weapons: 武器
+		Tools: 道具
+		Armor: 防具
+		Vanity: 衣装
+		Accessories: アクセサリー
+		Pets: ペット
+		Mounts: マウント
+		Potions: ポーション
+		Consumables: 消費アイテム
+		Placeables: 設置物
+		Miscellaneous: その他
+		Buyback: 買い戻し
+	}
+}
+
+TownNPCChat: {
+	RinnosukeMorichika: {
+		Generic1: こんな生き物は見たことがないな…未確認生物なのか？  
+		Generic2: 自分以外に男性がいるのはなんだか妙な感じだ。  
+		Generic3: ここが外の世界なのか？想像していたのとは違うな。  
+		Generic4: 誰かがライカの世話をしてくれているといいが…。彼女を寂しくさせないと約束したんだ…。  
+		Generic5: 故郷を思い出せるような服を仕立てるのが好きだ。適切な場所と状況さえあれば、あちらの服装を正確に思い出せるんだが…。  
+		Daytime1: ここには朱鷺はいるのか？  
+		Daytime2: ここを撮影したがる女性を何人か知っているよ。  
+		Daytime3: 妖怪がいないのはありがたいが、スライムは妙に厄介だな。  
+		Eclipse: これは間違いなく何かの異変だな。  
+		Nighttime: 気をつけろ、妖怪は夜のほうが危険だ。  
+		Rain: また雨か。さて、今度はどんなマイナーな妖怪が世界征服を企んでいるのやら…。  
+		BloodMoon: 紅霧異変を思い出すな…。  
+		FakeMoon1: これは見覚えがある…。故郷で月を隠すための術を使っていた者がいたな。竹林に住む連中が、何かの脅威を防ぐために使っていたんだ。  
+		FakeMoon2: 本物の月を隠す術を破りたいなら、それをかけた者を倒す必要がある…。ここに竹林はあるのか？  
+		MartianMadness: おい、宇宙人だぞ！  
+		MushroomBiome: ここなら魔理沙が喜びそうだな。  
+		# Hints
+		UnderworldVanityHint: 最近、地獄から来た妖精が俺の故郷に引っ越してきたんだ。彼女の服はとても奇妙だったな。もしかすると、地獄の様子を見れば思い出せるかもしれない。
+		GraveyardVanityHint: 故郷では、寺の墓地によく怪しげな二人組がいたものだ。似たような場所を訪れれば、彼らの姿を思い出せるかもしれない。
+		# Progression
+		NoBossesDowned1: ここに来ているのは僕だけなのだろうか。あるいは、他にも知り合いが迷い込んでいるのかもしれないね。  
+		NoBossesDowned2: 僕がここにいるのは想定外だったが、知った顔が現れる可能性もあるだろう。ただ、そうなるには何かしらの「きっかけ」が必要そうだが…。  
+		AnyTier1BossDowned1: ふむ、君はなかなかやるようだね。ならば、少し品揃えを増やしてみたよ。役に立つかもしれない。  
+		AnyTier1BossDowned2: 僕の知る連中は打たれ強いからね。負けたくらいでは終わらないし、むしろ再戦を望むかもしれない。  
+		DownedLilyWhite: ところで、ここには四季というものがあるのかい？  
+		DownedEternityLarva: 妖精というのは、どうにも喧嘩好きなものだな。  
+		DownedRumia: ルーミアに会って無事だったとは、運が良かったね。  
+		DownedNazrin: ナズーリンがいるなら、命蓮寺の者たちもそのうち現れるかもしれないな。  
+		DownedMystiaLorelei: 夜雀は騒がしいこともあるが、彼女の作る豚骨ラーメンは絶品だよ。  
+		AnyTier2BossDowned1: 普通の人間なら、最弱の妖怪ですら手に余るはずだが…君は一体何者なんだ？  
+		AnyTier2BossDowned2CorruptionWorld: なるほど、また腕を上げたようだね。この調子なら、あの紫の禍々しいものをどうにかできるかもしれない。  
+		AnyTier2BossDowned2CrimsonWorld: なるほど、また腕を上げたようだね。この調子なら、あの赤い禍々しいものをどうにかできるかもしれない。  
+		DownedHinaKagiyama: 厄神と争うというのは、あまり縁起が良くなさそうだが…。  
+		DownedSekibanki: 首が飛ぶ妖怪か… 以前、人間の里で見かけたような気がするが… いや、気のせいかな。  
+		DownedSeiran: 君が戦ったあの兎妖怪、月の民の兵士らしいよ。それはそうと…ここの月、何か違和感がないかい？  
+		AnyTier3BossDowned1: どうも、少しずつ世界が変化してきているようだね。  
+		AnyTier3BossDowned2: これで新しい素材が手に入るな。少し試してみるか。君も、そろそろ装備を見直した方がいいんじゃないか？  
+		AnyTier3BossDowned3: 本来、弾幕は「美しさを競うもの」なんだが… ここではどうやら「いかに速く相手を倒すか」に変わっているらしいね。  
+		DownedNitoriKawashiro: 河童の技術は、相変わらず興味深いものだね。  
+		DownedMedicineMelancholy: 以前、外の世界の本で「化学兵器」というものを読んだことがあるが… あの人形は、それに当てはまるのではないか？  
+		DownedCirno: 氷の妖精を倒したところで、すぐに忘れてまた「最強」だと言い出すだろうね。  
+		AnyTier4BossDowned1: ふむ、君の力は幻想郷の強者たちにも匹敵し始めている。しかし、驕るのはまだ早いよ。  
+		AnyTier4BossDowned2: 景色を楽しむのも悪くはないが…どうにも、外の脅威のせいで気軽に出歩ける雰囲気ではないね。  
+		DownedMinamitsuMurasa: あの船幽霊も、久しぶりに海を見られて喜んでいることだろう。  
+		DownedAliceMargatroid: 人形遣いに会ったのかい？ 彼女は僕以上に隠居気質なはずだが。  
+		DownedTsukumoSisters: あれは戦いだったのか？ それとも音楽演奏だったのか？ まあ、生きた楽器なら、戦うことも演奏の一環なのかもしれないね。  
+		AnyTier5BossDowned1: 幻想郷は今、随分と静かになっているのかもしれないな。これほどの面々がこちらに来るとは。  
+		AnyTier5BossDowned2: ここを歩けば歩くほど、妙な魔法の品が見つかる… まさか、あのスキマ妖怪の仕業か？  
+		DownedSeijaKijin: まだ少し、世界がひっくり返って見えるな…。  
+		DownedSakuyaIzayoi: あの館のメイドは、僕の上客の一人だよ。珍しく、ちゃんと代金を払っていくからね。  
+		DownedMayumiJoutouguu: あの埴輪兵士の少女か？ いや、僕も詳しくは知らないね。恐らく、幻想郷の出身ではないのだろう。  
+		AnyTier6BossDowned1: おめでとう。君も異変解決人の仲間入りというわけか。  
+		AnyTier6BossDowned2: 最近の戦いは、なかなか見応えがあるね。巻き込まれたくはないが、つい目が離せなくなるよ。  
+		DownedToyosatomimiNoMiko: あの道士は、どうにも派手好きだね。最近、故郷で花火大会に勝ったとかいう話を聞いたよ。  
+		DownedKaguyaHouraisan: 月の亡命者を竹林の外で見るとは、なかなか珍しいことだね。君は運がいいのかもしれない。  
+		DownedKoishiKomeiji: そういえば、君は最近誰かと戦っていたはずだが… 誰だったか、どうにも思い出せないな…。不思議なこともあるものだ。  
+		AnyTier7BossDowned1: ふむ、君はまるで隠れた神のようだな。  
+		AnyTier7BossDowned2: さて、こんな時は酒でも飲むのが筋じゃないか？  
+		AnyTier7BossDowned3: 君の力は、もはや幻想郷の最強クラスを超えている。しかし、油断は禁物だよ。上には上がいるものだからね。  
+		DownedUtsuhoReiuji: 一体、誰があの鳥頭にこんな力を与えたんだ？  
+		DownedTenshiHinanawi: あの天人は、どこへ行っても騒ぎを起こすね。まったく、困ったものだ。  
+	}
+
+	HinaKagiyama: {
+		Warning1: 私はただ厄を集めているだけ…だから、放っておいてくれると助かるわ。  
+		Warning2: これ以上近づくと、厄が移ってしまうかもしれないわよ…。  
+		Warning3: 私の側にいると、良くないことが起こるかもしれないわ。早く離れた方がいいわよ…。  
+		FinalWarning: 私の人形をこれ以上壊すのはやめて…！ もう、追い払うしかないわね…。  
+		Rematch: また私の厄をかき乱しに来たのね…。仕方ないわ、相手をしてあげる。  
+		AlreadyActive: もしかして、守矢の神様たちの仕業…？  
+		ButtonYes: 仕方ないわね…。いくわよ！  
+	}
+
+	KaguyaHouraisan: {
+		AlreadyActive: 帰ったら永琳に診てもらおうかしら。  
+		RematchBasic: もう一度戦いたいの？ でも、今はあのカルト集団に集中した方がいいんじゃないかしら？  
+		DefeatedCultist: あなたの戦い、ちょっと故郷の決闘を思い出したわ。でも、少し品がないかしら。  
+		DefeatedPillars: さあ、本番はここからよ。忘れないで、これはあなたが選んだことなのよ？ もう一度戦ってみる？練習になるかもしれないわ。  
+		DefeatedMoonLord: あの化け物を倒してくれて助かったわ。月を隠すの、永琳なしでは結構大変だったのよ？  
+		EirinVanity: 助けて、永琳… なんて、冗談よ。  
+		MokouVanity: 一瞬、別の人かと思ったわ。残念ね。それ、妹紅の方が似合うと思うけど？  
+		Challenge1: 月からの脅威がどうとか、色々聞いたからね。だから、私なりに対処してみたの。止めてほしいなら、私を倒してみなさい。  
+		Challenge2: ええ、月を隠したのは私よ。戻してほしい？ なら、まずその覚悟を証明してみせなさい。  
+		Challenge3: 本当の月が見たい？ 戦う必要なんてないわ。あるものを持ってきてくれれば、すぐにでも戻してあげるのに… え？ だめ？ ふふ、試してみる価値はあったのだけれど。  
+		FightTimer: どこで戦うか、あなたに選ばせてあげるわ。その方が面白いでしょう？ {0}秒後にそちらへ行くわね。  
+		ButtonYes: 私と戦う？  
+		ButtonStartImmediately: 今すぐ始める  
+	}
+
+	KoishiKomeiji: {
+		KoishiKomeiji: {
+		Challenge1: わぁ、私が見えるの？ すごい！ ねぇねぇ、一緒に遊ぼうよ！  
+		Challenge2: ねぇ、そこの君！ ずーっと見てたんだよ！ だから、遊ぼう！ …戦おう！  
+		Challenge3: 何も考えないの、大好き！ 戦うのも大好き！ さぁ、いこう！  
+		DownedUtsuho: えっ、オクウを倒しちゃったの？ すごーい！ ねぇねぇ、私とも戦ってよ！  
+		Rematch: さっきの戦い、楽しかったね！ もう一回やろうよ！  
+		AlreadyActive: あれ？ あの子、私にそっくり！ なんだか不思議～！  
+		ButtonYes: やろう！ 
+		}
+	}
+
+	MystiaLorelei: {
+		FoodOffer1: うわっ、突然の鳥目？ それは大変！ でもね、ウナギを食べると良くなるって聞いたことがあるよ～♪  
+		FoodOffer2: 知ってる？ ウナギってすっごく健康にいいんだよ！ しかも、不思議な鳥目にも効くらしいの！  
+		Welcome1: いらっしゃいませ～！ 今日は何を食べる？  
+		Welcome2: いらっしゃい！ ねぇねぇ、お願いだから何か買ってよ～！ ここの屋台、開くのにめっちゃ借金したんだよ～！  
+		Welcome3: 気づいたらこんなところに来ちゃったけど… ま、せっかくだし屋台やるよ！  
+		Welcome4: ここの人たちに見せてやるんだから！ 鳥は食材じゃなくて、料理人の方が向いてるってね！  
+		YuyukoVanity: ひゃっ！？ 食べないでぇ～！ …あれ、な～んだ、別の人だった。びっくりした～！  
+		YuyukoVanityRematch: ひゃっ！？ 食べ…って、また君か～！ もう、びっくりさせないでよ！  
+		Rematch: また来たの？ ふふん、今度は負けないよ！  
+		AlreadyActive: ん？ 夢かな？ なんで私が二人いるの！？  
+		FakeMoon: うわぁ、月が変だよ～！ こんなのイヤ！ ねぇねぇ、お願いだから何とかしてよ！  
+		ButtonShop: ミスティアの居酒屋  
+		ButtonFight: 退治する！  
+	}
+
+	Dryad.FakeMoon: 自然とは絶えず移り変わるもの。しかし、ジャングルの地下には、時の流れから取り残されたかのように、永遠に変わることのない不思議な場所があった。
+	Guide.FakeMoon: 月に何が起こっているのか——それを知る者はここにはいない。だが、どこかに答えを知る者がいるかもしれない。手がかりを求め、人々に尋ねてみるといい。
+	Wizard.FakeMoon:月を封じる魔法……実に興味深い。その力は地下深くに眠っているようだ。{0}の方角に、何かが隠されているのかもしれない。  
+	Zoologist: {
+		FakeMoon: せっかく満月が見られると思ったのに…偽物！？超サイアク！
+		FakeMoonTransformed:つ、月が…おかしい… やだやだ！こんなのやだよ！
+	}
+}
+
+Tiles: {
+	AlchemyLaboratory.MapEntry: "{$Mods.Gensokyo.Items.AlchemyLaboratoryItem.DisplayName}"
+	Backdoor.MapEntry: "{$Mods.Gensokyo.Items.BackdoorItem.DisplayName}"
+	ButterflyPheromones.MapEntry: "{$Mods.Gensokyo.Items.ButterflyPheromones.DisplayName}"
+	IzakayaCookingPot.MapEntry: "{$Mods.Gensokyo.Items.IzakayaCookingPot.DisplayName}"
+	LunarianPurificationOrb.MapEntry: "{$Mods.Gensokyo.Items.LunarianPurificationOrb.DisplayName}"
+	MusicBox_AliceMargatroid.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_Cirno.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_EternityLarva.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_HinaKagiyama.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_KaguyaHouraisan.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_KoishiKomeiji.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_LilyWhite.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_MayumiJoutouguu.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_MedicineMelancholy.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_MinamitsuMurasa.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_MystiaLorelei.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_Nazrin.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_NitoriKawashiro.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_Rumia.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_SakuyaIzayoi.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_SeijaKijin.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_Seiran.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_Sekibanki.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_SubterraneanSun.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_TenshiHinanawi.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_ToyosatomimiNoMiko.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_TsukumoSisters.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	MusicBox_UtsuhoReiuji.MapEntry: "{$Mods.Gensokyo.Common.MusicBox}"
+	Painting_ComingOfSpring.MapEntry: "{$Mods.Gensokyo.Common.Painting}"
+	PhilosophersStone.MapEntry: "{$Mods.Gensokyo.Items.PhilosophersStoneItem.DisplayName}"
+	StellarPlasma.MapEntry: 恒星プラズマ
+}
