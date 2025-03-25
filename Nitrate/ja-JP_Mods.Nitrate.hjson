@@ -1,0 +1,64 @@
+Configs: {
+	NitrateConfig: {
+		DisplayName: Nitrate 設定
+
+		ExperimentalTileRenderer: {
+			Label: 実験的タイル・レンダラー
+			Tooltip: バニラ・システムより約5倍高速な実験的タイル・レンダラー機能
+		}
+
+		ExperimentalTileRendererWarning: {
+			Label: 実験的タイル・レンダラー警告を無効にする
+			Tooltip: 実験的なタイル・レンダラーを使用するときに表示されるゲーム参加時のメッセージを無効にします。
+		}
+
+		FasterCursor: {
+			Label: カーソルの高速化
+			Tooltip: カーソルのレンダリングを、ゲームのフレームレートに依存しない、より応答性の高いものに書き換えます。
+		}
+
+		UsesNewLaserRulerRendering: {
+			Label: 新しいレーザー定規のレンダリングを使用
+			Tooltip: 新しいレーザー定規レンダリングシステムを採用し、パフォーマンスを大幅に向上させます。
+		}
+
+		UsesAsyncSceneMetrics: {
+			Label: 非同期シーンメトリクスを使用
+			Tooltip: ""
+		}
+
+		UsesFasterPylonSystem: {
+			Label: より高速なパイロンシステムを採用
+			Tooltip: ""
+		}
+	}
+}
+
+Menu: {
+	NitrateWarning:
+		'''
+		Nitrate はまだ開発途中であることに注意してください。
+		今後機能が壊れたり、調整されたり、完全に削除・作り直される可能性もあります。
+		問題があれば報告してください。ゲームが壊れる可能性があることも念頭に置いてください！
+		'''
+	GiveUsMoney: ぜひサポートをご検討ください！
+	Patreon: "[c/FF424D:Patreon]: [c/7289DA:{0}] <-- (clickable!)"
+	PatreonPrefix: Patreon:
+	Discord: "[c/5865F2:Discord]: [c/7289DA:{0}]"
+	DiscordPrefix: Discord:
+	SIMD: Supports SIMD: {0}
+	NETVersion: .NET Version: {0}
+	OS: OS: {0}
+	Architecture: Architecture: {0}
+}
+
+StartupMessages: {
+	ExperimentalTileRendererWarning:
+		'''
+		現在、Nitrateの実験的タイル・レンダラーが有効化されています。
+		Nitrateのパフォーマンス向上の大部分は、このレンダラーによるものです。
+		しかしこの機能はまだ開発中であり、深刻なレンダリングの問題（あるいはクラッシュ！）を引き起こす可能性があります。
+		このレンダラーの使用は、このメッセージと同様に設定で切り替えることができます。
+		'''
+}
+

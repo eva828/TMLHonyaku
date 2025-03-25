@@ -1,0 +1,40 @@
+Configs: {
+	Configuration: {
+		SleepOnChair: {
+			Label: 椅子で眠る
+			Tooltip: 椅子に座ったまま眠ることができる。（実際に時間を早める効果がある）
+		}
+
+		DisplayName: 設定
+
+		SleepTogether: {
+			Label: 同じベッド/椅子を共有する
+			Tooltip: 他のプレーヤーと同じベッドや椅子に寝たり座ったりできる。
+		}
+
+		UsingItemStopsSleeping: {
+			Label: アイテムの使用で睡眠を止める
+			Tooltip: アイテムを使用したり、釣り竿を持つとプレイヤーは眠りから覚める。
+		}
+
+		FallAsleepImmediately: {
+			Label: すぐ眠りに落ちる
+			Tooltip: ベッドに入ってすぐに眠れる。
+		}
+
+		FallAsleepAlways: {
+			Label: 強制睡眠
+			Tooltip: 
+				'''
+				イベント発生時に強制的に眠り、時間を早められる。
+				（侵略、ブラッドムーン、日食、ピラー戦など）。
+				'''
+		}
+
+		ValidHouseRequirement: {
+			Label: 有効な家の条件
+			Tooltip: スポーンポイントを設定する際に、ベッドが有効な家の中にある必要がある。
+		}
+	}
+}
+

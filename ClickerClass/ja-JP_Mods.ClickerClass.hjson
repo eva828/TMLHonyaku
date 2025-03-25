@@ -1,0 +1,1837 @@
+Buffs: {
+	AutoClick: {
+		DisplayName: オートクリック
+		Description: マウスの左ボタンを押したまま自動クリックする
+	}
+
+	CookieBuff: {
+		DisplayName: クッキー
+		Description: クリックダメージ、半径、ライフ回復量が増加
+	}
+
+	Crystalized: {
+		DisplayName: 結晶化
+		Description: クリスタルの破片が散らばる
+	}
+
+	CrystalizedFatigue: {
+		DisplayName: 結晶化した疲労
+		Description: 再び結晶化させることはできない
+	}
+
+	Embrittle: {
+		DisplayName: 脆い
+		Description: クリックすると、この対象に{0}の追加ダメージを与える
+	}
+
+	Frozen: {
+		DisplayName: 凍結
+		Description: 凍り付いた
+	}
+
+	Gouge: {
+		DisplayName: グージ
+		Description: 急速にライフが失われていく
+	}
+
+	Haste: {
+		DisplayName: 急ぐ
+		Description: 移動速度とジャンプ速度が増加
+	}
+
+	HoneySlow: {
+		DisplayName: 蜂蜜
+		Description: 移動速度低下
+	}
+
+	InfluenceBuff: {
+		DisplayName: 影響力
+		Description: クリックの基本半径を{0}%増加
+	}
+
+	OverclockBuff: {
+		DisplayName: オーバークロック
+		Description: クリック効果に必要なクリック数を {0}% 減らす
+	}
+
+	Oozed: {
+		DisplayName: にじみ出る
+		Description: 移動速度が大幅に低下
+	}
+
+	HotWingsBuff: {
+		DisplayName: ホットな翼
+		Description: ダブルタップで猛ダッシュする
+	}
+
+	Seafoam: {
+		DisplayName: 海泡
+		Description: クリッカーによってダメージを受けたクリッカー使用者を回復させる
+	}
+
+	Stunned: {
+		DisplayName: 呆然
+		Description: その場で唖然とする
+	}
+
+	ArcaneEnchantment: {
+		DisplayName: 秘術のエンチャント
+		Description: クリックダメージとクリックダメージヒットボックスが増加
+	}
+
+	TranscendBuff: {
+		DisplayName: 超越した
+		Description: 次に受けるダメージを無効化し、代わりにライフを{0}%回復する
+	}
+
+	DesktopComputerBuff: {
+		DisplayName: デスクトップパソコン
+		Description: クリック効果に必要なクリック数を {0}% 減らす
+	}
+}
+
+Common: {
+	Tooltips: {
+		IncreasesMovementSpeedBy: 移動速度が{0}%増加
+		IncreasesClickDamageBy: クリックダメージが{0}%増加
+		IncreasesClickDamageByFlat: クリックダメージ{0}増加
+		IncreasedClickerDamage: 「クリッカーダメージ{0}%増加」
+		IncreasesClickCritChanceBy: クリックのクリティカル確率{0}%増加
+		IncreasesBaseClickRadiusBy: クリックの基本半径が{0}%増加
+		ReducesBaseClickRadiusBy: クリックの基本半径が{0}%減少
+		ReducesAmountOfClicksBy: クリック効果に必要なクリック数を {0}% 減らす
+		ReducesAmountOfClicksByFlat: クリック効果に必要なクリック数を {0} 減らす
+		ClickingGloveEvery: 戦闘中、現在のクリッカーを自動的にクリックする
+		Clicker: 範囲内の敵をクリックし、照準を合わせてダメージを与える
+		Clicks: "{0} {^0:click;clicks}"
+		SFXButtonTip:
+			'''
+			インベントリ内でクリックする際の音を変更する
+			音量はスタックサイズに応じて増加し、最大{0}まで
+			'''
+	}
+
+	Unknown: 不明
+}
+
+Conditions: {
+	ClickerSelected: クリッカー選択
+	ClickerTotalExceeds: 合計{0}クリック以上
+}
+
+DamageClasses: {
+	ClickerDamage: {
+		DisplayName: クイックダメージ
+
+		Focus: {
+			Name: クリッカーフォーカス
+			Description: クリック効果に必要なクリック数を {0} 減らす
+		}
+	}
+}
+
+Keybinds: {
+	ClickerAccessory: {
+		DisplayName: クリッカー・アクセサリー
+	}
+
+	ClickerAimAssist: {
+		DisplayName: クリッカー・エイムアシスト
+	}
+}
+
+Items: {
+	MiceFragment: {
+		DisplayName: マウスの断片
+		Tooltip: 「不規則な火花がこの破片の上を滑るように動きます」
+	}
+
+	AimAssistModule: {
+		DisplayName: Aim Assist モジュール
+		Tooltip:
+			'''
+			クリッカーアシストキーを押すと、カーソル地点にターゲットが選択される
+			クリックすると、カーソルの位置に関係なく、そのターゲットにクリックダメージが与えられる
+			ターゲットがあなたの半径から外れたり、あなたが直接ターゲットを見失った場合、ターゲットは失われる
+			'''
+	}
+
+	AimbotModule: {
+		DisplayName: Aimbot モジュール
+		Tooltip:
+			'''
+			クリックダメージ{0}%増加
+			クリックの基本半径が{1}%増加する
+			『クリックアシスト』キーを押すと、エイムボットが切り替わり、近くの敵を自動的にターゲット
+			ターゲットが死んだり見失ったりすると、可能であれば新しい近くのターゲットが選択されます
+			'''
+		Disabled: Aimbot 無効
+		Enabled: Aimbot 有効
+	}
+
+	DesktopComputer: {
+		DisplayName: デスクトップパソコン
+		Tooltip: クリック効果に必要なクリック数を{0}%減らす
+	}
+
+	DungeonKey: {
+		DisplayName: ダンジョンキー
+		Tooltip: ダンジョン内のダンジョンの宝箱のロックを解除する。
+	}
+
+	DungeonChest: {
+		DisplayName: ダンジョンの宝箱(罠)
+		Tooltip: ""
+	}
+
+	DungeonChest_Trapped: {
+		DisplayName: ダンジョンの宝箱(罠)
+		Tooltip: ""
+	}
+
+	MiceBathtub: {
+		DisplayName: マウスの浴場
+		Tooltip: ""
+	}
+
+	MiceBed: {
+		DisplayName: マウスのベッド
+		Tooltip: ""
+	}
+
+	MiceBookcase: {
+		DisplayName: マウスの本棚
+		Tooltip: ""
+	}
+
+	MiceBrick: {
+		DisplayName: マウスレンガ
+		Tooltip: ""
+	}
+
+	MiceBrickWall: {
+		DisplayName: マウスレンガの壁
+		Tooltip: ""
+	}
+
+	MiceCandelabra: {
+		DisplayName: マウスの燭台
+		Tooltip: ""
+	}
+
+	MiceCandle: {
+		DisplayName: マウスの蝋燭
+		Tooltip: ""
+	}
+
+	MiceChair: {
+		DisplayName: マウスの椅子
+		Tooltip: ""
+	}
+
+	MiceChandelier: {
+		DisplayName: マウスのシャンデリア
+		Tooltip: ""
+	}
+
+	MiceChest: {
+		DisplayName: マウスの宝箱
+		Tooltip: ""
+	}
+
+	MiceChest_Trapped: {
+		DisplayName: マウスの宝箱(罠)
+		Tooltip: ""
+	}
+
+	MiceClock: {
+		DisplayName: マウスの時計
+		Tooltip: ""
+	}
+
+	MiceDoor: {
+		DisplayName: マウスのドア
+		Tooltip: ""
+	}
+
+	MiceDresser: {
+		DisplayName: マウスのドレッサー
+		Tooltip: ""
+	}
+
+	MiceLamp: {
+		DisplayName: マウスのランプ
+		Tooltip: ""
+	}
+
+	MiceLantern: {
+		DisplayName: マウスのランタン
+		Tooltip: ""
+	}
+
+	MicePiano: {
+		DisplayName: マウスのピアノ
+		Tooltip: ""
+	}
+
+	MicePlatform: {
+		DisplayName: マウスの足場
+		Tooltip: ""
+	}
+
+	MiceSink: {
+		DisplayName: マウスの布
+		Tooltip: ""
+	}
+
+	MiceSofa: {
+		DisplayName: マウスのソファ
+		Tooltip: ""
+	}
+
+	MiceTable: {
+		DisplayName: マウスのテーブル
+		Tooltip: ""
+	}
+
+	MiceToilet: {
+		DisplayName: マウスのトイレ
+		Tooltip: ""
+	}
+
+	MiceWorkbench: {
+		DisplayName: マウスの作業台
+		Tooltip: ""
+	}
+
+	ABlissfulDay: {
+		DisplayName: 至福の一日
+		Tooltip: "'M. B. Nana'"
+	}
+
+	ConfectioneryMice: {
+		DisplayName: 菓子用マウス
+		Tooltip: "'L. Cake & S. Bobble'"
+	}
+
+	Galaxies: {
+		DisplayName: ギャラクシー
+		Tooltip: "'S. B. Bee'"
+	}
+
+	OutsideTheCave: {
+		DisplayName: 洞窟の外
+		Tooltip: 「'S. ストリーク」
+	}
+
+	Papa: {
+		DisplayName: パパ
+		Tooltip: 「'B. ブルシャー」
+	}
+
+	AncientClickingGlove: {
+		DisplayName: 古代のクリックグローブ
+		Tooltip: 戦闘中、1秒ごとに現在のクリッカーを自動的にクリック
+	}
+
+	BottomlessBoxofPaperclips: {
+		DisplayName: 底なしのクリップの箱
+		Tooltip:
+			'''
+			敵をクリックすると敵の物質を集める
+			十分な量の物質が集まると、ペーパークリップが炸裂する
+			'''
+	}
+
+	ButtonMasher: {
+		DisplayName: ボタンマッシャー
+		Tooltip: クリッカーを持っている間、1秒あたりのクリック数を表示
+	}
+
+	ChocolateChip: {
+		DisplayName: チョコレートチップ
+		Tooltip: "{0}回クリックするごとにダメージを与えるチョコレートを放つ"
+	}
+
+	BigRedButton: {
+		DisplayName: 大きな赤いボタン
+		Tooltip: "{0}回クリックするごとに、大きな火のような爆発が起こる"
+	}
+
+	ChocolateMilkCookies: {
+		DisplayName: チョコレートミルク＆クッキー
+		Tooltip:
+			'''
+			装備している間、クッキーが定期的にクリッカー範囲内にスポーンする
+			クッキーをクリックすると、クリッカーダメージ、範囲、ライフ回復のボーナスが得られる
+			1秒間のクリック数に応じて最大{0}%のクリッカーダメージを獲得
+			{1}回クリックするごとに ダメージを与えるチョコレートを放つ
+			'''
+	}
+
+	ClearKeychain: {
+		DisplayName: クリア キーチェーン
+		Tooltip:
+			'''
+			15回クリックするごとに、近くの敵をクリスタルの粘液で覆う
+			影響を受けた敵をクリックすると、クリスタルの破片を吐き出す
+			'''
+	}
+
+	ClickerEmblem: {
+		DisplayName: クリッカーのエンブレム
+		Tooltip: クリッカーダメージが{0}%増加
+	}
+
+	ClickingGlove: {
+		DisplayName: クリックグローブ
+		Tooltip: 戦闘中、{0}秒ごとに現在のクリッカーを自動的にクリックする
+	}
+
+	Cookie: {
+		DisplayName: クッキー
+		Tooltip:
+			'''
+			装備している間、クッキーは定期的にクリッカー範囲内にスポーンする
+			クッキーをクリックすると、クリッカーのダメージ、範囲、ライフ回復のボーナスが得られる
+			'''
+	}
+
+	EnchantedLED: {
+		DisplayName: 魔法のLED
+		Tooltip:
+			'''
+			アクセサリが見えている間、あなたのクリックはエンチャントされた光のバーストを生成する
+			クリックダメージ{0}増加
+			'''
+	}
+
+	GamerCrate: {
+		DisplayName: ゲーマークレート
+		Tooltip:
+			'''
+			「これを実際にプレイするとは思わないでしょ？」
+			クリックダメージが{0}%増加
+			クリックの基本半径を{1}%増加
+			クリック効果に必要なクリック数を{2}%減らす
+			アクセサリが表示されている間、クリックするとエンチャントされた機械的な光のバーストが発生する
+			「クリッカーアクセサリーキー」を押すと、すべてのクリッカーの自動クリックが切り替わる
+			自動クリックが有効になっている間、クリック率は適度に減少する
+			'''
+	}
+
+	HandCream: {
+		DisplayName: ハンドクリーム
+		Tooltip:
+			'''
+			『クリッカーアクセサリー』キーを押すと、すべてのクリッカーの自動クリックが切り替わる
+			自動クリックが有効になっている間、クリック率は適度に減少する
+			'''
+	}
+
+	HotKeychain: {
+		DisplayName: ホットキーホルダー
+		Tooltip:
+			'''
+			戦闘中にクリックすると、さらに遅延クリックが発生する
+			クリックが遅すぎると火傷する
+			'''
+	}
+
+	IcePack: {
+		DisplayName: アイスパック
+		Tooltip:
+			'''
+			「クリッカーアクセサリー」キーを押すと、すべてのクリッカーの自動クリックが切り替わる
+			自動クリックが有効になっている間、クリック率は大幅に減少する
+			'''
+	}
+
+	MasterKeychain: {
+		DisplayName: マスターキーホルダー
+		Tooltip:
+			'''
+			「いいものが見つからない...」
+			あなたのクリックには、すべての粘性、熱さ、そして結晶性が宿ります
+			'''
+	}
+
+	Milk: {
+		DisplayName: 牛乳
+		Tooltip: 1秒間のクリック数に応じて最大{0}%のクリッカーダメージを得る
+	}
+
+	MilkCookies: {
+		DisplayName: ミルク＆クッキー
+		Tooltip:
+			'''
+			装備している間、クッキーが定期的にクリッカー範囲内にスポーンする
+			クッキーをクリックすると、クリッカーダメージ、範囲、ライフ回復のボーナスが得られる
+			1秒間のクリック数に応じて最大{0}%のクリッカーダメージを獲得
+			'''
+	}
+
+	MousePad: {
+		DisplayName: マウスパッド
+		Tooltip: クリックの基本半径を{0}%増加
+	}
+
+	MouseTrap: {
+		DisplayName: マウストラップ
+		Tooltip:
+			'''
+			クリックダメージが{0}%増加
+			クリック効果に必要なクリック数を{1}%減らす
+			クリックが小確率であなたを一時的に呪う
+			'''
+	}
+
+	PortableParticleAccelerator: {
+		DisplayName: ポータブル粒子加速器
+		Tooltip: クリッカー半径の{0}%以内のクリッカーはダメージが8増加する
+	}
+
+	GoldenTicket: {
+		DisplayName: ゴールデンチケット
+		Tooltip:
+			'''
+			敵をクリックするとコインを生成する
+			基本クリック半径を{0}%増加
+			'''
+	}
+
+	RegalClickingGlove: {
+		DisplayName: 王家のクリックグローブ
+		Tooltip: 戦闘中、0.5秒ごとに現在のクリッカーを自動的にクリックする
+	}
+
+	AMedal: {
+		DisplayName: A メダル
+		Tooltip:
+			'''
+			装備している間、力を与える円があなたの周りを回転する
+			カーソルを円の中に留めることで、最大{0}回の無料クリッククリティカルヒットが蓄積される
+			'''
+	}
+
+	FMedal: {
+		DisplayName: F メダル
+		Tooltip:
+			'''
+			装備している間、力を与える円があなたの周りを回転する
+			カーソルを円の中に留めることで、クリックの範囲が最大{0}%増加
+			'''
+	}
+
+	SMedal: {
+		DisplayName: S メダル
+		Tooltip:
+			'''
+			装備している間、力を与える円があなたの周りを回転する
+			カーソルを円の中に留めることで、クリックのクリティカルヒット、クリックの範囲、およびクリック効果を蓄積する
+			'''
+	}
+
+	Soda: {
+		DisplayName: ソーダ
+		Tooltip: 「クリック効果を発動するために必要なクリック数が{0}減少
+	}
+
+	SFXButtonA: {
+		DisplayName: SFX ボタン A
+	}
+
+	SFXButtonB: {
+		DisplayName: SFX ボタン B
+	}
+
+	SFXButtonC: {
+		DisplayName: SFX ボタン C
+	}
+
+	SFXButtonD: {
+		DisplayName: SFX ボタン D
+	}
+
+	SFXButtonE: {
+		DisplayName: SFX ボタン E
+	}
+
+	SFXButtonF: {
+		DisplayName: SFX ボタン F
+	}
+
+	SFXButtonG: {
+		DisplayName: SFX ボタン G
+	}
+
+	SFXButtonH: {
+		DisplayName: SFX ボタン H
+	}
+
+	SFXSoundboard: {
+		DisplayName: SFX サウンドボード
+		Tooltip:
+			'''
+			「パーティーの主役になる！...もしくはその終焉に」
+			インベントリ内でクリックしたときの音を変更する
+			'''
+	}
+
+	StickyKeychain: {
+		DisplayName: 粘着キーホルダー
+		Tooltip: "{0}回クリックするごとに画面にダメージを与える粘液がくっつく"
+	}
+
+	TheScroller: {
+		DisplayName: スクローラー
+		Tooltip:
+			'''
+			空を飛ぶことができ、落下速度が低下
+			より速く落下するには下キーを押し続ける
+			'''
+	}
+
+	TriggerFinger: {
+		DisplayName: トリガーフィンガー
+		Tooltip: 戦闘外での最初のクリックで自動的にクリック効果を発動する
+	}
+
+	MiceBoots: {
+		DisplayName: マウスのブーツ
+		Tooltip:
+			'''
+			クリックダメージが{0}%増加
+			移動速度が{1}%増加
+			'''
+	}
+
+	MiceMask: {
+		DisplayName: マウスのマスク
+		Tooltip:
+			'''
+			クリックダメージが{0}%増加
+			クリックのクリティカル確率が{1}%増加
+			'''
+		SetBonus: クリッカー範囲内の位置を右クリックすると、その位置にテレポートする
+	}
+
+	MiceSuit: {
+		DisplayName: マウス スーツ
+		Tooltip:
+			'''
+			クリックダメージが{0}%増加
+			クリックの基本半径を{1}%増加
+			'''
+	}
+
+	MotherboardBoots: {
+		DisplayName: マザーボード・ブーツ
+		Tooltip: クリックダメージが{0}%増加
+	}
+
+	MotherboardHelmet: {
+		DisplayName: マザーボード・ヘルメット
+		Tooltip: クリックの基本半径を{0}%増加
+		SetBonus: 右クリックで半径延長センサーを配置する
+	}
+
+	MotherboardSuit: {
+		DisplayName: マザーボード・スーツ
+		Tooltip: クリックダメージが{0}%増加
+	}
+
+	OverclockBoots: {
+		DisplayName: オーバークロック・ブーツ
+		Tooltip: 移動速度が{0}%増加
+	}
+
+	OverclockHelmet: {
+		DisplayName: オーバークロック・ヘルメット
+		Tooltip: クリックダメージが{0}%増加
+		SetBonus:
+			'''
+			{0}回クリックするごとに「オーバークロック」が付与され、クリック効果に必要なクリック数が{1}%減少
+			「オーバークロック」が発動している間、与えるクリックダメージが{2}%減少
+			'''
+	}
+
+	OverclockSuit: {
+		DisplayName: オーバークロック・スーツ
+		Tooltip: クリックダメージが{0}%増加
+	}
+
+	PrecursorBreastplate: {
+		DisplayName: プリカーサー胸当て
+		Tooltip:
+			'''
+			クリックダメージが{0}%増加
+			クリックの基本半径を{1}%減らす
+			'''
+	}
+
+	PrecursorGreaves: {
+		DisplayName: プリカーサー グリーブス
+		Tooltip: 移動速度が{0}%増加
+	}
+
+	PrecursorHelmet: {
+		DisplayName: プリカーサー ヘルメット
+		Tooltip: クリックダメージを{0}%増加
+		SetBonus: 戦闘中、カーソルは常にダメージの残像を残す
+	}
+
+	RGBBreastplate: {
+		DisplayName: RGBブレストプレート
+		Tooltip: クリックの基本半径を{0}%増加
+	}
+
+	RGBGreaves: {
+		DisplayName: RGBグリーブス
+		Tooltip: クリックの基本半径を{0}%増加
+	}
+
+	RGBHelm: {
+		DisplayName: RGBヘルム
+		Tooltip: クリック効果に必要なクリック数を{0}%減らす
+		SetBonus: "{0}回クリックするごとに、カーソルから彩り豊かなバーストを放つ"
+	}
+
+	ClickerEffectHairDye: {
+		DisplayName: クリッカー・エフェクト染料
+		Tooltip: ""
+	}
+
+	ClickSpeedHairDye: {
+		DisplayName: クリック・スピード染料
+		Tooltip: ""
+	}
+
+	InfluencePotion: {
+		DisplayName: 影響力ポーション
+		Tooltip: クリックの基本半径を{0}%増加
+	}
+
+	HeavenlyChip: {
+		DisplayName: 天国のチップ
+		Tooltip: クリッカーの基本半径を{0}%増加
+	}
+
+	MiceDrill: {
+		DisplayName: マウス・ドリル
+		Tooltip: ""
+	}
+
+	MiceHamaxe: {
+		DisplayName: マウスのハンアックス
+		Tooltip: ""
+	}
+
+	MicePickaxe: {
+		DisplayName: マウスのつるはし
+		Tooltip: ""
+	}
+
+	ArcaneClicker: {
+		DisplayName: 秘術のクリッカー
+	}
+
+	AdamantiteClicker: {
+		DisplayName: アダマンタイトのクリッカー
+	}
+
+	ArthursClicker: {
+		DisplayName: アーサーのクリッカー
+	}
+
+	AstralClicker: {
+		DisplayName: アストラルクリッカー
+	}
+
+	BalloonClicker: {
+		DisplayName: 風船のクリッカー
+	}
+
+	BoneClicker: {
+		DisplayName: 骨のクリッカー
+	}
+
+	BlizzardClicker: {
+		DisplayName: ブリザードクリッカー
+	}
+
+	BurningSuperDeathClicker: {
+		DisplayName: 燃えるスーパーデスクリッカー
+	}
+
+	CandleClicker: {
+		DisplayName: 蝋燭のクリッカー
+	}
+
+	CaptainsClicker: {
+		DisplayName: キャプテンのクリッカー
+	}
+
+	ChlorophyteClicker: {
+		DisplayName: 葉緑素クリッカー
+	}
+
+	CobaltClicker: {
+		DisplayName: コバルトのクリッカー
+	}
+
+	ConfettiClicker: {
+		DisplayName: 紙吹雪クリッカー
+	}
+
+	CopperClicker: {
+		DisplayName: 銅のクリッカー
+	}
+
+	CorruptClicker: {
+		DisplayName: 不浄のクリッカー
+	}
+
+	CrimsonClicker: {
+		DisplayName: クリムゾンのクリッカー
+	}
+
+	CritterClicker: {
+		DisplayName: クリッター クリッカー
+	}
+
+	CrystalClicker: {
+		DisplayName: クリスタのクリッカー
+	}
+
+	CyclopsClicker: {
+		DisplayName: サイクロプスのクリッカー
+	}
+
+	DarkClicker: {
+		DisplayName: ダーククリッカー
+	}
+
+	DraconicClicker: {
+		DisplayName: ドラコニッククリッカー
+	}
+
+	DreamClicker: {
+		DisplayName: ドリーム クリッカー
+	}
+
+	EclipticClicker: {
+		DisplayName: 赤道クリッカー
+	}
+
+	FamishedClicker: {
+		DisplayName: フェイミッシュ・クリッカー
+	}
+
+	FaultyClicker: {
+		DisplayName: 故障したクリッカー
+	}
+
+	FrozenClicker: {
+		DisplayName: 雪原のクリッカー
+	}
+
+	GoldClicker: {
+		DisplayName: 金のクリッカー
+	}
+
+	HeartyClicker: {
+		DisplayName: ハーティのクリッカー
+	}
+
+	HemoClicker: {
+		DisplayName: ヘモクリッカー
+	}
+
+	HighTechClicker: {
+		DisplayName: ハイテククリッカー
+	}
+
+	HoneyGlazedClicker: {
+		DisplayName: ハニー・グレーズ・クリッカー
+	}
+
+	ImpishClicker: {
+		DisplayName: いたずら好きなクリッカー
+	}
+
+	IronClicker: {
+		DisplayName: 鉄のクリック
+	}
+
+	LanternClicker: {
+		DisplayName: ランタンのクリッカー
+	}
+
+	LeadClicker: {
+		DisplayName: 鉛のクリック
+	}
+
+	LihzahrdClicker: {
+		DisplayName: リザードクリッカー
+	}
+
+	LordsClicker: {
+		DisplayName: 主のクリッカー
+	}
+
+	MagnetClicker: {
+		DisplayName: マグネットのクリッカー
+	}
+
+	MiceClicker: {
+		DisplayName: マウス・クリッカー
+	}
+
+	MyceliumClicker: {
+		DisplayName: 菌糸クリッカー
+	}
+
+	MythrilClicker: {
+		DisplayName: ミスリルのクリッカー
+	}
+
+	NaughtyClicker: {
+		DisplayName: いたずらクリッカー
+	}
+
+	OrichalcumClicker: {
+		DisplayName: オリハルコンのクッカー
+	}
+
+	PalladiumClicker: {
+		DisplayName: パラジウムのクリッカー
+	}
+
+	PharaohsClicker: {
+		DisplayName: ファラオのクリッカー
+	}
+
+	PlatinumClicker: {
+		DisplayName: プラチナのクリッカー
+	}
+
+	PointyClicker: {
+		DisplayName: 尖ったクリッカー
+	}
+
+	QuintessenceClicker: {
+		DisplayName: クインテッセンスのクリッカー
+	}
+
+	RainbowClicker: {
+		DisplayName: 虹のクリッカー
+	}
+
+	RedHotClicker: {
+		DisplayName: レッドホットクリッカー
+	}
+
+	SandstormClicker: {
+		DisplayName: サンドストームのクリッカー
+	}
+
+	SeafoamClicker: {
+		DisplayName: シーフームクリッカー
+	}
+
+	ShadowyClicker: {
+		DisplayName: 影のクリッカー
+	}
+
+	ShroomiteClicker: {
+		DisplayName: シュルーマイトのクリッカー
+	}
+
+	SilverClicker: {
+		DisplayName: 銀のクリッカー
+	}
+
+	SinisterClicker: {
+		DisplayName: 不吉なクリッカー
+	}
+
+	SlickClicker: {
+		DisplayName: スリッククリッカー
+	}
+
+	SnottyClicker: {
+		DisplayName: 鼻水クリッカー
+	}
+
+	SpaceClicker: {
+		DisplayName: 宇宙のクリッカー
+	}
+
+	SpectreClicker: {
+		DisplayName: スペクタークリッカー
+		Tooltip: 視界内の敵をクリックしてダメージを与える
+	}
+
+	SpiralClicker: {
+		DisplayName: スパイラル クリッカー
+	}
+
+	StarryClicker: {
+		DisplayName: 星のクリッカー
+	}
+
+	TheClicker: {
+		DisplayName: ザ・クリッカー
+	}
+
+	TinClicker: {
+		DisplayName: 錫のクリッカー
+	}
+
+	TitaniumClicker: {
+		DisplayName: チタンのクリッカー
+	}
+
+	TorchClicker: {
+		DisplayName: たいまつのクリッカー
+	}
+
+	TungstenClicker: {
+		DisplayName: タングステンのクリッカー
+	}
+
+	UmbralClicker: {
+		DisplayName: 傘のクリッカー
+	}
+
+	WitchClicker: {
+		DisplayName: 魔女のクリッカー
+	}
+
+	WebClicker: {
+		DisplayName: Web クリッカー
+	}
+
+	WoodenClicker: {
+		DisplayName: 木のクリッカー
+	}
+
+	AshenClicker: {
+		DisplayName: 灰のクリッカー
+	}
+
+	MouseClicker: {
+		DisplayName: マウス・クリッカー
+	}
+}
+
+InfoDisplays: {
+	CPSInfoDisplay: {
+		DisplayName: クリック/秒
+		DisplayValue: "{0} {^0:click;clicks} 秒当たり"
+	}
+}
+
+ClickEffect: {
+	TrueStrike: {
+		Name: 真打ち
+		Description: 2倍のダメージを与え、必ずクリティカルを与える
+	}
+
+	OgreGold: {
+		Name: オーガ・ゴールド
+		Description: 「カーソル地点の敵を鼻水で覆い、大幅に速度を遅くする
+	}
+
+	Bold: {
+		Name: 大胆
+		Description: 標高が高いほど基本ダメージが大きくなる
+	}
+
+	SeaSpray: {
+		Name: 海のスプレー
+		Description: 近くの敵の動きを遅くし、敵からライフを奪う
+	}
+
+	WyvernsRoar: {
+		Name: ワイバーンの咆哮
+		Description: ワイバーンを呼び出し、辺り一面を炎で覆い尽くす
+	}
+
+	Presents: {
+		Name: プレゼント
+		Description: クリックすることで地雷を放出するパラシュート付きのプレゼントを生み出す
+	}
+
+	PartyTime: {
+		Name: パーティータイム！
+		Description: 紙吹雪を撒き散らす！
+	}
+
+	Insanity: {
+		Name: 発狂
+		Description: 辺りを攻撃する影の爪を召喚する
+	}
+
+	Rainbolt: {
+		Name: 雨天
+		Description: 複数の追尾する虹の断片を放つ
+	}
+
+	ArcaneEnchantment: {
+		Name: アーケイン・エンチャントメント
+		Description: クリックダメージが増加し、クリックのヒットボックスが大きくなる
+	}
+
+	Mania: {
+		Name: マニア
+		Description: 可能な限りの小さなクリック効果としてランダムに作用する
+	}
+
+	HolyNova: {
+		Name: 聖なるノヴァ
+		Description: クリッカーの範囲内にいる全ての敵に必ずクリティカルダメージを与える
+	}
+
+	Spiral: {
+		Name: スパイラル
+		Description: 近くの敵を引き寄せる渦巻く銀河を生み出す
+	}
+
+	Yoink: {
+		Name: ヨーインク
+		Description: カーソル近くのアイテムやコインをつかむ
+	}
+
+	ChromaticBurst: {
+		Name: クロマチック・バースト
+		Description: クロマティック・エネルギーをカーソルの方向へ放つ
+	}
+
+	BloodSucker: {
+		Name: 吸血
+		Description: カーソルの半径から内向きに渦巻く{0}個の血の塊を生成する
+	}
+
+	BalloonDefense: {
+		Name: 風船ディフェンス
+		Description: 風船に乗ったスライムを呼び出す
+	}
+
+	Incinerate: {
+		Name: 焼却
+		Description: 周囲のタイルに沿って{0}個の火花を下向きに作り出し、そのエリアを燃やす
+	}
+
+	Lacerate: {
+		Name: 裂傷
+		Description: 【痛恨】デバフを付与し、1秒ごとに{0}のダメージを与える
+	}
+
+	Starfall: {
+		Name: 星が流れる
+		Description: 天から貫通する星を呼び寄せる
+	}
+
+	Fritz: {
+		Name: フリッツ
+		Description: クリッカー半径内にランダムな衝撃を放つ
+	}
+
+	Flurry: {
+		Name: フラリー
+		Description: 冷たい雹を降らせる吹雪の雲を発生させる
+	}
+
+	HotWings: {
+		Name: ホットウィングス
+		Description: 一度だけダッシュを行うことができる方向をダブルタップして使用
+	}
+
+	Illuminate: {
+		Name: イルミネーション
+		Description: 近くのタイルに沿って{0}の火花を発生させ、そのエリアを照らす
+	}
+
+	Bombard: {
+		Name: 砲撃
+		Description: 空から{0}個の砲弾を降らせる
+	}
+
+	ToxicRelease: {
+		Name: 毒物排出
+		Description: カーソルの周囲に残る{0}個の毒の雲を吐き出す
+	}
+
+	Haste: {
+		Name: 急ぐ
+		Description: 移動速度とジャンプ速度が増加
+	}
+
+	CursedEruption: {
+		Name: 呪いの噴火
+		Description: 広い効果範囲にダメージを与え、【油まみれ】と【呪いの炎】のデバフを付与する
+	}
+
+	Infest: {
+		Name: 感染
+		Description: 敵を狙い撃ちする{0}色の炎を放つ
+	}
+
+	Dazzle: {
+		Name: 眩い
+		Description: 【混乱】デバフを付与する: 移動方向が反転する
+	}
+
+	DarkBurst: {
+		Name: ダークバースト
+		Description: 広範囲にダメージを与える
+	}
+
+	Totality: {
+		Name: トータリティ
+		Description: 小型の日食を生み出し、ホーミング弾を繰り返し放つ
+	}
+
+	Freeze: {
+		Name: 凍り付く
+		Description: カーソル地点にいる敵を凍結させ、その場に止める
+	}
+
+	Linger: {
+		Name: リンガー
+		Description: 重力の影響を受ける持続する血の塊を{0}個生成する
+	}
+
+	Discharge: {
+		Name: ディスチャージ
+		Description: カーソルの周囲に{0}の短距離レーザーを放つ
+	}
+
+	StickyHoney: {
+		Name: スティッキーハニー
+		Description: カーソル下の敵を粘着性の蜂蜜で覆い、動きを遅くする
+	}
+
+	SolarFlare: {
+		Name: ソーラーフレア
+		Description: ダメージを与え、【油まみれ】と【燃えている！】のデバフを付与する持続性のある太陽の弾丸を放つ
+	}
+
+	Smite: {
+		Name: スマイト
+		Description: カーソルに向かって最大{0}個のたいまつの炎を放つ
+	}
+
+	Conqueror: {
+		Name: 征服者
+		Description: 2倍のダメージを与え、確実にクリティカルヒットを与える幻影爆発を発生させる
+	}
+
+	Collision: {
+		Name: 衝突
+		Description: 1秒後に収縮する{0}個の不規則なボルトを外向きに放つ
+	}
+
+	Spores: {
+		Name: 胞子
+		Description: 漂う胞子を吐き出す
+	}
+
+	Embrittle: {
+		Name: 脆い
+		Description: 脆化デバフを与える： クリック時このターゲットに{0}の追加ダメージを与える
+	}
+
+	PetalStorm: {
+		Name: 花びらの嵐
+		Description: プレイヤーの近くに{0}個の花びらの弾丸を召喚し、画面全体に放つ
+	}
+
+	Regenerate: {
+		Name: 再生
+		Description: 【急速回復】バフを付与する: ライフ自然回復を大幅に増進
+	}
+
+	StingingThorn: {
+		Name: 刺すような棘
+		Description: 最も近い敵に向かってとげの弾丸を放つ
+	}
+
+	Inferno: {
+		Name: インフェルノ
+		Description: 爆発を起こし、ダメージを与え、【油まみれ】と【燃えている！】のデバフを付与する
+	}
+
+	DustDevil: {
+		Name: ほこりの悪魔
+		Description: 敵を追尾する激しい竜巻を発生させる
+	}
+
+	Curse: {
+		Name: 呪縛
+		Description: 最も近い敵に向かって影炎のドクロを放つ
+	}
+
+	AutoClick: {
+		Name: オートクリック
+		Description: 使用時間を短縮し、自動使用を付与するオートクリックバフを付与する
+	}
+
+	Siphon: {
+		Name: サイフォン
+		Description: 少量のダメージを与え、プレイヤーの体力を{0}回復する
+	}
+
+	Splash: {
+		Name: スプラッシュ
+		Description: "{0}のダメージを与える水の噴水を作る"
+	}
+
+	StarStorm: {
+		Name: 星の嵐
+		Description: 空から{0}個の星が降ってきて爆発する
+	}
+
+	PhaseReach: {
+		Name: フェーズ・リーチ
+		Description: 場所に関係なく敵にダメージを与える
+	}
+
+	TheClick: {
+		Name: ザ・クリック
+		Description: 敵の最大ライフの{0}%をダメージとして追加で与える
+	}
+
+	RazorsEdge: {
+		Name: カミソリの刃
+		Description: 外側に広がる{0}軌道のノコギリの刃を放つ
+	}
+
+	ShadowLash: {
+		Name: シャドウラッシュ
+		Description: 近くの敵を追尾する{0}個の影の弾丸を発射する
+	}
+
+	WildMagic: {
+		Name: ワイルド・マジック
+		Description: ランダムにあらゆる可能なクリック効果として動作します
+	}
+
+	WebSplash: {
+		Name: Webスプラッシュ
+		Description: 最も近い敵に向かって、粘着性の網を発射する
+	}
+
+	ChocolateChip: {
+		Name: チョコレートチップ
+		Description: ダメージを与えるチョコレートを放つ
+	}
+
+	DoubleClick: {
+		Name: ダブルクリック
+		Description: 1回の攻撃で2回ダメージを与える
+	}
+
+	DoubleClick2: {
+		Name: ダブルクリック
+		Description: 1回の攻撃で2回ダメージを与える
+	}
+
+	StickyKeychain: {
+		Name: 粘着キーホルダー
+		Description: 画面にダメージを与える粘液がくっつきます
+	}
+
+	BigRedButton: {
+		Name: カブーン
+		Description: 大爆発を起こす
+	}
+
+	ClearKeychain: {
+		Name: クリスタライズ
+		Description: クリックするとAOEダメージを与える
+	}
+
+	StarSlice: {
+		Name: スタースライス
+		Description: "{0}個の切り裂く星攻撃を放つ"
+	}
+
+	HappyHeart: {
+		Name: 幸せな心
+		Description: プレイヤーのライフを回復する持続するハートを最大{0}個生成します
+	}
+
+	PharaohsCommand: {
+		Name: ファラオの命令
+		Description: クリックに反応してカーソルに向かって撃つマスクを召喚する
+	}
+
+	Transcend: {
+		Name: 超越
+		Description: 次に受けるダメージを無効化し、代わりにライフを{0}%回復する
+	}
+
+	Nab: {
+		Name: 鍋
+		Description: カーソル付近の生き物を捕まえる
+	}
+
+	Trap: {
+		Name: トラップ
+		Description: 敵にくっつくマウス捕りを{0}個投げる
+	}
+}
+
+Prefixes: {
+	ClickerRadius: {
+		DisplayName: リーチ
+		Tooltip: クリッカーの基本半径を+{0}%する
+	}
+
+	Elite: {
+		DisplayName: エリート
+	}
+
+	Pro: {
+		DisplayName: プロ
+	}
+
+	Amateur: {
+		DisplayName: 素人
+	}
+
+	Novice: {
+		DisplayName: 初心者
+	}
+
+	Laggy: {
+		DisplayName: ラグビー
+	}
+
+	Disconnected: {
+		DisplayName: 未接続
+	}
+
+	Common: {
+		RadiusBoost: "{0}% ベースクリッカー半径"
+		ClickBoost: "{0} 回クリックする必要がある"
+	}
+}
+
+Tooltip: {
+	ClickerTag: Clicker Class
+	TotalClicks: 合計クリック数: [c/{0}:{1}]
+	MoneyGenerated: 発生したお金: [c/{0}:{1}]
+	ForMoreInfo: 「自動選択」キー ({0}) を押し続けると、クリックエフェクトが表示されます
+}
+
+UI: {
+	HotKeychainGauge: 熱量: {0} / {1}
+	MedalGauge: チャージ: {0} / {1}
+	PaperclipsGauge: 事項: {0} / {1}
+}
+
+GameTips: {
+	ClickerClassTip0: Clicker Class: クリッカー・ウェポンは、その効果範囲内で、適切な視界が確保された状態でのみ使用できます
+	ClickerClassTip1: Clicker Class: クリッカーズでクリックした総数が記録されますゲーマークレートでチェック！
+	ClickerClassTip2: Clicker Class: 特定のアイテムは、クリッカー武器の使用回数が多くないと売れません
+	ClickerClassTip3: Clicker Class: 痛くなったら手を休めることを忘れずに！
+	ClickerClassTip4: Clicker Class: クリックしすぎて手が疲れたなら、アイスパックで冷やすといい！
+}
+
+Projectiles: {
+	AdamantiteClickerPro: {
+		DisplayName: アダマンタイトのクリッカー
+	}
+
+	AMedalPro: {
+		DisplayName: A メダル
+	}
+
+	ArthursClickerPro: {
+		DisplayName: アーサーのクリッカー
+	}
+
+	AstralClickerPro: {
+		DisplayName: アストラルクリッカー
+	}
+
+	BalloonClickerPro: {
+		DisplayName: 風船のクリッカー
+	}
+
+	BigRedButtonPro: {
+		DisplayName: 大きな赤いボタン
+	}
+
+	BigRedButtonPro2: {
+		DisplayName: 大きな赤いボタン
+	}
+
+	BigRedButtonPro3: {
+		DisplayName: 大きな赤いボタン
+	}
+
+	BlizzardClickerPro: {
+		DisplayName: ブリザードクリッカー
+	}
+
+	BlizzardClickerPro2: {
+		DisplayName: ブリザードクリッカー
+	}
+
+	BoneClickerPro: {
+		DisplayName: 骨のクリッカー
+	}
+
+	BottomlessBoxofPaperclipsPro: {
+		DisplayName: 底なしのクリップ箱
+	}
+
+	CandleClickerPro: {
+		DisplayName: 蝋燭のクリッカー
+	}
+
+	CaptainsClickerPro: {
+		DisplayName: キャプテンのクリッカー
+	}
+
+	ChlorophyteClickerPro: {
+		DisplayName: 葉緑素クリッカー
+	}
+
+	ChocolateChipPro: {
+		DisplayName: チョコレートチップ
+	}
+
+	ClearKeychainPro: {
+		DisplayName: クリア キーチェーン
+	}
+
+	ClearKeychainPro2: {
+		DisplayName: クリア キーチェーン
+	}
+
+	ClickDamage: {
+		DisplayName: クリックダメージ
+	}
+
+	CookiePro: {
+		DisplayName: クッキー
+	}
+
+	CorruptClickerPro: {
+		DisplayName: 不浄のクリッカー
+	}
+
+	CrimsonClickerPro: {
+		DisplayName: クリムゾンのクリッカー
+	}
+
+	CrystalClickerPro: {
+		DisplayName: クリスタのクリッカー
+	}
+
+	CyclopsClickerPro: {
+		DisplayName: サイクロプスのクリッカー
+	}
+
+	DarkClickerPro: {
+		DisplayName: ダーククリッカー
+	}
+
+	DraconicClickerPro: {
+		DisplayName: ドラコニッククリッカー
+	}
+
+	DraconicClickerPro2: {
+		DisplayName: ドラコニッククリッカー
+	}
+
+	FaultyClickerPro: {
+		DisplayName: 故障したクリッカー
+	}
+
+	FMedalPro: {
+		DisplayName: F メダル
+	}
+
+	FrozenClickerPro: {
+		DisplayName: 雪原のクリッカー
+	}
+
+	HemoClickerPro: {
+		DisplayName: ヘモクリッカー
+	}
+
+	HighTechClickerPro: {
+		DisplayName: ハイテクなクリッカー
+	}
+
+	HoneyGlazedClickerPro: {
+		DisplayName: ハニー・グレーズ・クリッカー
+	}
+
+	HotKeychainPro: {
+		DisplayName: ホット・キーチェーン
+	}
+
+	LanternClickerPro: {
+		DisplayName: ランタンのクリッカー
+	}
+
+	LihzarhdClickerPro: {
+		DisplayName: Items.LihzarhdClicker.DisplayName
+	}
+
+	LordsClickerPro: {
+		DisplayName: 主のクリッカー
+	}
+
+	MiceClickerPro: {
+		DisplayName: マウス・クリッカー
+	}
+
+	MiceDrillPro: {
+		DisplayName: マウス・ドリル
+	}
+
+	MyceliumClickerPro: {
+		DisplayName: 菌糸クリッカー
+	}
+
+	MythrilClickerPro: {
+		DisplayName: ミスリルのクリッカー
+	}
+
+	NaughtyClickerPro: {
+		DisplayName: いたずらクリッカー
+	}
+
+	NaughtyClickerPro2: {
+		DisplayName: いたずらクリッカー
+	}
+
+	NaughtyClickerPro3: {
+		DisplayName: いたずらクリッカー
+	}
+
+	OrichaclumClickerPro: {
+		DisplayName: Items.OrichaclumClicker.DisplayName
+	}
+
+	PointyClickerPro: {
+		DisplayName: 尖ったクリッカー
+	}
+
+	PrecursorPro: {
+		DisplayName: Items.Precursor.DisplayName
+	}
+
+	RainbowClickerPro: {
+		DisplayName: 虹のクリッカー
+	}
+
+	RedHotClickerPro: {
+		DisplayName: レッドホットクリッカー
+	}
+
+	RGBPro: {
+		DisplayName: RGB
+	}
+
+	SandstormClickerPro: {
+		DisplayName: サンドストームのクリッカー
+	}
+
+	SeafoamClickerPro: {
+		DisplayName: シーフームのクリッカー
+	}
+
+	ShadowyClickerPro: {
+		DisplayName: 影のクリッカー
+	}
+
+	SinisterClickerPro: {
+		DisplayName: 不吉なクリッカー
+	}
+
+	SlickClickerPro: {
+		DisplayName: スリッククリッカー
+	}
+
+	SMedalPro: {
+		DisplayName: S メダル
+	}
+
+	SMedalPro2: {
+		DisplayName: S メダル
+	}
+
+	SMedalPro3: {
+		DisplayName: S メダル
+	}
+
+	SnottyClickerPro: {
+		DisplayName: 鼻水クリッカー
+	}
+
+	SpaceClickerPro: {
+		DisplayName: 宇宙のクリッカー
+	}
+
+	SpiralClickerPro: {
+		DisplayName: スパイラル クリッカー
+	}
+
+	StarryClickerPro: {
+		DisplayName: 星のクリッカー
+	}
+
+	StickyKeychainPro: {
+		DisplayName: 粘着キーホルダー
+	}
+
+	TheClickerPro: {
+		DisplayName: ザ・クリッカー
+	}
+
+	TitaniumClickerPro: {
+		DisplayName: チタンのクリッカー
+	}
+
+	TorchClickerPro: {
+		DisplayName: たいまつのクリッカー
+	}
+
+	TotalityClickerPro: {
+		DisplayName: Items.TotalityClicker.DisplayName
+	}
+
+	TotalityClickerPro2: {
+		DisplayName: Items.TotalityClicker.DisplayName
+	}
+
+	UmbralClickerPro: {
+		DisplayName: 傘のクリッカー
+	}
+
+	WebClickerPro: {
+		DisplayName: Web クリッカー
+	}
+
+	WebClickerPro2: {
+		DisplayName: Web クリッカー
+	}
+
+	DreamClickerPro: {
+		DisplayName: ドリーム クリッカー
+	}
+
+	FamishedClickerPro: {
+		DisplayName: フェイミッシュのクリッカー
+	}
+
+	HeartyClickerPro: {
+		DisplayName: ハーティのクリッカー
+	}
+
+	PharaohsClickerPro: {
+		DisplayName: ファラオのクリッカー
+	}
+
+	PharaohsClickerPro2: {
+		DisplayName: ファラオのクリッカー
+	}
+
+	MouseClickerPro: {
+		DisplayName: マウスクリッカー
+	}
+}
+
+Configs: {
+	ClickerConfigClient: {
+		DisplayName: 設定
+
+		Headers: {
+			DisplayOptions: 表示オプション
+			GameplayOptions: ゲームプレイオプション
+		}
+
+		ShowClassTags: {
+			Label: クラスタグを表示
+			Tooltip: カスタムクラス用に作られたアイテムのクラスタグのツールチップへの表示を切り替える
+		}
+
+		ShowEffectSuggestion: {
+			Label: 「自動選択を保持」テキストを表示する
+			Tooltip:
+				'''
+				クリッカー武器のサジェストテキスト「クリッカー効果の自動選択を保持」の表示を切り替える
+				-キーはこの切り替え項目に関係なく機能し続けます
+				'''
+		}
+
+		ShowCustomCursors: {
+			Label: カスタムカーソルの表示
+			Tooltip: クリッカー武器の「カスタムカーソル」の表示を切り替える
+		}
+
+		ShowClickIndicator: {
+			Label: クリックインジケーター表示
+			Tooltip: クリッカーを使用した際の、クリックインジケータの表示を切り替える
+		}
+
+		ShowOthersClickIndicator: {
+			Label: 他プレイヤーのクリックインジケーター表示
+			Tooltip: 他プレイヤーがクリッカーを使用している際の、クリックインジケータの表示を切り替える
+		}
+
+		ToggleAutoreuseLimiter: {
+			Label: 自動再使用リミッター
+			Tooltip: 自動再利用を制限するかどうかを切り替える
+		}
+
+		ToggleAutoreuseLimiterValue: {
+			Label: 自動再使用値の切り替え
+			Tooltip:
+				'''
+				自動再使用リミッターが有効になっている間、クリッカーがクリックする速度（1秒あたりのクリック数）を変更する
+				四捨五入の関係上、15から20の間の値では20cps、それ以上の値では30cpsとなります
+				'''
+		}
+
+		ToggleAutoreuseLimiterAccessibility: {
+			Label: 自動再使用リミッターのアクセシビリティを切り替える
+			Tooltip: 自動再使用を使用する理由がアクセシビリティのためかどうかを切り替える
+		}
+	}
+}
+
+Tiles: {
+	DungeonChest: {
+		MapEntry_Locked: 鍵付きダンジョンの宝箱
+	}
+}
+
+RecipeGroups: {
+	Any: "{0} {1}"
+}
+
+DropConditions: {
+	DungeonKeyCondition: {
+		Description: ハードモード後のダンジョンでドロップする
+	}
+}
+
+NewBeginningsSupport: {
+	Hacker: {
+		DisplayName: ハッカー
+		Flavor: 指に力が入り、準備万端となった彼のCPSは桁外れだ！
+		Description: 故障したクリッカー、ハイテクサングラス、ソーダ、デスクトップパソコンを持って開始する。
+	}
+}
+

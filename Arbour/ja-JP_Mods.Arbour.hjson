@@ -1,0 +1,266 @@
+MapObject: {
+	Microbirch: マイクロバーチ
+}
+
+Tiles: {
+	MicrobirchSapling: {
+		MapEntry: マイクロバーチの苗木
+	}
+
+	Microbirch: {
+		MapEntry: マイクロバーチ
+	}
+
+	BirchWorkbench: {
+		MapEntry: バーチの作業台
+	}
+
+	BirchDoorOpen: {
+		MapEntry: バーチのドア
+	}
+
+	BirchDoorClosed: {
+		MapEntry: バーチのドア
+	}
+
+	BirchCandle: {
+		MapEntry: バーチの蝋燭
+	}
+
+	ArborSapling: {
+		MapEntry: 苗木
+	}
+
+	BirchDresser: {
+		MapEntry: バーチのドレッサー
+	}
+
+	ArborPylonTile: {
+		MapEntry: アーバーのパイロン
+	}
+
+	StarlitWindsBox: {
+		MapEntry: オルゴール(Starlit Winds)
+	}
+
+	FloatingFallBox: {
+		MapEntry: オルゴール(Floating Fall)
+	}
+}
+
+Biomes: {
+	ArborBiome: {
+		TownNPCDialogueName: The・Arbor
+		DisplayName: Arbor
+	}
+}
+
+Projectiles: {
+	MispiritLeaves: {
+		DisplayName: ミスプリの葉
+	}
+
+	FallingMicrobirch: {
+		DisplayName: 落下するマイクロバーチ
+	}
+}
+
+MusicDisplay: {
+	ModName: Arbor
+
+	DayOld: {
+		DisplayName: Floating Fall (Old Arbor Theme)
+		Author: by Heltonyan
+	}
+
+	Day: {
+		DisplayName: Starlit Winds (Arbor Theme)
+		Author: by GabeHasWon
+	}
+}
+
+Configs: {
+	ArborConfig: {
+		DisplayName: Arbor 設定
+
+		NewMusic: {
+			Label: 新しい音楽
+			Tooltip: 無効時、Heltonyanの未完成の古い曲を使う。デフォルトは有効。
+		}
+
+		NoMusic: {
+			Label: 音楽無し
+			Tooltip: Arborのカスタムミュージックを完全に無効化する。
+		}
+	}
+}
+
+InBiome: In Arbor
+
+MicrobirchKill: {
+	0: "{0} は自分の頭の真上で木を切りました。"
+	1: "{0} は重力を…再発見しました。"
+	2: 木が{0}の頭に落ちました。
+}
+
+Items: {
+	ArborGrassSeeds: {
+		DisplayName: アーバーグラスの種
+		Tooltip: 土に植えることが出来る
+	}
+
+	ArborLeafWallBlock: {
+		DisplayName: アーバーグラスの壁
+		Tooltip: 「落ち葉と思い出の匂いがする」
+	}
+
+	BirchChairBlock: {
+		DisplayName: バーチの椅子
+		Tooltip: ""
+	}
+
+	BirchDoorBlock: {
+		DisplayName: バーチのドア
+		Tooltip: ""
+	}
+
+	BirchFenceBlock: {
+		DisplayName: バーチのフェンス
+		Tooltip: ""
+	}
+
+	BirchLanternBlock: {
+		DisplayName: バーチのランタン
+		Tooltip: ""
+	}
+
+	BirchPlatformBlock: {
+		DisplayName: バーチの足場
+		Tooltip: ""
+	}
+
+	BirchWoodCandleBlock: {
+		DisplayName: バーチの蝋燭
+		Tooltip: ""
+	}
+
+	BirchWoodLampBlock: {
+		DisplayName: バーチのランプ
+		Tooltip: ""
+	}
+
+	BirchWoodWallBlock: {
+		DisplayName: バーチの壁
+		Tooltip: ""
+	}
+
+	BirchWorkbenchBlock: {
+		DisplayName: バーチの作業台
+		Tooltip: ""
+	}
+
+	BirchWoodBlock: {
+		DisplayName: バーチウッド
+		Tooltip: ""
+	}
+
+	MicrobirchAcorn: {
+		DisplayName: マイクロバーチのどんぐり
+		Tooltip: 天井にのみ設置可能
+	}
+
+	FlightlingBannerItem: {
+		DisplayName: フライトリングのバナー
+		Tooltip: ""
+	}
+
+	BrushToothBannerItem: {
+		DisplayName: ブラッシュ・トゥースのバナー
+		Tooltip: ""
+	}
+
+	BirchBathtubBlock: {
+		DisplayName: バーチの浴槽
+		Tooltip: ""
+	}
+
+	BirchTableBlock: {
+		DisplayName: バーチのテーブル
+		Tooltip: ""
+	}
+
+	BirchBedBlock: {
+		DisplayName: バーチのベッド
+		Tooltip: ""
+	}
+
+	BirchChandelierBlock: {
+		DisplayName: バーチのシャンデリア
+		Tooltip: ""
+	}
+
+	BirchDresserBlock: {
+		DisplayName: バーチのドレッサー
+		Tooltip: ""
+	}
+
+	ArborPylonItem: {
+		DisplayName: アーバーのパイロン
+		Tooltip: ""
+	}
+
+	Debug: {
+		DisplayName: デバッグ
+		Tooltip: ""
+	}
+
+	ArborFlowerWallBlock: {
+		DisplayName: アーバーフラワーの壁
+		Tooltip: ""
+	}
+
+	StarlitWindsBoxItem: {
+		DisplayName: オルゴール(Starlit Winds)
+		Tooltip: ""
+	}
+
+	FloatingFallBoxItem: {
+		DisplayName: オルゴール(Floating Fall)
+		Tooltip: ""
+	}
+
+	BirchBookcaseBlock: {
+		DisplayName: バーチの本棚
+		Tooltip: ""
+	}
+
+	BirchCandelabraBlock: {
+		DisplayName: バーチの燭台
+		Tooltip: ""
+	}
+
+	ArborLeafBlock: {
+		DisplayName: アーバーの葉
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	Flightling: {
+		DisplayName: フライトリング
+		Entry: 驚くほど臆病ないたずらっ子。あなたを困らせようとするが、殴られるとすぐに怖がる。
+	}
+
+	BrushTooth: {
+		DisplayName: ブラッシュ・トゥース
+		Entry: ケラチンと葉の不思議なミックスで、ちょっとした食事...いや、もっと大きなものを欲しがっている。見た目より軽い。
+	}
+}
+
+Dialogue: {
+	Mechanic: この涼しい風のおかげで、作業中も私と私のデバイスを涼しく保つことができるんだ！
+	Cyborg: 風力発電ト風力冷却ノイイトコドリダ。フタツデヒトツナノダ！
+	Painter: この景色は好きだけど、ここは絵の具の乾きが早すぎる！どうやって描けばいいんだ？
+	Clothier: 風の強い日もいいかもしれないけど、ファッションには不向きだ。
+}
+

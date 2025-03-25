@@ -1,0 +1,23 @@
+Acquisition: {
+	DragonFruit: Mods.Munchies_CalamityAddon.Acquisition.DragonFruit
+	CelestialOnion: ムーンロードからのドロップ
+	Ectoheart: RevengeanceモードまたはDeathモードでポルターガストからドロップ
+	StarlightFuelCell: RevengeanceモードまたはDeathモードでアストラムアウレウスからドロップ
+	ElectrolyteGelPack: RevengeanceモードまたはDeathモードでスライムゴッドからドロップ
+	RedLightningContainer: RevengeanceモードまたはDeathモードでドラゴンフォリーからドロップ
+	InfernalBlood: RevengeanceモードまたはDeathモードでラヴェジャーからドロップ
+	MushroomPlasmaRoot: RevengeanceモードまたはDeathモードでクラブロンからドロップ
+	PhantomHeart: 荒廃した魂5個、ネクロプラズム25個からクラフト
+	EtherealCore: ネピュラの断片20個、流れ星20個、アストラルインゴット25個からクラフト
+	CometShard: メテオライトインゴット10個、流れ星10個、星痕の蝶50個からクラフト
+	EnchantedStarfish: 夜の地表で10％の確率で釣れる
+	Dragonfruit: ライフフルーツ5個、太陽の断片15個、ヤーロンの魂の断片5個、崇高な魂のエッセンスからクラフト
+	Elderberry:
+		'''
+		 ライフフルーツ5個、ウエリブルームのインゴット10個、
+		 神聖なるジオード10個、不道徳なエッセンス20個からクラフト
+		'''
+	MiracleFruit: ライフフルーツ5個、食虫植物5個、生命の合金5個、生命の断片12個からクラフト
+	BloodOrange: ライフフルーツ5個、血のオーブ10個、恐怖・力・視覚のソウル5個ずつからクラフト
+}
+

@@ -1,0 +1,591 @@
+NPCs: {
+	TetoNPC: {
+		TownNPCMood: {
+			Content: 君は実に馬鹿だな！
+			NoHome: 野外で寝る事も確かにロマンチックだけど、何事もほどほどがいいよね。
+			FarFromHome: 「ねえ、たまにはこうやって散歩に出かけるのもいいよね、気分転換になるよ」とか言いたいところだよ、周りのすべてが私を殺そうとしてなかったらね！
+			LoveSpace: ここはとても気持ちいいね。音響もいいし、誰にも邪魔されずに歌える！
+			DislikeCrowded: 大勢の人が集まるコンサートもいいけれど、私生活ではプライバシーの空間が絶対にあるべきだと思うよ。
+			HateCrowded: 時々、閉じこもって音楽を聴きたくなる。でも、そこでもあの終わりなき雑音が私を悩ませるんだ！
+			LikeNPC_Princess: "{NPCName}はかなりおしゃべりで、時々うっとうしい。でも、なぜかお饅頭を思い出すんだ...。"
+			Princess_LovesNPC: "{NPCName}はとても美しい声の持ち主だ！彼女の歌を聴くのを止められないよ！"
+		}
+
+		Chat: {
+			Normal1: 君は実に馬鹿だな！
+		}
+
+		DisplayName: キメラ
+
+		Census: {
+			SpawnCondition: 部屋にテトのぬいぐるみを置く
+		}
+	}
+}
+
+Bestiary: {
+	TETO: エイプリルフールのいたずらで生み出されたSynthesizerボイスのふりをする少女の物語。ネットユーザーたちが彼女を可愛がり、ツインドリルの赤い髪形をイメージした。これが『重音テト』の始まりだ。一日きりの存在だと思われていた彼女は、誰でも使える本物のSynthesizerボイスになってしまった！テトはコミュニティの支柱であり、ファンのユニークな努力によって昇り上げた歌姫である。無料ソフト「UTAU」の先駆者としてささやかに始まり、才能あるミュージシャンたちの手によって真の能力が開花し、最近では商用プラットフォーム「Synthesizer V」に乗って爆発的な人気を博するまでに成長するまでの全てを祝おう。リスナーでも、プロデューサーでも、アーティストでも、この驚くべき旅路にぜひ参加してほしい。フランスパンが大好きなこの歌姫がマイクの前に立つ瞬間を、一瞬たりとも見逃したくないよね。
+}
+
+ChatMessages: {
+	Discord: Teto Discordサーバーに参加して新しいアップデートを知ろう - [c/337bcd:https://discord.gg/f5ZYcYTXTE]!
+	ConfigOff: このメッセージは設定でオフにすることができます。
+}
+
+Items: {
+	ExampleBreastplate: {
+		DisplayName: テト(UTAU) ボディ
+		Tooltip: ""
+	}
+
+	ExampleLeggings: {
+		DisplayName: テト(UTAU) レッグ
+		Tooltip: ""
+	}
+
+	MinionBossMask: {
+		DisplayName: テト(UTAU) ヘッド
+		Tooltip: ""
+	}
+
+	TetoBreastplate: {
+		DisplayName: テト(SV) ボディ
+		Tooltip: ""
+	}
+
+	TetoLeggings: {
+		DisplayName: テト(SV) レッグ
+		Tooltip: ""
+	}
+
+	TetoMask: {
+		DisplayName: テト(SV) ヘッド
+		Tooltip: ""
+	}
+
+	Teto2Breastplate: {
+		DisplayName: テト(ライアーダンサー) ボディ
+		Tooltip: ""
+	}
+
+	Teto2Leggings: {
+		DisplayName: テト(ライアーダンサー) レッグ
+		Tooltip: ""
+	}
+
+	Teto2Mask: {
+		DisplayName: テト(ライアーダンサー) ヘッド
+		Tooltip: ""
+	}
+
+	Teto9Legs: {
+		Tooltip: ""
+		DisplayName: テト(ヤババイナ) レッグ
+	}
+
+	Teto9Head: {
+		Tooltip: ""
+		DisplayName: テト(ヤババイナ) ヘッド
+	}
+
+	Teto9Body: {
+		Tooltip: ""
+		DisplayName: テト(ヤババイナ) ボディ
+	}
+
+	Teto8Legs: {
+		Tooltip: ""
+		DisplayName: テト(メズマライザー) レッグ
+	}
+
+	Teto8Head: {
+		Tooltip: ""
+		DisplayName: テト(メズマライザー) ヘッド
+	}
+
+	Teto8Body: {
+		Tooltip: ""
+		DisplayName: テト(メズマライザー) ボディ
+	}
+
+	Teto7Head: {
+		Tooltip: ""
+		DisplayName: テト(イガク) ヘッド
+	}
+
+	Teto7Body: {
+		Tooltip: ""
+		DisplayName: テト(イガク) ボディ
+	}
+
+	Teto6Legs: {
+		Tooltip: ""
+		DisplayName: テト(退廃的人生讃歌) レッグ
+	}
+
+	Teto6Head: {
+		Tooltip: ""
+		DisplayName: テト(退廃的人生讃歌) ヘッド
+	}
+
+	Teto6Body: {
+		Tooltip: ""
+		DisplayName: テト(退廃的人生讃歌) ボディ
+	}
+
+	Teto5Mask: {
+		Tooltip: ""
+		DisplayName: テト(頭ン痛) ヘッド
+	}
+
+	Teto5Legs: {
+		Tooltip: ""
+		DisplayName: テト(頭ン痛)レッグ
+	}
+
+	Teto5Breastplate: {
+		Tooltip: ""
+		DisplayName: テト(頭ン痛) ボディ
+	}
+
+	Teto4Mask: {
+		Tooltip: ""
+		DisplayName: テト(オーバーライド) ヘッド
+	}
+
+	Teto4Leggings: {
+		Tooltip: ""
+		DisplayName: テト(オーバーライド) レッグ
+	}
+
+	Teto4Breastplate: {
+		Tooltip: ""
+		DisplayName: テト(オーバーライド) ボディ
+	}
+
+	Teto14Head: {
+		Tooltip: ""
+		DisplayName: テト(ちっちゃな私) レッグ
+	}
+
+	Teto14Head: {
+		Tooltip: ""
+		DisplayName: テト(ちっちゃな私) ヘッド
+	}
+
+	Teto14Body: {
+		Tooltip: ""
+		DisplayName: テト(ちっちゃな私) ボディ
+	}
+
+	Teto13Legs: {
+		Tooltip: ""
+		DisplayName: テト(生活についての考察) レッグ
+	}
+
+	Teto13Head: {
+		Tooltip: ""
+		DisplayName: テト(生活についての考察) ヘッド
+	}
+
+	Teto13Body: {
+		Tooltip: ""
+		DisplayName: テト(生活についての考察) ボディ
+	}
+
+	Teto12Legs: {
+		Tooltip: ""
+		DisplayName: テト(ウルトラトレーラー) レッグ
+	}
+
+	Teto12Head: {
+		Tooltip: ""
+		DisplayName: テト(ウルトラトレーラー) ヘッド
+	}
+
+	Teto12Body: {
+		Tooltip: ""
+		DisplayName: テト(ウルトラトレーラー) ボディ
+	}
+
+	Teto11Head: {
+		Tooltip: ""
+		DisplayName: テト(イワシがつちからはえてくるんだ) ヘッド
+	}
+
+	Teto11Body: {
+		Tooltip: ""
+		DisplayName: テト(イワシがつちからはえてくるんだ) ボディ
+	}
+
+	Teto10Body: {
+		DisplayName: テト(ラビットホール) ボディ
+		Tooltip: ""
+	}
+
+	Teto10Head: {
+		DisplayName: テト(ラビットホール) ヘッド
+		Tooltip: ""
+	}
+
+	Teto10Legs: {
+		DisplayName: テト(ラビットホール) レッグ
+		Tooltip: ""
+	}
+
+	NoBitchesHat: {
+		DisplayName: テト(メズマライザー) Hat
+		Tooltip: ""
+	}
+
+	IWasHereWings: {
+		DisplayName: テト(キメラの翼)
+		Tooltip: ""
+	}
+
+	TetoHeadphones: {
+		DisplayName: テト(UTAUヘッドフォン) ヘッド
+		Tooltip: ""
+	}
+
+	TetoPlush: {
+		DisplayName: テトのぬいぐるみ
+		Tooltip: 右クリックで鳴らすことができる
+	}
+
+	TetoBaguette: {
+		DisplayName: テトのフランスパン
+		Tooltip: 敵を倒した時、2秒間「この上なく満腹」バフを得る
+	}
+
+	TextTetoHead: {
+		DisplayName: テト(テキスト)ヘッド
+		Tooltip: ""
+	}
+
+	WingsTeto: {
+		DisplayName: テト(バベルの翼)
+		Tooltip: ""
+	}
+
+	Teto15Body: {
+		DisplayName: テト(女子高生) ボディ
+		Tooltip: ""
+	}
+
+	Teto15Head: {
+		DisplayName: テト(女子高生) ヘッド
+		Tooltip: ""
+	}
+
+	Teto15Legs: {
+		DisplayName: テト(女子高生)  レッグ
+		Tooltip: ""
+	}
+
+	Teto16Body: {
+		DisplayName: テト(迷彩スウィートジャケット) ボディ
+		Tooltip: ""
+	}
+
+	Teto16Head: {
+		DisplayName: テト(迷彩スウィートジャケット) ヘッド
+		Tooltip: ""
+	}
+
+	Teto16Legs: {
+		DisplayName: テト(迷彩スウィートジャケット) レッグ
+		Tooltip: ""
+	}
+
+	Teto17Body: {
+		DisplayName: テト(バベル) ボディ
+		Tooltip: ""
+	}
+
+	Teto17Head: {
+		DisplayName: テト(バベル) ヘッド
+		Tooltip: ""
+	}
+
+	Teto17Legs: {
+		DisplayName: テト(バベル) レッグ
+		Tooltip: ""
+	}
+
+	Teto18Body: {
+		DisplayName: テト(ハロウィン2024) ボディ
+		Tooltip: ""
+	}
+
+	Teto18Head: {
+		DisplayName: テト(ハロウィン2024) ヘッド
+		Tooltip: ""
+	}
+
+	Teto18Legs: {
+		DisplayName: テト(ハロウィン2024) レッグ
+		Tooltip: ""
+	}
+
+	Teto19Body: {
+		DisplayName: テト(吉原ラメント) ボディ
+		Tooltip: ""
+	}
+
+	Teto19Head: {
+		DisplayName: テト(吉原ラメント) ヘッド
+		Tooltip: ""
+	}
+
+	BloodSuckerWings: {
+		DisplayName: テト(コウモリの翼)
+		Tooltip: ""
+	}
+
+	Teto20Body: {
+		DisplayName: テト(オフィス) ボディ
+		Tooltip: ""
+	}
+
+	Teto20Head: {
+		DisplayName: テト(オフィス) ヘッド
+		Tooltip: ""
+	}
+
+	Teto20Legs: {
+		DisplayName: テト(オフィス) レッグ
+		Tooltip: ""
+	}
+
+	Teto21Body: {
+		DisplayName: テト(Machine Love) ボディ
+		Tooltip: ""
+	}
+
+	Teto21Head: {
+		DisplayName: テト(Machine Love) ヘッド
+		Tooltip: ""
+	}
+
+	Teto21Legs: {
+		DisplayName: テト(Machine Love) レッグ
+		Tooltip: ""
+	}
+
+	Teto22Body: {
+		DisplayName: テト(オフィス) ボディ
+		Tooltip: ""
+	}
+
+	Teto22Head: {
+		DisplayName: テト(オフィス) ヘッド
+		Tooltip: ""
+	}
+
+	Teto22Legs: {
+		DisplayName: テト(オフィス) レッグ
+		Tooltip: ""
+	}
+
+	Teto23Body: {
+		DisplayName: テト(ナン) ボディ
+		Tooltip: ""
+	}
+
+	Teto23Head: {
+		DisplayName: テト(ナン) ヘッド
+		Tooltip: ""
+	}
+
+	Teto23Legs: {
+		DisplayName: テト(ナン) レッグ
+		Tooltip: ""
+	}
+
+	Teto24Body: {
+		DisplayName: テト(テトロドトキシン) ボディ
+		Tooltip: ""
+	}
+
+	Teto24Head: {
+		DisplayName: テト(テトロドトキシン) ヘッド
+		Tooltip: ""
+	}
+
+	Teto24Legs: {
+		DisplayName: テト(テトロドトキシン) レッグ
+		Tooltip: ""
+	}
+
+	Teto25Body: {
+		DisplayName: テト(イガク) ボディ
+		Tooltip: ""
+	}
+
+	Teto25Legs: {
+		DisplayName: テト(イガク) レッグ
+		Tooltip: ""
+	}
+
+	Teto26Body: {
+		DisplayName: テト(きゅうくらりん) ボディ
+		Tooltip: ""
+	}
+
+	Teto26Legs: {
+		DisplayName: テト(きゅうくらりん) レッグ
+		Tooltip: ""
+	}
+
+	Teto27Body: {
+		DisplayName: テト(テトフェス) ボディ
+		Tooltip: ""
+	}
+
+	Teto27Head: {
+		DisplayName: テト(テトフェス) ヘッド
+		Tooltip: ""
+	}
+
+	Teto27Legs: {
+		DisplayName: テト(テトフェス) レッグ
+		Tooltip: ""
+	}
+
+	Teto28Body: {
+		DisplayName: テト(ミクシンフォニー) ボディ
+		Tooltip: ""
+	}
+
+	Teto28Head: {
+		DisplayName: テト(ミクシンフォニー) ヘッド
+		Tooltip: ""
+	}
+
+	Teto28Legs: {
+		DisplayName: テト(ミクシンフォニー)8 レッグ
+		Tooltip: ""
+	}
+
+	Teto29Body: {
+		DisplayName: テト(クロワッサン) ボディ
+		Tooltip: ""
+	}
+
+	Teto29Head: {
+		DisplayName: テト(クロワッサン) ヘッド
+		Tooltip: ""
+	}
+
+	Teto29Legs: {
+		DisplayName: テト(クロワッサン) レッグ
+		Tooltip: ""
+	}
+
+	Teto30Body: {
+		DisplayName: テト(ネコ) ボディ
+		Tooltip: ""
+	}
+
+	Teto30Head: {
+		DisplayName: テト(ネコ) ヘッド
+		Tooltip: ""
+	}
+
+	Teto30Legs: {
+		DisplayName: テト(ネコ) レッグ
+		Tooltip: ""
+	}
+
+	Teto31Body: {
+		DisplayName: テト(コウモリ) ボディ
+		Tooltip: ""
+	}
+
+	Teto31Head: {
+		DisplayName: テト(コウモリ) ヘッド
+		Tooltip: ""
+	}
+
+	Teto31Legs: {
+		DisplayName: テト(コウモリ) レッグ
+		Tooltip: ""
+	}
+
+	Teto32Body: {
+		DisplayName: テト(レーシング) ボディ
+		Tooltip: ""
+	}
+
+	Teto32Head: {
+		DisplayName: テト(レーシング) ヘッド
+		Tooltip: ""
+	}
+
+	Teto32Legs: {
+		DisplayName: テト(レーシング) レッグ
+		Tooltip: ""
+	}
+
+	Teto33Body: {
+		DisplayName: テト(Shü) ボディ
+		Tooltip: ""
+	}
+
+	Teto33Head: {
+		DisplayName: テト(Shü) ヘッド
+		Tooltip: ""
+	}
+
+	Teto33Legs: {
+		DisplayName: テト(Shü) レッグ
+		Tooltip: ""
+	}
+
+	Teto34Body: {
+		DisplayName: テト(Cadmium Colors) ボディ
+		Tooltip: ""
+	}
+
+	Teto34Head: {
+		DisplayName: テト(Cadmium Colors) ヘッド
+		Tooltip: ""
+	}
+
+	Teto34Legs: {
+		DisplayName: テト(Cadmium Colors) レッグ
+		Tooltip: ""
+	}
+
+	TetoBackpack1: {
+		DisplayName: テト(ネコ) Backpack
+		Tooltip: ""
+	}
+
+	TetoBackpack2: {
+		DisplayName: テト(きゅうくらりん) Backpack
+		Tooltip: ""
+	}
+
+	WingsBig: {
+		DisplayName: テト(キメラの大きな翼)
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	TetoConfig: {
+		DisplayName: Teto 設定
+
+		message: {
+			Messages: メッセージヘッダー
+		}
+
+		WelcomeMessageToggle: {
+			Label: メッセージ切り替えへようこそ！
+			Tooltip: ""
+		}
+	}
+}
+

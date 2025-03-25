@@ -1,0 +1,52 @@
+Configs: {
+	ChatImproverConfig: {
+		DisplayName: 設定
+
+		isMouseScrollingEnabled: {
+			Label: チャットでのマウススクロールを許可する
+			Tooltip: マウススクロールでチャットを移動する。
+		}
+
+		isCaretMovable: {
+			Label: テキスト入力中の入力位置移動を許可する
+			Tooltip: テキスト入力中に入力位置を左右に移動させ、その位置から新たにテキストを入力できるようにする。
+		}
+
+		isPageNavigationEnabled: {
+			Label: 矢印キーによるページ移動
+			Tooltip: 矢印キーを使ってページを移動する。（例：10行スクロールする）
+		}
+
+		isImeDeleteFixEnabled: {
+			Label: IME削除のバグを修正
+			Tooltip: インプットメソッドエディタ（IME）の候補ボックスと入力したテキストが同時に削除される問題を修正する。
+		}
+
+		RightSymbol: {
+			Tooltip: ""
+			Label: 右の記号
+		}
+
+		LeftSymbol: {
+			Tooltip: ""
+			Label: 左の記号
+		}
+
+		Headers: {
+			NameFormat: プレイヤー名のフォーマット
+			CommonConfig: 全般設定
+			BetaConfig: 実験的設定
+		}
+
+		nameColor: {
+			Label: 名前の色
+			Tooltip: ""
+		}
+
+		showCount: {
+			Label: チャット履歴表示の行数
+			Tooltip: ""
+		}
+	}
+}
+

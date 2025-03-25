@@ -1,0 +1,255 @@
+Items: {
+	BiomeKey: {
+		DisplayName: バイオームキー
+		Tooltip:
+			'''
+			各バイオームの鍵の元となる素材
+			スチームパンカーから購入できる
+			'''
+	}
+
+	BossLootSwapToken: {
+		DisplayName: ボス戦利品交換トークン
+		Tooltip:
+			'''
+			ボスの戦利品の元となる素材
+			ゴブリンのよろず屋から購入できる
+			'''
+	}
+
+	CorruptionToken: {
+		DisplayName: 不浄のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ボスの撃破後、不浄の大地で入手可能になる
+			'''
+	}
+
+	CrimsonToken: {
+		DisplayName: クリムゾンのトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ボスの撃破後、真紅の大地で入手可能になる
+			'''
+	}
+
+	DesertToken: {
+		DisplayName: 砂漠のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			地上砂漠で入手可能
+			'''
+	}
+
+	DungeonToken: {
+		DisplayName: ダンジョンのトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ダンジョンで入手可能
+			'''
+	}
+
+	HardmodeFishingToken: {
+		DisplayName: 釣りのトークン(ハードモード)
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			釣りをすると集めることができる
+			'''
+	}
+
+	HardmodeLootToken: {
+		DisplayName: ハードモード戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ハードモード開始後に入手可能になる
+			'''
+	}
+
+	HardmodeSpaceToken: {
+		DisplayName: 宇宙のトークン(ハードモード)
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			宇宙で入手可能
+			'''
+	}
+
+	HellToken: {
+		DisplayName: 地獄のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			スケルトロンの撃破後、地底世界で入手可能になる
+			'''
+	}
+
+	JungleToken: {
+		DisplayName: ジャングルのトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ジャングルで入手可能
+			'''
+	}
+
+	LihzahrdTempleToken: {
+		DisplayName: ジャングル寺院のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ジャングル寺院で入手可能
+			'''
+	}
+
+	OceanToken: {
+		DisplayName: 海洋のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			海で入手可能
+			'''
+	}
+
+	PostEyeSurfaceForestToken: {
+		DisplayName: 森林のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			クトゥルフの目撃破後に入手可能になる
+			'''
+	}
+
+	PostGoblinsLootToken: {
+		DisplayName: ゴブリンの戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ゴブリン軍団撃破後に入手可能になる
+			'''
+	}
+
+	PostMartiansLootToken: {
+		DisplayName: 火星人戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			火星人撃破後に入手可能になる
+			'''
+	}
+
+	PostMechanicalBossLootToken: {
+		DisplayName: メカニカルボス戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			メカニカルボスを一体撃破後に入手可能になる
+			'''
+	}
+
+	PostPiratesLootToken: {
+		DisplayName: 海賊団戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			海賊団撃破後に入手可能になる
+			'''
+	}
+
+	PostPlanteraLootToken: {
+		DisplayName: プランテラ戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			プランテラ撃破後に入手可能になる
+			'''
+	}
+
+	PostPlanteraDungeonToken: {
+		DisplayName: ダンジョントークン（プランテラ撃破後）
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			プランテラ撃破後、ダンジョンで入手可能になる
+			'''
+	}
+
+	PostSkeletronLootToken: {
+		DisplayName: スケルトロン戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			スケルトロン撃破後に入手可能になる
+			'''
+	}
+
+	PreBossLootToken: {
+		DisplayName: 戦利品トークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ドライアドが訪れる前まで入手可能
+			'''
+	}
+
+	PreEyeSurfaceForestToken: {
+		DisplayName: 森林のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			クトゥルフの目撃破前まで入手可能
+			'''
+	}
+
+	PrehardmodeFishingToken: {
+		DisplayName: 釣りのトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			釣りをすることで集めることができる
+			'''
+	}
+
+	PreHardmodeSpaceToken: {
+		DisplayName: 宇宙のトークン（ハードモード前）
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			ウォールオブフレッシュ撃破前に宇宙空間まで入手可能
+			'''
+	}
+
+	SnowToken: {
+		DisplayName: 雪のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			地下雪原で入手可能
+			'''
+	}
+
+	UndergroundDesertToken: {
+		DisplayName: 地下砂漠のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			地下砂漠で入手可能
+			'''
+	}
+# 原文は「Gathered in the pizza」、直訳すると「ピザに集まる」だがここでは意訳として「地下砂漠で集まる」とした
+
+	UndergroundToken: {
+		DisplayName: 地下のトークン
+		Tooltip:
+			'''
+			様々な物の元となる素材
+			地下で入手可能
+			'''
+	}
+}
+

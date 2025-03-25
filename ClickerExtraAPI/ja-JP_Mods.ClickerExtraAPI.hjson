@@ -1,0 +1,28 @@
+Configs: {
+	ClickerAPIConfig: {
+		OneClickClickerEffect: {
+			Tooltip: クリックするたびにクリッカー効果を切り替えられるようにする
+			Label: ワンクリックでクリッカー効果を切り替え
+		}
+
+		Headers: {
+			Debug: デバッグ設定
+		}
+
+		DisplayName: Clicker Extra API 設定
+	}
+}
+
+ClickEffect: {
+	ManiaNew: {
+		Description: クリック効果が少ない場合、ランダムに作用する
+		Name: マニア
+	}
+
+	WildMagicNew: {
+		Description: 任意のクリック効果としてランダムに作用する
+		Name: ワイルド・マジック
+	}
+}
+
+

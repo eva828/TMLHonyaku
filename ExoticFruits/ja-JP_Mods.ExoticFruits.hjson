@@ -1,0 +1,394 @@
+Configs: {
+	Config: {
+		bigFruitManaMult: {
+			Tooltip: 大きなフルーツは、この倍率でマナ増加量を決定する
+			Label: "[i:2209] 大きなフルーツのマナ増加倍率"
+		}
+
+		bigFruitLifeMult: {
+			Tooltip: 大きなフルーツは、この倍率でライフ増加量を決定する
+			Label: "[i:3544] 大きなフルーツのライフ増加倍率"
+		}
+
+		potionDefenseDuration: {
+			Tooltip: 持続時間（分）
+			Label: "[i:17] ポーションの持続時間"
+		}
+
+		potionDefenseValue: {
+			Tooltip: ""
+			Label: "[i:292] ポーションの防御力増加量"
+		}
+
+		manaPerFruit: {
+			Tooltip: ""
+			Label: "[i:189] フルーツ1個あたりのマナ増加量"
+		}
+
+		lifePerFruit: {
+			Tooltip: ""
+			Label: "[i:188] フルーツ1個あたりのライフ増加量"
+		}
+
+		maxFruits: {
+			Tooltip: 同じフルーツを何回食べられるかを調整する
+			Label: "[i:18] フルーツの最大摂取量"
+		}
+
+		manaRequired: {
+			Tooltip: フルーツを摂取するために必要な最大マナ
+			Label: "[i:109] マナの必要量"
+		}
+
+		lifeRequired: {
+			Tooltip: フルーツを摂取するために必要な最大ライフ
+			Label: "[i:29] ライフの必要量"
+		}
+
+		enableFruitRecipes: {
+			Tooltip: ライフフルーツを使ったレシピを可能にする
+			Label: "[i:1291] ライフフルーツ・レシピ"
+		}
+
+		enableCrystalRecipes: {
+			Tooltip: ライフクリスタルを使ったレシピを可能にする
+			Label: "[i:29] ライフクリスタル・レシピ"
+		}
+
+		enableFruitShards: {
+			Tooltip:
+				'''
+				この設定はクラフト素材を落とさないボスにのみ影響する。
+				有効： ボスがカスタムフルーツの材料をドロップする。
+				無効： ユニークドロップ（武器など）がフルーツの材料になる。
+				'''
+			Label: "[i:1611] カスタム・ボスの材料"
+		}
+
+		Headers: {
+			stat_gain: ステータス増加量
+			requirements: 必要条件
+			recipes: レシピ
+		}
+
+		DisplayName: 設定
+	}
+}
+
+Items: {
+	ExoticFruitsPutridPotion: {
+		Tooltip: 警告：このポーションはフルーツの摂取量をゼロにリセットする
+		DisplayName: 腐敗したフルーツのポーション
+	}
+
+	LifeFruitShard: {
+		Tooltip: 「これは美味しいかもしれない...」
+		DisplayName: フルーツの塊
+	}
+
+	ExoticFruits21: {
+		Acquisition: アストラゲルドンの落とす素材、ライフフルーツ、マナクリスタルからクラフト
+		Tooltip:
+			'''
+			アストラゲルドンのライフエッセンスから作られている
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: 触媒ポブベルフルーツ
+	}
+
+	ExoticFruits20: {
+		Acquisition: ヤーロンの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「ヤーロンのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ヴォルモルクフルーツ
+	}
+
+	ExoticFruits19: {
+		Acquisition: デバウアー・オブ・ゴッドの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「デバウアー・オブ・ゴッドのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: イチジクフルーツ
+	}
+
+	ExoticFruits18: {
+		Acquisition: オールドデュークの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「オールドデュークのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: コロキシリスフルーツ
+	}
+
+	ExoticFruits17: {
+		Acquisition: ポルターガストの落とす素材、ライフフルーツ、マナクリスタルからクラフト
+		Tooltip:
+			'''
+			「ポルターガストのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: マキティッシュフルーツ
+	}
+
+	ExoticFruits16: {
+		Acquisition: シグナスの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			シグナスのライフエッセンスから作られた
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: リラサットフルーツ
+	}
+
+	ExoticFruits15: {
+		Acquisition: シースレスヴォイドの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「シースレスヴォイドのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: バハルブ フルーツ
+	}
+
+	ExoticFruits14: {
+		Acquisition: ストームウィーバーの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「ストームウィーバーのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: トロクロフルーツ
+	}
+
+	ExoticFruits13: {
+		Acquisition: プロヴィデンスの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「プロヴィデンスのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ルンティム フルーツ
+	}
+
+	ExoticFruits12: {
+		Acquisition: ドラゴンフォリーの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「ドラゴンフォリーのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: オブリクス フルーツ
+	}
+
+	ExoticFruits11: {
+		Acquisition: 冒涜された守護者たちの落とす素材、ライフフルーツ、マナクリスタルからクラフト
+		Tooltip:
+			'''
+			「冒涜された守護者たちのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: エピユニ フルーツ
+	}
+
+	ExoticFruitsShard4: {
+		Tooltip: エキゾチックなフルーツを作るための素材
+		DisplayName: エピユニフルーツのエッセンス
+	}
+
+	ExoticFruitsShard3: {
+		Tooltip: エキゾチックなフルーツを作るための素材
+		DisplayName: トゥパルディフルーツのエッセンス
+	}
+
+	ExoticFruitsShard2: {
+		Tooltip: エキゾチックなフルーツを作るための素材
+		DisplayName: オーシンフルーツのエッセンス
+	}
+
+	ExoticFruitsShard1: {
+		Tooltip: エキゾチックなフルーツを作るための素材
+		DisplayName: ザングラフルーツのエッセンス
+	}
+
+	ExoticFruitsShard0: {
+		Tooltip: エキゾチックなフルーツを作るための素材
+		DisplayName: イラペリフルーツのエッセンス
+	}
+
+	ExoticFruitsDefensePotion: {
+		Tooltip:
+			'''
+			「敗れた神々の血から作られた」
+			防御力が<defenseGain>増加
+			'''
+		DisplayName: エキソスキンポーション
+	}
+
+	ExoticFruits10: {
+		Acquisition: オルの実(ムーンロード)、バイタルクリスタル2個、アルケインクリスタル2個、妖精の粉からクラフトできる
+		Tooltip:
+			'''
+			「堕ちた神々の究極の美味しい甘露」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ザドリのフルーツ
+	}
+
+	ExoticFruits09: {
+		Acquisition: ムーンロードの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「ムーンロードのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: オルフルーツ
+	}
+
+	ExoticFruits08: {
+		Acquisition: 狂気の崇拝者の落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「狂気の崇拝者のライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: トゥパルディフルーツ
+	}
+
+	ExoticFruits07: {
+		Acquisition: エンプレスオブライトの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「エンプレスオブライトのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: オーシンフルーツ
+	}
+
+	ExoticFruits06: {
+		Acquisition: デュークフィッシロンの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「デュークフィッシュロンのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ザングラフルーツ
+	}
+
+	ExoticFruits05: {
+		Acquisition: ゴーレムの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「ゴーレムのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ジャブリンフルーツ
+	}
+
+	ExoticFruits04: {
+		Acquisition: プランテラの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「プランテラのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: イラペリフルーツ
+	}
+
+	ExoticFruits03: {
+		Acquisition: スケルトロンプライムの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「スケルトロンプライムのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ウンディルフルーツ
+	}
+
+	ExoticFruits02: {
+		Acquisition: デストロイヤーの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「デストロイヤーのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ジタラフルーツ
+	}
+
+	ExoticFruits01: {
+		Acquisition: ツインズの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる
+		Tooltip:
+			'''
+			「ツインズのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: カデヴァンフルーツ
+	}
+
+	ExoticFruits00: {
+		Acquisition: クイーンスライムの落とす素材、ライフフルーツ、マナクリスタルからクラフトできる　
+		Tooltip:
+			'''
+			「クイーンスライムのライフエッセンスから作られた」
+			最大ライフを<lifeGain>増加
+			最大マナを<manaGain>増加
+			摂取量: <consumed>/<cap>
+			'''
+		DisplayName: ピンディルフルーツ
+	}
+}
+
+Buffs: {
+	ExoticFruitsDefenseBuff: {
+		Description: 防御力が大幅に増加
+		DisplayName: エクソスキン
+	}
+}
+

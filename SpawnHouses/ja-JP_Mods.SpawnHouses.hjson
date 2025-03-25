@@ -1,0 +1,150 @@
+Configs: {
+	SpawnHousesConfig: {
+		SpawnPointBasementShape: {
+			Tooltip: ""
+			Label: スポーンポイントの地下室の形状
+		}
+
+		EnableMineshaft: {
+			Tooltip: ONの場合、ワールドスポーン付近に坑道が生成される。
+			Label: 坑道を有効にする
+		}
+
+		EnableBeachHouse: {
+			Tooltip: ONの場合、浜辺に家が建つ。焚き火が生成されることがある。
+			Label: 浜辺の家を有効にする
+		}
+
+		EnableSpawnPointBasement: {
+			Tooltip: ONの場合、スポーン地点の家の下にランダムな地下室が生成される。家がない場合は地面に生成される。
+			Label: スポーンポイント地下を有効にする
+		}
+
+		EnableSpawnPointHouse: {
+			Tooltip: ONの場合、スターターハウスがスポーン地点に直接生成される。
+			Label: スポーンポイントハウスを有効化
+		}
+
+		MainBasementShape: {
+			Tooltip: 0.5はどの方向にも生成されない。0に近いほど地下を垂直に、1に近いほど地下を水平に生成する。\n逆さシードの場合、0.4以下にはならない。
+			Label: 主な地下室の形状
+		}
+
+		SpawnPointHouseSetsSpawn: {
+			Tooltip: ONの場合、スポーンポイントハウスはワールドスポーンを自分自身に設定する。
+			Label: スポーンポイントハウスセットスポーン
+		}
+
+		SpawnPointHouseOffset: {
+			Tooltip: ONの場合、スポーンポイントハウスはスポーンポイントから～120タイル離れた場所に生成される。MODとの互換性を保つのに便利。
+			Label: スポーンポイントハウスオフセット
+		}
+
+		MagicStorageIntegrations: {
+			Tooltip: ONの場合、Magic StorageのスターターがSpawn Point Houseにスポーンする。スポーンするには、Magic Storage（MOD）がロードされている必要がある。
+			Label: Magic Storage との統合
+		}
+
+		BeachHouseSize: {
+			Tooltip: 浜辺の家の大きさ。数字はここに収容できるNPCのおおよその数に対応している。
+			Label: 浜辺の家のサイズ
+		}
+
+		SpawnPointBasementSize: {
+			Tooltip: スポーンポイント地下の広さ。数字はここに収容できるNPCのおおよその数に対応している。
+			Label: スポーンポイントの地下室のサイズ
+		}
+
+		SpawnPointHouseSize: {
+			Tooltip: スポーンポイントハウスの大きさ。数字はここに収容できるNPCのおおよその量に対応している。
+			Label: スポーンポイントの家のサイズ
+		}
+
+		Headers: {
+			StructuresHeader: 使用可能な構造
+			ModifiersHeader: 構造修飾子
+			SizeHeader: 構造サイズ
+		}
+
+		DisplayName: Generated Housing 設定
+	}
+}
+
+Items: {
+	SpawnMineshaft: {
+		Tooltip: カーソルの下の地面に坑道を作る。
+		DisplayName: 坑道の出現
+	}
+
+	SpawnCaveTown1: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: スポーン洞窟タウン1
+	}
+
+	FrameableBorealPlatformNoCollide: {
+		Tooltip: ハンマーで全ての形状に変更できるが、一部の形状は見えなくなり、すり抜け可能になる
+		DisplayName: 形状変更可能なボレアルプラットフォーム（すり抜け）
+	}
+# 衝突はない＝当たり判定はない？Tooltipの意味が分かりづらいので訳しなおしました。ゲーム内にある特定のプラットフォームは、どのタイミングでもハンマーで変形できるが、一部は表示されず、しかもキャラクターが乗ることができない（すり抜ける）という意味？原文不明
+
+	FrameableBorealPlatform: {
+		Tooltip: ハンマーで全ての形状に変更できるが、一部の形状は見えなくなり、すり抜け可能になる
+		DisplayName:  形状変更可能なボレアルプラットフォーム（すり抜け）
+	}
+# 同上
+
+	SpawnMainBasement: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: メイン地下室生成テスト
+	}
+
+	SpawnFirepit: {
+		Tooltip: カーソルの下の地面に浜辺の焚き火台を生成する
+		DisplayName: 焚き火生成器
+	}
+
+	FlipRegion: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: 領域反転
+	}
+
+	SpawnIceCave: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: 氷洞窟生成テスト
+	}
+
+	SpawnChainTest: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: チェーン生成テスト
+	}
+
+	SpawnBridgeTest: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: 坑道生成テスト
+	}
+
+	SpawnBeachHouse: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: ビーチハウス生成テスト
+	}
+
+	SpawnTest: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: スポーン生成テスト
+	}
+
+	SpawnTestHouse: {
+		Tooltip: --テストアイテムです。ゲームがクラッシュする可能性があります。--
+		DisplayName: ハウス生成テスト
+	}
+
+	SpawnMainHouse: {
+		Tooltip: カーソルの下の地面にメインハウス（現在の構成）を生成する。
+		DisplayName: メインハウス生成テスト
+	}
+}
+
+WorldGen: {
+	WorldGenCustomHousesPassMessage: Mods.SpawnHouses.WorldGen.WorldGenCustomHousesPassMessage
+}
+

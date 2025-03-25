@@ -1,0 +1,123 @@
+GrabBagTooltip: Shift + Right Click to split
+
+Configs: {
+	ThrowDragging: {
+		ThrowDelay: {
+			Tooltip: スローの間隔をティック単位でどれだけディレイをかけるかを設定する（60ティック＝1秒）
+			Label: スローディレイ
+		}
+
+		PlaySound: {
+			Tooltip: アイテムを投げるときに音を鳴らす
+			Label: サウンドを再生
+		}
+
+		Tooltip: ""
+	}
+
+	SplittableGrabBags: {
+		ShowTooltip: {
+			Tooltip: ツールチップにコントロールを表示する
+			Label: ツールチップの表示
+		}
+
+		Enabled: {
+			Tooltip: Shift + 右クリックでバッグを開く代わりに分割する
+			Label: 有効
+		}
+
+		Tooltip: ""
+	}
+
+	RightMouseOptions: {
+		ModifierOptions: {
+			Tooltip: マウスの右ボタンで使用できるモディファイアを設定する
+			Label: モディファイア設定
+		}
+
+		Enabled: {
+			Tooltip: オフにすると、マウスの右ボタンを押したままのドラッグが無効になる
+			Label: 有効
+		}
+
+		Tooltip: ""
+	}
+
+	ModifierOptions: {
+		AllowThrow: {
+			Tooltip: オフにすると、throwキーを押しながらのドラッグが無効になる
+			Label: throwを許可する
+		}
+
+		RequireModifier: {
+			Tooltip: ドラッグを有効にするためにモディファイア（Ctrl、Shift、Altなど）が必要な場合はオンを推奨
+			Label: モディファイアを要求する
+		}
+
+		AllowAlt: {
+			Tooltip: オフにすると、Altを押しながらのドラッグが無効になる
+			Label: Altを許可する
+		}
+
+		AllowShift: {
+			Tooltip: オフにすると、Shiftを押しながらのドラッグが無効になる
+			Label: Shiftを許可する
+		}
+
+		AllowCtrl: {
+			Tooltip: オフにすると、Ctrlを押しながらのドラッグが無効になる
+			Label: Ctrlを許可する
+		}
+
+		Tooltip: ""
+	}
+
+	LeftMouseOptions: {
+		ModifierOptions: {
+			Tooltip: マウスの左ボタンで使用できるモディファイアを設定する
+			Label: モディファイア設定
+		}
+
+		Enabled: {
+			Tooltip: オフにすると、マウスの左ボタンを押したままのドラッグが無効になる
+			Label: 有効
+		}
+
+		Tooltip: ""
+	}
+
+	InventoryConfig: {
+		ThrowDragging: {
+			Tooltip: ""
+			Label: Throw ドラッグ
+		}
+
+		DebugMessages: {
+			Tooltip: ""
+			Label: Debug メッセージ
+		}
+
+		SplittableGrabBags: {
+			Tooltip: 福袋の分割用設定
+			Label: 分割可能な福袋
+		}
+
+		RightMouse: {
+			Tooltip: マウスの右ボタンによるドラッグの設定
+			Label: 右マウス
+		}
+
+		LeftMouse: {
+			Tooltip: マウスの左ボタンによるドラッグの設定
+			Label: 左マウス
+		}
+
+		Headers: {
+			ExtraFeatures: 追加機能
+			MainFeatures: 機能全般
+		}
+
+		DisplayName: 設定
+	}
+}
+

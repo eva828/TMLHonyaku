@@ -1,0 +1,26 @@
+DropConditions: {
+	GrotesqueStatuette: プランテラを倒した後のダンジョンで稀にドロップする
+}
+
+Projectiles: {
+	FloatingDefendersForge: {
+		DisplayName: 小さなディフェンダーの炉
+	}
+
+	FlyingSafe: {
+		DisplayName: 安全な飛行者
+	}
+}
+
+Items: {
+	EterniaCrystalShard: {
+		Tooltip: アイテムを保管できる小さなディフェンダーの炉を召喚する
+		DisplayName: エターニアの水晶の欠片
+	}
+
+	GrotesqueStatuette: {
+		Tooltip: アイテムを保管できる空飛ぶ金庫を召喚する
+		DisplayName:グロテスクな彫像
+	}
+}
+

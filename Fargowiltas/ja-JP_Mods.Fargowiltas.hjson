@@ -1,5 +1,5 @@
 Bestiary: {
-	Deviantt: モンスターのスポーンアイテムと（その気になれば）助け舟を出す。この陽気でエネルギッシュなバケモンは、暴力以上にお金が好きだ。少しディフォルメされている。
+	Deviantt: モンスターのスポーンアイテムと（その気になれば）助け舟を出す。この陽気でエネルギッシュなバケモンは、お金と同じくらい暴力が好き。少しディフォルメされている。
 	Abominationn: 天候をコントロールし、侵略を阻止することができるが、怠け者で武器は手にくっついている。だが、食事は不要だし近づくと何かの力で勝手にドアが開くので特に困ってはいない。
 	Mutant: 兄弟からはブラザーと呼ばれるが、性別の確認は拒否している。自分の過去を話すよりも、ケンカや小さなペットを見ることに興味がある。強い相手を探しているようだ。
 	LumberJack: 生き物を集め、あらゆる種類の木を切るのが大好きな、ごく普通の木こり。しかし、彼には見た目以上の何かがあるのだろうか？秘密の神の力？...おそらくないだろう。
@@ -15,32 +15,32 @@ Configs: {
 		DisplayName: サーバー側コンフィグ
 
 		Mutant: {
-			Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+			Label: "[i:Fargowiltas/MutantMask] [c/ffffff:ミュータントがスポーン可能]"
 			Tooltip: ""
 		}
 
 		Abom: {
-			Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Abominationn.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+			Label: "[i:Fargowiltas/AbominationnMask] [c/ffffff:アボミネーションがスポーン可能]"
 			Tooltip: ""
 		}
 
 		Devi: {
-			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Deviantt.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+			Label: "[i:Fargowiltas/DevianttMask] [c/ffffff:ディヴィアントがスポーン可能]"
 			Tooltip: ""
 		}
 
 		Lumber: {
-			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.LumberJack.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+			Label: "[i:Fargowiltas/LumberjackMask] [c/ffffff:きこりが出現可能]"
 			Tooltip: ""
 		}
 
 		Squirrel: {
-			Label: "[i:239] [c/ffffff:{$Mods.Fargowiltas.NPCs.Squirrel.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
+			Label: "[i:239] [c/ffffff:リスが出現可能]"
 			Tooltip: ""
 		}
 
 		CatchNPCs: {
-			Label: "[i:267] タウンNPCを虫取り網で捕獲する"
+			Label: "[i:267] タウンNPCを虫取り網で捕まえる"
 			Tooltip: ""
 		}
 
@@ -50,67 +50,67 @@ Configs: {
 		}
 
 		SaferBoundNPCs: {
-			Label: "[i:1274] 救出可能な町のNPCは接触ダメージを受けない"
+			Label: "[i:1274] 救出可能な町NPCは接触ダメージを受けない"
 			Tooltip: ""
 		}
 
 		Halloween: {
-			Label: "[i:1774] 年中ハロウィン"
+			Label: "[i:1774] 常時ハロウィン"
 			Tooltip: ""
 		}
 
 		Christmas: {
-			Label: "[i:1869] 年中クリスマス"
+			Label: "[i:1869] 常時クリスマス"
 			Tooltip: ""
 		}
 
 		DrunkWorld: {
-			Label: "[i:353] Drunk World"
+			Label: "[i:353] Drunk ワールド"
 			Tooltip: ""
 		}
 
 		BeeWorld: {
-			Label: "[i:1133] Bee World"
+			Label: "[i:1133] Bee ワールド"
 			Tooltip: ""
 		}
 
 		WorthyWorld: {
-			Label: "[i:2107] For the Worthy World"
+			Label: "[i:2107] For the Worthy ワールド"
 			Tooltip: ""
 		}
 
 		CelebrationWorld: {
-			Label: "[i:3732] Celebration World"
+			Label: "[i:3732] Celebration ワールド"
 			Tooltip: ""
 		}
 
 		ConstantWorld: {
-			Label: "[i:5109] Constant World"
+			Label: "[i:5109] The Constant ワールド"
 			Tooltip: ""
 		}
 
 		UnlimitedAmmo: {
-			Label: "[i:771] Unlimited Ammo at 3996+ in Hardmode"
+			Label: "[i:771] ハードモードで弾が3996個以上あると無限化"
 			Tooltip: ""
 		}
 
 		UnlimitedConsumableWeapons: {
-			Label: "[i:42] Unlimited Consumable Weapons at 3996+ in Hardmode"
+			Label: "[i:42] ハードモードで消費型武器が3996個以上あると無限化"
 			Tooltip: ""
 		}
 
 		UnlimitedPotionBuffsOn120: {
-			Label: "[i:292] Unlimited Buffs and Bait when carried in certain stacks"
-			Tooltip: 30+ for potions and bait
+			Label: "[i:292] 特定のスタック数以上でバフやエサが無限化"
+			Tooltip: ポーションと釣りエサは30個以上で無限に
 		}
 
 		ExtraBuffSlots: {
-			Label: "[i:3000] Additional Buff Slots"
+			Label: "[i:3000] バフスロットの追加"
 			Tooltip: ""
 		}
 
 		AnglerQuestInstantReset: {
-			Label: "[i:2374] Angler Quest Instant Reset"
+			Label: "[i:2374] 釣りクエスト即リセット"
 			Tooltip: ""
 		}
 
@@ -120,7 +120,7 @@ Configs: {
 		}
 
 		StalkerMoneyTrough: {
-			Label: "[i:3213] Stalker Money Trough"
+			Label: "[i:3213] ストーカーマネートラフ"
 			Tooltip: ""
 		}
 
@@ -140,72 +140,96 @@ Configs: {
 		}
 
 		ExtractSpeed: {
-			Label: "[i:997] Increased Extractinator Speed"
+			Label: "[i:997] エクストラクティネーターの速度強化"
 			Tooltip: ""
 		}
 
 		Fountains: {
-			Label: "[i:909] Fountains Cause Biomes"
+			Label: "[i:909] 噴水でバイオームを変更"
+			Tooltip: ""
+		}
+
+		PermanentStationsNearby: {
+			Label: "[i:3198] 作業台の近接バフを自動適用"
 			Tooltip: ""
 		}
 
 		BossZen: {
-			Label: "[i:3117] No enemies spawn during boss fights"
+			Label: "[i:3117] ボス戦中は敵が出現しない"
 			Tooltip: ""
 		}
 
 		PiggyBankAcc: {
-			Label: "[i:87] Informational and Construction Accessories work in Piggy Bank"
+			Label: "[i:87] 豚の貯金箱内の情報・建築アイテムが機能"
+			Tooltip: ""
+		}
+
+		ModdedPiggyBankAcc: {
+			Label: "[i:87] 豚の貯金箱内のMODアイテムが機能"
 			Tooltip: ""
 		}
 
 		FasterLavaFishing: {
-			Label: "[i:4881] 溶岩でより速い釣りを許可する"
+			Label: "[i:4881] 溶岩での釣りがより速くなる"
 			Tooltip: ""
 		}
 
 		TorchGodEX: {
-			Label: "[i:5043] Torch God's Favor Automatically Swaps Placed Torches"
-			Tooltip: Obeys true torch luck, which may differ from Torch God's Favor
+			Label: "[i:5043] たいまつの神の加護：設置トーチを自動変換"
+			Tooltip: 真のトーチ運に従います（「トーチ神の加護」と異なる場合があります）
 		}
 
 		PylonsIgnoreEvents: {
-			Label: "[i:4876] Pylons Ignore Events"
+			Label: "[i:4876] パイロンがイベントを無視"
 			Tooltip: ""
+		}
+
+		SafeTerraformers: {
+			Label: "[i:Fargowiltas/InstaBridge] 安全な地形整備ツール"
+			Tooltip:
+				'''
+				地形整備ツール（インスタブリッジやシティバスターなど）は、「重要な構造物リスト」に登録されたエリアの破壊を回避します。
+				このオプションは非常に慎重で、洞窟の家など一般的な構造物も破壊しないことがあります。
+				'''
 		}
 
 		Headers: {
 			TownNPCs: タウンNPC
-			Seasons: シーズン
+			Seasons: Seasons
 			Seeds: シード値
-			Unlimited: 無限化
+			Unlimited: Unlimited
 			StatMultipliers: Stat Multipliers
-			Misc: その他
+			Misc: Miscellaneous
 		}
 
 		EnemyHealth: {
-			Label: "[i:29] Enemy Health"
-			Tooltip: Multiplies the health of all enemies.
+			Label: "[i:29] 敵のライフ"
+			Tooltip: すべての敵のライフに乗算補正をかけます。
 		}
 
 		BossHealth: {
-			Label: "[i:29] Boss Health"
-			Tooltip: Multiplies the health of all bosses. Highest multiplier between this or Enemy Health is applied.
+			Label: "[i:29] ボスのライフ"
+			Tooltip: すべてのボスのライフに乗算補正をかけます。「敵のライフ」と「ボスのライフ」のうち高い方の倍率が適用されます。
 		}
 
 		EnemyDamage: {
-			Label: "[i:3507] Enemy Damage"
-			Tooltip: Multiplies post-mitigation damage of all enemies and projectiles.
+			Label: "[i:3507] 敵のダメージ"
+			Tooltip: すべての敵と発射物の「ダメージ軽減後のダメージ」に乗算補正をかけます。
 		}
 
 		BossDamage: {
-			Label: "[i:3507] Boss Damage"
-			Tooltip: Multiplies post-mitigation damage of all bosses. Highest multiplier between this or Enemy Damage is applied.
+			Label: "[i:3507] ボスのダメージ"
+			Tooltip: すべてのボスの「ダメージ軽減後のダメージ」に乗算補正をかけます。「敵のダメージ」と「ボスのダメージ」のうち高い方の倍率が適用されます。
 		}
 
 		BossApplyToAllWhenAlive: {
-			Label: Boss Multipliers Apply Universally
-			Tooltip: Boss Health and Boss Damage configs apply to all enemies while a boss is alive, rather than just bosses themselves.
+			Label: ボス出現中は全敵にボス倍率を適用
+			Tooltip: ボス出現中は「ボスのライフ」「ボスのダメージ」の設定がボスだけでなくすべての敵に適用されます。
+		}
+
+		DisableTombstones: {
+			Label: "[i:Fargowiltas/GraveBuster] 墓石を出現させない"
+			Tooltip: プレイヤーが死亡しても墓石が出現しなくなります。
 		}
 	}
 
@@ -213,38 +237,48 @@ Configs: {
 		DisplayName: クライアント側コンフィグ
 
 		ExpandedTooltips: {
-			Label: "[i:171] More tooltips indicate Mutant Mod changes"
+			Label: "[i:171] 詳細ツールチップ（Mutant Modの変更点を表示）"
 			Tooltip: ""
 		}
 
+		ExactTooltips: {
+			Label: "[i:171] 正確なアイテム速度とノックバックを表示"
+			Tooltip: アイテムの速度は使用時間で表示され、大きいほど遅くなります。
+		}
+
 		HideUnlimitedBuffs: {
-			Label: "[i:292] Hide unlimited buffs in tray"
+			Label: "[i:292] 永続バフをトレイに表示しない"
 			Tooltip: ""
 		}
 
 		DoubleTapDashDisabled: {
-			Label: "[i:3097] Disable double-tap for dashes"
-			Tooltip: Prevent dashes from using the normal double-tap keybind. The Dash key is available regardless of this config.
+			Label: "[i:3097] ダッシュのダブルタップ無効化"
+			Tooltip: ダブルタップによるダッシュの発生を無効化します。この設定に関係なく「ダッシュキー」は使用可能です。
 		}
 
 		DoubleTapSetBonusDisabled: {
-			Label: "[i:3776] Disable double-tap for Set Bonuses"
-			Tooltip: Prevent set bonuses from using the normal double-tap keybind. The Set Bonus key is available regardless of this config.
+			Label: "[i:3776] セットボーナスのダブルタップ無効化"
+			Tooltip: ダブルタップによるセットボーナス効果の発動を無効化します。この設定に関係なく「セットボーナスキー」は使用可能です。
 		}
 
 		DebuffOpacity: {
-			Label: "[i:1612] Debuff Display Max Opacity"
+			Label: "[i:1612] デバフ表示の最大不透明度"
 			Tooltip: ""
 		}
 
 		DebuffFaderRatio: {
-			Label: "[i:1612] Debuff Duration Fader Strength"
+			Label: "[i:1612] デバフ残り時間のフェード強度"
 			Tooltip: ""
 		}
 
 		TransparentFriendlyProjectiles: {
-			Label: "[i:1309] Transparent Friendly Projectiles"
-			Tooltip: Use with vanilla setting for Quality at Medium or Low for best results
+			Label: "[i:1309] 味方の弾や魔法などの発射物を半透明にする"
+			Tooltip: バニラのクオリティ設定を中または低に設定すると最適に動作します。
+		}
+
+		MultiplayerDeathSpectate: {
+			Label: マルチプレイ時のデスカメラ
+			Tooltip: ""
 		}
 	}
 
@@ -265,7 +299,7 @@ Configs: {
 	}
 
 	Common: {
-		CanSpawn: Can Spawn
+		CanSpawn: スポーン可能
 	}
 }
 
@@ -273,48 +307,51 @@ RecipeGroups: {
 	EvilWood: エボンウッドもしくはシェイドウッド
 	CommonFish: 普通の魚
 	CaughtNPC: 捕まえたタウンNPC
+	CaughtSlime: 捕まえたタウンスライム
 	ArmoredBonesBanner: アーマードスケルトン系のバナー
 	FoodT2: 満足のいく食事
 	FoodT3: この上ない食事
-	GemRobe: Gem Robe
+	GemRobe: 宝石のローブ
+	Or: Or
 }
 
 UI: {
-	StatButton: Stat Sheet
+	StatButton: ステータスシート
 	SearchText: ここで検索...
-	MeleeDamage: Melee Damage: {0}%
-	MeleeCritical: Melee Critical: {0}%
-	MeleeSpeed: Melee Speed: {0}%
-	RangedDamage: Ranged Damage: {0}%
-	RangedCritical: Ranged Critical: {0}%
-	MagicDamage: Magic Damage: {0}%
-	MagicCritical: Magic Critical: {0}%
-	ManaCostReduction: Mana Cost Reduction: {0}%
-	SummonDamage: Summon Damage: {0}%
-	SummonCritical: Summon Critical: {0}%
-	MaxMinions: Max Minions: {0}
-	MaxSentries: Max Sentries: {0}
-	ArmorPenetration: Armor Penetration: {0}
-	Aggro: Aggro: {0}
-	Life: Life: {0}
-	LifeRegen: Life Regen: {0}/sec
-	Mana: Mana: {0}
-	ManaRegen: Mana Regen: {0}/sec
-	Defense: Defense: {0}
-	DRCap: " (cap {0}%)"
-	DamageReduction: Damage Reduction: {0}%{1}
-	Luck: Luck: {0}
-	FishingQuests: Fishing Quests: {0}
-	BattleCry: Battle Cry: {0}
-	BattleCryNone: None
-	MaxSpeed: Max Speed: {0} mph
+	MeleeDamage: 近接ダメージ: {0} %
+	MeleeCritical: 近接クリティカル: {0} %
+	MeleeSpeed: 近接速度: {0} %
+	RangedDamage: 遠距離ダメージ: {0} %
+	RangedCritical: 遠距離クリティカル: {0} %
+	MagicDamage: 魔法ダメージ: {0} %
+	MagicCritical: 魔法クリティカル: {0} %
+	ManaCostReduction: マナ消費軽減: {0} %
+	SummonDamage: 召喚ダメージ: {0} %
+	SummonCritical: 召喚クリティカル: {0} %
+	MaxMinions: 最大召喚数: {0}
+	MaxSentries: 最大セントリー数: {0}
+	ArmorPenetration: 防御貫通: {0}
+	Aggro: アグロ: {0}
+	Life: ライフ: {0}
+	LifeRegen: ライフ回復: {0}/秒
+	Mana: マナ: {0}
+	ManaRegen: マナ回復: {0}/秒
+	Defense: 防御力: {0}
+	DRCap: "（上限 {0}％）"
+	DamageReduction: 被ダメージ軽減: {0} % {1}
+	Luck: 運: {0}
+	FishingQuests: 釣りクエスト完了数: {0}
+	BattleCry: "{$Items.BattleCry.DisplayName}: {0}"
+	BattleCryNone: なし
+	MaxSpeed: 最大速度: {0} mph
+	AttackSpeed: 攻撃速度: {0} %
 	WingNull: ???
-	WingTime: Wing Time: {0}
-	WingTimeMoreThan60Sec: Yes
-	WingTimeActual: "{0} sec"
-	WingMaxSpeed: Wing Max Speed: {0} mph
-	WingAscentModifier: Wing Ascent Modifier: {0}%
-	WingHover: Wing Can Hover: {0}
+	WingTime: 飛行時間: {0}
+	WingTimeMoreThan60Sec: はい
+	WingTimeActual: "{0} 秒"
+	WingMaxSpeed: 翼の最高速度: {0} mph
+	WingAscentModifier: 上昇補正: {0} %
+	WingHover: 滞空可能: {0}
 	WingHoverTrue: True
 	WingHoverFalse: False
 }
@@ -325,60 +362,58 @@ MessageInfo: {
 		Period: .
 	}
 
-	SiblingPylonNotNearSiblings: このパイロンが機能するには、兄弟となる別のパイロンが必要です
+	SiblingPylonNotNearSiblings: このパイロンが機能するには、別の兄弟パイロンが必要です
 	NearbySiblingPylonNotNearSiblings: 近くにいるパイロンが機能するためには、近くに別の兄弟パイロンが必要です
-	NewItemUnlocked: A new item has been unlocked in {0}'s shop!
-	HaveAwoken: "{0} have awoken!"
-	CancelEvent: The invaders have left!
-	CancelPumpkinMoon: The Pumpkin Moon is lowering...
-	CancelFrostMoon: The Frost Moon is lowering...
-	CancelEclipse: A solar eclipse is not happening!
-	CancelBloodMoon: The blood moon is descending...
-	CancelWindyDay: The wind has ended!
-	CancelOOA: The Old One's Army is leaving!
-	CancelSandstorm: The sandstorm has ended!
-	CancelLunarEvent: Celestial creatures are not invading!
-	CancelRain: The rain has ended!
-	StartWindyDay: The wind begins howling.
-	StartSandStorm: A sandstorm has begun.
-	StartLanternNight: Lantern Night rate increased!
-	StopLanternNight: Lantern Night rate restored to default.
-	StartLunarEvent: The Celestial Pillars have awoken!
-	StartRain: Rain clouds cover the sky.
-	AncientSeal: Every boss has awoken!
-	SeveralBossesAwoken: Several bosses have awoken!
-	OverloadBee: A deafening buzz pierces through you!
-	OverloadBetsy: The real Old One's Army is attacking!
-	OverloadBrain: You feel dumb among so many brains!
-	OverloadCultist: Deafening chants fill your ears!
-	OverloadDarkMage: You feel like you're in a library!
-	OverloadDeer: The Constant takes over!
-	OverloadDestroyer: The planet trembles from the core!
-	OverloadEmpress: Bullet heaven is descending!
-	OverloadEye: Countless eyes pierce the veil staring in your direction!
-	OverloadFish: The ocean swells with ferocious pigs!
-	OverloadGolem: Ancient automatons come crashing down!
-	OverloadMoon: The wind whispers of death's approach!
-	OverloadPlant: The jungle beats as one!
-	OverloadPrime: A sickly chill envelops the world!
-	OverloadQueenSlime: Welcome to the truer slime rain!
-	OverloadSkele: A great clammering of bones rises from the dungeon!
-	OverloadSlimeCrown: Welcome to the true slime rain!
-	OverloadTwins: A legion of glowing iris sing a dreadful song!
-	OverloadWall: A fortress of flesh arises from the depths!
-	OverloadWorm: The ground shifts with formulated precision!
-	OverloadFrostMoonStop: The Frost Moon fades away!
-	OverloadFrostMoonStart: The Frost Moon is rising...
-	OverloadFrostMoonWave20: Wave: 20: Everything
-	OverloadPumpkinMoonStop: The Pumpkin Moon fades away!
-	OverloadPumpkinMoonStart: The Pumpkin Moon is rising...
-	OverloadPumpkinMoonWave15: Wave: 15: Everything
-	OverloadGoblinsStop: The goblins have calmed down!
-	OverloadMartiansStop: The martians have calmed down!
-	OverloadPiratesStop: The pirates have calmed down!
-	SwarmKilled: Killed: {0}
-	SwarmTotal: Total: {0}
-	SwarmDefeated: The swarm has been defeated!
+	NewItemUnlocked: 新しい商品が {0} の店に入荷された！
+	HaveAwoken: "{0} が目覚めた！"
+	CancelEvent: 襲撃者は去っていった！
+	CancelPumpkinMoon: パンプキンムーンは地平線の彼方に沈んでいく...
+	CancelFrostMoon: フロストムーンは地平線の彼方に沈んでいく...
+	CancelEclipse: 日蝕「あ、ごめん、日蝕はやっぱ無しで」
+	CancelBloodMoon: 血に染まりし月は地平線の彼方にて眠りにつかん...
+	CancelWindyDay: 風神は帰宅した！
+	CancelOOA: オールドワンズアーミーは去っていく！
+	CancelSandstorm: 砂嵐は帰宅した！
+	CancelLunarEvent: 宇宙の侵略者たちはこの世界から直帰した！
+	CancelRain: 雷神は帰宅した！
+	StartWindyDay: 風が吹き始める...
+	StartSandStorm: 砂嵐が吹き荒れる...
+	StartLanternNight: ランタンナイトの発生確率が上がった！
+	StopLanternNight: ランタンナイトの確率は落ち着きを取り戻した。
+	StartLunarEvent: 宇宙の侵略者たちはこの世界に直行した！
+	StartRain: 雨雲が世界を覆う...
+	AncientSeal: 古代の封印は解かれ、今ここにすべてのボスが解き放たれた！
+	SeveralBossesAwoken: 複数のボスが目覚めた！
+	OverloadBee: 耳をつんざくような囂しい羽音があなたの耳を貫く！
+	OverloadBetsy: 本物のオールドワンズアーミーが攻めてくる！
+	OverloadBrain: 多くの脳があなたをバカにしている！
+	OverloadCultist: 集いて重なった邪悪な聖歌があなたの脳を満たす！
+	OverloadDarkMage: あなたはまるで図書館にいるように感じた！
+	OverloadDeer: 一定数の怪物が世界を支配する！
+	OverloadDestroyer: この星の全てが震撼する！
+	OverloadEmpress: 皇后天国の時間だ！
+	OverloadEye: 無数の視線がルールを突き破り、あなたの方を見つめている！
+	OverloadFish: 海は獰猛な豚鮫たちがうねっている！
+	OverloadGolem: 親方！空から古代の兵器たちが！
+	OverloadMoon: 世界が「死」の接近を警告する！
+	OverloadPlant: ジャングルのビートが終結する！
+	OverloadPrime: 至高の寒気が世界の全てを包む！
+	OverloadQueenSlime: ようこそ！「より」真なるスライムレインへ！
+	OverloadSkele: ダンジョンから複数の大きな骨の音が響く！
+	OverloadSlimeCrown: ようこそ！真なるスライムレインへ！
+	OverloadTwins: 光り輝く虹彩たちが恐ろしい合唱を行う！
+	OverloadWall: 地獄から肉の要塞が現れた！
+	OverloadWorm: 世界が移動している！
+	OverloadFrostMoonStop: 悠久のフロストムーンが消えていく！
+	OverloadFrostMoonStart: 悠久のフロストムーンが昇る...
+	OverloadFrostMoonWave20: ウェーブ20だョ！全員集合！
+	OverloadPumpkinMoonStop: 悠久のパンプキンムーンが消えていく！
+	OverloadPumpkinMoonStart: 悠久のパンプキンムーンが昇る...
+	OverloadPumpkinMoonWave15: ウェーブ15: パンプキンムーンの大集合！
+	OverloadGoblinsStop: ゴブリンたちの興奮は収まった！
+	OverloadMartiansStop: 火星人は落ち着きを取り戻した！
+	OverloadPiratesStop: 海賊たちはさすがに落ち着いた！
+	SwarmDefeated: ボスの大群を倒した！
 }
 
 Buffs: {
@@ -398,8 +433,13 @@ Buffs: {
 	}
 
 	BigSuckBuff: {
-		DisplayName: Big Suck
-		Description: You are sucking everything
+		DisplayName: ビッグサック
+		Description: あなたはすべてを吸い込む
+	}
+
+	CoolCrabBuff: {
+		DisplayName: クールなカニ
+		Description: 彼はあなたがエルデン・リングをプレーすべきだと考えている。
 	}
 }
 
@@ -667,9 +707,10 @@ Items: {
 		DisplayName: 爆弾手裏剣
 		Tooltip:
 			'''
-			速射爆薬
-			ツルハシの採掘力を使う
-			何かを掘り進む最速の方法は、常にそれを爆破することである
+			タイルに当たると瞬時に爆発し、ブロックを破壊する。
+			インベントリ内の最も性能の高いツルハシの採掘力を使用。
+			投擲速度は、最高のツルハシの採掘速度や他の採掘速度ボーナスに比例する。
+			「いかなる時でも何かを掘り進む最速の方法は 爆破だ!」
 			'''
 	}
 
@@ -700,7 +741,7 @@ Items: {
 	}
 
 	HalfInstavator: {
-		DisplayName: 半端な即席ヘルベーター
+		DisplayName: ハーフ即席ヘルベーター
 		Tooltip:
 			'''
 			爆弾を投下し、瞬時に半分のヘルベーターを作る
@@ -713,10 +754,12 @@ Items: {
 		DisplayName: 架橋装置
 		Tooltip:
 			'''
-			全世界にプラットフォームの橋を架ける
-			プラットフォームの真上のエリアも消し去る
+			ワールド全体に足場でできた橋を架ける
+			足場の真上のエリアも消し去る
 			橋はカーソルの位置に現れる
 			近くに重要な建物がある場合は使用しないこと
+			右クリックで橋をかけずにエリアを消し去る
+			使用は自己責任で
 			'''
 	}
 
@@ -726,7 +769,7 @@ Items: {
 			'''
 			全世界にマインカートの線路を作る
 			線路の真上もクリアする
-			線路はカーソルの位置に現れます
+			線路はカーソルの位置に現れる
 			近くに重要な建物がある場合は使用しないこと
 			'''
 	}
@@ -754,7 +797,7 @@ Items: {
 		DisplayName: 小さな架橋装置
 		Tooltip:
 			'''
-			カーソルの位置にプラットフォームの長い橋をかけます。
+			カーソルの位置に足場でできた長い橋をかけます。
 			ブロックを壊さない
 			'''
 	}
@@ -787,11 +830,11 @@ Items: {
 			左クリックでスポーン率10倍を切り替え
 			右クリックで10倍のスポーン率減少に切り替える
 			'''
-		Battle: Battle
-		Calming: Calming
-		Activated: activated
-		Deactivated: deactivated
-		CryText: "{0} Cry {1} for {2}{3}"
+		Battle: 戦い
+		Calming: 落ち着き
+		Activated: 有効化
+		Deactivated: 無効化
+		CryText: "{3} が {0} の音 {1} を {2}"
 	}
 
 	DeathFruit: {
@@ -821,7 +864,11 @@ Items: {
 
 	ModeToggle: {
 		DisplayName: 世界のトークン
-		Tooltip: 使用すると難易度を変更する
+		Tooltip:
+			'''
+			左クリックで難易度モードが循環
+			右クリックでジャーニー・モードを切り替えられる（マルチプレイで問題が発生する可能性がある）
+			'''
 		Journey: ジャーニーモードが有効になった！
 		Normal: ノーマルモードが有効になった！
 		Expert: エキスパートモードが有効になった！
@@ -942,7 +989,7 @@ Items: {
 
 	Abeemination2: {
 		DisplayName: 泣きっ面のハチ
-		Tooltip: どのバイオームでも{$NPCName.QueenBee}を召喚できる
+		Tooltip: どのバイオームでも女王蜂を召喚できる
 	}
 
 	Anemometer: {
@@ -952,19 +999,19 @@ Items: {
 
 	BatteredClub: {
 		DisplayName: ボロボロの棍棒
-		Tooltip: "{$NPCName.DD2OgreT2}を召喚する"
+		Tooltip: オーガを召喚する
 	}
 
 	BetsyEgg: {
 		DisplayName: ドラゴンの卵
-		Tooltip: "{$NPCName.DD2Betsy}を召喚する"
+		Tooltip: ベッツィを召喚する
 	}
 
 	FestiveOrnament: {
 		DisplayName: お祝いのオーナメント
 		Tooltip:
 			'''
-			{$NPCName.Everscream}を召喚する
+			エバースクリームを召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -976,14 +1023,14 @@ Items: {
 
 	ForbiddenTome: {
 		DisplayName: 禁じられた書
-		Tooltip: "{$NPCName.DD2DarkMageT3}を召喚する"
+		Tooltip: ダークメイジを召喚する
 	}
 
 	HeadofMan: {
 		DisplayName: ある騎手の頭
 		Tooltip:
 			'''
-			{$NPCName.HeadlessHorseman}を召喚する
+			ヘッドレスホースマンを召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -992,14 +1039,14 @@ Items: {
 		DisplayName: アイスキングの遺骨
 		Tooltip:
 			'''
-			{$NPCName.IceQueen}を召喚する
+			氷の女王を召喚する
 			夜間のみ使用可能
 			'''
 	}
 
 	MartianMemoryStick: {
 		DisplayName: 火星のメモリースティック
-		Tooltip: "{$NPCName.MartianSaucer}を召喚する"
+		Tooltip: マーズソーサーを召喚する
 	}
 
 	MatsuriLantern: {
@@ -1011,7 +1058,7 @@ Items: {
 		DisplayName: 悪戯リスト
 		Tooltip:
 			'''
-			{$NPCName.SantaNK1}を召喚する
+			サンタ-NK1を召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -1042,14 +1089,14 @@ Items: {
 
 	SpentLantern: {
 		DisplayName: 使用済みランタン
-		Tooltip: "{$MatsuriLantern.DisplayName}の効果を無効にする"
+		Tooltip: 祭のランタンの効果を無効にする
 	}
 
 	SpookyBranch: {
 		DisplayName: 不気味な枝
 		Tooltip:
 			'''
-			{$NPCName.MourningWood}を召喚する
+			嘆きの樹を召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -1058,7 +1105,7 @@ Items: {
 		DisplayName: 怪しい大鎌
 		Tooltip:
 			'''
-			{$NPCName.Pumpking}を召喚する
+			パンプキングを召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -1075,7 +1122,7 @@ Items: {
 
 	DeerThing2: {
 		DisplayName: シング・ディアー
-		Tooltip: どのバイオームでも{$NPCName.Deerclops}を召喚できる
+		Tooltip: どのバイオームでもディアクロップスを召喚できる
 	}
 
 	AmalgamatedSkull: {
@@ -1100,7 +1147,7 @@ Items: {
 		DisplayName: アテネの偶像
 		Tooltip:
 			'''
-			{$NPCName.Medusa}を召喚する
+			メデューサを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
@@ -1109,7 +1156,7 @@ Items: {
 		DisplayName: 魅力的な鉱石
 		Tooltip:
 			'''
-			{$NPCName.UndeadMiner}を召喚する
+			アンデッドマイナーを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
@@ -1118,7 +1165,7 @@ Items: {
 		DisplayName: ブラッド・寿司盛り合わせ
 		Tooltip:
 			'''
-			{$NPCName.BloodNautilus}を召喚する
+			ドレッドノーチラスを召喚する
 			ブラッドムーンの夜に使用可能
 			'''
 	}
@@ -1127,102 +1174,102 @@ Items: {
 		DisplayName: ブラッド・ウニ
 		Tooltip:
 			'''
-			{$NPCName.BloodEelBody}を召喚する
+			血液ウナギを召喚する
 			ブラッドムーンの夜に使用可能
 			'''
 	}
 
 	CloudSnack: {
 		DisplayName: 雲のおやつ
-		Tooltip: "{$NPCName.WyvernBody}を召喚する"
+		Tooltip: ワイバーンを召喚する
 	}
 
 	ClownLicense: {
 		DisplayName: ピエロのライセンス
 		Tooltip:
 			'''
-			{$NPCName.Clown}を召喚する
+			ピエロを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
 
 	CoreoftheFrostCore: {
 		DisplayName: フロストコアのコア
-		Tooltip: "{$NPCName.IceGolem}を召喚する"
+		Tooltip: アイスゴーレムを召喚する
 	}
 
 	CorruptChest: {
 		DisplayName: 不浄のミミック
-		Tooltip: "{$NPCName.BigMimicCorruption}を召喚する"
+		Tooltip: 不浄ミミックを召喚する
 	}
 
 	CrimsonChest: {
 		DisplayName: 真紅のミミック
-		Tooltip: "{$NPCName.BigMimicCrimson}を召喚する"
+		Tooltip: 真紅ミミックを召喚する
 	}
 
 	DemonicPlushie: {
 		DisplayName: 悪魔のぬいぐるみ
 		Tooltip:
 			'''
-			{$NPCName.RedDevil}を召喚する
+			レッドデビルを召喚する
 			アンダーワールドでのみ使用可能
 			'''
 	}
 
 	DilutedRainbowMatter: {
 		DisplayName: 希釈されたレインボーマター
-		Tooltip: "{$NPCName.RainbowSlime}を召喚する"
+		Tooltip: レインボースライムを召喚する
 	}
 
 	Eggplant: {
 		DisplayName: なすび
 		Tooltip:
 			'''
-			{$NPCName.DoctorBones}を召喚する
+			ドクターボーンズを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
 
 	ForbiddenForbiddenFragment: {
 		DisplayName: 禁断の禁じられた破片
-		Tooltip: "{$NPCName.SandElemental}を召喚する"
+		Tooltip: サンドエレメンタルを召喚する
 	}
 
 	GnomeHat: {
 		DisplayName: ノームの帽子
-		Tooltip: "{$NPCName.Gnome}を召喚する"
+		Tooltip: ノームを召喚する
 	}
 
 	GoblinScrap: {
 		DisplayName: ゴブリンのガラクタ
-		Tooltip: "{$NPCName.GoblinScout}を召喚する"
+		Tooltip: ゴブリンスカウトを召喚する
 	}
 
 	GoldenSlimeCrown: {
 		DisplayName: 黄金のスライムクラウン
-		Tooltip: "{$NPCName.GoldenSlime}を召喚する"
+		Tooltip: ゴールデンスライムを召喚する
 	}
 
 	GrandCross: {
 		DisplayName: 聖十字
 		Tooltip:
 			'''
-			{$NPCName.Paladin}を召喚する
+			パラディンを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
 
 	HallowChest: {
 		DisplayName: 聖なるミミック
-		Tooltip: "{$NPCName.BigMimicHallow}を召喚する"
+		Tooltip: 聖域ミミックを召喚する
 	}
 
 	HeartChocolate: {
 		DisplayName: ニンフの義理チョコレート
 		Tooltip:
 			'''
-			{$NPCName.Nymph}を召喚する
+			ニンフを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
@@ -1231,7 +1278,7 @@ Items: {
 		DisplayName: ヘモクロウ・クラブ
 		Tooltip:
 			'''
-			{$NPCName.GoblinShark}を召喚する
+			ヘモゴブリンシャークを召喚する
 			ブラッドムーンの夜に使用可能
 			'''
 	}
@@ -1240,35 +1287,35 @@ Items: {
 		DisplayName: 聖杯
 		Tooltip:
 			'''
-			{$NPCName.Tim}を召喚する
+			ティムを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
 
 	JungleChest: {
 		DisplayName: ジャングルミミック
-		Tooltip: "{$NPCName.BigMimicJungle}を召喚する"
+		Tooltip: ジャングルミミックを召喚する
 	}
 
 	LeesHeadband: {
 		DisplayName: リーの鉢巻
 		Tooltip:
 			'''
-			{$NPCName.BoneLee}を召喚する
+			ボーン・リーを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
 
 	MothLamp: {
 		DisplayName: モス・ランプ
-		Tooltip: "{$NPCName.Moth}を召喚する"
+		Tooltip: モスを召喚する
 	}
 
 	MothronEgg: {
 		DisplayName: モスロンの卵
 		Tooltip:
 			'''
-			{$NPCName.Mothron}を召喚する
+			モスロンを召喚する
 			日食中のみ使用可能
 			'''
 	}
@@ -1277,31 +1324,31 @@ Items: {
 		DisplayName: 針クッション
 		Tooltip:
 			'''
-			{$NPCName.Nailhead}を召喚する
+			ネイルヘッドを召喚する
 			日食中のみ使用可能
 			'''
 	}
 
 	PinkSlimeCrown: {
 		DisplayName: 桜桃のスライムクラウン
-		Tooltip: "{$NPCName.Pinky}を召喚する"
+		Tooltip: ピンキーを召喚する
 	}
 
 	PirateFlag: {
 		DisplayName: 海賊の旗
-		Tooltip: "{$NPCName.PirateCaptain}を召喚する"
+		Tooltip: 海賊のキャプテンを召喚する
 	}
 
 	PlunderedBooty: {
 		DisplayName: 略奪された戦利品
-		Tooltip: "{$NPCName.PirateShip}を召喚する"
+		Tooltip: フライング・ダッチマンを召喚する
 	}
 
 	RuneOrb: {
 		DisplayName: ルーン・オーブ
 		Tooltip:
 			'''
-			{$NPCName.RuneWizard}を召喚する
+			ルーンウィザードを召喚する
 			夜間か地下のみ使用可能
 			'''
 	}
@@ -1310,30 +1357,31 @@ Items: {
 		DisplayName: シャドウフレイムアイコン
 		Tooltip:
 			'''
-			{$NPCName.GoblinSummoner}を召喚する
+			ゴブリンウォーロックを召喚する
 			ゴブリンの侵略中のみ使用可能
 			'''
 	}
 
 	SlimyLockBox: {
 		DisplayName: ねっちょりした錠前
-		Tooltip: "{$NPCName.DungeonSlime}を召喚する"
+		Tooltip: ダンジョンスライムを召喚する
 	}
 
 	SuspiciousLookingChest: {
 		DisplayName: 怪しい施錠されたチェスト
 		Tooltip:
 			'''
-			{$NPCName.Mimic}を召喚する
-			雪原で使用すると{$NPCName.IceMimic}を召喚する
+			ミミックを召喚する
+			雪原で使用するとアイスミミックを召喚する
 			'''
+		HardmodeLock: ハードモードでのみ使用可能
 	}
 
 	SuspiciousLookingLure: {
 		DisplayName: 怪しげなルアー
 		Tooltip:
 			'''
-			{$NPCName.EyeballFlyingFish}と{$NPCName.ZombieMerman}を召喚する
+			ﾜﾝﾀﾞﾘﾝｸﾞｱｲﾌｨｯｼｭとゾンビマーマンを召喚する
 			夜間のみ使用可能
 			'''
 	}
@@ -1342,37 +1390,37 @@ Items: {
 		DisplayName: ワームのおやつ
 		Tooltip:
 			'''
-			{$NPCName.GiantWormBody}を召喚する
-			ハードモードでは{$NPCName.DiggerBody}を召喚する
+			ジャイアントワームを召喚する
+			ハードモードではディガーを召喚する
 			地下でのみ使用可能
 			'''
 	}
 
 	GoreySpine: {
 		DisplayName: シミの目立つ脊椎
-		Tooltip: "{$NPCName.BrainofCthulhu}をどこでも招集することができる"
+		Tooltip: クトゥルフの脳をどこでも招集することができる
 	}
 
 	MechEye: {
 		DisplayName: たぶん機械の目玉
-		Tooltip: "{$Enemies.TheTwins}を召喚する"
+		Tooltip: ツインズを召喚する
 	}
 
 	MechSkull: {
 		DisplayName: おそらく機械のスカル
-		Tooltip: "{$NPCName.SkeletronPrime}を召喚する"
+		Tooltip: スケルトロンプライムを召喚する
 	}
 
 	MechWorm: {
 		DisplayName: きっと機械のワーム
-		Tooltip: "{$NPCName.TheDestroyer}を召喚する"
+		Tooltip: デストロイヤーを召喚する
 	}
 
 	AncientSeal: {
 		DisplayName: いにしえの封印
 		Tooltip:
 			'''
-			{$Enemies.MoonLord}を倒すと{$Mutant.DisplayName}から買うことができる
+			ムーンロードを倒すとミュータントから買うことができる
 			[c/FF0000:全てのボスとModボスを召喚する]
 			夜間のみ使用可能
 			[c/FF0000:使用は自己責任]
@@ -1383,8 +1431,8 @@ Items: {
 		DisplayName: デリバリー狂信者
 		Tooltip:
 			'''
-			{$NPCName.CultistBoss}を召喚する。
-			{$NPCName.CultistBoss}を倒したことがある場合、柱を召喚しない。
+			狂気の崇拝者を召喚する。
+			狂気の崇拝者を倒したことがある場合、柱を召喚しない。
 			'''
 	}
 
@@ -1410,12 +1458,12 @@ Items: {
 
 	JellyCrystal: {
 		DisplayName: ゼリー・クリスタル
-		Tooltip: "{$NPCName.QueenSlimeBoss}を召喚する"
+		Tooltip: クイーンスライムを召喚する
 	}
 
 	MechanicalAmalgam: {
 		DisplayName: 融合した機械
-		Tooltip: "{$Enemies.TheTwins}、{$NPCName.TheDestroyer}、{$NPCName.SkeletronPrime}を召喚する"
+		Tooltip: ツインズ、デストロイヤー、スケルトロンプライムを召喚する
 	}
 
 	MutantVoodoo: {
@@ -1429,38 +1477,38 @@ Items: {
 
 	PlanterasFruit: {
 		DisplayName: プランテラのつぼみ
-		Tooltip: "{$NPCName.Plantera}を召喚する"
+		Tooltip: プランテラを召喚する
 	}
 
 	PrismaticPrimrose: {
 		DisplayName: 幻想のサクラソウ
-		Tooltip: "{$NPCName.HallowBoss}を召喚"
+		Tooltip: エンプレスオブライトを召喚
 	}
 
 	SuspiciousSkull: {
 		DisplayName: 怪しいスカル
 		Tooltip:
 			'''
-			夜に使うと{$NPCName.SkeletronHead}を仕立屋を殺さずに召喚する
-			日中に使うと{$NPCName.DungeonGuardian}を召喚する
+			夜に使うとスケルトロンを仕立屋を殺さずに召喚する
+			日中に使うとダンジョンガーディアンを召喚する
 			'''
 	}
 
 	SlimyCrown: {
 		DisplayName: ぬめった王冠
-		Tooltip: "{$NPCName.KingSlime}を召喚する"
+		Tooltip: キングスライムを召喚する
 	}
 
 	SuspiciousEye: {
 		DisplayName: 間違いなく疑わしい目
-		Tooltip: "{$NPCName.EyeofCthulhu}を召喚する"
+		Tooltip: クトゥルフの目を召喚する
 	}
 
 	EnergizerBee: {
 		DisplayName: ローヤルエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.DisplayName}を使用すると得られる
+			10個の幼虫ラッシュを使用すると得られる
 			「蜂蜜のような香り」
 			'''
 	}
@@ -1469,7 +1517,7 @@ Items: {
 		DisplayName: 龍のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadBetsy}を使用すると得られる
+			10個の{$OverloadBetsy.DisplayName}を使用すると得られる
 			「三千年待った気分だ」
 			'''
 	}
@@ -1478,7 +1526,7 @@ Items: {
 		DisplayName: 天才的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadBrain}を使用すると得られる
+			10個の{$OverloadBrain.DisplayName}を使用すると得られる
 			「You are a browser crusher! ahahaha ahaha a ahahaha...」
 			'''
 	}
@@ -1487,7 +1535,7 @@ Items: {
 		DisplayName: 狂気のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadCultist}を使用すると得られる
+			10個の{$OverloadCultist.DisplayName}を使用すると得られる
 			「あなたはおそらく狂っている」
 			'''
 	}
@@ -1496,7 +1544,7 @@ Items: {
 		DisplayName: ミステリアスなエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadDarkMage}を使用すると得られる
+			10個の{$OverloadDarkMage.DisplayName}を使用すると得られる
 			「千年間待った気分だ」
 			'''
 	}
@@ -1505,7 +1553,7 @@ Items: {
 		DisplayName: シカトされたエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadDeer}を使用すると得られる
+			10個の{$OverloadDeer.DisplayName}を使用すると得られる
 			「おなか
 			  へた」
 			'''
@@ -1515,7 +1563,7 @@ Items: {
 		DisplayName: 破壊のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadDestroyer}を使用すると得られる
+			10個の{$OverloadDestroyer.DisplayName}を使用すると得られる
 			「子供たちを壊したくなる機械、デストロイヤッ！」
 			'''
 	}
@@ -1524,7 +1572,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー・エクストラ
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadSkele}を使用すると得られる
+			10個の{$OverloadSkele.DisplayName}を使用すると得られる
 			「意地悪な牛を思い出す」
 			'''
 	}
@@ -1533,7 +1581,7 @@ Items: {
 		DisplayName: 妖精のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadEmpress}を使用すると得られる
+			10個の{$OverloadEmpress.DisplayName}を使用すると得られる
 			「部屋を明るくして、離れてみてください」
 			'''
 	}
@@ -1542,7 +1590,7 @@ Items: {
 		DisplayName: 光学的なエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadEye}を使用すると得られる
+			10個の{$OverloadEye.DisplayName}を使用すると得られる
 			「あなたと自宅を監視することが趣味です」
 			'''
 	}
@@ -1551,7 +1599,7 @@ Items: {
 		DisplayName: とれたてピチピチのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadFish}を使用すると得られる
+			10個の{$OverloadFish.DisplayName}を使用すると得られる
 			「とても満足しているようだ」
 			'''
 	}
@@ -1560,7 +1608,7 @@ Items: {
 		DisplayName: 電池としても使えるエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadGolem}を使用すると得られる
+			10個の{$OverloadGolem.DisplayName}を使用すると得られる
 			「単三電池だったらよかったのに」
 			'''
 	}
@@ -1569,7 +1617,7 @@ Items: {
 		DisplayName: 月のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadMoon}を使用すると得られる
+			10個の{$OverloadMoon.DisplayName}を使用すると得られる
 			「ムンロは、チーズがたべたいだけなのです！」
 			'''
 	}
@@ -1578,7 +1626,7 @@ Items: {
 		DisplayName: 葉っぱのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadPlant}を使用すると得られる
+			10個の{$OverloadPlant.DisplayName}を使用すると得られる
 			「いつか葉が茂って、根っこは大きく育って」
 			'''
 	}
@@ -1587,7 +1635,7 @@ Items: {
 		DisplayName: プレミアムエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadPrime}を使用すると得られる
+			10個の{$OverloadPrime.DisplayName}を使用すると得られる
 			「広告がなくなった気分」
 			'''
 	}
@@ -1596,7 +1644,7 @@ Items: {
 		DisplayName: 水晶のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadQueenSlime}を使用すると得られる
+			10個の{$OverloadQueenSlime.DisplayName}を使用すると得られる
 			「とてもぬるぬるする」
 			'''
 	}
@@ -1605,7 +1653,7 @@ Items: {
 		DisplayName: 骨のあるエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadSkele}を使用すると得られる
+			10個の{$OverloadSkele.DisplayName}を使用すると得られる
 			「牛を連想させる」
 			'''
 	}
@@ -1614,7 +1662,7 @@ Items: {
 		DisplayName: べとべとしたエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadSlimeCrown}を使用すると得られる
+			10個の{$OverloadSlimeCrown.DisplayName}を使用すると得られる
 			「少しぬるぬるした感じがする」
 			'''
 	}
@@ -1623,7 +1671,7 @@ Items: {
 		DisplayName: 兄弟のエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadTwins}を使用すると得られる
+			10個の{$OverloadTwins.DisplayName}を使用すると得られる
 			「兄弟といえば赤と緑」
 			'''
 	}
@@ -1632,7 +1680,7 @@ Items: {
 		DisplayName: ウォーリーのエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadWall}を使用すると得られる
+			10個の{$OverloadWall.DisplayName}を使用すると得られる
 			「ウォールを探せ！」
 			'''
 	}
@@ -1641,7 +1689,7 @@ Items: {
 		DisplayName: うねうねエネルゲイザー
 		Tooltip:
 			'''
-			10個の{$OverloadBee.OverloadWorm}を使用すると得られる
+			10個の{$OverloadWorm.DisplayName}を使用すると得られる
 			'少し糸を引いている'
 			'''
 	}
@@ -1650,7 +1698,7 @@ Items: {
 		DisplayName: 幼虫ラッシュ
 		Tooltip:
 			'''
-			{$NPCName.QueenBee}を1個につき10体召喚する
+			女王蜂を1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1659,7 +1707,7 @@ Items: {
 		DisplayName: ドラゴンの卵１０個セット
 		Tooltip:
 			'''
-			{$NPCName.DD2Betsy}を1個につき10体召喚する
+			ベッツィを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1668,7 +1716,7 @@ Items: {
 		DisplayName: 台風の脳
 		Tooltip:
 			'''
-			{$NPCName.BrainofCthulhu}を1個につき10体召喚する
+			クトゥルフの脳を1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1677,7 +1725,7 @@ Items: {
 		DisplayName: 狂信者の狂気
 		Tooltip:
 			'''
-			{$NPCName.CultistBoss}を1個につき10体召喚する
+			狂気の崇拝者を1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1686,7 +1734,7 @@ Items: {
 		DisplayName: 本当に禁断の書なんだってば！
 		Tooltip:
 			'''
-			{$NPCName.DD2DarkMageT1}を1個につき10体召喚する
+			ダークメイジを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1695,7 +1743,7 @@ Items: {
 		DisplayName: 合併した鹿
 		Tooltip:
 			'''
-			{$NPCName.Deerclops}を1個につき10体召喚する
+			ディアクロップスを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1704,7 +1752,7 @@ Items: {
 		DisplayName: 地震アクチュエータ
 		Tooltip:
 			'''
-			{$NPCName.TheDestroyer}を1個につき10体召喚する
+			デストロイヤーを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1722,7 +1770,7 @@ Items: {
 		DisplayName: 瓶詰のプリズマカゲロウ
 		Tooltip:
 			'''
-			{$NPCName.HallowBoss}を1個につき10体召喚する
+			エンプレスオブライトを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1732,10 +1780,12 @@ Items: {
 		Tooltip:
 			'''
 			ボス多重召喚アイテムのクラフトに使用する。
-			スタックしている分をまとめて使用する
-			使用した際にスタックしていた数の10倍のボスが出現する
-			10キルごとにトロフィーがドロップ
-			100キルごとにエネルゲイザーがドロップする。
+			使用するとスタック内している分がまとめて消費される。
+			消費数が多いほどボスが強くなる。
+			5個以上消費すると、ボスのスピードが速くなる。
+			消費アイテム1つにつきトレジャーバッグを5個ドロップ
+			アイテムを3つ消費するごとにトロフィーを1つドロップ
+			消費アイテム10個ごとにエネルゲイザーをドロップ
 			'''
 	}
 
@@ -1743,7 +1793,7 @@ Items: {
 		DisplayName: 融合した目玉
 		Tooltip:
 			'''
-			{$NPCName.EyeofCthulhu}を1個につき10体召喚する
+			クトゥルフの目を1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1752,7 +1802,7 @@ Items: {
 		DisplayName: 特盛トリュフワーム
 		Tooltip:
 			'''
-			{$NPCName.DukeFishron}を1個につき10体召喚する
+			デュークフィッシュロンを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1779,7 +1829,7 @@ Items: {
 		DisplayName: リザードのスーパー電池
 		Tooltip:
 			'''
-			{$NPCName.Golem}を1個につき10体召喚する
+			ゴーレムを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1797,7 +1847,7 @@ Items: {
 		DisplayName: ルーンの碑文
 		Tooltip:
 			'''
-			{$Enemies.MoonLord}を1個につき10体召喚する
+			ムーンロードを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1815,7 +1865,7 @@ Items: {
 		DisplayName: プランテラの花
 		Tooltip:
 			'''
-			{$NPCName.Plantera}を1個につき10体召喚する
+			プランテラを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1824,7 +1874,7 @@ Items: {
 		DisplayName: プレミアム操縦チップ
 		Tooltip:
 			'''
-			{$NPCName.SkeletronPrime}を1個につき10体召喚する
+			スケルトロンプライムを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1842,7 +1892,7 @@ Items: {
 		DisplayName: 融合したクリスタル
 		Tooltip:
 			'''
-			{$NPCName.QueenSlimeBoss}を1個につき10体召喚する
+			クイーンスライムを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1851,8 +1901,8 @@ Items: {
 		DisplayName: 骸骨のネックレス
 		Tooltip:
 			'''
-			夜間に{$NPCName.SkeletronHead}を1個につき10体召喚する
-			日中は代わりに{$NPCName.DungeonGuardian}を召喚する
+			夜間にスケルトロンを1個につき10体召喚する
+			日中は代わりにダンジョンガーディアンを召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1861,7 +1911,7 @@ Items: {
 		DisplayName: 融合した王冠
 		Tooltip:
 			'''
-			{$NPCName.KingSlime}を1個につき10体召喚する
+			キングスライムを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1870,7 +1920,7 @@ Items: {
 		DisplayName: 全焦点レンズ
 		Tooltip:
 			'''
-			{$Enemies.TheTwins}を1個につき10体召喚する
+			ツインズを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1879,7 +1929,7 @@ Items: {
 		DisplayName: 在庫処分の人形セット
 		Tooltip:
 			'''
-			{$NPCName.WallofFlesh}を1個につき10体召喚する
+			ウォールオブフレッシュを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
@@ -1888,24 +1938,24 @@ Items: {
 		DisplayName: ワームのご馳走
 		Tooltip:
 			'''
-			{$NPCName.EaterofWorldsBody}を1個につき10体召喚する
+			イーターオブワールドを1個につき10体召喚する
 			トレジャーバッグのみドロップする
 			'''
 	}
 
 	TruffleWorm2: {
 		DisplayName: 香りの強いトリュフワーム
-		Tooltip: "{$NPCName.DukeFishron}を釣りをせずに召喚できる"
+		Tooltip: デュークフィッシュロンを釣りをせずに召喚できる
 	}
 
 	LihzahrdPowerCell2: {
 		DisplayName: リザードのバッテリーパック
-		Tooltip: "{$NPCName.Golem}を{$ItemName.LihzahrdAltar}を使わずに召喚できる"
+		Tooltip: ゴーレムをリザードの祭壇を使わずに召喚できる
 	}
 
 	WormyFood: {
 		DisplayName: おいしいワームのえさ
-		Tooltip: どのバイオームでも{$NPCName.EaterofWorldsHead}を召喚できる
+		Tooltip: どのバイオームでもイーターオブワールドを召喚できる
 	}
 
 	CrimsonAltar: {
@@ -1956,7 +2006,7 @@ Items: {
 		DisplayName: オムニステーション
 		Tooltip:
 			'''
-			無限に再使用可能
+			繰り返し使用可能
 			すべてのバニラのバフを与える設置物の効果を付与する
 			触れるとはちみつ状態を与える
 			近くにいると運が大きく上昇する
@@ -1967,7 +2017,7 @@ Items: {
 		DisplayName: オムニステーション
 		Tooltip:
 			'''
-			無限に再使用可能
+			繰り返し使用可能
 			すべてのバニラのバフを与える設置物を付与する
 			触れるとはちみつ状態を与える
 			近くにいると運を大きく上昇させ、シュガーラッシュを与える
@@ -1983,7 +2033,7 @@ Items: {
 		DisplayName: セミステーション
 		Tooltip:
 			'''
-			無限に再使用可能
+			繰り返し使用可能
 			一部だが、バニラのバフを与える設置物の効果を与える
 			'''
 	}
@@ -1992,7 +2042,7 @@ Items: {
 		DisplayName: 兄弟パイロン
 		Tooltip:
 			'''
-			{$Mutant.DisplayName}、{$Abominationn.DisplayName}、{Deviantt.DisplayName}が近くにいる別のパイロンへテレポートできる
+			{$NPCs.Mutant.DisplayName}、{$NPCs.Abominationn.DisplayName}、{$NPCs.Deviantt.DisplayName}が近くにいる別のパイロンへテレポートできる
 			１種につき１つだけ設置することができる
 			'''
 	}
@@ -2237,7 +2287,7 @@ Items: {
 	}
 
 	Painter: {
-		DisplayName: ペインター
+		DisplayName: 画家
 		Tooltip: 「私はターコイズブルーとブルーグリーンの違いを知っている、けどそれを説明するには時間がいくらあっても足りないな…」
 	}
 
@@ -2263,7 +2313,7 @@ Items: {
 
 	Squirrel: {
 		DisplayName: リス
-		Tooltip: *きゅうきゅう*
+		Tooltip: 「きゅうきゅう」
 	}
 
 	Steampunker: {
@@ -2428,26 +2478,71 @@ Items: {
 	}
 
 	BigSuckPotion: {
-		DisplayName: Big Suck Potion
+		DisplayName: ビッグ・サック・ポーション
 		Tooltip:
 			'''
-			Makes you suck everything
-			Must be consumed manually
+			すべてを吸い寄せる
+			手動で飲む必要がある
 			'''
 	}
 
-	PartyCone: {
-		DisplayName: パーティ・コーン
+	MiniDirtInstaBridge: {
+		DisplayName: ミニ土架橋装置
 		Tooltip:
 			'''
-			パーティーを始めよう!
-			使用するには少なくとも5人のタウンNPCが必要だ
+			カーソルの位置に小さな土の橋を作る
+			ブロックを壊すことはない
 			'''
 	}
 
 	WiresPainting: {
 		DisplayName: 絵画「Wires」
 		Tooltip: 「中を見る」
+	}
+
+	CrabSizedGlasses: {
+		DisplayName: カニサイズのメガネ
+		Tooltip: クールなカニを召喚する
+	}
+
+	NerdySlime: {
+		DisplayName: ナードなスライム
+		Tooltip: "'ゴボゴボ、ポコポコ！'"
+	}
+
+	CoolSlime: {
+		DisplayName: クールなスライム
+		Tooltip: "'ピチョン！'"
+	}
+
+	ElderSlime: {
+		DisplayName: 長老スライム
+		Tooltip: "'プウッ…オホン！'"
+	}
+
+	ClumsySlime: {
+		DisplayName: 不器用なスライム
+		Tooltip: "'*気まずい沈黙*'"
+	}
+
+	DivaSlime: {
+		DisplayName: 歌姫スライム
+		Tooltip: "'パラパラ、リンリン！'"
+	}
+
+	SurlySlime: {
+		DisplayName: ぶっきらぼうなスライム
+		Tooltip: "'シュー！ガラガラ！グルルル…'"
+	}
+
+	MysticSlime: {
+		DisplayName: 魔法使いスライム
+		Tooltip: "'ザラザラ、ザァァ！'"
+	}
+
+	SquireSlime: {
+		DisplayName: 騎士見習いスライム
+		Tooltip: "'ブクブク！ゴボゴボ！'"
 	}
 }
 
@@ -2456,58 +2551,58 @@ NPCs: {
 		DisplayName: アボミネーション
 
 		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateCrowded}"
-			LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeBiome}"
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveBiome}"
-			DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.DislikeBiome}"
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC}"
-			LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LoveNPC}"
-			DislikeNPC: I do not like {NPCName}.
-			HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.HateNPC}"
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Abominationn.LikeNPC_Princess}"
+			Content: 私は満足しているよ。
+			NoHome: 家をくれたら値段を下げてあげるよ。
+			LoveSpace: 混雑していないのはいいことだね。
+			FarFromHome: 飛んで帰りたいけど見られている気がして好きじゃないんだ。
+			DislikeCrowded: 人間が多すぎるんだ、視線が痛いよ。
+			HateCrowded: これだけの人がいる中で、誰も切らずに鎌を運ぶのがどれだけ大変かわかる？
+			LikeBiome: "{BiomeName}は好きだよ。潮の音は落ち着くし、最近は釣りを学んだりしてる。"
+			LoveBiome: 私は宇宙がとても好きだ。上陸する前に最初に来たのはここだったから。とても静かだし。
+			DislikeBiome: "{BiomeName}には弱い敵が多すぎる。"
+			HateBiome: "{BiomeName}が大嫌いだ。"
+			LikeNPC: "{NPCName}は私の妹だよ...。私の方がたくさんイベントを攻略したけど、彼女はいい子だよ。"
+			LoveNPC: "{NPCName}は私の弟なんだ...。私の方がボスとは戦ってきたけど、彼は強いよ。"
+			DislikeNPC: "{NPCName}は好きじゃない。"
+			HateNPC: "{NPCName}は戦いの美学をわかってない…そばにいてほしくないよ。"
+			LikeNPC_Princess: "{NPCName}はいいよね。"
 			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Abominationn}"
 		}
 
 		Chat: {
-			Defeat: You really defeated me... not bad. Now do it again without getting hit. Oh, and Copper Shortsword only.
-			MutantShimmer: He turned into a squirrel. Funniest thing I've ever seen.
-			StyxArmor: What nostalgic armor you're wearing... No, it doesn't fit on me anymore. And its battery takes too long to charge.
-			Graveyard: I hope all these graves lying around don't belong to you.
-			Mechanic: Can you please ask {0} to stop touching my laser arm please.
-			Formattable1: Where'd I get my scythe from? {0}
-			Formatter1PHM: Ask me later.
-			Formatter1HM: You'll figure it out.
-			Normal1: I have slain one thousand humans! Huh? You're a human? There's so much blood on your hands..
-			Normal2: I have defeated everything in this land... nothing can beat me.
-			Normal3: Have you ever had a weapon stuck to your hand? It's not very handy.
-			Normal4: What happened to Yoramur? No idea who you're talking about.
-			Normal5: You wish you could dress like me? Ha! Actually yea.. you can.
-			Normal6: You ever read the ancient classics, I love all the fighting in them.
-			Normal7: I'm a world class poet, ever read my piece about impending doom?
-			Normal8: You want swarm summons? Maybe next year.
-			Normal9: Like my wings? Thanks, the thing I got them from didn't like it much.
-			Normal10: Heroism has no place in this world, instead let's just play ping pong.
-			Normal11: Why are you looking at me like that? Your fashion sense isn't going to be winning you any awards either.
-			Normal12: No, you can't have my hat.
-			Normal13: Embrace suffering... Wait what do you mean that's already taken?
-			Normal14: Your attempt to exploit my anger is admirable, but I cannot be angered.
-			Normal15: Is it really a crime if everyone else does it.
-			Normal16: Inflicting suffering upon others is the most amusing thing there is.
-			Normal17: Irony is the best kind of humor, isn't that ironic?
-			Normal18: I like Cat... What do you mean who's Cat?
-			Normal19: Check the wiki if you need anything, the star is slowly getting it up to par.
-			Normal20: I've heard tales of a legendary Diver... Anyway what was that about a giant jellyfish?
-			Normal21: Overloaded events...? Yeah, they're pretty cool.
-			Normal22: It's not like I don't enjoy your company, but can you buy something?
-			Canceled: Hocus pocus, the event is over.
-			CancelCD: I'm not feeling it right now, come back in {0} seconds.
-			NoEvent: I don't think there's an event right now.
+			Defeat: これが敗北...悪くない感覚だね。今度は無被弾でもう一度やってくれないか？あ、使うのは銅のショートソードだけにしてくれるとうれしいなぁ...
+			MutantShimmer: 彼はリスに変身したね。今まで見た中で一番面白いよ。
+			StyxArmor: どんな懐かしい鎧を着てるんだ...いや、もう似合わないよ。それは充電に時間がかかりすぎるし。
+			Graveyard: この辺に転がっている墓が全部、キミのものでないことを願うよ。
+			Mechanic: "{0} に私のレーザーアームに触るのはやめてほしいって言ってもらえないかな？"
+			Formattable1: 鎌はどこで手に入れたんだっけ？ {0}
+			Formatter1PHM: 後で聞いてくれ。
+			Formatter1HM: そのうちわかるよ。
+			Normal1: どんな敵だって倒してやる！誰にも負けな…ゴホッゴホッ…のど飴もらえる？ちょっと喉が痛くてさ…
+			Normal2: この地のすべてを打ち倒してきた！動物図鑑？ああ、あれね…数えるのとか興味なかったんだよ。
+			Normal3: 武器を腕に移植したことある？すごく不便だよ。
+			Normal4: く…ちゅるー？なんのこと言ってるのかさっぱり。
+			Normal5: ボクみたいな格好がしてみたい？ハハ！実は…できるよ。
+			Normal6: 古典文学って読んだことある？戦いのシーンが最高なんだよね。
+			Normal7: 私は世界的な詩人なんだけど、私の破滅についての詩を読んだことはある？
+			Normal8: 『黄衣の王』って読んだことある？[検閲済]のシーンが最高でさ…いや、[削除済]の場面も…あーもう、やっぱ忘れて。
+			Normal9: この翼、かっこいいでしょ？ありがと。元の持ち主はあまり喜んでなかったけどね。
+			Normal10: 英雄なんて意味ないよ、この世界じゃね。代わりにピンポンでもしようよ。
+			Normal11: なにその目？キミのファッションセンスも大概だよ。
+			Normal12: ダメだよ、帽子はあげない。
+			Normal13: 苦しみを受け入れよ…って、それもう他の誰かが言ってる？
+			Normal14: 『葉っぱの家』って名前なのに出られないとか…マジで意味わかんないよね。
+			Normal15: みんなやってるなら犯罪じゃなくない？…ま、関係ないけど。今夜は映画ナイトだよ！
+			Normal16: 他人に苦しみを与えるのも楽しいけど～、6ポンドのバス釣ったことある？
+			Normal17: 皮肉って最高のユーモアだよね、皮肉にも。
+			Normal18: キャットが好き…あれ、キャットって誰？
+			Normal19: 必要なことがあればwiki見てね、スターが地道に更新してるからさ。
+			Normal20: 伝説のダイバーの話、聞いたことあるんだよね…で、巨大クラゲがどうとか言ってたっけ？
+			Normal21: オーバーロードイベント…？うん、かなりアツいよね。
+			Normal22: キミと話すのも嫌じゃないけど…そろそろ何か買ってくれない？
+			Canceled: イベントイベント飛んでいけ～！...ほ～ら、イベントが終わったよ！
+			CancelCD: 今は気分が乗らないから、 {0} 秒後にまた来てくれないかな。
+			NoEvent: 今停止可能なイベントはないと思うよ。
 		}
 
 		Census: {
@@ -2521,98 +2616,99 @@ NPCs: {
 		DisplayName: デビアント
 
 		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateCrowded}"
-			LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeBiome}"
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveBiome}"
-			DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeBiome}"
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC}"
-			LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LoveNPC}"
-			DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.DislikeNPC}"
-			HateNPC: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.HateNPC}"
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Deviantt.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Deviantt}"
+			Content: 今日も元気だよ！
+			NoHome: 空いてる家ない？お願い！どこでもいいの！牢屋でも構わないから！
+			LoveSpace: 静かで落ち着く〜、こういうのが一番！
+			FarFromHome: たしか家はあっちだったような…それとも、どこかに連れて行こうとしてる？
+			DislikeCrowded: にぎやかなのは好きだけど、ちょっと人多すぎじゃない？
+			HateCrowded: 誰かにぶつかっちゃって足を伸ばしてくつろぐこともできないんだけど…
+			LikeBiome: ふふ、{BiomeName}ってなんだか無性に楽しくなっちゃうんだよね！
+			LoveBiome: 星がすごく綺麗で、ずっと見てても飽きないよ！
+			DislikeBiome: もっと暖かい場所に移動しない？
+			HateBiome: もうここイヤ！暑すぎて汗だくだよ〜！
+			LikeNPC: "{NPCName}は、私の“そこそこ”おっきいお兄ちゃんって感じ。結構イイやつだよ！"
+			LoveNPC: "{NPCName}だー！！あれが私の自慢のお兄ちゃん！最高にクールでしょ！？"
+			DislikeNPC: "{NPCName}みたいな子は苦手。なんか、特殊な人向けって感じでさ。"
+			HateNPC: "ここだけの話さ…{NPCName}って、拾った場所に戻したくなったことない？"
+			LikeNPC_Princess: "{NPCName}とはまた会いたいなー。あの子、話しやすいし分かってくれるの！"
+			Princess_LovesNPC: "{NPCName}さまはとても愉快な方ですの！永遠にしゃべってられそうですわ！"
 		}
 
 		Chat: {
-			GiveGifts: This world looks tougher than usual, so you can have these on the house just this once! Talk to me if you need any tips, yeah?
-			NTB: IT'S THE FUNNY BEE WORLD!
-			NTBHA: " HA"
-			NTBHEE: " HEE"
-			NTBHOO: " HOO"
-			NTBHEH: " HEH"
-			NTBHAH: " HAH"
-			EridanusArmor: UWAH! Please don't hurt... wait, it's just you. Don't scare me like that! And why is that THING following you?!
-			NekomiArmor: Ooh, that's my hoodie! So how is it? Comfy and great for gaming, right? Maybe you'll even go beat a boss without taking damage!
-			Defeat: Good work getting one over on me! Hope I didn't make you sweat too much. Keep at the grind - I wanna see how far you can go!
-			Stinky: Wow, you smell rancid. When's the last time you took a shower, stinky?
-			LoveStruck: You're making too many hearts at me! Sorry, we're only at bond level {0} right now!
-			BloodMoon: The blood moon's effects? I'm not human anymore, so nope!
-			HM: Shower thought. If I put you in a meat grinder and all that's left is two Dye... I'd probably be rich! Not that I would, not to you, specifically, I mean... never mind!
-			Mutant1: Can you tell {0} to put some clothes on?
-			Mutant2: One day, I'll sell a summon for myself! ...Just kidding. That's {0}'s job.
-			Lumber: What's that? You want to fight {0}? ...even I know better than to try.
-			EternityMode: Embrace suffering... and while you're at it, embrace another purchase!
-			Formattable1: "{0}! I saw something rodent-y just now! You don't have a hamster infestation, right? Right!?"
-			Normal1: No, I'm totally not throwing Love Potions while you're not looking! Um, I mean... oh, just buy something!
-			Normal2: Did you know? The only real music genres are death metal and artcore.
-			Normal3: I'll have you know I'm over a hundred Fargo years old! Don't ask me how long a Fargo year is.
-			Normal4: I might be able to afford a taller body if you keep buying!
-			Normal5: Where's that screm cat?
-			Normal6: You're the Terrarian? Honestly, I was expecting someone a little... taller.
-			Normal7: Don't look at me like that! The only thing I've deviated from is my humanity.
-			Normal8: Rip and tear and buy from me for more things to rip and tear!
-			Normal9: What's a chee-bee doe-goe?
-			Normal10: Wait a second. Are you sure this house isn't what they call 'prison?'
-			Normal11: Deviantt has awoken! Quick, give her all your money to defeat her!
-			Normal12: One day, I'll sell a summon for myself! ...Just kidding.
-			Normal13: Hmm, I can tell! You've killed a lot, but you haven't killed enough!
-			Normal14: Why the extra letter, you ask? Only the strongest sibling is allowed to remove their own!
-			Normal15: The more rare things you kill, the more stuff I sell! Simple, right?
-			Normal16: Oh, hi! I, uh, definitely don't have any Stink Potions on me right now! Not that I normally would!
+			GiveGifts: この世界、なんだかちょっと手強そうだよね？だから今回は特別にタダであげる！困ったらいつでも相談してね？
+			NTB: ヘンなミツバチの世界キターー！
+			NTBHA: はっ
+			NTBHEE: へっ
+			NTBHOO: ほ～
+			NTBHEH: ヘヘ
+			NTBHAH: アハ
+			EridanusArmor: うわっ！？あ、なんだ、キミか〜。びっくりさせないでよ〜！その後ろのやつ、なに！？
+			NekomiArmor: わっ、それ私のパーカーじゃん！着心地どう？ゲームとかにちょうどいいでしょ？ボスもノーダメで倒せちゃったりして〜♪
+			Defeat: うわ〜やられちゃった！でも、いい戦いだったよ！ちょっとは手こずった？まだまだ見せてね、キミの成長！
+			Stinky: うわっ、くっさ！最近シャワー浴びた？ホントに〜？
+			LoveStruck: ちょっとちょっと、ハート飛ばしすぎ！今の私たち、まだ絆レベル{0}だからね！？
+			BloodMoon: ブラッドムーン？私はもう人間じゃないから、ノー効果！
+			HM: ふと思ったんだけどさ、キミをミンチにして染料2個にして売ったら…私、大金持ちになれるかも！…な、なーんてね！？そんなことしないよ、キミには！
+			Mutant1: ねえ、{0}に服着ろって言っておいてよ〜！
+			Mutant2: いつか、自分の召喚アイテム売り出そうかな〜！なんてね、それは{0}の仕事！
+			Lumber: ん？{0}と戦いたいって？…さすがに私でもやめとくかな…
+			EternityMode: 苦しみを受け入れよ…ついでにお買い物もよろしくね♪
+			Formattable1: "{0}！今なんかネズミっぽいの見えたんだけど！？ハムスターの巣とか、ないよね？ねっ！？"
+			Normal1: べ、別にキミが目を逸らしてる間にラブポーション投げたりなんかしないんだからね！……う、それよりなんか買ってよ〜！
+			Normal2: 知ってた？真の音楽ジャンルって、デスメタルとアートコアだけなんだよ。
+			Normal3: モラル破綻してるって？失礼な！銀行は私のこと大好きだよ？
+			Normal4: もっと買ってくれたら、身長だって伸ばせるかも…！
+			Normal5: 見かけに騙されないでよね！私は身長140cmだけど、お金の上に立てば240cmだもん！
+			Normal6: えっ、キミがテラリアン？もっと…なんかこう、デカいの想像してた。
+			Normal7: そんな目で見ないでよ〜！人間やめただけだもん！
+			Normal8: ズバッと裂いて、ズバズバっと倒して、ついでに何か買ってってよ！
+			Normal9: 大事なのは身長よりも、クレジットスコアなんだって知ってた？
+			Normal10: ちょっと待って…この家って、もしかして…牢屋ってやつじゃないよね？
+			Normal11: デビアントが目覚めた！さあ、全財産を差し出して撃退しよう〜！
+			Normal12: いつか、自分用の召喚アイテム出すんだ〜！…うそうそ。
+			Normal13: ふふっ、分かるよ！いっぱい倒してきたみたいだけど…まだまだ足りないね！
+			Normal14: なんで余計な文字があるかって？一番強い兄弟だけが、自分の文字を外す権利があるの！
+			Normal15: レアな敵を倒すほど、売り物も増えるよ！簡単でしょ？
+			Normal16: あっ、ども〜！い、いまは臭いポーションなんて持ってないよ！？普段も持ってないし！たぶん！
 		}
 
 		HelpDialogue: {
-			DownedMutant: What's that? You want to fight me for real? ...nah, I can't put up a good fight on my own.
-			DownedAbom: Hey, you've almost made it to the end! Got all your Soul accessories ready? What's that? You want to fight my big brother? ...maybe if he had a reason to.
-			DownedEridanus: Ready to fight my big brother? Remember how you've learned to learn. Stay focused, look for patterns, and don't panic. Good luck!
-			PostML: Wanna craft Forces, but missing Enchantments? Craft the Sigil of Champions and they'll give you what you want, so long as you earn it.
-			MoonLord: Only a specific type of weapon will work against each specific pillar. As for that moon guy, his weakness will keep changing.
-			Cultist: Some powerful enemies like that dungeon guy can create their own arenas. You won't be able to escape, so make full use of the room you do have.
-			Fishron: Did you beat that fish pig dragon yet? He reduces your maximum life a little on every hit. He's also strong enough to break defenses in one hit. Too bad you don't have any reinforced plating to prevent that, right?
-			Betsy: Now's a good time to go for Betsy! Don't worry. If you reach the last wave and lose, you won't have to retry the event for more attempts at her. Careful not to slip up before then, and mind her debuffs!
-			Golem: That temple? Reach the altar to regain wire control! The golem gets upset when you leave, so fighting in there is best. Platforms won't work, but a Lihzahrd Instactuation Bomb can help clear space!
-			Plantera: That overgrown plant inflicts a special venom that works her into an enraged frenzy if she stacks enough hits on you. She also has a ring of crystal leaves, but minions go through it.
-			Destroyer: That metal worm has a few upgrades, but its probes were downgraded to compensate. It'll start shooting homing dark stars and flying. When it coils around you, don't try to escape!
-			Twins: I saw that metal eye spinning while firing a huge laser the other day. Also, even if you kill them, they won't die until they're both killed!
-			Prime: Focus on taking down that metal skull, not its limbs. Don't try to outrun its spinning limbs! Keep your eyes open and learn to recognize what's doing what.
-			WOF: That thing's mouth is as good as immune to damage, so you'll have to aim for the eye. Only one of them is vulnerable at a time, though. What thing? You know, that thing!
-			Deviantt: Next up is me! Make sure you can recognize whatever attack I'll throw at you. Blocks and turning away can nullify petrification!
-			Skeletron: The master of the dungeon can use its babies to attack! Which attack it uses depends on whether or not it's spinning. It'll also take a last stand, so be ready to run when you make the kill!
-			QueenBee: The queen bee will summon her progeny for backup. She's harder to hurt while they're there, so take them out first. Oh, and her swarm can't hit right above or below her!
-			Brain: Focus on how the ichor moves and don't get overwhelmed! When the brain gets mad, it'll confuse you every few seconds. Four rings to confuse you, one ring when it wears off!
-			Eater: The more the world eater splits, the more worms can rush you at once. The head is extra sturdy now, but don't let them pile up too much!
-			GoblinsCrimson: Watch out when you break your second Crimson Heart! It might attract the goblins, so prepare before you do it.
-			GoblinsCorruption: Watch out when you break your second Shadow Orb! It might attract the goblins, so prepare before you do it.
-			EOC: That big eyeball has the power of the moon, but it's too flashy for its own good! Learn to notice and focus only on the bits that threaten to hurt you.
-			Slime: Gonna fight that slime king soon? Crafting a Mini Instabridge or two might help, and mind the slimy rain. Don't stay up and out of his range or he'll get mad, though!
-			Auras: Seems like everyone's learning to project auras these days. If you look at the particles, you can see whether it'll affect you at close range or a distance!
-			Debuffs: There's probably a thousand items to protect against all these debuffs. It's a shame you don't have a thousand hands to carry them all at once!
-			SoulToggle: Don't forget you can turn off your effect toggles! They're all in that little wrench button right below your inventory. Those small buttons at the very bottom of the list include a recommended low-lag preset!
-			LifeCrystals: I don't have any Life Crystals for you, but I think my big brother left some in the fat slime king. Maybe he'll share if you beat it up!
-			Fish: Watch out for those fish! Sharks will leave you alone if you leave them alone, but piranhas go wild when they smell blood. They can jump out of water to get you!
-			Underwater: The water is bogging you down? Never had an issue with it, personally... Have you tried breathing water instead of air?
-			Underworld: The underworld has gotten a lot hotter since the last time I visited. I hear an obsidian skull is a good luck charm against burning alive, though!
-			SpaceSuffocation: Want to have a breath-holding contest? The empty vacuum of space would be perfect. No, I won't cheat by breathing water instead of air!
-			UndergroundHallow: That's a funny face you're making... Is the underground Hallow too disorienting? Try controlling gravity on your own and maybe it can't flip you by force!
-			LifeFruit: If you ask me, Plantera is really letting herself go. A diet of Chlorophyte Ore and Life Fruit isn't THAT healthy! Why don't you help her slim down?
-			CactusDamage: Those cacti can be pretty prickly! Feeling prickled? Try enchanting yourself with cactus essence and see how it goes!
-			RainLightning: Watch out for the lightning when it rains. It's good to pack an umbrella so you're not caught out and end up all wet!
+			DownedMutant: 本気で私と戦いたいって？…んー、私ひとりじゃあんまり強くないんだけど。
+			DownedAbom: もうほとんど終盤まで来たね！ソウルアクセサリーは全部準備できてる？え？お兄ちゃんと戦いたいって？…その気にさせる理由が用意できるならね。
+			DownedEridanus: お兄ちゃんと戦う準備はできた？今までの経験、ちゃんと活かしてね。パターンを見極めて、落ち着いて、焦らず…がんばって！
+			PostML: フォースを作りたいけどエンチャントが足りない？じゃあ{$Mods.FargowiltasSouls.Items.SigilOfChampions.DisplayName}を作ってみて！ちゃんと実力を見せれば、望むものをくれるはず！
+			MoonLord: 柱にはそれぞれ特効武器があるよ。あの月のヤバいヤツの弱点は…ころころ変わるから注意してね！
+			Cultist: ダンジョンのあの人みたいな強敵は、自分専用の戦場を作ることがあるよ。逃げられないから、その場でうまく立ち回ってね！
+			Fishron: あの魚豚ドラゴン倒した？攻撃されるたびに最大HPが減っちゃうし、防御も一撃で崩されるよ。あーあ、{$Mods.FargowiltasSouls.Items.ReinforcedPlating.DisplayName}とかあればいいのにね〜？
+			Betsy: 今こそベッツィに挑戦するチャンス！最後のウェーブまで行けば、負けても再挑戦できるよ！でも油断するとすぐやられるから、デバフに気をつけて！
+			Golem: あの寺院？祭壇まで行けたら配線も使えるようになるよ！ゴーレムは外に出すと怒るから、できれば中で戦ってね。足場は使えないけど、{$Items.LihzahrdInstactuationBomb.DisplayName}で整備できるかも！
+			Plantera: あの植物、おかしくなる毒を使ってくるよ。連続で当たると怒りMAXで超危険！まわりのクリスタルの葉っぱはミニオンなら通れるよ！
+			Destroyer: あのメカミミズ、ちょっと強化されてるけど、その代わり探査機が弱くなったよ。ホーミングの黒い星を撃ったり飛んだりするから、巻きつかれたら逃げようとしないで！
+			Twins: メカ目玉の片方がぐるぐる回りながらレーザー撃ってたの見たよ！どっちか倒しても、両方やっつけないと死なないから気をつけて！
+			Prime: あの金属ドクロ、腕じゃなくて頭を狙おう！回転攻撃は逃げないで、ちゃんと見て動きを覚えてね。
+			WOF: あいつの口、ほとんどダメージ通らないんだよね〜。狙うなら目だよ！…ただし、どっちか片方しか効かないから注意！あ、ちなみに“あいつ”って例の肉壁ボスのことね！
+			Deviantt: 次は私の番だね！どんな攻撃が来るか、ちゃんと見分けられるようにしておいてね。石化はブロックしたり、視線を外すと防げるよ！
+			Skeletron: ダンジョンの主は、分身を飛ばしてくるよ！回転してる時とそうじゃない時で攻撃が違うの！最後の抵抗をしてくるから、トドメを刺したらすぐ逃げる準備をして！
+			QueenBee: ハチの女王は子ハチを呼んでくるよ！その間は本体にダメージ通りにくいから、先に片付けちゃお！あ、女王は真上と真下には攻撃できないんだって！
+			Brain: 霊液の動きに集中して、焦らないようにね！怒ると数秒ごとに混乱させてくるよ。4つのリングで混乱、1つのリングでリセットって感じ！
+			Eater: 分裂するたびにワームが一気に突っ込んでくるよ！頭がめちゃ硬くなってるけど、溜まりすぎると厄介だから注意！
+			GoblinsCrimson: 2つ目のクリムゾンハート壊すとゴブリンが襲撃してくるかも！壊すのは準備が整ってからがおすすめ！
+			GoblinsCorruption: シャドウオーブも2つ目壊すとゴブリン来るかもよ？油断しないで！
+			EOC: あのデカ目玉、月の力を持ってるけど、見た目ばっかり派手でスキだらけ！本当に危ない部分だけに集中してね！
+			Slime: キングスライムと戦う予定？{$Items.MiniInstaBridge.DisplayName}が役立つかも！でも上に逃げすぎると怒っちゃうから注意〜！
+			Auras: 最近、オーラ出すの流行ってるみたい！粒子の動きで、近距離か遠距離かが分かるよ！
+			Debuffs: 状態異常対策アイテムって、ホントにもう山ほどあるよね！ぜーんぶ持てたら最高なんだけど…キミ、手が千本くらいあったりしない？
+			SoulToggle: 効果の切り替え、忘れないでね！インベントリ下の小さいレンチマークからできるよ！軽量モードのプリセットもあるよ♪
+			LifeCrystals: ライフクリスタルは持ってないけど、うちのお兄ちゃんがデカスライムの中に隠してたかも？倒せば分けてもらえるかも！
+			Fish: 魚には気をつけて！サメはこっちが手を出さなければ平気だけど、ピラニアは血の匂いで大暴れするからね！水から飛び出してくるよ！
+			Underwater: 水中で動きにくい？私は平気だけどなぁ…水で呼吸してみたら？
+			Underworld: 地底世界、前よりめっちゃ暑くなってる〜！でも黒曜石のドクロがあれば燃えずに済むらしいよ！
+			SpaceSuffocation: 息止め勝負してみない？宇宙空間なら勝負場所として完璧でしょ♪え？ずるなんてしないよ！空気の代わりに水を吸ったり、潜水具を使ったりしてごまかすつもりなんてないんだから！
+			UndergroundShadowHands: 暗闇が怖い？え、怖くないの？ 怖がるべきだよ！ 怪物が地下で人を捕まえようとしているという噂聞いたこと無い？暗闇から出なければ捕まらないよ。
+			UndergroundHallow: その顔なに？地下のハロウがまぶしすぎる？暗い場所にいると効果弱まるから、ちょっと移動してみて！
+			LifeFruit: プランテラ、ちょっと太った気がしない？クロロファイト鉱石とライフフルーツばっか食べてるせいかも！ちょっとダイエット手伝ってあげて？
+			CactusDamage: サボテンって地味に痛いよね〜！トゲトゲでチクチクするなら、{$Mods.FargowiltasSouls.Items.CactusEnchant.DisplayName}で張り合ってみたら？
+			RainLightning: 雨のときは雷にも注意！傘持っておかないとビリビリになっちゃうよ〜！
 		}
 
 		Census: {
@@ -2626,166 +2722,166 @@ NPCs: {
 		DisplayName: 木こり
 
 		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateCrowded}"
-			LikeBiome: Plenty of trees to chop in {BiomeName} makes for a happy lumberjack.
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LoveBiome}"
-			DislikeBiome: There's nothing to chop in {BiomeName}!
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC}"
-			LoveNPC: I'm glad {NPCName} understands the beauty of felling a big tree.
-			DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.DislikeNPC}"
-			HateNPC: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.HateNPC}"
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.LumberJack.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/LumberJack}"
+			Content: 世界中に切るべき木がある限り、俺の心は穏やかさ。
+			NoHome: 丸太小屋なしじゃ木こりの名が廃る！
+			LoveSpace: 周りに誰もいなければ、思いっきり斧を振るえるんだ。最高だね。
+			FarFromHome: 小屋からずいぶん離れてしまったな…戻って斧でも研ぐか。
+			DislikeCrowded: ここ、ちょっと人が多すぎるな。
+			HateCrowded: 人だらけじゃ集中できん！せっかくの薪割りが台無しだ！
+			LikeBiome: "{BiomeName} は木が豊富で、木こり冥利に尽きる場所だな。"
+			LoveBiome: "{BiomeName} ほど伐採日和の土地はない！昔ながらのやり方でな！"
+			DislikeBiome: "{BiomeName} には切る木がないじゃないか…。"
+			HateBiome: "{BiomeName}  には切る木がないじゃないか…。"
+			LikeNPC: 俺が木を切り、{NPCName} が木を植える。まさに黄金のコンビだな。
+			LoveNPC: "{NPCName} は木を切る快感を理解してくれてる。話が合うやつは貴重だ。"
+			DislikeNPC: "{NPCName} に木を抱きしめろって言われたからさ…代わりに斧で木を抱きしめさせてやったよ。"
+			HateNPC: "{NPCName} はまるで分かっちゃいない。森を爆撃するのは伐採とは言わん！"
+			LikeNPC_Princess: "{NPCName}は意外にも斧のセンスがあるな！"
+			Princess_LovesNPC: 「{NPCName} はとても力持ちね！いつか一緒に木を切ってみたいわ！」
 		}
 
 		Chat: {
-			Nurse: I always see {0} looking at my biceps when I'm working. Wonder if she wants some of my wood.
-			LucyTheAxe: Lucy from that universe.. Interesting things await you.
-			Normal1: Dynasty wood? Between you and me, that stuff ain't real wood!
-			Normal2: Sure cactus isn't wood, but I can still chop it with me trusty axe.
-			Normal3: You wouldn't by chance have any fantasies about me... right?
-			Normal4: I eat a bowl of woodchips for breakfast... without any milk.
-			Normal5: TIIIIIIIIIMMMBEEEEEEEERRR!
-			Normal6: I'm a lumberjack and I'm okay, I sleep all night and I work all day!
-			Normal7: You won't ever need an axe again with me around.
-			Normal8: I have heard of people cutting trees with fish, who does that?
-			Normal9: I'm glad my wood put such a big smile on your face.
-			Normal10: You ever seen the world tree?
-			Normal11: You want what? ...Sorry that's not the kind of wood I'm selling.
-			Normal12: Why don't I sell acorns? ...I replant all the trees I chop, don't you?
-			Normal13: What's the best kind of tree? ... Any if I can chop it.
-			Normal14: Can I axe you a question?
-			Normal15: Might take a nap under a tree later, care to join me?
-			Normal16: I'm an expert in all wood types.
-			Normal17: I'm glad there's more trees to chop here at journey's end.
-			Normal18: Red is one of my favourite colors, right after wood.
-			Normal19: It's always flannel season.
-			Desert: While I was chopping down a cactus these things leaped at me, why don't you take care of them?
-			Jungle: These mahogany trees are full of life, but a tree only has one purpose: to be chopped. Oh yea these fell out of the last one.
-			Hallow: This place is a bit fanciful for my tastes, but the wood's as choppable as any. Nighttime has these cool bugs though, take a few.
-			GlowshroomHM: Whatever causes these to glow is beyond me, you're probably gonna eat them anyway so have this while you're at it.
-			Evil: The trees here are probably the toughest in this branch of reality.. Sorry, just tree puns. I found these for you here.
-			Snow: This neck of the woods is pretty eh? Here I've got some of my favorite wood for you.
-			Beach: Even on vacation, I always fit in a little chopping. A couple annoying birds fell out of a palm tree. Take them off my hands.. maybe cook them up?
-			Underworld: I looked around here for a while and eventually found some weird, ashy trees. Very fragile. I also found this critter and vegetable. Please take them, they're hot to hold.
-			DirtRockGem: I certainly didn't expect to find such wonderful trees down here. Check this out.
-			DirtRockMouse: Went for a long haul today, but there were only so many of those strange trees to go around. I did find a lot of these, why don't you give some of them a new home?
-			CommonDayTimeWindy: Seems like the wind brought a bunch of these out of hiding. Some people say they're good luck. All I know is, the only luck I need is a sharp axe!
-			CommonDayTimeButterfly: Back in the day, people used to forge butterflies into powerful gear. We try to forget those days... but here have one.
-			CommonDayTimeEucaluptusSap: I found this, but I'm not a sappy person. You can have it instead.
-			CommonDayTimeCritter: These little critters are always falling out of the trees I cut down. Maybe you can find a use for them?
-			CommonNightTime: Chopping trees at night is always relaxing... well except for the flying eyeballs. Have one of these little guys to keep you company.
-			Rest: I'm resting after a good day of chopping, come back tomorrow and maybe I'll have something else for you.
+			Nurse: 仕事してるときに{0}がやけに俺の腕を見てくるんだよな…まさか俺の木材に興味が？
+			LucyTheAxe: 宇宙から来た斧、ルーシー。面白いことが起きそうだぞ。
+			Normal1: 王朝の木材？内緒だけど、アレって本当の木材じゃないからな。
+			Normal2: サボテンは木じゃないが、俺の斧なら問題なく切れるさ。
+			Normal3: まさか…俺に惚れてたりしないよな？
+			Normal4: 朝食にはウッドチップスをひと皿。もちろん、ミルクはかけないぜ。
+			Normal5: ティアーー ...
+			Normal6: 木こりって言っても、ちゃんと寝て、ちゃんと働いてる。健全だろ？
+			Normal7: 俺がいれば、もう斧はいらないかもな。
+			Normal8: 魚つきのまま木を切るやつがいるらしいけど…正気か？
+			Normal9: 俺の木材で笑顔になってくれるなら、本望だ。
+			Normal10: 世界樹って見たことあるか？
+			Normal11: は？何が欲しいって？…悪いけど、そういう“木材”は売ってないんだ。
+			Normal12: どんぐりを売ってみる気は？俺が切った木は全部植え直してる。君もどうだ？
+			Normal13: 最高の木は何かって？…切れる木なら全部好きさ。
+			Normal14: 質問してもいいか？
+			Normal15: 後で木の下で昼寝するかもな。よかったら一緒にどうだ？
+			Normal16: 木材のことなら、俺に聞いてくれ。
+			Normal17: 旅の終わりに、まだ伐る木があるのは嬉しいことだ。
+			Normal18: 赤は木の次に好きな色だな。
+			Normal19: いつでもフランネルの季節さ。
+			Desert: サボテン切ってたら、変なやつらに飛びかかられてな…ちょっと手伝ってくれ。
+			Jungle: このマホガニーは生命力に満ちてるけどな、木の運命はひとつだけだ。そう…伐られることさ。ああ、ちなみにこれはさっきの木から落ちてきたもんだ。
+			Hallow: ここはちょっと派手すぎるけど、木があるなら問題ない。夜は虫が面白いぞ。何匹か捕まえてみたら？
+			GlowshroomHM: 光ってる理由は知らないが…まあどのみち食えるんだから気にすんな。
+			Evil: この辺の木は、この世界でも“最樹”クラスの硬さかもな。…今の、気づいたか？木だけに。へへ。木ジョークだ。それと、これを拾っておいた。
+			Snow: 雪原ってのはいいもんだな。お気に入りの木材を紹介してやるよ。
+			Beach: 休暇中でも斧は手放さない。ヤシの木から落ちてきた鳥、調理してもいいか？
+			Underworld: 灰の木を見つけたんだが、やたら脆い。あと変な生き物と野菜もな。熱いから気をつけろよ。
+			DirtRockGem: こんな場所に良い木があるとは…見てみろよ。
+			DirtRockMouse: 長い距離歩いたわりに変な木は少なかったな。いくつか建材にしてやってもいいかもな。
+			CommonDayTimeWindy: 風でいろいろ飛ばされてきたみたいだな。幸運って言うやつもいるが、俺に必要なのは鋭い斧だけさ。
+			CommonDayTimeButterfly: 昔は蝶を強力な道具に鍛えてたらしいぜ。今は忘れ去られてるが…ここにまだ残ってる。
+			CommonDayTimeEucaluptusSap: これを見つけたが、俺は感傷的じゃないんでな。代わりにやるよ。
+			CommonDayTimeCritter: 切った木からよくこういう小さな生き物が出てくる。何か使い道あるか？
+			CommonNightTime: 夜に木を切ると落ち着くんだ…まあ、目玉が飛んでこなけりゃな。こいつ、一匹連れて行けよ。
+			Rest: 今日はたっぷり伐ったからな。今は休憩中だ。また明日来てくれ。何か面白いものを用意しておくかもな。
 		}
 
 		Census: {
-			SpawnCondition: 切り倒された木のタイルの総量が500個以上になる
+			SpawnCondition: 伐採された木のタイルが500以上になるとやってくる。
 		}
 
-		TreeTreasures: Tree Treasures
+		TreeTreasures: 木のトレジャーバッグ
 	}
 
 	Mutant: {
 		DisplayName: ミュータント
 
 		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Mutant.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateCrowded}"
-			LikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeBiome}"
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveBiome}"
-			DislikeBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeBiome}"
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Mutant.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC}"
-			LoveNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LoveNPC}"
-			DislikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Mutant.DislikeNPC}"
-			HateNPC: "{NPCName} needs to leave before my Penetrator makes it happen."
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Mutant.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Mutant}"
+			Content: 家をくれて…まあ、感謝しておくよ。 
+			NoHome: 家があってもいいけど、まあ、どっちでもいいさ。
+			LoveSpace: ボス戦の合間に静かに過ごせるのは悪くない。人間が多いとそうもいかなくてね。
+			FarFromHome: スライムやゾンビを食うのも悪くないが、家で人間の食い物も食べるのもたまにはいい。 
+			DislikeCrowded: ここ、人が多すぎるよ。そしてみんな、にらめっこ競争で私が勝ち続けることに腹を立てているようだ。
+			HateCrowded: この狭苦しい町で、次誰か一人でも私の脳にぶつかってきたらそのときは…いややめておこう。
+			LikeBiome: "{BiomeName}で始めるのは定番だね。悪くない場所だ。"
+			LoveBiome: "ここで暮らすのも心地いいけど……私の神殿を探す気はあるのかい？"
+			DislikeBiome: "まさか{BiomeName}を私が気に入ると思った？あの大きな妖精は悪くないけど"
+			HateBiome: 私を{BiomeName}に住まわせるってことは、召喚アイテムのコストを上げたいってことかな？ 
+			LikeNPC: "{NPCName}がいつ家族に加わったのか忘れたけど、居場所を見つけられたようだね。 "
+			LoveNPC: "{NPCName}とは何度も戦場をくぐり抜けた……また共に戦える機会があればいいんだけどね。"
+			DislikeNPC: "{NPCName}……なんでここに？大丈夫……目を合わせなければ怖くない。 "
+			HateNPC: "{NPCName}にはそろそろ退いてもらいたいところだね。私の“ペネトレーター”が出る前に。"
+			LikeNPC_Princess: "{NPCName}は……感じのいい子だね。"
+			Princess_LovesNPC: "{NPCName}のアイテムはすごいわ！新しい友達を作るのにピッタリね！"
 		}
 
 		Chat: {
-			EternityDefeat: Congratulations. You truly embraced eternity... at least, I think you did? So what happens next? Ascend from this plane of existence? Fight a transcendent cat-like entity? Destroy the world? All the power's in your hands now.
-			Defeat: Good work beating me, I guess. I still feel like stretching my wings... Why don't we go at it for real next time?
-			MutantArmor: Nice armor you have, very realistic skin. As a matter of fact, mind if I borrow it? Your skin, that is.
-			SoulsPostML: Now that you've defeated the big guy, I'd say it's time to start collecting those materials!
-			DefeatCommon: What's that? You want to fight me? ...sure, I guess.
-			DefeatAbom: What's that? You want to fight me? ...maybe if I had a reason.
-			SoulsModDisabled: What's that? You want to fight me? ...you're not worthy you rat.
-			PumpkinMoon: A bit spooky tonight, isn't it.
-			FrostMoon: I'd ask for a coat, but I don't think you have any my size.
-			SlimeRain: Weather seems odd today, wouldn't you agree?
-			BloodMoon1: Lovely night, isn't it?
-			BloodMoon2: I hope the constant arguing I'm hearing isn't my fault.
-			NightTime: I'd follow and help, but I'd much rather sit around right now.
-			Party: "{0} is the one who invited me, I don't understand why though."
-			PartyWithoutPartyGirl: I don't know what everyone's so happy about, but as long as nobody mistakes me for a Pigronata, I'm happy too.
-			Nurse: Whenever we're alone, {0} keeps throwing syringes at me, no matter how many times I tell her to stop!
-			WitchDoctor: Please go tell {0} to drop the 'mystical' shtick, I mean, come on! I get it, you make tainted water or something.
-			Dryad: Why does {0}'s outfit make my wings flutter?
-			Stylist: "{0} once gave me a wig... I look hideous with long hair."
-			Truffle: That mutated mushroom seems like my type of fella.
-			TaxCollector: "{0} keeps asking me for money, but he won't accept my spawners!"
-			Guide: Any idea why {0} is always cowering in fear when I get near him?
-			WitchDoctorTruffleCyborg: If any of us could play instruments, I'd totally start a band with {0}, {1}, and {2}.
-			PartyGirl: Man, {0}'s confetti keeps getting stuck to my wings.
-			Demolitionist: I'm surprised {0} hasn't blown a hole in the floor yet, on second thought that sounds fun.
-			Tavernkeep: "{0} keeps suggesting I drink some beer, something tells me he wouldn't like me when I'm drunk though."
-			DyeTrader: "{0} wants to see what I would look like in blue... I don't know how to feel."
-			Normal1: Savagery, barbarism, bloodthirst, that's what I like seeing in people.
-			Normal2: The stronger you get, the more stuff I sell. Makes sense, right?
-			Normal3: There's something all of you have that I don't... Death perception, I think it's called?
-			Normal4: It would be pretty cool if I sold a summon for myself...
-			Normal5: The only way to get stronger is to keep buying from me and in bulk too!
-			Normal6: Why are you looking at me like that, all I did was eat an apple.
-			Normal7: Don't bother with anyone else, all you'll ever need is right here.
-			Normal8: You're lucky I'm on your side.
-			Normal9: Why yes I would love a ham and swiss sandwich.
-			Normal10: Should I start wearing clothes? ...Nah.
-			Normal11: It's not like I can actually use all the gold you're spending.
-			Normal12: Violence for violence is the law of the beast.
-			Normal13: Those guys really need to get more creative. All of their first bosses are desert themed!
-			Normal14: You say you want to know how a Mutant and Abominationn are brothers? You're better off not knowing.
-			Normal15: I'm all you need for a calamity.
-			Normal16: Everything shall bow before me! ...after you make this purchase.
-			Normal17: It's clear that I'm helping you out, but uh.. what's in this for me? A house you say? I eat zombies for breakfast.
-			Normal18: Can I jump? No, I don't have something called a 'spacebar'.
-			Normal19: Got your nose, I needed one to replace mine.
-			Normal20: What's a Terry?
-			Normal21: Why do so many creatures carry around a weird looking blue doll? The world may never know.
-			Normal22: Impending doom approaches. ...If you don't buy anything of course.
-			Normal23: I've heard of a '3rd dimension', I wonder what that looks like.
-			Normal24: Boy don't I look fabulous today.
-			Normal25: You have fewer friends than I do eyes.
-			Normal26: The ocean is a dangerous place, I wonder where Diver is?
-			Normal27: Do you know what an Ee-arth is?
-			Normal28: I can't even spell 'apotheosis', do you expect me to know what it is?
-			Normal29: Where do monsters get their gold from? ...I don't have pockets you know.
-			Normal30: Dogs are cool and all, but cats don't try to bite my brain.
-			Normal31: Beware the green dragon... What's that face mean?
-			Normal32: Where is this O-hi-o I keep hearing about.
-			Normal33: I've told you 56 times already, I'm busy... Oh wait you want to buy something, I suppose I have time.
-			Normal34: I've heard of a 'Soul of Souls' that only exists in 2015.
-			Normal35: Adding EX after everything makes it way more difficult.
-			Normal36: I think that all modern art looks great, especially the bloody stuff.
-			Normal37: How many guides does it take to change a lightbulb? ... I don't know, how about you ask him.
-			Normal38: Good thing I don't have a bed, I'd probably never leave it.
-			Normal39: What's this about an update? Sounds rare.
-			Normal40: If you need me I'll be slacking off somewhere.
-			Normal41: What do you mean who is Fargo!
-			Normal42: Have you seen the ech cat?
-			Normal43: I don't understand music nowadays, I prefer some smooth jazz... or the dying screams of monsters.
-			Normal44: Cthulhu's got nothing on me!
-			Normal45: I heard of a rumor of infinite use boss summons. Makes me sick..
+			EternityDefeat: おめでとう。君は真に“永遠”を受け入れた…少なくとも、そう見えたよ？で、これからどうする？この世界を超越する？猫っぽい何かと戦う？世界を滅ぼす？力はすべて君の手の中にある。
+			Defeat: 私に勝ったか…まあ、よくやったよ。まだもうすこし羽を伸ばしていたい気分だけど……次は本気をだしてあげようか？
+			MutantArmor: いいスキンだね、すごくリアルなスキンだ。ところで……それ、貸してくれないか？君の肌って意味だけど。
+			SoulsPostML: あの大物を倒したんなら、そろそろ素材集めに取りかかる頃じゃないか？
+			DefeatCommon: ん？私と戦いたいって？……まあ、いいけど。
+			DefeatAbom: 私と戦いたいって？……理由があれば、ね。
+			SoulsModDisabled: 私と戦いたいって？……その程度じゃ無理だよ、ネズミくん。
+			PumpkinMoon: 今夜は少し……不気味だね。
+			FrostMoon: コートを借りたいところだけど、私のサイズは無さそうだ。
+			SlimeRain: 今日の天気、ちょっと変じゃないか？
+			BloodMoon1: 素敵な夜だね、そうは見えないかもしれないけど。
+			BloodMoon2: あちこちで聞こえる言い争い……私のせいじゃなければいいけど。
+			NightTime: 君について行ってもいいけど、今は座っていたい気分なんだ。
+			Party: "{0}が招待してくれたけど……理由はよく分からないな。"
+			PartyWithoutPartyGirl: 何をそんなに浮かれてるのか分からないけど、ピグロナータに間違われなければ、私は満足だよ。
+			Nurse: 二人きりになると、{0}が注射器を投げつけてくるんだ。やめてって何度言っても効かないんだよね。
+			WitchDoctor: "{0}に「神秘の術」みたいなのやめろって言ってきてくれない？水を汚すのが得意なのは分かったからさ。"
+			Dryad: "{0}の服装を見ると……なんだか羽がむずむずするんだけど。"
+			Stylist: "{0}にカツラをもらったことがあってね……長髪、私には似合わなかったよ。"
+			Truffle: あの突然変異キノコ……私の好みかも。
+			TaxCollector: "{0}が金を要求してくるけど、私の召喚アイテムじゃ受け取ってくれないんだよね。"
+			Guide: "{0}、私が近づくとなんであんなに怯えるんだ？"
+			WitchDoctorTruffleCyborg: "{0}と{1}と{2}で楽器が弾けたら、バンドを組むのも面白そうだね。"
+			PartyGirl: "{0}の紙吹雪が、羽にくっついて困ってるんだ。"
+			Demolitionist: "{0}が床に穴を空けてないのが意外だよ……いや、よく考えたら、それ面白そうだね。"
+			Tavernkeep: "{0}がビールを勧めてくるけど……酔った私、見たいとは思わないほうがいいよ。"
+			DyeTrader: "{0}が「青く染めてみたい」って言ってくるんだけど……どうリアクションしたらいいか分からない。"
+			Normal1: 野蛮、暴力性、血への渇望……そういうの、嫌いじゃないよ。
+			Normal2: 君が強くなればなるほど、私の商品も増えていく。理にかなってるだろ？
+			Normal3: 君たちにはあって、私にないものがある……「死の感覚」ってやつかな。
+			Normal4: 私自身を召喚するアイテムを売るとか、ちょっと面白くない？
+			Normal5: 強くなりたいなら、もっと買えばいい。まとめ買いでね。
+			Normal6: 何をそんな目で見てるんだい？ただリンゴを食べただけだよ。
+			Normal7: 他の連中なんて気にするな、私さえいれば充分だ。
+			Normal8: 君は運がいいよ、私が味方なんだから。
+			Normal9: ハムとスイスチーズのサンドイッチが食べたい気分だね。
+			Normal10: 私も服、着るべきかな？……いや、やっぱりいいか。
+			Normal11: 君が払ってる金、正直私には使い道がないんだよね。
+			Normal12: 暴力には暴力で。――それが獣の理さ。
+			Normal13: どの作品も最初のボスは砂漠テーマばかり、もうちょっと独自性を持とうよ。
+			Normal14: ミュータントとアボミネーションが兄弟な理由？知らない方が幸せだよ。
+			Normal15: 災厄には……私がいれば十分さ。
+			Normal16: 全てが私の前にひれ伏すだろう！……この商品を買ってくれれば、だけどね。
+			Normal17: 私が助けてるのは分かってるよね？で、私には何があるんだい？……家？私はゾンビを朝食にするんだよ。
+			Normal18: 跳べるのかって？無理だよ、「スペースキー」を持ってないからね。
+			Normal19: 鼻を取ったよ。ちょうど自分のが欲しかったところでね。
+			Normal20: テリーって何？
+			Normal21: 青くて奇妙な人形、なんであんなに多くのモンスターが持ってるんだろう？謎だね。
+			Normal22: 迫りくる終焉……買い物しないとね。
+			Normal23: “第三の次元”ってやつを聞いたことがある。見てみたいな。
+			Normal24: 今日の私は……ちょっと素敵だと思わない？
+			Normal25: 君の友達の数より、私の目の数の方が多いよ。
+			Normal26: 海って危険だよね。ダイバー、どこに行ってしまったんだろう。
+			Normal27: チキャウ？ってなんのことか知ってる？
+			Normal28: “アポテオーシス”って綴りすら知らないのに、意味まで理解しろって？
+			Normal29: モンスターたち、どこから金を持ってくるんだろうね……私はポケットなんて持ってないけど？
+			Normal30: 犬も悪くないけど、猫の方が私の脳をかじろうとしないから好きかな。
+			Normal31: 緑のドラゴンには気をつけて……って顔だね、それ。
+			Normal32: “オハイオ”って、どこにあるんだい？
+			Normal33: もう56回は言ったと思うけど、今は忙しい……あ、買い物？それなら時間はあるよ。
+			Normal34: 2015年にしか存在しない“ソウル・オブ・ソウルズ”って話を聞いたことあるよ。
+			Normal35: 何でも“EX”って付けると一気にややこしくなるよね。
+			Normal36: 現代アートって全部素晴らしいと思うよ、特に血まみれのやつとかね。
+			Normal37: ガイドって何人いれば電球を替えられるんだっけ？……知らないなら本人に聞いてみたら？
+			Normal38: ベッドを持ってなくてよかったよ、あったら多分一生出られなくなる。
+			Normal39: アップデート？それってレアなやつ？
+			Normal40: 私ならどこかでサボってるから、用があるなら探してね。
+			Normal41: 「ファーゴって誰？」……本気で言ってるのかい？
+			Normal42: ech cat、見たことある？
+			Normal43: 最近の音楽ってよく分からないんだよね。私はスムーズジャズ……それかモンスターの断末魔を聞くのが好きかな。
+			Normal44: クトゥルフなんて私の敵じゃないよ。
+			Normal45: 無限に使えるボス召喚アイテムだって？……気持ち悪いな。
 		}
 
 		Census: {
@@ -2802,29 +2898,29 @@ NPCs: {
 		DisplayName: リス
 
 		TownNPCMood: {
-			Content: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.Content}"
-			NoHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.NoHome}"
-			LoveSpace: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveSpace}"
-			FarFromHome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.FarFromHome}"
-			DislikeCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.DislikeCrowded}"
-			HateCrowded: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateCrowded}"
-			LikeBiome: *happy squeak about {BiomeName}*
-			LoveBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LoveBiome}"
-			DislikeBiome: *sad squeak about {BiomeName}*
-			HateBiome: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.HateBiome}"
-			LikeNPC: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC}"
-			LoveNPC: *very happy squeak about {NPCName}*
-			DislikeNPC: *angry squeak about {NPCName}*
-			HateNPC: *very angry squeak about {NPCName}*
-			LikeNPC_Princess: "{$Mods.Fargowiltas.TownNPCMood.Squirrel.LikeNPC_Princess}"
-			Princess_LovesNPC: "{$TownNPCMood_Princess.LoveNPC_Fargowiltas/Squirrel}"
+			Content: （キュッと満足げな鳴き声）
+			NoHome: （家がなくて悲しそうな鳴き声）
+			LoveSpace: （のびのびとした鳴き声）
+			FarFromHome: （きょろきょろ……迷子な鳴き声）
+			DislikeCrowded: （もじもじ……人が多くてイヤそうな鳴き声）
+			HateCrowded: （ぎゅうぎゅう……とってもイヤそうな鳴き声）
+			LikeBiome: （{BiomeName}っていいとこ！な鳴き声）
+			LoveBiome: （{BiomeName}最高！！な鳴き声）
+			DislikeBiome: （{BiomeName}やだなぁ……な鳴き声）
+			HateBiome: （{BiomeName}は絶対ムリ！な鳴き声）
+			LikeNPC: （{NPCName}大好き〜！って鳴き声）
+			LoveNPC: （{NPCName}最高〜！！って鳴き声）
+			DislikeNPC: （{NPCName}……ケッ）
+			HateNPC: （{NPCName}ゆるさないって鳴き声）
+			LikeNPC_Princess: （{NPCName}はかわいい！な鳴き声）
+			Princess_LovesNPC: "{NPCName}ってほんっっとうにかわいいの！！"
 		}
 
 		Chat: {
-			BloodMoon: "[c/FF0000:You will suffer.]"
-			Normal1: *squeak*
-			Normal2: *chitter*
-			Normal3: *crunch crunch*
+			BloodMoon: "[c/FF0000:お ま え は 苦 し む こ と に な る]"
+			Normal1: （キュッ）
+			Normal2: （カリカリッ）
+			Normal3: （ポリポリ……）
 		}
 
 		Census: {
@@ -2833,29 +2929,29 @@ NPCs: {
 	}
 
 	SuperDummy: {
-		DisplayName: 改良型ダミー
+		DisplayName: "{$Items.SuperDummy.DisplayName}"
 	}
 }
 
 Projectiles: {
 	CorruptNukeProj: {
-		DisplayName: CorruptRenewal
+		DisplayName: "{$Items.CorruptRenewal.Displayname}"
 	}
 
 	CorruptNukeSupremeProj: {
-		DisplayName: CorruptRenewalSupreme
+		DisplayName: "{$Items.CorruptRenewalSupreme.Displayname}"
 	}
 
 	CrimsonNukeProj: {
-		DisplayName: CrimsonRenewal
+		DisplayName: "{$Items.CrimsonRenewal.Displayname}"
 	}
 
 	CrimsonNukeSupremeProj: {
-		DisplayName: CrimsonRenewalSupreme
+		DisplayName: "{$Items.CrimsonRenewalSupreme.Displayname}"
 	}
 
 	DeathScythe: {
-		DisplayName: Abominationn Scythe
+		DisplayName: "{$Items.AbominationnScythe.Displayname}"
 	}
 
 	Explosion: {
@@ -2863,31 +2959,31 @@ Projectiles: {
 	}
 
 	AltarExterminatorProj: {
-		DisplayName: Altar Exterminator
+		DisplayName: "{$Items.AltarExterminator.Displayname}"
 	}
 
 	AutoHouseProj: {
-		DisplayName: Auto House Proj
+		DisplayName: "{$Items.AutoHouse.Displayname}"
 	}
 
 	CityBuster: {
-		DisplayName: City Buster
+		DisplayName: "{$Items.CityBuster.Displayname}"
 	}
 
 	DoubleObsInstaBridgeProj: {
-		DisplayName: Double Obsidian Instabridge
+		DisplayName: "{$Items.DoubleObsidianInstabridge.Displayname}"
 	}
 
 	GraveBuster: {
-		DisplayName: Grave Buster
+		DisplayName: "{$Items.GraveBuster.Displayname}"
 	}
 
 	HalfInstaProj: {
-		DisplayName: Half Instavator
+		DisplayName: "{$Items.HalfInstavator.Displayname}"
 	}
 
 	InstabridgeProj: {
-		DisplayName: Instabridge
+		DisplayName: "{$Items.InstaBridge.Displayname}"
 	}
 
 	InstaHouseVisual: {
@@ -3013,280 +3109,180 @@ Projectiles: {
 	InstaPondProj: {
 		DisplayName: Insta Pond Proj
 	}
+
+	MiniDirtInstabridgeProj: {
+		DisplayName: Mini Dirt Instabridge Proj
+	}
+
+	CoolCrab: {
+		DisplayName: Cool Crab
+	}
 }
 
 Tiles: {
 	CrimsonAltarSheet: {
-		MapEntry: Crimson Altar
+		MapEntry: クリムゾンアルター
 	}
 
 	CrucibleCosmosSheet: {
-		MapEntry: Crucible of the Cosmos
+		MapEntry: "{$Items.CrucibleCosmos.DisplayName}"
 	}
 
 	DemonAltarSheet: {
-		MapEntry: Demon Altar
+		MapEntry: デーモンアルター
 	}
 
 	ElementalAssemblerSheet: {
-		MapEntry: Elemental Assembler
+		MapEntry: "{$Items.ElementalAssembler.DisplayName}"
 	}
 
 	GoldenDippingVatSheet: {
-		MapEntry: Golden Dipping Vat
+		MapEntry: "{$Items.GoldenDippingVat.DisplayName}"
 	}
 
 	MultitaskCenterSheet: {
-		MapEntry: Multitask Center
+		MapEntry: "{$Items.MultitaskCenter.DisplayName}"
 	}
 
 	OmnistationSheet: {
-		MapEntry: Omnistation
+		MapEntry: "{$Items.Omnistation.DisplayName}"
 	}
 
 	OmnistationSheet2: {
-		MapEntry: Omnistation
+		MapEntry: "{$Items.Omnistation2.DisplayName}"
 	}
 
 	RegalStatueSheet: {
-		MapEntry: Regal Statue
+		MapEntry: "{$Items.RegalStatue.DisplayName}"
 	}
 
 	SemistationSheet: {
-		MapEntry: Semistation
+		MapEntry: "{$Items.Semistation.DisplayName}"
 	}
 
 	SiblingPylonTile: {
-		MapEntry: Sibling Pylon
+		MapEntry: "{$Items.SiblingPylon.DisplayName}"
 	}
 
 	PurityTotemSheet: {
-		MapEntry: Purity Totem
+		MapEntry: "{$Items.PurityTotem.DisplayName}"
 	}
 }
 
 Conditions: {
 	DownedBoss: ボスが一体討伐された後
-	DutchmanDown: "{$NPCName.PirateShip}が討伐された後"
-	MageDown: "{$NPCName.DD2DarkMageT1}が討伐された後"
-	OgreDown: "{$NPCName.DD2OgreT2}が討伐された後"
-	BetsyDown: "{$NPCName.DD2Betsy}が討伐された後"
-	HorsemanDown: "{$NPCName.HeadlessHorseman}が討伐された後"
-	PillarsDown: After defeating the Celestial Pillars
-	Downed: After defeating
-	WormDown: "{$NPCName.GiantWormHead}と{$NPCName.DiggerHead}のどちらかが討伐された後"
-	PinkyDown: "{$NPCName.Pinky}が討伐された後"
-	ScoutDown: "{$NPCName.GoblinScout}が討伐された後"
-	DoctorDown: "{$NPCName.DoctorBones}が討伐された後"
-	MinerDown: "{$NPCName.UndeadMiner}が討伐された後"
-	TimDown: "{$NPCName.Tim}が討伐された後"
-	GnomeDown: "{$NPCName.Gnome}が討伐された後"
-	GoldSlimeDown: "{$NPCName.GoldenSlime}が討伐された後"
-	DungeonSlimeDown: "{$NPCName.DungeonSlime}と{$NPCName.SkeletronHead}が討伐された後"
-	MedusaDown: ハードモードで{$NPCName.Medusa}が討伐された後
-	ClownDown: ハードモードで{$NPCName.Clown}が討伐された後
-	NymphDown: "{$NPCName.Nymph}が討伐された後"
-	MothDown: ハードモードで{$NPCName.Moth}が討伐された後
-	RainbowSlimeDown: ハードモードで{$NPCName.RainbowSlime}が討伐された後
-	WyvernDown: ハードモードで{$NPCName.WyvernHead}が討伐された後
-	RuneDown: ハードモードで{$NPCName.RuneWizard}が討伐された後
-	MimicDown: ハードモードで{$NPCName.Mimic}が討伐された後
-	MimicHallowDown: ハードモードで{$NPCName.BigMimicHallow}が討伐された後
-	MimicCorruptDown: ハードモードで{$NPCName.BigMimicCorruption}が討伐された後
-	MimicCrimsonDown: ハードモードで{$NPCName.BigMimicCrimson}が討伐された後
-	MimicJungleDown: ハードモードで{$NPCName.BigMimicJungle}が討伐された後
-	IceGolemDown: ハードモードで{$NPCName.IceGolem}が討伐された後
-	SandDown: ハードモードで{$NPCName.SandElemental}が討伐された後
-	DevilDown: ハードモードで{$NPCName.RedDevil}が討伐された後
-	BloodFishDown: "{$NPCName.EyeballFlyingFish}か{$NPCName.ZombieMerman}が討伐された後"
-	BloodEelDown: ハードモードで{$NPCName.BloodEelHead}が討伐された後
-	BloodGoblinDown: ハードモードで{$NPCName.GoblinShark}が討伐された後
-	BloodNautDown: ハードモードで{$NPCName.BloodNautilus}が討伐された後
-	SummonerDown: ハードモードで{$NPCName.GoblinSummoner}が討伐され、ゴブリンの侵略が攻略された後
-	PirateDown: ハードモードで{$NPCName.PirateCaptain}が討伐され、海賊の襲来が攻略された後
-	NailheadDown: "{$NPCName.Nailhead}とすべてのメカニカルボスが討伐された後"
-	MothronDown: "{$NPCName.Mothron}とすべてのメカニカルボスが討伐された後"
-	LeeDown: "{$NPCName.BoneLee}と{$NPCName.Plantera}が討伐された後"
-	PaladinDown: "{$NPCName.Paladin}と{$NPCName.Plantera}が討伐された後"
-	SkeleGunDown: "{$NPCName.Plantera}が討伐された、かつ{$NPCName.Necromancer}か{$NPCName.RaggedCaster}か{$NPCName.DiabolistRed}のどれかが討伐された後"
-	SkeleMagesDown: After defeating a Necromancer, Diabloist or Ragged Caster, After defeating Plantera
-	SiblingPylon: すべての兄弟が存在しているとき
+	DutchmanDown: フライング・ダッチマンが討伐された後
+	MageDown: ダークメイジが討伐された後
+	OgreDown: オーガが討伐された後
+	BetsyDown: ベッツィが討伐された後
+	HorsemanDown: ヘッドレスホースマンが討伐された後
+	PillarsDown: 柱がすべて討伐された後
+	Downed: "討伐後:"
+	WormDown: ジャイアントワームまたはディガーが討伐された後
+	PinkyDown: ピンキーが討伐された後
+	ScoutDown: ゴブリンスカウトが討伐された後
+	DoctorDown: ドクターボーンズが討伐された後
+	MinerDown: アンデッドマイナーが討伐された後
+	TimDown: ティムが討伐された後
+	GnomeDown: ノームが討伐された後
+	GoldSlimeDown: ゴールデンスライムが討伐された後
+	DungeonSlimeDown: ダンジョンスライムとスケルトロンが討伐された後
+	MedusaDown: ハードモードでメデューサが討伐された後
+	ClownDown: ハードモードでピエロが討伐された後
+	NymphDown: ニンフが討伐された後
+	MothDown: ハードモードでモスが討伐された後
+	RainbowSlimeDown: ハードモードでレインボースライムが討伐された後
+	WyvernDown: ハードモードでワイバーンが討伐された後
+	RuneDown: ハードモードでルーンウィザードが討伐された後
+	MimicDown: ハードモードでミミックが討伐された後
+	MimicHallowDown: ハードモードで聖域ミミックが討伐された後
+	MimicCorruptDown: ハードモードで不浄ミミックが討伐された後
+	MimicCrimsonDown: ハードモードで真紅ミミックが討伐された後
+	MimicJungleDown: ハードモードでジャングルミミックが討伐された後
+	IceGolemDown: ハードモードでアイスゴーレムが討伐された後
+	SandDown: ハードモードでサンドエレメンタルが討伐された後
+	DevilDown: ハードモードでレッドデビルが討伐された後
+	BloodFishDown: ﾜﾝﾀﾞﾘﾝｸﾞｱｲﾌｨｯｼｭかゾンビマーマンが討伐された後
+	BloodEelDown: ハードモードで血液ウナギが討伐された後
+	BloodGoblinDown: ハードモードでヘモゴブリンシャークが討伐された後
+	BloodNautDown: ハードモードでドレッドノーチラスが討伐された後
+	SummonerDown: ハードモードでゴブリンウォーロックが討伐され、ゴブリンの侵略が攻略された後
+	PirateDown: ハードモードで海賊のキャプテンが討伐され、海賊の襲来が攻略された後
+	NailheadDown: ネイルヘッドとすべてのメカニカルボスが討伐された後
+	MothronDown: モスロンとすべてのメカニカルボスが討伐された後
+	LeeDown: ボーン・リーとプランテラが討伐された後
+	PaladinDown: パラディンとプランテラが討伐された後
+	SkeleGunDown: プランテラが討伐され、ネクロマンサー、ラギッドキャスター、またはディアボリストのいずれかが討伐された後
+	SkeleMagesDown: ネクロマンサー、ディアボリスト、またはラギッドキャスターのいずれかが討伐され、プランテラも討伐された後
+	SiblingPylon: すべての兄弟がいるとき
 	BossDown: ボスが一体討伐された後
-	DownedTheBoss: After the boss has been defeated
-	Angler5: Finish 5 angler quests
-	Angler10: Finish 10 angler quests
-	Angler15: Finish 15 angler quests
-	Angler20: Finish 20 angler quests
-	Angler25: Finish 25 angler quests
-	Angler30: Finish 30 angler quests
-	InRockOrDirtLayerHeight: While underground
-	BrittleBone: Have a weapon that uses Brittle Bones as ammunition in your inventory
-	Seeds: Have a weapon that uses seeds as ammunition in your inventory
-	RedHusk: After having picked up a Red Husk
-	OrangeBloodroot: After having picked up an Orange Bloodroot
-	YellowMarigold: After having picked up a Yellow Marigold
-	LimeKelp: After having picked up a Lime Kelp
-	GreenMushroom: After having picked up a Green Mushroom
-	TealMushroom: After having picked up a Teal Mushroom
-	CyanHusk: After having picked up a Cyan Husk
-	SkyBlueFlower: After having picked up a Sky Blue Flower
-	BlueBerries: After having picked up Blueberries
-	PurpleMucos: After having picked up Purple Mucos
-	VioletHusk: After having picked up a Violet Husk
-	PinkPricklyPear: After having picked up a Pink Prickly Pear
-	BlackInk: After having picked up Black Ink
+	DownedTheBoss: ボスが討伐された後
+	Angler5: 釣りクエストを5回クリアした後
+	Angler10: 釣りクエストを10回クリアした後
+	Angler15: 釣りクエストを15回クリアした後
+	Angler20: 釣りクエストを20回クリアした後
+	Angler25: 釣りクエストを25回クリアした後
+	Angler30: 釣りクエストを30回クリアした後
+	InRockOrDirtLayerHeight: 地下にいるとき
+	BrittleBone: 弾薬に{$Items.BrittleBone.DisplayName}を使用する武器を所持しているとき
+	Seeds: 弾薬に種を使用する武器を所持しているとき
+	RedHusk: 赤色の甲虫殻を拾得した後
+	OrangeBloodroot: オレンジ色のブラッドルートを拾得した後
+	YellowMarigold: 黄色のマリーゴールドを拾得した後
+	LimeKelp: ライム色のコンブを拾得した後
+	GreenMushroom: 緑のキノコを拾得した後
+	TealMushroom: 青緑のキノコを拾得した後
+	CyanHusk: シアン色の甲虫殻を拾得した後
+	SkyBlueFlower: 空色の花を拾得した後
+	BlueBerries: ブルーベリーを拾得した後
+	PurpleMucos: 紫色の粘液を拾得した後
+	VioletHusk: すみれ色の甲虫殻を拾得した後
+	PinkPricklyPear: ピンク色のサボテン果実を拾得した後
+	BlackInk: 黒色のインクを拾得した後
 }
 
 Keybinds: {
 	Home: {
-		DisplayName: Quick Recall/Mirror
+		DisplayName: クイック帰還のポーション/魔法の鏡
 	}
 
 	Stat: {
-		DisplayName: Open Stat Sheet
+		DisplayName: ステータスシートを開く
 	}
 
 	Dash: {
-		DisplayName: Dash Key
+		DisplayName: ダッシュキー
 	}
 
 	SetBonus: {
-		DisplayName: Set Bonus Key
-	}
-
-	"Quick Recall/Mirror": {
-		DisplayName: Quick Recall/Mirror
-	}
-
-	"Open Stat Sheet": {
-		DisplayName: Open Stat Sheet
-	}
-
-	"Dash Key": {
-		DisplayName: Dash Key
-	}
-
-	"Set Bonus (Double Tap Up/Down) Key": {
-		DisplayName: Set Bonus Key
+		DisplayName: アーマーセットボーナスキー
 	}
 }
 
 ExpandedTooltips: {
-	FountainOcean: Forces surrounding biome state to Ocean upon activation
-	FountainDesert: Forces surrounding biome state to Desert upon activation
-	FountainJungle: Forces surrounding biome state to Jungle upon activation
-	FountainSnow: Forces surrounding biome state to Snow upon activation
-	FountainCorruption: Forces surrounding biome state to Corruption upon activation
-	FountainCrimson: Forces surrounding biome state to Crimson upon activation
-	FountainHallow: Forces surrounding biome state to Hallow (in hardmode only) upon activation
-	CatchNPCs: Can also catch townsfolk
-	ExtraLure1: Also grants one extra lure
-	Lures2: This rod fires 2 lures
-	Lures3: This rod fires 3 lures
-	Lures5: This rod fires 5 lures
-	AutoTorch: Automatically swaps placed torches to boost luck
-	TrueTorchLuck: Obeys true torch luck when replacing torches, which may differ from default choices
-	UnlimitedBuff30: Unlimited buff at 30 stack in inventory, Piggy Bank, or Safe
-	UnlimitedUse30: Unlimited use at 30 stack
-	PermanentEffectNearby: Permanently provides effect to nearby players
-	WorksFromBanks: Works from Piggy Bank and Safe
-	SoldBySquirrel: Sold By Squirrel
-	SomeMaterialsSold: Some Materials Sold
-	CraftableMaterialsSold: Craftable Materials Sold
-	SoldAtThirtyStack: Sold At Thirty Stack
-	SoldBy: Sold By
-	SeveralVendors: several vendors
-}
-
-TownNPCMood: {
-	Deviantt: {
-		Content: 調子はいいですね！
-		NoHome: 予備の住宅はありますか？お願いします。何でもいいんです。タコ部屋でもインスタントハウスでも構わないので！
-		LoveSpace: 平和で静かであるということは、私が生き生きと暮らせるということです！
-		FarFromHome: 私の家もそうだったと思うのですが......どこか連れてってくれるなら別ですが…？
-		DislikeCrowded: 人は多ければ多いほどいいのですが、ちょっと過密な感じがするんです。
-		HateCrowded: 誰かにぶつからずに足を蹴り出してリラックスすることができないんです…。
-		LikeBiome: あはははは、{BiomeName}ってなんだか無性に笑っちゃうんです！
-		LoveBiome: 上空の星はとてもきれいです！通り過ぎるのを見るのが大好きなんです！
-		DislikeBiome: もっと暖かいところに行きませんか？
-		HateBiome: 別の場所で暮らしたいです！これはひどいです！汗だくです！
-		LikeNPC: "{NPCName} は私の一番大きな、でも一番大きくない兄弟です！彼はかなりクールです！"
-		LikeNPC_Princess: いつかまた{NPCName}を訪ねなきゃ、私を理解してくれる女の子がいるんです！
-		LoveNPC: "{NPCName} はここにいます！私のお兄ちゃんです！最高にクールじゃないですか？"
-		DislikeNPC: 私は{NPCName}のような女の子には耐えられないんです！彼女はただ特定の動物のためにここにいるように感じるんです
-		HateNPC: ここだけの話ですがあのクソガキ…いや、{NPCName}を海に投げ返してやろうかと考えたことはありませんか？
-	}
-
-	Abominationn: {
-		Content: 私は満足しているよ。
-		NoHome: 家をくれたら値段を下げてあげるよ。
-		LoveSpace: 混雑していないのはいいことだね。
-		FarFromHome: 飛んで帰りたいけど見られている気がして好きじゃないんだ。
-		DislikeCrowded: 人間が多すぎるんだ、視線が痛いよ。
-		HateCrowded: これだけの人がいる中で、誰も切らずに鎌を運ぶのがどれだけ大変かわかる？
-		LikeBiome: "{BiomeName}は好きだよ。兄の翼を持ついい対戦相手の本拠地だからね。"
-		LoveBiome: 私は宇宙がとても好きだ。上陸する前に最初に来たのはここだったからね。
-		DislikeBiome: "{BiomeName}には弱い敵が多すぎる。"
-		HateBiome: "{BiomeName}が大嫌いだ。"
-		LikeNPC: "{NPCName}は私の妹だよ...。私の方がたくさんイベントを攻略したけど、彼女はいい子だよ。"
-		LikeNPC_Princess: "{NPCName}はいいよね。"
-		LoveNPC: "{NPCName}は私の弟なんだ...。僕の方がボスとは戦ってきたけど、彼は強いよ。"
-		DislikeNPC: "{NPCName}は嫌いだ。"
-		HateNPC: "{NPCName}は戦いの輝きを台無しにするんだ、近寄ってもらっちゃ困るよ。"
-	}
-
-	Mutant: {
-		Content: 我は汝が与えた家に感謝を示す。
-		NoHome: 我は家を望む、しかし、汝の気分次第でどちらでも構わぬことを先に示しておこう
-		LoveSpace: ボス戦の間隙は良きものである。人が群れたときにそれは起きぬためだ。
-		FarFromHome: 粘体生物や不死者であろうと我の前では食事にすぎぬ。しかし、我は家で食べる食事の方が美味であるということを知っている
-		DislikeCrowded: 此方に存在する人が多すぎると我は感じる。そして、彼らは我の存在に妬みの感情に近いものを抱き始めているようだ
-		HateCrowded: 我がこの町で、また一人、我の脳にぶつかってくる人がいたとしても、我は気にしない。しかし人は大層迷惑に感じるであろう。
-		LikeBiome: 我ら生命は等しく{BiomeName} からスタートする。
-		LoveBiome: 此方での生活は快適である。しかし、幾時になれば、我の寺を見つけるのであろうか？
-		DislikeBiome: "{BiomeName}は我を感動させるものなのであろうか疑問を示す…少なくとも妖精はそうではない、それは確かであろう。"
-		HateBiome: 我に高価な対価を望むということか？我を{BiomeName}に住まわせることにより、我は高価な対価を要求せざるを得ないことを示す。
-		LikeNPC: "{NPCName}が何時に我が家族に加わったかはもはや忘れてしまったが、彼女が自分の居場所を得たことは間違いないであろう。"
-		LikeNPC_Princess: "{NPCName} は親切だと我は思考する"
-		LoveNPC: "{NPCName}とは幾度となく争いを繰り返した。再び闘争を試みる機会がないのは非常に残念であると思考する"
-		DislikeNPC: 何故{NPCName}が此方に？しかしそれに特に問題はないか...
-		HateNPC: 我のペネトレーターが覚醒の刻を迎える前に、非常に我の傲慢は悔いるところだが、{NPCName}は我の前から去る必要があると思考する
-	}
-
-	LumberJack: {
-		Content: 僕は木がある限りハッピーなのさ!
-		NoHome: 木こりにはログハウスが欠かせないのさ!
-		LoveSpace: 人が少ないということは、誰にも邪魔されずに好きなだけ斧を振るえるということさ!
-		FarFromHome: 僕の小屋から遠すぎるよ。戻って斧を研がなければ...
-		DislikeCrowded: このあたりはどんどん混んできてると思うよ。
-		HateCrowded: 周りに人が多過ぎだ。せっかくの薪割り作業も、人を倒してしまえばおしまいだ。
-		LikeBiome: "{BiomeName}には切り倒せる木がたくさんあり、{$LumberJack.DisplayName}は大喜びだ。"
-		LoveBiome: "{BiomeName}には退屈な木切りがないのさ!"
-		DislikeBiome: There's nothing to chop in {BiomeName}!
-		HateBiome: "{BiomeName}に切り倒すものは何もないよ!"
-		LikeNPC: 僕が木を切り倒し、{NPCName}が植物を育てる!完璧なコンビじゃないか!
-		LikeNPC_Princess: "{NPCName}は思ったより斧の扱いがうまかったよ!"
-		LoveNPC: "{NPCName}が大木を伐ることの素晴らしさを理解してくれて嬉しいよ。"
-		DislikeNPC: "{NPCName}が木とハグしてろって言うから...斧に木とハグするように教えたのさ。"
-		HateNPC: "{NPCName}は全く理解できない。森を爆破するのは薪割りじゃないんだぞ!"
-	}
-
-	Squirrel: {
-		Content: *挨拶のような鳴き声*
-		NoHome: *家がなくて悲しそうな鳴き声*
-		LoveSpace: *混雑していないので、嬉しい鳴き声*
-		FarFromHome: *迷子で悲しそうな鳴き声*
-		DislikeCrowded: *騒がしいのが嫌そうな鳴き声*
-		HateCrowded: *騒がしいのがとても嫌そうな鳴き声*
-		LikeBiome: *{BiomeName}はいいよ～という鳴き声*
-		LoveBiome: *{BiomeName}には食べ物がたくさんあるからサイコー！という鳴き声*
-		DislikeBiome: *{BiomeName}はないよ～という鳴き声*
-		HateBiome: *{BiomeName}にいるのが嫌そうな鳴き声*
-		LikeNPC: *{NPCName}に関する幸せそうな鳴き声*
-		LikeNPC_Princess: *{NPCName}に関する結構幸せそうな鳴き声*
-		LoveNPC: *{NPCName}に関するすごく幸せそうな鳴き声*
-		DislikeNPC: *{NPCName}に関する怒ってるような鳴き声*
-		HateNPC: * {NPCName}だけは絶対に許せないという鳴き声**
-	}
+	FountainOcean: 起動すると周囲のバイオームが「海」扱いになる
+	FountainDesert: 起動すると周囲のバイオームが「砂漠」扱いになる
+	FountainJungle: 起動すると周囲のバイオームが「ジャングル」扱いになる
+	FountainSnow: 起動すると周囲のバイオームが「雪原」扱いになる
+	FountainCorruption: 起動すると周囲のバイオームが「腐敗」扱いになる
+	FountainCrimson: 起動すると周囲のバイオームが「真紅」扱いになる
+	FountainHallow: 起動すると周囲のバイオームが「聖域」扱いになる（ハードモード時のみ）
+	CatchNPCs: 住人（タウンNPC）が捕獲可能になる
+	ExtraLure1: 追加でルアーを1つ付与
+	Lures2: この釣り竿はルアーを2本飛ばす
+	Lures3: この釣り竿はルアーを3本飛ばす
+	Lures5: この釣り竿はルアーを5本飛ばす
+	AutoTorch: 設置した松明を自動で置き換え、幸運値を上昇させる
+	TrueTorchLuck: 松明置き換え時に“本来の運気補正”を参照（通常の自動選択とは異なる可能性あり）
+	UnlimitedBuff30: 所持品、豚の貯金箱、または金庫内に30個以上あると、バフの効果時間が無限になる
+	UnlimitedUse30: 30個以上所持していると、無限に使用できる
+	PermanentEffectNearby: 設置すると周囲のプレイヤーに永続効果を付与する
+	WorksFromBanks: 所持効果は豚の貯金箱・金庫内でも有効
+	SoldBySquirrel: 所持していると、リスが販売するようになる
+	SomeMaterialsSold: 所持していると、リスが一部素材を販売するようになる
+	CraftableMaterialsSold: 所持していると、リスがクラフト素材を販売するようになる
+	SoldAtThirtyStack: 30個所持していると、リスが販売するようになる
+	SoldBy: "販売元："
+	SeveralVendors: 複数の販売者
 }
 

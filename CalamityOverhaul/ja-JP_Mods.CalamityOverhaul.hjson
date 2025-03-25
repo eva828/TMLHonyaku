@@ -3162,7 +3162,7 @@ RemakeItems: {
 			ブロック内部で発生した場合、銃口から放射される
 			「竜の咆哮を聞け」
 			'''
-		DisplayName: エイドリックウェイル
+		DisplayName: 幽玄の慟哭
 	}
 
 	REffervescence: {
@@ -3466,7 +3466,7 @@ RemakeItems: {
 
 	EidolonStaffRItem: {
 		Tooltip: 太古の光と回転する氷塊を扇状に放つ
-		DisplayName: エイドロンの杖
+		DisplayName: 幽玄の杖
 	}
 
 	DownpourRItem: {

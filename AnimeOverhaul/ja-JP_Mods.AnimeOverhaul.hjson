@@ -1,0 +1,2652 @@
+Config: {
+	ItemHeader: Main Options
+
+	TestBagToggle: {
+		Label: テストバッグを有効にする
+		Tooltip: これにより、スピードワゴンのショップメニュー内でテストバッグが有効になります。これらは実験的な衣服で、後に変更されたり、弄られたり、削除されたりする可能性があります。
+	}
+}
+
+TownNPCMood: {
+	CosplayNPC: {
+		Content: 今はすごくいい気分だ。
+    	NoHome: 家があれば、もっと落ち着けるんだけどな。
+    	LoveSpace: ここは本当に心地よい場所だ。
+    	FarFromHome: すまないが、家に帰る方法を教えてくれないか？
+    	DislikeCrowded: 人が多すぎて、集中できないな。
+    	HateCrowded: こんなに人がいると、集中できるはずがない！
+    	LikeBiome: "{BiomeName}は、居心地の良い場所だな。"
+    	LoveBiome: "{BiomeName}が大好きだ。"
+    	DislikeBiome: "{BiomeName}は暑すぎる！もっと涼しいところがいいな。"
+    	HateBiome: "{BiomeName}ではモンスターに襲われて、集中するのが難しい！"
+    	LikeNPC: "{NPCName}は仲間として尊敬できる存在だ。"
+    	LoveNPC: "{NPCName}が俺のことを気にかけてくれると思うか？"
+    	DislikeNPC: "{NPCName}は売ってるアイテムの話ばかりしてうるさいな。ちょっとイライラする。"
+    	HateNPC: "{NPCName}の爆発音がうるさすぎる！静かな場所で過ごしたいんだ。"
+	}
+}
+
+Dialogue: {
+	CosplayNPC: {
+		StandardDialogue1: 
+			'''
+			ダイヤモンドを道具として使ってみたらどうだ？
+			誰もが知ってるだろう、「ダイヤモンドは砕けない」とな！
+			'''
+    	StandardDialogue2: この「黄金の風」が肌に触れる感じが好きだ。
+    	StandardDialogue3: 
+			'''
+			他の世界を訪れたことがあるんだが、そこでは海を石で埋め尽くしていたんだ。
+			信じられるか？まさに「ストーンオーシャン」だな。
+			'''
+    	StandardDialogue4: 
+			'''
+			「スターダストクルセイダーズ」には会ったことがあるか？
+			彼らは、非常に重要な封印を守っていると言われている。
+			'''
+    	StandardDialogue5: 俺は「ファントムブラッド」が大好きだ！
+    	StandardDialogue6: あの浮かぶ目玉が大嫌いだ。どこからでも攻撃してくる、まるで「戦闘潮流」のようだ！
+    	StandardDialogue7: ここらで「ディオ」って名乗る男を見かけなかったか？
+    	CommonDialogue: この素晴らしい町に泊めてくれて本当にありがとう！
+    	RareDialogue: 実験的なバッグも売っている！それらを手に入れるには、設定で有効にするだけさ！
+    	FirstTalk: 
+			'''
+			こんにちは、友よ！俺の名前はスピードワゴンだ。
+			出会った幸運な人々に商品を売りながら旅をしているんだ！
+			ここが気に入った、少しの間ここに滞在してもいいか？
+			'''
+	}
+}
+
+Items: {
+	Aether: {
+		DisplayName: 空の服
+		Tooltip: 妹を探す旅人
+	}
+
+	AetherHead: {
+		DisplayName: 空
+		Tooltip: 妹を探す旅人
+	}
+
+	AetherLegs: {
+		DisplayName: 空の脚
+		Tooltip: 妹を探す旅人
+	}
+
+	Albedo: {
+		DisplayName: アルベドの服
+		Tooltip: 西風騎士団の主席錬金術師
+	}
+
+	AlbedoHead: {
+		DisplayName: アルベド
+		Tooltip: 西風騎士団の主席錬金術師
+	}
+
+	AlbedoLegs: {
+		DisplayName: アルベドの脚
+		Tooltip: 西風騎士団の主席錬金術師
+	}
+
+	Amelia: {
+		DisplayName: ワトソン・アメリアの服
+		Tooltip: hololiveのNo.1探偵！
+	}
+
+	AmeliaHead: {
+		DisplayName: ワトソン・アメリア
+		Tooltip: hololiveのNo.1探偵！
+	}
+
+	AmeliaLegs: {
+		DisplayName: ワトソン・アメリアの靴
+		Tooltip: hololiveのNo.1探偵！
+	}
+
+	Anya: {
+		DisplayName: アーニャ・フォージャーの服
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			Waku Waku!
+			'''
+	}
+
+	AnyaAlt: {
+		DisplayName: アーニャ・フォージャーの服 (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			わくわく！
+			'''
+	}
+
+	AnyaAltHead: {
+		DisplayName: アーニャ・フォージャー (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			わくわく！
+			'''
+	}
+
+	AnyaHead: {
+		DisplayName: アーニャ・フォージャー
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			わくわく！
+			'''
+	}
+
+	AnyaLegs: {
+		DisplayName: アーニャ・フォージャーの靴
+		Tooltip: わくわく！
+	}
+
+	Aqua: {
+		DisplayName: アクアの服
+		Tooltip: 髪色とおそろいの青！
+	}
+
+	AquaHead: {
+		DisplayName: アクア
+		Tooltip: 名前にぴったりの青！
+	}
+
+	AquaLegs: {
+		DisplayName: アクアのブーツ
+		Tooltip: ドレスに合わせた青！
+	}
+
+	Ayaka: {
+		DisplayName: 神里綾華の服
+		Tooltip: 社奉行・神里家の令嬢
+	}
+
+	AyakaHead: {
+		DisplayName: 神里綾華
+		Tooltip: 社奉行・神里家の令嬢
+	}
+
+	AyakaLegs: {
+		DisplayName: 神里綾華の脚
+		Tooltip: 社奉行・神里家の令嬢
+	}
+
+	Baelz: {
+		DisplayName: ハコス・ベールズの服
+		Tooltip: 混沌そのもの
+	}
+
+	BaelzHead: {
+		DisplayName: ハコス・ベールズ
+		Tooltip: 混沌そのもの
+	}
+
+	BaelzLegs: {
+		DisplayName: ハコス・ベールズの靴
+		Tooltip: 混沌そのもの
+	}
+
+	Ban: {
+		DisplayName: バンの服
+		Tooltip: 強欲の罪（フォックス・シン）
+	}
+
+	BanHead: {
+		DisplayName: バン
+		Tooltip: 強欲の罪（フォックス・シン）
+	}
+
+	BanLegs: {
+		DisplayName: バンの脚
+		Tooltip: 強欲の罪（フォックス・シン）
+	}
+
+	Beatrice: {
+		DisplayName: ベアトリスの服
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			カワイイけれど、侮れない。
+			'''
+	}
+
+	BeatriceAlt: {
+		DisplayName: ベアトリスの服 (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			カワイイ可けれど、侮れない。
+			'''
+	}
+
+	BeatriceAltHead: {
+		DisplayName: ベアトリス (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			カワイイけれど、侮れない。
+			'''
+	}
+
+	BeatriceHead: {
+		DisplayName: ベアトリス
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			カワイイけれど、侮れない。
+			'''
+	}
+
+	BeatriceLegs: {
+		DisplayName: ベアトリスの靴
+		Tooltip: カワイイけれど、侮れない
+	}
+
+	Benimaru: {
+		DisplayName: ベニマルの服
+		Tooltip: 見た目以上に強い男
+	}
+
+	BenimaruHead: {
+		DisplayName: ベニマル
+		Tooltip: 見た目以上に強い男
+	}
+
+	BenimaruLegs: {
+		DisplayName: ベニマルの靴
+		Tooltip: 見た目以上に強い男
+	}
+
+	Bennett: {
+		DisplayName: ベネットの服
+		Tooltip:  ベニー冒険団のリーダー
+	}
+
+	BennettHead: {
+		DisplayName: ベネット
+		Tooltip:  ベニー冒険団のリーダー
+	}
+
+	BennettLegs: {
+		DisplayName: ベネットの脚
+		Tooltip:  ベニー冒険団のリーダー
+	}
+
+	Bondrewd: {
+		DisplayName: ボンドルドの服
+		Tooltip: 悪のカリスマ
+	}
+
+	BondrewdHead: {
+		DisplayName: ボンドルド
+		Tooltip: 悪のカリスマ
+	}
+
+	BondrewdLegs: {
+		DisplayName: ボンドルドの脚
+		Tooltip: 悪のカリスマ
+	}
+
+	Chongyun: {
+		DisplayName: 重雲の服
+		Tooltip: 悪しきものを祓い、その噂も払う
+	}
+
+	ChongyunHead: {
+		DisplayName: 重雲
+		Tooltip: 悪しきものを祓い、その噂も払う
+	}
+
+	ChongyunLegs: {
+		DisplayName: 重雲の脚
+		Tooltip: 悪しきものを祓い、その噂も払う
+	}
+
+	Darkness: {
+		DisplayName: ダクネスの服
+		Tooltip: 人間盾になるのが10倍簡単に！
+	}
+
+	DarknessHead: {
+		DisplayName: ダクネス
+		Tooltip: 人間盾になるのが10倍簡単に！
+	}
+
+	DarknessLegs: {
+		DisplayName: ダクネスの靴
+		Tooltip: 人間盾になるのが10倍簡単に！
+	}
+
+	Deku: {
+		DisplayName: 緑谷 出久の服
+		Tooltip: 限界を超えろ、プルスウルトラ！
+	}
+
+	DekuHead: {
+		DisplayName: 緑谷 出久
+		Tooltip: 限界を超えろ、プルスウルトラ！
+	}
+
+	DekuLegs: {
+		DisplayName: 緑谷 出久の靴
+		Tooltip: 限界を超えろ、プルスウルトラ！
+	}
+
+	Diane: {
+		DisplayName: ディアンヌの服
+		Tooltip: 嫉妬の罪（サーペント・シン）
+	}
+
+	DianeHead: {
+		DisplayName: ディアンヌ
+		Tooltip: 嫉妬の罪（サーペント・シン）
+	}
+
+	DianeLegs: {
+		DisplayName: ディアンヌの脚
+		Tooltip: 嫉妬の罪（サーペント・シン）
+	}
+
+	Dunbalf: {
+		DisplayName: ダンバルフの服
+		Tooltip: 九賢者の一人、召喚魔法の達人
+	}
+
+	DunbalfHead: {
+		DisplayName: ダンバルフ
+		Tooltip: 九賢者の一人、召喚魔法の達人
+	}
+
+	DunbalfLegs: {
+		DisplayName: ダンバルフの脚
+		Tooltip: 九賢者の一人、召喚魔法の達人
+	}
+
+	Eiko: {
+		DisplayName: 月見 英子の服
+		Tooltip: 音楽の道を夢見る少女
+	}
+
+	EikoHead: {
+		DisplayName: 月見 英子
+		Tooltip: 音楽の道を夢見る少女
+	}
+
+	EikoLegs: {
+		DisplayName: 月見 英子の靴
+		Tooltip: 音楽の道を夢見る少女
+	}
+
+	Elaina: {
+		DisplayName: イレイナの服
+		Tooltip: 自由気ままな天才魔女
+	}
+
+	ElainaHead: {
+		DisplayName: イレイナ
+		Tooltip: 自由気ままな天才魔女
+	}
+
+	ElainaLegs: {
+		DisplayName: イレイナの靴
+		Tooltip: 自由気ままな天才魔女
+	}
+
+	Elizabeth: {
+		DisplayName: エリザベスの服
+		Tooltip: 女神族の使徒
+	}
+
+	ElizabethHead: {
+		DisplayName: エリザベス
+		Tooltip: 女神族の使徒
+	}
+
+	ElizabethLegs: {
+		DisplayName: エリザベスの靴
+		Tooltip: 女神族の使徒
+	}
+
+	Elma: {
+		DisplayName: エルマの服
+		Tooltip: 心は海の龍
+	}
+
+	ElmaHead: {
+		DisplayName: エルマ
+		Tooltip: 心は海の龍
+	}
+
+	ElmaLegs: {
+		DisplayName: エルマの靴
+		Tooltip: 心は海の龍
+	}
+
+	Emilia: {
+		DisplayName: エミリアの服
+		Tooltip: パックに見つかったら大変！
+	}
+
+	EmiliaHead: {
+		DisplayName: エミリア
+		Tooltip: パックに見つかったら大変！
+	}
+
+	EmiliaLegs: {
+		DisplayName: エミリアのブーツ
+		Tooltip: パックに見つかったら大変！
+	}
+
+	Emma: {
+		DisplayName: エマの服
+		Tooltip: 希望を捨てないで！
+	}
+
+	EmmaAltHead: {
+		DisplayName: エマ (Alternative)
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			希望を捨てないで！
+			'''
+	}
+
+	EmmaHead: {
+		DisplayName: エマ
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			希望を捨てないで！
+			'''
+	}
+
+	EmmaLegs: {
+		DisplayName: エマのブーツ
+		Tooltip: 希望を捨てないで！
+	}
+
+	Fafnir: {
+		DisplayName: ファフニールの服
+		Tooltip: ゲームこそ我が生きる道。
+	}
+
+	FafnirHead: {
+		DisplayName: ファフニール
+		Tooltip: ゲームこそ我が生きる道。
+	}
+
+	FafnirLegs: {
+		DisplayName: ファフニールの脚
+		Tooltip: ゲームこそ我が生きる道。
+	}
+
+	Faputa: {
+		DisplayName: ファプタの服
+		Tooltip: 四本腕を持つ最強の姫
+	}
+
+	FaputaHead: {
+		DisplayName: ファプタ
+		Tooltip: 四本腕を持つ最強の姫
+	}
+
+	FaputaLegs: {
+		DisplayName: ファプタの脚
+		Tooltip: 四本腕を持つ最強の姫
+	}
+
+	Fauna: {
+		DisplayName: セレス・ファウナの服
+		Tooltip: 自然の番人
+	}
+
+	FaunaHead: {
+		DisplayName: セレス・ファウナ
+		Tooltip: 自然の番人
+	}
+
+	FaunaLegs: {
+		DisplayName: セレス・ファウナの靴
+		Tooltip: 自然の番人
+	}
+
+	Felix: {
+		DisplayName: フェリックス・アーガイルの服
+		Tooltip: お探しの猫ちゃんは、ボクかにゃ？
+	}
+
+	FelixHead: {
+		DisplayName: フェリックス・アーガイル
+		Tooltip: お探しの猫ちゃんは、ボクかにゃ？
+	}
+
+	FelixLegs: {
+		DisplayName: フェリックス・アーガイルの靴
+		Tooltip: お探しの猫ちゃんは、ボクかにゃ？
+	}
+
+	Filo: {
+		DisplayName: フィーロの服
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			大切に扱ってね！
+			'''
+	}
+
+	FiloAlt: {
+		DisplayName: フィーロの服 (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			大切に扱ってね！
+			'''
+	}
+
+	FiloAltHead: {
+		DisplayName: フィーロ (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			大切に扱ってね！
+			'''
+	}
+
+	FiloHead: {
+		DisplayName: フィーロ
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			大切に扱ってね！
+			'''
+	}
+
+	FiloLegs: {
+		DisplayName: フィーロの脚
+		Tooltip: 大切に扱ってね！
+	}
+
+	Froppy: {
+		DisplayName: 蛙吹 梅雨の服
+		Tooltip: 「梅雨ちゃん」って呼んでもいいわよ。
+	}
+
+	FroppyHead: {
+		DisplayName: 蛙吹 梅雨
+		Tooltip: 「梅雨ちゃん」って呼んでもいいわよ。
+	}
+
+	FroppyLegs: {
+		DisplayName: 蛙吹 梅雨の脚
+		Tooltip: 「梅雨ちゃん」って呼んでもいいわよ。
+	}
+
+	Ganyu: {
+		DisplayName: 甘雨の服
+		Tooltip: 月海亭の秘書
+	}
+
+	GanyuHead: {
+		DisplayName: 甘雨
+		Tooltip: 月海亭の秘書
+	}
+
+	GanyuLegs: {
+		DisplayName: 甘雨の脚
+		Tooltip: 月海亭の秘書
+	}
+
+	Garfiel: {
+		DisplayName: ガーフィールの服
+		Tooltip: 生意気な弟分
+	}
+
+	GarfielHead: {
+		DisplayName: ガーフィール
+		Tooltip: 生意気な弟分
+	}
+
+	GarfielLegs: {
+		DisplayName: ガーフィールの脚
+		Tooltip: 生意気な弟分
+	}
+
+	Gorou: {
+		DisplayName: ゴローの服
+		Tooltip: 海祇島軍隊の大将
+	}
+
+	GorouHead: {
+		DisplayName: ゴロー
+		Tooltip: 海祇島軍隊の大将
+	}
+
+	GorouLegs: {
+		DisplayName: ゴローの脚
+		Tooltip: 海祇島軍隊の大将
+	}
+
+	Gura: {
+		DisplayName: がうる・ぐらの服
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			サメ界のクリボー！
+			'''
+	}
+
+	GuraAltHead: {
+		DisplayName: がうる・ぐら (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			サメ界のクリボー！
+			'''
+	}
+
+	GuraAlt: {
+		DisplayName: がうる・ぐらの服 (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			サメ界のクリボー！
+			'''
+	}
+
+	GuraHead: {
+		DisplayName: がうる・ぐら
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			サメ界のクリボー！
+			'''
+	}
+
+	GuraLegs: {
+		DisplayName: がうる・ぐらの靴
+		Tooltip: サメ界のクリボー！
+	}
+
+	Hanako: {
+		DisplayName: 花子くんの服
+		Tooltip: トイレの幽霊に何を期待したんだ？
+	}
+
+	HanakoHead: {
+		DisplayName: 花子くん
+		Tooltip: トイレの幽霊に何を期待したんだ？
+	}
+
+	HanakoLegs: {
+		DisplayName: 花子くんの脚
+		Tooltip: トイレの幽霊に何を期待したんだ？
+	}
+
+	Hiro: {
+		DisplayName: ヒロの服
+		Tooltip: 運命を変える出会いを果たした少年
+	}
+
+	HiroHead: {
+		DisplayName: ヒロ
+		Tooltip: 運命を変える出会いを果たした少年
+	}
+
+	HiroLegs: {
+		DisplayName: ヒロの靴
+		Tooltip: 運命を変える出会いを果たした少年
+	}
+
+	Ichigo: {
+		DisplayName: イチゴの服
+		Tooltip: 誇り高き当て馬
+	}
+
+	IchigoHead: {
+		DisplayName: イチゴ
+		Tooltip: 誇り高き当て馬
+	}
+
+	IchigoLegs: {
+		DisplayName: イチゴの脚
+		Tooltip: 誇り高き当て馬
+	}
+
+	Ina: {
+		DisplayName: 一伊那尓栖の服
+		Tooltip: 古き神の司祭
+	}
+
+	InaHead: {
+		DisplayName: 一伊那尓栖
+		Tooltip: 古き神の司祭
+	}
+
+	InaLegs: {
+		DisplayName: 一伊那尓栖の靴
+		Tooltip: 古き神の司祭
+	}
+
+	IRyS: {
+		DisplayName: IRySの服
+		Tooltip: 希望、2.0で再降臨！
+	}
+
+	IRySAlt: {
+		DisplayName: IRySの服 (Alternative)
+		Tooltip: 希望、ここに降臨！
+	}
+
+	IRySAltHead: {
+		DisplayName: IRyS (Alternative)
+		Tooltip: 希望、ここに降臨！
+	}
+
+	IRySAltLegs: {
+		DisplayName: IRySの靴 (Alternative)
+		Tooltip: 希望、ここに降臨！
+	}
+
+	IRySHead: {
+		DisplayName: IRyS
+		Tooltip: 希望、2.0で再降臨！
+	}
+
+	IRySLegs: {
+		DisplayName: IRySの靴
+		Tooltip: 希望、2.0で再降臨！
+	}
+
+	Isabella: {
+		DisplayName: イザベラの服
+		Tooltip: 38人の純真な子供たちを育てる愛情深い母
+	}
+
+	IsabellaHead: {
+		DisplayName: イザベラ
+		Tooltip: 38人の純真な子供たちを育てる愛情深い母
+	}
+
+	IsabellaLegs: {
+		DisplayName: イザベラのブーツ
+		Tooltip: 38人の純真な子供たちを育てる愛情深い母
+	}
+
+	Jean: {
+		DisplayName: ジンの服
+		Tooltip: 西風騎士団の代理団長
+	}
+
+	JeanHead: {
+		DisplayName: ジン
+		Tooltip: 西風騎士団の代理団長
+	}
+
+	JeanLegs: {
+		DisplayName: ジンの脚
+		Tooltip: 西風騎士団の代理団長
+	}
+
+	Kanna: {
+		DisplayName: カンナの服
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			尻尾を壁のコンセントに差し込んで魔力を充電する。
+			'''
+	}
+
+	KannaAlt: {
+		DisplayName: カンナの服 (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			尻尾を壁のコンセントに差し込んで魔力を充電する。
+			'''
+	}
+
+	KannaAltHead: {
+		DisplayName: カンナ (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			尻尾を壁のコンセントに差し込んで魔力を充電する。
+			'''
+	}
+
+	KannaHead: {
+		DisplayName: カンナ
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			尻尾を壁のコンセントに差し込んで魔力を充電する。
+			'''
+	}
+
+	KannaLegs: {
+		DisplayName: カンナの靴
+		Tooltip: 尻尾を壁のコンセントに差し込んで魔力を充電する。
+	}
+
+	Kazuha: {
+		DisplayName: 楓原万葉の服
+		Tooltip: 故郷を離れた放浪の侍
+	}
+
+	KazuhaHead: {
+		DisplayName: 楓原万葉
+		Tooltip: 故郷を離れた放浪の侍
+	}
+
+	KazuhaLegs: {
+		DisplayName: 楓原万葉の脚
+		Tooltip: 故郷を離れた放浪の侍
+	}
+
+	Kazuma: {
+		DisplayName: カズマの服
+		Tooltip: あれ？ 俺、もしかしてツイてる？
+	}
+
+	KazumaHead: {
+		DisplayName: カズマ
+		Tooltip: あれ？ 俺、もしかしてツイてる？
+	}
+
+	KazumaLegs: {
+		DisplayName: カズマの脚
+		Tooltip: あれ？ 俺、もしかしてツイてる？
+	}
+
+	Keqing: {
+		DisplayName: 刻晴の服
+		Tooltip: 璃月七星の玉衡
+	}
+
+	KeqingHead: {
+		DisplayName: 刻晴
+		Tooltip: 璃月七星の玉衡
+	}
+
+	KeqingLegs: {
+		DisplayName: 刻晴の脚
+		Tooltip: 璃月七星の玉衡
+	}
+
+	Kiara: {
+		DisplayName: 小鳥遊キアラの服
+		Tooltip: 食への情熱を持つ不死鳥
+	}
+
+	KiaraHead: {
+		DisplayName: 小鳥遊キアラ
+		Tooltip: 食への情熱を持つ不死鳥
+	}
+
+	KiaraLegs: {
+		DisplayName: 小鳥遊キアラの靴
+		Tooltip: 食への情熱を持つ不死鳥
+	}
+
+	Kobayashi: {
+		DisplayName: 小林の服
+		Tooltip: メイドに対する執着があるかも？
+	}
+
+	KobayashiHead: {
+		DisplayName: 小林
+		Tooltip: メイドに対する執着があるかも？
+	}
+
+	KobayashiLegs: {
+		DisplayName: 小林の脚
+		Tooltip: メイドに対する執着があるかも？
+	}
+
+	Komi: {
+		DisplayName: 古見 硝子の服
+		Tooltip: 友達になってほしい。
+	}
+
+	KomiHead: {
+		DisplayName: 古見 硝子
+		Tooltip: 友達になってほしい。
+	}
+
+	KomiLegs: {
+		DisplayName: 古見 硝子の靴
+		Tooltip: 友達になってほしい。
+	}
+
+	Kongming: {
+		DisplayName: 孔明のローブ
+		Tooltip: 最強の軍師
+	}
+
+	KongmingHead: {
+		DisplayName: 孔明
+		Tooltip: 最強の軍師
+	}
+
+	Kou: {
+		DisplayName: 源 光の服
+		Tooltip: ごく普通の高校生祓魔師
+	}
+
+	KouHead: {
+		DisplayName: 源 光
+		Tooltip: ごく普通の高校生祓魔師
+	}
+
+	KouLegs: {
+		DisplayName: 源 光の靴
+		Tooltip: ごく普通の高校生祓魔師
+	}
+
+	Kronii: {
+		DisplayName: オーロ・クロニーの服
+		Tooltip: 時間の番人
+	}
+
+	KroniiHead: {
+		DisplayName: オーロ・クロニー
+		Tooltip: 時間の番人
+	}
+
+	KroniiLegs: {
+		DisplayName: オーロ・クロニーの靴
+		Tooltip: 時間の番人
+	}
+
+	Loid: {
+		DisplayName: ロイド・フォージャーの服
+		Tooltip: 敏腕スパイ「黄昏」
+	}
+
+	LoidHead: {
+		DisplayName: ロイド・フォージャー
+		Tooltip: 敏腕スパイ「黄昏」
+	}
+
+	LoidLegs: {
+		DisplayName: ロイド・フォージャーの靴
+		Tooltip: 敏腕スパイ「黄昏」
+	}
+
+	Lumine: {
+		DisplayName: 蛍の服
+		Tooltip: 兄を探す旅人
+	}
+
+	LumineHead: {
+		DisplayName: 蛍
+		Tooltip: 兄を探す旅人
+	}
+
+	LumineLegs: {
+		DisplayName: 蛍の脚
+		Tooltip: 兄を探す旅人
+	}
+
+	Marin: {
+		DisplayName: 喜多川 海夢の服
+		Tooltip: コスプレの極み！
+	}
+
+	MarinHead: {
+		DisplayName: 喜多川 海夢
+		Tooltip: コスプレの極み！
+	}
+
+	MarinLegs: {
+		DisplayName: 喜多川 海夢の靴
+		Tooltip: コスプレの極み！
+	}
+
+	Megumin: {
+		DisplayName: めぐみんの服
+		Tooltip: 爆裂魔法を愛してやまない魔法使い！
+	}
+
+	MeguminHead: {
+		DisplayName: めぐみん
+		Tooltip: 爆裂魔法を愛してやまない魔法使い！
+	}
+
+	MeguminLegs: {
+		DisplayName: めぐみんの脚
+		Tooltip: 爆裂魔法を愛してやまない魔法使い！
+	}
+
+	Meliodas: {
+		DisplayName: メリオダスの服
+		Tooltip: 怒りの罪（ドラゴン・シン）
+	}
+
+	MeliodasHead: {
+		DisplayName: メリオダス
+		Tooltip: 怒りの罪（ドラゴン・シン）
+	}
+
+	MeliodasLegs: {
+		DisplayName: メリオダスの靴
+		Tooltip: 怒りの罪（ドラゴン・シン）
+	}
+
+	Milim: {
+		DisplayName: ミリムの服
+		Tooltip: 水着だから、信じて！
+	}
+
+	MilimHead: {
+		DisplayName: ミリム
+		Tooltip: 水着だから、信じて！
+	}
+
+	MilimLegs: {
+		DisplayName: ミリムの靴
+		Tooltip: 水着だから、信じて！
+	}
+
+	Mira: {
+		DisplayName: ミラの服
+		Tooltip: "賢者ダンブルフ・ガンダドアの「弟子」"
+	}
+
+	MiraHead: {
+		DisplayName: ミラ
+		Tooltip: "賢者ダンブルフ・ガンダドアの「弟子」"
+	}
+
+	MiraLegs: {
+		DisplayName: ミラの脚
+		Tooltip: "賢者ダンブルフ・ガンダドアの「弟子」"
+	}
+
+	Mitsuba: {
+		DisplayName: 三葉 惣助の服
+		Tooltip: 運命を見守る元写真家
+	}
+
+	MitsubaHead: {
+		DisplayName: 三葉 惣助
+		Tooltip: 運命を見守る元写真家
+	}
+
+	MitsubaLegs: {
+		DisplayName: 三葉 惣助の靴
+		Tooltip: 運命を見守る元写真家
+	}
+
+	Mold: {
+		DisplayName: ボディデザイン素体 (女性)
+		Tooltip: ドレッサーでアニメ風の女性キャラクターの服装備を作成できる！
+	}
+
+	MoldHead: {
+		DisplayName: ヘッドデザイン素体 (女性)
+		Tooltip: ドレッサーでアニメ風の女性キャラクターの頭装備を作成できる！
+	}
+
+	MoldLegs: {
+		DisplayName: レッグデザイン素体 (女性)
+		Tooltip: ドレッサーでアニメ風の女性キャラクターの脚装備を作成できる！
+	}
+
+	MoldMale: {
+		DisplayName: ボディデザイン素体 (男性)
+		Tooltip: ドレッサーでアニメ風の男性キャラクターの服装備を作成できる！
+	}
+
+	MoldMaleHead: {
+		DisplayName: ヘッドデザイン素体 (男性)
+		Tooltip: ドレッサーでアニメ風の男性キャラクターの頭装備を作成できる！
+	}
+
+	MoldMaleLegs: {
+		DisplayName: レッグデザイン素体 (男性)
+		Tooltip: ドレッサーでアニメ風の男性キャラクターの脚装備を作成できる！
+	}
+
+	Mori: {
+		DisplayName: 森カリオペの服
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			死神としても知られる存在。
+			'''
+	}
+
+	MoriAltHead: {
+		DisplayName: 森カリオペ (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			死神としても知られる存在。
+			'''
+	}
+
+	MoriAlt: {
+		DisplayName: 森カリオペの服 (Alternative)
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			死神としても知られる存在。
+			'''
+	}
+
+	MoriHead: {
+		DisplayName: モリ・カリオペ
+		Tooltip:
+			'''
+			作業台で高さを変更できる！
+			死神としても知られる存在。
+			'''
+	}
+
+	MoriLegs: {
+		DisplayName: モリ・カリオペの靴
+		Tooltip: 死神としても知られる存在。
+	}
+
+	Mumei: {
+		DisplayName: 七詩ムメイの服
+		Tooltip: 文明の守護者
+	}
+
+	MumeiHead: {
+		DisplayName: 七詩ムメイ
+		Tooltip: 文明の守護者
+	}
+
+	MumeiLegs: {
+		DisplayName: 七詩ムメイの靴
+		Tooltip: 文明の守護者
+	}
+
+	Nagatoro: {
+		DisplayName: 長瀞 早瀬の服
+		Tooltip: せーんぱいっ！
+	}
+
+	NagatoroHead: {
+		DisplayName: 長瀞 早瀬
+		Tooltip: せーんぱいっ！
+	}
+
+	NagatoroLegs: {
+		DisplayName: 長瀞 早瀬の脚
+		Tooltip: せーんぱいっ！
+	}
+
+	Najimi: {
+		DisplayName: 長名 なじみの服
+		Tooltip: 誰とでも友達になれる天才。
+	}
+
+	NajimiHead: {
+		DisplayName: 長名 なじみ
+		Tooltip: 誰とでも友達になれる天才。
+	}
+
+	NajimiLegs: {
+		DisplayName: 長名 なじみの靴
+		Tooltip: 誰とでも友達になれる天才。
+	}
+
+	Nanachi: {
+		DisplayName: ナナチの服
+		Tooltip: かつては人間、今はかわいいウサギ。
+	}
+
+	NanachiHead: {
+		DisplayName: ナナチ
+		Tooltip: かつては人間、今はかわいいウサギ。
+	}
+
+	NanachiLegs: {
+		DisplayName: ナナチの脚
+		Tooltip: かつては人間、今はかわいいウサギ。
+	}
+
+	Naofumi: {
+		DisplayName: 岩谷 尚文の服
+		Tooltip: 俺が盾になる、お前たちは攻撃に専念しろ。
+	}
+
+	NaofumiHead: {
+		DisplayName: 岩谷 尚文
+		Tooltip: 俺が盾になる、お前たちは攻撃に専念しろ。
+	}
+
+	NaofumiLegs: {
+		DisplayName: 岩谷 尚文の脚
+		Tooltip: 俺が盾になる、お前たちは攻撃に専念しろ。
+	}
+
+	Norman: {
+		DisplayName: ノーマンの服
+		Tooltip: 論理的で友好的な人物！
+	}
+
+	NormanAltHead: {
+		DisplayName: ノーマン (Alternative)
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			論理的で友好的な人物！
+			'''
+	}
+
+	NormanHead: {
+		DisplayName: ノーマン
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			論理的で友好的な人物！
+			'''
+	}
+
+	NormanLegs: {
+		DisplayName: ノーマンの脚
+		Tooltip: 論理的で友好的な人物！
+	}
+
+	Okabe: {
+		DisplayName: 岡部 倫太郎の服
+		Tooltip: "俺は狂気の科学者だ！それが最高にCOOOOLだろ！"
+	}
+
+	OkabeHead: {
+		DisplayName: 岡部 倫太郎
+		Tooltip: "俺は狂気の科学者だ！それが最高にCOOOOLだろ！"
+	}
+
+	OkabeLegs: {
+		DisplayName: 岡部 倫太郎の靴
+		Tooltip: "俺は狂気の科学者だ！それが最高にCOOOOLだろ！"
+	}
+
+	Ozen: {
+		DisplayName: オーゼンの服
+		Tooltip: 動かざるもの。
+	}
+
+	OzenHead: {
+		DisplayName: オーゼン
+		Tooltip: 動かざるもの。
+	}
+
+	OzenLegs: {
+		DisplayName: オーゼンの靴
+		Tooltip: 動かざるもの。
+	}
+
+	Prushka: {
+		DisplayName: プルシュカの服
+		Tooltip: 父を愛する、元気で冒険好きな女の子。
+	}
+
+	PrushkaHead: {
+		DisplayName: プルシュカ
+		Tooltip: 父を愛する、元気で冒険好きな女の子。
+	}
+
+	PrushkaLegs: {
+		DisplayName: プルシュカの脚
+		Tooltip: 父を愛する、元気で冒険好きな女の子。
+	}
+
+	Raiden: {
+		DisplayName: 雷電将軍の服
+		Tooltip: 稲妻幕府の最高主宰
+	}
+
+	RaidenHead: {
+		DisplayName: 雷電将軍
+		Tooltip: 稲妻幕府の最高主宰
+	}
+
+	RaidenLegs: {
+		DisplayName: 雷電将軍の脚
+		Tooltip: 稲妻幕府の最高主宰
+	}
+
+	Ram: {
+		DisplayName: ラムの服
+		Tooltip: なんて恐ろしいことを考えているの、レム。
+	}
+
+	RamHead: {
+		DisplayName: ラム
+		Tooltip: なんて恐ろしいことを考えているの、レム。
+	}
+
+	RamLegs: {
+		DisplayName: ラムの靴
+		Tooltip: なんて恐ろしいことを考えているの、レム。
+	}
+
+	Raphtalia: {
+		DisplayName: ラフタリアの服
+		Tooltip: 奴隷ではない...はず？
+	}
+
+	RaphtaliaHead: {
+		DisplayName: ラフタリア
+		Tooltip: 奴隷ではない...はず？
+	}
+
+	RaphtaliaLegs: {
+		DisplayName: ラフタリアの靴
+		Tooltip: 奴隷ではない...はず？
+	}
+
+	Ray: {
+		DisplayName: レイの服
+		Tooltip: 賢くて利己的な人物！
+	}
+
+	RayAltHead: {
+		DisplayName: レイ (Alternative)
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			賢くて利己的な人物！
+			'''
+	}
+
+	RayHead: {
+		DisplayName: レイ
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			賢くて利己的な人物！
+			'''
+	}
+
+	RayLegs: {
+		DisplayName: レイの脚
+		Tooltip: 賢くて利己的な人物！
+	}
+
+	Razor: {
+		DisplayName: レザーの服
+		Tooltip: 狼の里の伝説
+	}
+
+	RazorHead: {
+		DisplayName: レザー
+		Tooltip: 狼の里の伝説
+	}
+
+	RazorLegs: {
+		DisplayName: レザーの脚
+		Tooltip: 狼の里の伝説
+	}
+
+	Reg: {
+		DisplayName: レグの服
+		Tooltip: 深層探窟の頼れる相棒
+	}
+
+	RegHead: {
+		DisplayName: レグ
+		Tooltip: 深層探窟の頼れる相棒
+	}
+
+	RegLegs: {
+		DisplayName: レグの靴
+		Tooltip: 深層探窟の頼れる相棒
+	}
+
+	Rem: {
+		DisplayName: レムの服
+		Tooltip: こんな恐ろしいことを考えていたなんて、姉様。
+	}
+
+	RemHead: {
+		DisplayName: レム
+		Tooltip: こんな恐ろしいことを考えていたなんて、姉様。
+	}
+
+	RemLegs: {
+		DisplayName: レムの靴
+		Tooltip: こんな恐ろしいことを考えていたなんて、姉様。
+	}
+
+	Rimuru: {
+		DisplayName: リムルの服
+		Tooltip: なんかすごい力を手に入れたっぽいけど、まぁいっか。 
+	}
+
+	RimuruHead: {
+		DisplayName: リムル
+		Tooltip: なんかすごい力を手に入れたっぽいけど、まぁいっか。 
+	}
+
+	RimuruLegs: {
+		DisplayName: リムルの靴
+		Tooltip: なんかすごい力を手に入れたっぽいけど、まぁいっか。 
+	}
+
+	Roxy: {
+		DisplayName: ロキシーの服
+		Tooltip: 旅する家庭教師
+	}
+
+	RoxyHead: {
+		DisplayName: ロキシー
+		Tooltip: 旅する家庭教師
+	}
+
+	RoxyLegs: {
+		DisplayName: ロキシーのブーツ
+		Tooltip: 旅する家庭教師
+	}
+
+	Sakura: {
+		DisplayName: 桜の服
+		Tooltip: 長瀞さんの友達
+	}
+
+	SakuraHead: {
+		DisplayName: 桜
+		Tooltip: 長瀞さんの友達
+	}
+
+	SakuraLegs: {
+		DisplayName: 桜の靴
+		Tooltip: 長瀞さんの友達
+	}
+
+	Sana: {
+		DisplayName: 九十九佐命の服
+		Tooltip: 宇宙の声
+	}
+
+	SanaHead: {
+		DisplayName: 九十九佐命
+		Tooltip: 宇宙の声
+	}
+
+	SanaLegs: {
+		DisplayName: 九十九佐命の靴
+		Tooltip: 宇宙の声
+	}
+
+	Saya: {
+		DisplayName: サヤの服
+		Tooltip: イレイナを愛する後輩
+	}
+
+	SayaHead: {
+		DisplayName: サヤ
+		Tooltip: イレイナを愛する後輩
+	}
+
+	SayaLegs: {
+		DisplayName: サヤの靴
+		Tooltip: イレイナを愛する後輩
+	}
+
+	Senpai: {
+		DisplayName: 先輩の服
+		Tooltip: おとなしくて芸術的なタイプ
+	}
+
+	SenpaiHead: {
+		DisplayName: 先輩
+		Tooltip: おとなしくて芸術的なタイプ
+	}
+
+	SenpaiLegs: {
+		DisplayName: 先輩の脚
+		Tooltip: おとなしくて芸術的なタイプ
+	}
+
+	Shinra: {
+		DisplayName: 森羅 日下部の服
+		Tooltip: 火に火をもって立ち向かう！
+	}
+
+	ShinraHead: {
+		DisplayName: 森羅 日下部
+		Tooltip: 火に火をもって立ち向かう！
+	}
+
+	ShinraLegs: {
+		DisplayName: 森羅 日下部の脚
+		Tooltip: 火に火をもって立ち向かう！
+	}
+
+	Speedwagon: {
+		DisplayName: スピードワゴンの服
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			男が本当に求めるもの。
+			'''
+	}
+
+	SpeedwagonAlt: {
+		DisplayName: スピードワゴンの服 (Alternative)
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			男が本当に求めるもの。
+			'''
+	}
+
+	SpeedwagonAltHead: {
+		DisplayName: スピードワゴン (Alternative)
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			男が本当に求めるもの。
+			'''
+	}
+
+	SpeedwagonHead: {
+		DisplayName: スピードワゴン
+		Tooltip:
+			'''
+			作業台でスタイルを変更できる！
+			男が本当に求めるもの。
+			'''
+	}
+
+	SpeedwagonLegs: {
+		DisplayName: スピードワゴンの脚
+		Tooltip: 男が本当に求めるもの。
+	}
+
+	Subaru: {
+		DisplayName: スバルの服
+		Tooltip: エミリアにはこれを見せるなよ！
+	}
+
+	SubaruHead: {
+		DisplayName: スバル
+		Tooltip: エミリアにはこれを見せるなよ！
+	}
+
+	SubaruLegs: {
+		DisplayName: スバルの脚
+		Tooltip: エミリアにはこれを見せるなよ！
+	}
+
+	Tadano: {
+		DisplayName: 只野 仁人の服
+		Tooltip: 彼は髪の中の花が大好き。
+	}
+
+	TadanoHead: {
+		DisplayName: 只野 仁人
+		Tooltip: 彼は髪の中の花が大好き。
+	}
+
+	TadanoLegs: {
+		DisplayName: 只野 仁人の靴
+		Tooltip: 彼は髪の中の花が大好き。
+	}
+
+	Tao: {
+		DisplayName: 胡桃の服
+		Tooltip: 「往生堂」七十七代目堂主
+	}
+
+	TaoHead: {
+		DisplayName: 胡桃
+		Tooltip: 「往生堂」七十七代目堂主
+	}
+
+	TaoLegs: {
+		DisplayName: 胡桃の脚
+		Tooltip: 「往生堂」七十七代目堂主
+	}
+
+	Todoroki: {
+		DisplayName: 轟 焦凍の服
+		Tooltip: 氷と炎を統べる冷静と情熱を兼ねた天才。
+	}
+
+	TodorokiHead: {
+		DisplayName: 轟 焦凍
+		Tooltip: 氷と炎を統べる冷静と情熱を兼ねた天才。
+	}
+
+	TodorokiLegs: {
+		DisplayName: 轟 焦凍の靴
+		Tooltip: 氷と炎を統べる冷静と情熱を兼ねた天才。
+	}
+
+	Tohru: {
+		DisplayName: トールの服
+		Tooltip: メイドの部分とドラゴンの部分を持つ。
+	}
+
+	TohruHead: {
+		DisplayName: トール
+		Tooltip: メイドの部分とドラゴンの部分を持つ。
+	}
+
+	TohruLegs: {
+		DisplayName: トールの脚
+		Tooltip: メイドの部分とドラゴンの部分を持つ。
+	}
+
+	Totoro: {
+		DisplayName: トトロスーツ 
+		Tooltip: いつからトトロはこんなに威圧的に見えるようになったんだ...？
+	}
+
+	TotoroHead: {
+		DisplayName: トトロマスク
+		Tooltip: いつからトトロはこんなに威圧的に見えるようになったんだ...？
+	}
+
+	TotoroLegs: {
+		DisplayName: トトロレギンス
+		Tooltip: いつからトトロはこんなに威圧的に見えるようになったんだ...？
+	}
+
+	Uraraka: {
+		DisplayName: 麗日 お茶子の服
+		Tooltip: 重力を超えろ！
+	}
+
+	UrarakaHead: {
+		DisplayName: 麗日 お茶子
+		Tooltip: 重力を超えろ！
+	}
+
+	UrarakaLegs: {
+		DisplayName: 麗日 お茶子の靴
+		Tooltip: 重力を超えろ！
+	}
+
+	Venti: {
+		DisplayName: ウェンティの服
+		Tooltip: 自由奔放で酒を愛する吟遊詩人
+	}
+
+	VentiHead: {
+		DisplayName: ウェンティ
+		Tooltip: 自由奔放で酒を愛する吟遊詩人
+	}
+
+	VentiLegs: {
+		DisplayName: ウェンティの脚
+		Tooltip: 自由奔放で酒を愛する吟遊詩人
+	}
+
+	Xiao: {
+		DisplayName: ショウの服
+		Tooltip: 全ての邪悪を討つ者
+	}
+	#「魈」だと文字化けしたので片仮名表記
+	XiaoHead: {
+		DisplayName: ショウ
+		Tooltip: 全ての邪悪を討つ者
+	}
+
+	XiaoLegs: {
+		DisplayName: ショウの脚
+		Tooltip: 全ての邪悪を討つ者
+	}
+
+	Yanfei: {
+		DisplayName: 煙緋の服
+		Tooltip: 璃月港の名高い法務顧問
+	}
+
+	YanfeiHead: {
+		DisplayName: 煙緋
+		Tooltip: 璃月港の名高い法務顧問
+	}
+
+	YanfeiLegs: {
+		DisplayName: 煙緋の脚
+		Tooltip: 璃月港の名高い法務顧問
+	}
+
+	Yashiro: {
+		DisplayName: 八代の服
+		Tooltip: 大根先輩！
+	}
+
+	YashiroHead: {
+		DisplayName: 八代
+		Tooltip: 大根先輩！
+	}
+
+	YashiroLegs: {
+		DisplayName: 八代の脚
+		Tooltip: 大根先輩！
+	}
+
+	Yor: {
+		DisplayName: ヨル・フォージャーの服
+		Tooltip: 凄腕の殺し屋「いばら姫」
+	}
+
+	YorHead: {
+		DisplayName: ヨル・フォージャー
+		Tooltip: 凄腕の殺し屋「いばら姫」
+	}
+
+	YorLegs: {
+		DisplayName: ヨル・フォージャーの靴
+		Tooltip: 凄腕の殺し屋「いばら姫」
+	}
+
+	Yoshi: {
+		DisplayName: ヨッシーの服
+		Tooltip: 緑のトカゲと混同しないで！
+	}
+
+	YoshiHead: {
+		DisplayName: ヨッシー
+		Tooltip: 緑のトカゲと混同しないで！
+	}
+
+	YoshiLegs: {
+		DisplayName: ヨッシーの脚
+		Tooltip: 緑のトカゲと混同しないで！
+	}
+
+	Zerotwo: {
+		DisplayName: ゼロツーの服
+		Tooltip: ダーリン！おはよう！
+	}
+
+	ZerotwoHead: {
+		DisplayName: ゼロツー
+		Tooltip: ダーリン！おはよう！
+	}
+
+	ZerotwoLegs: {
+		DisplayName: ゼロツーのブーツ
+		Tooltip: ダーリン！おはよう！
+	}
+
+	Zhongli: {
+		DisplayName: 鍾離の服
+		Tooltip: 「往生堂」に招かれた謎の客卿
+	}
+
+	ZhongliHead: {
+		DisplayName: 鍾離
+		Tooltip: 「往生堂」に招かれた謎の客卿
+	}
+
+	ZhongliLegs: {
+		DisplayName: 鍾離の脚
+		Tooltip: 「往生堂」に招かれた謎の客卿
+	}
+
+	CosplayBag: {  
+		DisplayName: コスプレバッグ  
+		Tooltip:  
+			'''  
+			<右クリック>で開く  
+			アニメ由来の衣装が入っているバッグ  
+			現在の内容: 73種類の衣装、6種類のペット。  
+			'''  
+	}  
+
+
+	GenshinBag: {  
+		DisplayName: 原神バッグ  
+		Tooltip:  
+			'''  
+			<右クリック>で開く  
+			原神のキャラクター衣装が入っているバッグ  
+			現在の内容: 18種類の衣装、7種類のペット。  
+			'''  
+	}  
+
+
+	HoloBag: {  
+		DisplayName: ホロライブENバッグ  
+		Tooltip:  
+			'''  
+			<右クリック>で開く  
+			ホロライブENの衣装が入っているバッグ  
+			現在の内容: 16種類の衣装、11種類のペット。  
+			'''  
+	}  
+
+	PaintingAnimeBag1: {  
+		DisplayName: 絵画バッグ - アニメシリーズ  
+		Tooltip:  
+			'''  
+			<右クリック>で開く  
+			そもそも、この絵画はどうやってバッグに入ったんだろう？  
+			'''  
+	}  
+
+	PaintingNatureBag1: {  
+		DisplayName: 絵画バッグ - 自然シリーズ  
+		Tooltip:  
+			'''  
+			<右クリック>で開く  
+			そもそも、この絵画はどうやってバッグに入ったんだろう？  
+			'''  
+	}  
+
+	AlterEgo: {  
+		DisplayName: オルターエゴ  
+		Tooltip: 「ウィリアム・ミネルヴァ」  
+	}
+
+	BadApple: {
+		DisplayName: Bad Apple  
+		Tooltip: 「イレイナ」  
+	}
+
+	Beauty: {
+		DisplayName: 美の極み
+		Tooltip: 「五条 悟」
+	}
+
+	CasualHangover: {
+		DisplayName: 宴の代償
+		Tooltip: 「アクア」
+	}
+
+	CheerfulSpirit: {
+		DisplayName: 陽気な魂
+		Tooltip: 「芦戸 三奈」
+	}
+
+	ChillOut: {
+		DisplayName: のんびりタイム
+		Tooltip: 「ジャスティス」
+	}
+
+	CityDrive: {
+		DisplayName: シティドライブ
+		Tooltip: 「DALL-E」
+	}
+
+	CrimsonVampire: {
+		DisplayName: 紅の吸血鬼
+		Tooltip: 「フランドール・スカーレット」
+	}
+
+	DayWatch: {
+		DisplayName: 昼の見張り
+		Tooltip: 「メリオダス, DALL-E」
+	}
+
+	EverydayCat: {
+		DisplayName: 日常の猫
+		Tooltip: 「阪本」
+	}
+
+	EvilUnveiled: {
+		DisplayName: 暴かれし悪
+		Tooltip: 「DALL-E」
+	}
+
+	FullHouse: {
+		DisplayName: フルハウス
+		Tooltip: 「DALL-E」
+	}
+
+	GodlyPresence: {
+		DisplayName: 神々しき存在
+		Tooltip: 「Hozure, ロバート・E・O・スピードワゴン」
+	}
+
+	GroupPhoto: {
+		DisplayName: 記念写真
+		Tooltip: 「このすば」
+	}
+
+	HappyDays: {
+		DisplayName: 幸せな日々
+		Tooltip: 「トトロ」
+	}
+
+	HoldStill: {
+		DisplayName: じっとしてて...
+		Tooltip: 「三葉 惣助」
+	}
+
+	Lost: {
+		DisplayName: 迷子
+		Tooltip: 「相生 祐子, DALL-E」
+	}
+
+	LucidTroubles: {
+		DisplayName: 鮮明なる悩み
+		Tooltip: "「サメジマ マミ美」"
+	}
+
+	MonkeyDChad: {
+		DisplayName: モンキー・D・チャド
+		Tooltip: 「ルフィ, DALL-E」
+	}
+
+	NightDrive: {
+		DisplayName: ナイトドライブ
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldCity: {
+		DisplayName: 異世界 - 都市
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldEveningBreeze: {
+		DisplayName: 異世界 - 夕風
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldFamiliarity: {
+		DisplayName: 異世界 - 親しみ
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldMagicPool: {
+		DisplayName: 異世界 - 魔法の泉
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldObservatory: {
+		DisplayName: 異世界 - 天文台
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldOvergrowth: {
+		DisplayName: 異世界 - 繁茂
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldSunset: {
+		DisplayName: 異世界 - 夕焼け
+		Tooltip: 「DALL-E」
+	}
+
+	OtherworldWastelands: {
+		DisplayName: 異世界 - 荒野
+		Tooltip: 「DALL-E」
+	}
+
+	PatientStaring: {
+		DisplayName: じっと見つめる
+		Tooltip: 「古見 硝子」
+	}
+
+	SingersSmile: {
+		DisplayName: 歌姫の微笑み
+		Tooltip: 「月見 英子」
+	}
+
+	Slurp: {
+		DisplayName: ぷるぷる
+		Tooltip: 「リムル=テンペスト」
+	}
+
+	SnowyVillage: {
+		DisplayName: 雪の村
+		Tooltip: 「夕張, DALL-E」
+	}
+
+	SummitSelfie: {
+		DisplayName: 頂上でセルフィー
+		Tooltip: 「犬たち」
+	}
+
+	SupriseAttack: {
+		DisplayName: 奇襲
+		Tooltip: 「紫苑」
+	}
+
+	WakuWaku: {
+		DisplayName: わくわく！
+		Tooltip: 「アーニャ・フォージャー」
+	}
+
+	WinterView: {
+		DisplayName: 冬の景色
+		Tooltip: 「レム, DALL-E」
+	}
+
+	PetBag: {
+		DisplayName: ペットバッグ
+		Tooltip:
+			'''
+			<右クリック>で開く
+			さまざまなペットが入ったバッグ
+			現在の内容: 24種類のペット。
+			'''
+	}
+
+	InaHeadT: {
+		DisplayName: "[c/FF0000:TEST] 一伊那尓栖"
+		Tooltip: 古き神の司祭
+	}
+
+	InaLegsT: {
+		DisplayName: "[c/FF0000:TEST] 一伊那尓栖の靴"
+		Tooltip: 古き神の司祭
+	}
+
+	InaT: {
+		DisplayName: "[c/FF0000:TEST] 一伊那尓栖の服"
+		Tooltip: 古き神の司祭
+	}
+
+	KazumaHeadT: {
+		DisplayName: "[c/FF0000:TEST] カズマ"
+		Tooltip: あれ？ 俺、もしかしてツイてる？
+	}
+
+	KazumaLegsT: {
+		DisplayName: "[c/FF0000:TEST] カズマの脚"
+		Tooltip: あれ？ 俺、もしかしてツイてる？
+	}
+
+	KazumaT: {
+		DisplayName: "[c/FF0000:TEST] カズマの服"
+		Tooltip: あれ？ 俺、もしかしてツイてる？
+	}
+
+	TestBag: {
+		DisplayName: テストバッグ
+		Tooltip:
+			'''
+			<右クリック>で開く
+			試験的に調整中の衣装が入っているバッグ。
+			[c/FF0000:このバッグの衣装は特定のアップデート後に使用できなくなります]
+			現在の内容: 6種類の衣装
+			'''
+	}
+
+	AnemoSlime: {
+		DisplayName: ライトブルースライム濃縮液
+		Tooltip: 友好的な風スライムを召喚する。
+	}
+
+	Bloop: {
+		DisplayName: サーディン缶
+		Tooltip: 
+			'''
+			がうる・ぐらのマスコット、Bloopを召喚する。
+			「泡は含まれていません。」
+			'''
+	}
+
+	Boros: {
+		DisplayName: 青色の結び目
+		Tooltip: オーロ・クロニーのマスコット、Borosを召喚する。
+	}
+
+	Bubba: {
+		DisplayName: 拡大鏡
+		Tooltip: ワトソン・アメリアのマスコット、Bubbaを召喚する。
+	}
+
+	Cabbage: {
+		DisplayName: キャベツの葉
+		Tooltip: キャベツの魔物を召喚する。
+	}
+
+	CryoSlime: {
+		DisplayName: ホワイトスライム濃縮液
+		Tooltip: 友好的な氷スライムを召喚する。
+	}
+
+	Death: {
+		DisplayName: 小さな鎌
+		Tooltip: 森カリオペのマスコット、死神を召喚する。
+	}
+
+	DendroSlime: {
+		DisplayName: グリーンスライム濃縮液
+		Tooltip: 友好的な草スライムを召喚する。
+	}
+
+	ElectroSlime: {
+		DisplayName: パープルスライム濃縮液
+		Tooltip: 友好的な雷スライムを召喚する。
+	}
+
+	Friend: {
+		DisplayName: 紙袋
+		Tooltip: 七詩ムメイのマスコットを召喚する。
+	}
+
+	GeoSlime: {
+		DisplayName: ブラウンスライム濃縮液
+		Tooltip: 友好的な岩スライムを召喚する。
+	}
+
+	Gloom: {
+		DisplayName: ウィングシャードの欠片
+		Tooltip:
+			'''
+			IRySのマスコット、Gloomを召喚する。
+			「Bloomは休暇中。」
+			'''
+	}
+
+	HanakoWhisp: {
+		DisplayName: 赤い封印の紙
+		Tooltip: 白杖代を召喚する。
+	}
+
+	Hawk: {
+		DisplayName: 残飯
+		Tooltip: 「残飯処理騎士団」団長、ホークを召喚する。
+	}
+
+	HydroSlime: {
+		DisplayName: ブルースライム濃縮液
+		Tooltip: 友好的な水スライムを召喚する。
+	}
+
+	Kotori: {
+		DisplayName: ドラムスティック
+		Tooltip: 小鳥遊キアラのマスコット、Kotoriを召喚する。
+	}
+
+	Meinya: {
+		DisplayName: 奇妙な緑の帽子
+		Tooltip: 変化の子、メイニャを召喚する。
+	}
+
+	Nemu: {
+		DisplayName: 木の枝
+		Tooltip: セレス・ファウナのマスコット、根夢を召喚する。
+	}
+
+	Puck: {
+		DisplayName: 輝石の結晶
+		Tooltip: エミリアの精霊、パックを召喚する。
+	}
+
+	PyroSlime: {
+		DisplayName: レッドスライム濃縮液
+		Tooltip: 友好的な火スライムを召喚する。
+	}
+
+	RimuruSlime: {
+		DisplayName: 抗魔の仮面
+		Tooltip: 友好的な青いスライムを召喚する。
+	}
+
+	Squeaks: {
+		DisplayName: 黄色いねずみ捕り
+		Tooltip: ハコス・ベールズのマスコット、Mr. Squeaksを召喚する。
+	}
+
+	Takodachi: {
+		DisplayName: 呪われた本
+		Tooltip: 一伊那尓栖のマスコット、タコダチを召喚する。
+	}
+
+	Yatagarasu: {
+		DisplayName: 小さな銀河
+		Tooltip: 九十九佐命のマスコット、Yatagarasを召喚する。
+	}
+
+	Kirito: {
+		DisplayName: キリトの服
+		Tooltip: 黒の剣士
+	}
+
+	KiritoHead: {
+		DisplayName: キリト
+		Tooltip: 黒の剣士
+	}
+
+	KiritoLegs: {
+		DisplayName: キリトの靴
+		Tooltip: 黒の剣士
+	}
+
+
+	Asuna: {
+		DisplayName: アスナの服
+		Tooltip: バーチャルデートの新境地を開拓！
+	}
+
+	AsunaHead: {
+		DisplayName: アスナ
+		Tooltip: バーチャルデートの新境地を開拓！
+	}
+
+	AsunaLegs: {
+		DisplayName: アスナの脚
+		Tooltip: バーチャルデートの新境地を開拓！
+	}
+
+	Dio: {
+		DisplayName: ディオの服
+		Tooltip: お前が欲しかった衣装だと思ったか？ だがそれは、俺だ！
+	}
+
+	DioHead: {
+		DisplayName: ディオ
+		Tooltip: お前が欲しかった衣装だと思ったか？ だがそれは、俺だ！
+	}
+
+	DioLegs: {
+		DisplayName: ディオの脚
+		Tooltip: お前が欲しかった衣装だと思ったか？ だがそれは、俺だ！
+	}
+
+	Sinon: {
+		DisplayName: シノンの服
+		Tooltip: 狙った獲物は逃さない
+	}
+
+	SinonHead: {
+		DisplayName: シノン
+		Tooltip: 狙った獲物は逃さない
+	}
+
+	SinonLegs: {
+		DisplayName: シノンの脚
+		Tooltip: 狙った獲物は逃さない
+	}
+
+	AmeliaHeadT: {
+		DisplayName: "[c/FF0000:TEST] ワトソン・アメリア"
+		Tooltip: hololiveのNo.1探偵！
+	}
+
+	AmeliaLegsT: {
+		DisplayName: "[c/FF0000:TEST] ワトソン・アメリアの脚"
+		Tooltip: hololiveのNo.1探偵！
+	}
+
+	AmeliaT: {
+		DisplayName: "[c/FF0000:TEST] ワトソン・アメリアの服"
+		Tooltip: hololiveのNo.1探偵！
+	}
+
+	RaidenHeadT: {
+		DisplayName: "[c/FF0000:TEST] 雷電将軍"
+		Tooltip: 稲妻幕府の最高主宰
+	}
+
+	RaidenLegsT: {
+		DisplayName: "[c/FF0000:TEST] 雷電将軍の脚"
+		Tooltip: 稲妻幕府の最高主宰
+	}
+
+	RaidenT: {
+		DisplayName: "[c/FF0000:TEST] 雷電将軍の服"
+		Tooltip: 稲妻幕府の最高主宰
+	}
+
+	RemHeadT: {
+		DisplayName: "[c/FF0000:TEST] レム"
+		Tooltip: こんな恐ろしいことを考えていたなんて、姉様。
+	}
+
+	RemLegsT: {
+		DisplayName: "[c/FF0000:TEST] レムの脚"
+		Tooltip: こんな恐ろしいことを考えていたなんて、姉様。
+	}
+
+	RemT: {
+		DisplayName: "[c/FF0000:TEST] レムの服"
+		Tooltip: こんな恐ろしいことを考えていたなんて、姉様。
+	}
+
+	RoxyHeadT: {
+		DisplayName: "[c/FF0000:TEST] ロキシー"
+		Tooltip: 旅する家庭教師
+	}
+
+	RoxyLegsT: {
+		DisplayName: "[c/FF0000:TEST] ロキシーの脚"
+		Tooltip: 旅する家庭教師
+	}
+
+	RoxyT: {
+		DisplayName: "[c/FF0000:TEST] ロキシーの服"
+		Tooltip: 旅する家庭教師
+	}
+
+	Bijou: {
+		DisplayName: 古石ビジューの服
+		Tooltip: 感情結晶体
+	}
+
+	BijouHead: {
+		DisplayName: 古石ビジュー
+		Tooltip: 感情結晶体
+	}
+
+	BijouLegs: {
+		DisplayName: 古石ビジューの脚
+		Tooltip: 感情結晶体
+	}
+
+	Fuwawa: {
+		DisplayName: フワワ・アビスガードの服
+		Tooltip: チワワじゃないよ！
+	}
+
+	FuwawaHead: {
+		DisplayName: フワワ・アビスガード
+		Tooltip: チワワじゃないよ！
+	}
+
+	FuwawaLegs: {
+		DisplayName: フワワ・アビスガードの脚
+		Tooltip: チワワじゃないよ！
+	}
+
+	Mococo: {
+		DisplayName: モココ・アビスガードの服
+		Tooltip: フワワじゃないよ！
+	}
+
+	MococoHead: {
+		DisplayName: モココ・アビスガード
+		Tooltip: フワワじゃないよ！
+	}
+
+	MococoLegs: {
+		DisplayName: モココ・アビスガードの脚
+		Tooltip: フワワじゃないよ！
+	}
+
+	Nerissa: {
+		DisplayName: ネリッサ・レイヴンクロフトの服
+		Tooltip: 音の魔人
+	}
+
+	NerissaHead: {
+		DisplayName: ネリッサ・レイヴンクロフト
+		Tooltip: 音の魔人
+	}
+
+	NerissaLegs: {
+		DisplayName: ネリッサ・レイヴンクロフトの脚
+		Tooltip: 音の魔人
+	}
+
+	Shiori: {
+		DisplayName: シオリ・ノヴェラの服
+		Tooltip: 知識欲に突き動かされる「収集家」
+	}
+
+	ShioriHead: {
+		DisplayName: シオリ・ノヴェラ
+		Tooltip: 知識欲に突き動かされる「収集家」
+	}
+
+	ShioriLegs: {
+		DisplayName: シオリ・ノヴェラの脚
+		Tooltip: 知識欲に突き動かされる「収集家」
+	}
+}
+
+NPCs: {
+	CosplayNPC: {
+		DisplayName: スピードワゴン
+
+		TownNPCMood: {
+			Content: 今はすごくいい気分だ。
+  			NoHome: 家が欲しいな、本当に。
+  			FarFromHome: 家に戻れるように、手伝ってもらえないか？
+  			LoveSpace: ここはとても心地よい場所だな。
+  			DislikeCrowded: 人が多すぎて、落ち着かないな。
+  			HateCrowded: こんなに人がいると、全く落ち着かない！
+  			LikeBiome: "{BiomeName}はとても素晴らしい場所だな。"
+  			DislikeBiome: "{BiomeName}は暑すぎる！"
+  			LoveNPC: "{NPCName}が俺のことに気づいてくれると思うか？"
+  			LikeNPC: "{NPCName}は仲間として尊敬できる存在だ。"
+  			DislikeNPC: "{NPCName}は売ってるアイテムの話ばかりしてうるさいな。ちょっとイライラしてきたよ。"
+  			HateNPC: "{NPCName}の爆発音がうるさすぎる！俺はただ静かな時間がほしいんだ。"
+  			LikeNPC_Princess: "{NPCName}が好きだ。"
+  			Princess_LovesNPC: "{NPCName}が好きだ。"
+		}
+	}
+}
+
+Buffs: {
+	AnemoSlime: {
+		DisplayName: 風スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	BloopBuff: {
+		DisplayName: Bloop
+		Description: '''浮遊するサメ！'''
+	}
+
+	BorosBuff: {
+		DisplayName: Boros
+		Description: '''神秘的な白い蛇'''
+	}
+
+	BubbaBuff: {
+		DisplayName: Bubba
+		Description: '''探偵犬'''
+	}
+
+	CabbageBuff: {
+		DisplayName: キャベツ
+		Description: '''カワイイ小さなキャベツがついてくる！'''
+	}
+
+	CryoSlimeBuff: {
+		DisplayName: 氷スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	DeathBuff: {
+		DisplayName: 死神
+		Description: '''死神がついてくる！'''
+	}
+
+	DendroSlimeBuff: {
+		DisplayName: 草スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	ElectroSlimeBuff: {
+		DisplayName: 雷スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	FriendBuff: {
+		DisplayName: 紙の友達
+		Description: '''空飛ぶ紙袋、名前はない'''
+	}
+
+	GeoSlimeBuff: {
+		DisplayName: 岩スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	GloomBuff: {
+		DisplayName: Gloom
+		Description: '''浮遊する紳士'''
+	}
+
+	HanakoWhispBuff: {
+		DisplayName: 白杖代
+		Description: '''カミサマから借りた力'''
+	}
+
+	HawkBuff: {
+		DisplayName: ホーク
+		Description: '''"ポーク"'''
+	}
+
+	HydroSlimeBuff: {
+		DisplayName: 水スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	KotoriBuff: {
+		DisplayName: Kotori
+		Description: '''謎の鳥！'''
+	}
+
+	MeinyaBuff: {
+		DisplayName: メイニャ
+		Description: '''カワイイ生き物'''
+	}
+
+	NemuBuff: {
+		DisplayName: Nemu
+		Description: '''不思議な空飛ぶ鹿'''
+	}
+
+	PuckBuff: {
+		DisplayName: パック
+		Description: '''エミリアの精霊'''
+	}
+
+	PyroSlimeBuff: {
+		DisplayName: 炎スライム
+		Description: '''「原神」に登場するスライムの一種！'''
+	}
+
+	RimuruSlimeBuff: {
+		DisplayName: リムル (スライム)
+		Description: '''スライム形態になっている'''
+	}
+
+	SqueaksBuff: {
+		DisplayName: Mr. Squeaks
+		Description: '''カワイイ空飛ぶねずみ！'''
+	}
+
+	TakodachiBuff: {
+		DisplayName: Takodachi
+		Description: '''不思議な紫のタコ'''
+	}
+
+	YatagarasuBuff: {
+		DisplayName: Yatagarasu
+		Description: '''謎の浮遊する存在'''
+	}
+}
+
+Projectiles: {
+	AnemoSlimeProjectile: {
+		DisplayName: Anemo Slime Projectile
+	}
+
+	BloopProjectile: {
+		DisplayName: Bloop Projectile
+	}
+
+	BorosProjectile: {
+		DisplayName: Boros Projectile
+	}
+
+	BubbaProjectile: {
+		DisplayName: Bubba Projectile
+	}
+
+	CabbageProjectile: {
+		DisplayName: Cabbage Projectile
+	}
+
+	CryoSlimeProjectile: {
+		DisplayName: Cryo Slime Projectile
+	}
+
+	DeathProjectile: {
+		DisplayName: Death Projectile
+	}
+
+	DendroSlimeProjectile: {
+		DisplayName: Dendro Slime Projectile
+	}
+
+	ElectroSlimeProjectile: {
+		DisplayName: Electro Slime Projectile
+	}
+
+	FriendProjectile: {
+		DisplayName: Friend Projectile
+	}
+
+	GeoSlimeProjectile: {
+		DisplayName: Geo Slime Projectile
+	}
+
+	GloomProjectile: {
+		DisplayName: Gloom Projectile
+	}
+
+	HanakoWhispProjectile: {
+		DisplayName: Hanako Whisp Projectile
+	}
+
+	HawkProjectile: {
+		DisplayName: Hawk Projectile
+	}
+
+	HydroSlimeProjectile: {
+		DisplayName: Hydro Slime Projectile
+	}
+
+	KotoriProjectile: {
+		DisplayName: Kotori Projectile
+	}
+
+	MeinyaProjectile: {
+		DisplayName: Meinya Projectile
+	}
+
+	NemuProjectile: {
+		DisplayName: Nemu Projectile
+	}
+
+	PuckProjectile: {
+		DisplayName: Puck Projectile
+	}
+
+	PyroSlimeProjectile: {
+		DisplayName: Pyro Slime Projectile
+	}
+
+	RimuruSlimeProjectile: {
+		DisplayName: Rimuru Slime Projectile
+	}
+
+	SqueaksProjectile: {
+		DisplayName: Squeaks Projectile
+	}
+
+	TakodachiProjectile: {
+		DisplayName: Takodachi Projectile
+	}
+
+	YatagarasuProjectile: {
+		DisplayName: Yatagarasu Projectile
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: 設定
+
+		EnableTestBagToggle: {
+		Label: テストバッグを有効化
+		Tooltip: これを有効にすると、スピードワゴンのショップメニューにテストバッグが追加されます。これらは試験的な衣装であり、今後変更・調整・削除される可能性があります。
+		}
+	}
+}
+
