@@ -17,5 +17,5 @@ terrariaの翻訳は[synctam様による翻訳](https://synctam.blogspot.com/201
 
 ## PRするときのお願い
 - hjsonを含むフォルダの名前はModの内部名にしてください。(`Mods.XXX.Items...`のうちXXXの部分)
-- 新規翻訳を追加するときは[TranslatedMods.csv](https://github.com/External-Localizer/TMLHonyaku/blob/main/TranslatedMods.csv)に、情報を追加してください。
+- 新規翻訳を追加するときは[TranslatedMods.csv](https://github.com/External-Localizer/TMLHonyaku/blob/main/TranslatedMods.csv)に、情報を追加してください。`display_name`が昇順になるようにしてください。
 - 可能であれば`ja-JP_Mods.XXX.hjson`のようにファイル名にMod名が含まれる書き方にしてください。External Localizerによるファイルの読み込み時の効率が上がります。
