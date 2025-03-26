@@ -1,0 +1,84 @@
+UnlockCondition: {
+	DownedPlantera: {
+		Description: プランテラ撃破後にアンロック
+		DisplayName: プランテラ
+	}
+
+	DownedMechBossAny: {
+		Description: いずれかのメカニカルボス撃破後にアンロック
+		DisplayName: メカニカルボス
+	}
+
+	DownedSkeletron: {
+		Description: スケルトロン撃破後にアンロック
+		DisplayName: スケルトロン
+	}
+
+	Hardmode: {
+		Description: ハードモード突入後にアンロック
+		DisplayName: ハードモード
+	}
+}
+
+Keybinds: {
+	PointShopUIKeybind: {
+		DisplayName: Points Shop UI切り替え
+	}
+}
+
+ShopItem: {
+	ShopItemError: アイテムはこの環境に属していない
+	InsufficientPoints: ポイントが足りていない
+	Lock: このアイテムはアンロックされていない
+}
+
+Items: {
+	PointCoin: {
+		Tooltip:
+			'''
+			[c/22cc22:敵を撃破時にドロップします]
+			[c/cc22cc:インベントリに入るとポイントに変換されます]
+			[c/cccc22:プレイヤーの運と敵のレア度に影響を受けます]
+			'''
+		DisplayName: ポイントコイン
+	}
+}
+
+Configs: {
+	PointShopConfig: {
+		PointMultiplier: {
+			Tooltip: ""
+			Label: ポイント倍率
+		}
+
+		DisplayName: Point Shop 設定
+	}
+}
+
+Buy: 購入
+
+Clear: クリア
+
+NameFilter: 検索
+
+DisplayName: PointShop
+
+Environments: {
+	Void: 無所属
+	Crimson: クリムゾン
+	Corrupt: 不浄
+	Jungle: ジャングル
+	Glowshroom: キノコバイオーム
+	Desert: 砂漠
+	Snow: 雪原
+	Hallow: 聖域
+	Granite: 御影石の洞窟
+	Marble: 大理石の洞窟
+	Dungeon: ダンジョン
+	Beach: 海
+	Underworld: 地底
+	Sky: 空
+	Caverns: 地下
+	Forest: 森林
+}
+

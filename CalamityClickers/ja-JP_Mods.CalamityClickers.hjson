@@ -1,0 +1,1209 @@
+Condition: {
+	PostPlant: プランテラ撃破後
+}
+
+Configs: {
+	CalamityClickersConfig: {
+		LegecyClickerTextures: {
+			Tooltip: ""
+			Label: レガシー クリッカー テクスチャ
+		}
+
+		DisplayName: Calamity Clickers 設定
+	}
+}
+
+Misc: {
+	Death: {
+		BloodyClicker1: "{0} が糖尿病で死亡した"
+		BloodyClicker0: "{0} は消化しきれないほどクッキーを食べてしまった"
+	}
+
+	RecipeGroup: {
+		AnyNormalSFXButton: 任意のノーマルSFXボタン
+	}
+}
+
+NPCs: {
+	ClickerfinNormalNPC: {
+		Bestiary: その鋭い鼻のおかげで、クリッカーフィンは地元の砂利をかき回して、ミミズなどさまざまな生き物を見つけることができる。また、捕食者の体に深い傷をつけることもできる防衛手段でもある。
+		DisplayName: クリッカーフィン
+	}
+
+	ClickerfinNPC: {
+		DisplayName: クリッカーフィン
+	}
+
+	LecherousOrbClicker: {
+		DisplayName: レシャスオーブクリッカー
+	}
+}
+
+UI: {
+	Enchantments: {
+		Lecherous2: {
+			Description: カーソルの周りをくるくる回る弾力のあるブリムストーンモンスターが出現し、ホーミング武器の邪魔をする。死ぬとハートを大量に放出する。
+			DisplayName: 無慈悲
+		}
+
+		Lecherous: {
+			Description: カーソルの周りをくるくる回る弾力のあるブリムストーンモンスターが出現し、ホーミング武器の邪魔をする。死ぬとハートを大量に放出する。
+			DisplayName: 無慈悲
+		}
+	}
+
+	Cooldowns: {
+		UltraboostCooldown: ウルトラブーストのクールダウン
+		TarragonClickerCooldown: タラゴンクリッカーの防御クールダウン
+		FingerOfBloodGodCooldown: 血の神の指のクールダウン
+		GodSlayerOverclockCooldown: ゴッドスレイヤーオーバークロックのクールダウン
+	}
+}
+
+Buffs: {
+	ClickerfinBuff: {
+		Description: クリックダメージが25％増加
+		DisplayName: クリッカーフィンの怒り
+	}
+
+	HydrothermicCapsuitDebuff: {
+		Description: あなたは説明文を知らない
+		DisplayName: 水熱ボイル
+	}
+
+	GodSlayerCapsuitBuff: {
+		Description: クリッカーが常にクリティカルを与えるようになる
+		DisplayName: ハイパーブースト
+	}
+
+	BloodyChocCookiesBuff: {
+		Description: クリックダメージとクリティカル率、レイジ再生が増加
+		DisplayName: 血まみれのクッキー
+	}
+
+	BeetleClickingGloveDebuff: {
+		Description: このデバフにツールチップがあると思う？ いや、ないよ！
+		DisplayName: 甲虫のカチカチ手袋の力
+	}
+
+	ItsClickerDebuff: {
+		Description: このデバフにツールチップがあると思う？ いや、ないよ！
+		DisplayName: 真のウィザー
+	}
+
+	WulfrumClickerBuff: {
+		Description: オートクリッカーが使用可能！
+		DisplayName: ウルフラム・クリッカーモードの可視化
+	}
+
+	GodSlayerOverclockBuff: {
+		Description: クリックするたびに、すべてのアクティブなクリック効果がダメージを軽減された状態で発動
+		DisplayName: ゴッドスレイヤーオーバークロック
+	}
+}
+
+Projectiles: {
+	Clicker: {
+		BereftVassalsClickerPro: {
+			DisplayName: Arid Fangs
+		}
+
+		FusionPointerPro: {
+			DisplayName: Ionized Particles
+		}
+
+		BioinjectorPro: {
+			DisplayName: BioNeedle
+		}
+
+		FieldPolorizerPro: {
+			DisplayName: Electromagnetic Field
+		}
+
+		HandheldClickerDrillPro: {
+			DisplayName: ClickerDrill
+		}
+
+		ScrapPresserPro: {
+			DisplayName: Scrap Missle
+		}
+
+		ClickerNovaProjectileSmall: {
+			DisplayName: Small Star
+		}
+
+		ClickerNovaProjectile: {
+			DisplayName: Omega Star
+		}
+
+		HolyGoldenClickerProjectile: {
+			DisplayName: Holy Deathray
+		}
+
+		SSMedalProjectileExplosion: {
+			DisplayName: Electric Explosion
+		}
+
+		BubbleClickerProjectile2: {
+			DisplayName: Irradiated Aura
+		}
+
+		BubbleClickerProjectile: {
+			DisplayName: Acid Bubble
+		}
+
+		GeleomegeddonClickerProjectile: {
+			DisplayName: Nova Slime
+		}
+
+		MarkOfRatKingProjectile: {
+			DisplayName: Mini Rat Clicker
+		}
+
+		SSMedalProjectile: {
+			DisplayName: SS Medal
+		}
+
+		AstralRocksProjectileFly: {
+			DisplayName: Astral Rock
+		}
+
+		AstralRocksProjectile: {
+			DisplayName: Astral Rocks
+		}
+
+		DaedalusCapsuitProjectile: {
+			DisplayName: Daedalus Lightning
+		}
+
+		BloodyChocCookiesProjectileChocolate: {
+			DisplayName: Chocolate Chip
+		}
+
+		BloodyChocCookiesProjectileCookie: {
+			DisplayName: Bloody Cookie
+		}
+
+		ExoClickerProjectile: {
+			DisplayName: Exo Clicker Projectile
+		}
+
+		BloodstoneClickerProjectile: {
+			DisplayName: Bloodstone Knife
+		}
+
+		CruelClickerProjectile: {
+			DisplayName: Lecherous Orb
+		}
+
+		CosmiliteClickerProjectile: {
+			DisplayName: Cosmic Knive
+		}
+
+		PlagueClickerProjectile: {
+			DisplayName: Plague Bee
+		}
+
+		NuclearClickerBoom: {
+			DisplayName: Nuclear Explosion
+		}
+
+		StellarClickerProjectile: {
+			DisplayName: Stellar Scythe
+		}
+
+		PhoenixClickerProjectile2: {
+			DisplayName: Phoenix Breath
+		}
+
+		PhoenixClickerProjectile: {
+			DisplayName: Phoenix
+		}
+
+		MiracleClickerProjectile: {
+			DisplayName: Exo Explosion
+		}
+
+		MiceCatalystClickerProjectile: {
+			DisplayName: Mice Catalyst Nebula
+		}
+
+		StarblightClickerProjectile: {
+			DisplayName: Astral Dust
+		}
+
+		ClickerOfGodsProjectile: {
+			DisplayName: Nebula Star
+		}
+
+		DarksunClickerProjectile: {
+			DisplayName: Dark Sun
+		}
+
+		StratusClickerProjectile: {
+			DisplayName: Stratus Moon
+		}
+
+		DaedalusClickerProjectile: {
+			DisplayName: Daedalus Crystals
+		}
+
+		RuinousClickerProjectileSoul: {
+			DisplayName: Ruinous Soul
+		}
+
+		RuinousClickerProjectile: {
+			DisplayName: Ruinous Portal
+		}
+
+		AureusClickerProjectile: {
+			DisplayName: Aureus Blast
+		}
+
+		BloodGodsClickerProjectile: {
+			DisplayName: Blood God's Blast
+		}
+
+		ClickerOfCalamityProjectile: {
+			DisplayName: Chaos Flame
+		}
+
+		ProfanedClickerProjectile: {
+			DisplayName: Profaned Explosion
+		}
+
+		FeralClickerProjectile: {
+			DisplayName: Burning Green Ichor
+		}
+
+		ElementalClickerProjectile: {
+			DisplayName: Elemental Aura
+		}
+
+		FloraClickerProjectile: {
+			DisplayName: Flora Aura
+		}
+
+		EarthenClickerProjectile: {
+			DisplayName: Crunch
+		}
+
+		MusicalClickerProjectile: {
+			DisplayName: Musical Note
+		}
+
+		CryoClickerProjectile: {
+			DisplayName: Cryo Bomb
+		}
+
+		BrimstoneClickerProjectile: {
+			DisplayName: Brimstone Sigil
+		}
+
+		GaussClickerProjectile: {
+			DisplayName: Gauss Flux
+		}
+
+		GooClickerProjectile: {
+			DisplayName: Slime Puppet
+		}
+
+		RottenClickerProjectile: {
+			DisplayName: Brain Explosion
+		}
+
+		FleshyClickerProjectile: {
+			DisplayName: Bloody Explosion
+		}
+
+		ScourgeClickerProjectile: {
+			DisplayName: Sand Explosion
+		}
+
+		SeaRemainClickerProjectile: {
+			DisplayName: Sea Bubble
+		}
+	}
+}
+
+Items: {
+	SFXButtonExhume: {
+		DisplayName: SFX ボタン - エクシューム
+	}
+
+	SFXButtonAuric: {
+		DisplayName: SFX ボタン - オーリック
+	}
+
+	SFXButtonAstral: {
+		DisplayName: SFX ボタン - アストラル
+	}
+
+	SFXButtonCalamity: {
+		DisplayName: SFX ボタン - Calamity
+	}
+
+	Accessories: {
+		CosmicClickingGlove: {
+			Tooltip:
+				'''
+				戦闘中、0.5秒ごとに現在のクリッカーを自動的にクリック
+				クリッカー半径の50%以内のクリッカーはダメージが100増加
+				クリックのクリティカル確率が15%増加
+				クリティカルヒット後、20%の確率で3倍のダメージを与える
+				戦闘外での最初にクリックで自動的にクリック効果を発動する
+				クールダウンがない間に追加クリッカー効果を発動する
+				発動後、10秒間のクールダウンを得る
+				'''
+			DisplayName: コズミッククリックグローブ
+		}
+
+		LunarClickingGlove: {
+			Tooltip:
+				'''
+				戦闘中、0.5秒ごとに現在のクリッカーを自動的にクリック
+				クリッカー半径の50%以内のクリッカーはダメージが25増加
+				クリックのクリティカル確率が10%増加
+				クリティカルヒット後、20%の確率で3倍のダメージを与える
+				'''
+			DisplayName: ルナークリックグローブ
+		}
+
+		LihzahrdParticleAccelerator: {
+			Tooltip:
+				'''
+				クリッカー半径の50%以内のクリッカーはダメージが10増加
+				クリックのクリティカル確率が5%増加
+				クリティカルヒット後、20%の確率で3倍のダメージを与える
+				'''
+			DisplayName: リザード粒子加速器
+		}
+
+		SSMedal: {
+			Tooltip:
+				'''
+				装備している間、力を与える円があなたの周りを回転する。
+				カーソルを円の中に留めることで、クリックのクリティカルヒット、クリックの範囲、およびクリック効果を蓄積する
+				中央の円の中にカーソルを置いておくと、上記のすべてのステータスが一度に蓄積できる
+				完全に蓄積された中央の円を右クリックするとエネルギーが放出されるが、すべての円のブーストを消費する
+				'''
+			DisplayName: SS メダル
+		}
+
+		BloodyChocCookies: {
+			Tooltip:
+				'''
+				装備している間、クッキーが定期的にクリッカー範囲内にスポーンする
+				クッキーをクリックすると、クリッカーダメージ、範囲、ライフ自然回復のボーナスが得られる
+				クッキーが「血まみれのクッキー」に置き換わる可能性があり、その場合はクリッカーダメージ、クリティカル率、レイジ再生が代わりに増加
+				1秒間のクリック数に応じて最大{0}%のクリッカーダメージを獲得
+				15回クリックするごとにノーマル、スパイシー、ホワイトチョコレートのいずれかのダメージバーストを放つ
+				スパイシーチョコレートはブリムストーンの炎を発生させ、他のタイプよりも高いダメージを与える
+				ホワイトチョコレートは小さな半径内で所有者プレイヤーにホーミングし、接触時に体力を4回復
+				'''
+			DisplayName: 血まみれのチョコクッキー
+		}
+
+		BeetleClickingGlove: {
+			Tooltip:
+				'''
+				戦闘中、0.5秒ごとに現在のクリッカーを自動的にクリック
+				ライフが20%以下の時のクリックダメージが25%増加
+				クリックの速さに応じた威力のデバフを与える
+				'''
+			DisplayName: 甲虫のクリックグローブ
+		}
+
+		FingerOfBloodGod: {
+			DisplayName: 血の神の指
+			Tooltip:
+				'''
+				戦闘外での最初にクリックで自動的にクリック効果を発動する
+				クールダウンがない間に追加クリッカー効果を発動する
+				発動後、10秒間のクールダウンを得る
+				'''
+		}
+
+		DOG: {
+			DisplayName: D.o.G.
+			Tooltip:
+				'''
+				クリッカーダメージが30%増加
+				クリッカー半径が50%増加
+				クリック効果に必要なクリック回数が20%減少
+				クリッカーアクセサリーキーを押すと、すべてのクリッカーのオートクリックが切り替わる
+				オートクリックが有効になっている場合、クリック速度がわずかに低下する
+				クリッカー照準アシストキーを押すと照準が切り替わり、近くの敵を自動的にターゲットする
+				ターゲットが死んだり見失ったりした場合、可能であれば近くの新しいターゲットが選択される
+				「ゲームの貪食者」
+				'''
+		}
+	}
+
+	Weapons: {
+		Clicker: {
+			BereftVassalsClicker: {
+				DisplayName: タウルスの牙
+			}
+
+			FusionPointer: {
+				DisplayName: フュージョンポインター
+			}
+
+			Bioinjector: {
+				DisplayName: バイオ注射器
+			}
+
+			FieldPolorizer: {
+				DisplayName: フィールドポロライザー
+			}
+
+			HandheldClickerDrill: {
+				DisplayName: ハンドヘルドクリッカードリル
+			}
+
+			ScrapPresser: {
+				DisplayName: スクラッププレッサー
+			}
+
+			NuclearClicker: {
+				DisplayName: ニュークリアクリッカー
+			}
+
+			GaussClicker: {
+				DisplayName: ガウスクリッカー
+			}
+
+			MarkOfRatKing: {
+				DisplayName: ネズミの王の刻印
+			}
+
+			ItsClicker: {
+				DisplayName: クリッカー
+			}
+
+			CruelClicker: {
+				DisplayName: 残酷なクリッカー
+			}
+
+			MiracleClicker: {
+				DisplayName: ミラクルクリッカー
+			}
+
+			ExoClicker: {
+				DisplayNameLegecy: エキソクリッカー
+				DisplayName: 共振電源プラグ
+			}
+
+			ClickerNova: {
+				DisplayName: クリッカーノヴァ
+			}
+
+			MiceCatalystClicker: {
+				DisplayName: マウスカタリストクリッカー
+			}
+
+			PhoenixClicker: {
+				DisplayName: 不死鳥クリッカー
+			}
+
+			DarksunClicker: {
+				DisplayName: ダークサンクリッカー
+			}
+
+			NightmareClicker: {
+				DisplayName: ナイトメアクリッカー
+			}
+
+			CosmiliteClicker: {
+				DisplayNameLegecy: コスミライトクリッカー
+				DisplayName: ディメンションリッパー
+			}
+
+			ClickerOfGods: {
+				DisplayName: 神々のクリッカー
+			}
+
+			StratusClicker: {
+				DisplayNameLegecy: ストラタスクリッカー
+				DisplayName: ベラトリックス
+			}
+
+			PolterplasmClicker: {
+				DisplayNameLegecy: ポルタープラズムクリッカー
+				DisplayName: ビヨンダーの掌握
+			}
+
+			RuinousClicker: {
+				DisplayNameLegecy: 破滅的なクリッカー
+				DisplayName: 不気味なグリッカー
+			}
+
+			HolyGoldenClicker: {
+				DisplayName: 聖なる黄金のクリッカー
+			}
+
+			BloodstoneClicker: {
+				DisplayNameLegecy: ブラッドストーンクリッカー
+				DisplayName: ヘモフィック・ダガー
+			}
+
+			BloomClicker: {
+				DisplayNameLegecy: ブルームクリッカー
+				DisplayName: ねじれた二重性
+			}
+
+			ProfanedClicker: {
+				DisplayNameLegecy: 冒涜されたクリッカー
+				DisplayName: 冒涜された洗礼者
+			}
+
+			RedLightningClicker: {
+				DisplayNameLegecy: 赤い稲妻クリッカー
+				DisplayName: ストームストラックタロン
+			}
+
+			InfestedBeeClicker: {
+				DisplayName: はびこる蜂クリッカー
+			}
+
+			ElementalClicker: {
+				DisplayNameLegecy: エレメンタルクリッカー
+				DisplayName: ベランディア・エレメンツリップ
+			}
+
+			GeleomegeddonClicker: {
+				DisplayName: ゲラクティック・ノバポイント
+			}
+
+			StarblightClicker: {
+				DisplayName: スターブライトクリッカー
+			}
+
+			CosmicStarClicker: {
+				DisplayName: コズミックスタークリッカー
+			}
+
+			MeldClicker: {
+				DisplayNameLegecy: メルドクリッカー
+				DisplayName: ダークスポット
+			}
+
+			PlagueClicker: {
+				DisplayNameLegecy: ペストクリッカー
+				DisplayName: 悩ましきクリッカー
+			}
+
+			BloodGodsClicker: {
+				DisplayNameLegecy: 血の神のクリッカー
+				DisplayName: ヘカトン
+			}
+
+			ScoriaClicker: {
+				DisplayName: スコリアクリッカー
+			}
+
+			FrostysClicker: {
+				DisplayName: フロスティクリッカー
+			}
+
+			StellarClicker: {
+				DisplayName: ステラクリッカー
+			}
+
+			AureusClicker: {
+				DisplayName: アウレウスクリッカー
+			}
+
+			AnahitasClicker: {
+				DisplayNameLegecy: アナヒタのクリッカー
+				DisplayName: 遠いメロディー
+			}
+
+			FloraClicker: {
+				DisplayNameLegecy: フローラクリッカー
+				DisplayName: 貧血の花びら
+			}
+
+			FeralClicker: {
+				DisplayNameLegecy: 野生のクリッカー
+				DisplayName: 野生のポイナー
+			}
+
+			ClickerOfCalamity: {
+				DisplayNameLegecy: カラミティのクリッカー
+				DisplayName: 惨めな熱狂
+			}
+
+			DaedalusClicker: {
+				DisplayNameLegecy: ダイダロスクリッカー
+				DisplayName: スタースパークポインター
+			}
+
+			BrimstoneClicker: {
+				DisplayNameLegecy: ブリムストーンクリッカー
+				DisplayName: イグニッククリッカー
+			}
+
+			EarthenClicker: {
+				DisplayNameLegecy: 土製のクリッカー
+				DisplayName: 鉱石プレス
+			}
+
+			AquaticClicker: {
+				DisplayNameLegecy: アクアティッククリッカー
+				DisplayName: 漂白された下顎
+			}
+
+			CryoClicker: {
+				DisplayNameLegecy: クライオクリッカー
+				DisplayName: ボレアル・グラスプ
+			}
+
+			Clickerfin: {
+				DisplayName: クリッカーフィン
+			}
+
+			GooClicker: {
+				DisplayNameLegecy: グークリッカー
+				DisplayName: ブロブ・コマンダー
+			}
+
+			AeroClicker: {
+				DisplayNameLegecy: エアロクリッカー
+				DisplayName: スカイポイント
+			}
+
+			FleshyClicker: {
+				DisplayNameLegecy: 肉付きクリッカー
+				DisplayName: 中手骨
+			}
+
+			RottenClicker: {
+				DisplayNameLegecy: ロッテンクリッカー
+				DisplayName: ジェットブラック
+			}
+
+			BubbleClicker: {
+				DisplayName: 泡ポーカー
+			}
+
+			MushyClicker: {
+				DisplayNameLegecy: ムッシークリッカー
+				DisplayName: 真菌クラスプ
+			}
+
+			SeaRemainClicker: {
+				DisplayNameLegecy: 海の残留クリッカー
+				DisplayName: パールクラッチャー
+			}
+
+			ScourgeClicker: {
+				DisplayNameLegecy: スカージクリッカー
+				DisplayName: 放置された下顎骨
+			}
+
+			WulfrumClicker: {
+				DisplayNameLegecy: ウルフラムクリッカー
+				DisplayName: ウルフラム プレス装置
+			}
+		}
+	}
+
+	Armor: {
+		Vanity: {
+			SilvaCapsuit: {
+				Tooltip: ""
+				DisplayName: シルバ・カプスーツ
+			}
+
+			ReaverCapsuit: {
+				Tooltip: ""
+				DisplayName: リーバー・カプスーツ
+			}
+		}
+
+		Capsuit: {
+			AuricTeslaPlusRadarCapsuit: {
+				SetBonus:
+					'''
+					クリッカー・インタージェラクティック、ブラッドフレア、ゴッドスレイヤーのアーマー効果
+					'{Mods.CatalystMod.Keybinds.ToggleVisibility}'を押して、小惑星をより透明にする。
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージとクリティカル確率が30%増加
+					クリッカー半径が100%増加
+					クリック効果に必要なクリック回数が10%減少 
+					'''
+				DisplayName: オーリックテスラ ゲーマーマスク
+			}
+
+			AuricTeslaRadarCapsuit: {
+				SetBonus: クリッカータラゴン、ブラッドフレア、ゴッドスレイヤーの効果
+				Tooltip:
+					'''
+					クリッカーダメージとクリティカル確率が30%増加
+					クリッカー半径が100%増加
+					クリック効果に必要なクリック回数が10%減少 
+					'''
+				DisplayName: オーリックテスラ ゲーマーマスク
+			}
+
+			GodSlayerCapsuit: {
+				SetBonus:
+					'''
+					クリティカルが発動しない度、クリックのクリティカル確率が1%増加
+					ボーナスはクリティカルヒット後にリセットされる
+					クリティカルヒットを50回出すと、クリティカルヒットを保証するウルトラブーストを与える
+					ウルトラブーストには30秒のクールダウンがある
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージとクリティカル確率が14%増加
+					クリッカーの半径が45%増加
+					クリック効果に必要なクリック回数が10%減少 
+					'''
+				DisplayName: ゴッドスレイヤークローカー フード
+			}
+
+			BloodflareCrimeraCapsuit: {
+				SetBonus:
+					'''
+					クリムゾンアーマーと同等のライフ自然回復が大幅に増加
+					ライフが50%以下の敵は攻撃を受けるとハートを落とす。
+					この効果には5秒のクールダウンがある。
+					クリック効果に必要なクリック数を現在のライフに応じて減少させる。
+					最大で20%減少する
+					クリッカーウェポンで敵を殴ると体力回復時間が増加する。
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージとクリティカル確率が10%増加
+					クリッカーの半径が35%増加
+					'''
+				DisplayName: ブラッドフレア クリックメラスカル
+			}
+
+			TarragonCapsuit: {
+				SetBonus:
+					'''
+					ハートのピックアップ範囲が拡大
+					死亡時に敵がハートをドロップする確率が増加
+					クリッカー武器で敵を殴ると防御力が1、ダメージ軽減率が0.2%増加し、バフ時間が1秒延長される
+					最大で防御力50、ダメージ10%軽減、バフ時間20秒
+					攻撃を受けるとバフがリセットされ、クールダウンが10秒になり、ダメージを与える根を召喚する
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージが10%増加
+					クリッカーのクリティカル確率が5%増加
+					クリッカーの半径が25%増加
+					ダメージ軽減率5%増加
+					'''
+				DisplayName: タラゴンバイオマスク
+			}
+
+			IntergelacticCapsuit: {
+				SetBonus:
+					'''
+					小惑星の2つのリングであなたを囲み、そのダメージはあなたのステータスに比例する
+					'{Mods.CatalystMod.Keybinds.ToggleVisibility}'を押すと小惑星が透明になる
+					クリッカーウェポンを使ってベルトから小惑星を飛ば
+					小惑星は時間経過やクリッカー武器で再生させることができる
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージとクリティカル確率が15%増加
+					クリッカー半径が30%増加
+					'''
+				DisplayName: 銀河間スカウターマスク
+			}
+
+			HydrothermicCapsuit: {
+				SetBonus:
+					'''
+					ライフ50%以下でインフェルノ効果を発動する
+					攻撃を受けると炎が爆発する
+					クリッカーダメージ5%増加
+					クリッカーウェポンに当たるとハイドロサーミックボイルを与える
+					ハイドロサーミックボイルは時間経過で基本ダメージ50のDoTデバフである
+					クリッカー武器に当たるとデバフのDPSが5増加し、時間が0.1秒伸びる
+					最大でDPS500、時間20秒まで増加する
+					デバフは温熱デバフとして機能する
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージが12%増加
+					クリッカーのクリティカル確率が10%増加
+					クリッカーの半径が25%増加
+					'''
+				DisplayName: ハイドロサーミックヘッドセット
+			}
+
+			DaedalusCapsuit: {
+				SetBonus:
+					'''
+					15回クリックするごとに、空から稲妻が降ってくる。
+					クリッカーダメージが5%増加
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージが8%増加
+					クリッカーのクリティカル確率が7%増加
+					クリッカーの半径が25%増加
+					'''
+				DisplayName: ダイダロスバイザー
+			}
+
+			StatigelCapsuit: {
+				SetBonus:
+					'''
+					一撃で100以上のダメージを受けると、一定時間ダメージを受けなくなる
+					追加のジャンプとジャンプの高さが増加
+					ジャンプ速度が12%増加
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージが10%増加
+					クリッカーのクリティカル確率が7%増加
+					クリッカーの半径が25%増加
+					'''
+				DisplayName: スタティジェル ヘッドバンド
+			}
+
+			AerospecCapsuit: {
+				SetBonus:
+					'''
+					一撃で25以上のダメージを受けると、ホーミングの羽を広げて落下させる
+					より素早く落下できるようになり、落下ダメージが無効化される
+					クリッカーのクリティカル確率が5%増加
+					'''
+				Tooltip:
+					'''
+					クリッカーダメージが8%増加
+					クリッカー半径が15%増加
+					'''
+				DisplayName: エアロスペックキャップスーツ
+			}
+
+			VictideCapsuit: {
+				SetBonus:
+					'''
+					クリッカー半径が10%増加
+					液体に浸かっている間、HP+1.5/sのライフ自然回復とクリックダメーがジ10%増加
+					'''
+				Tooltip: クリッカーダメージが5%増加
+				DisplayName: ビクティドアネモナスマスク
+			}
+		}
+	}
+}
+
+ClickEffect: {
+	CurrentStrike: {
+		Description: 敵を貫くに弧を描く強力なイオン化粒子の流れを放つ
+		Name: 現行のストライク
+	}
+
+	VitalInfusion: {
+		Description: プレイヤーの隣に緑色のバイオニードルをチャージする。右クリックで針1本分の体力を25回復する
+		Name: バイタル注入
+	}
+
+	Electrofield: {
+		Description: ヒット時に持続する電磁フィールドを展開する
+		Name: 電界フィールド
+	}
+
+	DrillShot: {
+		Description: 敵に張り付くドリルを放つ
+		Name: ドリルショット
+	}
+
+	ScrapMissile: {
+		Description: 着弾すると粉々になるミサイルを上空からターゲットに撃ち込む
+		Name: スクラップミサイル
+	}
+
+	BurnOrBliss: {
+		Description: ノーマル、スパイシー、ホワイト・チョコレートのダメージが炸裂する
+		Name: 燃え尽きるか、至福の時か
+	}
+
+	DaedalusLightning: {
+		Description: 空からダイダロスの力を引き寄せる。（雷を起こす）
+		Name: ダイダロス・ライトニング
+	}
+
+	Mischief: {
+		Description: インベントリにある近くのクリッカー（いたずらを除く）のクリック効果を発動する小さなラットクリッカーを召喚する
+		Name: いたずら
+	}
+
+	ItzClick: {
+		Description: 非常に強力なスリップダメージデバフを与える
+		Name: イッツ・クリック
+	}
+
+	LecherousOrb: {
+		Description: 20のライフを消費して開始するが、生命力を蓄積するレシャスオーブを生成する
+		Name: レシャスオーブ
+	}
+
+	Exomination: {
+		Description: 破裂エネルギーによって、より大きな半径で爆発する
+		Name: 破裂
+	}
+
+	MiniExoTwins: {
+		Description: ミニ・アルテミスとミニ・アポロンを召喚し、カーソルの周囲を攻撃する
+		Name: オリンピック招致
+	}
+
+	Popstar: {
+		Description:マウスの位置に落ちるオメガスターが、3つの星のリングを放つ
+		Name: ポップスター
+	}
+
+	MiceCatalyst: {
+		Description:マウスの位置を追尾する弾を生成するカタリストの雲を召喚する
+		Name: マウス カタリスト
+	}
+
+	PhoenixWrath: {
+		Description: 不死鳥の怒りを呼び、辺りを炎で吹き飛ばす。ドラゴンの炎を与える
+		Name: 不死鳥の怒り
+	}
+
+	NuclearExplosion: {
+		Description: BOOM!
+		Name: 核爆発
+	}
+
+	Totality2: {
+		Description: 小型の日食を生み出し、大量のホーミング弾を繰り返し放つ
+		Name: スーパー・トータリティ
+	}
+
+	NightmareMagic: {
+		Description: ランダムなクリック効果を発動する
+		Name: ナイトメアマジック
+	}
+
+	Distort: {
+		Description: カーソル周囲の時空を歪め、クリックに反応して飛び交う貫通ナイフを召喚する
+		Name: 歪曲
+	}
+
+	NebulaStars: {
+		Description: 一定時間後に追尾する星のサークルを召喚する
+		Name: ネビュラスター
+	}
+
+	PhantasmalReach: {
+		Description: プレイヤーからカーソルの距離に応じてダメージが変化する。プレイヤーの位置では0.75倍、画面の端では1.75倍になります
+		Name: ファンタズムリーチ
+	}
+
+	BloodyKnives: {
+		Description: ナイフを作成し、命中すると動けなくなり、"燃える血"と"死の刻印"デバフを与える
+		Name: 血まみれのナイフ
+	}
+
+	Lifestealing: {
+		Description: 対象が"死の刻印"デバフの状態でクリックするとHPを2回復する
+		Name: ライフ吸収
+	}
+
+	StratusMoon: {
+		Description: 月を作り出し、カーソルの方向に向ける
+		Name: ストラトス・ムーン
+	}
+
+	GhastlyPortal: {
+		Description: クリックに反応してホーミングソウルを召喚する不気味なポータルを召喚する
+		Name: 彼方への呼びかけ
+	}
+
+	NovaSlimer: {
+		Description: ホーミングするノヴァスライムを召喚する
+		Name: ノヴァ・スライマー
+	}
+
+	Judgement: {
+		Description: 空から聖なる死の灰を降らせる
+		Name: ジャッジメント
+	}
+
+	TarragonThorns: {
+		Description: 8方向にとげが生える
+		Name: タラゴンのとげ
+	}
+
+	ProfanedInferno: {
+		Description: 聖なる閃光の爆発を生成し、3秒間聖なる炎を付与する
+		Name: 冒涜された地獄
+	}
+
+	RedLightning: {
+		Description: 空から4つの雷を降らせる
+		Name: 赤い稲妻
+	}
+
+	PlagueBees2: {
+		Description: ペストシーカーを大量に召喚し、疫病を蔓延させる
+		Name: 疫病蜂
+	}
+
+	ElementalAura: {
+		Description: 2秒間ダメージを与えるエレメンタルオーラを発生させる。1秒間"エレメンタルミックス"デバフを与える
+		Name: エレメンタルオーラ
+	}
+
+	TaurusFang: {
+		Description: 13本のホーミングするアリッド・ファングを生成し、敵を突き刺す
+		Name: タウルスの牙
+	}
+
+	BloodBlasts: {
+		Description: プレイヤーの近くに8つのブラッドブラスト弾を召喚し、画面全体に放つ
+		Name: ブラッドブラスト
+	}
+
+	Entropy: {
+		Description: カーソル位置で大きなメルドエネルギー爆発を起こす
+		Name: 頭部死亡
+	}
+
+	Stardust: {
+		Description: カーソルの周りに星くずを放つ
+		Name: スターダスト
+	}
+
+	StarRain: {
+		Description: マウスカーソルの位置に空から4つのアストラル星を放つ
+		Name: スターレイン
+	}
+
+	Eruption: {
+		Description: 爆発ダメージを与えるエリアを生み出す
+		Name: 噴火
+	}
+
+	PlagueBees: {
+		Description: ペストシーカーを大量に召喚し、疫病を蔓延させる
+		Name: 疫病蜂
+	}
+
+	StellarScythe: {
+		Description: マウスの位置によって速度の方向を変える鎌を生成する
+		Name: ステラサイス
+	}
+
+	AureusBlast: {
+		Description: カーソル位置から最も近い敵1体ごとにアウレウスブラストを放つ。クリッカー効果はシングルターゲットにも適応される
+		Name: アウレウス・ブラスト
+	}
+
+	CoolFlake: {
+		Description: スノーフレークのミニオンを生成する。同時に1つまでしか存在できない。既存のスノーフレークのライフタイムを更新する
+		Name: クールフレーク
+	}
+
+	AnahitasVoice: {
+		Description: 音符の輪を生み出す
+		Name: アナヒタの歌声
+	}
+
+	GreenInfection: {
+		Description: 敵を追尾する燃え上がる緑色の霊液の流れを{0}本放つ
+		Name: 緑の感染症
+	}
+
+	TerraAura: {
+		Description: 3秒間ダメージを与えるオーラを発生させる
+		Name: テラ・アウラ
+	}
+
+	ChaosFlame: {
+		Description: 小さなポータル状の炎を生成し、ブリムストンフレイム（硫黄の炎）を生み出す
+		Name: カオスフレーム
+	}
+
+	Crunch: {
+		Description: 最も近い敵に3秒間アーマークランチを与える
+		Name: クランチ
+	}
+
+	DaedalusCrystals: {
+		Description: ホーミングするダイダロスボルトを生成する
+		Name: ダイダロスクリスタル
+	}
+
+	CryoBomb: {
+		Description: カーソルの周りにクライオボムを生み出し、クリックすると破片が出る
+		Name: クライオボム
+	}
+
+	BrimstoneInferno: {
+		Description: 悪魔の紋章の形をした爆発を起こし、"燃える血"デバフを与える
+		Name: ブリムストーン・インフェルノ
+	}
+
+	GaussFlux: {
+		Description: 乱れた磁力を生み出す
+		Name: ガウス・フラックス
+	}
+
+	SlimePuppet: {
+		Description: スライムボールを作り、しばらくするとカーソルに向かってダッシュする
+		Name: スライムパペット
+	}
+
+	ReelIn: {
+		Description: クリッカーフィンを生きたまま召喚する。彼を倒すと10秒間クリックダメージが25%増加する
+		Name: リールイン
+	}
+
+	FeatherRain: {
+		Description: 爆発する羽を空からマウスの位置に落とす
+		Name: フェザーレイン
+	}
+
+	BrainExplosion: {
+		Description: 腐った脳の爆発を起こし、脳を腐らせる
+		Name:頭脳の爆発
+	}
+
+	BloodyExplosion: {
+		Description: 水しぶきのような爆発を起こし、"燃える血"デバフを与える
+		Name: 血しぶき
+	}
+
+	SulphurousBubbles: {
+		Description: 4～5個の泡を生成し、それらをクリックすることで"照射"デバフを与えるダメージエリアを生み出す
+		Name: 硫黄の泡
+	}
+
+	Mushy: {
+		Description: 2秒間"ムシャムシャ"バフを得る
+		Name: ムシャムシャ
+	}
+
+	SeaBubble: {
+		Description: 泡を1つ発生させ、ゆっくりと当たって飛んでいく
+		Name: 海の泡
+	}
+
+	Sandstorm: {
+		Description: 砂嵐のような爆発を起こす
+		Name: サンドストーム
+	}
+
+	BasicAutoclicker: {
+		Description: 毎秒7.5クリックの自動クリックを許可する。右クリックで切り替えられる
+		Name: 基本オートクリッカー
+	}
+}
+

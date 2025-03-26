@@ -1,0 +1,17 @@
+Configs: {
+	LifeSourcesLightConfig: {
+		EnableLifeFruitLight: {
+			Tooltip: ライフフルーツの照明を有効にする
+			Label: ライフフルーを光らせる
+
+		}
+
+		EnableHeartCrystalLight: {
+			Tooltip: ハートクリスタルの照明を有効にする
+			Label: ハートクリスタルを光らせる
+		}
+
+		DisplayName: 設定
+	}
+}
+

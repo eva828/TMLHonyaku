@@ -1,0 +1,18 @@
+Items: {
+	PetrifiedVoodooDoll: {
+		DisplayName: 石化したブードゥー人形
+		Tooltip: ""
+	}
+}
+
+Configs: {
+	ServerConfig: {
+		guideDollUseAnvil: {
+			Tooltip: ""
+			Label: "[i:35] ガイドのブードゥー人形の作成に金床が必要"
+		}
+
+		DisplayName: サーバー設定
+	}
+}
+

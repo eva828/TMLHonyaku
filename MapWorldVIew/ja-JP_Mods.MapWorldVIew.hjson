@@ -1,0 +1,48 @@
+World: ワールド
+
+Map: マップ
+
+LightingMode: ライティングモード
+
+Keybinds: {
+	ChangeLightMode: {
+		DisplayName: ライトモードの変更
+	}
+}
+
+Configs: {
+	MapWorldVIewConfig: {
+		MapMinimum: {
+			Label: 最小値
+			Tooltip: Better Zoomがロードされていない場合、値が10未満では機能しません
+		}
+
+		MapMaximum: {
+			Label: 最大値
+			Tooltip: Better Zoomがロードされていない場合、値が50より大きいと機能しません
+		}
+
+		Headers: {
+			ZoomThreshold: ズームしきい値
+			Fairplay: フェアプレイ
+		}
+
+		UpdateMapWhenZoomedLightingFix: {
+			Tooltip: ""
+			Label: ズーム時にマップを更新（ライティングの修正）
+		}
+
+		UpdateMapWhenZoomedInMultiplayer: {
+			Tooltip: ""
+			Label: マルチプレイでズームしたときにマップを更新する
+		}
+
+		UpdateMapWhenZoomed: {
+			Tooltip: ""
+			Label: ズーム時に地図を更新する
+		}
+
+		DisplayName: 設定
+	}
+}
+

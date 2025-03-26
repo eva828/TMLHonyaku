@@ -1,0 +1,68 @@
+Settings: {
+	InputToggle: {
+		Precise: {
+			Tooltip: 精密な入力
+		}
+
+		Slider: {
+			Tooltip: スライダー
+		}
+	}
+
+	Reset: {
+		Tooltip: クリックして100％にリセット
+	}
+}
+
+Configs: {
+	Config: {
+		maxUIScale: {
+			Label: 最大UIスケール
+			Tooltip:
+				'''
+				設定できるUIスケールの最大値を変更します。
+				リロードが必要なので、MODメニューで設定する必要があります。
+				'''
+		}
+
+		minUIScale: {
+			Label: 最小UIスケール
+			Tooltip:
+				'''
+				設定できるUIスケールの最小値を変更します。
+				リロードが必要なので、MODメニューで設定する必要があります。
+				'''
+		}
+
+		minZoom: {
+			Label: 最小ズーム
+			Tooltip:
+				'''
+				設定できるズームの最小値を変更します。
+				リロードが必要なので、MODメニューで設定する必要があります。
+				'''
+		}
+
+		maxZoom: {
+			Label: 最大ズーム
+			Tooltip:
+				'''
+				設定できるズームの最大値を変更します。
+				リロードが必要なので、MODメニューで設定する必要があります。
+				'''
+		}
+
+		cursorScale: {
+			Label: カーソルスケール
+			Tooltip: カーソルの大きさを変更します
+		}
+
+		scaleBackground: {
+			Label: 背景スケール
+			Tooltip: 背景もズームするかどうかを切り替えます
+		}
+
+		DisplayName: 設定
+	}
+}
+

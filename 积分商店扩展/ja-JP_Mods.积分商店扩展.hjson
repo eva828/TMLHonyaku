@@ -1,0 +1,55 @@
+UnlockCondition: {
+	EitherCondition: {
+		DisplayName: パーフォレーターまたはハイブマインド
+		Description: パーフォレーターかハイブマインド撃破後にアンロック
+	}
+
+	DayTime: {
+		DisplayName: 昼間
+		Description: 昼間にアンロック
+	}
+
+	DownedDesertScourge: {
+		DisplayName: デザートスカージ
+		Description: デザートスカージ撃破後にアンロック
+	}
+
+	DownedMoonLord: {
+		DisplayName: ムーンロード
+		Description: ムーンロード撃破後にアンロック
+	}
+
+	DownedSkeletron: {
+		DisplayName: スケルトロン
+		Description: スケルトロン撃破後にアンロック
+	}
+
+	DownedPolterghast: {
+		DisplayName: ポルターガスト
+		Description: ポルターガスト撃破後にアンロック
+	}
+
+	DownedProvidence: {
+		DisplayName: プロビデンス
+		Description: プロビデンス撃破後にアンロック
+	}
+
+	DownedAstrumAureus: {
+		DisplayName: アストラルアウレウス
+		Description: アストラルアウレウス撃破後にアンロック
+	}
+
+	DownedAstrumDeus: {
+		DisplayName: アストラムデウス
+		Description: アストラムデウス撃破後にアンロック
+	}
+}
+
+Environments: {
+	SunkenSea: 沈没海
+	SulphurousSea: 硫黄の海
+	Abyss: アビス
+	BrimstoneCrags: ブリムストーンクラッグ
+	AstralInfection: アストラル
+}
+

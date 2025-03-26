@@ -1,0 +1,24 @@
+Projectiles: {
+	RarePet: {
+		DisplayName: 導きの妖精
+	}
+}
+
+Items: {
+	RarePetItem: {
+		Tooltip:
+			'''
+			珍しい生き物が近くにいるとき、導きの妖精を召喚し、少量の光で明るく照らす
+			妖精は近くにいると珍しい生き物の方へ飛んでいき、あなたが到着するのを待つ
+			'''
+		DisplayName: エンチャントリーフ
+	}
+}
+
+Buffs: {
+	RarePetBuff: {
+		Description: 妖精が珍しい生き物を見つけてくれる
+		DisplayName: 導きの妖精
+	}
+}
+

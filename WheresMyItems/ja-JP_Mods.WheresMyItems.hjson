@@ -1,0 +1,14 @@
+Keybinds: {
+	ShowSearchInterface: {
+		DisplayName: 検索欄を表示
+	}
+}
+
+ClickToSwitchPeekMode: クリックするとピークモードが切り替わります： {0}
+
+ShowHovered: ホバリング表示
+
+ShowAll: 全て見る
+
+TypeHereToSearch: ここに入力して検索
+
