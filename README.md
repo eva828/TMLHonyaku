@@ -6,7 +6,7 @@
 [External Localizer](https://steamcommunity.com/sharedfiles/filedetails/?id=2986383249)を使って読み込ませるとテラリアのModを日本語化できます。
 
 
-翻訳方法の解説は[tModLoader wiki](https://github.com/tModLoader/tModLoader/wiki/Localization)や[ブログ](https://eva828game.hatenablog.com/entry/tmodloader/external-localizer)を参考にしてください。
+翻訳方法の解説は[本リポジトリのwiki](https://github.com/ExternalLocalizer/TMLHonyaku/wiki)や[tModLoader wiki](https://github.com/tModLoader/tModLoader/wiki/Localization)を参考にしてください。
 
 
 terrariaの翻訳は[synctam様による翻訳](https://synctam.blogspot.com/2017/05/terraria_20.html)をもとにしています。
@@ -16,6 +16,7 @@ terrariaの翻訳は[synctam様による翻訳](https://synctam.blogspot.com/201
 現在の対応Modは[TranslatedMods.csv](https://github.com/External-Localizer/TMLHonyaku/blob/main/TranslatedMods.csv)にまとめています。
 
 ## PRするときのお願い
+- [本リポジトリのwiki](https://github.com/ExternalLocalizer/TMLHonyaku/wiki)を確認してください。
 - hjsonを含むフォルダの名前はModの内部名にしてください。(`Mods.XXX.Items...`のうちXXXの部分)
 - 新規翻訳を追加するときは[TranslatedMods.csv](https://github.com/External-Localizer/TMLHonyaku/blob/main/TranslatedMods.csv)に、情報を追加してください。`display_name`が昇順になるようにしてください。
 - 可能であれば`ja-JP_Mods.XXX.hjson`のようにファイル名にMod名が含まれる書き方にしてください。External Localizerによるファイルの読み込み時の効率が上がります。
