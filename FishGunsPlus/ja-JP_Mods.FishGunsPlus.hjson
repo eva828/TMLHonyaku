@@ -22,7 +22,7 @@ Goldy: {
 		Tooltip:
 		'''
 		40%の確率で弾薬を消費しない
-		偉大さへの第一歩！
+		「偉大さへの第一歩！」
 		'''
 }
 
@@ -31,7 +31,7 @@ Luminous: {
 		Tooltip:
 		'''
 		60%の確率で弾薬を消費しない
-		天を貫け！
+		「天を貫け！」
 		'''
 }
 
@@ -40,7 +40,7 @@ SandShredder: {
 		Tooltip:
 		'''
 		55%の確率で弾薬を消費しない
-		ここに砂のブロックはない…
+		「ここに砂のブロックはない…」
 		'''
 }
 
@@ -68,18 +68,18 @@ TheDreadnaut: {
 		'''
 		50%の確率で弾薬を消費しない
 		マスケットの弾丸を血に変換する
-		銅の匂いがする…
+		「銅の匂いがする…」
 		'''
 }
 
 BlastingShark: {
 	DisplayName: ブラストシャーク
-		Tooltip: なんてこった、エビだ！
+		Tooltip: 「なんてこった、エビだ！」
 }
 
 VileSpitter: {
 	DisplayName: バイルスピッター
-		Tooltip: うわ、ふにゃふにゃ
+		Tooltip: 「うわ、ふにゃふにゃ」
 }
 
 Genesis: {
@@ -93,7 +93,7 @@ Genesis: {
 
 ThePerforator: {
 	DisplayName: ザ・パーフォレーター
-		Tooltip: 血が腕を伝って流れ落ちる
+		Tooltip:「 血が腕を伝って流れ落ちる」
 }
 
 StingerFlinger: {
@@ -110,13 +110,13 @@ Voyager: {
 		Tooltip:
 		'''
 		60%の確率で弾薬を消費しない
-		クジラのように楽しんでるかい？！
+		「クジラのように楽しんでるかい！？」
 		'''
 }
 
 BoneRattler: {
 	DisplayName: ボーンラトラー
-		Tooltip: あぁ、腕に巻きついてくる
+		Tooltip: 「あぁ、腕に巻きついてくる」
 }
 
 FlarefinThrower: {
@@ -124,7 +124,7 @@ FlarefinThrower: {
 		Tooltip:
 		'''
 		70%の確率でジェルを消費しない
-		火傷に気をつけて！
+		「火傷に気をつけて！」
 		'''
 }
 
@@ -142,7 +142,7 @@ Leviathan: {
 		Tooltip:
 		'''
 		70%の確率でジェルを消費しない
-		彼らはこの火力に備えていない！
+		「彼らはこの火力に備えていない」！
 		'''
 }
 
@@ -151,7 +151,7 @@ Bobshot: {
 		Tooltip:
 		'''
 		マスケットの弾丸をバウンシーボビン弾に変換する
-		ボビンしながら進む
+		「ボビンしながら進む」
 		'''
 }
 
@@ -171,7 +171,7 @@ ThePan: {
 
 GoldySupreme: {
 	DisplayName: ゴールディスプリーム
-		Tooltip: すべての人が苦しむことになるだろう！
+		Tooltip: 「すべての人が苦しむことになるだろう！」
 }
 
 StormSpreader: {
@@ -189,7 +189,7 @@ Ribbongun: {
 		Tooltip:
 		'''
 		50%の確率で弾薬を消費しない
-		精度は低いが実用的
+		「精度は低いが実用的だ」
 		'''
 }
 
@@ -207,7 +207,7 @@ MutantNightfish: {
 		Tooltip:
 		'''
 		50%の確率で弾薬を消費しない
-		かすかに音を立てている
+		「かすかに音を立てている」
 		'''
 }
 
@@ -226,7 +226,7 @@ TrueLightMachineshark: {
 		Tooltip:
 		'''
 		55%の確率で弾薬を消費しない
-		光らせろ！
+		「輝け！」
 		'''
 }
 
@@ -235,7 +235,7 @@ Gaia: {
 		Tooltip:
 		'''
 		50%の確率で弾薬を消費しない
-		大地の力に満ち溢れている！
+		「大地の力に満ち溢れている！」
 		'''
 }
 
@@ -253,13 +253,13 @@ DukeChainron: {
 		Tooltip:
 		'''
 		55%の確率で弾薬を消費しない
-		ベーコンの香りがする
+		「ベーコンの香りがする...」
 		'''
 }
 
 DoubleBarrelCod: {
 	DisplayName: ダブルバレルコッド
-		Tooltip: フロッグを撃つのに最適！
+		Tooltip: 「フロッグを撃つのに最適！」
 }
 
 MiniSharkron: {
@@ -272,7 +272,7 @@ WokeChainron: {
 		Tooltip:
 		'''
 		55%の確率で弾薬を消費しない
-		カリカリのベーコンの香りがする
+		「カリカリのベーコンの香りがする...」
 		'''
 }
 
@@ -288,7 +288,7 @@ Shasta: {
 
 Toxicrap: {
 	DisplayName: トキシックラップ
-		Tooltip: 毒のバブルを噴射する
+		Tooltip: 「毒のバブルを噴射する」
 }
 
 FishboneBullet: {
@@ -298,12 +298,12 @@ FishboneBullet: {
 
 GnoseHelmet: {
 	DisplayName: グノーシスヘルメット
-		Tooltip: グノーシスの変装にぴったり！一体どうやって手に入れたんだ？
+		Tooltip: 「グノーシスの変装にぴったり！一体どうやって手に入れたんだ？」
 }
 
 GnoseClaws: {
 	DisplayName: グノーシスのツメ
-		Tooltip: グノーシスの変装にぴったり！一体どうやって手に入れたんだ？
+		Tooltip: 「グノーシスの変装にぴったり！一体どうやって手に入れたんだ？」
 }
 
 SpectreBullet: {
@@ -322,12 +322,12 @@ Spectra: {
 
 Crapshot: {
 	DisplayName: クラップショット
-		Tooltip: ビューン！ロック弾だ！
+		Tooltip: 「ビューン！ロック弾だ！」
 }
 
 BassRifle: {
 	DisplayName: バスライフル
-		Tooltip: 誰しも最初はどこかから始まる
+		Tooltip: 「誰しも最初はここかから始まる」
 }
 
 ShroomBullet: {
@@ -337,7 +337,7 @@ ShroomBullet: {
 
 Tentazooka: {
 	DisplayName: テンタズーカ
-		Tooltip: テンタミサイル？そんなの聞いたことないよ！
+		Tooltip: 「テンタミサイル？そんなの聞いたことないよ！」
 }
 
 YellowFrogfish: {
@@ -346,7 +346,7 @@ YellowFrogfish: {
 		'''
 		グレネードランチャーの変異体
 		遅いが強力な威力を持つ  
-		自爆には気をつけて！
+		「自爆には気をつけて！」
 		'''
 }
 
@@ -356,7 +356,7 @@ RedFrogfish: {
 		'''
 		ロケットランチャーの変異体
 		遅いが強力な威力を持つ  
-		自爆には気をつけて！
+		「自爆には気をつけて！」
 		'''
 }
 
@@ -395,13 +395,13 @@ Crater: {
 		Tooltip:
 		'''
 		セレスティアルのクレートを発射する  
-		撃つには最高の日だ！
+		「撃つには最高の日だ！」
 		'''
 }
 
 Bubbler: {
 	DisplayName: バブラー
-		Tooltip: あふれ出ている！
+		Tooltip: 「あふれ出ている！」
 }
 
 FCIBurn: {
@@ -409,7 +409,7 @@ FCIBurn: {
 		Tooltip:
 		'''
 		70%の確率でジェルを消費しない
-		吹雪で燃やしてやれ！
+		「吹雪で燃やしてやれ！」
 		'''
 }
 
@@ -418,7 +418,7 @@ Spitfire: {
 		Tooltip:
 		'''
 		70%の確率でジェルを消費しない
-		この炎は水中でも機能する！
+		「この炎は水中でも機能する！」
 		'''
 }
 
@@ -427,7 +427,7 @@ Goober: {
 		Tooltip:
 		'''
 		マスケットの弾丸を緑のレーザーに変える
-		焼き魚の匂いがする
+		「焼き魚の匂いがする...」
 		'''
 }
 
@@ -437,7 +437,7 @@ Doober: {
 		'''
 		40%の確率で弾薬を消費しない
 		マスケットの弾丸をメテオショットに変える
-		温かい感じがする
+		「温かい感じがする」
 		'''
 }
 
@@ -450,8 +450,8 @@ GoldenBlaze: {
 	DisplayName: ゴールデンブレイズ
 		Tooltip:
 		'''
-70%の確率でジェルを消費しない
-Through the Fire and Piss!
+		70%の確率でジェルを消費しない
+		「火と小便を乗り越えて！」
 		'''
 }
 

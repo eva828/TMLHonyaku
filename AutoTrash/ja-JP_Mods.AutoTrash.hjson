@@ -2,23 +2,23 @@ NoValue: 価値なし
 
 TrashAllItemsWithNoValue: 価値のないものはすべてゴミ箱へ
 
-ClickToRemove: クリックして削除
+ClickToRemove: クリックして削除します
 
 YouNeedToHoldAltAndClickToClearTheList: リストをクリアするには、altを押しながらクリックする必要があります
 
-NotEnoughMoneyToReclaimAutoSellItem: 自動売却アイテムを取り戻すためのコインが足りない
+NotEnoughMoneyToReclaimAutoSellItem: 自動売却アイテムを取り戻すためのコインが足りません
 
-ClickToRemoveFromAutoSellList: クリックして自動売却リストから削除する
+ClickToRemoveFromAutoSellList: クリックして自動売却リストから削除します
 
-ClickToRemoveFromAutoTrashList: クリックして自動破棄リストから削除する
+ClickToRemoveFromAutoTrashList: クリックして自動破棄リストから削除します
 
 PlaceItemToAddToAutoSellList: 自動売却リストに追加するアイテムを置く
 
 PlaceItemToAddToAutoTrashList: 自動破棄リストに追加するアイテムを置く
 
-EnableAutoSellToAutomaticallySellItemsOnPickup: 自動売却を有効にして、選択時に商品を自動的に売却する
+EnableAutoSellToAutomaticallySellItemsOnPickup: 自動売却を有効にし、拾った際に自動的に売却します
 
-EnableAutoTrashToAutomaticallyTrashItemsOnPickup: 自動破棄を有効にして、拾う時に自動的にゴミ箱に捨てる
+EnableAutoTrashToAutomaticallyTrashItemsOnPickup: 自動破棄を有効にし、拾った際に自動的にゴミ箱へ破棄します
 
 AutoSellEnabled: 自動売却が有効： {0} {^0:アイテム}
 
@@ -32,9 +32,9 @@ ClickToViewAutoSellList: クリックして自動売却リストを表示
 
 ClickToViewAutoTrashList: クリックして自動破棄リストを表示
 
-HoldAltAndClickToClearAutoSellList: Altを押しながらクリックして自動売却リストを消去する
+HoldAltAndClickToClearAutoSellList: Altを押しながらクリックして自動売却リストから消去します
 
-HoldAltAndClickToClearAutoTrashList: Altを押しながらクリックして自動破棄リストを消去する
+HoldAltAndClickToClearAutoTrashList: Altを押しながらクリックして自動破棄リストから消去します
 
 RecipeBrowserFilterNotAutoTrashed: Not Auto-Trashed
 
@@ -43,7 +43,7 @@ Configs: {
 		DisplayName: AutoTrash サーバー設定
 
 		SellValue: {
-			Tooltip: アイテムの売却価格をカスタマイズする。商人に売却時のデフォルト価格は20%、MODのデフォルト売却価格は~15%。
+			Tooltip: アイテムの売却価格をカスタマイズします。商人に売却時のデフォルト価格は20%、MODのデフォルト売却価格は～15%
 			Label: 自動売却の価格の割合 %
 		}
 	}
@@ -52,18 +52,18 @@ Configs: {
 		DisplayName: AutoTrash クライアント設定
 
 		SlotPositionX: {
-			Tooltip: 1番目のホットバーから左から右に数えたスロットの位置に、AutoTrashスロットのX座標を設定する
+			Tooltip: 1番目のホットバーから左から右に数えたスロットの位置に、AutoTrashスロットのX座標を設定します
 			Label: AutoTrashスロットのX座標
 		}
 
 		SlotPositionY: {
-			Tooltip: 一番上のホットバーから上から下に数えたスロットの位置に、AutoTrashスロットのY座標を設定する
+			Tooltip: 一番上のホットバーから上から下に数えたスロットの位置に、AutoTrashスロットのY座標を設定します
 			Label: AutoTrashスロットのY座標
 		}
 
 		SellInstead: {
-			Tooltip: 拾得時に破棄する代わりに売却する
-			Label: 代わりに売る
+			Tooltip: 拾得時に破棄する代わりに売却します
+			Label: 代わりに売却
 		}
 
 		PreventSpawn: {
@@ -75,7 +75,7 @@ Configs: {
 
 				サーバーでは動作しません
 				'''
-			Label: 自動廃棄リストに含まれるアイテムを直ちに消滅させる
+			Label: 自動廃棄リストに含まれるアイテムを直ちに消滅
 		}
 	}
 }

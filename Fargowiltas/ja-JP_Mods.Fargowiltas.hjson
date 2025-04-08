@@ -12,7 +12,7 @@ Biome: {
 
 Configs: {
 	FargoServerConfig: {
-		DisplayName: サーバー側コンフィグ
+		DisplayName: サーバー設定
 
 		Mutant: {
 			Label: "[i:Fargowiltas/MutantMask] [c/ffffff:ミュータントがスポーン可能]"
@@ -40,7 +40,7 @@ Configs: {
 		}
 
 		CatchNPCs: {
-			Label: "[i:267] タウンNPCを虫取り網で捕まえる"
+			Label: "[i:267] タウンNPCを虫取り網で確保可能"
 			Tooltip: ""
 		}
 
@@ -195,11 +195,11 @@ Configs: {
 
 		Headers: {
 			TownNPCs: タウンNPC
-			Seasons: Seasons
+			Seasons: 季節
 			Seeds: シード値
-			Unlimited: Unlimited
-			StatMultipliers: Stat Multipliers
-			Misc: Miscellaneous
+			Unlimited: 無限化
+			StatMultipliers: ステータス倍率
+			Misc: その他
 		}
 
 		EnemyHealth: {
@@ -234,7 +234,7 @@ Configs: {
 	}
 
 	FargoClientConfig: {
-		DisplayName: クライアント側コンフィグ
+		DisplayName: クライアント設定
 
 		ExpandedTooltips: {
 			Label: "[i:171] 詳細ツールチップ（Mutant Modの変更点を表示）"
@@ -243,7 +243,7 @@ Configs: {
 
 		ExactTooltips: {
 			Label: "[i:171] 正確なアイテム速度とノックバックを表示"
-			Tooltip: アイテムの速度は使用時間で表示され、大きいほど遅くなります。
+			Tooltip: アイテムの速度は使用時間で表示され、大きいほど遅くなります
 		}
 
 		HideUnlimitedBuffs: {
@@ -253,12 +253,12 @@ Configs: {
 
 		DoubleTapDashDisabled: {
 			Label: "[i:3097] ダッシュのダブルタップ無効化"
-			Tooltip: ダブルタップによるダッシュの発生を無効化します。この設定に関係なく「ダッシュキー」は使用可能です。
+			Tooltip: ダブルタップによるダッシュの発生を無効化します。この設定に関係なく「ダッシュキー」は使用可能です
 		}
 
 		DoubleTapSetBonusDisabled: {
 			Label: "[i:3776] セットボーナスのダブルタップ無効化"
-			Tooltip: ダブルタップによるセットボーナス効果の発動を無効化します。この設定に関係なく「セットボーナスキー」は使用可能です。
+			Tooltip: ダブルタップによるセットボーナス効果の発動を無効化します。この設定に関係なく「セットボーナスキー」は使用可能です
 		}
 
 		DebuffOpacity: {
@@ -273,7 +273,7 @@ Configs: {
 
 		TransparentFriendlyProjectiles: {
 			Label: "[i:1309] 味方の弾や魔法などの発射物を半透明にする"
-			Tooltip: バニラのクオリティ設定を中または低に設定すると最適に動作します。
+			Tooltip: バニラのクオリティ設定を中または低に設定すると最適に動作します
 		}
 
 		MultiplayerDeathSpectate: {
@@ -841,7 +841,7 @@ Items: {
 		Tooltip:
 			'''
 			左クリックでライフクリスタル、またはライフフルーツの量を1減らす
-			両方が0の場合、最大ヘルスを20減少させ、最小20まで減少させる
+			両方が0の場合、最大ライフを20減少させ、最小20まで減少させる
 			右クリックで、この効果を1回だけ戻すことができる
 			'''
 	}

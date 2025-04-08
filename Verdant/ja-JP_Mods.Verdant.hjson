@@ -1,15 +1,15 @@
 Configs: {
 	HeadLabel: Verdant 設定
-	EnableSteamEffectLabel: "[i:3365] スチーム効果を有効にする"
-	EnableSteamEffectTooltip: 地下のヴァーダント内にいるときにスチームオーバーレイを有効にします。
-	EnableForeOrBackgroundObjectsLabel: "[i:933] 前景/背景オブジェクトを有効にする"
-	EnableForeOrBackgroundObjectsTooltip: 装飾オブジェクトが地表の背景や前景にどこにでも現れるようにします。
+	EnableSteamEffectLabel: "[i:3365] スチーム効果を有効化"
+	EnableSteamEffectTooltip: 地下のヴァーダント内にいるときにスチームオーバーレイを有効化。
+	EnableForeOrBackgroundObjectsLabel: "[i:933] 前景/背景オブジェクトを有効化"
+	EnableForeOrBackgroundObjectsTooltip: 装飾オブジェクトが地表の背景や前景にどこにでも現れるようにします
 	EnableCustomWaterfallsLabel: "[i:2169] カスタム滝を有効にする"
-	EnableCustomWaterfallsTooltip: タイルからしだれ柳のような滝を出現させることを可能にします。
+	EnableCustomWaterfallsTooltip: タイルからしだれ柳のような滝を出現させることを可能にします
 	CustomDialogueSystemLabel: "[i:320] カスタムダイアログシステム"
-	CustomDialogueSystemTooltip: アポテオシスのカスタムダイアログシステムを使用できるようにします。オフにすると、ただのチャットが使用されます。
+	CustomDialogueSystemTooltip: アポテオシスのカスタムダイアログシステムを使用できるようにします。オフにすると、ただのチャットが使用されます
 	FancyBookUILabel: "[i:4065] ファンシーな本のUI"
-	FancyBookUITooltip: 本のUIをユニークなものに変更する。
+	FancyBookUITooltip: 本のUIをユニークなものに変更します
 
 	VerdantClientConfig: {
 		DisplayName: "{$Mods.Verdant.Configs.HeadLabel}"
@@ -36,12 +36,12 @@ Configs: {
 
 		JungleSpawn: {
 			Label: "[i:620] ジャングルのスポーン"
-			Tooltip: ヴァーダントがジャングルにしかスポーンしないようにします。もしこれが問題であれば、ほとんどのMODバイオームを上書きする可能性が低くなります。
+			Tooltip: ヴァーダントがジャングルにしかスポーンしないようにします。もしこれが問題であれば、ほとんどのMODバイオームを上書きする可能性が低くなります
 			}
 
 		DialogueSpeed: {
 			Label: "[i:4485] ダイアログ速度"
-			Tooltip: すべての画面テキストのダイアログ速度を上げたり下げたりできます。
+			Tooltip: すべての画面テキストのダイアログ速度を上げたり下げたりできます
 		}
 	}
 }
@@ -1298,7 +1298,7 @@ Items: {
 		DisplayName: ライトブルーム
 		Tooltip:
 			'''
-			光の中でライフ回復が増加
+			光の中でライフ自然回復が増進
 			光が強いほど増加量が大きくなる
 			'''
 	}

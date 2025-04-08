@@ -68,7 +68,7 @@ Buffs: {
 
 	StarstrikinglySatiated: {
 		DisplayName: 星の飽食
-		Description: すべてのステータスが劇的に向上し、ライフリジェネが上昇する
+		Description: すべてのステータスが劇的に向上し、ライフ自然回復が増進する
 	}
 
 	Glaciated: {

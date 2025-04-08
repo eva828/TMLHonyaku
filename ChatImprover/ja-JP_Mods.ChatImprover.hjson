@@ -3,23 +3,23 @@ Configs: {
 		DisplayName: 設定
 
 		isMouseScrollingEnabled: {
-			Label: チャットでのマウススクロールを許可する
-			Tooltip: マウススクロールでチャットを移動する。
+			Label: チャットでのマウススクロールを許可
+			Tooltip: マウススクロールでチャットを移動できます
 		}
 
 		isCaretMovable: {
-			Label: テキスト入力中の入力位置移動を許可する
-			Tooltip: テキスト入力中に入力位置を左右に移動させ、その位置から新たにテキストを入力できるようにする。
+			Label: テキスト入力中の入力位置移動を許可
+			Tooltip: テキスト入力中に入力位置を左右に移動させ、その位置から新たにテキストを入力できます
 		}
 
 		isPageNavigationEnabled: {
 			Label: 矢印キーによるページ移動
-			Tooltip: 矢印キーを使ってページを移動する。（例：10行スクロールする）
+			Tooltip: 矢印キーを使ってページを移動します（例：10行スクロールする）
 		}
 
 		isImeDeleteFixEnabled: {
 			Label: IME削除のバグを修正
-			Tooltip: インプットメソッドエディタ（IME）の候補ボックスと入力したテキストが同時に削除される問題を修正する。
+			Tooltip: インプットメソッドエディタ（IME）の候補ボックスと入力したテキストが同時に削除される問題を修正します
 		}
 
 		RightSymbol: {

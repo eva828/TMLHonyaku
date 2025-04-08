@@ -5,7 +5,7 @@ ActiveSkills: {
 			'''
 			装甲モードと迅速モードを切り替え可能
 			装甲モード：防御力+15、ダメージ軽減率+15%、被弾時にリーヴァーの怒りを得て棘を召喚する
-			迅速モード：ライフ再生速度が大幅に増加、飛行時間と速度+10%、ダッシュのクールダウン短縮、フックの速度上昇
+			迅速モード：ライフ自然回復が大幅に増加、飛行時間と速度+10%、ダッシュのクールダウン短縮、フックの速度上昇
 			'''
 	}
 
@@ -43,7 +43,7 @@ Conditions: {
 }
 
 Configs.CalDLCConfig: {
-	DisplayName: Calamityコンフィング
+	DisplayName: Calamity 設定
 
 	Headers: {
 		Modes: モード
@@ -54,7 +54,7 @@ Configs.CalDLCConfig: {
 		Label: エタニティモードでは召喚アイテムが消費型になる
 		Tooltip:
 			'''
-			バニラおよびCalamityの召喚アイテムを消費型に変更し、Calamity側の非消費化の仕様を上書きします。
+			バニラおよびCalamityの召喚アイテムを消費型に変更し、Calamity側の非消費化の仕様を上書きします
 			この変更は、以下の機能との整合性のために存在します
 			・エタニティモードでのボス戦時に召喚アイテムが返還される仕組み（実質的に非消費と同等）
 			・ミュータントNPC
@@ -66,7 +66,7 @@ Configs.CalDLCConfig: {
 		Label: エタニティモードのボスAI(挙動)を適用する
 		Tooltip:
 			'''
-			有効：エタニティモードの挙動を優先します。一部のCalamityボスにはエタニティ専用のAIが適用されます。
+			有効：エタニティモードの挙動を優先します。一部のCalamityボスにはエタニティ専用のAIが適用されます
 			無効：CalamityのボスAIを使用します
 			'''
 	}
@@ -75,10 +75,10 @@ Configs.CalDLCConfig: {
 		Label: InfernumモードがエタニティAIを無効化
 		Tooltip: 
 			'''
-			この設定は、Infernum MODが有効なときのみ関係があります。
-			注意：Infernumは互換性がありません。この設定に関わらず、不具合が発生する可能性があります。
-			有効：InfernumモードはエタニティAIを完全に無効化します。
-			無効：Infernumモード中でもエタニティAIは有効になりますが、「Calamityよりエタニティ優先」の場合はInfernum側のボスAIが優先されます。
+			この設定は、Infernum MODが有効なときのみ関係があります
+			注意：Infernumは互換性がありません。この設定に関わらず、不具合が発生する可能性があります
+			有効：InfernumモードはエタニティAIを完全に無効化します
+			無効：Infernumモード中でもエタニティAIは有効になりますが、「Calamityよりエタニティ優先」の場合はInfernum側のボスAIが優先されます
 			'''
 	}
 
@@ -515,7 +515,7 @@ Items: {
 			[i:FargowiltasCrossmod/HydrothermicEnchant] 攻撃すると熱が蓄積し、最大の状態で攻撃を止めるかダメージを受けると放熱する
 			[i:FargowiltasCrossmod/HydrothermicEnchant] 放熱時にリーヴァーの怒りバフを得て、最大3秒間混沌のフレアを発射する
 			[c/45A8EF:ブリザードモード：]
-			[i:FargowiltasCrossmod/ReaverEnchant] 飛行時間と速度、ライフ再生速度、フックの速度が上昇し、ダッシュのクールダウンが短縮される
+			[i:FargowiltasCrossmod/ReaverEnchant] 飛行時間と速度、ライフ自然回復、フックの速度が上昇し、ダッシュのクールダウンが短縮される
 			[i:FargowiltasCrossmod/AerospecEnchant] 空中にいる時間が長いほどダメージが最大+50%まで上昇する
 			[i:FargowiltasCrossmod/DaedalusEnchant] 空中で1秒間被弾せずにいると、攻撃に強力な矢の追撃が発生する
 			'''
@@ -994,7 +994,7 @@ WizardEffect :{
 	Hydrothermic: オーバーヒートの持続時間が延び、ダメージ軽減が45%に上昇、フレアのダメージも増加する  
 	Daedalus: 矢のダメージ、発射数、速度が上昇する  
 	SnowRuffian: 飛翔する能力を得る、飛行時間がなくなると滑空が可能となる  
-	Reaver: 防御力とダメージ軽減率がそれぞれ30に上昇、ライフ再生速度と移動速度強化、棘のダメージ増加、バフの持続時間強化  
+	Reaver: 防御力とダメージ軽減率がそれぞれ30に上昇、ライフ自然回復と移動速度強化、棘のダメージ増加、バフの持続時間強化  
 	Plaguebringer: 疫病の雲のダメージが上昇し、より遠くの感染した敵からでもチャージされる 
 	PlagueReaper:
 		'''
@@ -1073,7 +1073,7 @@ UI: {
 Buffs: {
 	CalamitousPresenceBuff: {
 		DisplayName: 災厄の存在
-		Description: 防御力、ダメージ軽減、ライフ再生速度が減少、グレイズ可能範囲が減少、ライフスティール無効
+		Description: 防御力、ダメージ軽減、ライフ自然回復が減少、グレイズ可能範囲が減少、ライフスティール無効
 
 	}
 }

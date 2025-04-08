@@ -37,16 +37,16 @@ Commands: {
 
 Configs: {
 	Config: {
-		DisplayName: コンフィグ
+		DisplayName: 設定
 
 		TranslateApi: {
 			Label: 翻訳API
-			Tooltip: エラーが発生した場合は、翻訳APIを変更してみてください。
+			Tooltip: エラーが発生した場合は、翻訳APIを変更してみてください
 		}
 
 		CustomTargetLang: {
 			Label: 翻訳先の言語
-			Tooltip: 「en」、「zh」、「ru」などのファイルコードを入力してください。日本語の場合は「ja」です。
+			Tooltip: 「en」、「zh」、「ru」などのファイルコードを入力してください。日本語の場合は「ja」です
 		}
 
 		Headers: {
@@ -61,47 +61,47 @@ Configs: {
 
 		UseMirror: {
 			Label: ミラーサイトの利用
-			Tooltip: Google翻訳の公式サイトにアクセスできない場合は、ミラーサイトを使ってみてください。
+			Tooltip: Google翻訳の公式サイトにアクセスできない場合は、ミラーサイトを使ってみてください
 		}
 
 		MirrorUrl: {
 			Label: ミラーサイトのURL
-			Tooltip: ミラーサイトのアドレスを入力してください。
+			Tooltip: ミラーサイトのアドレスを入力してください
 		}
 
 		GooglePortal: {
 			Label: Google翻訳アクセシビリティ・ソリューション
-			Tooltip: (中国語のみ）ウェブブラウザ用のhuacifanyiプラグインの記事。
+			Tooltip: (中国語のみ）ウェブブラウザ用のhuacifanyiプラグインの記事
 		}
 
 		BingSourceLang: {
 			Label: ソース言語
-			Tooltip: Bing Translate APIは言語の自動検出をサポートしていません。"en"、"zh"、"ru "などのファイルコードを入力してください。
+			Tooltip: Bing Translate APIは言語の自動検出をサポートしていません。"en"、"zh"、"ru "などのファイルコードを入力してください
 		}
 
 		BingTranAppId: {
 			Label: アプリID
-			Tooltip: Bing Translate APIのAPIキーを提供する必要があります。Azure Platformで申請できます。
+			Tooltip: Bing Translate APIのAPIキーを提供する必要があります。Azure Platformで申請できます
 		}
 
 		BaiduTranAppId: {
 			Label: アプリID
-			Tooltip: Baidu Translate APIのAPIキーを提供する必要があります。百度翻訳プラットフォームで申請できます。
+			Tooltip: Baidu Translate APIのAPIキーを提供する必要があります。百度翻訳プラットフォームで申請できます
 		}
 
 		BaiduTranSecretKey: {
 			Label: シークレットキー
-			Tooltip: Baidu Translate APIのシークレットキーを提供する必要があります。百度翻訳プラットフォームで申請できます。
+			Tooltip: Baidu Translate APIのシークレットキーを提供する必要があります。百度翻訳プラットフォームで申請できます
 		}
 
 		BaiduPortal: {
 			Label: Baidu翻訳プラットフォーム
-			Tooltip: APIキーはこちらから申請できます。
+			Tooltip: APIキーはこちらから申請できます
 		}
 
 		BaiduTutorialPortal: {
 			Label: Baidu翻訳APIアプリケーションチュートリアル
-			Tooltip: (中国語のみ）Webブラウザ用huacifanyiプラグインの記事、百度翻訳APIを適用する方法を教えてくれます。
+			Tooltip: (中国語のみ）Webブラウザ用huacifanyiプラグインの記事、百度翻訳APIを適用する方法を教えてくれます
 		}
 
 		CaiyunTranToken: {
@@ -116,7 +116,7 @@ Configs: {
 
 		CaiyunTutorialPortal: {
 			Label: Caiyun翻訳APIアプリケーションチュートリアル
-			Tooltip: (中国語のみ）Webブラウザ用huacifanyiプラグインの記事。
+			Tooltip: (中国語のみ）Webブラウザ用huacifanyiプラグインの記事
 		}
 
 		UseProxy: {
@@ -151,7 +151,7 @@ Configs: {
 
 		OpenFile: {
 			Label: コンフィグファイルを開く
-			Tooltip: コンフィギュレーション・オプションは、一度変更された場合のみファイルに表示されます。
+			Tooltip: コンフィギュレーション・オプションは、一度変更された場合のみファイルに表示されます
 		}
 
 		UsualLangCodePortal: {
@@ -176,22 +176,22 @@ Configs: {
 
 		AutoTranslateChat: {
 			Label: チャットメッセージを自動翻訳
-			Tooltip: チャットを自動的に翻訳するかどうか、独自のAPIキーを使用している場合は、使用量に注意してください。
+			Tooltip: チャットを自動的に翻訳します。独自のAPIキーを使用している場合は、使用量に注意してください
 		}
 
 		MonitorText: {
 			Label: 表示テキストの検出
-			Tooltip: マウスがテキスト上にあるかどうかを自動検出します。そうであれば、テキストを翻訳するためにキーバインドを押すことができます。
+			Tooltip: マウスがテキスト上にあるかどうかを自動検出します。そうであれば、テキストを翻訳するためにキーバインドを押すことができます
 		}
 
 		MonitorTooltipDisplay: {
 			Label: 検出されたツールチップの表示
-			Tooltip: テキスト上にマウスカーソルを置いたときに、ツールチップ「翻訳するには[keybind]を押す」を表示します。
+			Tooltip: テキスト上にマウスカーソルを置いたときに、ツールチップ「翻訳するには[keybind]を押す」を表示します
 		}
 
 		TranslatedTextTooltip: {
 			Label: 翻訳されたテキストをツールチップに表示する
-			Tooltip: 翻訳されたテキストをツールチップに表示します。MODの競合がある場合はオフにしてみてください。
+			Tooltip: 翻訳されたテキストをツールチップに表示します。MODの競合がある場合はオフにしてみてください
 		}
 
 		OpenCachedTextFile: {
@@ -199,7 +199,7 @@ Configs: {
 			Tooltip:
 				'''
 				繰り返しのAPIコールを減らすために、すべての翻訳されたテキストが含まれています
-				ファイルを編集して手動で翻訳を修正することもできます。
+				ファイルを編集して手動で翻訳を修正することもできます
 				'''
 		}
 	}

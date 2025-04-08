@@ -226,7 +226,7 @@ Buffs: {
 
 	CatharsisHex: {
 		DisplayName: 浄化の呪い
-		Description: ライフリジェネが無効化され、怒り狂う霊があなたの中から解放される
+		Description: ライフ自然回復が無効化され、怒り狂う霊があなたの中から解放される
 	}
 
 	DarkFlames: {

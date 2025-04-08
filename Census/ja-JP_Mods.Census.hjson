@@ -3,11 +3,11 @@ Configs: {
 		DisplayName: Census 設定
 
 		ShowLocatingArrow: {
-			Label: NPCの位置を示す矢印を表示する
+			Label: NPCの位置を示す矢印を表示
 			Tooltip:
 				'''
-				ハウジングでNPCにカーソルを合わせると、そのNPCのいる方向が表示されます。
-				行方がわからなくなった町のNPCを探すのに便利です。
+				ハウジングでNPCにカーソルを合わせると、そのNPCのいる方向が表示されます
+				行方がわからなくなった町のNPCを探すのに便利です
 				'''
 		}
 
@@ -20,8 +20,8 @@ Configs: {
 			Label: 出現条件のテキストを無効化
 			Tooltip:
 				'''
-				これを有効にすると、出現条件のテキストが表示されなくなります。
-				NPCが出現する可能性を知りたいが、出現条件を知らずに楽しみたい場合に使用してください。
+				これを有効にすると、出現条件のテキストが表示されなくなります
+				NPCが出現する可能性を知りたいが、出現条件を知らずに楽しみたい場合に使用してください
 				'''
 		}
 
@@ -31,8 +31,8 @@ Configs: {
 			Label: 自動ローカライズを無効にする
 			Tooltip:
 				'''
-				デフォルトでは、Censusは構築中のMODに含まれるNPCの出現条件テキストにローカライズキーを追加します。
-				この動作を無効にするにはオンに設定してください。
+				デフォルトでは、Censusは構築中のMODに含まれるNPCの出現条件テキストにローカライズキーを追加します
+				この動作を無効にするにはオンに設定してください
 				'''
 		}
 	}
@@ -52,16 +52,16 @@ SpawnConditions: {
 	Dryad:
 		'''
 		クトゥルフの目、イーターオブワールド、
-		クトゥルフの脳、またはスケルトロンを撃破
+		クトゥルフの脳、またはスケルトロンを撃破後
 		'''
 	Painter: 町に8人の住民がいる時
 	Golfer: 地下砂漠で発見
 	ArmsDealer: インベントリに銃弾または銃を所持
 	DD2Bartender: イーターオブワールドまたはクトゥルフの脳を撃破後、ワールドで発見
 	Stylist: Find クモの住処で発見
-	GoblinTinkerer: ゴブリン襲撃を撃退した後、ワールドで発見
-	WitchDoctor: 女王蜂を撃破
-	Clothier: スケルトロンを撃破
+	GoblinTinkerer: ゴブリン襲撃を撃退後、ワールドで発見
+	WitchDoctor: 女王蜂を撃破後
+	Clothier: スケルトロンを撃破後
 	Mechanic: ダンジョンで発見
 	PartyGirl: 町に14人の住民がいる時
 	Wizard: ハードモードの地下層で発見
@@ -70,12 +70,12 @@ SpawnConditions: {
 	Pirate: 海賊襲撃を撃退した後
 	Steampunker: メカニカルボスを倒した後
 	Cyborg: プランテラを倒した後
-	SantaClaus: フロストレギオンを撃退した後、12月15日から31日までの間のみ
+	SantaClaus: フロストレギオンを撃退後、12月15日から31日までの間のみ
 	Princess: 町に全ての住民がいる時
 	TownCat: 動物学者から購入できる{$ItemName.LicenseCat} [i:LicenseCat]を使用
 	TownDog: 動物学者から購入できる{$ItemName.LicenseDog} [i:LicenseDog]を使用
 	TownBunny: 動物学者から購入できる{$ItemName.LicenseBunny} [i:LicenseBunny]を使用
-	TownSlimeBlue: キングスライムを倒した後
+	TownSlimeBlue: キングスライムを撃破後
 	TownSlimeGreen: 自然発生するパーティーの時
 	TownSlimeOld: スケルトロンを倒した後、洞窟層の古びた揺れる宝箱に{$ItemName.GoldenKey} [i:GoldenKey]を使って解錠
 	TownSlimePurple: 宇宙層で不器用な風船スライムの風船を攻撃して割る

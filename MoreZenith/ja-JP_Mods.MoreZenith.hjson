@@ -1204,17 +1204,17 @@ Projectiles: {
 
 Configs: {
 	MoreZenithConfig: {
-		DisplayName: モアゼニス・設定
+		DisplayName: MoreZenith 設定
 		Headers.Accessories: アクセサリーヘッダー
 
 		WingsToggle: {
 			Label: 翼と靴
-			Tooltip: 全ての翼と靴の有効無効を決定する
+			Tooltip: 全ての翼と靴の有効/無効を決定します
 		}
 
 		PetsToggle: {
 			Label: ペット
-			Tooltip: 全てのペットの有効無効を決定する
+			Tooltip: 全てのペットの有効/無効を決定します
 		}
 	}
 }

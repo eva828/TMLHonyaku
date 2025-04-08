@@ -1,6 +1,6 @@
 Configs: {
 	RainConfig: {
-		DisplayName: レイン・オーバーホール　設定
+		DisplayName: Rain Overhoul 設定
 
 		Headers: {
 			RainSettings: 設定
@@ -11,7 +11,7 @@ Configs: {
 			Label: 雨の強さ
 			Tooltip:
 				'''
-				このパラメータが少ないほど、雨の影響も少なくなる。
+				このパラメータが少ないほど、雨による影響も少なくなります
 				◉ ◉ ◉ ◌ | ◌ ◌ ◌
 				'''
 		}
@@ -20,14 +20,14 @@ Configs: {
 			Label: サイクルインジケータの位置
 			Tooltip:
 				'''
-				「雨の世界」モードでのサイクルのインジケーターの位置に影響する。
+				「雨の世界」モードでのサイクルインジケーターの位置を調整します
 				◉ ◉ ◉ ◉ | ◌ ◌ ◌
 				'''
 		}
 	}
 
 	RainConfigServer: {
-		DisplayName: レイン・オーバーホール・ワールド　設定
+		DisplayName: Rain Overhour ワールド設定
 
 		Headers: {
 			RainSettingsServer: ワールド設定
@@ -37,7 +37,7 @@ Configs: {
 			Label: '''「雨の世界」モード'''
 			Tooltip:
 				'''
-				このトグルはサイクルを追加し、雨のシステムを完全に再構築します。
+				この切り替え設定は新たなゲームサイクルを追加し、雨のシステムを完全に再構築します。
 				「雨の世界」のように、逃げたり隠れたりして生き延びよう！
 
 				[c/888888:Disables "{$RainConfig.cIntensity.Label}" parameter.]
@@ -68,8 +68,8 @@ Biomes: {
 
 Buffs: {
 	ShelterNotification: {
-		Description: 雨が強すぎる！避けられない事態を避けるため、急いで避難場所を探そう！
-		DisplayName: どこかで雨が降っているのか？
+		Description: 雨が強すぎる！最悪の事態を避けるため、急いで避難しよう！
+		DisplayName: 雨が降り始めた？
 	}
 }
 

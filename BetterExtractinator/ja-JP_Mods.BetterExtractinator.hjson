@@ -1,6 +1,6 @@
 Configs: {
 	ModConfigsai: {
-		DisplayName: ベターエクストラクティネイターの設定
+		DisplayName: Better Extractinator 設定
 
 		ExSpeeed: {
 			Label: 取り出しスピード倍率

@@ -111,21 +111,21 @@ Keybinds: {
 
 Configs: {
 	RecipeBrowserClientConfig: {
-		DisplayName: レシピブラウザー：クライアント側コンフィグ
+		DisplayName:　クライアント設定
 
 		ShowRecipeModSource: {
 			Label: レシピのModソースを表示
-			Tooltip: レシピ画面でどのレシピがどのModで追加されたかを表示。
+			Tooltip: レシピ画面でどのレシピがどのModで追加されたかを表示します
 		}
 
 		ShowItemModSource: {
 			Label: アイテムのModソースを表示
-			Tooltip: レシピ画面でどのアイテムがどのModで追加されたかを表示。
+			Tooltip: レシピ画面でどのアイテムがどのModで追加されたかを表示します
 		}
 
 		ShowNPCModSource: {
 			Label: NPCのModソースを表示
-			Tooltip: 図鑑画面でどのNPCがどのModで追加されたかを表示。
+			Tooltip: 図鑑画面でどのNPCがどのModで追加されたかを表示します
 		}
 
 		Headers: {
@@ -134,22 +134,22 @@ Configs: {
 
 		RecipeBrowserSize: {
 			Label: レシピブラウザのUIサイズ
-			Tooltip: レシピブラウザの画面サイズを調節します。ゲーム中に自動的に保存されるので、ここで調整する必要はありません。
+			Tooltip: レシピブラウザの画面サイズを調節します。ゲーム中に自動的に保存されるので、ここで調整する必要はありません
 		}
 
 		RecipeBrowserPosition: {
 			Label: レシピブラウザの表示位置
-			Tooltip: レシピブラウザの画面位置を調節します。ゲーム中に自動的に保存されるので、ここで調整する必要はありません。
+			Tooltip: レシピブラウザの画面位置を調節します。ゲーム中に自動的に保存されるので、ここで調整する必要はありません
 		}
 
 		FavoritedRecipePanelPosition: {
 			Label: お気に入りレシピの表示位置
-			Tooltip: お気に入りレシピの画面位置を調節。ゲーム中に自動的に保存されるので、ここで調整する必要はありません。
+			Tooltip: お気に入りレシピの画面位置を調節。ゲーム中に自動的に保存されるので、ここで調整する必要はありません
 		}
 
 		OnlyShowFavoritedWhileInInventory: {
 			Label: インベントリが開いている間のみお気に入りを表示
-			Tooltip: お気に入りレシピパネルの自動表示・非表示。ゲーム中に自動的に保存されるので、ここで調整する必要はありません。
+			Tooltip: お気に入りレシピパネルの自動表示・非表示。ゲーム中に自動的に保存されるので、ここで調整する必要はありません
 		}
 	}
 }

@@ -161,7 +161,7 @@ Keybinds: {
 
 Configs: {
 	CheatSheetClientConfig: {
-		DisplayName: チートシートのクライアントの設定
+		DisplayName: Cheat Sheet クライアント設定
 
 		HotbarShownByDefault: {
 			Label: デフォルトで表示されるホットバー
@@ -170,7 +170,7 @@ Configs: {
 	}
 
 	CheatSheetServerConfig: {
-		DisplayName: チートシートのサーバーの設定
+		DisplayName: Cheat Sheet サーバー設定
 
 		DisableCheatsForNonHostUsers: {
 			Label: ホストユーザー以外のチートを無効にする

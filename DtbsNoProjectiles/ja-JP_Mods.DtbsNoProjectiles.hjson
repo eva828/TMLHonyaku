@@ -7,12 +7,12 @@ Configs: {
 		}
 
 		HideFriendlyProjectilesDuringBosses: {
-			Label: ボス戦中は味方の弾を非表示にする
+			Label: ボス戦中は味方の弾を非表示にします
 			Tooltip: ""
 		}
 
 		HideAllDustDuringBosses: {
-			Label: ボス戦中は全てのダストを非表示にする
+			Label: ボス戦中は全てのダストを非表示にします
 			Tooltip: ""
 		}
 	}
@@ -25,17 +25,17 @@ Configs: {
 		}
 
 		HideFriendlyProjectilesDuringBosses: {
-			Label: ボス戦中は味方の弾を非表示にする
+			Label: ボス戦中は味方の弾を非表示にします
 			Tooltip: ""
 		}
 
 		HideFriendlyProjectiles: {
-			Label: 味方の弾を非表示にする
+			Label: 味方の弾を非表示にします
 			Tooltip: ""
 		}
 
 		HideAllDustDuringBosses: {
-			Label: ボス戦中に全てのダストを非表示
+			Label: ボス戦中に全てのダストを非表示にします
 			Tooltip: ""
 		}
 
@@ -45,7 +45,7 @@ Configs: {
 		}
 
 		HideFriendlyDust: {
-			Label: 味方のダストを非表示
+			Label: 味方のダストを非表示にします
 			Tooltip: ""
 		}
 	}

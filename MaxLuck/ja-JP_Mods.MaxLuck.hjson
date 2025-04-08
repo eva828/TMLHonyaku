@@ -1,6 +1,6 @@
 Configs: {
 	MaxLuckConfig: {
-		DisplayName: Max Luck Config
+		DisplayName: Max Luck 設定
 
 		LuckValue: {
 			Label: 運の値
@@ -8,17 +8,17 @@ Configs: {
 		}
 
 		LuckValueFloat: {
-			Label: 運に加算、0と1の間の数値
-			Tooltip: 例えば、5.3の運が欲しい場合など
+			Label: 小数点(運に追加加算)
+			Tooltip: 例えば、5.3の運が欲しい場合などに利用してください
 		}
 
 		negativeLuck: {
-			Label: この設定をオンにすると、運を負の値に設定できます
+			Label: 運を負の値に設定可能に
 			Tooltip: ""
 		}
 
 		AddOrSet: {
-			Label: 運を加算するか（オン）、直接設定するか（オフ）を選択します
+			Label: 運を加算するか（オン）、直接設定するか（オフ）切り替え
 			Tooltip: 基本的に、通常の運に影響を与えるものは引き続き影響を与えます
 		}
 	}

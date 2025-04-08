@@ -335,6 +335,6 @@ Configs: {
 			Label: 弾丸項目
 		}
 
-		DisplayName: Config
+		DisplayName: 設定
 	}
 }

@@ -1,6 +1,6 @@
 Keybinds: {
 	LockcastDirection: {
-		DisplayName: ターゲットをカーソルにロックする
+		DisplayName: ターゲットをカーソルにロックします
 	}
 }
 
@@ -10,7 +10,7 @@ Configs: {
 			Utilities:
 				'''
 				自動利用　方法
-				ﾎﾟｰｼｮﾝを飲んだ後、ｲﾝﾍﾞﾝﾄﾘに同様ﾎﾟｰｼｮﾝがあれば自動的に飲み直す。
+				ﾎﾟｰｼｮﾝを飲んだ後、ｲﾝﾍﾞﾝﾄﾘに同様ﾎﾟｰｼｮﾝがあれば自動的に飲み直します
 				右クリックでバフをキャンセル
 				'''
 			Filters: フィルター [c/DD4422:(ソナーバフが有効な時のみ有効!)]
@@ -34,12 +34,12 @@ Configs: {
 		}
 
 		Blacklist: {
-			Tooltip: これらの漁獲物は釣り上げない
+			Tooltip: これらの漁獲物は釣り上げません
 			Label: "[i:5064] ブラックリスト"
 		}
 
 		OtherCatches: {
-			Tooltip: これらの漁獲物も釣り上げる
+			Tooltip: これらの漁獲物も釣り上げます
 			Label: "[i:2676] その他の獲物"
 		}
 
@@ -49,12 +49,12 @@ Configs: {
 		}
 
 		CatchNormalCatches: {
-			Tooltip: 有効な場合、ホワイトより上のレアリティの通常の魚も釣り上げる（ホワイトは含まない）
+			Tooltip: 有効な場合、ホワイトより上のレアリティの通常の魚も釣り上げます（ホワイトは含まない）
 			Label: "[i:2308] 自動釣り上げ 高レアリティ ノーマルキャッチ"
 		}
 
 		CatchWhiteRarityCatches: {
-			Tooltip: 有効であれば、ホワイトかグレーのレアリティの魚も釣り上げる。
+			Tooltip: 有効であれば、ホワイトかグレーのレアリティの魚も釣り上げます
 			Label: "[i:2290] 自動釣り上げ ホワイト/グレー レアリティ ノーマルキャッチ"
 		}
 
@@ -79,19 +79,19 @@ Configs: {
 		}
 
 		PullingDelay: {
-			Tooltip: 魚が掛かってからから釣り上げるまでの時間。
+			Tooltip: 魚が掛かってからから釣り上げるまでの時間
 			Label: 自動釣り上げ・遅延（秒）
 		}
 
 		AutoCatch: {
-			Tooltip: ラインは自動的に引き出され、フィルターが有効になっていれば便利です。
+			Tooltip: ラインは自動的に引き出され、フィルターが有効になっていれば便利です
 			Label: 自動釣り上げ
 		}
 	}
 }
 
 Tips: {
-	PotionsRanOut: すでに{0}を使い果たした。
-	TargetUnlock: キャスト対象が[c/BB2222:unlocked]になった。
-	TargetLock: キャスティングターゲットが現在のカーソル位置に[c/22CC22:lock]されるようになった。
+	PotionsRanOut: すでに{0}を使い果たしました
+	TargetUnlock: キャスト対象が[c/BB2222:unlocked]になりました
+	TargetLock: キャスティングターゲットが現在のカーソル位置に[c/22CC22:lock]されるようになりました
 }

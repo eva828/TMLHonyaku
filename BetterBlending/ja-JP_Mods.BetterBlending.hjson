@@ -1,24 +1,28 @@
 Configs: {
 	BetterBlendingConfig: {
 		EnableDirtOreBorders: {
-			Label: "[i:11] 鉱石と土の境界線を有効にする"
+			Label: "[i:11] 鉱石と土の境界線を有効化"
 			Tooltip: ""
 		}
 
 		EnableSnowDirtBorders: {
-			Label: "[i:593] 雪と土の境界線を有効にする"
-			Tooltip: この方法では、稀に氷ブロックのフレームと雪が境界部分でおかしな表示になることがありますが、ほとんどの場合は正常に動作します。
+			Label: "[i:593] 雪と土の境界線を有効化"
+			Tooltip: 
+				'''
+				この設定をオンにした際、稀に氷ブロックのフレームと雪の境界部分にて
+				表示がおかしくなることがありますが、ほとんどの場合は正常に動作します
+				'''
 		}
 
 		blendStyle: {
 			Label: ブレンディングスタイル
 			Tooltip:
 				'''
-				Classic: 環境タイルのみをブレンドし、建築ブロックには影響を与えない。
-				All-Blend: フレームに重要でない全てのタイルをブレンドする。
+				Classic: 環境タイルのみをブレンドし、建築ブロックには影響を与えません
+				All-Blend: フレームに重要でない全てのタイルをブレンドします
 				'''
 		}
 
-		DisplayName: Client Config
+		DisplayName: クライアント設定
 	}
 }

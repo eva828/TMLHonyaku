@@ -2,20 +2,20 @@ Configs: {
 	ItemChecklistClientConfig: {
 		ShowItemModSource: {
 			Label: アイテムMODのソースを表示
-			Tooltip: どのmodがレシピカタログにどのアイテムを追加するかを表示します 没入感を高めるために無効にします
+			Tooltip: どのmodがレシピカタログにどのアイテムを追加するかを表示します。 ゲームの没入感を高めたい方は無効にしましょう
 		}
 
-		DisplayName: 「ItemChecklist」クライアント設定
+		DisplayName: ItemChecklist クライアント設定
 		Headers.AutomaticSettings: 自動設定
 
 		ItemChecklistSize: {
 			Label: アイテムチェックリストサイズ
-			Tooltip: アイテムチェックリストUIのサイズ これは自動的に保存されるので、調整する必要はありません
+			Tooltip: アイテムチェックリストUIのサイズを変更します。 これは自動的に保存されるので、調整する必要はありません
 		}
 
 		ItemChecklistPosition: {
 			Label: アイテムチェックリストの位置
-			Tooltip: アイテムチェックリストUIの位置 これは自動的に保存されるので、調整する必要はありません
+			Tooltip: アイテムチェックリストUIの位置を変更します。 これは自動的に保存されるので、調整する必要はありません
 		}
 	}
 }

@@ -916,7 +916,7 @@ Items: {
 		DisplayName: 滲み出る脳
 		Tooltip:
 			'''
-			ライフ再生を増加
+			ライフ自然回復を増進
 			複数の脳を召喚し、貫通しない攻撃を防ぐ盾として機能する
 			'''
 	}
@@ -1085,7 +1085,7 @@ Items: {
 
 	SanguineSlasher: {
 		DisplayName: 肉の牙
-		Tooltip: 敵を噛むと{0}の体力を回復
+		Tooltip: 敵を噛むと{0}のライフを回復
 	}
 
 	TerrorFlail: {

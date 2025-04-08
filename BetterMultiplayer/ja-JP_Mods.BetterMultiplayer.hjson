@@ -1,19 +1,19 @@
 Configs: {
 	BMConfig: {
-		DisplayName: ベターマルチプレイヤーの設定
+		DisplayName: Better MultiPlayer 設定
 
 		TeamToJoin: {
-			Label: 参加時に加入するチーム
+			Label: ゲーム参加時に自動加入するチーム
 			Tooltip: ""
 		}
 
 		NoBossFightRespawn: {
-			Label: ボス戦でリスポーンしないようにする
+			Label: ボス戦でリスポーンしないようにします
 			Tooltip: ""
 		}
 
 		WitchDoctorWormhole: {
-			Label: 呪術医がワームホールポーションを販売する
+			Label: 呪術医がワームホールポーションを販売します
 			Tooltip: ""
 		}
 	}

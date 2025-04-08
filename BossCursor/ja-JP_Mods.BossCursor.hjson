@@ -1,22 +1,22 @@
 Configs: {
 	Config: {
 		BlackListPillars: {
-			Tooltip: ピラーをカーソルに表示しないようにする
+			Tooltip: ピラーをカーソルに表示しないようにします
 			Label: ピラーをブラックリストに登録
 		}
 
 		CursorSize: {
-			Tooltip: カーソルの大きさを変更できる。
+			Tooltip: カーソルの大きさを変更できます
 			Label: カーソルのサイズ
 		}
 
 		CursorDistance: {
-			Tooltip: プレイヤーからのカーソルの距離を変更できる。
+			Tooltip: プレイヤーからのカーソルの距離を変更できます
 			Label: カーソルの距離
 		}
 
 		HideOnScreen: {
-			Tooltip: カメラ内にいるボスのカーソルを非表示にする。
+			Tooltip: カメラ内にいるボスのカーソルを非表示にします
 			Label: 画面内のボスのカーソルを非表示
 		}
 

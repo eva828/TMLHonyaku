@@ -18,21 +18,21 @@ Keybinds: {
 
 Configs: {
 	Config: {
-		DisplayName: WMITFの設定
+		DisplayName: WMITF 設定
 
 		DisplayWorldTooltips: {
 			Label: ワールドのツールチップの表示
-			Tooltip: NPCやタイルの上にカーソルを置いたときに、MOD名のツールチップを表示するかどうか
+			Tooltip: NPCやタイルの上にカーソルを置いたときに、MOD名のツールチップを表示します
 		}
 
 		DisplayItemTooltips: {
 			Label: アイテムのツールチップの表示
-			Tooltip: アイテムのツールチップにMOD名のツールチップを表示するかどうか
+			Tooltip: アイテムのツールチップにMOD名のツールチップを表示します
 		}
 
 		DisplayTechnicalNames: {
 			Label: 内部名称の表示
-			Tooltip: 内部名称を表示するかどうか
+			Tooltip: 内部名称を表示します
 		}
 	}
 }

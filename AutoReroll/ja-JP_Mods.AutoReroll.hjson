@@ -8,7 +8,7 @@ Configs: {
 		}
 
 		UseDefaultReforgeMenu: {
-			Label: デフォルトのリフォージ画面を使用する
+			Label: デフォルトのリフォージ画面を使用します
 			Tooltip: ""
 		}
 	}

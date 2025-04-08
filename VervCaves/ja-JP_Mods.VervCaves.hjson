@@ -13,7 +13,7 @@ Items: {
 		DisplayName: キノコリング
 		Tooltip:
 			'''
-			倒した敵が回復オーブを放出
+			倒した敵が回復オーブを放つ
 			クールダウン 10秒
 			'''
 	}
@@ -24,8 +24,8 @@ Items: {
 	}
 
 	GraniteEmblem: {
-		DisplayName: 御影石のエンブレム
-		Tooltip: HPが90%以上の敵に対してダメージが75%増加する
+		DisplayName: 御影石の紋章
+		Tooltip: HPが90%以上の敵に対してダメージが75%増加
 	}
 
 	ShimmerTrapItem: {
@@ -51,7 +51,7 @@ Projectiles: {
 
 Configs: {
 	VervCavesConfig: {
-		DisplayName: Verv Caves Config
+		DisplayName: Verv Caves 設定
 
 		Headers: {
 			Rifts: リフト
@@ -96,8 +96,8 @@ Configs: {
 		}
 
 		NoData: {
-			Label: トラップやチェストの戦利品なし
-			Tooltip: このMODのトラップとチェストの戦利品を生成プロセスから削除し、ワールド作成後にMODをアンロードできるようにします。
+			Label: トラップ、チェストからの戦利品無し
+			Tooltip: このMODのトラップとチェストの戦利品を生成プロセスから削除し、ワールド作成後にMODをアンロードできるようにします
 		}
 
 		Platforms: {
