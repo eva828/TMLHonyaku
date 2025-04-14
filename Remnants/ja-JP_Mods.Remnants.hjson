@@ -4,7 +4,7 @@ Safeguard: {
 	SecretSeeds: シークレットシードが選択されています。
 	HomewardJourney: Homeward JourneyのMODが有効になっています。
 	Aequus: Aequus のMODが有効になっています。
-	StartWithBase: Start With BaseのMODが有効になっています。
+	StartWithBase: Start With Base のMODが有効になっています。
 	Solution: ワールド生成を安全に完了するには、これらの問題を取り除くか、Remnantsを無効にしてください。
 	WOTGMultiplayer: Remnants は、マルチプレイのクライアントでWrath of the Godsが有効になっていることを検出しました。このMODはマルチプレイでは動作しません。無効にするか、シングルプレイで使用してください。
 }
@@ -183,9 +183,9 @@ Tiles: {
 		MapEntry: 迷宮の祭壇
 
 		Messages: {
-			EssenceofMight: 入手：力のエッセンス
-			EssenceofEndurance: 入手：耐久のエッセンス
-			EssenceofFocus: 入手：集中のエッセンス
+			EssenceofMight: 発動：力のエッセンス
+			EssenceofEndurance: 発動：耐久のエッセンス
+			EssenceofFocus: 発動：集中のエッセンス
 			Health: 最大体力
 			Damage: ダメージ
 			Speed: 移動速度
@@ -1000,10 +1000,10 @@ Configs: {
 		}
 
 		SunkenSeaRework: {
-			Label: "[i:2625] サンケンシー改修"
+			Label: "[i:2625] 沈没海リワーク"
 			Tooltip:
 				'''
-				Calamity Modと併用することで、サンケンシーの改修を有効にします
+				Calamity Modと併用することで、沈没海のリワークを有効にします
 
 				注意：このバイオームが公式に更新されると無効になります
 				'''
