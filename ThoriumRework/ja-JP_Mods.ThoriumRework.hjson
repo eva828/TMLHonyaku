@@ -1096,20 +1096,20 @@ Configs: {
 		}
 
 		extraPotions: {
-			Label: Extra Potion Contents
+			Label: 追加ポーション効果
 			Tooltip:
 				'''
-				(Optional)
-				Adds some buff potions relating to Thorium's class that are from this mod
+				（オプション）
+                このModに含まれる、Thoriumのクラスに関連したバフポーションを追加します
 				'''
 		}
 
 		extraPrefixes: {
-			Label: Extra Prefix Contents
+			Label: 追加コンディション効果
 			Tooltip:
 				'''
-				(Optional)
-				Adds some prefixes relating to Thorium's class items that are from this mod
+				（オプション）
+                このModに含まれる、Thoriumのクラスアイテムに関連したコンディションを追加します
 				'''
 		}
 
@@ -1172,8 +1172,8 @@ Configs: {
 		}
 
 		eternityModeOnly: {
-			Label: Eternity mode only
-			Tooltip: The reworks from this mod only applies when eternity mode is active
+			Label: エタニティモード限定
+            Tooltip: このModによる調整はエタニティモード時のみ適用されます
 		}
 	}
 
