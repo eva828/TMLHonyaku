@@ -2049,6 +2049,15 @@ Items: {
 		DisplayName: ルナーゼリーのテラリウム
 		Tooltip: 夜は儚くない、ただ輝いている
 	}
+
+	GlassFlowerItem: {
+		DisplayName: ガラスフラワー
+		Tooltip:
+		'''
+		近くのヴァーダントバイオームを無効化し、他のバイオームを使用可能にする
+		「すごく壊れやすい…」
+		'''
+	}
 }
 
 # This file is for miscellaneous stuff that I don't really want to move to its own file.
