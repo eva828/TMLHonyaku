@@ -33,51 +33,6 @@ ChatMessages: {
 }
 
 Items: {
-	ExampleBreastplate: {
-		DisplayName: テト(UTAU) ボディ
-		Tooltip: ""
-	}
-
-	ExampleLeggings: {
-		DisplayName: テト(UTAU) レッグ
-		Tooltip: ""
-	}
-
-	MinionBossMask: {
-		DisplayName: テト(UTAU) ヘッド
-		Tooltip: ""
-	}
-
-	TetoBreastplate: {
-		DisplayName: テト(SV) ボディ
-		Tooltip: ""
-	}
-
-	TetoLeggings: {
-		DisplayName: テト(SV) レッグ
-		Tooltip: ""
-	}
-
-	TetoMask: {
-		DisplayName: テト(SV) ヘッド
-		Tooltip: ""
-	}
-
-	Teto2Breastplate: {
-		DisplayName: テト(ライアーダンサー) ボディ
-		Tooltip: ""
-	}
-
-	Teto2Leggings: {
-		DisplayName: テト(ライアーダンサー) レッグ
-		Tooltip: ""
-	}
-
-	Teto2Mask: {
-		DisplayName: テト(ライアーダンサー) ヘッド
-		Tooltip: ""
-	}
-
 	Teto9Legs: {
 		Tooltip: ""
 		DisplayName: テト(ヤババイナ) レッグ
@@ -163,7 +118,7 @@ Items: {
 		DisplayName: テト(オーバーライド) ボディ
 	}
 
-	Teto14Head: {
+	Teto14Legs: {
 		Tooltip: ""
 		DisplayName: テト(ちっちゃな私) レッグ
 	}
@@ -572,13 +527,143 @@ Items: {
 		DisplayName: テト(キメラの大きな翼)
 		Tooltip: ""
 	}
+
+	Teto36Legs: {
+		Tooltip: ""
+		DisplayName: テト(サイエンス) レッグ
+	}
+
+	Teto36Head: {
+		Tooltip: ""
+		DisplayName: テト(サイエンス) ヘッド
+	}
+
+	Teto36Body: {
+		Tooltip: ""
+		DisplayName: テト(サイエンス) ボディ
+	}
+
+	Teto35Legs: {
+		Tooltip: ""
+		DisplayName: テト(踊っチャイナ) レッグ
+	}
+
+	Teto35Head: {
+		Tooltip: ""
+		DisplayName: テト(踊っチャイナ) ヘッド
+	}
+
+	Teto35Body: {
+		Tooltip: ""
+		DisplayName: テト(踊っチャイナ) ボディ
+	}
+
+	Teto1Body: {
+		DisplayName: テト(UTAU) ボディ
+		Tooltip: ""
+	}
+
+	Teto1Head: {
+		DisplayName: テト(UTAU) ヘッド
+		Tooltip: ""
+	}
+
+	Teto1Legs: {
+		DisplayName: テト(UTAU) レッグ
+		Tooltip: ""
+	}
+
+	Teto2Body: {
+		DisplayName: テト(SV) ボディ
+		Tooltip: ""
+	}
+
+	Teto2Head: {
+		DisplayName: テト(SV) ヘッド
+		Tooltip: ""
+	}
+
+	Teto2Legs: {
+		DisplayName: テト(SV) レッグ
+		Tooltip: ""
+	}
+
+	Teto3Body: {
+		DisplayName: テト(ライアーダンサー) ボディ
+		Tooltip: ""
+	}
+
+	Teto3Head: {
+		DisplayName: テト(ライアーダンサー) ヘッド
+		Tooltip: ""
+	}
+
+	Teto3Legs: {
+		DisplayName: テト(ライアーダンサー) レッグ
+		Tooltip: ""
+	}
+
+	Teto37Body: {
+		DisplayName: テト(キャンディークッキーチョコレート) ボディ
+		Tooltip: ""
+	}
+
+	Teto37Head: {
+		DisplayName: テト(キャンディークッキーチョコレート) ヘッド
+		Tooltip: ""
+	}
+
+	Teto37Legs: {
+		DisplayName: テト(キャンディークッキーチョコレート) レッグ
+		Tooltip: ""
+	}
+
+	Teto38Body: {
+		DisplayName: テト(ギャル) ボディ
+		Tooltip: ""
+	}
+
+	Teto38Head: {
+		DisplayName: テト(ギャル) ヘッド
+		Tooltip: ""
+	}
+
+	Teto38Legs: {
+		DisplayName: テト(ギャル) レッグ
+		Tooltip: ""
+	}
+
+	Teto39Body: {
+		DisplayName: テト(イライラしている！) ボディ
+		Tooltip: ""
+	}
+
+	Teto39Head: {
+		DisplayName: テト(イライラしている！) ヘッド
+		Tooltip: ""
+	}
+
+	Teto39Legs: {
+		DisplayName: テト(イライラしている！) レッグ
+		Tooltip: ""
+	}
+
+	PeartoItem: {
+		Tooltip: ...
+		DisplayName: 梨テト
+	}
+
+	DragonItem: {
+		Tooltip: ""
+		DisplayName: 好きな惣菜発表ドラゴン
+	}
 }
 
 Configs: {
 	TetoConfig: {
 		DisplayName: Teto 設定
 
-		message: {
+		Headers: {
 			Messages: メッセージヘッダー
 		}
 
@@ -586,6 +671,28 @@ Configs: {
 			Label: メッセージ切り替えへようこそ！
 			Tooltip: ""
 		}
+	}
+}
+
+Projectiles: {
+	PeartoProjectile: {
+		DisplayName: Pearto Projectile
+	}
+
+	DragonProjectile: {
+		DisplayName: Dragon Projectile
+	}
+}
+
+Buffs: {
+	PeartoBuff: {
+		Description: えっと、なぜここに…？
+		DisplayName: 梨テト
+	}
+
+	DraronBuff: {
+		Description: 好きな総菜発表ドラゴンがあなたの後をついてくる
+		DisplayName: 好きな総菜発表ドラゴン
 	}
 }
 

@@ -77,68 +77,68 @@ Configs: {
 
 		SpecialAbility_Hina: {
 			Label: "[i:TouhouPets/HinaDoll] 雛人形の特殊効果"
-			Tooltip: 運が0以下になるのを防ぐ。
+			Tooltip: 運が0以下になるのを防ぎます
 		}
 
 		SpecialAbility_Minoriko: {
 			Label: "[i:TouhouPets/MinorikoSweetPotato] 焼き芋の特殊効果"
-			Tooltip: 食べ物バフの持続時間が3％増加する。
+			Tooltip: 食べ物バフの持続時間が3％増加します
 		}
 
 		SpecialAbility_Murasa: {
 			Label: "[i:TouhouPets/MurasaBailer] 底なし柄杓の特殊効果"
-			Tooltip: GFBワールドでは、プレイヤーは水の上を歩くことができなくなり、水中ではすぐに溺れる。
+			Tooltip: GFBワールドでは、プレイヤーは水の上を歩くことができなくなり、水中ではすぐに溺れるでしょう
 		}
 
 		SpecialAbility_Satori: {
 			Label: "[i:TouhouPets/SatoriSlippers] ピンクのスリッパの特殊効果"
-			Tooltip: 定期的に周囲の敵を検知する。
+			Tooltip: 定期的に周囲の敵を検知します
 		}
 
 		SpecialAbility_Star: {
 			Label: "[i:TouhouPets/StarSapphire] スターリー・サファイアの特殊効果"
-			Tooltip: 近くの宝物をハイライトする。
+			Tooltip: 近くの宝物をハイライトします
 		}
 
 		SpecialAbility_Tenshin: {
 			Label: "[i:TouhouPets/TenshiKeyStone] 要石の特殊効果"
-			Tooltip: 運が0.5上昇する。
+			Tooltip: 運が0.5上昇します
 		}
 
 		SpecialAbility_Wriggle: {
 			Label: "[i:TouhouPets/WriggleInAJar] 瓶の中の蛍の特殊効果"
-			Tooltip: 定期的に広範囲を照らし、昆虫を引き寄せることがある。
+			Tooltip: 定期的に広範囲を照らし、昆虫を引き寄せます
 		}
 
 		SpecialAbility_Yuka: {
 			Label: "[i:TouhouPets/YukaSunflower] 鉢植えひまわりの特殊効果"
-			Tooltip: 色付きの溶液が在庫にあれば、染色として使用できる。
+			Tooltip: 色付きの溶液が在庫にあれば、染色として使用できます
 		}
 
 		SpecialAbility_Yuyuko: {
 			Label: "[i:TouhouPets/YuyukoFan] 桜扇の特殊効果"
 			Tooltip:
 				'''
-				インベントリや開封したボイドバッグにフードがある場合、1つのアイテムが定期的に消費される。
-				餌を持った状態でペットを右クリックすると、餌を与えることができる。
+				インベントリや開封したボイドバッグにフードがある場合、1つのアイテムが定期的に消費されます
+				また、餌を持った状態でペットを右クリックすると、餌を与えることができます
 				'''
 		}
 
 		SpecialAbility_MokuAndKaguya: {
 			Label: "[i:TouhouPets/MokuMatch] & [i:TouhouPets/KaguyaBranch] 蓬莱の特殊効果「消えないマッチ」と「蓬莱の玉の枝」"
-			Tooltip: 10秒以上AFK状態が続くと、ペット同士の戦いが始まる。
+			Tooltip: 10秒以上AFK状態が続くと、ペット同士の戦いが始まります
 		}
 
 		SpecialAbility_Tewi: {
 			Label: "[i:TouhouPets/TewiCarrot] ラッキーキャロット・ペンダントの特殊効果"
-			Tooltip: 運が0.3上昇する。
+			Tooltip: 運が0.3上昇します
 		}
 
 		SpecialAbility_Letty: {
 			Label: "[i:TouhouPets/LettyGlobe] スノードームの特殊効果"
 			Tooltip:
 				'''
-				寒さを感じるペットがいる。
+				寒さを感じるペットがいます
 				対象: 
 				[i:TouhouPets/SizuhaBrush] [i:TouhouPets/WriggleInAJar]
 				'''
@@ -150,12 +150,12 @@ Configs: {
 
 		TyperStyleChat: {
 			Label: タイピング風ダイアログ
-			Tooltip: ペットのダイアログを流れるように表示するかどうかを切り替える。
+			Tooltip: ペットのダイアログを流れるように表示するか切り替えます
 		}
 
 		CanPetChat: {
-			Label: ペットのダイアログを表示する
-			Tooltip: ペットのダイアログを表示するかどうかを切り替える。
+			Label: ペットのダイアログを表示
+			Tooltip: ペットのダイアログを表示するか切り替えます
 		}
 	}
 
@@ -163,23 +163,23 @@ Configs: {
 		DisplayName: ペットの入手方法
 
 		PetCanDropFromBoss: {
-			Label: ペットはモンスターからドロップする
-			Tooltip: モンスターやボスからペットがドロップするかどうかの切り替え
+			Label: ペットはモンスターからドロップ
+			Tooltip: モンスターやボスからペットがドロップするか切り替えます
 		}
 
 		ObtainPetByFishing: {
 			Label: ペットは釣りで手に入る
 			Tooltip:
 				'''
-				釣りで入手できるペットの有無を切り替える
+				ペットを釣りで入手できるか切り替えます
 				対象: 
 				[i:TouhouPets/HinaDoll] [i:TouhouPets/WakasagihimeFishingRod] [i:TouhouPets/IkuOarfish] [i:TouhouPets/UselessBook]
 				'''
 		}
 
 		AllowGapToSpawn: {
-			Label: 不思議なスキマを夜間にスポーンするようにする。
-			Tooltip: 不思議なスキマが夜間にスポーンするかどうかを切り替えます。
+			Label: 不思議なスキマが夜間にスポーン
+			Tooltip: 不思議なスキマが夜間にスポーンするか切り替えます
 		}
 	}
 
@@ -190,8 +190,8 @@ Configs: {
 			Label: 互換性モード
 			Tooltip:
 				'''
-				いくつかのクロスモッドバグ（Calamity Modなど）を避けるために、ペットの染色効果を無効にします。
-				一部のペットの特別な染色効果は影響を受けません。
+				いくつかのクロスモッドバグ（Calamity Modなど）を避けるために、ペットの染色効果を無効にします
+				一部のペットの特別な染色効果は影響を受けません
 				'''
 		}
 	}

@@ -1,84 +1,100 @@
-UnlockCondition: {
-	DownedPlantera: {
-		Description: プランテラ撃破後にアンロック
-		DisplayName: プランテラ
-	}
+Environments: {
+	Forest: 森林
+	Caverns: 地下
+	Sky: 空
+	Underworld: 地底
+	Beach: 海
+	Dungeon: ダンジョン
+	Marble: 大理石の洞窟
+	Granite: 御影石の洞窟
+	Hallow: 聖域
+	Snow: 雪原
+	Desert: 砂漠
+	Glowshroom: キノコバイオーム
+	Jungle: ジャングル
+	Corrupt: 不浄
+	Crimson: クリムゾン
+	Void: 無所属
+}
 
-	DownedMechBossAny: {
-		Description: いずれかのメカニカルボス撃破後にアンロック
-		DisplayName: メカニカルボス
+UnlockCondition: {
+	Hardmode: {
+		DisplayName: ハードモード
+		Description: ハードモード突入後にアンロック
 	}
 
 	DownedSkeletron: {
-		Description: スケルトロン撃破後にアンロック
 		DisplayName: スケルトロン
+		Description: スケルトロン撃破後にアンロック
 	}
 
-	Hardmode: {
-		Description: ハードモード突入後にアンロック
-		DisplayName: ハードモード
+	DownedMechBossAny: {
+		DisplayName: メカニカルボス
+		Description: いずれかのメカニカルボス撃破後にアンロック
+	}
+
+	DownedPlantera: {
+		DisplayName: プランテラ
+		Description: プランテラ撃破後にアンロック
 	}
 }
 
-Keybinds: {
-	PointShopUIKeybind: {
-		DisplayName: Points Shop UI切り替え
-	}
-}
+DisplayName: PointShop
 
-ShopItem: {
-	ShopItemError: アイテムはこの環境に属していない
-	InsufficientPoints: ポイントが足りていない
-	Lock: このアイテムはアンロックされていない
+NameFilter: 検索
+
+Clear: クリア
+
+Buy: 購入
+
+ShowGroupLinks: 無効
+
+Configs: {
+	PointShopConfig: {
+		DisplayName: Point Shop 設定
+
+		PointMultiplier: {
+			Label: ポイント倍率
+			Tooltip: ""
+		}
+	}
+
+	PointShopClientSideConfig: {
+		DisplayName: Point Shop クライアント設定
+
+		PointsDisplayWidget: {
+			Label: ポイント情報表示ウィジェット
+			Tooltip: ""
+		}
+
+		DisplayLinks: {
+			Label: 関連リンクを表示（切り替え後にマップを再入力してください）
+			Tooltip: ""
+		}
+	}
 }
 
 Items: {
 	PointCoin: {
+		DisplayName: ポイントコイン
 		Tooltip:
 			'''
 			[c/22cc22:敵を撃破時にドロップします]
 			[c/cc22cc:インベントリに入るとポイントに変換されます]
 			[c/cccc22:プレイヤーの運と敵のレア度に影響を受けます]
 			'''
-		DisplayName: ポイントコイン
 	}
 }
 
-Configs: {
-	PointShopConfig: {
-		PointMultiplier: {
-			Tooltip: ""
-			Label: ポイント倍率
-		}
-
-		DisplayName: Point Shop 設定
-	}
+ShopItem: {
+	Lock: このアイテムはアンロックされていない
+	InsufficientPoints: ポイントが足りていない
+	ShopItemError: アイテムはこの環境に属していない
 }
 
-Buy: 購入
-
-Clear: クリア
-
-NameFilter: 検索
-
-DisplayName: PointShop
-
-Environments: {
-	Void: 無所属
-	Crimson: クリムゾン
-	Corrupt: 不浄
-	Jungle: ジャングル
-	Glowshroom: キノコバイオーム
-	Desert: 砂漠
-	Snow: 雪原
-	Hallow: 聖域
-	Granite: 御影石の洞窟
-	Marble: 大理石の洞窟
-	Dungeon: ダンジョン
-	Beach: 海
-	Underworld: 地底
-	Sky: 空
-	Caverns: 地下
-	Forest: 森林
+Keybinds: {
+	PointShopUIKeybind: {
+		DisplayName: Points Shop UI切り替え
+	}
 }
 
