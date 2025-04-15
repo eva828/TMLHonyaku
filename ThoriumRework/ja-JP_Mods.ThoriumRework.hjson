@@ -179,6 +179,17 @@ ItemDescriptions: {
 		クリティカルで呪われた地獄の輪ができる
 		'''
 	DragonTalon: 攻撃は槍の先端に呪いの地獄のブレスを放つ
+	DreadRazor:
+		'''
+		右クリックで恐怖のエネルギーを放出する
+		攻撃するたびに自動で恐怖のエネルギーが蓄積される
+		'''
+	DemonBloodSpear:
+		'''
+		3回目の攻撃ごとに、血の槍の幻影を連続で放つ
+		敵にダメージを与えると血のチャージを獲得する
+		チャージが最大になると、次の攻撃が2倍のダメージを与え、その20%分の体力を回復する
+		'''
 	PrimesFury:
 		'''
 		4回目の攻撃ごとに強力なビームを放ち、3倍のダメージを与える。
@@ -374,6 +385,10 @@ Projectiles: {
 		DisplayName: Champion's War Horn
 	}
 
+	ConcussiveInstrument: {
+		DisplayName: Concussive Instrument
+	}
+
 	DancingJellyfish: {
 		DisplayName: Dancing Jellyfish
 	}
@@ -386,8 +401,16 @@ Projectiles: {
 		DisplayName: Death Rain
 	}
 
+	DemonBloodSword: {
+		DisplayName: Demon Blood Sword
+	}
+
 	DragonTooth: {
 		DisplayName: Dragon Tooth
+	}
+
+	DreadRazor: {
+		DisplayName: Dread Razor
 	}
 
 	DyingReality: {
@@ -395,7 +418,19 @@ Projectiles: {
 	}
 
 	EightNote: {
-		DisplayName: "{$ProjectileName.EightNote}"
+		DisplayName: ProjectileName.EightNote
+	}
+
+	EnergyBurst: {
+		DisplayName: Granite Energy Burst
+	}
+
+	EnergyCollapse: {
+		DisplayName: Collapsing Energy
+	}
+
+	EnergySpike: {
+		DisplayName: Energy Spike
 	}
 
 	EnergySurge: {
@@ -448,6 +483,14 @@ Projectiles: {
 
 	GraniteCharge: {
 		DisplayName: Granite Charge
+	}
+
+	HighTide: {
+		DisplayName: High Tide
+	}
+
+	HighTideWave: {
+		DisplayName: High Tide
 	}
 
 	HitScan: {
@@ -599,7 +642,7 @@ Projectiles: {
 	}
 
 	QuarterNote: {
-		DisplayName: "{$ProjectileName.QuarterNote}"
+		DisplayName: 音符
 	}
 
 	SevenSeasDevastatorWhirlpool: {
@@ -635,7 +678,7 @@ Projectiles: {
 	}
 
 	StellarTune: {
-		DisplayName: "{$ProjectileName.SparkleGuitar}"
+		DisplayName: ステラチューン
 	}
 
 	Stuff: {
@@ -655,7 +698,7 @@ Projectiles: {
 	}
 
 	TiedEightNote: {
-		DisplayName: "{$ProjectileName.TiedEightNote}"
+		DisplayName: ProjectileName.TiedEightNote
 	}
 
 	TitanSword: {
@@ -688,6 +731,10 @@ Projectiles: {
 
 	VaporizingPoison: {
 		DisplayName: Vaporizing Poison
+	}
+
+	VisualCrack: {
+		DisplayName: Crack
 	}
 
 	VisualShockwave: {
@@ -745,6 +792,11 @@ Items: {
 			'''
 	}
 
+	DeathsingerPotion: {
+		DisplayName: デスシンガーのポーション
+		Tooltip: 旋律ダメージと演奏速度が7%増加
+	}
+
 	ExecutionersContract: {
 		DisplayName: 死刑執行人の契約
 		Tooltip:
@@ -775,6 +827,11 @@ Items: {
 			電子楽器が2発撃てるようになるが、2発目のダメージは50％少なくなる
 			「ロケットの発射速度は速くなりません！」
 			'''
+	}
+
+	InspirationRegenerationPotion: {
+		DisplayName: ひらめきのポーション
+		Tooltip: インスピレーションの再生速度が上昇
 	}
 
 	JellyfishJam: {
@@ -841,7 +898,7 @@ Items: {
 	}
 
 	MagicalHarp: {
-		DisplayName: "{$ItemName.MagicalHarp}"
+		DisplayName: 魔法のハープ
 		Tooltip: ""
 	}
 
@@ -902,8 +959,8 @@ Items: {
 	}
 
 	StellarTune: {
-		DisplayName: "{$ItemName.SparkleGuitar}"
-		Tooltip: "{$ItemTooltip.SparkleGuitar}"
+		DisplayName: ステラチューン
+		Tooltip: 「このコード、素晴らしい！」
 	}
 
 	ZephyrsRuin: {
@@ -917,6 +974,26 @@ Items: {
 }
 
 Buffs: {
+	Deathsinger: {
+		DisplayName: デスシンガー
+		Description: 旋律ダメージと演奏速度が7%増加
+	}
+
+	Inspired: {
+		DisplayName: ひらめき活性化
+		Description: インスピレーションの再生速度が上昇
+	}
+
+	SoulBleed: {
+		DisplayName: 魂の出血
+		Description: 魂が散り散りになっていく...
+	}
+
+	StarCalled: {
+		DisplayName: スター・コール
+		Description: 彼らはあなたの信号を受信した
+	}
+
 	TerminalLucidity: {
 		DisplayName: 終末の明晰夢
 		Description:
@@ -930,16 +1007,6 @@ Buffs: {
 			'''
 	}
 
-	SoulBleed: {
-		DisplayName: 魂の出血
-		Description: 魂が散り散りになっていく...
-	}
-
-	StarCalled: {
-		DisplayName: スター・コール
-		Description: 彼らはあなたの信号を受信した
-	}
-
 	LucidRetaliation: {
 		DisplayName: 明晰なる報復
 		Description:
@@ -951,6 +1018,23 @@ Buffs: {
 			無限に飛行ができる
 			「運命の到来」
 			'''
+	}
+}
+
+Prefixes: {
+	Careless: {
+		DisplayName: Careless
+		Description: +2 life cost
+	}
+
+	Risky: {
+		DisplayName: Risky
+		Description: +1 life cost
+	}
+
+	Suicidal: {
+		DisplayName: Suicidal
+		Description: +3 life cost
 	}
 }
 
@@ -1011,6 +1095,24 @@ Configs: {
 				'''
 		}
 
+		extraPotions: {
+			Label: 追加ポーション効果
+			Tooltip:
+				'''
+				（オプション）
+                このModに含まれる、Thoriumのクラスに関連したバフポーションを追加します
+				'''
+		}
+
+		extraPrefixes: {
+			Label: 追加コンディション効果
+			Tooltip:
+				'''
+				（オプション）
+                このModに含まれる、Thoriumのクラスアイテムに関連したコンディションを追加します
+				'''
+		}
+
 		masterDrops: {
 			Label: マスターモードドロップ
 			Tooltip:
@@ -1067,6 +1169,11 @@ Configs: {
 		thorlamityBR: {
 			Label: Calamity Modのボスラッシュにトリウムボスを追加
 			Tooltip: トリウムボスをCalamity Modのボスラッシュでスポーンするようにする。
+		}
+
+		eternityModeOnly: {
+			Label: エタニティモード限定
+            Tooltip: このModによる調整はエタニティモード時のみ適用されます
 		}
 	}
 
