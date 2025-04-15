@@ -2861,7 +2861,7 @@ NPCs: {
 	BereftVassal: {
 		BossChecklistIntegration: {
 			EntryName: 遺された臣下、アルガス
-			SpawnInfo: 砂漠の中心にある台座で [i:7119] を使用する。
+			SpawnInfo: 砂漠の中心にある台座で[i:CalamityMod/SandstormsCore]を使う。
 		}
 
 		DisplayName: 遺された臣下、アルガス
