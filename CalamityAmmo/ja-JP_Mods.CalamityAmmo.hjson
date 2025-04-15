@@ -1,0 +1,1146 @@
+TownNPCMood: {
+	QianXing: {
+		Content: あなたとならうまくやれそうね。
+		NoHome: 空き部屋はないかしら？ 他の人と同じ部屋なのはこりごりよ。
+		LoveSpace: 自分だけのスペースはかなり快適ね。こっそりしたいことをしてもばれないもの。
+		FarFromHome: ちょっとだけ魔法の鏡を貸してくれるかしら？
+		DislikeCrowded: 他の人がうるさくするせいで夜寝付けないわ。
+		HateCrowded: 一緒になって恥ずかしいことをするのは良くないわね。
+		LikeBiome: ここは危険とお宝に満ちあふれてるわ。最高ね。死ぬ準備はいい？
+		LoveBiome: 買い物しやすいからって森林バイオームに住まわせるなんて思いもしなかったわ。
+		DislikeBiome: 砂嵐で汚れてしまうわ。どこか別のところに移れないかしら？
+		HateBiome: お魚を捕まえたくってウズウズしちゃうわ。
+		LikeNPC: "{NPCName}はガラクタは基本売らないから好きね。"
+		LikeNPC_Princess: なんで{{NPCName}が好きかって? 建前:「すべてのNPCはプリンセスが好きです」本音:「共鳴のセプターがとっても使いやすいから」
+		LoveNPC: "{NPCName}とは話が合うきがするわ。それって私達両方ともケモミミが生えているからかしら？"
+		DislikeNPC: "{NPCName}はビジネスの話ばかりでウンザリ。それに私を見てくるからとっても気持ち悪いわ。"
+		HateNPC: "{NPCName}みたいなワルガキは消え失せてしまえばいいわ！"
+	}
+}
+
+Projectiles: {
+	Magic: {
+		HydrothermicExplosion: {
+			DisplayName: 熱水爆発
+		}
+
+		WulfrumBoltRanged: {
+			DisplayName: ウルフラムボルト
+		}
+	}
+
+	Typeless: {
+		DivineGeodeMeteor: {
+			DisplayName: ディバインジオードメテオ
+		}
+
+		DivineGeodeMeteor2: {
+			DisplayName: ディバインジオードメテオ
+		}
+	}
+
+	ArcaneArrow_Proj: {
+		DisplayName: 魔法の矢
+	}
+
+	Crabulon_Spore: {
+		DisplayName: クラブロンの胞子
+	}
+
+	HealOrb: {
+		DisplayName: 回復オーブ
+	}
+
+	RadioAura: {
+		DisplayName: 赤ライトニングオーラ
+	}
+
+	Shroomere: {
+		DisplayName: シュルーメア
+	}
+
+	Spore1: {
+		DisplayName: 胞子雲
+	}
+
+	Spore2: {
+		DisplayName: 胞子雲
+	}
+
+	Spore3: {
+		DisplayName: 胞子雲
+	}
+
+	HydrothermicArrow_Proj: {
+		DisplayName: ハイドロサーミックアロー
+	}
+
+	HydrothermicExplosion: {
+		DisplayName: ハイドロサーミック爆発
+	}
+
+	HydrothermicBullet_Proj: {
+		DisplayName: ハイドロサーミック弾
+	}
+
+	HydrothermicVolcano: {
+		DisplayName: ハイドロサーマルボルケーノ
+	}
+
+	VolcanicFireballRanged: {
+		DisplayName: ボルケニックファイア
+	}
+
+	MirageArrow_Proj: {
+		DisplayName: ミラージュアロー
+	}
+
+	MirageArrow_Proj2: {
+		DisplayName: ミラージュアロー
+	}
+
+	SoulBullet_Proj: {
+		DisplayName: ファントムスピリット
+	}
+
+	Chengying_Fumo_Proj: {
+		DisplayName: Chengyingのぬいぐるみ
+	}
+
+	_BloodBullet: {
+		DisplayName: 血液弾
+	}
+
+	_DesertFeatherArrow: {
+		DisplayName: 砂漠の羽の矢
+	}
+
+	_PearlArrow: {
+		DisplayName: 真珠の矢
+	}
+
+	_PearlBullet: {
+		DisplayName: 真珠弾
+	}
+
+	_PrismBullet: {
+		DisplayName: プリズム弾
+	}
+
+	_RottenBullet: {
+		DisplayName: 腐敗弾
+	}
+
+	_RottenBullet2: {
+		DisplayName: 腐敗弾
+	}
+
+	_SeaBubble: {
+		DisplayName: 水流
+	}
+
+	_VictideArrow: {
+		DisplayName: ヴィクタイドアロー
+	}
+
+	_VictideBullet: {
+		DisplayName: ヴィクタイド弾
+	}
+
+	_WulfArrow: {
+		DisplayName: ウルフラムアロー
+	}
+
+	_AstralArrow: {
+		DisplayName: アストラルアロー
+	}
+
+	_AstralBullet: {
+		DisplayName: アストラル弾
+	}
+
+	_AstralMine: {
+		DisplayName: アストラル地雷
+	}
+
+	_AstralShot: {
+		DisplayName: アストラルレーザー
+	}
+
+	_AstralStar: {
+		DisplayName: アストラルスター
+	}
+
+	_AstralStar2: {
+		DisplayName: アストラルスター
+	}
+
+	_DazzlingAstralArrow: {
+		DisplayName: 閃光アストラルアロー
+	}
+
+	_DazzlingAstralBullet: {
+		DisplayName: 閃光アストラル弾
+	}
+
+	_Flower: {
+		DisplayName: ペレニアルフラワー
+	}
+
+	_FossilArrow: {
+		DisplayName: 化石の矢
+	}
+
+	_FossilBullet: {
+		DisplayName: 化石の弾
+	}
+
+	_FossilShard: {
+		DisplayName: 化石のかけら
+	}
+
+	_FossilShard2: {
+		DisplayName: 化石のかけら
+	}
+
+	_NapalmBullet: {
+		DisplayName: ナパーム弾
+	}
+
+	_Seed: {
+		DisplayName: ペレニアルシード
+	}
+
+	_WeakAstralArrow: {
+		DisplayName: 劣化アストラルアロー
+	}
+
+	_WeakAstralBullet: {
+		DisplayName: 劣化アストラル弾
+	}
+
+	FakeSeaStar1: {
+		DisplayName: アクアティックスター
+	}
+
+	FakeSeaStar2: {
+		DisplayName: もろいスター
+	}
+
+	_ElementalArrow: {
+		DisplayName: エレメンタルアロー
+	}
+
+	_ElementalBullet: {
+		DisplayName: バラバラになった宇宙の人参
+	}
+
+	_GoldenFeatherArrow: {
+		DisplayName: 黄金羽の矢
+	}
+
+	_RedLightning: {
+		DisplayName: レッドライトニング
+	}
+
+	HealingRain: {
+		DisplayName: ヒーリングレイン
+	}
+
+	HealingStarcloud: {
+		DisplayName: ヒーリングネビュラ
+	}
+
+	LightningVortex: {
+		DisplayName: ライトニングボルテックス
+	}
+
+	MetorSolar: {
+		DisplayName: ソーラーファイアボール
+	}
+
+	WulfrumBoltRanged: {
+		DisplayName: ウルフラムボルト
+	}
+
+	AeroGrenade: {
+		DisplayName: エアロケット
+	}
+
+	AeroMine: {
+		DisplayName: エアロケット
+	}
+
+	AeroRocket: {
+		DisplayName: エアロケット
+	}
+
+	AeroSnowman: {
+		DisplayName: エアロケット
+	}
+
+	Mushroom_ClusterRocketI: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_ClusterRocketII: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_DryRocket: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_HoneyRocket: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_LavaRocket: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_MiniNukeRocketI: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_MiniNukeRocketII: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_RocketI: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_RocketII: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_RocketIII: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_RocketIV: {
+		DisplayName: マッシュルーム
+	}
+
+	Mushroom_WetRocket: {
+		DisplayName: マッシュルーム
+	}
+
+	Sand_Rocket: {
+		DisplayName: 対地ミサイル
+	}
+
+	SandGrenade: {
+		DisplayName: 対地ミサイル
+	}
+
+	SandMine: {
+		DisplayName: 対地ミサイル
+	}
+
+	SandSnowman: {
+		DisplayName: 対地ミサイル
+	}
+
+	Spike: {
+		DisplayName: とげ
+	}
+
+	SpikyBall: {
+		DisplayName: スパイクボール
+	}
+
+	ThePack_ClusterRocketI: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_ClusterRocketII: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_DryRocket: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_HoneyRocket: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_LavaRocket: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_MiniNukeRocketI: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_MiniNukeRocketII: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_RocketI: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_RocketII: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_RocketIII: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_RocketIV: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_SandRocket: {
+		DisplayName: パックミサイル
+	}
+
+	ThePack_WetRocket: {
+		DisplayName: パックミサイル
+	}
+
+	ThePackLittle_ClusterRocketI: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_ClusterRocketII: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_DryRocket: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_HoneyRocket: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_LavaRocket: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_MiniNukeRocketI: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_MiniNukeRocketII: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_RocketI: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_RocketII: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_RocketIII: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_RocketIV: {
+		DisplayName: パックミニミサイル
+	}
+
+	ThePackLittle_WetRocket: {
+		DisplayName: パックミニミサイル
+	}
+
+	_AstralFlame: {
+		DisplayName: アストラル結晶
+	}
+
+	Explode: {
+		DisplayName: 爆発
+	}
+
+	GrapeProj: {
+		DisplayName: ぶどう
+	}
+
+	GrapeShot: {
+		DisplayName: ぶどう
+	}
+
+	Summon: {
+		VolcanicFireballRanged: {
+			DisplayName: ボルケニックファイア
+		}
+	}
+
+	StcikyChewingGum: {
+		DisplayName: チューインガム
+	}
+
+	_DazzlingAstralArrowNew: {
+		DisplayName: 閃光アストラルアロー
+	}
+
+	DivineArrow_Proj: {
+		DisplayName: ディバインアロー
+	}
+
+	DivineGeodeMeteor: {
+		DisplayName: ディバインジオードメテオ
+	}
+
+	DivineGeodeMeteor2: {
+		DisplayName: ディバインジオードメテオ
+	}
+
+	DivineBullet_Proj: {
+		DisplayName: ディバインバレット
+	}
+
+	DeathMarkRound: {
+		DisplayName: マーキング弾
+	}
+
+	IceBomb: {
+		DisplayName: アイスボム
+	}
+
+	IceRain: {
+		DisplayName: アイスレイン
+	}
+
+	BrimstoneHellblast: {
+		DisplayName: ブリムストーンヘルブラスト
+	}
+
+	ElectricStream: {
+		DisplayName: 放電
+	}
+}
+
+Items: {
+	ArcaneQuiver: {
+		DisplayName: 魔法の矢筒
+		Tooltip:
+			'''
+			マナを消費して矢にエンチャントを付与し、ダメージを増加する
+			追加ダメージはマナ残量に応じて変化する
+			武器の発射速度でマナ消費量が変化する
+			アクセサリー表示をオンにするとあらゆる矢の見た目を魔法の矢に変える
+			マナ酔い中は魔法の矢のダメージが半減する
+			矢の速度が大幅に上昇
+			20%の確率で矢を消費しない
+			「エネルギー、パワー、我が民は飢えているぞ!」
+			'''
+	}
+
+	EvilMushroom: {
+		DisplayName: 邪悪なキノコ
+		Tooltip: 敵と自身に死の刻印が付与される
+	}
+
+	FastHolster: {
+		DisplayName: 早撃ち用ホルスター
+		Tooltip:
+			'''
+			銃の使用時間が10%減少
+			遠距離クリティカル率が4%減少
+			「正確さなど気にするな。当たりゃあいいんだよ！」
+			'''
+	}
+
+	GrapeLauncher: {
+		DisplayName: 禁止された散弾発射機構
+		Tooltip: 8回連続で命中させると銃弾を大量発射する
+	}
+
+	InfectedCrabGill: {
+		DisplayName: 侵食されたカニのエラ
+		Tooltip:
+			'''
+			敵にダメージを与える胞子を徐々に召喚する
+			銃が死ぬと分裂する菌の弾を発射する可能性がある
+			ライフ自然再生が1低下する
+			'''
+	}
+
+	LifeMushroom: {
+		DisplayName: リビングマッシュルーム
+		Tooltip: 周囲にランダムにライフを15回復するキノコを生やす
+	}
+
+	MarvelousMycelium: {
+		DisplayName: マーベラスな菌糸
+		Tooltip:
+			'''
+			遠距離ダメージ6%増加 遠距離クリティカル率9%増加
+			攻撃を受けるとボーナスがなくなる代わりに短い時間キノコ愛好家状態になる
+			「死が生を生み、生は死を迎えるだろう」
+			'''
+	}
+
+	ModifiedCoil: {
+		DisplayName: 改造コイル
+		Tooltip:
+			'''
+			遠距離ダメージが7%増加
+			発射物の速度をわずかに増加させる
+			「銅線露出につき慎重に取り扱いください」
+			'''
+	}
+
+	MushroomUnitedNations: {
+		DisplayName: マッシュルーム合衆国
+		Tooltip:
+			'''
+			敵にダメージを与える胞子を徐々に召喚する
+			銃が死ぬと分裂する菌の弾を発射する可能性がある
+			防御力が5低下、ライフ自然再生が1低下
+			遠距離ダメージ15%増加、 遠距離クリティカル率が5%増加
+			攻撃を受けるとボーナスがなくなる代わりに短い時間キノコ愛好家状態になる
+			[KEY]を押すとトリップ状態になる
+			キノコのスナイパーライフルが頭上に現れ、射程範囲内の一番遠くにいる敵を狙撃する
+			敵があなたをターゲットしにくくなる
+			「私達の人員が減っていくように感じるのは何故でしょうか？」
+			'''
+	}
+
+	OdddMushroom: {
+		DisplayName: いけないキノコ
+		Tooltip:
+			'''
+			[KEY]を押すとトリップ状態になる
+			「見えるものだけに頼ることはできない。」
+			'''
+	}
+
+	SuperCoil: {
+		DisplayName: アダマンタイト製コイル
+		Tooltip:
+			'''
+			装備している武器の使用速度に応じて遠距離クリティカル率が増加する
+			発射物の速度を中程度増加させる
+			'''
+	}
+
+	TitaniumCoil: {
+		DisplayName: チタン製コイル
+		Tooltip:
+			'''
+			装備している武器の使用速度に応じて遠距離ダメージが増加する
+			発射物の速度を中程度増加させる
+			'''
+	}
+
+	WulfrumCoil: {
+		DisplayName: ウルフラム製コイル
+		Tooltip:
+			'''
+			遠距離ダメージが7%増加
+			遠距離武器の発射物速度をわずかに増加させる
+			'''
+	}
+
+	AstralArrow: {
+		DisplayName: アストラルアロー
+		Tooltip: 我々の進化の為、星々の恐怖を打破せよ
+	}
+
+	AstralBullet: {
+		DisplayName: Astral Bullet
+		Tooltip: 我々の進化の為、星々の恐怖を打破せよ
+	}
+
+	DazzlingAstralArrow: {
+		DisplayName: 閃光アストラルアロー(旧版)
+		Tooltip: ""
+	}
+
+	DazzlingAstralBullet: {
+		DisplayName: 閃光アストラル弾
+		Tooltip: 惑星と恒星！ 手に入れるパワー！
+	}
+
+	FossilArrow: {
+		DisplayName: 化石の矢
+		Tooltip:
+			'''
+			硬質な化石が敵の防御を崩す
+			腐食した化石が硫黄中毒を引き起こす
+			'''
+	}
+
+	FossilBullet: {
+		DisplayName: 化石弾
+		Tooltip:
+			'''
+			硬質な化石が敵の防御を崩す
+			腐食した化石が硫黄中毒を引き起こす
+			'''
+	}
+
+	HydrothermicArrow: {
+		DisplayName: ハイドロサーミックアロー
+		Tooltip:
+			'''
+			ハイドロサーミック爆発を起こす
+			「その矛で私の盾を貫こうというのかね？貫かれるのはそなたになるだろう！」
+			'''
+	}
+
+	HydrothermicBullet: {
+		DisplayName: ハイドロサーミック弾
+		Tooltip:
+			'''
+			敵の真下にハイドロサーミックボルケーノを生み出す
+			ハイドロサーミックボルケーノは炎柱とハイドロサーミック炎を噴射する
+			「俺の体は1,400度で燃えるんだ！」
+			'''
+	}
+
+	NapalmBullet: {
+		DisplayName: ナパーム弾
+		Tooltip:
+			'''
+			オイル状態と炎上状態にさせる!
+			「ヘッハッハッ、ちっちゃな炎じゃ誰も燃やせないぞ！」
+			'''
+	}
+
+	PerennialSeed: {
+		DisplayName: ペレニアルシード
+		Tooltip: 発芽を待っている
+	}
+
+	WeakAstralArrow: {
+		DisplayName: 劣化アストラルアロー
+		Tooltip: とあるミミズは言った「そうさ、私にはたくさんの父親がいる」
+	}
+
+	WeakAstralBullet: {
+		DisplayName: 劣化アストラル弾
+		Tooltip:
+			'''
+			力がたりない...
+			アストラルに侵食されたメカベヒモスを撃破して進化させる
+			'''
+	}
+
+	ElementalBullet: {
+		DisplayName: 宇宙の人参
+		Tooltip:
+			'''
+			敵を攻撃したとの同じ種類の発射物のダメージが100%増加する
+			この効果は0から0.25秒かけて減衰していく
+			エレメンタルミックスを付与する
+			'''
+	}
+
+	GoldenFeatherArrow: {
+		DisplayName: 黄金羽の矢
+		Tooltip:
+			'''
+			小さいものをおびき寄せる
+			クリティカルヒット以外がレッドライトニングを呼び出す
+			'''
+	}
+
+	MirageArrow: {
+		DisplayName: ミラージュアロー
+		Tooltip: '''「また２つ、そしてまた２つ、またまた２つ、あるいは２つ。」'''
+	}
+
+	SoulBullet: {
+		DisplayName: ソウルバレット
+		Tooltip:
+			'''
+			近くの敵に追尾して三回貫通するが命中する事にダメージが下がっていく
+			「不幸な魂たちを薬莢に閉じ込めて製造されました。同じような魂を引き寄せるでしょう。」
+			'''
+	}
+
+	BloodBullet: {
+		DisplayName: 血液弾
+		Tooltip: 敵からライフを吸収する
+	}
+
+	DesertFeatherArrow: {
+		DisplayName: 砂漠の羽の矢
+		Tooltip: 「羽根がハゲワシのものだったときは、速くはなかった」 "
+	}
+
+	DesertFeather: {
+		DisplayName: 砂漠の羽
+		Tooltip: ""
+	}
+
+	ElectricArrow: {
+		DisplayName: エレクトリックアロー
+		Tooltip: 嵐を追う
+	}
+
+	PearlArrow: {
+		DisplayName: 真珠の矢
+		Tooltip: 破壊されたとき小さい欠片になる
+	}
+
+	PearlBullet: {
+		DisplayName: 真珠弾
+		Tooltip:
+			'''
+			二回貫通する
+			敵をスローにする
+			'''
+	}
+
+	RottenBullet: {
+		DisplayName: 腐敗弾
+		Tooltip:
+			'''
+			発射するとバラバラの腐った物体になる
+			 「それはまだ動き回り増えようとしています。疲れることはないのでしょう。 」
+			'''
+	}
+
+	SPBullet: {
+		DisplayName: シープリズム弾
+		Tooltip: 何かに当たると水流を噴射する
+	}
+
+	VictideArrow: {
+		DisplayName: ヴィクタイドアロー
+		Tooltip:
+			'''
+			水中で速くなってダメージが40%増加する
+			「俺の高圧ガスシリンダーを食らえ」
+			'''
+	}
+
+	VictideBullet: {
+		DisplayName: ヴィクタイドアロー
+		Tooltip:
+			'''
+			水中で速くなってダメージが40%増加する
+			「俺の高圧ガスシリンダーを食らえ」
+			'''
+	}
+
+	WulfrumArrow: {
+		DisplayName: ウルフラムアロー
+		Tooltip:
+			'''
+			重すぎて矢にならない
+			「嘘だろ」
+			'''
+	}
+
+	WulfrumBullet: {
+		DisplayName: ウルフラムスクラップ弾
+		Tooltip:
+			'''
+			敵を少しだけホーミングするウルフラムエナジービームを発射する
+			ビームはアーマー貫通が10ポイントある
+			「これが最後の波紋だ」
+			'''
+	}
+
+	Chengying_Fumo: {
+		DisplayName: Chengyingのぬいぐるみ
+		Tooltip: 闇は優しさで葬ることはできないことを理解するべきです。火を使いましょう。
+		TooltipDay:
+			'''
+			アタシを殺せると思った人にトーストを！ 
+			残念でした
+			'''
+	}
+
+	ChewingGum: {
+		DisplayName: チューインガム
+		Tooltip:
+			'''
+			銃の視野が増加する(右クリックで拡大)
+			銃を持っているとき弾道予測を表示する
+			'''
+	}
+
+	ChewingGun: {
+		DisplayName: チューインガン
+		Tooltip: 使い物にならない
+	}
+
+	HardTack: {
+		DisplayName: ハードタック
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			「見ただけでお腹いっぱい」
+			'''
+	}
+
+	HardTackChest: {
+		DisplayName: オーリックコッファー
+		Tooltip: <right>で開く
+	}
+
+	SpectreRifle: {
+		DisplayName: スペクターライフル
+		Tooltip: マスケット弾を強力な追尾する魂に変換する
+	}
+
+	Aerocket: {
+		DisplayName: エアロケット
+		Tooltip: 右クリックで発射物を浮遊地雷に切り替え
+	}
+
+	BeenadeLauncher: {
+		DisplayName: 手蜂弾ランチャー
+		Tooltip: グレネードを使用する
+	}
+
+	MushroomMortar: {
+		DisplayName: キノコ迫撃砲
+		Tooltip: すぐに戻してください。作者はしてないけどね
+	}
+
+	PlaguenadeLauncher: {
+		DisplayName: "プレイグネードランチャー"
+		Tooltip: グレネードを使用する
+	}
+
+	SandRocket: {
+		DisplayName: 対地ミサイル
+		Tooltip:
+			'''
+			ブロックを貫通し敵に追従する
+			砂で速く動く
+			'''
+	}
+
+	SandWorm: {
+		DisplayName: サンドドッグ
+		Tooltip:
+			'''
+			もろいスパイクボールを発射する
+			６回目の攻撃ごとにサンドブラストを６個発射する
+			'''
+	}
+
+	Paper: {
+		DisplayName: 紙
+		Tooltip: ""
+	}
+
+	Paper2: {
+		DisplayName: 紙2
+		Tooltip: ""
+	}
+
+	DazzlingAstralArrowNew: {
+		DisplayName: 閃光アストラルアロー
+		Tooltip:
+			'''
+			「空を見て！星座だ！」
+			「ほんとにそうか？」
+			'''
+	}
+
+	DivineArrow: {
+		DisplayName: ディバインアロー
+		Tooltip: 楽園から隕石を降らせる
+	}
+
+	DivineBullet: {
+		DisplayName: ディバインバレット
+		Tooltip: より強力な聖なる炎の爆発を起こす
+	}
+
+	Lore: {
+		KnowledgeAuric: {
+			DisplayName: オーリックについて
+		}
+	}
+
+	ElementalArrow: {
+		DisplayName: エレメンタルアロー
+		Tooltip:
+			'''
+			敵を貫通する事に矢のダメージが10%増加
+			ダメージ増加の効果は４回目まで有効
+			エレメンタルミックスを付与する
+			'''
+	}
+
+	DeathMarkMagnum: {
+		DisplayName: デス・マーク・マグナム
+		Tooltip:
+			'''
+			射撃で敵のダメージ軽減を減少させる
+			「死とダンスしてみるってのはどうだい？」
+			'''
+	}
+
+	FrigidCoil: {
+		DisplayName: 冷却コイル
+		Tooltip:
+			'''
+			遠距離スピード10%減少
+			遠距離武器の発射物速度を中程度増加させる
+			遠距離武器の発射物が凍傷を付与する
+			命中した敵の真下にアイスボムを設置する
+			これには５秒のクールダウンがある
+			'''
+	}
+
+	ScorchingCoil: {
+		DisplayName: 熱却コイル
+		Tooltip:
+			'''
+			遠距離クリティカル率が7%増加
+			遠距離武器の発射物速度を中程度増加させる
+			遠距離武器の発射物がブリムストーンの炎を付与する
+			６回命中する毎に６つのブリムスーンヘルブラストの弾を発射する
+			複数回敵を攻撃てきる発射物は一回としてカウントされる
+			'''
+	}
+
+	AutoCalculationCoil: {
+		DisplayName: ドレイドン式自動計算コイル
+		Tooltip:
+			'''
+			遠距離武器の発射物速度が中程度増加
+			遠距離武器の発射物が敵を追従するようになる
+			[KEY]を押してサーチアルゴリズムを切り替える
+			'''
+	}
+
+	TransformerCoil: {
+		DisplayName: 変圧コイル
+		Tooltip:
+			'''
+			遠距離武器の発射物速度が大幅に増加
+			感電に対する耐性、遠距離武器の発射物が感電を付与する
+			攻撃した二体の敵の間に電撃を放電する
+			'''
+	}
+
+	AuricBullet: {
+		DisplayName: オーリック弾
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	Focus: {
+		DisplayName: 集中
+		Description: 一日中できるぜ
+	}
+
+	Heal: {
+		DisplayName: ヒーリング
+		Description:
+			'''
+			ライフ再生速度上昇  
+			今日はツイてるな。ミミズ⋯ いいや、なんでもない。聞き間違えだ。
+			'''
+	}
+}
+
+NPCs: {
+	QianXing: {
+		TownNPCMood: {
+			Content: ユーとならうまくやれるにゃ。
+			NoHome: 空いてる部屋はにゃい？ 他の人と同じ部屋なのはもうこりごりにゃ。
+			FarFromHome: ちょびっとだけ魔法の鏡をもらえるかにゃ？
+			LoveSpace: ミーだけのスペースはサイコーにゃ！一人でコソコソいろんなことできるもんね。
+			DislikeCrowded: 他の人がうるさくて夜ねれないにゃ。
+			HateCrowded: 一緒になってヘンなことされるのはきもちよくないにゃ。
+			LoveBiome: 買い物しやすいからって森林バイオームに住まわせるなんて天才だにゃ。
+			LikeBiome: ここはあぶないしお宝もたくさん。サイコーにゃ！死ぬ準備はいい？
+			DislikeBiome: 砂嵐で汚れてしまうにゃ。どこか別のところに移れないにゃ？
+			HateBiome: ミーの中のネコの部分がお魚ほしいって飛び込んで行きそうにゃ
+			LoveNPC: "{NPCName}とはウマが合うにゃ。もしかしてミー達両方ともケモミミが生えているからかにゃ？"
+			LikeNPC: "{NPCName}はガラクタは売らないから好きにゃ。"
+			DislikeNPC: "{NPCName}はビジネスの話ばかりでウンザリ。そしてミーを見てくるからとっても気持ち悪いにゃ。"
+			HateNPC: "{NPCName}みたいなサイテーなワルガキはミーの近くに住む権利なんかないにゃ！"
+			LikeNPC_Princess: なんで{NPCName}が好き? 建前:「すべてのNPCはプリンセスが好きです」本音:「共鳴のセプターがとっても使いやすいから」
+			Princess_LovesNPC: "{NPCName}は好きにゃ。"
+		}
+
+		DisplayName: 弾薬商人
+	}
+}
+
+Bestiary: {
+	QianXing: 弾薬を売ってくれる猫の女の子。可愛らしい見た目で値段にはうるさい。お金をたくさん持ってるなら彼女を「買う」事ができるかも？(巨大な斧でぶっ殺されることはないハズ)
+}
+
+QX: 星のかがやき
+
+Glove: レンジャーに適用される近似の効果
+
+Keybinds: {
+	Odd: {
+		DisplayName: トリップ
+	}
+
+	autoCoil: {
+		DisplayName: オートサーチアルゴリズム
+	}
+}
+
+sld: オートサーチ: 最も低い防御力の敵
+
+shd: オートサーチ: 最も高い防御力の敵
+
+selectOff: オートサーチ: オフ
+
+selectLowLife: オートサーチ: 最も高い体力の敵
+
+selectLowLP: オートサーチ: 最も低い体力の敵
+
+selectNearPlayer: オートサーチ: プレイヤーに最も近い敵
+
+selectNearMouse: オートサーチ: マウスカーソルに最も近い敵
+
+Homeless1: ミーが見えるなら、レンジャーに違いにゃいわね！
+
+Homeless2: 部屋を作ってないなんておかしいんじゃにゃい？テキトーな豆腐建築も作ってにゃいわけ？ニャァァアアア！
+
+Any1: ミーがなんでオノを持ってるか気になる？それはにゃ、神みたいなオノで44もダメージがあったからにゃ！
+
+Any2: NPCの会話にウンザリしてるにゃら、ネットで一緒にやってくれる人をさがしてみるといいにゃ
+
+Any3: ミーが来てから弾薬素材切れを起こしたことにゃんてあるかにゃ？
+
+Any4: もう二分間も食べてないにゃ。お腹すいたにゃ⋯ なにかたべれるものにゃい?
+
+Day1: サーバーを動かすのは疲れるにゃ。いろんな問題を解決しにゃいとダメだからにゃ。
+
+Day2: ミーのクセはミーのキャラクターに"Qianxing"ってつけることにゃ。もう25回もやってるにゃ。
+
+Day3: ミーのHPは20,000あるにゃ。事故がにゃければ、ユーが卒業するまで生きれるにゃ。
+
+Day4: シッポはダメだから。失礼にゃ。
+
+Night1: こんなおそくまでなんの用にゃ？誰も相手してくれにゃいよ。
+
+Night2: ユーがミーなら魔法の日時計を使って、夜を飛ばしちゃうのににゃ。
+
+Night3: 流れ星ってサイコーにゃあ⋯ ３００個あれば足りるにゃ。
+
+Night4: そこはダメにゃ!
+
+BM1: はやくモンスターを殺すにゃ! 時間を無駄にしちゃダメにゃ!
+
+BM2: ブラッドオーブいくつゲットしたにゃ？
+
+Party: パーティは嫌いにゃ⋯ でもケーキがもらえるのは嬉しいにゃ。
+
+HateAnger1: 怒り
+
+HateAnger2: このガキは嫌いにゃ。最高収容所に閉じ込めとくにゃ。
+
+Goblin1: 本当の「厄災」がやってきたにゃ。
+
+Goblin2: ゴブリンがユーの財布をカラにしちゃうにゃ。
+
