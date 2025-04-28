@@ -1,3 +1,779 @@
+Projectiles: {
+	FungusBall: {
+		DisplayName: Fungus Ball
+	}
+
+	MushroomSpear: {
+		DisplayName: Mushroom Spear
+	}
+
+	ShroomGas: {
+		DisplayName: Shroom Gas
+	}
+
+	SandChunk: {
+		DisplayName: Sand Chunk
+	}
+
+	SuckedSandBlast: {
+		DisplayName: Sand Blast
+	}
+
+	CursedLightning: {
+		DisplayName: Cursed Lightning
+	}
+
+	CurvingCursedFlames: {
+		DisplayName: Curving Cursed Flames
+	}
+
+	MovingCorruptCloud: {
+		DisplayName: Moving Corrupt Cloud
+	}
+
+	ShadeLightningCloud: {
+		DisplayName: Shade Lightning Cloud
+	}
+
+	ToothBall: {
+		DisplayName: Tooth Ball
+	}
+
+	Tooth: {
+		DisplayName: Tooth
+	}
+
+	HomingRocket: {
+		DisplayName: Homing Rocket
+	}
+
+	HomingSickle: {
+		DisplayName: Homing Sickle
+	}
+
+	HallowedSlimeSpike: {
+		DisplayName: Hallowed Slime Spike
+	}
+
+	BouncingFireball: {
+		DisplayName: Bouncing Fireball
+	}
+
+	BigLight: {
+		DisplayName: Big Light
+	}
+
+	DestructionBolt: {
+		DisplayName: Destruction Bolt
+	}
+
+	StarofDestruction: {
+		DisplayName: Star of Destruction
+	}
+
+	Boss: {
+		AcceleratingEbonianGlob: {
+			DisplayName: Ebonian Glob
+		}
+
+		AcceleratingCrimulanGlob: {
+			DisplayName: Crimulan Glob
+		}
+
+		SlimeHomingEbonianGlob: {
+			DisplayName: Ebonian Glob
+		}
+
+		SlimeHomingCrimuleanGlob: {
+			DisplayName: Crimulean Glob
+		}
+
+		MutantYharonVortex: {
+			DisplayName: The Sun
+		}
+
+		IchorShotFast: {
+			DisplayName: Ichor Shot
+		}
+	}
+
+	SlamTelegraph: {
+		DisplayName: Slam Telegraph
+	}
+
+	IceBomb: {
+		DisplayName: Ice Bomb
+	}
+
+	IceCrystal: {
+		DisplayName: Ice Crystal
+	}
+
+	IceChain: {
+		DisplayName: Ice Chain
+	}
+
+	IceTrident: {
+		DisplayName: Ice Trident
+	}
+
+	CrimsonPaladinSpike: {
+		DisplayName: Crimson Spike
+	}
+
+	PermafrostHeldWeapon: {
+		DisplayName: Permafrost Held Weapon
+	}
+
+	MutantOldDuke: {
+		DisplayName: Old Duke
+	}
+
+	DLCMutantSpearSpin: {
+		DisplayName: Mutant's Atlantis
+	}
+
+	DLCMutantSpearDash: {
+		DisplayName: Mutant's Atlantis
+	}
+
+	MutantAresNuke: {
+		DisplayName: Mutant's Gauss Nuke
+	}
+
+	MutantAresBomb: {
+		DisplayName: Mutant's Gauss Nuke
+	}
+
+	DLCMutantFishronRitual: {
+		DisplayName: Mutant Gauss Ritual
+	}
+
+	MutantSlimeGod: {
+		DisplayName: Slime God
+	}
+
+	DLCBloomLine: {
+		DisplayName: Telegraph Line
+	}
+
+	MutantSCal: {
+		DisplayName: Calamitas' Skullshield
+	}
+
+	MutantPBG: {
+		DisplayName: Plaguebringer Goliath
+	}
+
+	MutantAureusSpawn: {
+		DisplayName: Aureus Spawn
+	}
+
+	MutantHolyRay: {
+		DisplayName: Holy Ray
+	}
+
+	MutantDoGBody: {
+		DisplayName: The Devourer of Gods
+	}
+
+	MutantDoGHead: {
+		DisplayName: The Devourer of Gods
+	}
+
+	MutantDoGTail: {
+		DisplayName: The Devourer of Gods
+	}
+
+	MutantPolter: {
+		DisplayName: Necroplasm
+	}
+
+	ArcticPaw: {
+		DisplayName: Arctic Paw
+	}
+
+	Blizzard: {
+		DisplayName: Blizzard
+	}
+
+	DarkIceCrystal: {
+		DisplayName: Dark Ice Crystal
+	}
+
+	FrostFlare: {
+		DisplayName: Frost Flare
+	}
+
+	FrostShard: {
+		DisplayName: Frost Shard
+	}
+
+	IceArrow: {
+		DisplayName: Ice Arrow
+	}
+
+	IceShot: {
+		DisplayName: Ice Shot
+	}
+
+	IceStar: {
+		DisplayName: Ice Star
+	}
+
+	CryogenRitual: {
+		DisplayName: Cryogen Ritual
+	}
+
+	PermafrostRitual: {
+		DisplayName: Permafrost Ritual
+	}
+
+	IceCloud: {
+		DisplayName: Chilling Snow
+	}
+
+	BrimstoneDebris: {
+		DisplayName: Brimstone Debris
+	}
+
+	BrimstonePulse: {
+		DisplayName: Brimstone Pulse
+	}
+
+	BrimstoneClone: {
+		DisplayName: Brimstone Clone
+	}
+
+	BrimBeam: {
+		DisplayName: Brim Beam
+	}
+
+	BrimstoneChainExplosion: {
+		DisplayName: Brimstone Chain Explosion
+	}
+
+	BrimstoneTeleport: {
+		DisplayName: Brimstone Teleport
+	}
+
+	BrimstoneFireblast: {
+		DisplayName: Brimstone Fireblast
+	}
+
+	FeatherJumpFeather: {
+		DisplayName: Feather
+	}
+
+	MarniteDagger: {
+		DisplayName: Marnite Dagger
+	}
+
+	MarniteLaser: {
+		DisplayName: Marnite Laser
+	}
+
+	ProwlerTornado: {
+		DisplayName: Prowler Tornado
+	}
+
+	WulfrumCollector: {
+		DisplayName: Wulfrum Collector
+	}
+
+	WulfrumScanner: {
+		DisplayName: Wulfrum Scanner
+	}
+
+	CrystalPlatform: {
+		DisplayName: Crystal Platform
+	}
+
+	PlagueCloud: {
+		DisplayName: Plague Cloud
+	}
+
+	Eruption: {
+		DisplayName: Eruption
+	}
+
+	VampireBat: {
+		DisplayName: Vampire Bat
+	}
+
+	SulphurBubble: {
+		DisplayName: Sulphur Bubble
+	}
+
+	VictideSpike: {
+		DisplayName: Victide Spike
+	}
+
+	GoldenShowerShot: {
+		DisplayName: Golden Shower Shot
+	}
+
+	HiveMindFiretrail: {
+		DisplayName: Cursed Fire
+	}
+
+	BrainMassProjectile: {
+		DisplayName: Rotten Brainmass
+	}
+
+	GravityVileClot: {
+		DisplayName: Vile Clot
+	}
+
+	VileClotDrop: {
+		DisplayName: Vile Clot
+	}
+
+	SulphurCloud: {
+		DisplayName: Sulphur Cloud
+	}
+
+	PureGel: {
+		DisplayName: Pure Gel
+	}
+
+	HiveMindPulse: {
+		DisplayName: Hive Mind Pulse
+	}
+
+	ApolloLineTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	ApolloMissile: {
+		DisplayName: Plasma Missile
+	}
+
+	AresMissile: {
+		DisplayName: Thermal Missile
+	}
+
+	AresMissileBackground: {
+		DisplayName: Thermal Missile
+	}
+
+	ArtemisLaserImproved: {
+		DisplayName: Thermal Laser
+	}
+
+	ArtemisLaserSmall: {
+		DisplayName: Small Thermal Laser
+	}
+
+	CannonLaserbeam: {
+		DisplayName: Energized Thermal Deathray
+	}
+
+	DraedonLootCrate: {
+		DisplayName: Draedon Loot Crate
+	}
+
+	ExoelectricBlast: {
+		DisplayName: Exoelectric Blast
+	}
+
+	ExoOverloadDeathray: {
+		DisplayName: Exo Overload Deathray
+	}
+
+	GaussNuke: {
+		DisplayName: Gauss Nuke
+	}
+
+	GaussNukeBoom: {
+		DisplayName: Thermonuclear Explosion
+	}
+
+	HadesExoEnergyOrb: {
+		DisplayName: Exoelectric Energy Orb
+	}
+
+	HadesLaserBurst: {
+		DisplayName: Laser Burst
+	}
+
+	HadesMine: {
+		DisplayName: Hades Mine
+	}
+
+	HadesSuperLaserbeam: {
+		DisplayName: Exo Energy Blast
+	}
+
+	HomingTeslaBurst: {
+		DisplayName: Tesla Burst
+	}
+
+	LargeTeslaSphere: {
+		DisplayName: Tesla Sphere
+	}
+
+	LargeTeslaSphereExplosion: {
+		DisplayName: Tesla Explosion
+	}
+
+	LingeringPlasmaFireball: {
+		DisplayName: Plasma Fireball
+	}
+
+	SmallTeslaArc: {
+		DisplayName: Tesla Arc
+	}
+
+	ExothermalDisintegrationRay: {
+		DisplayName: Exothermal Disintegration Ray
+	}
+
+	ScourgeSandstream: {
+		DisplayName: Scourge Sandstream
+	}
+
+	SmallTeslaSphere: {
+		DisplayName: Tesla Sphere
+	}
+
+	PlasmaFlameJet: {
+		DisplayName: Exoplasma Flame Jet
+	}
+
+	BlazingExoLaserbeam: {
+		DisplayName: Blazing Exo Laserbeam
+	}
+
+	AresDeathAnimationExplosion: {
+		DisplayName: Explosion
+	}
+
+	SmallHadesSegmentExplosion: {
+		DisplayName: Explosion
+	}
+
+	BigHadesSegmentExplosion: {
+		DisplayName: Explosion
+	}
+
+	AresCoreLaserSmall: {
+		DisplayName: Energized Spark
+	}
+
+	AresSwingingKatanas: {
+		DisplayName: XF-09 Ares Energy Katana
+	}
+
+	ApolloPlasmaFireball: {
+		DisplayName: Plasma Fireball
+	}
+
+	AresHyperfuturisticPortal: {
+		DisplayName: Hyperfuturistic Portal
+	}
+
+	ExoTwinHyperfuturisticPortal: {
+		DisplayName: Hyperfuturistic Portal
+	}
+
+	HadesMissile: {
+		DisplayName: Fortified Missile
+	}
+
+	CodebreakerDataStream: {
+		DisplayName: Codebreaker Data Stream
+	}
+
+	CrabulonJumpTelegraph: {
+		DisplayName: Crabulon Jump Telegraph
+	}
+
+	BigBubble: {
+		DisplayName: Big Bubble
+	}
+
+	Bubble: {
+		DisplayName: Bubble
+	}
+
+	AquaticSuck: {
+		DisplayName: Aquatic Suck
+	}
+
+	FlamableGas: {
+		DisplayName: Flamable Gas
+	}
+
+	ToxicGas: {
+		DisplayName: Toxic Gas
+	}
+
+	FathomAngler: {
+		DisplayName: Fathom Angler
+	}
+
+	AstralTrailStar: {
+		DisplayName: Astral Trail Star
+	}
+
+	BrimflameBurst: {
+		DisplayName: Brimflame Burst
+	}
+
+	ClamSlam: {
+		DisplayName: Clam Slam
+	}
+
+	SmallCannonLaser: {
+		DisplayName: Laser
+	}
+
+	PulseBlast: {
+		DisplayName: Pulse Blast
+	}
+
+	HadesLineTelegraph: {
+		DisplayName: Hades Line Telegraph
+	}
+
+	ApolloMissile2: {
+		DisplayName: Apollo Missile
+	}
+
+	BatMode: {
+		DisplayName: Bat Mode
+	}
+
+	PerfExplosion: {
+		DisplayName: Perforating Explosion
+	}
+
+	PerforatorSpike: {
+		DisplayName: Perforating Spike
+	}
+
+	PerforatorLegHitbox: {
+		DisplayName: Perforator Leg
+	}
+
+	PerforatorRubble: {
+		DisplayName: Perforating Rubble
+	}
+
+	DaedalusArrow: {
+		DisplayName: Daedalus Arrow
+	}
+
+	ExplorationFeather: {
+		DisplayName: Feather
+	}
+
+	SulphurParticulate: {
+		DisplayName: Sulphur Particulate
+	}
+
+	GaleSpine: {
+		DisplayName: Gale Spine
+	}
+
+	HydrothermicVentShot: {
+		DisplayName: Hydrothermic Flare
+	}
+
+	ChargedGigablast: {
+		DisplayName: Brimstone Gigablast
+	}
+
+	SuckedRock: {
+		DisplayName: Sucked Rock
+	}
+
+	CalcloneWave: {
+		DisplayName: Fire Wave
+	}
+
+	EmpyreanStar: {
+		DisplayName: Empyrean Star
+	}
+
+	BrimstoneArtillery: {
+		DisplayName: Brimstone Hellblast
+	}
+
+	BrimstoneFireball: {
+		DisplayName: Brimstone Fireball
+	}
+
+	Gigablast: {
+		DisplayName: Brimstone Gigablast
+	}
+
+	Fireblast: {
+		DisplayName: Brimstone Fireblast
+	}
+
+	BrimstoneBall: {
+		DisplayName: Brimstone Fireball
+	}
+
+	BrothersEyeFlash: {
+		DisplayName: Eye Flash
+	}
+
+	BrimstoneBarrageGravitating: {
+		DisplayName: Brimstone Dart
+	}
+
+	MutantFrostMist: {
+		DisplayName: Frost Mist
+	}
+
+	CalcloneFireBackground: {
+		DisplayName: Fire Background
+	}
+
+	BrothersDashTrail: {
+		DisplayName: Dash Trail
+	}
+
+	AquaticUrchinProjectile: {
+		DisplayName: Aquatic Urchin
+	}
+
+	ArsenalCrate: {
+		DisplayName: Explosive Crate
+	}
+
+	ExplosiveCrate: {
+		DisplayName: Explosive Crate
+	}
+
+	FallingVomitGore: {
+		DisplayName: Gore
+	}
+
+	FuelSpark: {
+		DisplayName: Fuel Spark
+	}
+
+	LingeringAcidBubble: {
+		DisplayName: Acid Bubble
+	}
+
+	NuclearHurricane: {
+		DisplayName: Nuclear Hurricane
+	}
+
+	NuclearVortex: {
+		DisplayName: Nuclear Vortex
+	}
+
+	SwervingRadioactiveCinder: {
+		DisplayName: Radioactive Cinder
+	}
+
+	TastyFuelContainer: {
+		DisplayName: Fuel Container
+	}
+
+	TrasherProjectile: {
+		DisplayName: Trasher
+	}
+
+	VortexFormingAcidDroplet: {
+		DisplayName: Acid Droplet
+	}
+
+	AbomMauler: {
+		DisplayName: Mauler
+	}
+
+	MushroomSpear2: {
+		DisplayName: Mushroom Spear
+	}
+}
+
+Toggler: {
+	CalamitySoulHeader: 災厄のソウル
+	VagabondsSoulHeader: 流離人のソウル
+	NanotechEffect: "{$Mods.CalamityMod.Items.Accessories.Nanotech.DisplayName}の効果"
+	EclipseMirrorEffect: "{$Mods.CalamityMod.Items.Accessories.EclipseMirror.DisplayName}の効果"
+	AmalgamEffect: "{$Mods.CalamityMod.Items.Accessories.TheAmalgam.DisplayName}の効果"
+	AsgardianAegisEffect: "{$Mods.CalamityMod.Items.Accessories.AsgardianAegis.DisplayName}の効果"
+	RampartofDeitiesEffect: "{$Mods.CalamityMod.Items.Accessories.RampartofDeities.DisplayName}の効果"
+	ElementalGauntletEffect: "{$Mods.CalamityMod.Items.Accessories.ElementalGauntlet.DisplayName}の効果"
+	EtherealTalismanEffect: "{$Mods.CalamityMod.Items.Accessories.EtherealTalisman.DisplayName}の効果"
+	CalamitySniperHeader: Calamity {$Mods.FargowiltasSouls.Items.SnipersSoul.DisplayName}
+	ElementalQuiverEffect: "{$Mods.CalamityMod.Items.Accessories.ElementalQuiver.DisplayName}の効果"
+	QuiverofNihilityEffect: "{$Mods.CalamityMod.Items.Accessories.QuiverofNihility.DisplayName}の効果"
+	NucleogenesisEffect: "{$Mods.CalamityMod.Items.Accessories.Nucleogenesis.DisplayName}の効果"
+	StatisVoidSashEffect: "{$Mods.CalamityMod.Items.Accessories.StatisVoidSash.DisplayName}の効果"
+	AbyssalDivingSuitEffect: "{$Mods.CalamityMod.Items.Accessories.AbyssalDivingSuit.DisplayName}の効果"
+	BrandoftheBrimstoneWitchHeader: "{$Items.BrandoftheBrimstoneWitch.DisplayName}"
+	HeartoftheElementsEffect: "{$Mods.CalamityMod.Items.Accessories.HeartoftheElements.DisplayName}の効果"
+	OccultSkullCrownEffect: "{$Mods.CalamityMod.Items.Accessories.OccultSkullCrown.DisplayName}の効果"
+	PurityEffect: "{$Mods.CalamityMod.Items.Accessories.Radiance.DisplayName}の効果"
+	TheSpongeEffect: "{$Mods.CalamityMod.Items.Accessories.TheSponge.DisplayName}の効果"
+	ChaliceOfTheBloodGodEffect: "{$Mods.CalamityMod.Items.Accessories.ChaliceOfTheBloodGod.DisplayName}の効果"
+	NebulousCoreEffect: "{$Mods.CalamityMod.Items.Accessories.NebulousCore.DisplayName}の効果"
+	YharimsGiftEffect: "{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}の効果"
+	DraedonsHeartEffect: "{$Mods.CalamityMod.Items.Accessories.DraedonsHeart.DisplayName}の効果"
+	CalamityEffect: "{$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}の効果"
+	GaleHeader: 疾風のフォース
+	SnowRuffianEffect: 雪の無法者のエアグライド
+	GaleSlowfallEffect: ゆっくり降下
+	StatigelEffect: 精製ジェルの移動ブースト
+	SulphurEffect: 硫黄の泡ジャンプ
+	VictideEffect: ヴィクタイドのトゲ
+	GaleSpineEffect: 疾風のトゲ
+	DesertProwlerEffect: チャージジャンプ
+	GaleJumpEffect: 無限ジャンプ
+	ElementsHeader: 元素のフォース
+	DaedalusEffect: ダイダロスの矢
+	ReaverEffect: リーヴァーのバフ
+	HydrothermicEffect: ハイドロサーミックの放熱
+	AerospecJumpEffect: エアロスペックの効果
+	MarniteRepulsionEffect: マーナイトの拒絶の盾効果
+	MarniteLasersEffect: マーナイトのレーザー
+	WulfrumEffect: ウルフラムドローン召喚
+	PlaguebringerEffect: 疫病の雲召喚
+	PlagueReaperEffect: デバフの伝染
+	TitanHeartEffect: Titan Size
+	UmbraphileEffect: コウモリフォーム
+	FathomSwarmerEffect: チョウチンアンコウ召喚
+	BrimflameEffect: ブリムフレイムバースト
+	MolluskEffect: 軟体動物の叩きつけ
+	EmpyreanEffect: エンピリアンの強化攻撃
+}
+
+WizardEffect: {
+	Aerospec: クリティカル率とダメージボーナスが2倍になる
+	Marnite: レーザーのダメージと射程が上昇し、設置可能距離ボーナスが2倍になる
+	DesertProwler: チャージジャンプが強化され、ノックバックとダメージも増加する
+	Wulfrum: スキャン済みの敵はデバフによる追加ダメージをさらに多く受ける
+	Hydrothermic: オーバーヒートの持続時間が延び、ダメージ軽減が45%に上昇、フレアのダメージも増加する
+	Daedalus: 矢のダメージ、発射数、速度が上昇する
+	SnowRuffian: 飛翔する能力を得る、飛行時間がなくなると滑空が可能となる
+	Reaver: 防御力とダメージ軽減率がそれぞれ30に上昇、ライフ自然回復と移動速度強化、棘のダメージ増加、バフの持続時間強化
+	Plaguebringer: 疫病の雲のダメージが上昇し、より遠くの感染した敵からでもチャージされる
+	PlagueReaper:
+		'''
+		デバフの伝染範囲が広がる  
+		敵がデバフを拡散し続ける時間が増加  
+		'''
+	Umbraphile: コウモリのダメージと回復量が増加する
+	Sulphur: ジャンプ時に泡を3つ生成する
+	Victide: トゲが重力の影響を受けず、毒を付与するようになる
+	Statigel: 最大移動速度が上昇し、ダメージボーナスが2倍になる
+	TitanHeart: ダメージ軽減率が2倍になり、地上でのチャージ速度が100％まで上昇する
+	FathomSwarmer: ライトの範囲が拡大し、チョウチンアンコウの移動速度が上昇する
+	Astral: 星の軌跡が長くなり、ダメージが増加する
+	Brimflame: 防御力の消費が半分になる、半分になっても全防御力分の効果を得られる
+	Mollusk: ダメージと無敵時間が増加する
+	Empyrean: ダメージ、回復量、レイジゲージの増加量が上昇する
+}
+
 ActiveSkills: {
 	ReaverEffect: {
 		DisplayName: 適応能力
@@ -42,73 +818,187 @@ Conditions: {
 	MutantDefeated: ミュータントが討伐された後
 }
 
-Configs.CalDLCConfig: {
-	DisplayName: Calamity 設定
+Configs: {
+	CalDLCConfig: {
+		DisplayName: Calamity 設定
 
-	Headers: {
-		Modes: モード
-		Balance: バランス
-	}
+		Headers: {
+			Modes: モード
+			Balance: バランス
+		}
 
-	ConsumableSummons: {
-		Label: エタニティモードでは召喚アイテムが消費型になる
-		Tooltip:
-			'''
-			バニラおよびCalamityの召喚アイテムを消費型に変更し、Calamity側の非消費化の仕様を上書きします
-			この変更は、以下の機能との整合性のために存在します
-			・エタニティモードでのボス戦時に召喚アイテムが返還される仕組み（実質的に非消費と同等）
-			・ミュータントNPC
-			・ミュータントMODの召喚アイテム派生
-			'''
-	}
+		ConsumableSummons: {
+			Label: エタニティモードでは召喚アイテムが消費型になる
+			Tooltip:
+				'''
+				バニラおよびCalamityの召喚アイテムを消費型に変更し、Calamity側の非消費化の仕様を上書きします
+				この変更は、以下の機能との整合性のために存在します
+				・エタニティモードでのボス戦時に召喚アイテムが返還される仕組み（実質的に非消費と同等）
+				・ミュータントNPC
+				・ミュータントMODの召喚アイテム派生
+				'''
+		}
 
-	EternityPriorityOverRev: {
-		Label: エタニティモードのボスAI(挙動)を適用する
-		Tooltip:
-			'''
-			有効：エタニティモードの挙動を優先します。一部のCalamityボスにはエタニティ専用のAIが適用されます
-			無効：CalamityのボスAIを使用します
-			'''
-	}
+		EternityPriorityOverRev: {
+			Label: エタニティモードのボスAI(挙動)を適用する
+			Tooltip:
+				'''
+				有効：エタニティモードの挙動を優先します。一部のCalamityボスにはエタニティ専用のAIが適用されます
+				無効：CalamityのボスAIを使用します
+				'''
+		}
 
-	InfernumDisablesEternity: {
-		Label: InfernumモードがエタニティAIを無効化
-		Tooltip: 
-			'''
-			この設定は、Infernum MODが有効なときのみ関係があります
-			注意：Infernumは互換性がありません。この設定に関わらず、不具合が発生する可能性があります
-			有効：InfernumモードはエタニティAIを完全に無効化します
-			無効：Infernumモード中でもエタニティAIは有効になりますが、「Calamityよりエタニティ優先」の場合はInfernum側のボスAIが優先されます
-			'''
-	}
+		InfernumDisablesEternity: {
+			Label: InfernumモードがエタニティAIを無効化
+			Tooltip:
+				'''
+				この設定は、Infernum MODが有効なときのみ関係があります
+				注意：Infernumは互換性がありません。この設定に関わらず、不具合が発生する可能性があります
+				有効：InfernumモードはエタニティAIを完全に無効化します
+				無効：Infernumモード中でもエタニティAIは有効になりますが、「Calamityよりエタニティ優先」の場合はInfernum側のボスAIが優先されます
+				'''
+		}
 
-	VoiceActingEnabled: {
-		Label: ボイス演出を有効にする
-		Tooltip: ボイス演出を有効にするかどうかを設定する
+		VoiceActingEnabled: {
+			Label: ボイス演出を有効にする
+			Tooltip: ボイス演出を有効にするかどうかを設定する
+		}
 	}
 }
 
 EModeBalance: {
-	CrossBalanceGeneric: "複合MOD調整:"
+	CrossBalanceGeneric: 複合MOD調整:
 	DamageUpGeneric: ダメージが{0}％増加
 	DamageDownGeneric: ダメージが{0}％減少
-	PickPowerDownGeneric: ツルハシのパワーが{0}%減少
+	PickPowerDownGeneric: ツルハシパワーが{0}%減少
 	MagicDagger: ハードモード前はダメージが50％減少
 	ProfanedCrystal: ミニオンが出ている間はダメージが大幅に減少する
-	MythrilEnch: ローグ武器は効力減少 
+	MythrilEnch: ローグ武器は効力減少
 	OrichalcumEnch: デバフダメージ増加が1.5倍に制限
-	Daawnlight: 錫のエンチャント効果が発動中は無効化 
-	SlimyShield: オイル状態を付与しない  
+	Daawnlight: 錫のエンチャント効果が発動中は無効化
+	SlimyShield: オイル状態を付与しない
 	FlightMastery: Souls Mod以外のボスとの戦闘時、飛行能力が減少
-	EarthForce: デバフダメージ増加が2倍に制限  
-	LifeForce: Souls Mod以外のボスとの戦闘時、飛行能力と飛行可能時間が減少 
-	OnionPackUpgrade:"[i:FargowiltasSouls/MutantsPact] ミュータントの誓約の上位互換となり、追加スロットに任意のアクセサリーを装備可能になる"
-	Laudanum: デバフ効果変換時のバフの能力半減  
+	EarthForce: デバフダメージ増加が2倍に制限
+	LifeForce: Souls Mod以外のボスとの戦闘時、飛行能力と飛行可能時間が減少
+	OnionPackUpgrade: "[i:FargowiltasSouls/MutantsPact] {$Mods.FargowiltasSouls.Items.MutantsPact.CelestialOnion.DisplayName}の上位互換となり、追加スロットに任意のアクセサリーを装備可能になる"
+	PactOnionUpgrade: "[i:CalamityMod/CelestialOnion] {$Mods.CalamityMod.Misc.CelestialOnion.DisplayName}と統合され、完全なスロットを付与する"
+	Laudanum: デバフ効果変換時のバフの能力半減
+	TheSponge: 再充填時間と遅延が25%増加
+	ExoBox: 移動速度が40%減少
 	HardmodeSwords: ステータス強化効果減少
 	OceanCrest: 水に入ることで発生するエタニティ系デバフに対する免疫を付与
-	// truth be told I have absolutely no idea what this enchantment is so the key name is just that
 	CalEnch: 累積ダメージが500,000に制限
 }
+
+EternityRevDifficulty: {
+	Name: Eternity-Revengeance
+	ShortDescription: "[c/00FFFF:Fargo's Modsによる高難度モード]かつ[c/880808:Revengeanceモード]の変更点を含みます。 "
+	ExpandedDescription:
+		'''
+		[c/00FFFF:Eternityモード]の内容を含んだ[c/880808:Revengeanceモード]を有効にします。
+		マスターモード限定ドロップが有効になります。
+		いくつかのCalamityボスに対して、[c/00FFFF:Eternityモード]の戦闘AIが適用されます。
+
+		EternityAI実装済みのボス
+		・カラミタスクローンまでの全ボス  
+		・オールドデューク  
+		・エクソメカ  
+		他のボスについては開発中です！
+		初期設定では、[c/00FFFF:Eternityモード]のAIが優先されます。設定で変更可能です。 
+
+		特徴
+
+		・ボスや敵が強化されるリワークを適用
+		・マスターモードのドロップを有効化
+		・Eternityモード限定の新アイテムを追加
+		・「デビアント」がスターターパックを提供し、進行に応じたアドバイスを行う
+		・基本ステータスが向上し、ダメージ軽減（DR）の上限が75％に設定
+		・攻撃していない間、デバフの効果が早く切れる
+		・一部のアイテムの性能や機能が変更  
+		[i:1612][c/00ff00:Fargo's Mutant Modのデバフ表示機能（設定で有効化）を推奨]
+		'''
+	Activation: Eternity-Revengeanceモードが有効になりました！
+	Deactivation: Eternity-Revengeanceモードが無効になりました
+}
+
+EternityDeathDifficulty: {
+	Name: Eternity-Death
+	ShortDescription: "[c/00FFFF:Fargo's Modsによる高難度モード]かつ[c/800080:Deathモード] [c/FFFFFF:の変更点と、バニラボスへの追加挙動を含みます。]"
+	ExpandedDescription:
+		'''
+		[c/00FFFF:Eternityモード]の内容を含んだ[c/800080:Deathモード]を有効にします。
+		[c/00FFFF:本MODの想定する基本的な難易度です。]
+		マスターモード限定ドロップが有効になります。
+		いくつかのCalamityボスに対して、[c/00FFFF:Eternityモード]の戦闘AIが適用されます。
+
+		EternityAI実装済みのボス
+		・カラミタスクローンまでの全ボス  
+		・オールドデューク  
+		・エクソメカ  
+		他のボスについては開発中です！
+		初期設定では、[c/00FFFF:Eternityモード]のAIが優先されます。設定で変更可能です。 
+
+		特徴
+
+		・ボスや敵が強化されるリワークを適用
+		・マスターモードのドロップを有効化
+		・Eternityモード限定の新アイテムを追加
+		・「デビアント」がスターターパックを提供し、進行に応じたアドバイスを行う
+		・基本ステータスが向上し、ダメージ軽減（DR）の上限が75％に設定
+		・攻撃していない間、デバフの効果が早く切れる
+		・一部のアイテムの性能や機能が変更  
+		[i:1612][c/00ff00:Fargo's Mutant Modのデバフ表示機能（設定で有効化）を推奨]
+		'''
+	Activation: Eternity-Deathモードが有効になりました！
+	Deactivation: Eternity-Deathモードが無効になりました
+}
+
+UI: {
+	ToggledWithCal: Calamityの難易度選択で切り替え可能
+	HadesIconMessage: ハデス ― 攻撃を通さない無敵の装甲と、無数のレーザー砲塔を備えた蛇型の戦闘兵器。
+	AresIconMessage: アレス ― 4基の分離型エクソ兵器を搭載した、重量級の殲滅兵器。
+	ArtemisAndApolloIconMessage: アルテミス＆アポロ ― 不安定なエネルギーを動力源とする、極めて高機動な双子の自律型兵器。
+}
+
+Buffs: {
+	CalamitousPresenceBuff: {
+		Description: 防御力、ダメージ軽減、ライフ自然回復が減少、グレイズ可能範囲が減少、ライフスティール無効
+		DisplayName: 災厄の存在
+	}
+}
+
+Cooldowns: {
+	DaedalusPlatformCooldown: ダイダロスの足場
+}
+
+ExpandedTooltips: {
+	FountainAstral: 起動すると周囲のバイオームが「アストラル汚染地帯」扱いになる（ハードモード時のみ）
+	FountainCrags: 起動すると周囲のバイオームが「地獄の岩山」扱いになる
+	FountainSulphur: 起動すると周囲のバイオームが「硫黄の海」扱いになる
+	FountainSunken: 起動すると周囲のバイオームが「沈没海」扱いになる
+	MasoModeDisabled: "[c/FF0000:Calamity Crossmod サポート:] Calamityの難易度選択でEternityを有効化してください！"
+	UsablePostMutant: "[c/FF0000:Calamity Crossmod サポート:] ミュータント撃破後にのみ使用可能"
+	DisabledByDefault: "[c/FF0000:Calamity Crossmod サポート:] この設定はデフォルトで無効になっています"
+}
+
+RecipeGroups: {
+	GildedDagger: ギルデッドダガー
+	EvilBar: 任意の邪悪なインゴット
+	VictideHelmet: 任意のヴィクタイドの兜
+	AerospecHelmet: 任意のエアロスペックの兜
+	StatigelHelmet: 任意の精製ジェルの兜
+	ReaverHelmet: 任意のリーヴァーの兜
+	DaedalusHelmet: 任意のダイダロスの兜
+	HydrothermicHelmet: 任意のハイドロサーミックの兜
+}
+
+BossRushDialogue: {
+	Start: 始めよう。
+	EndP1_1: 退屈だな。
+	EndP1_2: 手短に済ませよう。
+}
+
+EmodeBannedByInfernum: "[c/00ffee:Eternityモード]は[c/9c0000:Infernumモード]により無効化されています。"
 
 Items: {
 	AddedEffects: {
@@ -443,7 +1333,7 @@ Items: {
 
 	GaleForce: {
 		DisplayName: 疾風のフォース
-		Tooltip: 
+		Tooltip:
 			'''
 			[i:FargowiltasCrossmod/GaleForce] 空中で無制限にジャンプできるようになる(この効果が有効な場合、翼は無効化される)
 			[i:FargowiltasCrossmod/DesertProwlerEnchant] アップキーを押すことで低重力化し、ジャンプを連打すると高速で上昇する
@@ -565,7 +1455,11 @@ Items: {
 			'''
 	}
 
-	Lore.LoreDraedon.DisplayName: ドレイドン
+	Lore: {
+		LoreDraedon: {
+			DisplayName: ドレイドン
+		}
+	}
 
 	FathomSwarmerEnchant: {
 		DisplayName: ファソムスワーマーのエンチャント
@@ -604,7 +1498,6 @@ Items: {
 			'''
 	}
 
-	# This is used to detect and remove lines, not displayed. Must match Cal's localization.
 	NotConsumable: 消費されない
 
 	EmpyreanEnchant: {
@@ -619,37 +1512,54 @@ Items: {
 
 	Archmage: {
 		DisplayName: 大魔道士
-		Tooltip: "「君には優れた魔術師の資質がある。さて、君は氷の魔法についてどう思う？」"
+		Tooltip: 「君には優れた魔術師の資質がある。さて、君は氷の魔法についてどう思う？」
 	}
 
 	SeaKing: {
 		DisplayName: 海の王
-		Tooltip: "「我が故郷は滅び、我が民は失われた。しかし、彼らの記憶に敬意を表して、汝を助けよう。」"
+		Tooltip: 「我が故郷は滅び、我が民は失われた。しかし、彼らの記憶に敬意を表して、汝を助けよう。」
 	}
 
 	Bandit: {
 		DisplayName: 盗賊
-		Tooltip: "「とりあえず投げつければ何でも武器になるさ。」"
+		Tooltip: 「とりあえず投げつければ何でも武器になるさ。」
 	}
 
 	DrunkPrincess: {
 		DisplayName: 酔いどれ姫
-		Tooltip: "「魔法の空飛ぶユニコーンに変身できるものを飲めば、私のようになれるかもね。」"
+		Tooltip: 「魔法の空飛ぶユニコーンに変身できるものを飲めば、私のようになれるかもね。」
 	}
 
 	BrimstoneWitch: {
 		DisplayName: 硫黄の魔女
-		Tooltip: "「呪いを解いて欲しい？いや、私にはできない。」"
+		Tooltip: 「呪いを解いて欲しい？いや、私にはできない。」
 	}
 }
 
-NPCs :{
-	FungalClump.DisplayName: 真菌の塊
-	LargePerforatorBody.DisplayName: 巨大パーフォレーター
-	LargePerforatorBody2.DisplayName: 巨大パーフォレーター
-	LargePerforatorHead.DisplayName: 巨大パーフォレーター
-	LargePerforatorTail.DisplayName: 巨大パーフォレーター
-	PermafrostBoss.DisplayName: パーマフロスト
+NPCs: {
+	FungalClump: {
+		DisplayName: 真菌の塊
+	}
+
+	LargePerforatorBody: {
+		DisplayName: 巨大パーフォレーター
+	}
+
+	LargePerforatorBody2: {
+		DisplayName: 巨大パーフォレーター
+	}
+
+	LargePerforatorHead: {
+		DisplayName: 巨大パーフォレーター
+	}
+
+	LargePerforatorTail: {
+		DisplayName: 巨大パーフォレーター
+	}
+
+	PermafrostBoss: {
+		DisplayName: パーマフロスト
+	}
 
 	AresHand: {
 		DisplayName: XF-09 アレス
@@ -664,68 +1574,68 @@ NPCs :{
 		IntroductionMonologue4: そして、戦いを通じてあなたの在り方を観察させてもらいましょう。
 		IntroductionMonologue5: さあ、選んでください。
 		IntroductionMonologueBrief: 選択してください。
-		ExoMechChoiceResponse1: よろしい。実験の開始に伴い、あなたの飛行能力を一時的に強化します。  
+		ExoMechChoiceResponse1: よろしい。実験の開始に伴い、あなたの飛行能力を一時的に強化します。
 		ExoMechChoiceResponse2: まもなく、彼らが到着するでしょう。
 		Interjection1: ふむ...
-		Interjection2_Thermal_Minor: どうやら、これまでに軽度の熱傷を負っているようですね。  
-		Interjection2_Thermal_Major: 現時点で、かなり深刻な熱傷を負っているようです。  
+		Interjection2_Thermal_Minor: どうやら、これまでに軽度の熱傷を負っているようですね。
+		Interjection2_Thermal_Major: 現時点で、かなり深刻な熱傷を負っているようです。
 		Interjection2_Thermal_NearLethal: 現時点で、致命傷に近い熱傷を負っているようですね。
-		Interjection2_Plasma_Minor: 現時点で、軽度のプラズマ熱傷が確認されています。  
-		Interjection2_Plasma_Major: 現時点で、深刻なプラズマ熱傷が確認されています。  
-		Interjection2_Plasma_NearLethal: 現時点で、致命的に近いプラズマ熱傷が確認されています。  
-		Interjection2_Electricity_Minor: 電撃による軽度の神経損傷が見受けられますね。  
-		Interjection2_Electricity_Major: 電撃によって深刻な神経損傷が発生しているようです。  
-		Interjection2_Electricity_NearLethal: 電撃によって、致命的に近い神経損傷を負っているようですね。  
-		Interjection2_Internal_Minor: 現在、軽度の内臓損傷が観測されています。  
-		Interjection2_Internal_Major: 現在、重度の内臓損傷が観測されています。  
+		Interjection2_Plasma_Minor: 現時点で、軽度のプラズマ熱傷が確認されています。
+		Interjection2_Plasma_Major: 現時点で、深刻なプラズマ熱傷が確認されています。
+		Interjection2_Plasma_NearLethal: 現時点で、致命的に近いプラズマ熱傷が確認されています。
+		Interjection2_Electricity_Minor: 電撃による軽度の神経損傷が見受けられますね。
+		Interjection2_Electricity_Major: 電撃によって深刻な神経損傷が発生しているようです。
+		Interjection2_Electricity_NearLethal: 電撃によって、致命的に近い神経損傷を負っているようですね。
+		Interjection2_Internal_Minor: 現在、軽度の内臓損傷が観測されています。
+		Interjection2_Internal_Major: 現在、重度の内臓損傷が観測されています。
 		Interjection2_Internal_NearLethal: 現在、致命傷に近い内臓損傷が観測されています。
-		Interjection2_BluntForceTrauma_Minor: 現在、軽度の鈍的外傷を受けているようですね。  
-		Interjection2_BluntForceTrauma_Major: 現在、重度の鈍的外傷が確認されています。  
-		Interjection2_BluntForceTrauma_NearLethal: 現在、致命傷に近い鈍的外傷を負っているようです。  
+		Interjection2_BluntForceTrauma_Minor: 現在、軽度の鈍的外傷を受けているようですね。
+		Interjection2_BluntForceTrauma_Major: 現在、重度の鈍的外傷が確認されています。
+		Interjection2_BluntForceTrauma_NearLethal: 現在、致命傷に近い鈍的外傷を負っているようです。
 		Interjection2_Undamaged: ダメージは一切確認されませんでした。...興味深いですね。
-		Interjection3: 実に素晴らしい結果です。  
-		Interjection4: 次の実験段階に備え、変数を初期状態に戻しましょう。  
-		Interjection5: それでは、覚悟を決めてください。  
-		Interjection6: 残る機体はまもなく再展開されます。  
-		Interjection7: 見事です。  
-		Interjection8: ここまでのあなたの能力、非常に興味深いですね。  
-		Interjection9: いよいよ、最終段階です。  
-		Interjection10: 最後の機体には、最大出力での稼働を命じてあります。  
-		Interjection10_Plural: 最後の機体群には、最大出力での稼働を命じてあります。  
+		Interjection3: 実に素晴らしい結果です。
+		Interjection4: 次の実験段階に備え、変数を初期状態に戻しましょう。
+		Interjection5: それでは、覚悟を決めてください。
+		Interjection6: 残る機体はまもなく再展開されます。
+		Interjection7: 見事です。
+		Interjection8: ここまでのあなたの能力、非常に興味深いですね。
+		Interjection9: いよいよ、最終段階です。
+		Interjection10: 最後の機体には、最大出力での稼働を命じてあります。
+		Interjection10_Plural: 最後の機体群には、最大出力での稼働を命じてあります。
 		Interjection11: 幸運を祈りますよ。
-		EndOfBattle_FirstDefeat1: 驚嘆すべき結果です...!  
-		EndOfBattle_FirstDefeat2: この結末は、私の仮説から大きく逸脱していますね。  
-		EndOfBattle_FirstDefeat3: 私はまもなく退きます。この戦闘から得られたデータは検証の価値があります。しかし、その前に――  
-		EndOfBattle_FirstDefeat4: これを受け取ってください。貴重な時間を割いてくれたことへの謝意として。  
-		EndOfBattle_FirstDefeat5: もし再び私の機体たちと戦いたいのであれば、コードブレイカーの操作方法はご存じのはずです。  
+		EndOfBattle_FirstDefeat1: 驚嘆すべき結果です...!
+		EndOfBattle_FirstDefeat2: この結末は、私の仮説から大きく逸脱していますね。
+		EndOfBattle_FirstDefeat3: 私はまもなく退きます。この戦闘から得られたデータは検証の価値があります。しかし、その前に――
+		EndOfBattle_FirstDefeat4: これを受け取ってください。貴重な時間を割いてくれたことへの謝意として。
+		EndOfBattle_FirstDefeat5: もし再び私の機体たちと戦いたいのであれば、コードブレイカーの操作方法はご存じのはずです。
 		EndOfBattle_FirstDefeat6: それでは、またお会いしましょう。
-		EndOfBattle_SuccessiveDefeat1: お疲れ様でした、実験は終了です。  
-		EndOfBattle_SuccessiveDefeat2: 少々お待ちください...結果を分析します。  
-		EndOfBattle_SuccessiveDefeat3_Perfect: 驚嘆に値します。あなたの戦闘能力、忍耐、精密さ、そして技術――すべて見届けました。  
-		EndOfBattle_SuccessiveDefeat3_Excellent: 優れた資質です。もう少し正確性があれば、完璧に到達できるかもしれません。  
+		EndOfBattle_SuccessiveDefeat1: お疲れ様でした、実験は終了です。
+		EndOfBattle_SuccessiveDefeat2: 少々お待ちください...結果を分析します。
+		EndOfBattle_SuccessiveDefeat3_Perfect: 驚嘆に値します。あなたの戦闘能力、忍耐、精密さ、そして技術――すべて見届けました。
+		EndOfBattle_SuccessiveDefeat3_Excellent: 優れた資質です。もう少し正確性があれば、完璧に到達できるかもしれません。
 		EndOfBattle_SuccessiveDefeat3_Good: 有益な結果です。
-		EndOfBattle_SuccessiveDefeat3_Acceptable: 平凡ではありますが、参考にはなります。  
-		EndOfBattle_SuccessiveDefeat3_Bad: 私にとって、このデータの価値は低いですね。  
-		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: このようなデータでは、私の研究には何の意味もありません。  
+		EndOfBattle_SuccessiveDefeat3_Acceptable: 平凡ではありますが、参考にはなります。
+		EndOfBattle_SuccessiveDefeat3_Bad: 私にとって、このデータの価値は低いですね。
+		EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: このようなデータでは、私の研究には何の意味もありません。
 		EndOfBattle_SuccessiveDefeat4_Perfect: このデータはまさに至高の逸品です。
-		EndOfBattle_SuccessiveDefeat4_Excellent: 近いうちに革新的な洞察が得られるかもしれませんね。  
-		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: もし次があるならば、戦闘時間をもう少し長引かせてみてください。  
-		EndOfBattle_SuccessiveDefeat4_ImproveAggression: もし次があるならば、よりリスクのある戦術を試してみてはいかがでしょうか。  
-		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: もし次があるならば、消費アイテムによる強化を控えていただきたいです。  
-		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: もし次があるならば、回避精度を高めると良いでしょう。  
-		EndOfBattle_SuccessiveDefeat4_Bad: もっと洗練された戦い方であれば、有意義な分析ができたのですが。  
-		EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: あれでは...あまりにも短すぎて、何の考察もできません。  
+		EndOfBattle_SuccessiveDefeat4_Excellent: 近いうちに革新的な洞察が得られるかもしれませんね。
+		EndOfBattle_SuccessiveDefeat4_ImproveFightTime: もし次があるならば、戦闘時間をもう少し長引かせてみてください。
+		EndOfBattle_SuccessiveDefeat4_ImproveAggression: もし次があるならば、よりリスクのある戦術を試してみてはいかがでしょうか。
+		EndOfBattle_SuccessiveDefeat4_ImproveBuffs: もし次があるならば、消費アイテムによる強化を控えていただきたいです。
+		EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: もし次があるならば、回避精度を高めると良いでしょう。
+		EndOfBattle_SuccessiveDefeat4_Bad: もっと洗練された戦い方であれば、有意義な分析ができたのですが。
+		EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: あれでは...あまりにも短すぎて、何の考察もできません。
 		EndOfBattle_SuccessiveDefeat5: 次の挑戦を楽しみにしています。
-		EndOfBattle_FirstDefeatReconBodyKill1: 興味深いですね...  
-		EndOfBattle_FirstDefeatReconBodyKill2: 気性の激しさ――その因子は想定外でした。  
-		EndOfBattle_FirstDefeatReconBodyKill3: ......とはいえ、話を戻しましょうか。  
-		Death: 計算の範囲内です。  
-		PlayerDeathAtAmusingTime: ずいぶんと間の悪いタイミングでしたね......ですが、これも想定内です。  
+		EndOfBattle_FirstDefeatReconBodyKill1: 興味深いですね...
+		EndOfBattle_FirstDefeatReconBodyKill2: 気性の激しさ――その因子は想定外でした。
+		EndOfBattle_FirstDefeatReconBodyKill3: ......とはいえ、話を戻しましょうか。
+		Death: 計算の範囲内です。
+		PlayerDeathAtAmusingTime: ずいぶんと間の悪いタイミングでしたね......ですが、これも想定内です。
 		Error: この現実の織り目が、軋む音を立てて裂けていく...
 	}
 
 	MutantGFBText: {
-		QuoteP2: 遊びはここまでだ。  
+		QuoteP2: 遊びはここまでだ。
 		QuoteDoG: 世界が震えている...
 	}
 
@@ -736,375 +1646,28 @@ NPCs :{
 	}
 
 	PermafrostChat: {
-		Defeat1: 君の腕前、確かに見せてもらった！私を解放し、久々に戦いの勘を取り戻す機会をくれて感謝する。  
+		Defeat1: 君の腕前、確かに見せてもらった！私を解放し、久々に戦いの勘を取り戻す機会をくれて感謝する。
 		Defeat2: ふう、いい手合わせだった。たまには体を動かさないとな、感謝する。
 	}
 
 	ThanatosRename: XM-04 ハデス
 	ApolloRename: XS-11 アポロ
 	ExoTwinsRenameNormal: XS-01 アルテミス ＆ XS-11 アポロ
-	MutantBR.DisplayName: ミュータント-BR
-	MediumWormBodySegment.DisplayName: 中型ワームの胴体
-	MediumWormHeadSegment.DisplayName: 中型ワームの頭部
-	MediumWormTailSegment.DisplayName: 中型ワームの尾部
-}
 
-Projectiles :{
-	FungusBall.DisplayName: Fungus Ball
-	MushroomSpear.DisplayName: Mushroom Spear
-	ShroomGas.DisplayName: Shroom Gas
-	SandChunk.DisplayName: Sand Chunk
-	SuckedSandBlast.DisplayName: Sand Blast
-	CursedLightning.DisplayName: Cursed Lightning
-	CurvingCursedFlames.DisplayName: Curving Cursed Flames
-	MovingCorruptCloud.DisplayName: Moving Corrupt Cloud
-	ShadeLightningCloud.DisplayName: Shade Lightning Cloud
-	ToothBall.DisplayName: Tooth Ball
-	Tooth.DisplayName: Tooth
-	HomingRocket.DisplayName: Homing Rocket
-	HomingSickle.DisplayName: Homing Sickle
-	HallowedSlimeSpike.DisplayName: Hallowed Slime Spike
-	BouncingFireball.DisplayName: Bouncing Fireball
-	BigLight.DisplayName: Big Light
-	DestructionBolt.DisplayName: Destruction Bolt
-	StarofDestruction.DisplayName: Star of Destruction
-
-	Boss: {
-		AcceleratingEbonianGlob.DisplayName: Ebonian Glob
-		AcceleratingCrimulanGlob.DisplayName: Crimulan Glob
-		SlimeHomingEbonianGlob.DisplayName: Ebonian Glob
-		SlimeHomingCrimuleanGlob.DisplayName: Crimulean Glob
-		MutantYharonVortex.DisplayName: The Sun
-		IchorShotFast.DisplayName: Ichor Shot
+	MutantBR: {
+		DisplayName: ミュータント-BR
 	}
 
-	SlamTelegraph.DisplayName: Slam Telegraph
-	IceBomb.DisplayName: Ice Bomb
-	IceCrystal.DisplayName: Ice Crystal
-	IceChain.DisplayName: Ice Chain
-	IceTrident.DisplayName: Ice Trident
-	CrimsonPaladinSpike.DisplayName: Crimson Spike
-	PermafrostHeldWeapon.DisplayName: Permafrost Held Weapon
-	MutantOldDuke.DisplayName: Old Duke
-	DLCMutantSpearSpin.DisplayName: Mutant's Atlantis
-	DLCMutantSpearDash.DisplayName: Mutant's Atlantis
-	MutantAresNuke.DisplayName: Mutant's Gauss Nuke
-	MutantAresBomb.DisplayName: Mutant's Gauss Nuke
-	DLCMutantFishronRitual.DisplayName: Mutant Gauss Ritual
-	MutantSlimeGod.DisplayName: Slime God
-	DLCBloomLine.DisplayName: Telegraph Line
-	MutantSCal.DisplayName: Calamitas' Skullshield
-	MutantPBG.DisplayName: Plaguebringer Goliath
-	MutantAureusSpawn.DisplayName: Aureus Spawn
-	MutantHolyRay.DisplayName: Holy Ray
-	MutantDoGBody.DisplayName: The Devourer of Gods
-	MutantDoGHead.DisplayName: The Devourer of Gods
-	MutantDoGTail.DisplayName: The Devourer of Gods
-	MutantPolter.DisplayName: Necroplasm
-	ArcticPaw.DisplayName: Arctic Paw
-	Blizzard.DisplayName: Blizzard
-	DarkIceCrystal.DisplayName: Dark Ice Crystal
-	FrostFlare.DisplayName: Frost Flare
-	FrostShard.DisplayName: Frost Shard
-	IceArrow.DisplayName: Ice Arrow
-	IceShot.DisplayName: Ice Shot
-	IceStar.DisplayName: Ice Star
-	CryogenRitual.DisplayName: Cryogen Ritual
-	PermafrostRitual.DisplayName: Permafrost Ritual
-	IceCloud.DisplayName: Chilling Snow
-	BrimstoneDebris.DisplayName: Brimstone Debris
-	BrimstonePulse.DisplayName: Brimstone Pulse
-	BrimstoneClone.DisplayName: Brimstone Clone
-	BrimBeam.DisplayName: Brim Beam
-	BrimstoneChainExplosion.DisplayName: Brimstone Chain Explosion
-	BrimstoneTeleport.DisplayName: Brimstone Teleport
-	BrimstoneFireblast.DisplayName: Brimstone Fireblast
-	FeatherJumpFeather.DisplayName: Feather
-	MarniteDagger.DisplayName: Marnite Dagger
-	MarniteLaser.DisplayName: Marnite Laser
-	ProwlerTornado.DisplayName: Prowler Tornado
-	WulfrumCollector.DisplayName: Wulfrum Collector
-	WulfrumScanner.DisplayName: Wulfrum Scanner
-	CrystalPlatform.DisplayName: Crystal Platform
-	PlagueCloud.DisplayName: Plague Cloud
-	Eruption.DisplayName: Eruption
-	VampireBat.DisplayName: Vampire Bat
-	SulphurBubble.DisplayName: Sulphur Bubble
-	VictideSpike.DisplayName: Victide Spike
-	GoldenShowerShot.DisplayName: Golden Shower Shot
-	HiveMindFiretrail.DisplayName: Cursed Fire
-	BrainMassProjectile.DisplayName: Rotten Brainmass
-	GravityVileClot.DisplayName: Vile Clot
-	VileClotDrop.DisplayName: Vile Clot
-	SulphurCloud.DisplayName: Sulphur Cloud
-	PureGel.DisplayName: Pure Gel
-	HiveMindPulse.DisplayName: Hive Mind Pulse
-	ApolloLineTelegraph.DisplayName: Telegraph
-	ApolloMissile.DisplayName: Plasma Missile
-	AresMissile.DisplayName: Thermal Missile
-	AresMissileBackground.DisplayName: Thermal Missile
-	ArtemisLaserImproved.DisplayName: Thermal Laser
-	ArtemisLaserSmall.DisplayName: Small Thermal Laser
-	CannonLaserbeam.DisplayName: Energized Thermal Deathray
-	DraedonLootCrate.DisplayName: Draedon Loot Crate
-	ExoelectricBlast.DisplayName: Exoelectric Blast
-	ExoOverloadDeathray.DisplayName: Exo Overload Deathray
-	GaussNuke.DisplayName: Gauss Nuke
-	GaussNukeBoom.DisplayName: Thermonuclear Explosion
-	HadesExoEnergyOrb.DisplayName: Exoelectric Energy Orb
-	HadesLaserBurst.DisplayName: Laser Burst
-	HadesMine.DisplayName: Hades Mine
-	HadesSuperLaserbeam.DisplayName: Exo Energy Blast
-	HomingTeslaBurst.DisplayName: Tesla Burst
-	LargeTeslaSphere.DisplayName: Tesla Sphere
-	LargeTeslaSphereExplosion.DisplayName: Tesla Explosion
-	LingeringPlasmaFireball.DisplayName: Plasma Fireball
-	SmallTeslaArc.DisplayName: Tesla Arc
-	ExothermalDisintegrationRay.DisplayName: Exothermal Disintegration Ray
-	ScourgeSandstream.DisplayName: Scourge Sandstream
-	SmallTeslaSphere.DisplayName: Tesla Sphere
-	PlasmaFlameJet.DisplayName: Exoplasma Flame Jet
-	BlazingExoLaserbeam.DisplayName: Blazing Exo Laserbeam
-	AresDeathAnimationExplosion.DisplayName: Explosion
-	SmallHadesSegmentExplosion.DisplayName: Explosion
-	BigHadesSegmentExplosion.DisplayName: Explosion
-	AresCoreLaserSmall.DisplayName: Energized Spark
-	AresSwingingKatanas.DisplayName: XF-09 Ares Energy Katana
-	ApolloPlasmaFireball.DisplayName: Plasma Fireball
-	AresHyperfuturisticPortal.DisplayName: Hyperfuturistic Portal
-	ExoTwinHyperfuturisticPortal.DisplayName: Hyperfuturistic Portal
-	HadesMissile.DisplayName: Fortified Missile
-	CodebreakerDataStream.DisplayName: Codebreaker Data Stream
-	CrabulonJumpTelegraph.DisplayName: Crabulon Jump Telegraph
-	BigBubble.DisplayName: Big Bubble
-	Bubble.DisplayName: Bubble
-	AquaticSuck.DisplayName: Aquatic Suck
-	FlamableGas.DisplayName: Flamable Gas
-	ToxicGas.DisplayName: Toxic Gas
-	FathomAngler.DisplayName: Fathom Angler
-	AstralTrailStar.DisplayName: Astral Trail Star
-	BrimflameBurst.DisplayName: Brimflame Burst
-	ClamSlam.DisplayName: Clam Slam
-	SmallCannonLaser.DisplayName: Laser
-	PulseBlast.DisplayName: Pulse Blast
-	HadesLineTelegraph.DisplayName: Hades Line Telegraph
-	ApolloMissile2.DisplayName: Apollo Missile
-	BatMode.DisplayName: Bat Mode
-	PerfExplosion.DisplayName: Perforating Explosion
-	PerforatorSpike.DisplayName: Perforating Spike
-	PerforatorLegHitbox.DisplayName: Perforator Leg
-	PerforatorRubble.DisplayName: Perforating Rubble
-	DaedalusArrow.DisplayName: Daedalus Arrow
-	ExplorationFeather.DisplayName: Feather
-	SulphurParticulate.DisplayName: Sulphur Particulate
-	GaleSpine.DisplayName: Gale Spine
-	HydrothermicVentShot.DisplayName: Hydrothermic Flare
-	ChargedGigablast.DisplayName: Brimstone Gigablast
-	SuckedRock.DisplayName: Sucked Rock
-	CalcloneWave.DisplayName: Fire Wave
-	EmpyreanStar.DisplayName: Empyrean Star
-	BrimstoneArtillery.DisplayName: Brimstone Hellblast
-	BrimstoneFireball.DisplayName: Brimstone Fireball
-	Gigablast.DisplayName: Brimstone Gigablast
-	Fireblast.DisplayName: Brimstone Fireblast
-	BrimstoneBall.DisplayName: Brimstone Fireball
-	BrothersEyeFlash.DisplayName: Eye Flash
-	BrimstoneBarrageGravitating.DisplayName: Brimstone Dart
-	MutantFrostMist.DisplayName: Frost Mist
-	CalcloneFireBackground.DisplayName: Fire Background
-	BrothersDashTrail.DisplayName: Dash Trail
-	AquaticUrchinProjectile.DisplayName: Aquatic Urchin
-	ArsenalCrate.DisplayName: Explosive Crate
-	ExplosiveCrate.DisplayName: Explosive Crate
-	FallingVomitGore.DisplayName: Gore
-	FuelSpark.DisplayName: Fuel Spark
-	LingeringAcidBubble.DisplayName: Acid Bubble
-	NuclearHurricane.DisplayName: Nuclear Hurricane
-	NuclearVortex.DisplayName: Nuclear Vortex
-	SwervingRadioactiveCinder.DisplayName: Radioactive Cinder
-	TastyFuelContainer.DisplayName: Fuel Container
-	TrasherProjectile.DisplayName: Trasher
-	VortexFormingAcidDroplet.DisplayName: Acid Droplet
-	AbomMauler.DisplayName: Mauler
-	MushroomSpear2.DisplayName: Mushroom Spear
-}
+	MediumWormBodySegment: {
+		DisplayName: 中型ワームの胴体
+	}
 
-Toggler :{
-	CalamitySoulHeader: 災厄のソウル
-	VagabondsSoulHeader: 流離人のソウル
-	NanotechEffect: ナノテックの効果
-	EclipseMirrorEffect: 日食の鏡の効果
-	AmalgamEffect: ジ・アマルガムの効果
-	AsgardianAegisEffect: アスガルドの護盾の効果
-	RampartofDeitiesEffect: 神々の防壁の効果
-	ElementalGauntletEffect: エレメンタルのガントレットの効果
-	EtherealTalismanEffect: エーテルのタリスマンの効果
-	CalamitySniperHeader: Calamity 狙撃手のソウル
-	ElementalQuiverEffect: エレメンタルの矢筒の効果
-	QuiverofNihilityEffect: 虚無の矢筒の効果
-	NucleogenesisEffect: ニュークレオジェネシスの効果
-	StatisVoidSashEffect:スタティスの深淵の帯の効果
-	AbyssalDivingSuitEffect: 深海の潜水具の効果
-	BrandoftheBrimstoneWitchHeader: "{$Mods.FargowiltasCrossmod.Items.BrandoftheBrimstoneWitch.DisplayName}"
-	HeartoftheElementsEffect: ハート・オブ・エレメンタルの効果
-	OccultSkullCrownEffect: オカルトスカルの王冠の効果
-	PurityEffect: ラディアンスの効果
-	TheSpongeEffect: スポンジの効果
-	ChaliceOfTheBloodGodEffect: 血の神の聖杯の効果
-	NebulousCoreEffect: 星雲のコアの効果
-	YharimsGiftEffect: "{$Mods.CalamityMod.Items.Accessories.YharimsGift.DisplayName}の効果"
-	DraedonsHeartEffect: ドレイドンの心臓の効果
-	CalamityEffect: "{$Mods.CalamityMod.Items.Accessories.Calamity.DisplayName}の効果"
-	// gale
-	GaleHeader: 疾風のフォース
-	SnowRuffianEffect: 雪の無法者のエアグライド
-	GaleSlowfallEffect: ゆっくり降下
-	StatigelEffect: 精製ジェルの移動ブースト
-	SulphurEffect: 硫黄の泡ジャンプ
-	VictideEffect: ヴィクタイドのトゲ
-	GaleSpineEffect: 疾風のトゲ
-	DesertProwlerEffect: チャージジャンプ
-	GaleJumpEffect: 無限ジャンプ
-	// elements
-	ElementsHeader: 元素のフォース
-	DaedalusEffect: ダイダロスの矢
-	ReaverEffect: リーヴァーのバフ
-	HydrothermicEffect: ハイドロサーミックの放熱
-	AerospecJumpEffect: エアロスペックの効果
-	// world shaper
-	MarniteRepulsionEffect: マーナイトの拒絶の盾効果
-	MarniteLasersEffect: マーナイトのレーザー
-	// others
-	WulfrumEffect: ウルフラムドローン召喚
-	PlaguebringerEffect: 疫病の雲召喚
-	PlagueReaperEffect: デバフの伝染
-	TitanHeartEffect: Titan Size
-	UmbraphileEffect: コウモリフォーム
-	FathomSwarmerEffect: チョウチンアンコウ召喚
-	BrimflameEffect: ブリムフレイムバースト
-	MolluskEffect: 軟体動物の叩きつけ
-	EmpyreanEffect: エンピリアンの強化攻撃
-}
+	MediumWormHeadSegment: {
+		DisplayName: 中型ワームの頭部
+	}
 
-WizardEffect :{
-	Aerospec: クリティカル率とダメージボーナスが2倍になる  
-	Marnite: レーザーのダメージと射程が上昇し、設置可能距離ボーナスが2倍になる  
-	DesertProwler: チャージジャンプが強化され、ノックバックとダメージも増加する  
-	Wulfrum: スキャン済みの敵はデバフによる追加ダメージをさらに多く受ける  
-	Hydrothermic: オーバーヒートの持続時間が延び、ダメージ軽減が45%に上昇、フレアのダメージも増加する  
-	Daedalus: 矢のダメージ、発射数、速度が上昇する  
-	SnowRuffian: 飛翔する能力を得る、飛行時間がなくなると滑空が可能となる  
-	Reaver: 防御力とダメージ軽減率がそれぞれ30に上昇、ライフ自然回復と移動速度強化、棘のダメージ増加、バフの持続時間強化  
-	Plaguebringer: 疫病の雲のダメージが上昇し、より遠くの感染した敵からでもチャージされる 
-	PlagueReaper:
-		'''
-		デバフの伝染範囲が広がる  
-		敵がデバフを拡散し続ける時間が増加  
-		'''
-	Umbraphile: コウモリのダメージと回復量が増加する  
-	Sulphur: ジャンプ時に泡を3つ生成する   
-	Victide: トゲが重力の影響を受けず、毒を付与するようになる  
-	Statigel: 最大移動速度が上昇し、ダメージボーナスが2倍になる  
-	TitanHeart: ダメージ軽減率が2倍になり、地上でのチャージ速度が100％まで上昇する  
-	FathomSwarmer: ライトの範囲が拡大し、チョウチンアンコウの移動速度が上昇する  
-	Astral: 星の軌跡が長くなり、ダメージが増加する  
-	Brimflame: 防御力の消費が半分になる、半分になっても全防御力分の効果を得られる
-	Mollusk: ダメージと無敵時間が増加する 
-	Empyrean: ダメージ、回復量、レイジゲージの増加量が上昇する  
-}
-
-
-
-
-EternityRevDifficulty: {
-	Name: Eternity-Revengeance
-	ShortDescription: "[c/00FFFF:Fargo's Modsによる高難度モード]かつ[c/880808:Revengeanceモード]の変更点を含みます。 "
-	ExpandedDescription: 
-		'''
-		[c/00FFFF:Eternityモード]の内容を含んだ[c/880808:Revengeanceモード]を有効にします。
-		マスターモード限定ドロップが有効になります。
-		いくつかのCalamityボスに対して、[c/00FFFF:Eternityモード]の戦闘AIが適用されます。
-		
-		EternityAI実装済みのボス
-		・カラミタスクローンまでの全ボス  
-		・オールドデューク  
-		・エクソメカ  
-		他のボスについては開発中です！
-		初期設定では、[c/00FFFF:Eternityモード]のAIが優先されます。設定で変更可能です。 
-
-		{$Mods.FargowiltasSouls.UI.ExpandedFeatures}  
-		[i:1612][c/00ff00:Fargo's Mutant Modのデバフ表示機能（設定で有効化）を推奨]
-		'''
-	Activation: Eternity-Revengeanceモードが有効になりました！
-	Deactivation: Eternity-Revengeanceモードが無効になりました
-}
-
-EternityDeathDifficulty: {
-	Name: Eternity-Death
-	ShortDescription: "[c/00FFFF:Fargo's Modsによる高難度モード]かつ[c/800080:Deathモード] [c/FFFFFF:の変更点と、バニラボスへの追加挙動を含みます。]"
-	ExpandedDescription: 
-		'''
-		[c/00FFFF:Eternityモード]の内容を含んだ[c/800080:Deathモード]を有効にします。
-		[c/00FFFF:本MODの想定する基本的な難易度です。]
-		マスターモード限定ドロップが有効になります。
-		いくつかのCalamityボスに対して、[c/00FFFF:Eternityモード]の戦闘AIが適用されます。
-		
-		EternityAI実装済みのボス
-		・カラミタスクローンまでの全ボス  
-		・オールドデューク  
-		・エクソメカ  
-		他のボスについては開発中です！
-		初期設定では、[c/00FFFF:Eternityモード]のAIが優先されます。設定で変更可能です。 
-
-		{$Mods.FargowiltasSouls.UI.ExpandedFeatures}  
-		[i:1612][c/00ff00:Fargo's Mutant Modのデバフ表示機能（設定で有効化）を推奨]
-		'''
-	Activation: Eternity-Deathモードが有効になりました！
-	Deactivation: Eternity-Deathモードが無効になりました
-}
-
-UI: {
-	ToggledWithCal: Calamityの難易度選択で切り替え可能
-	HadesIconMessage: ハデス ― 攻撃を通さない無敵の装甲と、無数のレーザー砲塔を備えた蛇型の戦闘兵器。
-	AresIconMessage: アレス ― 4基の分離型エクソ兵器を搭載した、重量級の殲滅兵器。
-	ArtemisAndApolloIconMessage: アルテミス＆アポロ ― 不安定なエネルギーを動力源とする、極めて高機動な双子の自律型兵器。
-}
-
-Buffs: {
-	CalamitousPresenceBuff: {
-		DisplayName: 災厄の存在
-		Description: 防御力、ダメージ軽減、ライフ自然回復が減少、グレイズ可能範囲が減少、ライフスティール無効
-
+	MediumWormTailSegment: {
+		DisplayName: 中型ワームの尾部
 	}
 }
 
-Cooldowns.DaedalusPlatformCooldown: ダイダロスの足場
-
-ExpandedTooltips: {
-	FountainAstral: 起動すると周囲のバイオームが「アストラル汚染地帯」扱いになる（ハードモード時のみ）
-	FountainCrags: 起動すると周囲のバイオームが「地獄の岩山」扱いになる
-	FountainSulphur: 起動すると周囲のバイオームが「硫黄の海」扱いになる
-	FountainSunken: 起動すると周囲のバイオームが「沈没海」扱いになる
-	MasoModeDisabled: "[c/FF0000:Calamity Crossmod サポート:] Calamityの難易度選択でEternityを有効化してください！"
-	UsablePostMutant: "[c/FF0000:Calamity Crossmod サポート:] ミュータント撃破後にのみ使用可能"
-	DisabledByDefault: "[c/FF0000:Calamity Crossmod サポート:] この設定はデフォルトで無効になっています"
-}
-
-RecipeGroups: {
-	GildedDagger: ギルデッドダガー
-	EvilBar: 任意の邪悪なインゴット
-	VictideHelmet: 任意のヴィクタイドの兜
-	AerospecHelmet: 任意のエアロスペックの兜
-	StatigelHelmet: 任意の精製ジェルの兜
-	ReaverHelmet: 任意のリーヴァーの兜
-	DaedalusHelmet: 任意のダイダロスの兜
-	HydrothermicHelmet: 任意のハイドロサーミックの兜
-}
-
-BossRushDialogue: {
-	Start: 始めよう。
-	EndP1_1: 退屈だな。
-	EndP1_2: 手短に済ませよう。
-}
-
-EmodeBannedByInfernum: "[c/00ffee:Eternityモード]は[c/9c0000:Infernumモード]により無効化されています。"
