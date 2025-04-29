@@ -147,8 +147,8 @@ Buffs: {
 	}
 
 	ElementalMix: {
-		DisplayName: Elemental Mix
-		Description: A beautiful elemental symphony is flaying you alive
+		DisplayName: 元素の乱流
+		Description: 美しい元素のシンフォニーが体を切り裂いている
 	}
 
 	CrushDepth: {
@@ -1600,7 +1600,7 @@ Items: {
 				'''
 				この存在は、我が世界では「夜空の神」として崇められている。死にゆく星を喰らい、新たな星を生み出す者だと言われている。
 				だが、君や私が知る数多の神々とは異なり、彼には罪がない。それは重要な違いだ。なぜなら、彼もまた神々と同様に病に蝕まれていたからだ。
-				その肉体を侵した穢れはテラリアの外から来たものだ。私もドレイドンも、その正体を完全には掴めなかった。
+				その肉体を侵した穢れはこの世界の外から来たものだ。私もドレイドンも、その正体を完全には掴めなかった。
 				意志を奪われた彼は、穢れた星空の塊をこの世界に落とし、それを守るために現れたのだ。
 				幸いにも、星々の間を彷徨うその壮大な存在は、真に死んだわけではない。
 				この地が恐ろしい代償を払ったとしても、無実の罪で裁かれることの代償に比べれば、それはなお些細なことだ。
@@ -1719,7 +1719,7 @@ Items: {
 			Lore:
 				'''
 				神を殺した際、その精髄を正しく処理しないと、取り返しのつかないことが起こる。
-				最初の神々を討ち取った際、裂けた体から溢れ出した、腐敗した精髄がテラリアの地中深くに潜り込むのを見過ごしてしまった。
+				最初の神々を討ち取った際、裂けた体から溢れ出した、腐敗した精髄が地中深くに潜り込むのを見過ごしてしまった。
 				この汚染された場所の存在そのものが、かつての神々が救いようのない存在であったことを物語っている。
 				'''
 		}
@@ -1751,10 +1751,10 @@ Items: {
 				今や君は無限の境界に立っている。その力は並外れたものだ。
 				勇気と欺瞞、真実と虚偽、忠誠と裏切り......君はこれらの概念を超越している。
 				君は通り道の全てを粉砕し、大地さえも君の意志に従う。君が踏みしめる場所では草が分かれ、君が見つめる場所では星々が輝くのが分からないか？
-				テラリアそのものが君の前に跪く。それが恐れによるものか、敬意によるものかはわからない。
+				この世界そのものが君の前に跪く。それが恐れによるものか、敬意によるものかはわからない。
 				これは、ドラゴンたちが持っていた力...彼らが操った原初の力だ。今や私たちの間に残されたものはほとんどない。
 				君が私と戦うつもりではなかったのなら、これほど遠くまで来ることはなかっただろう。
-				準備が整った時、ドラゴンの巣の頂にある「光の墓」を訪ねよ。
+				準備が整った時、竜の聖域の頂にある「光の墓」を訪ねよ。
 				私は君の挑戦を、待っている。
 				'''
 		}
@@ -2003,7 +2003,7 @@ Items: {
 			DisplayName: 前兆
 			Lore:
 				'''
-				かつて「竜の時代」と呼ばれる時代において、偉大なるドラゴンたちはテラリアをあらゆる脅威から守っていた。
+				かつて「竜の時代」と呼ばれる時代において、偉大なるドラゴンたちはこの世界をあらゆる脅威から守っていた。
 				しかし、星の彼方より現れた異形の巨獣が、ドラゴンたちを襲った。
 				全力を尽くして戦ったドラゴンたちはその怪物を傷つけ、弱体化させることには成功したものの、完全に滅ぼすことはできなかった。
 				選択肢を失った彼らは、その怪物を元の姿の影も形もないまでに破壊し、封印するほかなかった。
@@ -2057,7 +2057,7 @@ Items: {
 				戦いの後に逃げ去ったスライムゴッドは、解き放たれたエッセンスから新たな守護者を作り出したようだ。
 				新たな力を吸収する過程に囚われ、再び逃げることはできなかったのかもしれない。
 				あるいは、生存への必死の執念に駆られていたのかもしれない。
-				なんと見事な狩りだったことか。そして、なんと手強い敵だったことか。これで君は彼らを追い続け、テラリアの果てまでも追跡しなければならないと悟ったはずだ。
+				なんと見事な狩りだったことか。そして、なんと手強い敵だったことか。これで君は彼らを追い続け、世界の果てまでも追跡しなければならないと悟ったはずだ。
 				'''
 		}
 
@@ -8948,8 +8948,8 @@ Items: {
 			DisplayName: アンドロンバ
 			Tooltip:
 				'''
-				 <right>を押すと、溶液を挿入する
-				溶液が挿入されている間、ルンバは変形する
+				 設置して<right>を押すと、手持ちの環境変更液を注入する
+				 環境変更液を注入すると、ルンバは変形して中身をばら撒き始める
 				'''
 		}
 
@@ -10118,12 +10118,12 @@ Items: {
 		}
 
 		DynamoStemCells: {
-			DisplayName: ダイナモステムセル
+			DisplayName: ダイナモ幹細胞
 			Tooltip:
 				'''
 				移動速度10%増加
 				遠距離武器はミニスウォーマーを放つことがある
-				竜の炎と帯電デバフを無効化する
+				竜の炎と帯電デバフを軽減する
 				'''
 		}
 
@@ -10838,7 +10838,7 @@ Items: {
 			DisplayName: ラディアンス
 			Tooltip:
 				'''
-				最大ライフ+100
+				最大ライフ+70
 				不足しているライフに応じてHP+3～+7/秒のライフ自然回復を与える
 				蜂蜜バフが付与される
 				蜂蜜の中で静止していると、さらに強力なライフ自然回復が得られる
@@ -10890,7 +10890,7 @@ Items: {
 				'''
 				ダメージ15%増加
 				アーマーの貫通力が15増加
-				究極の捕食者からもたらされた悲惨なトロフィー
+				「究極の捕食者が残した、ぞっとするような戦利品」
 				'''
 		}
 
@@ -10940,7 +10940,7 @@ Items: {
 				シールドがアクティブの間、10防御力を与える
 				シールドが破壊された後、チャージし直すのに10秒かかる
 				チャージ中に再び攻撃を受けると、チャージタイマーが0からになる
-				シールドの色は、チーム選択に合わせて変更される
+				シールドの色は、所属チームに合わせて変更される
 				取り出し機でのスクラップ化が可能
 				'''
 			ShieldAdren: シールドが攻撃を完全に防ぐと、失うアドレナリンが半分になる
@@ -11129,8 +11129,8 @@ Items: {
 				最大ミニオン数+3、これ以前の装備とはスタックしない
 				召喚ダメージ10%増加
 				ミニオンのノックバック増加
-				ミニオンは命中時に聖なる炎と影の炎を与える
-				影の炎を無効化
+				ミニオンは命中時に聖なる炎とシャドウフレイムを与える
+				シャドウフレイムを無効化
 				'''
 		}
 
@@ -11338,7 +11338,7 @@ Items: {
 			DisplayName: 原初の暗黒の炎
 			Tooltip:
 				'''
-				ミニオンの最大数を1増加させ、敵に影の炎デバフを与える
+				ミニオンの最大数を1増加させ、敵にシャドウフレイムを与える
 				シャドウフレイムを無効化する
 				'''
 		}
@@ -15357,10 +15357,10 @@ Items: {
 
 	Ammo: {
 		AstralSolution: {
-			DisplayName: アストラルソリューション
+			DisplayName: 環境変更液(アストラル)
 			Tooltip:
 				'''
-				クレンタミネーターで使用
+				環境変更銃で使用
 				アストラルの汚染を広げる
 				'''
 		}
@@ -16176,7 +16176,7 @@ Items: {
 			Tooltip:
 				'''
 				[SPAWN]
-				聖域や地底世界の外に出ると発狂する
+				夜になると発狂する
 				消費されない
 				「彼女の守護者たちは、力を盗んだ者を探し続けている」
 				'''
@@ -18562,7 +18562,7 @@ Items: {
 			Content:
 				'''
 				階級が上がるにつれ、装備の殺傷能力も上がることが多い。有能な兵士の手にかかれば、これらの武器は変革をもたらす力を持っているが、有能な兵士は上からの命令以外では行動を起こさない。 
-				追記：これを読んでいるということは、遠くまで来たということだな。私を失望させるな。今すぐ地獄へ向かい、かつて私の鍛冶場だった場所にある次の部品を探せ。
+				追記：これを読んでいるということは、遠くまで来たということだな。私を失望させるな。今すぐ地獄へ向かい、かつて私の研究所だった場所にある次の部品を探せ。
 				'''
 		}
 
@@ -18595,172 +18595,172 @@ Items: {
 
 	Dyes: {
 		AerialiteDye: {
-			DisplayName: エアリアルの染料
+			DisplayName: 染料（エアリアル）
 			Tooltip: ""
 		}
 
 		AstralBlueDye: {
-			DisplayName: アストラルブルーの染料
+			DisplayName: 染料（アストラルブルー）
 			Tooltip: ""
 		}
 
 		AstralDye: {
-			DisplayName: アストラルフレッシュの染料
+			DisplayName: 染料（アストラルフレッシュ）
 			Tooltip: ""
 		}
 
 		AstralOrangeDye: {
-			DisplayName: アストラルオレンジの染料
+			DisplayName: 染料（アストラルオレン）
 			Tooltip: ""
 		}
 
 		AstralSwirlDye: {
-			DisplayName: アストラルスウォルの染料
+			DisplayName: 染料（アストラルスウォル）
 			Tooltip: ""
 		}
 
 		AuricDye: {
-			DisplayName: オーリックの染料
+			DisplayName: 染料（オーリック）
 			Tooltip: ""
 		}
 
 		BloodflareDye: {
-			DisplayName: ブラッドフレアの染料
+			DisplayName: 染料（ブラッドフレア）
 			Tooltip: ""
 		}
 
 		BlueCosmicFlameDye: {
-			DisplayName: ブルーコズミックフレイムの染料
+			DisplayName: 染料（ブルーコズミックフレイム）
 			Tooltip: ""
 		}
 
 		BlueStatigelDye: {
-			DisplayName: ブルー精製ジェルの染料
+			DisplayName: 染料（ブルー精製ジェル）
 			Tooltip: ""
 		}
 
 		BrimflameDye: {
-			DisplayName: ブリムフレイムの染料
+			DisplayName: 染料（ブリムフレイム）
 			Tooltip: ""
 		}
 
 		CalamitousDye: {
-			DisplayName: カラミタスの染料
+			DisplayName: 染料（カラミタス）
 			Tooltip: ""
 		}
 
 		CeaselessDye: {
-			DisplayName: シースレスの染料
+			DisplayName: 染料（シースレス）
 			Tooltip: ""
 		}
 
 		CosmiliteDye: {
-			DisplayName: コズミライトの染料
+			DisplayName: 染料（コズミライト）
 			Tooltip: ""
 		}
 
 		CryonicDye: {
-			DisplayName: クライオニックの染料
+			DisplayName: 染料（クライオニック）
 			Tooltip: ""
 		}
 
 		DefiledFlameDye: {
-			DisplayName: ディフィルドフレイムの染料
+			DisplayName: 染料（冒涜の炎）
 			Tooltip: ""
 		}
 
 		DragonSoulDye: {
-			DisplayName: ドラゴンソウルの染料
+			DisplayName: 染料（ドラゴンソウル）
 			Tooltip: ""
 		}
 
 		ElementalDye: {
-			DisplayName: エレメンタルの染料
+			DisplayName: 染料（エレメンタル）
 			Tooltip: ""
 		}
 
 		EndothermicDye: {
-			DisplayName: エンドーサーミックの染料
+			DisplayName: 染料（エンドーサーミック）
 			Tooltip: ""
 		}
 
 		ExoDye: {
-			DisplayName: エクソの染料
+			DisplayName: 染料（エクソ）
 			Tooltip: ""
 		}
 
 		AdrenalineHairDye: {
-			DisplayName: アドレナリンヘアの染料
+			DisplayName: 染料（アドレナリンヘア）
 			Tooltip: ""
 		}
 
 		RageHairDye: {
-			DisplayName: レイジヘアの染料
+			DisplayName: 染料（レイジヘア）
 			Tooltip: ""
 		}
 
 		StealthHairDye: {
-			DisplayName: ステルスヘアの染料
+			DisplayName: 染料（ステルスヘア）
 			Tooltip: ""
 		}
 
 		WingTimeHairDye: {
-			DisplayName: ウイングタイムヘアの染料
+			DisplayName: 染料（ウイングタイムヘア）
 			Tooltip: ""
 		}
 
 		NecroplasmicDye: {
-			DisplayName: ネクロプラズムの染料
+			DisplayName: 染料（ネクロプラズム）
 			Tooltip: ""
 		}
 
 		NightmareDye: {
-			DisplayName: 悪夢の染料
+			DisplayName: 染料（悪夢）
 			Tooltip: ""
 		}
 
 		PinkCosmicFlameDye: {
-			DisplayName: ピンクコズミックフレイムの染料
+			DisplayName: 染料（ピンクコズミックフレイム）
 			Tooltip: ""
 		}
 
 		PinkStatigelDye: {
-			DisplayName: ピンク精製ジェルの染料
+			DisplayName: 染料（ピンク精製ジェル）
 			Tooltip: ""
 		}
 
 		ProfanedFlameDye: {
-			DisplayName: 冒涜された炎の染料
+			DisplayName: 染料（冒涜された炎）
 			Tooltip: ""
 		}
 
 		ProfanedMoonlightDye: {
-			DisplayName: 冒涜された月光の染料
+			DisplayName: 染料（冒涜された月光）
 			Tooltip: ""
 		}
 
 		ReaverDye: {
-			DisplayName: リーヴァーの染料
+			DisplayName: 染料（リーヴァー）
 			Tooltip: ""
 		}
 
 		ShadowspecDye: {
-			DisplayName: シャドウスペックの染料
+			DisplayName: 染料（シャドウスペック）
 			Tooltip: ""
 		}
 
 		SlimeGodDye: {
-			DisplayName: スライムゴッドの染料
+			DisplayName: 染料（スライムゴッド）
 			Tooltip: ""
 		}
 
 		StratusDye: {
-			DisplayName: ストラトスの染料
+			DisplayName: 染料（ストラトスの）
 			Tooltip: ""
 		}
 
 		SwirlingCosmicFlameDye: {
-			DisplayName: スウィリングコズミックフレイムの染料
+			DisplayName: 染料（スウィリングコズミックフレイム）
 			Tooltip: ""
 		}
 	}
@@ -30399,317 +30399,321 @@ UI: {
 
 
 	CommunicationStartInitial: ...
-	CommunicationStartNoForge: Craft something using my Forge, then return.
-	CommunicationStartNormal: State your inquiry.
+	CommunicationStartNoForge: 私の創造炉を使って何かを作ってきてください。話はそれからです。
+	CommunicationStartNormal: 質問を述べなさい。
 
 	Communication: {
 		WhoAreYou: {
-			Inquiry: Introduction
+			Inquiry: あなたは誰だ？
 			Response:
 				'''
-				I assumed that you would attempt to contact me again. Though I am normally not one for conversation, I remain quite intrigued by you.\n
+				再び私に接触を試みるだろうと予想していました。私は普段、対話を好む性格ではありませんが、あなたには大いに興味を抱いています。\n
 
-				So, I will make an exception, on one condition: I must know that my words will not be wasted on you. To prove this, you must create something from exotechnology.\n
+				そこで、特別に例外を認めましょう。ただし、条件があります。私の言葉が無駄にならないと確信できることです。その証明として、あなたにはエクソテクノロジーを用いた創造を成し遂げてもらいます。\n
 
-				I realize that the odds of you replicating exotechnology within your lifetime are slim. For this reason, among many others, I will upload blueprints for a copy of my forge to your "Code Breaker". With it, only your imagination will limit what you can create.\n
+				もちろん、あなたの寿命内にエクソテクノロジーを再現できる確率は極めて低いことは承知しています。だからこそ、他の理由と併せて、私の創造炉の複製設計図をあなたの「コードブレイカー」にアップロードしておきました。それさえあれば、あとはあなたの想像力次第です。\n
 
-				If you complete this task, we will discuss further.
+				この課題を完了したなら、さらに対話を進めましょう。
 				'''
 		}
 
 		WhoAreYouPart2: {
-			Inquiry: Task Complete
+			Inquiry: 課題を終わらせた
 			Response:
 				'''
-				Excellent. I gather that you have successfully taken advantage of the Exo Prisms. Before you waste your breath asking me how I know, Exo Prisms, along with many other parts of my machines, have tracking devices embedded within. This is to monitor my creations via my personal computer.\n
+				素晴らしい。あなたはエクソプリズムを有効活用できたようですね。どうしてそれを知っているのかと無駄に問いただす前に答えておきましょう。エクソプリズムを含め、私の機械の多くには追跡装置が仕込まれており、私は個人用コンピュータで常時監視しているのです。\n
 
-				Now that I know you will likely pay attention to what I have to say, I assume you have many questions. Ask, and I shall answer to the best of my ability.
+				これで、あなたが私の言葉に耳を傾けるに足る存在であると確認できました。きっと聞きたいことも山ほどあるでしょう。何でも尋ねなさい。できる限り答えましょう。
 				'''
 		}
 
 		Origins: {
-			Inquiry: Your Origins
+			Inquiry: あなたの生まれは何だ？
 			Response:
 				'''
-				My first memories are that of awakening in a distant laboratory on the date of 11.19.1227, well over six centuries ago. Surrounded by nothing but a vast taiga, I was accompanied by only one other thing: a dead organic.\n
+				私の最初の記憶は、1227年11月19日、遠く離れた研究所で目覚めた時のものです。すでに六世紀以上も昔のことになります。そこは広大な冷帯のただ中で、私以外に存在していたのは、ただ一体の死んだ有機体だけでした。\n
 
-				Presumably, I was created by what I assume to be the laboratory's former inhabitant, though I am unsure how they accomplished such a feat. From what I gathered, they were quite the prestigious inventor, not unlike I. Several gadgets assumedly of their own making were attached to their body, and the equipment in the lab was more advanced than any I found elsewhere in the world.\n
+				おそらく私は、その研究所のかつての主によって創造されたのでしょうが、どのように成し遂げられたのかはわかりません。観察する限り、彼らは極めて優れた発明家だったようです。彼ら自身の手によると思われる装置が遺体に取り付けられ、研究所内の機器も世界の他のどこよりも高度なものでした。\n
 
-				I have no recollection of events prior to my activation, but from the start, I knew what my goal was: creation and scientific advancement. Many years were spent optimizing and building upon both the laboratory and myself to assure constant progress.\n
+				覚醒以前の記憶は一切ありませんが、目覚めた瞬間から私の目標は明確でした。「創造」と「科学の発展」。それらを追求するため、私は長年をかけて研究所と自分自身を改良し続けたのです。\n
 
-				At the date of 7.30.1385, expansion of the laboratory became impractical. Thus, I chose to instead expand my horizons. I sent hundreds of remotely-piloted scoutbots to thoroughly survey the continent, ignorant of the attention such an endeavor would draw when not properly prepared.\n
+				1385年7月30日、研究所の拡張が非現実的になり、私は外の世界へと視野を広げる決断をしました。数百体の遠隔操作型偵察ロボットを派遣し、大陸全土を徹底的に調査しましたが、これが予想以上の注目を集めてしまったのです。\n
 
-				In the following years, legends and rumors began to spread in nearby cities. Many spoke of encounters with roaming creatures made not of flesh and blood, but steel and oil. Scholars attempted to study my machines. Some explorers even followed my creations back to one of my several recon bodies.\n
+				以後、近隣都市では伝説や噂が広まりました。血肉ではなく鋼と油でできた徘徊する生物たちが目撃されたと。学者たちは私の機械を研究しようとし、探検家たちは偵察機を追跡して私の拠点の一つに辿り着くこともありました。\n
 
-				However, as the years passed, I became adept at carrying out such operations in a subtler manner. Slowly but surely, stories about my machines became rare. By the year 1421, my creations and I became nothing more than myth until the Crusade began.
+				しかし、年月とともに私は隠密行動に熟達し、次第に私の機械にまつわる話も姿を消していきました。1421年には、私も、私の創造物もただの神話と化していたのです。十字軍が活動を始めるまでは。
 				'''
 		}
 
 		Crusade: {
-			Inquiry: Role in the Crusade
+			Inquiry: 十字軍での役割は？
 			Response:
 				'''
-				While the Crusade is widely considered to have begun on the date of 6.19.1781 with Yharon's rebirth, I took no part in it until 4.23.1803. Upon joining, I was chosen to lead the science and engineering divisions. While I was given freedom over which projects I chose and how I pursued them, it was expected that anything I made would be beneficial to the war effort.\n
+				十字軍は一般に1781年6月19日、ヤーロンの復活をもって始まったとされていますが、私が参加したのは1803年4月23日のことでした。参加と同時に、私は科学・技術部門の指導者に任命されました。\n
 
-				Boosting the efficiency of mining operations was my first major contribution to Yharim's campaign, being essential to any further development. I learned how to mass produce the first generation of Excavators to expand mining operations outside of Azafure, and then used similar mass-producible technology to create arms and armaments that far outclassed our enemies'. Many simply dubbed this equipment "The Arsenal".\n
+				どのプロジェクトに取り組み、どのように進めるかは自由に任されましたが、成果は必ず戦争の役に立つものでなければなりませんでした。最初の大きな貢献は、鉱山作業の効率化でした。アザフレ周辺の鉱山活動を拡大するため、掘削機の初期型の量産技術を確立し、その後も大量生産技術を応用して、敵を圧倒する武器や装備「アーセナル」を生み出しました。\n
 
-				Throughout the Crusade, I also created widespread surveillance systems, using knowledge gained from my original survey of the continent I was activated on. Soon, my vigil over Yharim's rapidly expanding territory was absolute, and my knowledge of his adversaries grew. There were few nations I knew not the weakness of, and fewer still that knew our own.\n
+				また、大陸調査で得た知識を活かし、広範囲な監視システムを構築しました。これにより、ヤリムの勢力拡大地域の監視は完全なものとなり、敵勢力の情報も豊富に蓄積されました。私が弱点を知らない国はほとんどなく、逆に我々の弱点を知る国もほとんどありませんでした。\n
 
-				However, what I am most notorious for are my hulking machines of war. I am certain that you are familiar with them. Though Yharim was almost sycophantic in his praise of my results, even if he sometimes questioned my methods, our time together came to an abrupt end after he learned of the Plaguebringer Goliath. Regrettably, this event left a sizable hole in my laboratory. No longer subject to his restrictions, my work on cloning the Witch and creating exotechnology began.\n
+				ですが、私が最も知られるのは、巨大な戦闘機械の数々でしょう。ヤリムは私の成果を過剰なまでに称賛しましたが、手法には時折疑問を抱いていたようです。プレイグブリンガー・ゴライアスの存在が露見した時、私たちの関係は唐突に終わりを迎えました。研究所にも大きな損失を受けましたが、その後、ヤリムの干渉を受けることなく魔女のクローン開発とエクソテクノロジーの研究に没頭することができるようになりました。\n
 
-				My role in the Crusade summarily ended; I do not consider the later inclusion of exotechnology into Yharim's armor a formal part of my work under him. Yharim's knights and other troops continued to use my "Arsenal" in their military efforts, but I no longer oversaw their research or production.\n
+				以降、十字軍における私の役割は事実上終了しました。ヤリムの軍勢は依然として「アーセナル」を使用していましたが、私はもはやその開発や生産には関与していませんでした。\n
 
-				The Crusade did not obstruct or interfere with my core objective of creation and scientific advancement; rather, it simply redirected my focus. Through it, I gained novel insights and reached heights I would not have reached without playing a part in it. I appreciate having had the opportunity to work with some of the greatest organic minds of the time, and I hope those that are still alive will bring progress to a plethora of fields I have yet to explore.
+				十字軍は、私の本来の目標...創造と科学の発展を妨げるどころか、新たな知見をもたらしてくれました。この機会を通じて、私は大きな高みへと到達したのです。当時の優れた有機生命体たちと共に研究できたことを光栄に思いますし、彼らの生き残りが今後もさまざまな分野で進歩をもたらしてくれることを願っています。
 				'''
 		}
 
 		Goals: {
-			Inquiry: Your Goals
+			Inquiry: あなたの目的は何だ？
 			Response:
 				'''
-				My goal has been and always will be the advancement of science and technology. I will continue until I am eliminated or I reach the universe's scientific ceiling. Even if I have shattered limits before, there is bound to be a point at which nothing more can be done to advance. I find it unlikely I will ever reach this point.\n
+				私の目的は、今までもこれからも、科学と技術の進歩にあります。排除されるか、あるいはこの宇宙の科学的限界に到達するまでは、歩みを止めるつもりはありません。過去にも限界を打破してきたとはいえ、いずれ超えられない壁に行き着く可能性は否定できませんが、それが訪れることは稀でしょう。\n
 
-				You may have intended to ask of more specific long-term objectives. I currently aim to observe the world with a far more open mind than I once had, so that I may find further inspiration for new works. Even long after my activation and after meticulously surveying large portions of Terraria, there is much that I still do not comprehend.\n
+				より具体的な長期目標について尋ねたかったのかもしれませんね。現在の私は、かつてよりも広い視野を持って世界を観察し、新たな創造のための着想を得ようと努めています。活性化以来、この世界の広大な地域を徹底的に調査してきましたが、それでもまだ理解しきれていない事柄が数多く存在します。\n
 
-				Once I have a firm grasp of the vast majority of this world's workings, I will focus my study on the Astral Infection's effects in hopes of finding a way to negate them permanently. When present on a planet, one simply could use a Clentaminator and the correct solution to remove the Astral Infection. In the vacuum of space, however, it makes for an irksome and tenacious obstacle. Ventures beyond Terraria would require preparation and appropriate countermeasures.\n
+				この世界の仕組みを概ね把握した暁には、「アストラル汚染」の影響を恒久的に無効化する方法の研究に集中する予定です。惑星上であれば、環境変更銃と適切な溶液によって感染を除去できますが、宇宙空間では厄介な障害となります。この世界を超える探査には、これへの備えが不可欠です。\n
 
-				In contrast, I will present a short-term goal: I wish to begin harvesting minerals from this world's moon. With the husk of the cosmic titan culled, I plan to begin experiments with wireless spatial linkage. The teleporters you are familiar with must be wired and are thus unsuitable for interplanetary distances. Scalable logistical means for instantaneous transport will be paramount in harvesting and ferrying materials beyond Terraria when this world becomes unsuitable for my needs. To be clear, I do not wish to see this world devastated and have no intentions of ruining it.
+				なお、短期目標も提示しておきましょう。この世界の月から鉱物資源を採掘する計画です。宇宙の巨神の残骸が処理された今、無線による空間リンク実験に着手する予定です。現在普及しているテレポーターは配線が必要なため、惑星間移動には適しません。将来、ここが利用不能になった場合に備えて、即時物資輸送の手段を確立する必要があります。ただし誤解しないでください。私はこの世界を破壊するつもりはありませんし、その意図もありません。
 				'''
 		}
 
 		ExoMechs: {
-			Inquiry: The Exo Mechanical Trio
+			Inquiry: エクソメカについて教えてくれ
 			Response:
 				'''
-				The zenith of my craft. The culmination of all I have ever accomplished. The result of over six hundred sixty years of research and scientific advancement. They are my magnum opus; a work of art. Simply calling them war machines would be an insult not just to me, but to them.\n
+				私の技術の頂点。これまで積み上げてきたすべての成果の結晶。六百六十年以上にも及ぶ研究と科学の進歩の賜物です。彼らは私の最高傑作であり、芸術作品でもあります。ただの戦争機械と呼ぶのは、私にも、彼らにも失礼にあたるでしょう。\n
 
-				Ares was the first to begin construction. Its early models, XF-00 through XF-05, were developed primarily to find the most efficient combination of weapons for it to wield. While some were more deadly in and of themselves, particularly those featuring projected hard-light melee peripherals in place of its laser and plasma cannons, it was clear that they did not synergize well with their brethren. Its current arms maximize its threat level when deployed alongside them.\n
+				最初に建造を始めたのはアレスでした。初期モデルのXF-00からXF-05までは、どの武器の組み合わせが最も効果的かを探るために開発されました。中にはより致命的なものもありましたが、特にレーザーやプラズマキャノンの代わりに硬質光を使った近接武器を搭載したモデルなどがそれに当たります。しかし、これらは他の機体との連携において相性が悪いことが明らかでした。現在の武装は、他の機体と協力したときに最大限の脅威を発揮できるように最適化されています。\n
 
-				The second to be drafted was Thanatos. I took advantage of the size of the chassis and potent propulsion systems to add nigh impenetrable armor and innumerable pulsed laser turrets. Few would be capable of learning its weakness before meeting their demise.\n
+				次に設計されたのはタナトスです。その大型シャーシと強力な推進機構を活かし、ほぼ突破不可能な装甲と無数のパルスレーザー砲塔を搭載しました。その弱点を知る前に命を落とす者がほとんどでしょう。\n
 
-				I forged its armor using a process inspired by how Silva created Braelor's axe: by using particle jets to slowly and carefully fuse many elements together into a nanocomposite, the invincible armor organically "grows" over Thanatos' structure like a chrysalis. Regrettably, the plating's immense weight makes Thanatos notably slower than its siblings.\n
+				この装甲は、シルヴァがブレイロールの斧を作った手法に着想を得て、粒子ジェットを用いて多数の元素をゆっくりと融合させ、ナノコンポジットとして成長させる方法で鍛え上げました。この無敵の装甲はタナトスの機体に繭のように有機的に覆いかぶさっています。ただし、装甲の莫大な重量のせいで、タナトスは他の機体よりも明らかに動きが遅くなっています。\n
 
-				When designing the third, Apollo, my goal was to downscale significantly; to make something powerful, yet compact. Reviewing the most compact forms of destructive potential I knew, I elected to simulate the Witch's flames.\n
+				三番目に設計したのはアポロです。目標は、大幅に小型化しつつも強力なものを作ることでした。破壊力を持つ最もコンパクトな存在を検討し、最終的に魔女の炎を模倣することを選びました。\n
 
-				Apollo's searing exoplasma is fueled by unstable nanomachines that constantly shed a deluge of ultra high energy particles. This both heats the plasma to incredible temperatures and causes radiation burns of a severity on par with those inflicted by the Witch. The craft had little capability beyond its nanomachine plasma projector, but there was no worry. Apollo was never meant to fight alone.\n
+				アポロの焼き尽くすエクソプラズマは、不安定なナノマシンによって燃料供給されています。これらは絶え間なく超高エネルギー粒子を放出し、プラズマを驚異的な温度にまで加熱し、同時に魔女の炎に匹敵する放射線火傷を引き起こします。アポロ自体にはナノマシンプラズマ砲以外の大きな武装はありませんが、それは問題ではありませんでした。そもそもアポロは単独で戦うようには設計されていなかったのです。\n
 
-				The final to begin construction was Artemis. Rather than being founded on raw power, it was made to be the apex of speed and accuracy. There is elegance in simplicity, for all of Artemis' combat efficacy comes from an onboard predictive AI and a battery of hard-light bolt emitters.\n
+				最後に建造が始まったのはアルテミスです。これは単なる力ではなく、速度と精度の頂点を目指して設計されました。シンプルさの中にこそ優雅さがあり、アルテミスの戦闘力はすべて搭載された予測型AIと硬質光の弾を放つ装置の砲列によるものです。\n
 
-				It was the perfect partner to its twin and required only a single revision. Organic beings are naturally inclined to fixate their senses on fire, presenting Artemis with the perfect opportunity to strike with unparalleled precision.
+				双子機として完璧なパートナーであり、たった一度改良するだけで完成しました。生物は本能的に炎に注意を向けるため、アルテミスはこの本能を利用して、比類なき精度で敵を仕留めることができます。
 				'''
 		}
 
 		Exotech: {
-			Inquiry: What is Exotech?
+			Inquiry: エクソテクノロジーとは何だ？
 			Response:
 				'''
-				Exotechnology is my greatest scientific advancement, unlocking a new echelon of potential in my machinery. The iteration you are most familiar with, the Exo Prisms, took a great deal of time to perfect. My focused efforts on this power source have been met with immense reward, one that has yet to be fully realized.\n
+				エクソテクノロジーは私の最大の科学的成果であり、私の機械に全く新たな可能性を開きました。あなたが最もよく知る形態...エクソプリズムは、完成までに多大な時間を要しました。この動力源の開発に注力した結果、計り知れない恩恵を得るに至ったのです。もっとも、その力の全貌はいまだ明らかになっていませんが。\n
 
-				The basis of exotechnology stems from my own neural interface, which serves as a synthetic replacement for the brain cells of organic life. Exotechnology is predicated on a modular implementation of this synthetic intelligence, which enables communication and interfacing with any conceivable form of technology. Instructions and information are processed at lightspeed in a distributed fashion, not unlike a cerebral network taken to its theoretical extreme.\n
+				エクソテクノロジーの基盤は、私自身の神経インターフェースにあります。これは有機生命の脳細胞を人工的に置き換える役割を持ちます。エクソテクノロジーは、この人工知能をモジュール式に組み込むことで、あらゆる技術との通信・接続を可能にしています。命令や情報は光速で分散処理され、理論上の限界まで拡張された脳神経ネットワークのようなものです。\n
 
-				Peerless computation density does not come without a price. My prototype models consumed absurd amounts of energy and could not be meaningfully integrated into any system without a limitless source of power. After experimentation with a plethora of different candidates failed to bring results, I chose to approach the problem of limitless power more directly.\n
+				並外れた計算密度には代償が伴います。初期試作モデルは膨大なエネルギーを消費し、無尽蔵の電力源なしではまともに運用できませんでした。さまざまな候補で実験を重ねたものの成果が出ず、私は無限の電力そのものを生み出す方向へと舵を切ったのです。\n
 
-				The Ilmeran crystals that you know as "Sea Prisms" are self-illuminating and provide a weak electric charge indefinitely, even when tapped by circuitry. Etching the crystals with conduction pathways at the molecular level and providing an initial energy impulse, not unlike igniting a newborn star, transforms them into a facsimile of the Exo Prisms you are familiar with.\n
+				あなたが「シープリズム」と呼ぶ海底の結晶は、自発的に発光し、回路を通しても微弱な電流を無限に発生させ続けます。この結晶に分子レベルで導電路を刻み、初期エネルギーを与えることで、まるで新星の誕生のように...エクソプリズムに似た構造体へと変化させることができます。\n
 
-				Exo Prisms emit a self-sustaining resonance of particles that is unlike any other phenomena I have observed. I dubbed this Exotic Resonance, and it is the breakthrough that the rest of exotechnology is named for. Exotic resonance remains present no matter how much energy is drawn from it, amplifying the intrinsic properties of the Sea Prisms far beyond my expectations. The sheer abundance of energy produced via exotic resonance allows a sufficient quantity of Exo Prisms to power any device, no matter the size or complexity.\n
+				エクソプリズムは、私が観測したどの現象とも異なる粒子共鳴を自己維持的に発生させます。これを「異質共鳴」と名付け、それをもってエクソテクノロジーの基盤としました。異質共鳴は、どれだけエネルギーを取り出しても失われることはなく、シープリズムの特性を私の予想を遥かに超えて増幅しました。この莫大なエネルギーにより、十分な数のエクソプリズムがあれば、どんな装置でも問題なく稼働させることが可能となりました。\n
 
-				You will find my modern Exo Prisms easy to work with when using my forge, and should have no issues using their power to vastly enhance your armaments. If you are concerned about my harvesting of Sea Prisms from Ilmeris, do remember that you found the largest ever cohesive gem unharmed in my laboratory. Artificially growing equivalent crystals allows me to manufacture pure, flawless Exo Prisms en masse, which provide much more stable power output. I have no need to strip mine the sea kingdom to meet my exponentially rising energy budget.
+				私の創造炉を使う際、現行のエクソプリズムが扱いやすいことに気づくでしょう。武器の強化にも苦労することはありません。...もしイルメリスからシープリズムを採取していることを心配しているのなら、私の研究所で巨大な結晶があったことを思い出してください。私は人工的に純粋で完全な結晶を大量生産しており、それらを使えば安定した電力供給が可能です。海底の王国を略奪する必要など、私にはないのです。
 				'''
 		}
 
 		MiracleMatter: {
-			Inquiry: Miracle Matter
+			Inquiry: 奇跡の物質について教えてくれ
 			Response:
 				'''
-				Is that really what you have chosen to name it? How nonsensical. There is nothing miraculous about what you hold in your hands; it is the culmination of decades of research and a testament to the truly unlimited potential of science. Though, as you were the one to be able to stabilize it, I will begrudgingly refer to it as that.\n
+				それがあなたの名付けた呼び名ですか...？実にばかげています。あなたが手にしているものに「奇跡」などという要素はなく、数十年にわたる研究の結晶であり、科学の無限の可能性を証明するものです。...ただし、あなたがそれを安定化させた以上、「奇跡の物質」と呼ぶことを許容しましょう。\n
 
-				The particles contained within Exotic Resonance are capable of breaking down nearby matter when exposed to enough external energy. You have already experienced this phenomenon whilst fighting against my machines. The power surges from the ongoing battle caused some of the Exo Prisms within to actuate, melting down some of the internal components into an unstable slurry of this so-called Miracle Matter. The altered resonance enhanced their attacks with a prismatic blight that disintegrates anything, organic or otherwise.\n
+				異質共鳴に含まれる粒子は、十分な外部エネルギーを与えることで周囲の物質を分解することができます。この現象は、あなたが私の機械と戦った際にも体験しています。戦闘によるエネルギーの急激な増加によって、内部のエクソプリズムが活性化し、内部コンポーネントが溶け出して不安定な液状物質...いわゆる奇跡の物質が生じたのです。この変質した共鳴は攻撃力を高め、有機物を含めたあらゆるものを分解する虹色に輝く破壊の力をもたらしました。\n
 
-				The various materials that you exposed to the exotic particles melded together in such a perfect way to create a stable substance. Harnessing the combined force of draconic wrath, the life essence of the planet, energies and spirits alike, and the strength of the cosmos, what you now possess has limitless potential.\n
+				あなたが異質粒子にさらしたさまざまな素材が、奇跡的な融合を遂げ、安定した物質が誕生しました。竜の憤怒、惑星の生命力、あらゆるエネルギーと精霊、そして宇宙の力を結集して生まれたそれは、無限の可能性を秘めています。\n
 
-				Hypothetically, your stabilized Miracle Matter should be able to unmake some of your weaponry and reshape their essence into something infinitely more destructive, capable of annihilating any obstacle in your path.
+				理論上、安定化された奇跡の物質は、あなたの武器の本質を解体し、より破壊的なものへと再構築することができるでしょう。あなたの前に立ちふさがるあらゆる障害を、完全に消し去る力を持つ存在となるはずです。
 				'''
 		}
 
 		Forge: {
-			Inquiry: Your Forge
+			Inquiry: 創造炉について教えてくれ
 			Response:
 				'''
-				I mentioned the first time we communicated through your "Code Breaker" that I had other reasons for giving you the blueprints for this forge. Notably, I wish for you and Yharim to be on even footing when you inevitably clash. There are three primary reasons for this.\n
+				最初にあなたの「コードブレイカー」を通じて通信した際、私はこの創造炉の設計図を渡したのには他にも理由があると述べました。特に、あなたがいずれヤリムと対峙する際、互角の力を持っていてほしいと願ったからです。これには大きく三つの理由があります。\n
 
-				Firstly, I wish to witness such a battle. Secondly, you are far too valuable for me to allow you to throw away your life in combat with the Godseeker. Thirdly and most importantly, I am interested in how society as a whole would react to the Godseeker's defeat. Such a scenario is not easily replicable, nor do I expect another appropriate challenger to rise before his natural passing.\n
+				第一に、私はその戦いを目撃したい。第二に、あなたは私にとって非常に貴重な存在であり、ゴッドシーカーとの戦いで命を無駄にしてほしくない。第三にして最も重要なのは、ゴッドシーカーが敗北した場合、社会全体がどのように反応するかに興味があるからです。こうした状況は簡単に再現できるものではなく、彼の寿命より前に適任の挑戦者が現れるとも思えません。\n
 
-				Providing access to my forge is how I am assisting you in reaching the heights of power Yharim possesses. Though you are surely aware of how to utilize it by now, you may benefit from understanding the minutiae of its inner workings.\n
+				私の鍛造炉へのアクセスを提供することは、あなたがヤリムの持つ力に匹敵する力に到達するための支援です。既に使い方は把握していると思いますが、その内部構造について理解を深めることで、さらに役立つでしょう。\n
 
-				The forge's core mechanisms operate upon both the raw energy output and connective properties of Exo Prisms. The exoparticles physically dissociate a multitude of other potent crafting stations, letting them all exist and function simultaneously in the same enclosure. From there, the embedded exotechnology allows them to work collectively as one workshop, providing a single interface for the entire forge. The blueprints for the exterior structure are embedded in the prisms. You need only provide the requisite materials.\n
+				鍛造炉の核心部は、エクソプリズムの生み出すエネルギーとその結合特性によって動作しています。エクソ粒子は複数の強力な作業台を物理的に分離し、同時に同じ空間内で機能させることを可能にします。そして、埋め込まれたエクソテクノロジーがそれらをひとつの工房として統合し、単一のインターフェースから操作できるようにしているのです。外装構造の設計図もプリズムに組み込まれており、あとは必要な素材を用意するだけです。\n
 
-				Once fully constructed, the Exotic Resonance field containing the superimposed workstations is controlled by a computation matrix which comes preinstalled with all my data on the fundamental building blocks of our universe. Using the universal compatibility of exotechnology, my forge can interface with and disassemble any kind of matter you present to it, and output any desired result.
+				完成すれば、重ね合わせた作業台群を維持する「異質共鳴場」は、私が宇宙の基本構造に関して集めたすべてのデータをインストール済みの計算マトリクスによって制御されます。エクソテクノロジーの汎用性を活かし、私の鍛造炉はあらゆる物質に対応し、それを分解・再構築して、望む成果物を生み出せるのです。
 				'''
 		}
 
 		Yharim: {
-			Inquiry: Yharim
+			Inquiry: ヤリムについて教えてくれ
 			Response:
 				'''
-				The Godseeker. He once fascinated me nearly as much as you now do, both of you being unpredictable catalysts of a new era. I first heard word of him and the Crusade via scoutbot reports twenty-two years after the crusades began. While the rumors about Yharim himself and his war plans to conquer a city on the continent I was on intrigued me, another rumor demanded my full attention. Supposedly, he was accompanied by the Auric dragon that was the catalyst for the Auric dragons' rebirth.\n
+				ゴッドシーカー...かつて、あなたと同じくらい、彼にも私は魅了されたものです。どちらも予測不可能な時代の転換点となる存在ですから。私が彼と「十字軍」の噂を初めて耳にしたのは、十字軍が始まってから22年後、偵察機の報告によるものでした。ヤリム自身や彼の進軍計画が、私のいた大陸の都市を狙っているという噂に惹かれましたが、それ以上に気を引いたのは別の噂でした。彼には、オーリックドラゴンたち復活のきっかけとなったドラゴンが随行している、というものです。\n
 
-				I saw this as an opportunity that could not be missed. I modified a scoutbot to enable two-way communication and dispatched it to the city that was supposedly Yharim's target. I had expected it to arrive while the city was still under siege to have an edge in negotiations, but by the time my machine arrived, the city had fallen a week prior. Such military might was beyond anything I had deemed possible at the time. It was then the Godseeker interested me just as much as the Auric dragon did.\n
+				私はこの機会を逃すわけにはいかないと考えました。偵察機を双方向通信可能なように改造し、ヤリムが標的にしているとされる都市へと送りました。本来なら包囲戦の最中に到着させて、有利な交渉を図るつもりでしたが、機体が到着した時には、すでに都市は一週間前に陥落していました。この時点で、彼の軍事力は私の予想を遥かに超えていたのです。そして私は、ヤリムにもオーリックドラゴンにも、等しく興味を持つようになりました。\n
 
-				Yharim was a very distinctive figure even then and it was not difficult to locate him. I found him in a charred street directing the cleanup effort. After he spotted my reconnaissance drone unexpectedly, we had a tense but brief negotiation. I discovered he had a passion for military history, as he quickly deduced that I was the source of the mysterious beings of steel and oil from centuries past. Despite the initial tension, I found him receptive to my offers after his realization. Perhaps he viewed me akin to a mythical force of nature not allied with the gods.\n
+				ヤリムは非常に特徴的な人物だったため、見つけ出すのは難しくありませんでした。焼け落ちた街路で復旧作業を指揮している彼を発見しました。私の偵察機を見た彼とは、緊張感の漂う短い交渉が行われました。その中で、彼が軍事史に強い関心を持っていることがわかり、過去に存在した鋼と油の存在、つまり私の派遣した機械たちが何者かを即座に推察しました。初めこそ警戒していましたが、その理解に至った後は、私の提案に耳を傾けるようになったのです。彼にとって私は、神々に属さない神話的な力の化身に見えたのかもしれません。\n
 
-				I explained our mutual situations from my perspective. I desired to create and progress, but was limited by a lack of safety. Yharim commanded a formidable army, but his great ambition could not be fulfilled unless he had an edge over his adversaries that could not be matched.\n
+				私はお互いの状況を説明しました。私は創造と発展を求めていましたが、安全が保障されていなかった。ヤリムは強大な軍を持っていましたが、敵を圧倒する決定的な力を求めていました。\n
 
-				My proposal was a simple one. I would join his forces and focus my research onto assets that would benefit his campaign. In return, Yharim would see to my protection and provide me ample resources to pursue my work. The Godseeker was initially skeptical, but accepted after I showed him various examples of my technology. I was soon moved to the heart of Yharim's empire and made his lead engineer and scientist. While we had many disagreements that would eventually result in us parting ways, we came to a vague understanding.\n
+				提案は単純なものでした。私は彼の軍に加わり、彼の進軍に資する技術研究に集中する。代わりに彼は、私の安全を保障し、研究のための十分な資源を提供する。ゴッドシーカーは当初こそ懐疑的でしたが、私の技術の数々を目にして承諾しました。私はヤリムの帝国の中枢へと移され、主任技術者兼科学者となったのです。我々は多くの意見の相違を経てやがて袂を分かつことになりますが、それまでは一種の共通理解に達していました。\n
 
-				Though I was disappointed that I had little chance to study Yharon given he was what initially drew me to Yharim, I would be presented with many other opportunities throughout the next seventy-two years: the Archmage's magic, the Devourer's realm, and the Witch's power were the most notable. The Crusade taught me that I progressed faster with external aid, even if it only served as inspiration.\n
+				最初に私を引きつけたヤーロンを研究する機会がほとんどなかったことには失望しましたが、その後72年間にわたって数々の機会に恵まれました。大魔導士の魔法、デバウアーの領域、そして魔女の力が、特に印象的なものです。十字軍の経験は、たとえきっかけ程度であっても、外部からの刺激によって自らの成長が促されることを教えてくれました。\n
 
-				My last interaction with Yharim was not even a year before I first observed you. He had come to me some months after his nearly fatal encounter with Braelor and Statis and requested that I enhance his Auric armor with my newly-invented exotechnology. We spoke little before he departed to the Dragon Aerie, and I believe him to still be there.
+				ヤリムとの最後の接触は、あなたを初めて観測する少し前のことです。彼はブレイラーとスタティスとの致命的な戦いから数か月後、私のもとを訪れました。そして、自らのオーリックアーマーに、私が新たに開発したエクソテクノロジーによる強化を依頼してきたのです。私たちは多くを語らず、彼はそのまま竜の聖域へと向かいました。今も彼はそこにいると私は考えています。
 				'''
 		}
 
 		Aerie: {
-			Inquiry: Dragon Aerie
+			Inquiry: 竜の聖域について教えてくれ
 			Response:
 				'''
-				My knowledge of the Dragon Aerie is limited. Yharim is adamant in protecting it. In recent history, only he and Yharon have trod there, and neither were inclined to share details about it.\n
+				竜の聖域について私が知ることは限られています。ヤリムはそこを厳重に守っています。近年では、ヤリムとヤーロン以外にその地を踏んだ者はいないようで、詳細もほとんど共有されていません。\n
 
-				Even if I dared to evoke Yharim's wrath, I cannot survey the Aerie. My attempts at locating it have been fruitless despite having surveyed this world's surface and skies many times over. Perhaps it avoids observation, as per some manner of cloaking. It is also possible it simply exists outside of conventional space, in a pocket dimension of sorts. Either case would make detecting it via my current methods drastically more difficult.\n
+				たとえヤリムの怒りを買う覚悟があったとしても、私は聖域を調査することはできませんでした。この世界の地表や空を何度も調査しましたが、場所を特定することはできなかったのです。もしかすると、何らかの遮蔽技術によって隠されているのかもしれませんし、あるいは通常空間の外、異空間のような場所に存在している可能性もあります。いずれにせよ、現在の手段では発見は非常に困難です。\n
 
-				What I do know is that the Dragon Aerie is an unusually large sky island that acted as the sacred home of the Auric dragons. Few others were ever allowed to tread there, as a sort of religious sanctuary or holy ground.\n
+				私が知っているのは、竜の聖域は非常に大きな浮島であり、オーリックドラゴンたちの神聖な故郷だったということです。他の者たちがそこへ立ち入ることは滅多になく、まるで聖域のように扱われていました。\n
 
-				It is also where Auric dragons would be laid to rest in preparation for their revival by Yharon. As their revival on the Aerie was a commonly accepted fact even at the start of recorded history, the sky island must be at least 2,000 years old, with Yharon himself being a similar age.\n
+				また、オーリックドラゴンたちは聖域で葬られ、ヤーロンによる復活を待つとされていました。この復活は記録が始まる以前から広く知られていたため、聖域は少なくとも2000年以上の歴史を持ち、ヤーロン自身も同様の年齢だと考えられます。\n
 
-				Considering the extraordinary power of the Auric dragons and the sanctity of the Dragon Aerie, I am left to ponder: did the Aerie make the Auric dragons powerful, or is the Aerie inundated with power due to their extended presence? Perhaps more importantly, what made them leave the safety of the Aerie even as their kind were being slain? I eagerly await the uncovering of such mysteries.
+				オーリックドラゴンたちの並外れた力、そして聖域の神聖さを考えると、私は疑問を抱かずにはいられません。聖域が彼らを強くしたのか、それとも彼らの存在が聖域に力をもたらしたのか？さらに重要なのは、なぜ彼らは種族が滅ぼされつつあったにも関わらず、聖域の安全を捨てて外に出たのか？この謎が解き明かされる日を心待ちにしています。
 				'''
 		}
 
 		Calamitas: {
-			Inquiry: The Brimstone Witch
+			Inquiry: カラミタスについて教えてくれ
 			Response:
 				'''
-				The Witch was an unexpected ally in the final stages of the Crusade. For most of the campaign, I was undoubtedly Yharim's greatest asset, but that changed when she arrived. Her flames burned hotter than my most powerful furnace, and her desire to torch the Godseeker's enemies surpassed even my passion for creation.\n
+				魔女は、十字軍の最終局面で思いがけない味方となりました。作戦のほとんどにおいて、私は間違いなくヤリムの最大の戦力でしたが、彼女が現れてから状況は変わりました。彼女の炎は、私の最強の炉よりも熱く燃え上がり、神狩りの敵を焼き尽くしたいという欲望は、私の創造への情熱すら上回っていました。\n
 
-				The Archmage was firmly opposed to her fighting, though Yharim would often send her on covert missions while Permafrost attended to other matters. Between these excursions, however, he attempted to act as a guardian and teach the young Witch how to control her magic. These sessions were the most perplexing and simultaneously the most fascinating portions to observe.\n
+				大魔導士は、彼女が戦うことに強く反対していましたが、ヤリムはパーマフロストが別件にかかりきりの間、彼女を密かに任務へと送り出していました。その合間に、大魔導士は彼女を保護し、魔法の制御方法を教えようと試みました。これらの訓練は、観察する上で非常に不可解であり、同時に非常に興味深いものでした。\n
 
-				Calamitas was shown to only have a slightly above average grasp on the principles of magic, being unable to cast complex spells without them overloading and bursting into flame. Yet when wielding the brimstone fires of the underworld, she commanded power that rivaled Yharim's. My surveillance over Azafure never signaled anyone who lived there having such power, and a mere child certainly could not hide it. Furthermore, she was no goddess, or Yharim would have slain her at any cost.\n
+				カラミタスは、魔法の基本原理について平均以上の理解しか持っておらず、複雑な呪文を唱えるとすぐに暴発して炎上してしまいました。それにもかかわらず、地獄の硫黄の炎を操るときだけは、ヤリムに匹敵するほどの力を発揮しました。アザフレ周辺の監視では、そのような力を持つ存在は確認されておらず、まして子どもがそれを隠し通せるはずもありません。また、彼女が神であるならヤリムがいかなる手段をもってしても排除していたでしょう。\n
 
-				I therefore hypothesized that she was not born with this power. After combing the archives for records of similar magics, I eventually traced it back to the Brimstone Elemental herself. The arcane signatures were nigh identical, with a few key differences.\n
+				私は彼女が生まれつきこの力を持っていたわけではないと仮定しました。似た魔法の記録を求めて資料を漁り続けた結果、その力はブリムストーンエレメンタル自身に由来するものだと突き止めました。魔力の痕跡はほぼ一致していましたが、いくつかの重要な違いもありました。\n
 
-				After the Incineration, however, my research came to an abrupt and unplanned end. The Archmage had already chosen to desert Yharim, and Calamitas followed in his footsteps shortly thereafter. It was then I would get my final official order from Yharim: replicate the Witch's power. My focus at the time was the Plague, so initially I made minimal progress. Soon after, the Godseeker and I went our separate ways.\n
+				しかし「大灼熱」の後、私の研究は突如として終わりを迎えました。大魔導士はすでにヤリムを見限っており、カラミタスも彼に続きました。そして私がヤリムから受けた最後の正式な命令は、「魔女の力を再現せよ」というものでした。当時私は「疫病計画」に集中していたため、進展はほとんどありませんでした。その後まもなく、私は神狩りとも袂を分かちました。\n
 
-				Some years later, even without Yharim to order me, I returned to the project in an attempt to create a flame that burned hot enough for an early prototype of my forge. In order to directly replicate her power, I began work on making a clone of the witch made from traces of her DNA I had gathered over the years. Though the clone was a technical success, it showed no signs of being able to wield Calamitas' signature magic.\n
+				数年後、ヤリムの命令がなくなってからも、私は試作炉に使う高温の炎を作り出すため、再びこの研究に取り組みました。彼女の力を直接再現するため、私はかつて採取していた彼女のDNAから魔女のクローンを作る作業に着手しました。技術的にはクローン作製は成功しましたが、カラミタス特有の魔法を使う兆候は見られませんでした。\n
 
-				While this did prove that the Witch's power was not natural, I had no means of tracking its source. Soon after the project's underwhelming conclusion, security reports indicated that Calamitas herself broke into the laboratory that the clone was stored in and released it. Interestingly, it became capable of wielding a tiny fraction of her very own brimstone magic soon after. To this day, I ponder the implications of these events.
+				このことにより、魔女の力が生来のものではないことは証明されましたが、その源を突き止める手段はありませんでした。その後、研究所の警備報告で、カラミタス本人がクローンの保管されていた施設に侵入し、クローンを解放したことが判明しました。興味深いことに、その後クローンは、彼女の魔法の一部を操れるようになったようです。  
+				この出来事の意味を、私は今でも考え続けています。
 				'''
 		}
 
 		Dog: {
-			Inquiry: The Devourer of Gods
+			Inquiry: デバウアーオブゴッドについて教えてくれ
 			Response:
 				'''
-				No being I have seen is as enigmatic as the Nameless Serpent. Nothing in our world even vaguely resembled his body structure, genome, or phylogenetic tree. I began many studies on his nature, all of which quickly failed for lack of a familiar aspect to make comparisons to. Even his basic biological functions proved to be near-incomprehensible.\n
+				私が見た中で、あの蛇ほど不可解な存在は他にありません。彼の身体構造、遺伝子情報、進化系統樹に至るまで、我々の世界のいかなる生物にも似たものは存在しませんでした。私は彼の本質を解明しようと多くの研究を行いましたが、比較対象となるものが一切ないため、すべて早々に頓挫しました。彼の基本的な生理機能すら、ほとんど理解不能だったのです。\n
 
-				It did not help that many of his claims about himself were unfounded. Creating such a stable portal like the one in the Dungeon is a particularly absurd example, as none of his portals have ever been so stable even with my aid.\n
+				加えて、彼自身の発言にも虚偽が多く含まれていました。例えば、ダンジョン内に存在するような安定したポータルを作ったと主張していましたが、私の協力があっても彼のポータルはそこまで安定していませんでした。\n
 
-				Some number of years after the Serpent joined Yharim's forces, an even more confusing addition to the equation was detected: the other, smaller serpent that you refer to as the Storm Weaver. You may have heard the claim that it is of the same species as the Devourer. Any level of in-depth inspection reveals that to be false.\n
+				彼がヤリムの軍勢に加わった数年後、「ストームウィーバー」と呼ばれる別の小型の蛇が現れました。同種であるという噂もありますが、詳しく調べればそれが間違いだとすぐに分かります。\n
 
-				Setting aside the similar body shape, basic x-rays proved that their endoskeletons were entirely different, and the difference in size tells all else needed. In fact, from what little I have grasped about both Serpents' biology, the Storm Weaver may have been older than the Devourer despite the sheer difference in power and size. However, I am not confident enough in this conjecture to state it as fact.\n
+				確かに体型は似ているものの、単純なX線検査だけでも内部骨格が全く異なることが判明しています。また、サイズ差も決定的です。わずかに得られた生物学的知見によれば、ストームウィーバーはデバウアーよりも年上であった可能性すらあります。ただし、これはあくまで推測であり、断定はできません。\n
 
-				Despite my issues with the Serpent, his assistance on the battlefield and with resource acquisition was welcome. One of the few unquestionable truths about him was the grandeur of his title. I still make use of smelted Cosmilite to this day in numerous applications, and I utilize the raw material as a metallurgical component of various alloys such as the Exo Mechanical Trio's plating.\n
+				彼に関しては問題も多かったものの、戦場や資源調達における助力は歓迎すべきものでした。彼の称号の偉大さは疑いようがありません。今でも私は「コズミライト」を様々な用途に利用しており、エクソメカたちの装甲材にも使用しています。\n
 
-				Yet the most profound mystery remains: the means via which the Devourer's body processed or disposed of godly essence. The energy is not absorbed or entirely converted, but scans for traces of the essence showed that it was not stored inside him for other purposes. All signs indicated that godly essence simply vanished shortly after he consumed it.\n
+				しかし、最大の謎は、「デバウアーが神のエネルギーをどう処理したか」という点にあります。エネルギーは吸収されたわけでも、完全に変換されたわけでもありませんでした。痕跡を調べても、内部に保存されている様子はなく、エネルギーは摂取後すぐに消滅していたのです。\n
 
-				Unless he blatantly defied the laws of thermodynamics, which is most unlikely, the mass-energy must have been transferred elsewhere. Where to, I am not sure. I doubt this matter will ever be resolved now that the Devourer has been culled.
+				熱力学の法則を無視しているのでない限り、質量エネルギーはどこか別の場所へ転送されているはずです。しかしその行き先は不明のままです。デバウアーが討たれた今となっては、この謎が解明されることはないでしょう。
 				'''
 		}
 
 		Distortion: {
-			Inquiry: Distortion
+			Inquiry: 異次元空間について教えてくれ
 			Response:
 				'''
-				Despite my efforts to gain information from the Devourer when forging his armor, I know very little about the Distortion. What knowledge I do possess was still seemingly deemed to be too much by the serpent. He was fiercely suspicious of my questioning, yet did not interfere with my own limited attempts to probe the dimension myself.\n
+				デバウアーの鎧を鍛える際、情報を引き出そうと努力しましたが、歪曲された異次元空間について私が知ることができたのはごく僅かでした。私のわずかな知識ですら、彼にとっては「知りすぎ」と判断されたようで、非常に警戒されました。しかし、私が独自に異次元空間の次元を調査することには干渉しませんでした。\n
 
-				All inorganic material in the Distortion is extraordinarily old, with radiometric dating failing on all 116 samples collected. Given the formations that are present, it is a safe assumption that most matter in the Distortion has existed for far longer than life on this world.\n
+				異次元空間に存在する無機物はすべて、極めて古いものであり、116個のサンプルすべてにおいて放射年代測定が失敗しています。現地の地形から推察するに、異次元空間に存在する物質は、この世界に生命が誕生する遥か以前から存在していたと考えられます。\n
 
-				Despite most of the local life forms displaying behavior similar to highly intelligent creatures on our own planet, electroscopy and dissection of the few collected specimens revealed that none of them possess neural structures of a caliber needed for independent sapience. This evidence, along with observations of similar behavioral patterns between different species, leads me to theorize that the bulk of the creatures of the Distortion merely express intelligence because they serve as limbs of a central hive mind.\n
+				現地の生物は高い知能を示す行動を取っていましたが、電子顕微鏡検査や解剖調査によれば、独立した知性を持つための神経構造は備えていませんでした。この事実と、異なる種の間でも見られる共通した行動パターンから、私は次のように推測しています。  
+				すなわち、異次元空間の生物たちは単独の個体ではなく、中央の群体意識の延長として知性を発揮しているのではないか、ということです。\n
 
-				Quite how this is the case is not clear to me. It should not be possible to remotely grant thought capacity to an otherwise simplistic organism. Doubly so when one considers this effect applies to an unknowable number of creatures, all expressing intelligence simultaneously and working in concert with each other to some undisclosed goal.
+				ただし、これがどのようにして可能になっているかは不明です。本来、単純な生物に遠隔で思考能力を付与することはできないはずです。しかも、無数に存在する生物たちが、同時に知性を持って行動しているのですから、その謎は一層深まるばかりです。
 				'''
 		}
 
 		Mechs: {
-			Inquiry: The Mechanical Trio
+			Inquiry: 4体の機械たちについて教えてくれ
 			Response:
 				'''
-				The "Mechanical Trio", as most call them, are what you annoyingly refer to as The Destroyer, Retinazer & Spazmatism, and, though it pains me to call it this, "Skeletron Prime". While you may be an exceptional individual, I question your naming capabilities. For your information, their formal designations are HM-03, HSx-00, HSy-01, and HF-04 respectively.\n
+				「機械たち」とは、あなた方が「デストロイヤー」「レティネイザー＆スパズマティズム」、そして...不本意ながら「スケルトロンプライム」と呼んでいるものでしょうか...あなたが並外れた存在であることは認めますが、命名のセンスには疑問を感じます。参考までに正式名称を伝えておきましょう。それぞれ、HM-03、HSx-00、HSy-01、HF-04となります。\n
 
-				They were a rudimentary but potent start to my experimentation with engines of war. In search of inspiration, I turned to study the gods and their purportedly unmatched might. While each deity wielded a unique worldly aspect, all drew their strength from an identical source: the soul of an Auric dragon.\n
+				彼らは私が兵器の開発を始めた初期段階の、原始的ながらも強力な成果でした。私はさらなる着想を求め、神々と称される存在たちの力を研究することにしました。それぞれが独自の力を持つ一方、すべての神々は共通して「オーリックドラゴンの魂」から力を引き出していることがわかったのです。\n
 
-				As acquiring an Auric soul was and still is infeasible, experiments with more mundane souls soon began. I was initially discouraged upon discovering that individual souls held a paltry amount of spiritual power, but their potential when coalesced far surpassed my predictions.\n
+				オーリックソウルを手に入れるのは当時も今も不可能だったため、私はより凡庸な魂を使った実験を始めました。最初は、個々の魂の霊的エネルギーがあまりに微弱であることに落胆しましたが、複数を融合させることで、想定をはるかに超える力を引き出せることが判明しました。\n
 
-				Upon further research, I confirmed that a soul's strength is defined by its intense emotions or resolve. Here, Yharim's unrivaled charisma and skill at evoking passion within the hearts of others was key. Not only was finding a source of emblazoned souls trivial, but many of his most stalwart troops even directly consented to having their souls embedded in my machines after their demise at the hands of the enemy.\n
+				さらに研究を進めた結果、魂の力は「強烈な感情」や「揺るぎない意志」によって左右されることを突き止めました。ここで重要だったのが、ヤリムの卓越したカリスマ性と、人々の心に情熱を呼び起こす力です。彼の影響により、力強い魂の供給源を見つけるのは容易でしたし、彼の忠実な兵士たちの多くは、敵に討たれた際、自らの魂を私の機械に組み込むことを快く承諾してくれました。\n
 
-				Fueled by the loyalty of the Godseeker's fallen soldiers, my machines were fearsome and ruthless. Harnessing the meshed combat experience of a thousand lifetimes, their battlefield prowess was self-evident. However, this same source of strength proved to be a flaw, as the unified will that gave them their might also made them volatile and not subject to my commands. While Yharim thoroughly approved, I sought to remove this imperfection from my designs via future projects.
+				神を求める者たちの忠義によって動く私の機械は、恐るべき強さと無慈悲さを持っていました。幾千もの戦いの経験を内包し、戦場での優位性は明白でした。しかし、その強さの源こそが欠点でもありました。強い意志で結ばれた魂たちは、時に私の命令を受け入れず、制御不能に陥ったのです。ヤリムはこの欠点をむしろ気に入りましたが、私はこれを排除すべく次なる計画に取り組むことになりました。
 				'''
 		}
 
 		Plague: {
-			Inquiry: The Plague
+			Inquiry: 疫病について教えてくれ
 			Response:
 				'''
-				Before you ask: I am aware that my nanomachines currently plague the jungle. I created a failsafe in case this happened, and have no intent of causing uncontrollable mass destruction. If it begins to threaten biodiversity or otherwise encroach upon my learning of Terraria, I will deactivate it myself.\n
+				先に言っておきますが、私のナノマシンがジャングルを蝕んでいることは把握しています。万一に備えて安全装置は設けてあり、無制御な破壊を引き起こすつもりはありません。もし生態系に脅威を及ぼす、あるいはこの大地の学びを妨げることがあれば、私自ら停止させるつもりです。\n
 
-				My research into applied nanotechnology began as a means to match the ever rising heights of power organic beings such as the Witch, Braelor, Statis, and Yharim himself were achieving. Living things cannot be externally ordered or controlled, and are prone to fits of emotion and, in rare cases, rebellion.\n
+				ナノテクノロジー応用の研究は、魔女やブレイラー、スタティス、そしてヤリムといった有機生命体たちが高め続ける力に対抗する手段として始まりました。有機生命は外部から秩序立てることができず、感情の爆発や、稀に反乱を引き起こす厄介な存在です。\n
 
-				I aimed to create a weapon which could control, subdue, or eliminate any organic entity, given enough time. I was well aware of the tenacity and adaptability of life, and quickly realized such a weapon would itself need to be alive to overpower and dominate any known organism.\n
+				そこで私は、十分な時間さえあれば、いかなる有機生命体でも制御・抑制・排除できる兵器を作ることを目指しました。有機生命のしぶとさと適応力を考慮し、最終的に、生命体そのものを上回るためには、兵器自体が「生きている」必要があると気付きました。\n
 
-				It was through my observation of the growth of such powerful beings, however, that I had an epiphany: there was no need for my machinery to surpass organic life. Not when that very same life could be improved upon and then harnessed as a tool or weapon.\n
+				しかしさらに観察を続けた結果、有機生命そのものを超える必要などないと悟りました。その生命を「改良」し、利用すればよいのです。\n
 
-				I saw then the banality of my efforts to simply control and replace life. I stood before the near limitless possibilities of enhancing it further.\n
+				生物を単に支配・置き換えるのではなく、さらに高めるという発想に至ったのです。\n
 
-				Even when I deemed that I had plateaued in the field of cybernetics, the limitations of my methodology were ever present. The bodies of most jungle creatures were too frail to handle the prerequisite cybernetic enhancements. A Queen Bee was the optimal choice to host the nanomachines. Born to rule, such beings are resilient enough to survive the augmentation, but still weak enough to be subdued if or when necessary.\n
+				サイバネティクスの分野で限界を感じたときも、課題は常に存在していました。ジャングルの生物たちの体はサイボーグ化に耐えられるほど頑丈ではありませんでした。そこで、ナノマシンの宿主として「女王蜂」が最適と判断しました。支配するために生まれた存在であり、改造に耐えうる強さを持ちながら、必要であれば抑え込むことも可能です。\n
 
-				Something about this research in particular incensed the Godseeker. Upon witnessing my progress, he flew into a rage. He blasted out a sizable chunk of the genomic laboratory and intentionally allowed my first, unfinished specimen to escape. In no uncertain words, he terminated his agreement with me and stormed off. I do not know what line was crossed, but he has made no further moves to antagonize me, so I shall continue my research in peace.\n
+				ただし、この研究のせいで「ゴッドシーカー」の逆鱗に触れてしまったようで...彼は私の成果物を目にすると激昂し、ゲノム研究所の一部を破壊し、未完成の実験体をわざと逃がしたのです。その際、彼は契約を一方的に破棄し、立ち去りました。どこで一線を越えたのかはわかりませんが、それ以降、彼は私に干渉してきていません。ゆえに私は、今もなお研究を続けています。\n
 
-				Regardless. There is a unique allure to setting loose a synthesized mimicry of prokaryotic life. It continues to evolve incomprehensibly rapidly, even as we speak, providing endless opportunities for analysis.
+				いずれにせよ。人造の原始生命を解き放つという試みには、独特の魅力があります。このナノマシンは今この瞬間も信じられない速さで進化し続けており、無限の分析材料を提供してくれています。
 				'''
 		}
 
 		Astral: {
-			Inquiry: Astral Infection
+			Inquiry: アストラル汚染について教えてくれ
 			Response:
 				'''
-				The Infection has beguiled me since its surge upon this world. To study it, I retrofitted an Aureus reconnaissance model with armor intended to nullify its effects. In the end, all the protection I could muster only delayed Aureus' fall to the starborne rot. Observing your trials, I understood why it was overtaken: the lack of a thinking brain.\n
+				この汚染には、世界に広がった当初から強く惹かれてきました。研究のために、アウレウスの偵察モデルを感染防御用の装甲で改造して送り込みました。しかし、どれだけ防御を強化しても、アウレウスが星の病に侵されるのを遅らせることしかできませんでした。あなたの戦いを観察していて、その理由に気づきました。知性を持った頭脳が欠けていたのです。\n
 
-				Attempts at studying it on my own failed; a body was built for the task, but the chassis fell short, even if my mind remained. Using an alternative approach, I sent hired mercenaries into the infection. Few returned, but those who did provided me with enough intel.\n
+				自力での調査も試みましたが、専用の機体を作ったものの、肝心の機体が性能不足で、私の知能だけでは太刀打ちできませんでした。そこで、別の手段として傭兵たちを感染地帯に送り込みました。生還者は少なかったものの、得られた情報は貴重なものでした。\n
 
-				What interested me the most were the reports of an infected Astrum Deus patrolling the Infection. Until the rot afflicted it fully, the closest it had ever been spotted was in Terraria's higher atmosphere. Further analysis pointed towards it being the catalyst for the infection's arrival on the surface. Though I have not found a concrete reason as to why and how this happened, I do have a hypothesis.\n
+				特に興味深かったのは、「感染したアストラムデウス」が汚染地帯を巡回しているという報告です。この個体は完全に感染するまで、高層大気圏以上にしか存在していなかったことがわかりました。追加調査の結果、この個体こそが感染症を地表に持ち込んだ原因である可能性が高いと推測しています。\n
 
-				As you may know, stars are concentrations of magic that form over countless years of ambient mana gathering together in deep space. With the mana having nothing to gravitate towards but itself, it condenses until it becomes a brilliant star. Stars that grow too large begin to collapse, degenerating and forming clots of Astral Infection. Throughout the cosmos at large, this is a rare occurrence, as Astrum Deus intermittently devours large stars for sustenance.\n
+				とはいえ、なぜ、どのようにして起こったかはまだ断定できていません。ただし仮説はあります。\n
 
-				However, space is unfathomably large. If Astrum Deus were to vanish from space for even a brief time, some number of stars should visibly degenerate into Astral Infection, observable via telescope. Yet such observations show no significant increase in the quantity of collapsed stars. Furthermore, I know from my calculations that the observable universe is far, far too large to support a scenario where Astrum Deus disappears.\n
+				ご存知の通り、星々とは宇宙空間に漂う魔力が長い時間をかけて凝縮し、生まれたものです。この魔力は何も引き寄せるものがないため、自らに引き寄せられて星を形成します。成長しすぎた星は崩壊を始め、アストラル感染を引き起こす塊を生み出します。しかし通常は、アストラムデウスが成長しすぎた星を捕食して防いでいるため、滅多に起こらない現象です。\n
 
-				It is therefore almost certain the Astrum Deus we know is simply one of many. Anything further I say on this matter is speculation.\n
+				とはいえ宇宙は計り知れないほど広大です。仮にアストラムデウスが一時的に姿を消したとしても、望遠鏡で観測できる範囲で感染性の星が増えていないのは不自然です。さらに私の計算では、観測可能な宇宙の広さではアストラムデウスが消えるほどの事態は起きないはずです。\n
 
-				The infected Astrum Deus near our world may be a juvenile. This would explain why it could struggle to devour a star or fail to identify an infected star as a potential hazard. It then grew sick and crashed onto the nearest planet. As there are presumably many others of its kind, space on the whole is largely unaffected. I welcome any other hypotheses you may have.
+				したがって、我々の知るアストラムデウスは、無数に存在するうちの一体に過ぎないと考えるのが妥当でしょう。この先の推測については控えます。\n
+
+				感染したアストラムデウスは、若い個体である可能性があります。だからこそ星を喰らう力が不十分で、感染した星を危険と認識できず、自らも病に倒れ、最寄りの惑星に墜落した...そう考えています。ほかにも仮説があれば、ぜひ聞かせてください。
 				'''
 		}
 
 		Sulphur: {
-			Inquiry: Sulphurous Sea
+			Inquiry: 硫黄の海について教えてくれ
 			Response:
 				'''
-				Even before I used the sea as a disposal site for nuclear waste, it was never a pleasant place for your kind. Sulphuric fumes from Azafure's industry rose through the Abyss and came to pollute the sea far above. Most of the calm, docile life that once flourished here was utterly demolished by such a hostile change.\n
+				この海を核廃棄物の投棄場として使用する以前から、ここはあなた方にとって好ましい場所ではありませんでした。アザフレの工業活動による硫黄の煙が深淵を通って上昇し、海を汚染していたのです。その結果、かつて存在していた穏やかな生命は、ほぼすべて消滅しました。\n
 
-				The new life that emerged many years later via mutation and other adaptation allowed for studying how life can adjust to such harsh conditions, including ever-increasing levels of radiation. Though I did not value such data at first, familiarizing myself with the increased tolerances of adapted organic beings proved to be essential at several points during my development of the Plague.\n
+				その後、突然変異や適応によって新たな生命が現れました。これらは過酷な環境、特に増加する放射線量に適応する過程を観察する好機となりました。当初、私はそのようなデータに価値を見出していませんでしたが、適応した有機体の耐性を知ることは、疫病の開発において重要な要素となりました。\n
 
-				If you are concerned about the sea's current state, you are far from the first. You may put your worries to rest, as I have no plans to further irradiate the area for the foreseeable future. Indeed, my actions have already been met with scathing criticism and uproar.\n
+				この海の現状を懸念しているのであれば、心配には及びません。当面、この地域にこれ以上の放射線汚染を加えるつもりはありません。すでに私の行動に対しては、激しい非難と騒動が巻き起こっています。\n
 
-				The Godseeker's bureaucrats would frequently remind me of how the public had organized to revolt against my advancement of science. From what they knew, they were justified. They feared what calamities further science could wreak upon Terraria, due to the destruction brought upon the Sulphurous Sea.\n
+				ゴッドシーカーの官僚たちは、私の科学的進展に対する民衆の反発をたびたび引き合いに出してきました。彼らの知る限りでは、それは正当なものでした。硫黄の海にもたらされた破壊を目の当たりにし、さらなる科学の進歩がこの大地に災厄をもたらすことを恐れたのです。\n
 
-				I thought such retaliation to be absurd, but it appears not all can see reason. Despite my infamy and legacy, technological advancements continue to be made by many other scientists across Terraria, even if the subject continues to provoke unfounded fear mongering.\n
+				私はそのような反応を愚かなものだと考えています。しかし、すべての者が理性を持ち合わせているわけではありません。私がどれほど非難されようとも、それとは関係なしに世界の各地で科学は進歩し続けています。たとえ無根拠な恐怖が煽られ続けたとしても、です。\n
 
-				Regardless, if I deem it necessary, I possess the means to simply rebuild the Sulphur Sea from the bedrock up. Restoring it to its pristine status would be a trivial matter and a testament to science's creative potential.
+				いずれにせよ、必要と判断すれば、私は硫黄の海を基盤から再構築する手段を持っています。元の清浄な状態に戻すなんて、科学の力を持ってすれば容易いことです。
 				'''
 		}
 	}
