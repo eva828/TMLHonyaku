@@ -3,22 +3,22 @@ Configs: {
 		DisplayName: 設定
 
 		NoTombstones: {
-			Label: 死亡時に墓石を出さない
+			Label: 死亡時に墓石が生成されなくなります
 			Tooltip: ""
 		}
 
 		NoDeathMessage: {
-			Label: 死亡時に死亡ログを出さない
+			Label: 死亡時に死亡ログが生成されなくなります
 			Tooltip: ""
 		}
 
 		TownNPCTombs: {
-			Label: タウンNPCの墓を出す
+			Label: タウンNPCの墓石を生成します
 			Tooltip: ""
 		}
 
 		NoTownNPCTombs: {
-			Label: タウンNPCの墓を出さない
+			Label: タウンNPCの墓石が生成されなくなります
 			Tooltip: ""
 		}
 	}

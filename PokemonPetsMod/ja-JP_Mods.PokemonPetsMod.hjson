@@ -1,0 +1,856 @@
+Buffs: {
+
+  ArchenBuff: {
+    DisplayName: ペット アーケン
+    Description: アーケン、キミに決めた！
+  }
+
+  MagikarpBuff: {
+    DisplayName: ペット コイキング
+    Description: コイキング、キミに決めた！
+  }
+
+  PorygonBuff: {
+    DisplayName: ペット ポリゴン
+    Description: ポリゴン、キミに決めた！
+  }
+
+  GlaceonBuff: {
+    DisplayName: ペット グレイシア
+    Description: グレイシア、キミに決めた！
+  }
+
+  HoppipBuff: {
+    DisplayName: ペット ハネッコ
+    Description: ハネッコ、キミに決めた！
+  }
+
+  GastlyBuff: {
+    DisplayName: ペット ゴース
+    Description: ゴース、キミに決めた！
+  }
+
+  CosmogBuff: {
+    DisplayName: ペット コスモッグ
+    Description: コスモッグ、キミに決めた！
+  }
+
+  MimikyuBuff: {
+    DisplayName: ペット ミミッキュ
+    Description: ミミッキュ、キミに決めた！
+  }
+
+  VolcaronaBuff: {
+    DisplayName: ペット ウルガモス
+    Description: ウルガモス、キミに決めた！
+  }
+
+  NinjaskBuff: {
+    DisplayName: ペット テッカニン
+    Description: テッカニン、キミに決めた！
+  }
+
+  DrifloonBuff: {
+    DisplayName: ペット フワンテ
+    Description: フワンテ、キミに決めた！
+  }
+
+  ShuckleBuff: {
+    DisplayName: ペット ツボツボ
+    Description: ツボツボ、キミに決めた！
+  }
+
+  ShayminBuff: {
+    DisplayName: ペット シェイミ
+    Description: シェイミ、キミに決めた！
+  }
+
+  DarkraiBuff: {
+    DisplayName: ペット ダークライ
+    Description: ダークライ、キミに決めた！
+  }
+
+  AegislashBuff: {
+    DisplayName: ペット ギルガルド
+    Description: ギルガルド、キミに決めた！
+  }
+
+  VenipedeBuff: {
+    DisplayName: ペット フシデ
+    Description: フシデ、キミに決めた！
+  }
+  
+  ManaphyBuff: {
+    DisplayName: ペット マナフィ
+    Description: マナフィ、キミに決めた！
+  }
+
+  CelebiBuff: {
+    DisplayName: ペット セレビィ
+    Description: セレビィ、キミに決めた！
+  }
+
+  MewBuff: {
+    DisplayName: ペット ミュウ
+    Description: ミュウ、キミに決めた！
+  }
+
+  DiglettBuff: {
+    DisplayName: ペット ディグダ
+    Description: ディグダ、キミに決めた！
+  }
+
+  DiancieBuff: {
+    DisplayName: ペット ディアンシー
+    Description: ディアンシー、キミに決めた！
+  }
+
+  LedybaBuff: {
+    DisplayName: ペット レディバ
+    Description: レディバ、キミに決めた！
+  }
+
+  SnomBuff: {
+    DisplayName: ペット ユキハミ
+    Description: ユキハミ、キミに決めた！
+  }
+
+  MismagiusBuff: {
+    DisplayName: ペット ムウマージ
+    Description: ムウマージ、キミに決めた！
+  }
+
+  BeldumBuff: {
+    DisplayName: ペット ダンバル
+    Description: ダンバル、キミに決めた！
+  }
+
+  CyndaquilBuff: {
+    DisplayName: ペット ヒノアラシ
+    Description: ヒノアラシ、キミに決めた！
+  }
+
+  PumpkabooBuff: {
+    DisplayName: ペット バケッチャ
+    Description: バケッチャ、キミに決めた！
+  }
+
+  PidgeyBuff: {
+    DisplayName: ペット ポッポ
+    Description: ポッポ、キミに決めた！
+  }
+  
+}
+
+Items: {
+	ArchenItem: {
+		DisplayName: はねのカセキ
+		Tooltip: ペットのアーケンを召喚する
+	}
+
+	MagikarpItem: {
+		DisplayName: ボロのつりざお
+		Tooltip: ペットのコイキングを召喚する
+	}
+
+	PorygonItem: {
+		DisplayName: コインケース
+		Tooltip:
+			'''
+			ペットのポリゴンを召喚する
+			「9,999個のコインが詰まっている」
+			'''
+	}
+
+	GlaceonItem: {
+		DisplayName: こおりのいし
+		Tooltip:
+			'''
+			ペットのグレイシアを召喚する
+			「特定のポケモンを進化させることができる」
+			'''
+	}
+
+	HoppipItem: {
+		DisplayName: ハネッコの葉
+		Tooltip: ペットのハネッコを召喚する
+	}
+
+	GastlyItem: {
+		DisplayName: のろいのおふだ
+		Tooltip:
+			'''
+			ペットのゴースを召喚する
+			「幽霊の力を高めると言われている」
+			'''
+	}
+
+	CosmogItem: {
+		DisplayName: リーリエのバッグ
+		Tooltip:
+			'''
+			ペットのコスモッグを召喚する
+			「ほしぐもちゃん、袋に戻ってきて！」
+			'''
+	}
+
+	MimikyuItem: {
+		DisplayName: ねじれた枝
+		Tooltip: ペットのミミッキュを召喚する
+	}
+
+	VolcaronaItem: {
+		DisplayName: メラルバの繭
+		Tooltip:
+			'''
+			ペットのウルガモスを召喚する
+			「太陽の化身」  
+			'''
+	}
+
+	NinjaskItem: {
+		DisplayName: ツチニンの翼
+		Tooltip:
+			'''
+			ペットのテッカニンを召喚する
+			「ヌケニンをパーティに加えるための空きがないよ」  
+			'''
+	}
+
+	DrifloonItem: {
+		DisplayName: イエローテープ
+		Tooltip: ペットのフワンテを召喚する
+	}
+
+	ShuckleItem: {
+		DisplayName: ツボツボの甲羅
+		Tooltip: ペットのツボツボを召喚する
+	}
+
+	ShayminItem: {
+		DisplayName: グラシデアのはな
+		Tooltip:
+			'''
+			ペットのシェイミを召喚する
+			「感謝の気持ちを込めた花」 
+			'''
+	}
+
+	ShinyCharm: {
+		DisplayName: ひかるおまもり
+		Tooltip: あなたのポケモンに特別な輝きを与える
+	}
+
+	DarkraiItem: {
+		DisplayName: メンバーカード
+		Tooltip:
+			'''
+			ペットのダークライを召喚する
+			「悪夢の島に導くチケット」
+			'''
+	}
+
+	AegislashItem: {
+		DisplayName: キングシールド
+		Tooltip: ペットのギルガルドを召喚する
+	}
+
+	VenipedeItem: {
+		DisplayName: どくバリ
+		Tooltip: ペットのフシデを召喚する
+	}
+
+	ManaphyItem: {
+		DisplayName: マナフィのたまご
+		Tooltip:
+			'''
+			ペットのマナフィを召喚する
+			「体の80パーセントが水」
+			'''
+	}
+
+	CelebiItem: {
+		DisplayName: ゴールドシルバーボール
+		Tooltip:
+			'''
+			ペットのセレビィを召喚する
+			「ウバメの森がそわそわと待っている」  
+			'''
+	}
+
+	MewItem: {
+		DisplayName: おもちゃのトラック
+		Tooltip:
+			'''
+			ペットのミュウを召喚する
+			「その裏を覗いてごらん」
+			'''
+	}
+
+	DiglettItem: {
+		DisplayName: やわらかいすな
+		Tooltip: ペットのディグダを召喚する
+	}
+
+	DiancieItem: {
+		DisplayName: ピンクダイヤモンド
+		Tooltip:
+			'''
+			ペットのディアンシーを召喚する
+			「メレシーの女王様」
+			'''
+	}
+
+	LedybaItem: {
+		DisplayName: レディバの鞘翅
+		Tooltip:
+			'''
+			ペットのレディバを召喚する
+			「五つ星の虫ポケモン」
+			'''
+	}
+
+	SnomItem: {
+		DisplayName: つららばり
+		Tooltip: ペットのユキハミを召喚する
+	}
+
+	MismagiusItem: {
+		DisplayName: やみのいし
+		Tooltip:
+			'''
+			ペットのムウマージを召喚する
+			「真っ暗そのもの」  
+			'''
+	}
+
+	BeldumItem: {
+		DisplayName: ダイゴのお願い
+		Tooltip:
+			'''
+			ペットのダンバルを召喚する
+			「いつの日かまた巡り会えますように」
+			'''
+	}
+
+	CyndaquilItem: {
+		DisplayName: きんのおうかん
+		Tooltip:
+			'''
+			ペットのヒノアラシを召喚する
+			「この子は少し短気だ」  
+			'''
+	}
+
+	PumpkabooItem: {
+		DisplayName: 光るカボチャ
+		Tooltip:
+			'''
+			ペットのバケッチャを召喚する
+			「さまよう霊を帰るべき場所に導く」  
+			'''
+	}
+
+	PidgeyItem: {
+		DisplayName: ポッポの羽
+		Tooltip: ペットのポッポを召喚する
+	}
+}
+
+Projectiles: {
+	ArchenProjectile: {
+		DisplayName: Archen Projectile
+	}
+
+	MagikarpProjectile: {
+		DisplayName: Magikarp Projectile
+	}
+
+	PorygonProjectile: {
+		DisplayName: Porygon Projectile
+	}
+
+	GlaceonProjectile: {
+		DisplayName: Glaceon Projectile
+	}
+
+	HoppipProjectile: {
+		DisplayName: Hoppip Projectile
+	}
+
+	GastlyProjectile: {
+		DisplayName: Gastly Projectile
+	}
+
+	CosmogProjectile: {
+		DisplayName: Cosmog Projectile
+	}
+
+	MimikyuProjectile: {
+		DisplayName: Mimikyu Projectile
+	}
+
+	VolcaronaProjectile: {
+		DisplayName: Volcarona Projectile
+	}
+
+	NinjaskProjectile: {
+		DisplayName: Ninjask Projectile
+	}
+
+	DrifloonProjectile: {
+		DisplayName: Drifloon Projectile
+	}
+
+	ShuckleProjectile: {
+		DisplayName: Shuckle Projectile
+	}
+
+	ShayminProjectile: {
+		DisplayName: Shaymin Projectile
+	}
+
+	DarkraiProjectile: {
+		DisplayName: Darkrai Projectile
+	}
+
+	AegislashProjectile: {
+		DisplayName: Aegislash Projectile
+	}
+
+	VenipedeProjectile: {
+		DisplayName: Venipede Projectile
+	}
+
+	ManaphyProjectile: {
+		DisplayName: Manaphy Projectile
+	}
+
+	CelebiProjectile: {
+		DisplayName: Celebi Projectile
+	}
+
+	MewProjectile: {
+		DisplayName: Mew Projectile
+	}
+
+	DiglettProjectile: {
+		DisplayName: Diglett Projectile
+	}
+
+	DiancieProjectile: {
+		DisplayName: Diancie Projectile
+	}
+
+	SnomProjectile: {
+		DisplayName: Snom Projectile
+	}
+
+	LedybaProjectile: {
+		DisplayName: Ledyba Projectile
+	}
+
+	MismagiusProjectile: {
+		DisplayName: Mismagius Projectile
+	}
+
+	BeldumProjectile: {
+		DisplayName: Beldum Projectile
+	}
+
+	CyndaquilProjectile: {
+		DisplayName: Cyndaquil Projectile
+	}
+
+	PumpkabooProjectile: {
+		DisplayName: Pumpkaboo Projectile
+	}
+
+	PidgeyProjectile: {
+		DisplayName: Pidgey Projectile
+	}
+}
+
+Configs: {
+	DisplayName: 設定
+
+	Headers: {
+	PetSummonItemAcquisition: [i:48] ペット召喚アイテムの入手
+	PetSettings: [i:509] ペット設定
+	MiscSettings: [i:207] その他の設定
+	}
+
+	CosmogToggle: {
+	Label: [i:PokemonPetsMod/CosmogItem] コスモッグの切り替え
+	Tooltip:
+	'''
+	オンにすると、ハードモード中に旅商人からコスモッグのペット召喚アイテムを購入できるようになります
+	コスモッグが光源ペットに設定されている場合、アイテムはプランテラを倒した後にのみ販売されます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	ArchenToggle: {
+	Label: [i:PokemonPetsMod/ArchenItem] アーケンの切り替え
+	Tooltip:
+	'''
+	オンにすると、砂利・水雪ブロック、または砂漠の化石から抽出することでアーケンのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	GlaceonToggle: {
+	Label: [i:PokemonPetsMod/GlaceonItem] グレイシアの切り替え
+	Tooltip:
+	'''
+	オンにすると、アイスゴーレムを倒すことでグレイシアのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	HoppipToggle: {
+	Label: [i:PokemonPetsMod/HoppipItem] ハネッコの切り替え
+	Tooltip:
+	'''
+	オンにすると、マンイーター、スナッチャー、アングリートラッパーを倒すことでハネッコのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	PorygonToggle: {
+	Label: [i:PokemonPetsMod/PorygonItem] ポリゴンの切り替え
+	Tooltip:
+	'''
+	オンにすると、マーズピープルを倒すことでポリゴンのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	MagikarpToggle: {
+	Label: [i:PokemonPetsMod/MagikarpItem] コイキングの切り替え
+	Tooltip:
+	'''
+	オンにすると、木のクレートやパールウッドクレートを開けることでコイキングのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	GastlyToggle: {
+	Label: [i:PokemonPetsMod/GastlyItem] ゴースの切り替え
+	Tooltip:
+	'''
+	オンにすると、レイスを倒すことでゴースのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	GastlyPetSettings: {
+	Label: ゴースのペット設定
+	Tooltip:
+	'''
+	ゴースをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	ゴースが光源ペットに設定されている場合、マジックランタンよりやや明るい光を発します
+	デフォルトは光源ペット（推奨）
+	'''
+	}
+
+	CosmogPetSettings: {
+	Label: コスモッグのペット設定
+	Tooltip:
+	'''
+	コスモッグをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	コスモッグが光源ペットに設定されている場合、ウィスプ・イン・ア・ボトルと同等の光を発します
+	デフォルトはバニティペット（推奨）
+	'''
+	}
+
+	MimikyuToggle: {
+	Tooltip:
+	'''
+	オンにすると、カカシたちを倒すことでミミッキュのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	Label: [i:PokemonPetsMod/MimikyuItem] ミミッキュの切り替え
+	}
+
+	VolcaronaToggle: {
+	Label: [i:PokemonPetsMod/VolcaronaItem] ウルガモスの切り替え
+	Tooltip:
+	'''
+	オンにすると、レッドデビルを倒すことでウルガモスのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	VolcaronaPetSettings: {
+	Label: ウルガモスのペット設定
+	Tooltip:
+	'''
+	ウルガモスをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	ウルガモスが光源ペットに設定されている場合、マジックランタンよりやや明るい光を発します
+	デフォルトはバニティペット（推奨）
+	'''
+	}
+
+	NinjaskToggle: {
+	Label: [i:PokemonPetsMod/NinjaskItem] テッカニンの切り替え
+	Tooltip:
+	'''
+	オンにすると、アントリオンスウォーマーを倒すことでテッカニンのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	DrifloonToggle: {
+	Label: [i:PokemonPetsMod/DrifloonItem] フワンテの切り替え
+	Tooltip:
+	'''
+	オンにすると、風の強い日にパーティーガールからフワンテのペット召喚アイテムを購入できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	ShuckleToggle: {
+	Label: [i:PokemonPetsMod/ShuckleItem] ツボツボの切り替え
+	Tooltip:
+	'''
+	オンにすると、ジャイアントタートルやアイスタートルを倒すことでツボツボのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	ShayminToggle: {
+	Label: [i:PokemonPetsMod/ShayminItem] シェイミの切り替え
+	Tooltip:
+	'''
+	オンにすると、シマーでグロマーの花を変形させることでシェイミのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	DarkraiToggle: {
+	Label: [i:PokemonPetsMod/DarkraiItem] ダークライの切り替え
+	Tooltip:
+	'''
+	オンにすると、リーパーを倒すことでダークライのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	AegislashToggle: {
+	Label: [i:PokemonPetsMod/AegislashItem] ギルガルドの切り替え
+	Tooltip:
+	'''
+	オンにすると、エンチャントソード、カースドハンマー、クリムゾンアックスを倒すことでギルガルドのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	ShinyCharmDroprate: {
+	Label: [i:PokemonPetsMod/ShinyCharm] ひかるおまもりのドロップ率
+	Tooltip:
+	'''
+	クイーンスライムを倒すことでひかるおまもりを入手する確率を調整します
+	この値は分母を表します
+	推奨値は20（1/20、つまり5%）
+	1に設定すると、毎回必ずドロップします（1/1、つまり100%）
+	0に設定すると、ひかるおまもりは入手できなくなります  
+	ひかるおまもりは、ポケモンに別の外見を与えるアクセサリーです
+	オプションのシャイニーパーティクルは、装備している染料の影響を受けます
+	'''
+	}
+
+	VenipedeToggle: {
+	Label: [i:PokemonPetsMod/VenipedeItem] フシデの切り替え
+	Tooltip:
+	'''
+	オンにすると、ブラッドムーン中にウィッチドクターからフシデのペット召喚アイテムを購入できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	MewToggle: {
+	Label: [i:PokemonPetsMod/MewItem] ミュウの切り替え
+	Tooltip:
+	'''
+	オンにすると、ハードモードの神聖な木箱を開けることでミュウのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	CelebiToggle: {
+	Label: [i:PokemonPetsMod/CelebiItem] セレビィの切り替え
+	Tooltip:
+	'''
+	オンにすると、ハードモードのイバラの木箱を開けることでセレビィのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	ManaphyToggle: {
+	Label: [i:PokemonPetsMod/ManaphyItem] マナフィの切り替え
+	Tooltip:
+	'''
+	オンにすると、ハードモードの海岸の木箱を開けることでマナフィのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	MewPetSettings: {
+	Label: ミュウのペット設定
+	Tooltip:
+	'''
+	ミュウをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	ミュウが光源ペットに設定されている場合、フェアリーベルと同等の光を発します
+	デフォルトは光源ペット（推奨）
+	'''
+	}
+
+	CelebiPetSettings: {
+	Label: セレビィのペット設定
+	Tooltip:
+	'''
+	セレビィをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	セレビィが光源ペットに設定されている場合、フェアリーベルと同等の光を発します
+	デフォルトは光源ペット（推奨）
+	'''
+	}
+
+	ManaphyPetSettings: {
+	Label: マナフィのペット設定
+	Tooltip:
+	'''
+	マナフィをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	マナフィが光源ペットに設定されている場合、フェアリーベルと同等の光を発します
+	デフォルトは光源ペット（推奨）
+	'''
+	}
+	
+	MythTrioShimmerToggle: {
+	Label: [i:5364] ミュウ、セレビィ、マナフィのシマーサイクルの切り替え
+	Tooltip:
+	'''
+	ミュウ、セレビィ、マナフィをシマーで変形させて互いに交換できるかどうかを切り替えます
+	無効化されたペットはサイクルから除外されます
+	'''
+	}
+
+	DiglettToggle: {
+	Label: [i:PokemonPetsMod/DiglettItem] ディグダの切り替え
+	Tooltip:
+	'''
+	オンにすると、満月の日にスケルトンマーチャントからディグダのペット召喚アイテムを購入できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	DiancieToggle: {
+	Label: [i:PokemonPetsMod/DiancieItem] ディアンシーの切り替え
+	Tooltip:
+	'''
+	オンにすると、ジオードを壊すことでディアンシーのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	LedybaToggle: {
+	Label: [i:PokemonPetsMod/LedybaItem] レディバの切り替え
+	Tooltip:
+	'''
+	オンにすると、旅商人からレディバのペット召喚アイテムを購入できます*
+	オフにすると、入手できなくなります  
+	*これは仮の方法です2025年3月のtModLoaderの安定版アップデートで変更されます
+	'''
+	}
+
+	SnomToggle: {
+	Label: [i:PokemonPetsMod/SnomItem] ユキハミの切り替え
+	Tooltip:
+	'''
+	オンにすると、アイススライムやスパイクドアイススライムを倒すことでユキハミのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	MismagiusToggle: {
+	Label: [i:PokemonPetsMod/MismagiusItem] ムウマージの切り替え
+	Tooltip:
+	'''
+	オンにすると、ティムやルーンウィザードを倒すことでムウマージのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	BeldumToggle: {
+	Label: [i:PokemonPetsMod/BeldumItem] ダンバルの切り替え
+	Tooltip:
+	'''
+	オンにすると、サイボーグからダンバルのペット召喚アイテムを購入できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	CyndaquilToggle: {
+	Label: [i:PokemonPetsMod/CyndaquilItem] ヒノアラシの切り替え
+	Tooltip:
+	'''
+	オンにすると、ラバスライムを倒すことでヒノアラシのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	PumpkabooToggle: {
+	Label: [i:PokemonPetsMod/PumpkabooItem] バケッチャの切り替え
+	Tooltip:
+	'''
+	オンにすると、ヘッドレスホースマンを倒すことでバケッチャのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	PidgeyToggle: {
+	Label: [i:PokemonPetsMod/PidgeyItem] ポッポの切り替え
+	Tooltip:
+	'''
+	オンにすると、ハーピーを倒すことでポッポのペット召喚アイテムを入手できます
+	オフにすると、入手できなくなります
+	'''
+	}
+
+	CyndaquilPetSettings: {
+	Label: ヒノアラシのペット設定
+	Tooltip:
+	'''
+	ヒノアラシをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	ヒノアラシが光源ペットに設定されている場合、マジックランタンと同等の光を発します
+	デフォルトはバニティペット（推奨）
+	'''
+	}
+
+	PumpkabooPetSettings: {
+	Label: バケッチャのペット設定
+	Tooltip:
+	'''
+	バケッチャをバニティペットとして振る舞うか、光源ペットとして振る舞うかを切り替えます
+	バケッチャが光源ペットに設定されている場合、フェアリーベルよりやや明るい光を発します
+	デフォルトは光源ペット（推奨）
+	'''
+	}
+
+}
+
+VanityPetOrLightPetEnum: {
+  Tooltip: ""  
+
+  VanityPet: {
+    Label: バニティペット
+  }
+
+  LightPet: {
+    Label: 光源ペット
+  }
+
+}
+
+
+

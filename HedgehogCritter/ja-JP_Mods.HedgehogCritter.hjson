@@ -1,0 +1,92 @@
+Configs: {
+    HedgehogConfig: {
+        CanDamageEnemies: {
+            Label: ハリネズミが防御姿勢の場合敵にダメージ
+            Tooltip: ハリネズミが丸まったときに敵にダメージを与えるか切り替えます
+        }
+
+		CritterDamageAmount: {
+			Tooltip: ハリネズミが丸まったときにどの程度小動物にダメージを与えるか調整します
+			Label: 小動物へのダメージ量
+		}
+
+		CanDamageCritters: {
+			Tooltip: ハリネズミが丸まったときに小動物にダメージを与えるか切り替えます
+			Label: ハリネズミが防御姿勢の場合に小動物にダメージ
+		}
+
+		TownResidentDamageAmount: {
+			Tooltip: ハリネズミが丸まったときにどの程度タウンNPCにダメージを与えるか調整します
+			Label: タウンNPCに与えるダメージ
+		}
+
+		CanDamageTownResidents: {
+			Tooltip: ハリネズミが丸まったときにタウンNPCにダメージを与えるか切り替えます
+			Label: ハリネズミが防御姿勢の場合タウンNPCにダメージ
+		}
+
+		PlayerDamageAmount: {
+			Tooltip: ハリネズミが丸まったときにどの程度プレイヤーにダメージを与えるか調整します
+			Label: プレイヤーへのダメージ量
+		}
+
+		CanDamagePlayers: {
+			Tooltip: ハリネズミが丸まったときにプレイヤーにダメージを与えるか切り替えます
+			Label: ハリネズミが防御姿勢の場合プレイヤーにダメージ
+		}
+
+		Headers: {
+			DamageSettings: ダメージ設定 - 防御ハリネズミ
+			SpawnSettings: 出現頻度
+		}
+
+		SpawnRateMultiplier: {
+			Tooltip: 出現率の倍率を調整します。値が大きいほど出現頻度が高くなります
+			Label: 出現率倍率
+		}
+
+		DisplayName: 設定
+
+		EnemyDamageAmount: {
+			Label: 敵へのダメージ量
+			Tooltip: ハリネズミが丸まったときにどの程度敵にダメージを与えるか調整します
+		}
+	}
+}
+
+
+
+Projectiles: {
+	HedgehogSpirit: {
+		DisplayName: Hedgehog Spirit
+	}
+
+	HedgehogDevil: {
+		DisplayName: Hedgehog Devil
+	}
+}
+
+NPCs: {
+	Hedgehog: {
+		DisplayName: ハリネズミ
+	}
+}
+
+Tiles: {
+	HedgehogHouseTile: {
+		MapEntry: ハリネズミの小屋
+	}
+}
+
+Items: {
+	HedgehogItem: {
+		Tooltip: 使用して野に返せる
+		DisplayName: ハリネズミ
+	}
+
+	HedgehogHouseItem: {
+		Tooltip: ハリネズミの住む所
+		DisplayName: ハリネズミの小屋
+	}
+}
+

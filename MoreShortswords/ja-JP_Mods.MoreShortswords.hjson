@@ -1,0 +1,357 @@
+Items: {
+    StrangeStarSword: {
+        DisplayName: 奇妙な星の剣
+        Tooltip:
+            '''
+            『とても奇妙だ…』
+            短剣のダメージと攻撃速度が上昇
+            ダメージを受けた後に星を降らせる
+            '''
+    }
+
+    StrangeSword: {
+        DisplayName: 奇妙な剣
+        Tooltip:
+            '''
+            『とても奇妙だ…』
+            短剣のダメージと攻撃速度が上昇
+            '''
+    }
+
+    Betelguese: {
+        DisplayName: ベテルギウス
+        Tooltip: ""
+    }
+
+    CactusShort: {
+        DisplayName: サボテンの短剣
+        Tooltip: 敵にまれに『毒』デバフを付与する
+    }
+
+    ChaosControl: {
+        DisplayName: カオスコントロール
+        Tooltip: ""
+    }
+
+    CosmicBlade: {
+        DisplayName: コズミックブレード
+        Tooltip: ""
+    }
+
+    DayAbomination: {
+        DisplayName: デイライトのアボミネーション
+        Tooltip: ""
+    }
+
+    EnchantedDagger: {
+        DisplayName: スペルバインド
+        Tooltip: ""
+    }
+
+    FinalSword: {
+        DisplayName: アポジー
+        Tooltip: 「死に別れを告げなさい。」
+    }
+
+    Magma: {
+        DisplayName: マグマ
+        Tooltip:
+            '''
+            「注意、熱いよ！」
+            敵に命中すると爆発を起こす
+            '''
+    }
+
+    FrozenShort: {
+        DisplayName: 雪原の短剣
+        Tooltip:
+            '''
+            「注意、冷たいよ！」
+            まれに敵に『フロストバーン』デバフを付与する
+            '''
+    }
+
+    GoblinShort: {
+        DisplayName: 戦士のナイフ
+        Tooltip: ""
+    }
+
+    HeartRod: {
+        DisplayName: ハートロッド
+        Tooltip: クリティカル後にまれにライフが回復する
+    }
+
+    Ladnerud: {
+        DisplayName: ハロウドシヴ
+        Tooltip: 聖域バイオームで使用するとダメージが増加
+    }
+
+    LifeSplitter: {
+        DisplayName: ライフスプリッター
+        Tooltip:
+            '''
+            25%の確率で敵に『弱体化』デバフを付与
+            攻撃命中時、敵をホーミングする緑色のボルトを降らせる
+            '''
+    }
+
+    MagicBlade: {
+        DisplayName: マジックブレード
+        Tooltip: 3回目の振りでブーメランのように発射
+    }
+
+    Moonlight: {
+        DisplayName: ムーンライト
+        Tooltip: ""
+    }
+
+    NaturesBless: {
+        DisplayName: ネイチャーズブレス
+        Tooltip: ""
+    }
+
+    SawBlade: {
+        DisplayName: ソーブレード
+        Tooltip: ""
+    }
+
+    ShortswordOfGrass: {
+        DisplayName: グラッシーシヴ
+        Tooltip: 20%の確率で敵に『毒』デバフを付与
+    }
+
+    SkyBlade: {
+        DisplayName: スカイブレード
+        Tooltip: ""
+    }
+
+    StarFragment: {
+        DisplayName: スターフラグメント
+        Tooltip: 敵に命中すると星を降らせる
+    }
+
+    TriangleSword: {
+        DisplayName: キラーズクナイ
+        Tooltip: 33%の確率で敵に『弱体化』『出血』デバフを付与
+    }
+
+    TrueStarFragment: {
+        DisplayName: スカイズレイジ
+        Tooltip: 敵に命中すると多くの星を降らせる
+    }
+
+    Destroyer: {
+        DisplayName: デストロイヤー
+        Tooltip: ""
+    }
+
+    SuperFrost: {
+        DisplayName: スーパーフロスト
+        Tooltip: ""
+    }
+}
+
+Projectiles: {
+    
+	BetelgueseProjectile: {
+        DisplayName: ベテルギウス
+    }
+
+    BetelgueseProjectile2: {
+        DisplayName: ベテルギウス
+    }
+
+    BetelgueseProjectile3: {
+        DisplayName: ベテルギウス
+    }
+
+    CactusShortProjectile: {
+        DisplayName: サボテンの短剣
+    }
+
+    ChaosControlProjectile: {
+        DisplayName: カオスコントロール
+    }
+
+    ChaosControlProjectile2: {
+        DisplayName: カオスコントロール
+    }
+
+    ChaosControlProjectile3: {
+        DisplayName: カオスコントロール
+    }
+
+    CosmicBladeProjectile: {
+        DisplayName: コズミックブレード
+    }
+
+    CosmicBladeProjectile2: {
+        DisplayName: コズミックブレード
+    }
+
+    CosmicBladeProjectile3: {
+        DisplayName: コズミックレーザー
+    }
+
+    DayAbominationProjectile: {
+        DisplayName: デイライトのアボミネーション
+    }
+
+    DayAbominationProjectile2: {
+        DisplayName: デイライトのアボミネーション
+    }
+
+    DayAbominationProjectile3: {
+        DisplayName: デイライトのアボミネーション
+    }
+
+    EnchantedDaggerProjectile: {
+        DisplayName: エンチャントダガー
+    }
+
+    FieryShortProjectile: {
+        DisplayName: マグマ
+    }
+
+    FinalSwordProjectile: {
+        DisplayName: アポジー
+    }
+
+    FinalSwordProjectile2: {
+        DisplayName: アポジー
+    }
+
+    FrozenShortProjectile: {
+        DisplayName: フローズン短剣
+    }
+
+    GoblinShortProjectile: {
+        DisplayName: 戦士のナイフ
+    }
+
+    HeartRodProjectile: {
+        DisplayName: ハートロッド
+    }
+
+    HybridShortProjectile: {
+        DisplayName: デストロイヤー
+    }
+
+    HybridShortProjectile2: {
+        DisplayName: デストロイヤー
+    }
+
+    LadnerudProjectile: {
+        DisplayName: ハロウドシヴ
+    }
+
+    LadnerudProjectile2: {
+        DisplayName: ハロウドシヴ
+    }
+
+    LifeSplitterProjectile: {
+        DisplayName: ライフスプリッター
+    }
+
+    LifeSplitterProjectile2: {
+        DisplayName: ライフスプリッター
+    }
+
+    MagicBladeProjectile: {
+        DisplayName: マジックブレード
+    }
+
+    MagicBladeProjectile2: {
+        DisplayName: マジックブレード
+    }
+
+    MagicBladeProjectile3: {
+        DisplayName: マジックブレード
+    }
+
+    MuraShortProjectile: {
+        DisplayName:  AscendingPathProjectile: {
+        DisplayName: ムーンライト
+    }
+
+    NaturesBlessProjectile: {
+        DisplayName: ネイチャーズブレス
+    }
+
+    SawBladeProjectile: {
+        DisplayName: ソーブレード
+    }
+
+    ShortGrassProjectile: {
+        DisplayName: グラスブレード
+    }
+
+    ShortSwordProjectile: {
+        DisplayName: 短剣
+    }
+
+    SkyBladeProjectile: {
+        DisplayName: スカイブレード
+    }
+
+    SkyBladeProjectile2: {
+        DisplayName: スカイブレード
+    }
+
+    StarFragmentProjectile: {
+        DisplayName: スターフラグメント
+    }
+
+    TriangleSwordProjectile: {
+        DisplayName: キラーズクナイ
+    }
+
+    TrueStarFragmentProjectile: {
+        DisplayName: スカイズレイジ
+    }
+
+    TrueStarFragmentProjectile2: {
+        DisplayName: スカイズレイジ
+    }
+
+    MoonlightProjectile: {
+        DisplayName: ムーンライト
+    }
+
+    CosmicBladeThrown: {
+        DisplayName: コズミックブレード
+    }
+
+    CosmicLaser: {
+        DisplayName: コズミックレーザー
+    }
+
+    UltraStarProj: {
+        DisplayName: ウルトラスター
+    }
+
+    FinalSwordShadow: {
+        DisplayName: アポジー
+    }
+
+    HomingFinalSword: {
+        DisplayName: アポジー
+    }
+
+    SuperFrostProjectile: {
+        DisplayName: スーパーフロスト
+    }
+
+    FrozenBolt: {
+        DisplayName: フローズンボルト
+    }
+
+    NatureThornBase: {
+        DisplayName: ネイチャーソーン基部
+    }
+
+    NatureThornEnd: {
+        DisplayName: ネイチャーソーン末端
+    }
+}
+    

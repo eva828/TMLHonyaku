@@ -1,0 +1,89 @@
+Configs: {
+    Config: {
+        IPv6Tutorial: {
+            Tooltip: ""
+            Label: Google 検索: "IPv6を有効にする方法"
+        }
+
+		IPv6Test3: {
+			Tooltip: ""
+			Label: IPv6テストウェブサイト3
+		}
+
+		IPv6Test2: {
+			Tooltip: ""
+			Label: IPv6テストウェブサイト2
+		}
+
+		IPv6Test1: {
+			Tooltip: ""
+			Label: IPv6テストウェブサイト
+		}
+
+		OpenNetworkControl: {
+			Tooltip: ここでIPv6プロトコルの使用を手動で確認できます
+			Label: ネットワークコントロールパネルを開く
+		}
+
+		OpenNetworkInfo: {
+			Tooltip: ここでIPv6アドレスを確認できます
+			Label: ネットワーク情報を確認
+		}
+
+		OpenFirewall: {
+			Tooltip: ホストとして他の人にサーバーに接続してほしい場合、ファイアウォールを無効にする必要があります
+			Label: ファイアウォールコントロールパネルを開く
+		}
+
+		CustomMappedLocalPort: {
+			Tooltip:
+				'''
+				IPv6をローカルIPv4にマッピングするポートをカスタマイズ
+				これが何かわからない場合は変更しないでください
+				'''
+			Label: カスタムローカルマッピングポート
+		}
+
+		CustomMappedRemotePort: {
+			Tooltip:
+				'''
+				ローカルIPv4をIPv6にマッピングするポートをカスタマイズ
+				これが何かわからない場合は変更しないでください
+				'''
+			Label: カスタムリモートマッピングポート
+		}
+
+		CustomIPv6Address: {
+			Tooltip: 自動検出されたIPv6アドレスが間違っている場合、ここでカスタマイズできます
+			Label: カスタムIPv6アドレス
+		}
+
+		OpenFile: {
+			Tooltip: ""
+			Label: 設定ファイルを開く
+		}
+
+		DisplayName: モッド設定
+	}
+}
+
+TypeHere: ここに入力
+
+TinyMapperSaveError: "ファイルの保存中にエラーが発生しました："
+
+TinyMapperSaved: "tinymapper.exeが保存されました："
+
+NotGetIP: IPv6アドレスが見つかりません
+
+ErrorGetIP: "IPv6アドレスの取得中にエラーが発生しました："
+
+ConfigTip: 間違っている場合は、IPv6マルチプレイヤーサポートのモッド設定で変更してください！
+
+IPAddressRaw: "IPv6アドレス："
+
+IPAddressCopied: IPv6アドレス：{0}（コピー済み！）
+
+IPAddress: IPv6アドレス：{0}（クリックしてコピー）
+
+
+

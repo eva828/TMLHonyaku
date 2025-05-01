@@ -1,0 +1,143 @@
+Configs: {
+	MoredrilConfig: {
+		MaxSpeedMultiplier: {
+			Tooltip: ""
+			Label: 最大速度倍率
+		}
+
+		MaxSpeedBonus: {
+			Tooltip: ""
+			Label: 最大速度ボーナス
+		}
+
+		coperdrillToggle: {
+			Tooltip: ""
+			Label: ゲーム開始時にドリルを所持(銅のピッケルと置き換える)
+		}
+
+		Headers: {
+			experemental: 実験的機能
+			moredrill: MoreDrill
+		}
+
+		DisplayName: Moredril 設定
+	}
+}
+
+Projectiles: {
+	platinumdrillproj: {
+		DisplayName: platinumdrillproj
+	}
+
+	golddrillproj: {
+		DisplayName: golddrillproj
+	}
+
+	nightmaredrillproj: {
+		DisplayName: nightmaredrillproj
+	}
+
+	moltendrillproj: {
+		DisplayName: moltendrillproj
+	}
+
+	tungestaldrillproj: {
+		DisplayName: tungestaldrillproj
+	}
+
+	tindrillproj: {
+		DisplayName: tindrillproj
+	}
+
+	silverdrillproj: {
+		DisplayName: silverdrillproj
+	}
+
+	leaddrillproj: {
+		DisplayName: leaddrillproj
+	}
+
+	irondrillproj: {
+		DisplayName: irondrillproj
+	}
+
+	copperdrillproj: {
+		DisplayName: copperdrillproj
+	}
+
+	cactusdrillproj: {
+		DisplayName: cactusdrillproj
+	}
+
+	crimsondrillproj: {
+		DisplayName: crimsondrillproj
+	}
+}
+
+Items: {
+    ModulSpeed: {
+        Tooltip: ドリルの掘削速度が少し上昇する
+        DisplayName: モジュール速度
+    }
+
+	platinumdrill: {
+		Tooltip: ""
+		DisplayName: プラチナのドリル
+	}
+
+	golddrill: {
+		Tooltip: ""
+		DisplayName: 金のドリル
+	}
+
+	nightmaredrill: {
+		Tooltip: ""
+		DisplayName: 悪夢のドリル
+	}
+
+	moltendrill: {
+		Tooltip: ""
+		DisplayName: 溶岩のドリル
+	}
+
+	tungstendrill: {
+		Tooltip: ""
+		DisplayName: タングステンのドリル
+	}
+
+	tindrill: {
+		Tooltip: ""
+		DisplayName: 錫のドリル
+	}
+
+	silverdrill: {
+		Tooltip: ""
+		DisplayName: 銀のドリル
+	}
+
+	irondrill: {
+		Tooltip: ""
+		DisplayName: 鉄のドリル
+	}
+
+	crimsondrill: {
+		Tooltip: ""
+		DisplayName: クリムゾンのドリル
+	}
+
+	cooperdrill: {
+		Tooltip: ""
+		DisplayName: 銅のドリル
+	}
+
+	cactusdrill: {
+		Tooltip: ""
+		DisplayName: サボテンのドリル
+	}
+
+	leaddrill: {
+		Tooltip: ""
+		DisplayName: 鉛のドリル
+	}
+}
+

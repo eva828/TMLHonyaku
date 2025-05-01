@@ -1,0 +1,358 @@
+NPCs: {
+    Placeholder: {
+        DisplayName: 仮置き
+    }
+}
+
+Configs: {
+    MiscChallenges: {
+        EnemyDrops: {
+            Tooltip:
+                '''
+                ブードゥーデーモンを除き、敵のアイテムドロップを無効にします
+                コインドロップは有効または無効に設定できます
+                '''
+            Label: 敵のドロップなし
+        }
+
+		AllBiomes: {
+			Tooltip:
+				'''
+				常にすべてのバイオームにいる状態になります
+				スポーンに驚くほど予測不可能な影響を与えます
+				ダンジョン、ジャングル寺院、砂嵐、シマーは除外されます
+				'''
+			Label: "[i:1983]全バイオームにいる"
+		}
+
+		BloodMoonEveryNight: {
+			Tooltip:
+				'''
+				毎晩ブラッドムーンになります
+				他のムーンイベントによって上書きされる場合があります
+				'''
+			Label: "[i:4271]毎晩ブラッドムーン"
+		}
+
+		FlippedGravity: {
+			Tooltip:
+				'''
+				重力が常に反転しますが、グラビテーション使用時は除きます
+				[i:305] はバランス調整のため30秒に短縮されます
+				スポーン時にグラビテーション効果が9秒間与えられ、素早く採掘やブロック設置の時間を提供します
+				'''
+			Label: "[i:305]重力反転"
+		}
+
+		Meteors: {
+			Tooltip:
+				'''
+				隕石が空から絶えず降り注ぎます
+				小さな隕石が絶えず降り、プレイヤーやNPC/敵にダメージを与えますが、ブロックは壊しません
+				そして巨大隕石がゆっくりと降り注ぎ、徐々に世界の表面を覆っていきます
+				'''
+			Label: "[i:116]隕石の雨"
+		}
+
+		EnemyLifeRegen: {
+			Tooltip:
+				'''
+				敵がライフを自然回復します
+				敵のステータスに応じて回復量も変化します
+				'''
+			Label: "[i:2112]敵の自然回復"
+		}
+
+		Aquatic: {
+			Tooltip:
+				'''
+				空気ではなく水で呼吸します
+				水呼吸ポーションは空気呼吸ポーションに変化し、効果時間が短縮されます
+				呼吸リード、ダイビングギアおよびそのアップグレードが変換されます
+				'''
+			Label: "[i:261]アクアティック"
+		}
+
+		Midas: {
+			Tooltip:
+				'''
+				詳細はMODのSteamページをご覧ください！
+				警告：触れたアイテムを永久に金色のバリアントに変換します！
+				かなり難しいです！
+				'''
+			Label: "[i:141]黄金のミダス"
+		}
+
+		NoMovement: {
+			Tooltip:
+				'''
+				上下左右の移動を無効にします
+				ジャンプは影響を受けません（上記で無効化可能）
+				グラップルが唯一の希望かもしれません
+				'''
+			Label: 移動なし
+		}
+
+		NoJump: {
+			Tooltip: ジャンプをできなくなります
+			Label: ジャンプ無効化
+		}
+
+		SpawnRateAdjustment: {
+			Tooltip: デフォルトは1です。Bestiaryで使用されているシステムと同じです
+			Label: スポーン率調整
+		}
+
+		AdjustSpawnRates: {
+			Tooltip: 下記のレートを調整するには有効にする必要があります！
+			Label: スポーン率調整
+		}
+
+		Headers: {
+			MiscChallengesHeader: 雑多なチャレンジヘッダー
+		}
+
+		DisplayName: 雑多なチャレンジ
+	}
+
+	StatChallenges: {
+		MoveSpeedLocked: {
+			Tooltip: ""
+			Label: 移動速度固定
+		}
+
+		NoDefense: {
+			Tooltip: 防御力が常に0になります
+			Label: "[i:938]丸裸"
+		}
+
+		NoLifeRegen: {
+			Tooltip:
+				'''
+				自然回復を停止します
+				ライフ回復ポーションやその他の即時回復方法には影響を与えません
+				'''
+			Label: "[i:58]自然回復無効化"
+		}
+
+		CustomMaxHP: {
+			Tooltip:
+				'''
+				最大HPをこの数値に設定するわけではありません！
+				最大HPがこの値を上回ると、ここで設定した最高値に固定されます
+				デフォルト値は601で、これによりCalamityなどの他のMODによる600以上の最大HPも許可されます
+				'''
+			Label: "[i:29]最大ライフカスタム"
+		}
+
+		OneHPMax: {
+			Tooltip:
+				'''
+				HPを1に固定しますが、実際の最大HP制限は変更されません
+				最大HPを1に設定するとUIが壊れ、ゲームがクラッシュする可能性があるためです
+				無効化することで元に戻り、永久的な変更は発生しません
+				'''
+			Label: "[i:58]1 HP/No Hit"
+		}
+
+		MaxHealthLocked: {
+			Tooltip:
+				'''
+				最大HPを100に固定します
+				すでに100以上のHPを持つキャラクターを使用している場合、一度ワールドを閉じて再度開いてください
+				'''
+			Label: "[i:29]最大ライフロック"
+		}
+
+		Headers: {
+			Player: プレイヤーステータス
+		}
+
+		DisplayName: ステータスチャレンジ
+	}
+
+	EquipmentChallenges: {
+		NoWings: {
+			Tooltip: ""
+			Label: 翼なし
+		}
+
+		NoAccessories: {
+			Tooltip: 警告：装備中のアクセサリーは削除されます！
+			Label: アクセサリーなし
+		}
+
+		NoArmor: {
+			Tooltip: 警告：装備中の防具は削除されます！
+			Label: 防具なし
+		}
+
+		Headers: {
+			Armor: 防具
+		}
+
+		DisplayName: 装備チャレンジ
+	}
+
+	ExtraSettings: {
+		CustomKnockbackMultiplier: {
+			Tooltip: ""
+			Label: カスタムノックバック倍率
+		}
+
+		CustomDamageMultiplier: {
+			Tooltip: プレイヤーのダメージを調整し、指定された倍率で倍増させます
+			Label: プレイヤーダメージ倍率
+		}
+
+		ModCompatability: {
+			Tooltip: ""
+			Label: MOD互換性
+		}
+
+		Headers: {
+			ExtraSettings: 追加設定
+		}
+
+		DisplayName: 追加設定
+	}
+
+	Challenges: {
+		Sentries: {
+			Tooltip: ""
+			Label: "[i:1572]セントリー"
+		}
+
+		Minions: {
+			Tooltip: ""
+			Label: "[i:1309]ミニオン"
+		}
+
+		Summoner: {
+			Tooltip: ""
+			Label: 召喚
+		}
+
+		OtherMagic: {
+			Tooltip: MODがサポートされていない場合、すべてのMOD魔法武器がここに含まれます
+			Label: "[i:3053]その他魔法"
+		}
+
+		SpellBooks: {
+			Tooltip: ""
+			Label: "[i:165]魔導書"
+		}
+
+		MagicGuns: {
+			Tooltip: ""
+			Label: "[i:127]魔法銃"
+		}
+
+		Wands: {
+			Tooltip: ""
+			Label: "[i:3069]魔法の杖"
+		}
+
+		Mage: {
+			Tooltip:
+				'''
+				オフ：すべての魔法武器が使用できなくなります
+				オン：すべての魔法武器が使用可能です(デフォルト設定)
+				（特定の魔法武器のみを無効にする場合はこの設定をオンのままにしてください）
+				'''
+			Label: 魔法
+		}
+
+		OtherRanged: {
+			Tooltip: 火炎放射器、エールトサー、ダーツの銃、トキシカープなどの武器が該当します
+			Label: "[i:506]その他遠距離"
+		}
+
+		Thrown: {
+			Tooltip: 遠距離ダメージとしてカウントされる投擲アイテムのみが含まれます
+			Label: "[i:42]投擲"
+		}
+
+		Launchers: {
+			Tooltip: ロケットを発射するランチャーのみを含みます！ それ以外は『その他遠距離』にカウントされます
+			Label: "[i:759]ランチャー"
+		}
+
+		Guns: {
+			Tooltip: ""
+			Label: "[i:964]銃"
+		}
+
+		Bows: {
+			Tooltip: ""
+			Label: "[i:39]弓"
+		}
+
+		Ranged: {
+			Tooltip:
+				'''
+				オフ：すべての遠距離武器が使用できなくなります
+				オン：すべての遠距離武器が使用可能です(デフォルト設定)
+				（特定の遠距離武器のみを無効にする場合はこの設定をオンのままにしてください）
+				'''
+			Label: 遠距離
+		}
+
+		Whips: {
+			Tooltip: ""
+			Label: "[i:4672]鞭"
+		}
+
+		Flails: {
+			Tooltip: ""
+			Label: "[i:389]フレイル"
+		}
+
+		Yoyos: {
+			Tooltip: ""
+			Label: "[i:3285]ヨーヨー"
+		}
+
+		Boomerangs: {
+			Tooltip: ""
+			Label: "[i:55]ブーメラン"
+		}
+
+		Shortswords: {
+			Tooltip: ""
+			Label: "[i:3507]短剣"
+		}
+
+		OtherSwords: {
+			Tooltip: 短剣以外の剣
+			Label: "[i:4]その他の剣"
+		}
+
+		Spears: {
+			Tooltip: ""
+			Label: "[i:280]槍"
+		}
+
+		Melee: {
+			Tooltip:
+				'''
+				オフ：すべての近接武器が使用できなくなります
+				オン：すべての近接武器が使用可能です(デフォルト設定)
+				（特定の近接武器のみを無効にする場合はこの設定をオンのままにしてください）
+				'''
+			Label: 近接
+			}
+
+			Headers: {
+				Summoner: 召喚
+				Mage: 魔法
+				Ranged: 遠距離
+				Melee: 近接
+			}
+
+			DisplayName: 武器チャレンジ
+	}
+}
+
+
+

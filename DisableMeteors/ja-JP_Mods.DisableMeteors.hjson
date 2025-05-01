@@ -1,0 +1,26 @@
+Configs: {
+	Config: {
+		DisplayName: "設定"
+
+		DisableMeteorDropping: {
+			Tooltip: ""
+			Label: 隕石の落下を無効化
+		}
+
+		GiveMeteoriteOre: {
+			Tooltip: 隕石を停止させると、400～500個の隕石鉱石が生成されます（プレイヤー数に応じて分配）
+			Label: メテオライト鉱石を入手
+		}
+
+		DropMeteorCommand: {
+			Label: 隕石落石コマンド
+			Tooltip: ""
+		}
+	}
+}
+
+Messages: {
+	Stopped: "[c/32FF82:隕石が大気中で燃え尽きた！]"
+	OresGiven: "[c/FFF014:Collected {0} メテオライト] [i/s{0}:116]"
+}
+

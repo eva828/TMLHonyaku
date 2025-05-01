@@ -1,0 +1,71 @@
+NPCs: {
+	Miku: {
+		Census: {
+			SpawnCondition: 条件不明
+		}
+
+		TownNPCMood: {
+			Princess_LovesNPC: "{NPCName}ちゃんの事大好き！"
+			LikeNPC_Princess: "{NPCName}ちゃんの事大好き！"
+			HateCrowded: こんなに混雑してるの嫌だよぉ～...
+			DislikeCrowded: 混雑しててつらいな～...
+			LoveSpace: こんな広々とした空間にいられるなんて嬉しい！
+			FarFromHome: お家がすっごく遠いくて大変なの。
+			NoHome: ミクね、お家が無くて困ってるの...
+			Content: ミクはね、"コンテンツ"なの！
+		}
+
+		DisplayName: ミク
+	}
+}
+
+TownNPCs: {
+	Miku: {
+		Chat: {
+			Option3: 近くで面白い生物とか見かけなかった？
+			Option2: 今日は良い天気だね！
+			Option1: 何か、お手伝いできることはない？
+		}
+
+		Greeting: こんにちはー！私はミク！、仲良くしていきましょ～！
+		DisplayName: ミク
+	}
+}
+
+Projectiles: {
+	MicrophoneProjectile: {
+		DisplayName: Microphone Projectile
+	}
+
+	StarProjectiles: {
+		DisplayName: Star Projectiles
+	}
+}
+
+Items: {
+    StarProjectiles: {
+        Tooltip: 星を放つ
+        DisplayName: スタープロジェクトタイル
+    }
+
+	StartSword: {
+		Tooltip: 「いたって普通、でもかわいい剣！」
+		DisplayName: かわいい剣
+	}
+
+	MicrophoneProjectile: {
+		DisplayName: マイク
+	}
+
+	Microphone: {
+		Tooltip: 回転しながら直線的に動くマイクを投げる
+		DisplayName: マイク
+	}
+
+	PonyHair: {
+		Tooltip: 「ポニーヘアー。とってもかわいい！」
+		DisplayName: ポニーヘアー
+	}
+}
+
+

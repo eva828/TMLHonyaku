@@ -1,0 +1,60 @@
+Buffs: {
+	MolePetBuff: {
+		DisplayName: ペットモグラ
+		Description: 友好的なモグラが地下の冒険を助けてくれる
+	}
+}
+
+Items: {
+	OldMiningHat: {
+		DisplayName: 古びれた鉱山の帽子
+		Tooltip:
+			'''
+			傷のある古い鉱山帽子
+			元の持ち主を呼び出すのに使える
+			'''
+	}
+
+	MoleCritterItem: {
+		DisplayName: 小さなモグラ
+		Tooltip: ""
+	}
+
+	GoldenMoleCritterItem: {
+		DisplayName: 金の小さなモグラ
+		Tooltip: ""
+	}
+
+	GoldenMoleCageItem: {
+		DisplayName: テラリウム(金の小さなモグラ)
+		Tooltip: ""
+	}
+
+	MoleCageItem: {
+		DisplayName: 小さなモグラ
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	MolePet: {
+		DisplayName: Mole Pet
+	}
+
+	OldMiningHelmet: {
+		DisplayName: Old Mining Helmet
+	}
+}
+
+NPCs: {
+	MoleCritter: {
+		DisplayName: 小さなモグラ
+		Bestiary: 小さな生き物が、一日の大半を地下でトンネルを掘りながら暮らす。無害で警戒心が強く、危険を見るとすぐ逃げる。
+	}
+
+	GoldenMoleCritter: {
+		DisplayName: 金の小さなモグラ
+		Bestiary: 小さな生き物が、一日の大半を地下でトンネルを掘りながら暮らす。無害で警戒心が強く、危険を見るとすぐ逃げる。なぜか金色だ。
+	}
+}
+

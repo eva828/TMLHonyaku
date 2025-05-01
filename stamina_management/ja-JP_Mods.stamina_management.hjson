@@ -1,0 +1,97 @@
+Buffs: {
+    "Stamina Restoration": {
+        Description: スタミナが急速に回復している
+        DisplayName: スタミナ自然回復
+    }
+
+	"Stamina Sickness": {
+		Description: 即時スタミナポーションを飲めない
+		DisplayName: スタミナ不調
+	}
+
+	"Stamina Lantern": {
+		Description: スタミナ自然回復の遅延が減少。スタミナ遅延ポーションと重複
+		DisplayName: スタミナランタン
+	}
+
+	"Stamina Delay Potion": {
+		Description: スタミナ自然回復の遅延が減少。スタミナランタンと重複
+		DisplayName: スタミナ遅延ポーション
+	}
+
+	"Stamina Potion": {
+		Description: スタミナ自然回復が100%増加。キャンプファイヤーと重複
+		DisplayName: スタミナポーション
+	}
+}
+
+Items: {
+    InstantStaminaPotion: {
+        Tooltip: スタミナを50回復
+        DisplayName: 即時スタミナポーション
+    }
+
+	GreaterInstantStaminaPotion: {
+		Tooltip: スタミナを100回復
+		DisplayName: 上級即時スタミナポーション
+	}
+
+	StaminaLantern: {
+		Tooltip:
+			'''
+			スタミナ自然回復の遅延を減少させる
+			スタミナ遅延ポーションと重複する
+			'''
+		DisplayName: スタミナランタン
+	}
+
+	StaminaDelayPotion: {
+		Tooltip:
+			'''
+			スタミナ自然回復の遅延を減少させる
+			スタミナランタンと重複する
+			'''
+		DisplayName: スタミナ遅延ポーション
+	}
+
+	UnheavyFeather: {
+		Tooltip:
+			'''
+			雲の中に閉じ込められた軽い羽
+			インベントリの重量効果を半分に
+			'''
+		DisplayName: 軽量の羽
+	}
+
+	DryadsCharm: {
+		Tooltip:
+			'''
+			「キラキラしてる！」
+			スタミナ自然回復を20%増進
+			他の増進ソースを加算後に乗算で上乗せする
+			（例えば、300%の総回復→360%の回復）
+			'''
+		DisplayName: ドライアドの魅力
+	}
+
+	AABattery: {
+		Tooltip:
+			'''
+			標準的なAAバッテリー
+			最大スタミナを40増加
+			'''
+		DisplayName: AAバッテリー
+	}
+
+	StaminaPotion: {
+		Tooltip:
+			'''
+			スタミナ自然回復を100%増加
+			キャンプファイヤーと重複する
+			'''
+		DisplayName: スタミナポーション
+	}
+}
+
+
+

@@ -1,0 +1,9166 @@
+WorldgenTasks: {
+    GravestoneEasterEgg: {
+        Sock: ここにSockuraiが眠る、フリップをしようとして失敗した
+        Hat: ここにHatが眠る、あまりにもふざけすぎた
+        Jim: ここにJim2OUKが眠る、ママにノーと言った
+        Waasephi: ここにWaasephiが眠る、戦争犯罪で処刑された
+        Kraken: ここにHugekrakenが眠る、これから誰がグラグモンスターのスプライトを作るのか?
+        Taco: ここにTacoが眠る、天国にディナーがあることを願っている
+        Dylan: ここにDylanが眠る、MOD制作で死にました
+    }
+
+	DungeonChests: 不気味なダンジョンの宝箱を配置する
+	SpiderCave: クモ洞窟を育てる
+	EyeValley: めだま渓谷を生成する
+	SpookyForest: 奇妙な森を広げる
+	Cemetery: 沼墓地を配置する
+	Catacombs: カタコンベを生成する
+}
+
+UI: {
+    PandoraBox: {
+        PandoraBoxBarProgress: "現在のウェーブ："
+        PandoraBoxBarDisplayName: パンドラの箱
+    }
+
+	EggEvent: {
+		EggEventBarDisplayName: エッグ襲来
+		EggEventBarProgress: 必要生存時間：
+	}
+
+	LittleEyeBounties: {
+		BountyCompletedItem: このボタンをクリックする事で、このモンスターに再戦したい場合に召喚するためのアイテムを入手できます
+		BountyCompleted: このバウンティを完了しました！
+		BountyAccepted: 現在のバウンティを完了するまで、別のバウンティを選択することはできないのです
+		Bounty5Warning: 頑張ってください！
+		Bounty5Accept: クリックしてこのバウンティを承諾し、巨大な卵を開けるためのアイテムを受け取ってください
+		BountyWarning: このバウンティを終えるまで、別のバウンティを受け入れることはできないのです！
+		BountyAccept: クリックしてこのバウンティを承諾し、そのモンスターを引き寄せるためのアイテムを受け取ってください
+		Bounty5Condition: バウンティミッション：めだま渓谷で巨大な卵を見つけ、それを開けてください
+		Bounty4Condition: バウンティミッション：めだま渓谷でこのモンスターを見つけ、倒してください
+		Bounty3Condition: バウンティミッション：スパイダーの洞窟でこのモンスターを見つけ、倒してください
+		Bounty2Condition: バウンティミッション：沼地の墓場でこのモンスターを見つけ、倒してください
+		Bounty1Condition: バウンティミッション：奇妙な森でこのモンスターを見つけ、倒してください
+		Bounty5: 巨大な卵に盾がある理由が気になったことはありますか?実はそれ、私のせいなんです…ある日すごくお腹が空いて、美味しい朝食を探しに行ったら、巨大な卵を見つけたんです！でも、間違った魔法の本を持ってきてしまって、スクランブルエッグにするつもりが、逆に力を与えて保護バリアをかけてしまいました。でも、そのバリアを壊す方法を見つけられた気がするので、あなたの助けが必要です…
+		Bounty5Locked: このバウンティミッションの条件を解除するには、3つのメカニカルボスをすべて撃破してください
+		Bounty4: 自分をクローンしたことありますか?実はとても楽しいんですよ、ほとんどの場合ね。でも、私が作ったクローンが強力だと褒められるのはちょっと気に入らないんです、私が作ったのに！でも私はもう偉大だから、その邪悪でひどいものを倒しに行って、確実に抹殺してきてください。
+		Bounty3: 昔、趣味で裁縫を始めたんです。実はすごく得意で、普段から何でもうまくやっちゃうんですよ。特に特別な旅行で手に入れた最高級の豪華なフェルトを使ったんです。問題は、ある日それを研究室に置いておいたら、次の日には完全に消えてたんです。見つけてきてくれませんか?あのフェルト、めちゃくちゃ高かったんです！
+		Bounty2: ある日退屈して、『Spooky Pay』で変な本を注文してさ、人間の魂で実験しようと思ったんですよ。でも、そのサイトの売り手が、本には悪党がいっぱいいるって詳細を教えてくれなかったんです。それで届いた配達箱を開けたら、本が飛び出してきて、そのトラブルメーカーを解き放っちゃって、研究室にいっぱい損害を出されました！あの無法者たちを始末しに行ってください。
+		Bounty1: ちょっと前に、侵入者やここに住む厄介な生き物から研究室を守るために、変なモンスターを作ろうとしたんです。でも、何度か失敗して、そいつが研究室から逃げ出して、どこかへ行っちゃいました。そいつを追いかけて狩ってください…あ、それと私にその一部を持って帰ってきてくださいね！
+	}
+
+	BloomSlotLocked: このスロットは現在ロックされています！
+}
+
+Tiles: {
+	SinisterSnailCage: {
+		MapEntry: Sinister Snail Cage
+	}
+
+	CatacombTrapdoor3: {
+		MapEntry: Locked Trapdoor
+	}
+
+	CatacombTrapdoor2: {
+		MapEntry: Locked Trapdoor
+	}
+
+	CatacombTrapdoor1: {
+		MapEntry: Locked Trapdoor
+	}
+
+	TempleTrapdoor: {
+		MapEntry: Temple Trapdoor
+	}
+
+	CultistWorkBench: {
+		MapEntry: Work Bench
+	}
+
+	CultistTable: {
+		MapEntry: Table
+	}
+
+	CultistSofa: {
+		MapEntry: Sofa
+	}
+
+	CultistSink: {
+		MapEntry: Sink
+	}
+
+	CultistLantern: {
+		MapEntry: Lantern
+	}
+
+	CultistLamp: {
+		MapEntry: Lamp
+	}
+
+	CultistDoorOpen: {
+		MapEntry: Door
+	}
+
+	CultistDoorClosed: {
+		MapEntry: Door
+	}
+
+	CultistClock: {
+		MapEntry: Clock
+	}
+
+	CultistChest: {
+		MapEntry: Chest
+	}
+
+	CultistChandelier: {
+		MapEntry: Chandelier
+	}
+
+	CultistChair: {
+		MapEntry: Chair
+	}
+
+	CultistCandle: {
+		MapEntry: Candle
+	}
+
+	CultistCandelabra: {
+		MapEntry: Candelabra
+	}
+
+	CultistBookcase: {
+		MapEntry: Bookcase
+	}
+
+	CultistBed: {
+		MapEntry: Bed
+	}
+
+	CultistBathtub: {
+		MapEntry: Bathtub
+	}
+
+	TinyMushroomCage: {
+		MapEntry: Tiny Mushroom Cage
+	}
+
+	TinyGhostJar: {
+		MapEntry: Tiny Ghost Jar
+	}
+
+	TallMushroom: {
+		MapEntry: Tall Mushroom
+	}
+
+	GraveShovelTile: {
+		MapEntry: Grave Shovel Tile
+	}
+
+	GiantRoot: {
+		MapEntry: Giant Root
+	}
+
+	MysteriousTombstone: {
+		MapEntry: Mysterious Tombstone
+	}
+
+	BigFlower: {
+		MapEntry: Big Flower
+	}
+
+	SpookySpiritTrophy: {
+		MapEntry: Trophy
+	}
+
+	RotGourdTrophy: {
+		MapEntry: Trophy
+	}
+
+	OrroTrophy: {
+		MapEntry: Trophy
+	}
+
+	MocoTrophy: {
+		MapEntry: Trophy
+	}
+
+	DaffodilTrophy: {
+		MapEntry: Trophy
+	}
+
+	BoroTrophy: {
+		MapEntry: Trophy
+	}
+
+	BigBoneTrophy: {
+		MapEntry: Trophy
+	}
+
+	EyeTree: {
+		MapEntry: Eye Stalk
+	}
+
+	EyeSapling: {
+		MapEntry: Stalk Sapling
+	}
+
+	EyeWorkBench: {
+		MapEntry: Work Bench
+	}
+
+	EyeTable: {
+		MapEntry: Table
+	}
+
+	EyeSofa: {
+		MapEntry: Sofa
+	}
+
+	EyeSink: {
+		MapEntry: Sink
+	}
+
+	EyePiano: {
+		MapEntry: Piano
+	}
+
+	EyeLantern: {
+		MapEntry: Lantern
+	}
+
+	EyeLamp: {
+		MapEntry: Lamp
+	}
+
+	EyeDoorOpen: {
+		MapEntry: Door
+	}
+
+	EyeDoorClosed: {
+		MapEntry: Door
+	}
+
+	EyeClock: {
+		MapEntry: Clock
+	}
+
+	EyeChest: {
+		MapEntry: Monster Chest
+	}
+
+	EyeChandelier: {
+		MapEntry: Chandelier
+	}
+
+	EyeChair: {
+		MapEntry: Chair
+	}
+
+	EyeCandle: {
+		MapEntry: Candle
+	}
+
+	EyeCandelabra: {
+		MapEntry: Candelabra
+	}
+
+	EyeBookcase: {
+		MapEntry: Bookcase
+	}
+
+	EyeBed: {
+		MapEntry: Bed
+	}
+
+	EyeBathtub: {
+		MapEntry: Bathtub
+	}
+
+	Cauldron: {
+		MapEntry: Creepy Cauldron
+	}
+
+	SpookySaplingGreen: {
+		MapEntry: Sapling
+	}
+
+	SpookySapling: {
+		MapEntry: Sapling
+	}
+
+	GiantShroom: {
+		MapEntry: Giant Shroom
+	}
+
+	OldWoodWorkBench: {
+		MapEntry: Work Bench
+	}
+
+	OldWoodTable: {
+		MapEntry: Table
+	}
+
+	OldWoodSofa: {
+		MapEntry: Sofa
+	}
+
+	OldWoodOrgan: {
+		MapEntry: Organ
+	}
+
+	OldWoodDoorOpen: {
+		MapEntry: Door
+	}
+
+	OldWoodDoorClosed: {
+		MapEntry: Door
+	}
+
+	OldWoodChest: {
+		MapEntry: Old Wood Chest
+	}
+
+	OldWoodChair: {
+		MapEntry: Chair
+	}
+
+	OldWoodCandle: {
+		MapEntry: Candle
+	}
+
+	OldWoodBookcase: {
+		MapEntry: Bookcase
+	}
+
+	OldWoodBed: {
+		MapEntry: Bed
+	}
+
+	OldWoodBathtub: {
+		MapEntry: Bathtub
+	}
+
+	FlySmallJar: {
+		MapEntry: Fly Jar
+	}
+
+	FlyBigJar: {
+		MapEntry: Big Fly Jar
+	}
+
+	SpookyHellPylon: {
+		MapEntry: Eye Valley Pylon
+	}
+
+	SpookyBiomePylon: {
+		MapEntry: Spooky Forest Pylon
+	}
+
+	SpiderCavePylon: {
+		MapEntry: Spider Grotto Pylon
+	}
+
+	CemeteryPylon: {
+		MapEntry: Swampy Cemetery Pylon
+	}
+
+	SpookySpiritBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyMenuBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyHellBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyBloodmoonBoxTile: {
+		MapEntry: Music Box
+	}
+
+	OrroboroBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyBiomeUGBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyBiomeRainBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyBiomeNightBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpookyBiomeDayBoxTile: {
+		MapEntry: Music Box
+	}
+
+	SpiderCaveBoxTile: {
+		MapEntry: Music Box
+	}
+
+	RotGourdBoxTile: {
+		MapEntry: Music Box
+	}
+
+	RaveyardBoxTile: {
+		MapEntry: Music Box
+	}
+
+	PandoraEventBoxTile: {
+		MapEntry: Music Box
+	}
+
+	NoseTempleBoxTile: {
+		MapEntry: Music Box
+	}
+
+	MocoBoxTile: {
+		MapEntry: Music Box
+	}
+
+	EggEventBoxTile: {
+		MapEntry: Music Box
+	}
+
+	DaffodilBoxTile: {
+		MapEntry: Music Box
+	}
+
+	CemeteryBoxTile: {
+		MapEntry: Music Box
+	}
+
+	CatacombBox2Tile: {
+		MapEntry: Music Box
+	}
+
+	CatacombBoxTile: {
+		MapEntry: Music Box
+	}
+
+	BigBoneBoxTile: {
+		MapEntry: Music Box
+	}
+
+	CemeterySapling: {
+		MapEntry: Sapling
+	}
+
+	SpiritAltar: {
+		MapEntry: Spirit Altar
+	}
+
+	CultistDresser: {
+		MapEntry: Dresser
+		ContainerName: Occultist Dresser
+	}
+
+	EyeDresser: {
+		MapEntry: Dresser
+		ContainerName: Living Flesh Dresser
+	}
+
+	SpookyHellChest: {
+		MapEntry1: Locked Eye Chest
+		MapEntry0: Eye Chest
+	}
+
+	SpookyBiomeChest: {
+		MapEntry1: Locked Spooky Forest Chest
+		MapEntry0: Spooky Forest Chest
+	}
+
+	SpiderCaveChest: {
+		MapEntry1: Locked Spider Grotto Chest
+		MapEntry0: Spider Grotto Chest
+	}
+
+	CemeteryBiomeChest: {
+		MapEntry1: Locked Swampy Cemetery Chest
+		MapEntry0: Swampy Cemetery Chest
+	}
+}
+
+Projectiles: {
+	SpookFishronTornado: {
+		DisplayName: Spooknado
+	}
+
+	SpookFishronBowBolt: {
+		DisplayName: Firebolt
+	}
+
+	SpookFishronBowProj: {
+		DisplayName: Firestorm Monsoon
+	}
+
+	SpookFishronMinionBubble: {
+		DisplayName: Spicy Bubble
+	}
+
+	SpookFishronMinion: {
+		DisplayName: Spooky Pigron
+	}
+
+	SinisterSnailPet: {
+		DisplayName: Sinister Snail
+	}
+
+	SpookFishronFlailBubble: {
+		DisplayName: Spicy Bubble
+	}
+
+	SpookFishronFlailProj: {
+		DisplayName: Spicy Flairon
+	}
+
+	SpookFishronGunFire: {
+		DisplayName: Spooky Flames
+	}
+
+	SharkronFireball: {
+		DisplayName: Sharkron Fireball
+	}
+
+	SharkronExplosion: {
+		DisplayName: Sharkron Explosion
+	}
+
+	SpookmasSwordStar: {
+		DisplayName: Christmas Star
+	}
+
+	SpookmasSwordSpin: {
+		DisplayName: Christmas Tree Sword
+	}
+
+	SpookmasSword: {
+		DisplayName: Christmas Tree Sword
+	}
+
+	SpooklizzardStaffSpin: {
+		DisplayName: Blizzard Staff
+	}
+
+	SpooklizzardStaff: {
+		DisplayName: Blizzard Staff
+	}
+
+	Stake: {
+		DisplayName: Stake
+	}
+
+	StakeLauncherSpin: {
+		DisplayName: Stake Launcher
+	}
+
+	StakeLauncher: {
+		DisplayName: Stake Launcher
+	}
+
+	SpookyTornadoSpawner: {
+		DisplayName: Spooky Vortex
+	}
+
+	SpookyTornado: {
+		DisplayName: Spooknado
+	}
+
+	SpookySwordPumpkin: {
+		DisplayName: Horseman Pumpkin
+	}
+
+	SpookySwordSpin: {
+		DisplayName: The Horseman's Blade
+	}
+
+	SpookySword: {
+		DisplayName: The Horseman's Blade
+	}
+
+	SpookyFlames: {
+		DisplayName: Spooky Flames
+	}
+
+	SpookyBubble: {
+		DisplayName: Spicy Bubble
+	}
+
+	BouncingBone: {
+		DisplayName: Bouncing Bone
+	}
+
+	LivingFleshAxeProj: {
+		DisplayName: Living Flesh Mincer
+	}
+
+	FleshAxeProj: {
+		DisplayName: Flesh Mincer
+	}
+
+	PuttyPetDisplay: {
+		DisplayName: Putty Display
+	}
+
+	PuttyPet3: {
+		DisplayName: Putty Slime
+	}
+
+	PuttyPet2: {
+		DisplayName: Putty Slime
+	}
+
+	PuttyPet1: {
+		DisplayName: Putty Slime
+	}
+
+	RatPet: {
+		DisplayName: Albino Rat
+	}
+
+	BeePet: {
+		DisplayName: Pollinator Bee
+	}
+
+	ZombieCultistPet: {
+		DisplayName: Zombie Cultist
+	}
+
+	FleshBolsterBuffer: {
+		DisplayName: Flesh Bolster Buffer
+	}
+
+	EntityMinion3: {
+		DisplayName: Mini Entity
+	}
+
+	EntityMinion2: {
+		DisplayName: Mini Entity
+	}
+
+	EntityMinion1: {
+		DisplayName: Mini Entity
+	}
+
+	ZomboidArmoredLightning: {
+		DisplayName: Lightning
+	}
+
+	VenomHarpoonSpit: {
+		DisplayName: Venom Spit
+	}
+
+	VenomHarpoonSpike: {
+		DisplayName: Venom Harpoon
+	}
+
+	VenomHarpoonProj: {
+		DisplayName: Venomous Spiderpoon
+	}
+
+	OrroboroPet: {
+		DisplayName: Orroboro Pet
+	}
+
+	MapleSeedBooster: {
+		DisplayName: Maple Seed Booster
+	}
+
+	BanditPriestMinionBuffer: {
+		DisplayName: Shield Magic
+	}
+
+	BanditWizardMinionBall: {
+		DisplayName: Magic Blast
+	}
+
+	BanditWizardMinion: {
+		DisplayName: Greeny's Spirit
+	}
+
+	BanditPriestMinion: {
+		DisplayName: Blueford's Spirit
+	}
+
+	BanditBruiserMinion: {
+		DisplayName: Rarg's Spirit
+	}
+
+	MistGhostMiniFace: {
+		DisplayName: Mistling
+	}
+
+	Tumbleweed: {
+		DisplayName: Tumbleweed
+	}
+
+	SewingNeedle: {
+		DisplayName: Sewing Needle
+	}
+
+	StitchedCloakWeb: {
+		DisplayName: Stitched Cloak Web
+	}
+
+	GlassEye: {
+		DisplayName: Glass Eye
+	}
+
+	FlameIdolRing: {
+		DisplayName: Flame Ring
+	}
+
+	FlameIdolAura: {
+		DisplayName: Flame Combustion
+	}
+
+	LingeringEyeBolt: {
+		DisplayName: Lingering Eye Bolt
+	}
+
+	SnotBlessingOrbiter: {
+		DisplayName: Snot ball
+	}
+
+	KidneyRock: {
+		DisplayName: Kidney Rock
+	}
+
+	CoughSmokeCloudSmall: {
+		DisplayName: Smoke Cloud
+	}
+
+	CoughSmokeCloud: {
+		DisplayName: Smoke Cloud
+	}
+
+	GooChomperProj: {
+		DisplayName: Corrosive Bite
+	}
+
+	VeinChainProj: {
+		DisplayName: Leeching Vein
+	}
+
+	EarParasiteSoundBase: {
+		DisplayName: Sound Wave
+	}
+
+	EarParasiteSound: {
+		DisplayName: Sound Wave
+	}
+
+	EarParasite: {
+		DisplayName: Ear Parasite
+	}
+
+	EarWormSoundBase: {
+		DisplayName: Sound Wave
+	}
+
+	EarWormSound: {
+		DisplayName: Sound Wave
+	}
+
+	PeptoBubble: {
+		DisplayName: Pepto Bubble
+	}
+
+	GoblinEyeDebrisGrounded: {
+		DisplayName: Bouncy Eye
+	}
+
+	GoblinEyeDebris: {
+		DisplayName: Bouncy Eye
+	}
+
+	GhostSpawner3: {
+		DisplayName: Ghost Spawner
+	}
+
+	GhostSpawner2: {
+		DisplayName: Ghost Spawner
+	}
+
+	GhostSpawner1: {
+		DisplayName: Ghost Spawner
+	}
+
+	BanditPriestBuffer: {
+		DisplayName: Shield Magic
+	}
+
+	BanditPriestBall: {
+		DisplayName: Magic Blast
+	}
+
+	BanditPriestCross: {
+		DisplayName: Cross Bolt
+	}
+
+	BanditWizardBallSmall: {
+		DisplayName: Magic Blast
+	}
+
+	BanditWizardBallSplitting: {
+		DisplayName: Magic Blast
+	}
+
+	BanditWizardBall: {
+		DisplayName: Magic Blast
+	}
+
+	BanditBruiserFist: {
+		DisplayName: Phantom Fist
+	}
+
+	OrangeOrbiterTrail: {
+		DisplayName: Angry Orange
+	}
+
+	OrangeOrbiter: {
+		DisplayName: Angry Orange
+	}
+
+	GooseberryBoost: {
+		DisplayName: Gooseberry Boost
+	}
+
+	MapleSeedBoost: {
+		DisplayName: Maple Seed Boost
+	}
+
+	StrawberryBoost: {
+		DisplayName: Strawberry Boost
+	}
+
+	GraveDiggerShovelSwung: {
+		DisplayName: Cemetery Digger's Shovel
+	}
+
+	BillyPhantom: {
+		DisplayName: Billy Phantom
+	}
+
+	BillyPhantomPortal: {
+		DisplayName: Phantom Portal
+	}
+
+	BiojetterBiomass: {
+		DisplayName: Biojetter Biomass
+	}
+
+	BillyFeather: {
+		DisplayName: Billy Feather
+	}
+
+	Billy: {
+		DisplayName: Billy Bone
+	}
+
+	WingedBiomassEye: {
+		DisplayName: Eye
+	}
+
+	WingedBiomassFalling: {
+		DisplayName: Winged Biomass
+	}
+
+	WingedBiomass: {
+		DisplayName: Winged Biomass
+	}
+
+	SentientLeafBlowerProj: {
+		DisplayName: Carrion Chunker
+	}
+
+	OrganicChunk: {
+		DisplayName: Carrion Chunk
+	}
+
+	SentientKeybrandThrown: {
+		DisplayName: Molar Mauler
+	}
+
+	SentientKeybrandProj: {
+		DisplayName: Molar Mauler
+	}
+
+	EnergyHeartBolt: {
+		DisplayName: Blood Energy
+	}
+
+	EnergyHeart: {
+		DisplayName: Energy Heart
+	}
+
+	EyeMineExplosion: {
+		DisplayName: Eye Mine Explosion
+	}
+
+	OozeTooth: {
+		DisplayName: Tooth
+	}
+
+	OozeSmall: {
+		DisplayName: Bile
+	}
+
+	OozeBig: {
+		DisplayName: Bile
+	}
+
+	SentientVenusMagnumProj: {
+		DisplayName: Ooze Magnum
+	}
+
+	SentientMineLauncherProj: {
+		DisplayName: Eye Belcher
+	}
+
+	EyeMine: {
+		DisplayName: Eye Mine
+	}
+
+	VesicatorBiomass: {
+		DisplayName: Biomass
+	}
+
+	SnotArrowProj: {
+		DisplayName: Booger Arrow
+	}
+
+	SneezerProj: {
+		DisplayName: Sneezer
+	}
+
+	EyeOrbEnergy: {
+		DisplayName: Eye Energy
+	}
+
+	BouncingEye: {
+		DisplayName: Bouncing Eye
+	}
+
+	HomingEye: {
+		DisplayName: Magic Eye
+	}
+
+	LingeringEyeSpawner: {
+		DisplayName: Rune Magic
+	}
+
+	LingeringEye: {
+		DisplayName: Eye Rune
+	}
+
+	SnotMonsterBooger: {
+		DisplayName: Snot
+	}
+
+	SpiderMissile: {
+		DisplayName: Heat-Seeking Missile
+	}
+
+	SpiderWeb: {
+		DisplayName: Spider Web
+	}
+
+	CoughCloud: {
+		DisplayName: Ichor Cloud
+	}
+
+	BlueSplatter: {
+		DisplayName: Ooze
+	}
+
+	GreenSplatter: {
+		DisplayName: Ooze
+	}
+
+	RedSplatter: {
+		DisplayName: Blood
+	}
+
+	YellowSplatter: {
+		DisplayName: Ichor
+	}
+
+	ToxicBloodSplatter: {
+		DisplayName: Toxic Blood Splatter
+	}
+
+	AppendixLingerCloud: {
+		DisplayName: Ichor Cloud
+	}
+
+	HeartGlob2: {
+		DisplayName: Heart Glob2
+	}
+
+	HeartGlob1: {
+		DisplayName: Heart Glob1
+	}
+
+	MocoSpawnerProj: {
+		DisplayName: Moco Spawner
+	}
+
+	BiojetterDeath: {
+		DisplayName: Biojetter
+	}
+
+	GiantBiomassRed: {
+		DisplayName: Biomass
+	}
+
+	GiantBiomassPurple: {
+		DisplayName: Biomass
+	}
+
+	BrainBeam: {
+		DisplayName: Confusion Beam
+	}
+
+	SnotBulletProj: {
+		DisplayName: Mucus Bullet
+	}
+
+	BlueberryExplosion: {
+		DisplayName: Frost Explosion
+	}
+
+	DandelionFloater3: {
+		DisplayName: Seed Cluster
+	}
+
+	DandelionFloater2: {
+		DisplayName: Seed Cluster
+	}
+
+	DandelionFloater1: {
+		DisplayName: Seed Cluster
+	}
+
+	SnotRocketLinger: {
+		DisplayName: Snot Pile
+	}
+
+	SnotRocketBall: {
+		DisplayName: Snot Ball
+	}
+
+	SnotRocketProj: {
+		DisplayName: Snot Rocket
+	}
+
+	MoclingProjectile: {
+		DisplayName: Mocling
+	}
+
+	MocoEye: {
+		DisplayName: Moco's Eye
+	}
+
+	MocoSpawnerPower: {
+		DisplayName: Snot Ritual Power
+	}
+
+	NoseCultistEnemySpawner: {
+		DisplayName: Snot Ball
+	}
+
+	NoseBallRedProj: {
+		DisplayName: Nolegam
+	}
+
+	NoseBallPurpleProj: {
+		DisplayName: Nolegam
+	}
+
+	OrbitingBoogerProj: {
+		DisplayName: Booger Ball
+	}
+
+	NoseCultistMageSnot: {
+		DisplayName: Snot Ball
+	}
+
+	NoseCultistWingedSnot: {
+		DisplayName: Snot
+	}
+
+	NoseCultistGruntSnot: {
+		DisplayName: Snot
+	}
+
+	IrisPetal: {
+		DisplayName: Iris Petal
+	}
+
+	IrisPetalLockOn: {
+		DisplayName: Iris Eye
+	}
+
+	RoseThornRing: {
+		DisplayName: Ring of Thorns
+	}
+
+	ZucchiniLightning: {
+		DisplayName: Zucchini Zap
+	}
+
+	BouncyLemon: {
+		DisplayName: Bouncy Lemon
+	}
+
+	GhastlyPumpkin: {
+		DisplayName: Ghastly Pumpkin
+	}
+
+	MonkeyOrchidShuriken: {
+		DisplayName: Monkey Orchid Shuriken
+	}
+
+	DragonfruitOrbiter: {
+		DisplayName: Diva Dragon Fruit
+	}
+
+	DaffodilBeam: {
+		DisplayName: Solar Beam
+	}
+
+	NoseCultistBruteFlail: {
+		DisplayName: Booger Flail
+	}
+
+	SmellyFly: {
+		DisplayName: Corpse Fly
+	}
+
+	PitcherSpitVenom: {
+		DisplayName: Venom Spit
+	}
+
+	PitcherSpitPoison: {
+		DisplayName: Poison Spit
+	}
+
+	CatacombCrusherDeath4: {
+		DisplayName: Gilded Crusher
+	}
+
+	CatacombCrusherDeath3: {
+		DisplayName: Ancient Crusher
+	}
+
+	CatacombCrusherDeath2: {
+		DisplayName: Ancient Crusher
+	}
+
+	CatacombCrusherDeath1: {
+		DisplayName: Ancient Crusher
+	}
+
+	TomatoSauce: {
+		DisplayName: Tomato Sauce
+	}
+
+	TomatoGlob: {
+		DisplayName: Tomato Glob
+	}
+
+	LivingFleshEye: {
+		DisplayName: Living Flesh Eye
+	}
+
+	TortumorYoyoChunk: {
+		DisplayName: Tumor Chunk
+	}
+
+	TortumorYoyoProj: {
+		DisplayName: Tumor Throw
+	}
+
+	ManHoleBloodBall: {
+		DisplayName: Blood Glob
+	}
+
+	SpiderLeg: {
+		DisplayName: Arachnid Leg
+	}
+
+	SpiderLegStaffProj: {
+		DisplayName: Arachnid Leg Wand
+	}
+
+	RedFace: {
+		DisplayName: Red Apparition
+	}
+
+	DiscoPartySkull: {
+		DisplayName: Disco Skull
+	}
+
+	SmilingDog: {
+		DisplayName: Smiling Puppy
+	}
+
+	GodGunProj: {
+		DisplayName: Holy Fire
+	}
+
+	MoltenCandleChunk: {
+		DisplayName: Molten Candle Chunk
+	}
+
+	RustedBulletShrapnel: {
+		DisplayName: Rusted Shrapnel
+	}
+
+	RustedBulletProj: {
+		DisplayName: Rusted Bullet
+	}
+
+	RottenGourdFly: {
+		DisplayName: Rotten Gourd Fly
+	}
+
+	NaturesMockery: {
+		DisplayName: Nature's Mockery
+	}
+
+	RedMistNote: {
+		DisplayName: Red Mist Note
+	}
+
+	HighVelocityPebble: {
+		DisplayName: High Velocity Pebble
+	}
+
+	HighVelocitySlingshotProj: {
+		DisplayName: High-Velocity Slingshot
+	}
+
+	BoneBowArrow: {
+		DisplayName: Piercing Bone
+	}
+
+	BoneBowProj: {
+		DisplayName: Bone Bender
+	}
+
+	RazorRoseOrange: {
+		DisplayName: Fire Rose
+	}
+
+	RazorRoseTelegraphLockOn: {
+		DisplayName: Telegraph
+	}
+
+	RazorRoseTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	SpiderSlingshotWeb: {
+		DisplayName: Web Ball
+	}
+
+	SpiderSlingshotProj: {
+		DisplayName: Web Flinger
+	}
+
+	TatantulaTomeFly: {
+		DisplayName: Large Fly
+	}
+
+	SpiderBabyRed: {
+		DisplayName: Baby Spider
+	}
+
+	SpiderBabyPurple: {
+		DisplayName: Baby Spider
+	}
+
+	SpiderBabyGreen: {
+		DisplayName: Baby Spider
+	}
+
+	SpiderSummonEggProj: {
+		DisplayName: Strange Spider Egg
+	}
+
+	TarantulaHawkArrow: {
+		DisplayName: Tarantula Hawk Arrow
+	}
+
+	TarantulaHawkBowProj: {
+		DisplayName: Spider-Wing Longbow
+	}
+
+	SpiderCrossbowDart: {
+		DisplayName: Poison Dart
+	}
+
+	SpiderCrossbowProj: {
+		DisplayName: Venomous Crossbow
+	}
+
+	SpiderSwordProj: {
+		DisplayName: Spider Stabber
+	}
+
+	PheromoneWhipProj: {
+		DisplayName: Pheromone Stinger
+	}
+
+	OrbWeaverSentrySmallSpike: {
+		DisplayName: Weaver Sentry Spike
+	}
+
+	OrbWeaverSentrySmall: {
+		DisplayName: Orb Weaver Sentry
+	}
+
+	OrbWeaverSentryBigSpike: {
+		DisplayName: Weaver Sentry Spike
+	}
+
+	OrbWeaverSentryBig: {
+		DisplayName: Big Orb Weaver Sentry
+	}
+
+	OrbWeaverBoomerangProj: {
+		DisplayName: Weaverang
+	}
+
+	WeaverSpikeGiant: {
+		DisplayName: Orb Weaver Spike
+	}
+
+	LeafSpiderAcid: {
+		DisplayName: Acid Spit
+	}
+
+	CannonSpider: {
+		DisplayName: Little Spider
+	}
+
+	CannonEggSmall: {
+		DisplayName: Spider Egg
+	}
+
+	CannonEggBig: {
+		DisplayName: Spider Egg
+	}
+
+	OrbWeaverShieldSpike: {
+		DisplayName: Shield Spike
+	}
+
+	OrbWeaverShieldProj: {
+		DisplayName: Spike Shell Basher
+	}
+
+	Local58Moon: {
+		DisplayName: The Moon
+	}
+
+	WeaverSpikeBlack: {
+		DisplayName: Orb Weaver Spike
+	}
+
+	WeaverSpikeGreen: {
+		DisplayName: Orb Weaver Spike
+	}
+
+	WeaverSpikeRed: {
+		DisplayName: Orb Weaver Spike
+	}
+
+	WitchPotion: {
+		DisplayName: Witch's Potion
+	}
+
+	MocoNoseSnot: {
+		DisplayName: Snot
+	}
+
+	SphiderFlailWeb: {
+		DisplayName: Web Ball
+	}
+
+	SphiderFlailProj: {
+		DisplayName: Swingable Sphider
+	}
+
+	GraveDiggerShovelBonk: {
+		DisplayName: Bonk
+	}
+
+	TelegraphRedUp: {
+		DisplayName: Telegraph
+	}
+
+	TelegraphRedRight: {
+		DisplayName: Telegraph
+	}
+
+	TelegraphRedDown: {
+		DisplayName: Telegraph
+	}
+
+	TelegraphRedLeft: {
+		DisplayName: Telegraph
+	}
+
+	ZomboidRootThornTelegraphFire: {
+		DisplayName: Thorn Telegraph
+	}
+
+	ZomboidRootThornFire: {
+		DisplayName: Flaming Root Spike
+	}
+
+	ZomboidRootThornTelegraph: {
+		DisplayName: Thorn Telegraph
+	}
+
+	ZomboidRootThorn: {
+		DisplayName: Root Spike
+	}
+
+	SentientPaladinsHammerProj: {
+		DisplayName: Dave & Mike
+	}
+
+	DaffodilRodProj: {
+		DisplayName: Sunflower Rod
+	}
+
+	HerobrineLightning: {
+		DisplayName: Lightning
+	}
+
+	SlendermanTentacle: {
+		DisplayName: Shadow Tentacle
+	}
+
+	InchwormPet: {
+		DisplayName: Inchworm
+	}
+
+	MiniOrroTail: {
+		DisplayName: Mini Orro Tail
+	}
+
+	MiniOrroHead: {
+		DisplayName: Mini Orro Head
+	}
+
+	MiniOrroBody: {
+		DisplayName: Mini Orro Body
+	}
+
+	MiniBoroTail: {
+		DisplayName: Mini-Boro
+	}
+
+	MiniBoroHead: {
+		DisplayName: Mini-Boro
+	}
+
+	MiniBoroBody: {
+		DisplayName: Mini-Boro
+	}
+
+	FoodEnhancerSpore: {
+		DisplayName: Food Enhancer Spore
+	}
+
+	PolybiusSwirl: {
+		DisplayName: Polybius Swirl
+	}
+
+	BackroomsCorpseHead: {
+		DisplayName: Decayed Head
+	}
+
+	Alternate: {
+		DisplayName: Alternate
+	}
+
+	PetscopTiaraPet: {
+		DisplayName: Tiara
+	}
+
+	PetscopPet: {
+		DisplayName: Guardian
+	}
+
+	PetscopMarvinPet: {
+		DisplayName: Marvin
+	}
+
+	PartyNailBolt: {
+		DisplayName: Party Bolt
+	}
+
+	LivingFleshAxeSlash: {
+		DisplayName: Living Flesh Mincer
+	}
+
+	FleshAxeSlash: {
+		DisplayName: Flesh Mincer
+	}
+
+	SpiritSwordSlash: {
+		DisplayName: Spooky Buster
+	}
+
+	HarvesterScytheSlash: {
+		DisplayName: Harvester's Scythe
+	}
+
+	PandoraCuffProj: {
+		DisplayName: Samson's Cuff
+	}
+
+	OldWoodArrowProj: {
+		DisplayName: Old Wood Arrow
+	}
+
+	PandoraChaliceOrb: {
+		DisplayName: Ghastly Orb
+	}
+
+	PandoraRosaryHand: {
+		DisplayName: Ghastly Hand
+	}
+
+	RotGourdMinion: {
+		DisplayName: Rot-Goober
+	}
+
+	PandoraCrossSound: {
+		DisplayName: Cross Bass
+	}
+
+	DaffodilHandMinion: {
+		DisplayName: Plant Hand
+	}
+
+	DaffodilBowFly: {
+		DisplayName: Fly
+	}
+
+	DaffodilBowProj: {
+		DisplayName: Fly Shot
+	}
+
+	BobbertExplosion: {
+		DisplayName: Bobbert
+	}
+
+	StitchBolt: {
+		DisplayName: Ghast Bolt
+	}
+
+	PandoraEnemySpawnChester: {
+		DisplayName: Pandora's Box Enemy Spawner
+	}
+
+	PandoraBeanPet: {
+		DisplayName: Von Anguston VI heir to the throne of the king bean
+	}
+
+	LivingFleshAxeEye: {
+		DisplayName: Eye
+	}
+
+	FleshBowChunk2: {
+		DisplayName: Blood Clot
+	}
+
+	FleshBowChunk1: {
+		DisplayName: Bloot Clot
+	}
+
+	LivingFleshWhipProjRed: {
+		DisplayName: Living Eye Lasher
+	}
+
+	LivingFleshWhipProjBlue: {
+		DisplayName: Living Eye Lasher
+	}
+
+	OldHunterMagicBolt: {
+		DisplayName: Spirit Bolt
+	}
+
+	OldHunterMage: {
+		DisplayName: Mage Spirit
+	}
+
+	OldHunterRangedBullet: {
+		DisplayName: Ghost Bullet
+	}
+
+	OldHunterRanged: {
+		DisplayName: Shotgunner Spirit
+	}
+
+	OldHunterMelee: {
+		DisplayName: Warrior Spirit
+	}
+
+	NoseMinionBooger: {
+		DisplayName: Booger
+	}
+
+	MistGhostSpawn: {
+		DisplayName: Mist Ghost Spawner
+	}
+
+	DaffodilRodFlower: {
+		DisplayName: Sunflower Bolt
+	}
+
+	DaffodilBladeSlash: {
+		DisplayName: Thorn Dagger
+	}
+
+	TakeCoverTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	ThornPillarBarrierSide: {
+		DisplayName: Thorn Barrier
+	}
+
+	ThornPillarBarrierFloor: {
+		DisplayName: Thorn Barrier
+	}
+
+	SkullAmuletSoul: {
+		DisplayName: Soul
+	}
+
+	FlowerArmorPollen: {
+		DisplayName: Pollen
+	}
+
+	ControllableNoseBooger: {
+		DisplayName: Booger
+	}
+
+	ControllableNose: {
+		DisplayName: Controllable Nose
+	}
+
+	ValleySharkThorn: {
+		DisplayName: Blood Spike
+	}
+
+	ValleyNautilusPet: {
+		DisplayName: Baby Cephalopod
+	}
+
+	NautilusBiomass: {
+		DisplayName: Nautilus Biomass
+	}
+
+	NautilusBubble2: {
+		DisplayName: Nautilus Bubble
+	}
+
+	NautilusBubble1: {
+		DisplayName: Nautilus Bubble
+	}
+
+	NautilusSpit2: {
+		DisplayName: Bloody Ink
+	}
+
+	NautilusSpit1: {
+		DisplayName: Bloody Ink
+	}
+
+	FlameIdolProj: {
+		DisplayName: Flame Idol
+	}
+
+	ChungusSpore: {
+		DisplayName: Spore
+	}
+
+	SolarDeathbeamTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	ThornPillar: {
+		DisplayName: Thorn Pillar
+	}
+
+	ThornPillarSeed: {
+		DisplayName: Seed
+	}
+
+	SentientChumCasterBobber: {
+		DisplayName: Sentient Bobber
+	}
+
+	EggEventHandler: {
+		DisplayName: Egg Barrier
+	}
+
+	TonguebladeSlash: {
+		DisplayName: Tongueblade
+	}
+
+	StinkBlast: {
+		DisplayName: Stink Blast
+	}
+
+	SentientKatanaSwingSlash: {
+		DisplayName: Conscious Cutter
+	}
+
+	SwordSlashBase: {
+		DisplayName: Sword Slash Base
+	}
+
+	SentientGatligatorGiblet: {
+		DisplayName: Meat Giblet
+	}
+
+	StickyEyePet: {
+		DisplayName: Glow In The Dark Eye
+	}
+
+	CatPet: {
+		DisplayName: Black Kitten
+	}
+
+	VenomBreath: {
+		DisplayName: Venom Breath
+	}
+
+	FemurFractureSkull: {
+		DisplayName: Fracturer Skull
+	}
+
+	FemurFractureProj: {
+		DisplayName: Femur Fracturer
+	}
+
+	FemurFractureSwung: {
+		DisplayName: Femur Fracturer
+	}
+
+	FlyPet: {
+		DisplayName: Cornelious
+	}
+
+	ShroomHopperPet: {
+		DisplayName: Shroom Hopper
+	}
+
+	ShroomFlailProj: {
+		DisplayName: Fungal Flail
+	}
+
+	DaffodilFly: {
+		DisplayName: Large Fly
+	}
+
+	ThornBallSpike: {
+		DisplayName: Thorn Spike
+	}
+
+	ThornBall: {
+		DisplayName: Thorn Ball
+	}
+
+	SolarLaser: {
+		DisplayName: Solar Laser
+	}
+
+	SkullGoop: {
+		DisplayName: Skull Goop
+	}
+
+	MoldPelletFly: {
+		DisplayName: Mold Fly
+	}
+
+	MoldyPelletProj: {
+		DisplayName: Moldy Pellet
+	}
+
+	GourdSlingshotProj: {
+		DisplayName: Stinky Slinger
+	}
+
+	GourdFlailFly: {
+		DisplayName: Fly
+	}
+
+	GourdFlailProj: {
+		DisplayName: Rotty's Wrath
+	}
+
+	FleshPillar: {
+		DisplayName: Flesh Pillar
+	}
+
+	FleshPillarTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	ChlorophyllFlower: {
+		DisplayName: Chlorophyll Flower
+	}
+
+	GhastlyOrbProj: {
+		DisplayName: Ghastly Orb
+	}
+
+	ShroomWhipSpore: {
+		DisplayName: Shroom Spore
+	}
+
+	ShroomWhipProj: {
+		DisplayName: Spore Smacker
+	}
+
+	ColumboFinger: {
+		DisplayName: Columbo
+	}
+
+	Columbo: {
+		DisplayName: Columbo
+	}
+
+	OldWoodStaffBolt: {
+		DisplayName: Magic Bolt
+	}
+
+	OldWoodStaffProj: {
+		DisplayName: Old Wood Staff
+	}
+
+	MossyPebbleProj: {
+		DisplayName: Mossy Pebble
+	}
+
+	OldWoodSlingshotProj: {
+		DisplayName: Old Wood Slingshot
+	}
+
+	BrickProj: {
+		DisplayName: Heavy Brick
+	}
+
+	SpookySpiritSpawn: {
+		DisplayName: Spooky Spirit Spawner
+	}
+
+	SentientSkull: {
+		DisplayName: Chomping Skull
+	}
+
+	IchorCloud: {
+		DisplayName: Ichor Cloud
+	}
+
+	SentientBladeTongueProj: {
+		DisplayName: Tongueblade
+	}
+
+	SoulDrainShockwave: {
+		DisplayName: Soul Shockwave
+	}
+
+	DrainedSoulMana: {
+		DisplayName: Mana Soul
+	}
+
+	DrainedSoulHealth: {
+		DisplayName: Health Soul
+	}
+
+	BloodTooth: {
+		DisplayName: Blood Tooth
+	}
+
+	GrugFireball: {
+		DisplayName: Cursed Fireball
+	}
+
+	Grug: {
+		DisplayName: Grug
+	}
+
+	SentientShootiusBolt: {
+		DisplayName: Sentient Shootius Bolt
+	}
+
+	SentientShootiusSentry: {
+		DisplayName: Sentient Shootius
+	}
+
+	SentientLeatherWhipProj: {
+		DisplayName: Licker
+	}
+
+	ToxicBubbleRed: {
+		DisplayName: Toxic Bubble
+	}
+
+	ToxicBubbleBlue: {
+		DisplayName: Toxic Bubble
+	}
+
+	ToxicBubblePurple: {
+		DisplayName: Toxic Bubble
+	}
+
+	ToxicBubble: {
+		DisplayName: Toxic Bubble
+	}
+
+	SentientChikTear: {
+		DisplayName: Crystal Tear
+	}
+
+	SentientChikProj: {
+		DisplayName: Pendeloque
+	}
+
+	CursedFlamePillar: {
+		DisplayName: Cursed Pillar
+	}
+
+	SentientKatanaSlashSpawner: {
+		DisplayName: Conscious Slash
+	}
+
+	SentientKatanaSlash: {
+		DisplayName: Conscious Slash
+	}
+
+	CauldronDummy: {
+		DisplayName: Cauldron
+	}
+
+	BrainJarProj: {
+		DisplayName: Brainy Jar
+	}
+
+	BigBoneHammerSwung: {
+		DisplayName: Skull Smasher
+	}
+
+	DecayDebuffFly: {
+		DisplayName: Decay Debuff Fly
+	}
+
+	OrroboroSpawn: {
+		DisplayName: Orroboro Spawner
+	}
+
+	CauldronTransformProj: {
+		DisplayName: Cauldron Transform
+	}
+
+	TortumorMinionOrb: {
+		DisplayName: Tumor Orb
+	}
+
+	TortumorMinion: {
+		DisplayName: Tortumor
+	}
+
+	ScyclerProj: {
+		DisplayName: Scycler
+	}
+
+	NoseMinion: {
+		DisplayName: Nose Fly
+	}
+
+	NerveWhipProj: {
+		DisplayName: Exposed Nerve
+	}
+
+	LeechWhipProj: {
+		DisplayName: Leecher
+	}
+
+	Leech: {
+		DisplayName: Leech
+	}
+
+	FleshWhipProj: {
+		DisplayName: Eye Lasher
+	}
+
+	EyeRocketLauncherProj: {
+		DisplayName: I.C.U
+	}
+
+	EyeRocket: {
+		DisplayName: Eye Rocket
+	}
+
+	EyeFlailProj2: {
+		DisplayName: Chained Eye
+	}
+
+	EyeFlailProj: {
+		DisplayName: Chained Eye
+	}
+
+	EyeArmorMinion: {
+		DisplayName: Eye Minion
+	}
+
+	ControllableEyeBigExplosion: {
+		DisplayName: Eye Explosion
+	}
+
+	ControllableEyeBig: {
+		DisplayName: Magic Eye
+	}
+
+	ControllableEye: {
+		DisplayName: Magic Eye
+	}
+
+	BrainyExplosion: {
+		DisplayName: Brain Explosion
+	}
+
+	Brainy: {
+		DisplayName: Brainy
+	}
+
+	BowEye: {
+		DisplayName: Seer Eye
+	}
+
+	BoogerFlailProj: {
+		DisplayName: Snot Ball
+	}
+
+	BoogerFlailFlung: {
+		DisplayName: Snot Ball
+	}
+
+	BoogerBlasterProj: {
+		DisplayName: Booger Blaster
+	}
+
+	BlasterBoogerSmall: {
+		DisplayName: Snot Ball
+	}
+
+	BlasterBoogerBig: {
+		DisplayName: Snot Ball
+	}
+
+	ZombiePart3: {
+		DisplayName: Zombie Piece
+	}
+
+	ZombiePart2: {
+		DisplayName: Zombie Piece
+	}
+
+	ZombiePart1: {
+		DisplayName: Zombie Piece
+	}
+
+	ToiletPaperProj: {
+		DisplayName: Toilet Paper
+	}
+
+	SwarmFly: {
+		DisplayName: Fly
+	}
+
+	SkullWisp: {
+		DisplayName: Skull Wisp
+	}
+
+	LeafProjRed: {
+		DisplayName: Leaf
+	}
+
+	LeafProjOrange: {
+		DisplayName: Leaf
+	}
+
+	LeafProjGreen: {
+		DisplayName: Leaf
+	}
+
+	ElGourdoProj: {
+		DisplayName: El Gourdo
+	}
+
+	Candy: {
+		DisplayName: Candy
+	}
+
+	CandyBagProj: {
+		DisplayName: Candy Bag
+	}
+
+	SpookySpiritPet: {
+		DisplayName: Mini Spirit
+	}
+
+	SkullEmoji: {
+		DisplayName: Skull Emoji
+	}
+
+	RotGourdPet: {
+		DisplayName: Rotten Gourd
+	}
+
+	MocoPet: {
+		DisplayName: Baby Moco
+	}
+
+	GhostPet: {
+		DisplayName: Lil Ghost
+	}
+
+	FuzzBatPet: {
+		DisplayName: Fuzz Bat
+	}
+
+	BigBonePet: {
+		DisplayName: Baby Bone
+	}
+
+	SpookySkull: {
+		DisplayName: Skull Bomb
+	}
+
+	SpookyExplosion: {
+		DisplayName: Skull Explosion
+	}
+
+	SpiritSlingshotProj: {
+		DisplayName: Ghostly Slingshot
+	}
+
+	SpiritScrollHoldout: {
+		DisplayName: Spooky Scroll
+	}
+
+	SpiritHand: {
+		DisplayName: Spirit Hand
+	}
+
+	SlingshotBall: {
+		DisplayName: Ghastly Ball
+	}
+
+	ScrollPumpkin: {
+		DisplayName: Magic Pumpkin
+	}
+
+	PumpkinHeadBolt: {
+		DisplayName: Spooky Bolt
+	}
+
+	PumpkinHead: {
+		DisplayName: Pumpkin Head
+	}
+
+	AmuletSeed: {
+		DisplayName: Spirit Bolt
+	}
+
+	ThornStaffBall: {
+		DisplayName: Thorn Ball
+	}
+
+	StaffFireBolt: {
+		DisplayName: Solar Bolt
+	}
+
+	SoulSkullMinion: {
+		DisplayName: Soul Skull
+	}
+
+	SoulSkullBolt: {
+		DisplayName: Soul Bolt
+	}
+
+	SoulBolt: {
+		DisplayName: Soul Bolt
+	}
+
+	SkullTotem: {
+		DisplayName: Skull Totem
+	}
+
+	NineTailsProj: {
+		DisplayName: Nine Tails
+	}
+
+	GraveCrossbowProj: {
+		DisplayName: Grave Crossbow
+	}
+
+	GraveCrossbowArrow: {
+		DisplayName: Crossbow Arrow
+	}
+
+	GlowBulbThorn: {
+		DisplayName: Bulb Thorn
+	}
+
+	GlowBulbProj: {
+		DisplayName: Glow Bulb
+	}
+
+	FireBeam: {
+		DisplayName: Fire Beam
+	}
+
+	BowThornFlower: {
+		DisplayName: Thorn Flower
+	}
+
+	BowFlowerThorn: {
+		DisplayName: Thorn Vine
+	}
+
+	BowFlower: {
+		DisplayName: Razor Rose
+	}
+
+	BoneMaskWisp: {
+		DisplayName: Skull Wisp
+	}
+
+	BigBoneHammerProj2: {
+		DisplayName: Skull Smasher
+	}
+
+	BigBoneHammerProj: {
+		DisplayName: Skull Smasher
+	}
+
+	TumorOrb: {
+		DisplayName: Flesh Chunk
+	}
+
+	SalivaBall: {
+		DisplayName: Toxic Spit
+	}
+
+	CruxAura: {
+		DisplayName: Crux Aura
+	}
+
+	PhantomSkullProj: {
+		DisplayName: Phantom Skull
+	}
+
+	PhantomSeed: {
+		DisplayName: Phantom Seed
+	}
+
+	PhantomExplosion: {
+		DisplayName: Phantom Explosion
+	}
+
+	PhantomBomb: {
+		DisplayName: Skull Bomb
+	}
+
+	EyeBolt: {
+		DisplayName: Eye Bolt
+	}
+
+	EyeBeamTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	EyeBeam: {
+		DisplayName: Eye Beam
+	}
+
+	RotFly: {
+		DisplayName: Fly
+	}
+
+	MoldSpore: {
+		DisplayName: Mold Spore
+	}
+
+	DirtDebris: {
+		DisplayName: Dirt Debris
+	}
+
+	OrroBiomatter: {
+		DisplayName: Biomass
+	}
+
+	EyeSpit2: {
+		DisplayName: Saliva Ball
+	}
+
+	EyeSpit: {
+		DisplayName: Saliva Ball
+	}
+
+	BoroBiomatter: {
+		DisplayName: Biomass
+	}
+
+	AcidTarget: {
+		DisplayName: Telegraph
+	}
+
+	AcidBreath: {
+		DisplayName: Acidic Breath
+	}
+
+	LingeringSnotBall: {
+		DisplayName: Snot Ball
+	}
+
+	SnotBall: {
+		DisplayName: Snot Ball
+	}
+
+	LingeringSnot: {
+		DisplayName: Snot Pile
+	}
+
+	GiantSnot: {
+		DisplayName: Snot Ball
+	}
+
+	SolarThorn: {
+		DisplayName: Solar Thorn
+	}
+
+	RazorRose: {
+		DisplayName: Razor Rose
+	}
+
+	MassiveFlameBallBolt: {
+		DisplayName: Solar Blast
+	}
+
+	MassiveFlameBall: {
+		DisplayName: Flame Blast
+	}
+
+	HomingFlower: {
+		DisplayName: Flower
+	}
+
+	HealingFlowerSeed: {
+		DisplayName: Flower Seed
+	}
+
+	GiantFlameBall: {
+		DisplayName: Flame Blast
+	}
+
+	FlowerSpore: {
+		DisplayName: Flower Spore
+	}
+
+	FlamingWisp: {
+		DisplayName: Flaming Skull Wisp
+	}
+
+	DefensiveFlowerSeed: {
+		DisplayName: Flower Seed
+	}
+
+	BouncingFlower: {
+		DisplayName: Flower
+	}
+
+	BoneWisp: {
+		DisplayName: Skull Wisp
+	}
+
+	BigBoneThornTelegraph: {
+		DisplayName: Telegraph
+	}
+
+	BigBoneThorn: {
+		DisplayName: Thorn Vine
+	}
+
+	SpookyHellSolutionProj: {
+		DisplayName: Eye Valley Spray
+	}
+
+	CemeterySolutionProj: {
+		DisplayName: Cemetery Spray
+	}
+
+	SpookySolutionProj: {
+		DisplayName: Spooky Spray
+	}
+}
+
+NPCs: {
+    StitchSpider: {
+        DisplayName: スティッチ
+    }
+
+	FrankenGoblinEye: {
+		DisplayName: モンスターの目
+	}
+
+	FrankenGoblinHandBack: {
+		DisplayName: フランクの手
+	}
+
+	FrankenGoblinHandFront: {
+		DisplayName: フランクの手
+	}
+
+	FrankenGoblin: {
+		DisplayName: ゴブリンのフランク
+	}
+
+	EyeWizardOrb: {
+		DisplayName: 目のオーブ
+	}
+
+	EyeWizardClone: {
+		DisplayName: 大きな目のファントム
+	}
+
+	EyeWizard: {
+		DisplayName: 大きな目
+	}
+
+	BanditPriest: {
+		DisplayName: ブルーフォード
+	}
+
+	BanditWizard: {
+		DisplayName: グリーニー
+	}
+
+	BanditBruiser: {
+		DisplayName: ラルグ
+	}
+
+	BanditBook: {
+		DisplayName: 精霊の書
+	}
+
+	SnotSlime: {
+		DisplayName: 鼻水スライム
+	}
+
+	SnotMonster: {
+		DisplayName: 鼻水モンスター
+	}
+
+	NoseCultistLeader: {
+		DisplayName: ノセフェラトゥ
+	}
+
+	NoseCultistLeaderIdle: {
+		DisplayName: ""
+	}
+
+	NoseCultistWinged: {
+		DisplayName: カルティストハエヤー
+	}
+
+	NoseCultistWingedIdle: {
+		DisplayName: ""
+	}
+
+	NoseCultistMage: {
+		DisplayName: カルティストコンジュラー
+	}
+
+	NoseCultistMageIdle: {
+		DisplayName: ""
+	}
+
+	NoseCultistGunner: {
+		DisplayName: カルティストガンナー
+	}
+
+	NoseCultistGunnerIdle: {
+		DisplayName: ""
+	}
+
+	NoseCultistGrunt: {
+		DisplayName: カルティストグラント
+	}
+
+	NoseCultistGruntIdle: {
+		DisplayName: ""
+	}
+
+	NoseCultistBrute: {
+		DisplayName: カルティストブルート
+	}
+
+	NoseCultistBruteIdle: {
+		DisplayName: ""
+	}
+
+	NoseBallRed: {
+		DisplayName: ノレガム
+	}
+
+	NoseBallPurple: {
+		DisplayName: ノレガム
+	}
+
+	MocoIdol6: {
+		DisplayName: ""
+	}
+
+	MocoIdol5: {
+		DisplayName: ""
+	}
+
+	MocoIdol4: {
+		DisplayName: ""
+	}
+
+	MocoIdol3: {
+		DisplayName: ""
+	}
+
+	MocoIdol2: {
+		DisplayName: ""
+	}
+
+	MocoIdol1: {
+		DisplayName: ""
+	}
+
+	WhipSpiderTongue: {
+		DisplayName: 鞭クモ
+	}
+
+	WhipSpider: {
+		DisplayName: 鞭クモ
+	}
+
+	TrapdoorSpiderIdle2: {
+		DisplayName: トラップドアスパイダー
+	}
+
+	TrapdoorSpiderIdle1: {
+		DisplayName: トラップドアスパイダー
+	}
+
+	TrapdoorSpider2: {
+		DisplayName: トラップドアスパイダー
+	}
+
+	TrapdoorSpider1: {
+		DisplayName: トラップドアスパイダー
+	}
+
+	TinySpiderEgg: {
+		DisplayName: クモの卵
+	}
+
+	TinySpider5: {
+		DisplayName: 小さなクモ
+	}
+
+	TinySpider4: {
+		DisplayName: 小さなクモ
+	}
+
+	TinySpider3: {
+		DisplayName: 小さなクモ
+	}
+
+	TinySpider2: {
+		DisplayName: 小さなクモ
+	}
+
+	TinySpider1: {
+		DisplayName: 小さなクモ
+	}
+
+	TarantulaHawk3: {
+		DisplayName: タランチュラホーク
+	}
+
+	TarantulaHawk2: {
+		DisplayName: タランチュラホーク
+	}
+
+	TarantulaHawk1: {
+		DisplayName: タランチュラホーク
+	}
+
+	OrbWeaverGiant: {
+		DisplayName: 大きなオーブウィーバー
+	}
+
+	OrbWeaver3: {
+		DisplayName: オーブウィーバー
+	}
+
+	OrbWeaver2: {
+		DisplayName: オーブウィーバー
+	}
+
+	OrbWeaver1: {
+		DisplayName: オーブウィーバー
+	}
+
+	Moth2: {
+		DisplayName: 蛾
+	}
+
+	Moth1: {
+		DisplayName: 蛾
+	}
+
+	Mosquito3: {
+		DisplayName: 蚊
+	}
+
+	Mosquito2: {
+		DisplayName: 蚊
+	}
+
+	Mosquito1: {
+		DisplayName: 蚊
+	}
+
+	LeafSpiderWeb: {
+		DisplayName: 葉クモの巣
+	}
+
+	LeafSpider: {
+		DisplayName: 葉クモ
+	}
+
+	LeafSpiderSleeping: {
+		DisplayName: 葉
+	}
+
+	JumpingSpider2: {
+		DisplayName: ジャンピングスパイダー
+	}
+
+	JumpingSpider1: {
+		DisplayName: ジャンピングスパイダー
+	}
+
+	Inchworm3: {
+		DisplayName: シャクトリムシ
+	}
+
+	Inchworm2: {
+		DisplayName: シャクトリムシ
+	}
+
+	Inchworm1: {
+		DisplayName: シャクトリムシ
+	}
+
+	DaddyLongLegs: {
+		DisplayName: ガガンボ
+	}
+
+	Cockroach: {
+		DisplayName: ゴキブリ
+	}
+
+	BallSpiderWeb: {
+		DisplayName: スフィダーの巣
+	}
+
+	BallSpider: {
+		DisplayName: スフィダー
+	}
+
+	Ant2: {
+		DisplayName: アリ
+	}
+
+	Ant1: {
+		DisplayName: アリ
+	}
+
+	ValleyMerman: {
+		DisplayName: フレッシュマーマン
+	}
+
+	ValleySharkMouth: {
+		DisplayName: ヘモスタシスビースト
+	}
+
+	ValleyShark: {
+		DisplayName: ヘモスタシスビースト
+	}
+
+	ValleyEelTail: {
+		DisplayName: 大動脈ウナギ
+	}
+
+	ValleyEelHead: {
+		DisplayName: 大動脈ウナギ
+	}
+
+	ValleyEelBody: {
+		DisplayName: 大動脈ウナギ
+	}
+
+	ValleySquidClone: {
+		DisplayName: クロットイカ
+	}
+
+	ValleySquid: {
+		DisplayName: クロットイカ
+	}
+
+	ValleyNautilus: {
+		DisplayName: クラレットセファロポッド
+	}
+
+	ValleyFish: {
+		DisplayName: ピーパー魚
+	}
+
+	MoclingSwarm: {
+		DisplayName: ""
+	}
+
+	Mocling: {
+		DisplayName: モクリング
+	}
+
+	TortumorGiantFleshy: {
+		DisplayName: 巨大トーチュモア
+	}
+
+	TortumorGiant: {
+		DisplayName: 巨大トーチュモア
+	}
+
+	TortumorFleshy: {
+		DisplayName: トーチュモア
+	}
+
+	Tortumor: {
+		DisplayName: トーチュモア
+	}
+
+	MrHandyFleshy: {
+		DisplayName: ミスターハンディ
+	}
+
+	MrHandy: {
+		DisplayName: ミスターハンディ
+	}
+
+	ManHoleBig: {
+		DisplayName: 大きなマンホール
+	}
+
+	ManHoleEye: {
+		DisplayName: 目
+	}
+
+	ManHoleFleshy: {
+		DisplayName: マンホール
+	}
+
+	ManHole: {
+		DisplayName: マンホール
+	}
+
+	EyeBatFleshy: {
+		DisplayName: バットアンドアイ
+	}
+
+	EyeBat: {
+		DisplayName: バットアンドアイ
+	}
+
+	ZomboidWind: {
+		DisplayName: ゾンボイド
+	}
+
+	WarlockSkull: {
+		DisplayName: ウォーロックスカル
+	}
+
+	ZomboidWarlock: {
+		DisplayName: ゾンボイドウォーロック
+	}
+
+	ZomboidTomato: {
+		DisplayName: トマトゾンボイド
+	}
+
+	ZomboidTomatoMold: {
+		DisplayName: トマトゾンボイド
+	}
+
+	ZomboidThorn: {
+		DisplayName: ゾンボイド
+	}
+
+	ZomboidRain: {
+		DisplayName: 漏れるゾンボイド
+	}
+
+	ZomboidPumpkinFire: {
+		DisplayName: 炎根ゾンボイド
+	}
+
+	ZomboidPumpkin: {
+		DisplayName: 根付きゾンボイド
+	}
+
+	ZomboidFungus: {
+		DisplayName: ゾンボイド
+	}
+
+	ZomboidClarinet: {
+		DisplayName: ゾンボイド
+	}
+
+	ZomboidArmored: {
+		DisplayName: 装甲ゾンボイド
+	}
+
+	Witch: {
+		DisplayName: 邪悪な魔女
+	}
+
+	TinyMushroom: {
+		DisplayName: 小さなキノコ
+	}
+
+	TinyGhostRare: {
+		DisplayName: 不気味なゴースト
+	}
+
+	TinyGhostBoof: {
+		DisplayName: 小さなゴースト
+	}
+
+	TinyGhost2: {
+		DisplayName: 小さなゴースト
+	}
+
+	TinyGhost1: {
+		DisplayName: 小さなゴースト
+	}
+
+	SpookyDance: {
+		DisplayName: 不気味に踊りしゴースト
+	}
+
+	SinisterSnail: {
+		DisplayName: 邪悪なカタツムリ
+	}
+
+	ShroomHopper: {
+		DisplayName: シュルームホッパー
+	}
+
+	ScarecrowShotgunner: {
+		DisplayName: 憑依されたカカシ
+	}
+
+	PuttySlime3: {
+		DisplayName: パティスライム
+	}
+
+	PuttySlime2: {
+		DisplayName: パティスライム
+	}
+
+	PuttySlime1: {
+		DisplayName: パティスライム
+	}
+
+	PuttyPumpkinling: {
+		DisplayName: パティパンプキンリング
+	}
+
+	PuttyPumpkin: {
+		DisplayName: パティ パンプキン
+	}
+
+	MonsterEye3: {
+		DisplayName: モンスターの目
+	}
+
+	MonsterEye4: {
+		DisplayName: モンスターの目
+	}
+
+	MonsterEye2: {
+		DisplayName: モンスターの目
+	}
+
+	MonsterEye1: {
+		DisplayName: モンスターの目
+	}
+
+	LittleSpider: {
+		DisplayName: 小さなクモ
+	}
+
+	HoppingCandyBasket: {
+		DisplayName: 跳ねるキャンディバスケット
+	}
+
+	FlySmall: {
+		DisplayName: ハエ
+	}
+
+	FlyBig: {
+		DisplayName: 大きなハエ
+	}
+
+	FluffBatSmall2: {
+		DisplayName: ファズバット
+	}
+
+	FluffBatSmall1: {
+		DisplayName: ファズバット
+	}
+
+	FluffBatBig2: {
+		DisplayName: 大きなファズバット
+	}
+
+	FluffBatBig1: {
+		DisplayName: 大きなファズバット
+	}
+
+	Chungus: {
+		DisplayName: チャンキーファンガス
+	}
+
+	CandleMonster: {
+		DisplayName: キャンドルモンスター
+	}
+
+	Bungus: {
+		DisplayName: バンガス
+	}
+
+	GiantWeb: {
+		DisplayNameAlt: 右クリックで古代ハンターのピースを挿入
+		DisplayName: 巨大な巣
+	}
+
+	OldHunter: {
+		TownNPCMood: {
+			LikeNPC_Princess: ""
+			Princess_LovesNPC: ""
+			HateNPC: "{NPCName}なんてみんなくそくらえだ。こんなひどい態度のやつ見たことねえよ！"
+			DislikeNPC: "{NPCName}?なんか高飛車すぎるな、俺には合わねえ。"
+			LikeNPC: 俺は{NPCName}が好きだ。ぶっちゃけ、年寄りと話せる相手がいるだけで嬉しいぜ、はは！
+			LoveNPC: "{NPCName}は最高だ！タフなやつがいるってのはいいよな！"
+			HateBiome: このいわゆる神聖な土地って何だよ?おとぎ話の国になんか住まねえぞ！
+			DislikeBiome: "{BiomeName}はあんまり好きじゃねえ。平和すぎて落ち着かねえよ。"
+			LikeBiome: "{BiomeName}は俺好みのバイオームだ。毒虫やコウモリを追い払うのが家の雰囲気って感じだな！"
+			LoveBiome: ああ、懐かしい{BiomeName}だ。みっともないクモがうろついてるけど、やっぱりここが好きだ！
+			HateCrowded: ここ、めっちゃ混んでるな。ガヤガヤしすぎだ！
+			DislikeCrowded: 今、周りに人が多すぎて気に入らねえな。
+			LoveSpace: ここは広さがちょうどいいな！
+			FarFromHome: 家から遠すぎるぜ。
+			NoHome: なあ、住むのに居心地いい場所ってあるか?
+			Content: 俺は満足してるぜ。
+		}
+
+		DisplayName: 古代ハンター
+	}
+
+	OldHunterSleeping: {
+		DisplayName: 古代ハンター
+	}
+
+	SuspiciousSkeleton: {
+		DisplayName: 怪しいスケルトン
+	}
+
+	SkeletonBouncer: {
+		DisplayName: スケルトン バウンサー
+	}
+
+	PartySkeleton8: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton7: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton6: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton5: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton4: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton3: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton2: {
+		DisplayName: パーティースケルトン
+	}
+
+	PartySkeleton1: {
+		DisplayName: パーティースケルトン
+	}
+
+	Musicman: {
+		DisplayName: ミュージックマン
+	}
+
+	LittleEyeSleeping: {
+		DisplayName: 眠っている目
+	}
+
+	LittleEye: {
+		DisplayName: 小さな目
+	}
+
+	LittleBoneSleeping: {
+		DisplayName: 眠っている植物
+	}
+
+	LittleBonePotTransform: {
+		DisplayName: スモールボーン
+	}
+
+	LittleBone: {
+		DisplayName: スモールボーン
+	}
+
+	GiantWebAnimationPiece: {
+		DisplayName: ""
+	}
+
+	GiantWebAnimationBase: {
+		DisplayName: ""
+	}
+
+	DumbZomboid: {
+		DisplayName: ダムゾンボイド
+	}
+
+	OrroboroEgg: {
+		DisplayName: ""
+	}
+
+	TongueBiter: {
+		DisplayName: トンビター
+	}
+
+	HoverBrain: {
+		DisplayName: ホバリングブレイン
+	}
+
+	HoppingHeart: {
+		DisplayName: ホッピングハート
+	}
+
+	GooSlug: {
+		DisplayName: グースラッグ
+	}
+
+	FleshBolster: {
+		DisplayName: フレッシュボルスター
+	}
+
+	ExplodingAppendix: {
+		DisplayName: 爆発虫垂
+	}
+
+	EarWormBase: {
+		DisplayName: ""
+	}
+
+	EarWorm: {
+		DisplayName: 耳虫
+	}
+
+	CruxBat: {
+		DisplayName: クルックスバット
+	}
+
+	CoughLungs: {
+		DisplayName: コフィングラングズ
+	}
+
+	BiojetterEye: {
+		DisplayName: バイオジェッター
+	}
+
+	Biojetter: {
+		DisplayName: バイオジェッター
+	}
+
+	ZomboidGremlin: {
+		DisplayName: ゾンビーノ
+	}
+
+	ZomboidCasket: {
+		DisplayName: ゾンボイドのカスケット
+	}
+
+	TinyRat2: {
+		DisplayName: 小さなネズミ
+	}
+
+	TinyRat1: {
+		DisplayName: 小さなネズミ
+	}
+
+	SmileGhostSmall3: {
+		DisplayName: ハッピーゴースト
+	}
+
+	SmileGhostSmall2: {
+		DisplayName: ハッピーゴースト
+	}
+
+	SmileGhostSmall1: {
+		DisplayName: ハッピーゴースト
+	}
+
+	SmileGhost: {
+		DisplayName: ハッピーゴースト
+	}
+
+	SadGhostSmall: {
+		DisplayName: サッドゴースト
+	}
+
+	SadGhostBig: {
+		DisplayName: サッドゴースト
+	}
+
+	PossessorEvil: {
+		DisplayName: 狡猾なゴースト
+	}
+
+	Possessor: {
+		DisplayName: 狡猾なゴースト
+	}
+
+	MistGhostWiggle: {
+		DisplayName: ミストゴースト
+	}
+
+	MistGhostFaces: {
+		DisplayName: ミストゴースト
+	}
+
+	MistGhost: {
+		DisplayName: ミストゴースト
+	}
+
+	HungryGhost: {
+		DisplayName: ハングリーゴースト
+	}
+
+	FeralRat2: {
+		DisplayName: 野生のネズミ
+	}
+
+	FeralRat1: {
+		DisplayName: 野生のネズミ
+	}
+
+	BloatGhostSmall: {
+		DisplayName: ゴースト
+	}
+
+	BloatGhostBig: {
+		DisplayName: ぷっくらゴースト
+	}
+
+	StitchWand: {
+		DisplayName: スティッチ
+	}
+
+	Stitch: {
+		DisplayName: スティッチ
+	}
+
+	SheldonShield: {
+		DisplayName: シェルドン
+	}
+
+	Sheldon: {
+		DisplayName: シェルドン
+	}
+
+	ChesterShield: {
+		DisplayName: チェスター
+	}
+
+	ChesterClub: {
+		DisplayName: チェスター
+	}
+
+	Chester: {
+		DisplayName: チェスター
+	}
+
+	Bobbert: {
+		DisplayName: ボバート
+	}
+
+	PandoraBox: {
+		DisplayName: パンドラの箱
+	}
+
+	Sunflower2: {
+		DisplayName: 鬼ごっこヒマワリ
+	}
+
+	Sunflower3: {
+		DisplayName: 鬼ごっこヒマワリ
+	}
+
+	Sunflower1: {
+		DisplayName: 鬼ごっこヒマワリ
+	}
+
+	Smelly: {
+		DisplayName: スメリー
+	}
+
+	SkeletoidBandit: {
+		DisplayName: スケルトイドバンディット
+	}
+
+	PollinatorBeeHealing: {
+		DisplayName: ポリネータービー
+	}
+
+	PollinatorBeeDamage: {
+		DisplayName: ポリネータービー
+	}
+
+	PlantTrap6: {
+		DisplayName: トラッパープラント
+	}
+
+	PlantTrap5: {
+		DisplayName: トラッパープラント
+	}
+
+	PlantTrap4: {
+		DisplayName: トラッパープラント
+	}
+
+	PlantTrap3: {
+		DisplayName: トラッパープラント
+	}
+
+	PlantTrap2: {
+		DisplayName: トラッパープラント
+	}
+
+	PlantTrap1: {
+		DisplayName: トラッパープラント
+	}
+
+	PitcherPlant4: {
+		DisplayName: スピッチャープラント
+	}
+
+	PitcherPlant3: {
+		DisplayName: スピッチャープラント
+	}
+
+	PitcherPlant2: {
+		DisplayName: スピッチャープラント
+	}
+
+	PitcherPlant1: {
+		DisplayName: スピッチャープラント
+	}
+
+	OrchidStem: {
+		DisplayName: ""
+	}
+
+	OrchidPurpleSmall: {
+		DisplayName: 観察し蘭
+	}
+
+	OrchidPurpleBig: {
+		DisplayName: 観察し蘭
+	}
+
+	OrchidPinkSmall: {
+		DisplayName: 観察し蘭
+	}
+
+	OrchidPinkBig: {
+		DisplayName: 観察し蘭
+	}
+
+	LilySlime2Small: {
+		DisplayName: スイレン
+	}
+
+	LilySlime2Big: {
+		DisplayName: スイレン
+	}
+
+	LilySlime1Small: {
+		DisplayName: スイレン
+	}
+
+	LilySlime1Big: {
+		DisplayName: スイレン
+	}
+
+	JumpingSeed3: {
+		DisplayName: ホップシード
+	}
+
+	JumpingSeed2: {
+		DisplayName: ホップシード
+	}
+
+	JumpingSeed1: {
+		DisplayName: ホップシード
+	}
+
+	FlushBush4: {
+		DisplayName: フラッシュブッシュ
+	}
+
+	FlushBush3: {
+		DisplayName: フラッシュブッシュ
+	}
+
+	FlushBush2: {
+		DisplayName: フラッシュブッシュ
+	}
+
+	FlushBush1: {
+		DisplayName: フラッシュブッシュ
+	}
+
+	DahliaEye: {
+		DisplayName: ディーバダリア
+	}
+
+	Dahlia: {
+		DisplayName: ディーバダリア
+	}
+
+	CelebrationSkeletoid5: {
+		DisplayName: ムエルトスケルトイド
+	}
+
+	CelebrationSkeletoid4: {
+		DisplayName: ムエルトスケルトイド
+	}
+
+	CelebrationSkeletoid3: {
+		DisplayName: ムエルトスケルトイド
+	}
+
+	CelebrationSkeletoid2: {
+		DisplayName: ムエルトスケルトイド
+	}
+
+	CelebrationSkeletoid1: {
+		DisplayName: ムエルトスケルトイド
+	}
+
+	CatacombCrusher4: {
+		DisplayName: ギルデッドクラッシャー
+	}
+
+	CatacombCrusher3: {
+		DisplayName: 古代クラッシャー
+	}
+
+	CatacombCrusher2: {
+		DisplayName: 古代クラッシャー
+	}
+
+	CatacombCrusher1: {
+		DisplayName: 古代クラッシャー
+	}
+
+	CatacombCrusherSpawner: {
+		DisplayName: 古代クラッシャースポナー
+	}
+
+	ZomboidSuspiciomancer: {
+		DisplayName: ｿﾞﾝﾎﾞｲﾄﾞｻｽﾋﾟｼｵﾏﾝｻｰ
+	}
+
+	ZomboidPyromancer: {
+		DisplayName: ゾンボイドパイロマンサー
+	}
+
+	PhantomSkeletoid: {
+		DisplayName: ファントム
+	}
+
+	PhantomRollingSkull: {
+		DisplayName: ファントム
+	}
+
+	ZomboidNecromancerSoul: {
+		DisplayName: アンデッド ソウル
+	}
+
+	ZomboidNecromancer: {
+		DisplayName: ゾンボイド ネクロマンサー
+	}
+
+	ZomboidGlyphomancer: {
+		DisplayName: ゾンボイド グリフォマンサー
+	}
+
+	RollingSkull4: {
+		DisplayName: ギルデッドスカル
+	}
+
+	RollingSkull3: {
+		DisplayName: ローリング スカル
+	}
+
+	RollingSkull2: {
+		DisplayName: ローリング スカル
+	}
+
+	RollingSkull1: {
+		DisplayName: ローリング スカル
+	}
+
+	GiantPutty: {
+		DisplayName: パティキューブ
+	}
+
+	BoneStackerMoving3: {
+		DisplayName: ボーンスラブ
+	}
+
+	BoneStackerMoving2: {
+		DisplayName: ボーンスラブ
+	}
+
+	BoneStackerMoving1: {
+		DisplayName: ボーンスラブ
+	}
+
+	BoneStacker3: {
+		DisplayName: ボーンスラブ
+	}
+
+	BoneStacker2: {
+		DisplayName: ボーンスラブ
+	}
+
+	BoneStacker1: {
+		DisplayName: ボーンスラブ
+	}
+
+	BoneStackerBase: {
+		DisplayName: カタコンベ スラブ
+	}
+
+	SkeletoidBig: {
+		DisplayName: ビッグ ジョン
+	}
+
+	Skeletoid4: {
+		DisplayName: スケルトイド
+	}
+
+	Skeletoid3: {
+		DisplayName: スケルトイド
+	}
+
+	Skeletoid2: {
+		DisplayName: スケルトイド
+	}
+
+	Skeletoid1: {
+		DisplayName: スケルトイド
+	}
+
+	TheMan: {
+		DisplayName: ザ マン
+	}
+
+	SpookSharkron: {
+		DisplayName: スポーキーシャークロン
+	}
+
+	OrbitingBooger: {
+		DisplayName: ブーガーボール
+	}
+
+	PhantomSkull: {
+		DisplayName: ファントムスカル
+	}
+
+	BoroTongue: {
+		DisplayName: ボロの舌
+	}
+
+	OrroTail: {
+		DisplayName: オーロ
+	}
+
+	OrroHeadP1: {
+		DisplayName: オーロ
+	}
+
+	OrroBodyP1: {
+		DisplayName: オーロ
+	}
+
+	OrroBodyWingsP1: {
+		DisplayName: オーロ
+	}
+
+	OrroBodyWings: {
+		DisplayName: オーロ
+	}
+
+	OrroBody: {
+		DisplayName: オーロ
+	}
+
+	BoroTailP1: {
+		DisplayName: ボロ
+	}
+
+	BoroTail: {
+		DisplayName: ボロ
+	}
+
+	BoroHead: {
+		DisplayName: ボロ
+	}
+
+	BoroBodyP1: {
+		DisplayName: ボロ
+	}
+
+	BoroBodyWingsP1: {
+		DisplayName: ボロ
+	}
+
+	BoroBodyWings: {
+		DisplayName: ボロ
+	}
+
+	BoroBodyConnect: {
+		DisplayName: ボロ
+	}
+
+	BoroBody: {
+		DisplayName: ボロ
+	}
+
+	MocoSpawner: {
+		DisplayName: ""
+	}
+
+	MocoOutro: {
+		DisplayName: モクリング
+	}
+
+	MocoIntro: {
+		DisplayName: モクリング
+	}
+
+	MoclingMinion: {
+		DisplayName: モクリング
+	}
+
+	DaffodilArenaBG: {
+		DisplayName: ""
+	}
+
+	DaffodilHandRight: {
+		DisplayName: ダフォディル
+	}
+
+	DaffodilHandLeft: {
+		DisplayName: ダフォディル
+	}
+
+	DaffodilBody: {
+		DisplayName: ""
+	}
+
+	BigBoneArenaBG: {
+		DisplayName: ""
+	}
+
+	CatacombGuardian: {
+		DisplayName: カタコンベガーディアン
+	}
+
+	HealingFlower: {
+		DisplayName: ヒーリングフラワー
+	}
+
+	DefensiveFlower: {
+		DisplayName: ディフェンシブフラワー
+	}
+
+	BigFlower: {
+		DisplayName: ソーラーフラワー
+	}
+
+	BigFlowerPot: {
+		DisplayName: 巨大な植木鉢
+	}
+
+	SpookFishron: {
+		BossChecklistIntegration: {
+			DespawnMessage: 全てのプレイヤーが悪い寿司に変えられた
+			SpawnInfo: パンプキンムーンの夜に海で[i:Spooky/SinisterSnailItem]を餌として釣りをする
+		}
+
+		DisplayName: スポーキーフィッシュロン
+	}
+
+	BigBone: {
+		BossChecklistIntegration: {
+			DespawnMessage: 全てのプレイヤーがビッグボーンの怒りに屈した
+			SpawnInfo: カタコンベの巨大な植木鉢の近くで[i:Spooky/Fertilizer]を使用する
+		}
+
+		DisplayName: ビッグボーン
+	}
+
+	OrroHead: {
+		BossChecklistIntegration: {
+			DespawnMessage: オーロ＆ボロは卵を守りぬいた
+			SpawnInfo: 卵侵攻イベントを完了した後、めだま渓谷で[i:Spooky/Concoction]をインベントリに持っている状態で卵を右クリックする
+			EntryName: オーロ＆ボロ
+		}
+
+		DisplayName: オーロ
+	}
+
+	DaffodilEye: {
+		BossChecklistIntegration: {
+			DespawnMessage: ダフォディルがプレイヤーのカタコンベ探検を終えた
+			SpawnInfo: "[i:Spooky/Brick]を彼女に投げつけて起こす"
+		}
+
+		DisplayName: ダフォディル
+	}
+
+	Moco: {
+		BossChecklistIntegration: {
+			DespawnMessage: モコが全てのプレイヤーにくしゃみをかけた
+			SpawnInfo: めだま渓谷の鼻の神殿でインベントリに[i:Spooky/CottonSwab]を持っている状態で右クリックする
+		}
+
+		DisplayName: モコ
+	}
+
+	SpookySpirit: {
+		BossChecklistIntegration: {
+			DespawnMessage: スポーキースピリットが全てのプレイヤーを取り憑いた
+			SpawnInfo: 夜間に沼地の墓地で呪われた像をインベントリに[i:Spooky/EMFReader]を持った状態で右クリックする
+		}
+
+		DisplayName: スポーキースピリット
+	}
+
+	RotGourd: {
+		BossChecklistIntegration: {
+			DespawnMessage: ロットゴードは遠くへ跳んでいった
+			SpawnInfo: 奇妙な森で[i:Spooky/RottenSeed]を使用する。これはバイオームの大きなカビたヒョウタンを壊すとドロップする
+		}
+
+		DisplayName: ロットゴード
+	}
+}
+
+MusicDisplay: {
+	SpiderCave: It's Just Spider Stuff
+	Orroboro: The All Is One
+	EggEvent: Evolution Of Evil
+	Moco: And Yet, The Snot-Nosed Bug Remains
+	NoseTemple: Grand Sinus Corridors
+	EyeValley: Eyeballs
+	BigBone: Doom Abloom
+	PandoraBox: You Should Know Better
+	LowerCatacombs: Deep Dive To The Catacombs
+	Daffodil: To A Floral Demise
+	UpperCatacombs: Tomb Crawlin'
+	SpookySpirit: Groovy Geist
+	RaveyardLegacy: Graveyard Without The G (Legacy Version)
+	Raveyard2: Bonerattlin' Raving
+	Raveyard1: Graveyard Without The G
+	Raveyard: Graveyard Without The G & Bonerattlin' Raving
+	SwampyCemetery: A Boneyard Too Far
+	RotGourd: Funky Pumpkin
+	SpookyBloodmoon: Too Groovy, Very Spooky
+	SpookyForestUG: Spooky Spelunking
+	SpookyForestRain: Harvest Rainfall
+	SpookyForestTownNight: Spooky Town Night
+	SpookyForestNight: ...And Yellow Grass
+	SpookyForestDay: Dead Trees...
+	ModName: Spooky Mod
+}
+
+Keybinds: {
+	ArmorBonusHotkey: {
+		DisplayName: 防具効果ホットキー
+	}
+
+	AccessoryHotkey: {
+		DisplayName: アクセサリー能力ホットキー
+	}
+}
+
+Items: {
+    SinisterSnailCageItem: {
+        Tooltip: ""
+        DisplayName: テラリウム(不気味なカタツムリ)
+    }
+
+	PumpkinSpiceLatte: {
+		Tooltip: 無限に使用可能
+		DisplayName: カボチャ風味のラテ
+	}
+
+	BossBagSpookFishron: {
+		Tooltip: <right>で開く
+		DisplayName: トレジャーバッグ (スポーキーフィッシュロン)
+	}
+
+	SpookFishronMask: {
+		DisplayName: スポーキーフィッシュロンのマスク
+		Tooltip: ""
+	}
+
+	SinisterShell: {
+		Tooltip: 巨大な不気味なカタツムリを召喚する
+		DisplayName: 不気味な貝殻
+	}
+
+	SinisterSnailItem: {
+		Tooltip: ""
+		DisplayName: 不気味なカタツムリ
+	}
+
+	SpookFishronTome: {
+		Tooltip: 巨大でゆっくり動く火の竜巻を放つ
+		DisplayName: スポーキーナードの呪文
+	}
+
+	SpookFishronStaff: {
+		Tooltip:
+			'''
+			共に戦うスポーキーピグロンを召喚する
+			各ピグロンは2つのミニオンスロットを消費する
+			'''
+		DisplayName: スポーキーロンの杖
+	}
+
+	SpookFishronGun: {
+		Tooltip: カボチャ風味の火炎を放つ
+		DisplayName: パンプキンスパイサー
+	}
+
+	SpookFishronFlail: {
+		Tooltip:
+			'''
+			近くの敵をホーミングする泡を放つ
+			振り回す時間が長いほど、フレイルを発射時多くの泡を放つ
+			'''
+		DisplayName: フレイミングフレイロン
+	}
+
+	SpookFishronBow: {
+		Tooltip: 敵をホーミングする火の玉を連続で放つ
+		DisplayName: ファイアストームモンスーン
+	}
+
+	SpookFishronWings: {
+		Tooltip:
+			'''
+			空を飛べ、落下速度を調整できる
+			水中で素早く移動できる
+			'''
+		DisplayName: スポーキーフィッシュロンの翼
+	}
+
+	SpookFishronRelicItem: {
+		DisplayName: スポーキーフィッシュロンのレリック
+		Tooltip: ""
+	}
+
+	SpookFishronTrophyItem: {
+		DisplayName: スポーキーフィッシュロンのトロフィー
+		Tooltip: ""
+	}
+
+	SpookyHellTorchItem: {
+		Tooltip: ""
+		DisplayName: めだま渓谷の松明
+	}
+
+	SpookyBiomeTorchItem: {
+		Tooltip: ""
+		DisplayName: 奇妙な森の松明
+	}
+
+	SpiderBiomeTorchItem: {
+		Tooltip: ""
+		DisplayName: クモ洞窟の松明
+	}
+
+	CemeteryBiomeTorchItem: {
+		Tooltip: ""
+		DisplayName: 沼墓地の松明
+	}
+
+	CatacombTorch2Item: {
+		Tooltip: ""
+		DisplayName: 深層カタコンベの松明
+	}
+
+	CatacombTorch1Item: {
+		Tooltip: ""
+		DisplayName: クリーピーカタコンベの松明
+	}
+
+	Bestiary: {
+		Tooltip:
+			'''
+			Spooky Mod モンスターの図鑑を完成させる
+			テストアイテム
+			'''
+		DisplayName: 図鑑コンプリーター
+	}
+
+	CatacombWeedKiller: {
+		Tooltip:
+			'''
+			カタコンベのすべての雑草タイルを削除する
+			テストアイテム
+			'''
+		DisplayName: カタコンベウィードキラー
+	}
+
+	RaveStarter: {
+		Tooltip:
+			'''
+			夜に使用するとレイブヤードイベントを開始する
+			テストアイテム
+			'''
+		DisplayName: レイブスターター
+	}
+
+	SpookySpiritTrophyItem: {
+		Tooltip: ""
+		DisplayName: スポーキースピリットのトロフィー
+	}
+
+	RotGourdTrophyItem: {
+		Tooltip: ""
+		DisplayName: ロットゴードのトロフィー
+	}
+
+	OrroTrophyItem: {
+		Tooltip: ""
+		DisplayName: オーロのトロフィー
+	}
+
+	MocoTrophyItem: {
+		Tooltip: ""
+		DisplayName: モコのトロフィー
+	}
+
+	DaffodilTrophyItem: {
+		Tooltip: ""
+		DisplayName: ダフォディルのトロフィー
+	}
+
+	BoroTrophyItem: {
+		Tooltip: ""
+		DisplayName: ボロのトロフィー
+	}
+
+	BigBoneTrophyItem: {
+		Tooltip: ""
+		DisplayName: ビッグボーンのトロフィー
+	}
+
+	ValleyStoneItem: {
+		Tooltip: ""
+		DisplayName: バレーボーン
+	}
+
+	EyeSeed: {
+		Tooltip: めだまストークの苗木を植える
+		DisplayName: めだまストークの種
+	}
+
+	SpookyMushGrassSeeds: {
+		Tooltip: オーガニックマッシュに肉草を植える
+		DisplayName: 肉草の種
+	}
+
+	SpookyMushItem: {
+		Tooltip: ""
+		DisplayName: オーガニックマッシュ
+	}
+
+	LivingFleshWallItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの壁
+	}
+
+	LivingFleshItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュ
+	}
+
+	LittleEyePaintingItem: {
+		Tooltip: "'Waasephi'"
+		DisplayName: 絵画『小さな目』
+	}
+
+	IconPainting5Item: {
+		Tooltip: "'Hugekraken'"
+		DisplayName: 絵画『ノーズカルティスト』
+	}
+
+	IconPainting4Item: {
+		Tooltip: "'Hugekraken'"
+		DisplayName: 『奇妙な日中』
+	}
+
+	IconPainting3Item: {
+		Tooltip: "'Hugekraken'"
+		DisplayName: 絵画『奇妙な夜』
+	}
+
+	IconPainting2Item: {
+		Tooltip: "'Honda'"
+		DisplayName: 絵画『スケアリーロゴ』
+	}
+
+	IconPainting1Item: {
+		Tooltip: "'DylanDoe21'"
+		DisplayName: 絵画『カボチャの顔』
+	}
+
+	EyeWorkBenchItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの作業台
+	}
+
+	EyeTableItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのテーブル
+	}
+
+	EyeSofaItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのソファ
+	}
+
+	EyeSinkItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの布
+	}
+
+	EyePlatformItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの足場
+	
+	}
+
+	EyePianoItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのピアノ
+	}
+
+	EyeLanternItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのランタン
+	}
+
+	EyeLampItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのランプ
+	}
+
+	EyeDresserItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのドレッサー
+	}
+
+	EyeDoorItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのドア
+	}
+
+	EyeClockItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの時計
+	}
+
+	EyeChandelierItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのシャンデリア
+	}
+
+	EyeChairItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの椅子
+	}
+
+	EyeCandleItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの蝋燭
+	}
+
+	EyeCandelabraItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの蝋台
+	}
+
+	EyeBookcaseItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの本棚
+	}
+
+	EyeBedItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュのベッド
+	}
+
+	EyeBathtubItem: {
+		Tooltip: ""
+		DisplayName: リビングフレッシュの浴場
+	}
+
+	EyeBlockItem: {
+		Tooltip: ""
+		DisplayName: めだまブロック
+	}
+
+	SpookyHellCrate2: {
+		Tooltip: <right>で開く
+		DisplayName: バイオマス クレート
+	}
+
+	SpookyHellCrate: {
+		Tooltip: <right>で開く
+		DisplayName: リビングフレッシュ クレート
+	}
+
+	SpookyHellChestItem: {
+		Tooltip: ""
+		DisplayName: めだま渓谷の宝箱
+	}
+
+	EyeChestItem: {
+		Tooltip: ""
+		DisplayName: モンスターの宝箱
+	}
+
+	SpookyWoodFenceItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木フェンス
+	}
+
+	SpookyWoodWallItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の壁
+	}
+
+	SpookyWoodItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木
+	}
+
+	SpookyStoneBricksWallItem: {
+		Tooltip: ""
+		DisplayName: モッシーの石レンガの壁
+	}
+
+	SpookyStoneBricksItem: {
+		Tooltip: ""
+		DisplayName: モッシーの石レンガ
+	}
+
+	SpookyStoneWallItem: {
+		Tooltip: ""
+		DisplayName: モッシーの石の壁
+	}
+
+	SpookyStoneItem: {
+		Tooltip: ""
+		DisplayName: モッシーの石
+	}
+
+	SpookySeedsOrange: {
+		Tooltip: 奇妙な土にオレンジ色の草を植える
+		DisplayName: 奇妙な種（オレンジ）
+	}
+
+	SpookySeedsGreen: {
+		Tooltip: 奇妙な土に緑色の草を植える
+		DisplayName: 奇妙な種（緑）
+	}
+
+	SpookyDirtItem: {
+		Tooltip: ""
+		DisplayName: 奇妙な土
+	}
+
+	MushroomMossSeeds: {
+		Tooltip: モッシーの石にキノコモスを植える
+		DisplayName: キノコモスの種
+	}
+
+	GourdYellowGreenCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（黄と緑）
+	}
+
+	GourdYellowGreenCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（黄と緑）
+	}
+
+	GourdYellowCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（黄）
+	}
+
+	GourdYellowCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（黄）
+	}
+
+	GourdWhiteCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（白）
+	}
+
+	GourdWhiteCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（白）
+	}
+
+	GourdRottenCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: カビたひょうたんのランタン
+	}
+
+	GourdRottenCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（カビている）
+	}
+
+	GourdRedCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（赤）
+	}
+
+	GourdRedCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（赤）
+	}
+
+	GourdOrangeCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（オレンジ）
+	}
+
+	GourdOrangeCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（オレンジ）
+	}
+
+	GourdLimeOrangeCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（ライムとオレンジ）
+	}
+
+	GourdLimeOrangeCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みひょうたん（ライムとオレンジ）
+	}
+
+	GourdLimeCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（ライム）
+	}
+
+	GourdLimeCarvedItem: {
+		Tooltip: ""
+		DisplayName: 彫刻済みランタン（ライム）
+	}
+
+	GourdGreenCarvedLitItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんのランタン（緑）
+	}
+
+	GourdGreenCarvedItem: {
+		Tooltip: ""
+		DisplayName:彫刻済みひょうたん（緑）
+	}
+
+	GourdBlockYellowWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（黄）
+	}
+
+	GourdBlockYellowPlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（黄）
+	
+	}
+
+	GourdBlockYellowItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（黄）
+	}
+
+	GourdBlockYellowGreenWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（黄と緑）
+	}
+
+	GourdBlockYellowGreenPlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（黄と緑）
+	
+	}
+
+	GourdBlockYellowGreenItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（黄と緑）
+	}
+
+	GourdBlockWhiteWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（白）
+	}
+
+	GourdBlockWhitePlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（白）
+	
+	}
+
+	GourdBlockWhiteItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（白）
+	}
+
+	GourdBlockRedWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（赤）
+	}
+
+	GourdBlockRedPlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（赤）
+	
+	}
+
+	GourdBlockRedItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（赤）
+	}
+
+	GourdBlockOrangeWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（オレンジ）
+	}
+
+	GourdBlockOrangePlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（オレンジ）
+	
+	}
+
+	GourdBlockOrangeItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（オレンジ）
+	}
+
+	GourdBlockLimeOrangeWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（ライムとオレンジ）
+	}
+
+	GourdBlockLimeOrangePlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（ライムとオレンジ）
+	
+	}
+
+	GourdBlockLimeOrangeItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（ライムとオレンジ）
+	}
+
+	GourdBlockLimeWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（ライム）
+	}
+
+	GourdBlockLimePlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（ライム）
+	
+	}
+
+	GourdBlockLimeItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（ライム）
+	}
+
+	GourdBlockGreenWallItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの壁（緑）
+	}
+
+	GourdBlockGreenPlatformItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんの足場（緑）
+	
+	}
+
+	GourdBlockGreenItem: {
+		Tooltip: ""
+		DisplayName: ひょうたんブロック（緑）
+	}
+
+	TinyMushroomCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム(タイニー マッシュルーム)
+	}
+
+	TinyGhostJarItem: {
+		Tooltip: ""
+		DisplayName: 瓶入りの小さなゴースト
+	}
+
+	SwoleMushroomStatueItem: {
+		Tooltip: ""
+		DisplayName: マッシュルーム ゴッドの石像
+	}
+
+	SpookyCrate: {
+		Tooltip: <right>で開く
+		DisplayName: 奇妙な木のクレート
+	}
+
+	SpookyBiomeChestItem: {
+		Tooltip: ""
+		DisplayName: 奇妙な森の宝箱
+	}
+
+	OldWoodWorkBenchItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の作業台
+	}
+
+	OldWoodTableItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木のテーブル
+	}
+
+	OldWoodSofaItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木のソファ
+	}
+
+	OldWoodPlatformItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の足場
+	
+	}
+
+	OldWoodOrganItem: {
+		Tooltip:
+			'''
+			右クリックでオルガンを演奏する
+			ただし、トッカータとフーガ ニ短調しか演奏できない
+			'''
+		DisplayName: 古びれた木オルガン
+	}
+
+	OldWoodDoorItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木のドア
+	}
+
+	OldWoodChestItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の宝箱
+	}
+
+	OldWoodChairItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の椅子
+	}
+
+	OldWoodCandleItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の蝋燭
+	}
+
+	OldWoodBookcaseItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の本棚
+	}
+
+	OldWoodBedItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木のベッド
+	}
+
+	OldWoodBathtubItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木の浴場
+	}
+
+	FlySmallJarItem: {
+		Tooltip: ""
+		DisplayName: 瓶入りのハエ
+	}
+
+	FlyBigJarItem: {
+		Tooltip: ""
+		DisplayName: 瓶入りの大きなハエ
+	}
+
+	CandleItem: {
+		Tooltip:
+			'''
+			少量の光を放つ
+			これを持って彫刻済みひょうたんを右クリックすると点灯する
+			'''
+		DisplayName: 使い古された蝋燭
+	}
+
+	WebBlockItem: {
+		Tooltip: ""
+		DisplayName: クモの巣ブロック
+	}
+
+	RootWoodWallItem: {
+		Tooltip: ""
+		DisplayName: ルート ブロックの壁
+	}
+
+	RootWoodItem: {
+		Tooltip: ""
+		DisplayName: ルート ブロック
+	}
+
+	DampSoilItem: {
+		Tooltip: ""
+		DisplayName: ダンプの土壌
+	}
+
+	DampGrassSeeds: {
+		Tooltip: ダンプの土壌に草を植える
+		DisplayName: ダンプの草の種
+	}
+
+	SpiderCaveChestItem: {
+		Tooltip: ""
+		DisplayName: クモ洞窟の宝箱
+	}
+
+	StitchSpiderRelicItem: {
+		Tooltip: ""
+		DisplayName: スティッチズのレリック
+	}
+
+	SpookySpiritRelicItem: {
+		Tooltip: ""
+		DisplayName: スポーキースピリットのレリック
+	}
+
+	RotGourdRelicItem: {
+		Tooltip: ""
+		DisplayName: ロットゴードのレリック
+	}
+
+	OrroboroRelicItem: {
+		Tooltip: ""
+		DisplayName: オーロ＆ボロのレリック
+	}
+
+	MocoRelicItem: {
+		Tooltip: ""
+		DisplayName: モコのレリック
+	}
+
+	FrankenGoblinRelicItem: {
+		Tooltip: ""
+		DisplayName: ゴブリンのフランクのレリック
+	}
+
+	EyeWizardRelicItem: {
+		Tooltip: ""
+		DisplayName: 大きな目のレリック
+	}
+
+	DaffodilRelicItem: {
+		Tooltip: ""
+		DisplayName: ダフォディルのレリック
+	}
+
+	BigBoneRelicItem: {
+		Tooltip: ""
+		DisplayName: ビッグボーンのレリック
+	}
+
+	BanditBookRelicItem: {
+		Tooltip: ""
+		DisplayName: スピリッツの書のレリック
+	}
+
+	SpookyHellPylonItem: {
+		Tooltip:
+			'''
+			近くにいる住民の数にかかわらずテレポート可能
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+		DisplayName: めだま渓谷のパイロン
+	}
+
+	SpookyBiomePylonItem: {
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+		DisplayName: 奇妙な森のパイロン
+	}
+
+	SpiderCavePylonItem: {
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+		DisplayName: クモ洞窟のパイロン
+	}
+
+	CemeteryPylonItem: {
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+		DisplayName: 沼墓地のパイロン
+	}
+
+	NoseTempleWallRedItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガの壁（赤）
+	}
+
+	NoseTempleWallGrayItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガの壁（赤）
+	}
+
+	NoseTempleWallPurpleItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガの壁（紫）
+	}
+
+	NoseTempleWallGreenItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガの壁（緑）
+	}
+
+	NoseTempleFancyWallRedItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブの壁（赤）
+	}
+
+	NoseTempleFancyWallGrayItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブの壁（灰）
+	}
+
+	NoseTempleFancyWallPurpleItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブの壁（紫）
+	}
+
+	NoseTempleFancyWallGreenItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブの壁（緑）
+	}
+
+	NoseTempleFancyBrickRedItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブ（赤）
+	}
+
+	NoseTempleFancyBrickGrayItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブ（灰）
+	}
+
+	NoseTempleFancyBrickPurpleItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブ（紫）
+	}
+
+	NoseTempleFancyBrickGreenItem: {
+		Tooltip: ""
+		DisplayName: オカルティストスラブ（緑）
+	}
+
+	NoseTempleBrickRedItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガ（赤）
+	}
+
+	NoseTempleBrickGrayItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガ（灰）
+	}
+
+	NoseTempleBrickPurpleItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガ（灰）
+		}
+
+	NoseTempleBrickGreenItem: {
+		Tooltip: ""
+		DisplayName: オカルティストレンガ（緑）
+	}
+
+	ShadowEyePaintingItem: {
+		Tooltip: "'???'"
+		DisplayName: 『めだま』
+	}
+
+	RedMistPaintingItem: {
+		Tooltip: "'RocketLauncher'"
+		DisplayName: 絵画『レッドミスト』
+	}
+
+	MonalumboItem: {
+		Tooltip: "'Waasephi'"
+		DisplayName: 絵画『ザ モナ-ランボ』
+	}
+
+	LuigiPaintingItem: {
+		Tooltip: "'Waasephi'"
+		DisplayName: 絵画『ルイージ』
+	}
+
+	FireExitSignItem: {
+		Tooltip: ""
+		DisplayName: 絵画『非常口標識』
+	}
+
+	BaxterPaintingItem: {
+		Tooltip: "'Waasephi'"
+		DisplayName: 絵画『バクスター』
+	}
+
+	AmbushPaintingItem: {
+		Tooltip: "'Hat in a River'"
+		DisplayName: 絵画『アンブッシュ』
+	}
+
+	NoseTemplePlatformRedItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの足場（灰）
+	
+	}
+
+	NoseTemplePlatformGrayItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの足場（灰）
+	
+	}
+
+	NoseTemplePlatformPurpleItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの足場（紫）
+	
+	}
+
+	NoseTemplePlatformGreenItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの足場（緑）
+	
+	}
+
+	CultistWorkBenchItem: {
+		Tooltip: ""
+		DisplayName: オカルティスト の作業台
+	}
+
+	CultistTableItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのテーブル
+	}
+
+	CultistSofaItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのソファ
+	}
+
+	CultistSinkItem: {
+		Tooltip: ""
+		DisplayName: オカルティスト の布
+	}
+
+	CultistLanternItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのランタン
+	}
+
+	CultistLampItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのランプ
+	}
+
+	CultistDresserItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのドレッサー
+	}
+
+	CultistDoorItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのドア
+	}
+
+	CultistClockItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの時計
+	}
+
+	CultistChestItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの宝箱
+	}
+
+	CultistChandelierItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのシャンデリア
+	}
+
+	CultistChairItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの椅子
+	}
+
+	CultistCandleItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの蝋燭
+	}
+
+	CultistCandelabraItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの蝋台
+	}
+
+	CultistBookcaseItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの本棚
+	}
+
+	CultistBedItem: {
+		Tooltip: ""
+		DisplayName: オカルティストのベッド
+	}
+
+	CultistBathtubItem: {
+		Tooltip: ""
+		DisplayName: オカルティストの浴場
+	}
+
+	SpookySpiritBox: {
+		Tooltip: "[c/B6ABFF:Groovy Geist] by BananaLizard"
+		DisplayName: オルゴール (Spooky Spirit)
+	}
+
+	SpookyMenuBox: {
+		Tooltip: "[c/FFBF00:Welcome To Spooky Mod] by BananaLizard"
+		DisplayName: オルゴール (Spooky Mod メニュー画面)
+	}
+
+	SpookyHellBox: {
+		Tooltip: "[c/E64565:Eyeballs] by BananaLizard"
+		DisplayName: オルゴール (めだま渓谷)
+	}
+
+	SpookyBloodmoonBox: {
+		Tooltip: "[c/B60038:Too Groovy, Very Spooky] by BananaLizard"
+		DisplayName: オルゴール (スポーキー ブラッドムーン)
+	}
+
+	SpookyBiomeUGBox: {
+		Tooltip: "[c/FFBF00:Spooky Spelunking] by BananaLizard"
+		DisplayName: オルゴール (地底の奇妙な森)
+	}
+
+	SpookyBiomeTownNightBox: {
+		Tooltip: "[c/AA19E3:Spooky Town Night] by BananaLizard"
+		DisplayName: オルゴール (奇妙な森の町　夜)
+	}
+
+	SpookyBiomeRainBox: {
+		Tooltip: "[c/FFBF00:Harvest Rainfall] by BananaLizard"
+		DisplayName: オルゴール (雨の日の奇妙な森)
+	}
+
+	SpookyBiomeNightBox: {
+		Tooltip: "[c/FFBF00:...And Yellow Grass] by BananaLizard"
+		DisplayName: オルゴール (夜の奇妙な森)
+	}
+
+	SpookyBiomeDayBox: {
+		Tooltip: "[c/FFBF00:Dead Trees...] by BananaLizard"
+		DisplayName: オルゴール (日中の奇妙な森)
+	}
+
+	SpookFishronBox: {
+		Tooltip: "[c/DE8533:Bad Sushi] by BananaLizard"
+		DisplayName: オルゴール (スポーキーフィッシュロン)
+	}
+
+	SpiderCaveBox: {
+		Tooltip: "[c/A88554:It's Just Spider Stuff] by BananaLizard"
+		DisplayName: オルゴール (クモ洞窟)
+	}
+
+	RotGourdBox: {
+		Tooltip: "[c/D45037:Funky Pumpkin] by BananaLizard"
+		DisplayName: オルゴール (ロットゴード)
+	}
+
+	RaveyardBox: {
+		Tooltip:
+			'''
+			天井に設置可能で、オンにすると虹色の PARTY ライトを放つ
+			[c/6FE4A5:Graveyard Without The G] by BananaLizard
+			'''
+		DisplayName: オルゴール (レイブヤード)
+	}
+
+	PandoraEventBox: {
+		Tooltip: "[c/33C0A4:You Should Know Better] by BananaLizard"
+		DisplayName: オルゴール (パンドラの箱)
+	}
+
+	OrroboroBox: {
+		Tooltip: "[c/A17CFF:The All Is One] by BananaLizard"
+		DisplayName: オルゴール (オーロ＆ボロ)
+	}
+
+	NoseTempleBox: {
+		Tooltip: "[c/EF5145:Grand Sinus Corridors] by BananaLizard"
+		DisplayName: オルゴール (モコの神殿)
+	}
+
+	MocoBox: {
+		Tooltip: "[c/4DDE17:And Yet The Snot-Nosed Bug Remains] by BananaLizard"
+		DisplayName: オルゴール (モコ)
+	}
+
+	EggEventBox: {
+		Tooltip: "[c/FF1515:The Evolution Of Evil] by Rockwizard5"
+		DisplayName: オルゴール (エッグ襲来)
+	}
+
+	DaffodilBox: {
+		Tooltip: "[c/A7CF17:To A Floral Demise] by BananaLizard"
+		DisplayName: オルゴール (ダフォディル)
+	}
+
+	CemeteryBox: {
+		Tooltip: "[c/6E9E3B:A Boneyard Too Far] by BananaLizard"
+		DisplayName: オルゴール (沼墓地)
+	}
+
+	CatacombBox2: {
+		Tooltip: "[c/B35A27:Deep Dive To The Catacombs] by BananaLizard"
+		DisplayName: オルゴール (深層カタコンベ)
+	}
+
+	CatacombBox: {
+		Tooltip: "[c/4A86AE:Tomb Crawlin'] by BananaLizard"
+		DisplayName: オルゴール (アッパーカタコンベ)
+	}
+
+	BigBoneBox: {
+		Tooltip: "[c/D7D000:Doom Abloom] by BananaLizard"
+		DisplayName: オルゴール (ビッグボーン)
+	}
+
+	CemeteryStoneItem: {
+		Tooltip: ""
+		DisplayName: スワンプ ロック
+	}
+
+	CemeteryGrassSeeds: {
+		Tooltip: 沼の土に草を植える
+		DisplayName: 沼の草の種
+	}
+
+	CemeteryDirtItem: {
+		Tooltip: ""
+		DisplayName: 沼の土
+	}
+
+	CemeteryBiomeChestItem: {
+		Tooltip: ""
+		DisplayName: 沼墓地の宝箱
+	}
+
+	GildedBrickItem: {
+		Tooltip: ""
+		DisplayName: ギルデッドレンガ
+	}
+
+	CatacombGrassSeeds: {
+		Tooltip: 灰色と茶色のカタコンベレンガに苔を植える
+		DisplayName: カタコンベモスの種
+	}
+
+	CatacombFlooringItem: {
+		Tooltip: ""
+		DisplayName: カタコンベフロアのレンガ
+	}
+
+	CatacombBrickWall2Item: {
+		Tooltip: ""
+		DisplayName: カタコンベレンガの壁（茶）
+	}
+
+	CatacombBrickWall1Item: {
+		Tooltip: ""
+		DisplayName: カタコンベレンガの壁（灰）
+	}
+
+	CatacombBrick2Item: {
+		Tooltip: ""
+		DisplayName: カタコンベレンガ（茶）
+	}
+
+	CatacombBrick1Item: {
+		Tooltip: ""
+		DisplayName: カタコンベレンガ（灰）
+	}
+
+	PottedPlant4Item: {
+		Tooltip: ""
+		DisplayName: 植物ドクロの鉢植え
+	}
+
+	PottedPlant3Item: {
+		Tooltip: ""
+		DisplayName: めだまフラワーの鉢植え
+	}
+
+	PottedPlant2Item: {
+		Tooltip: ""
+		DisplayName: ペタルプラントの鉢植え
+	}
+
+	PottedPlant1Item: {
+		Tooltip: ""
+		DisplayName: マウスフラワーの鉢植え
+	}
+
+	MoyaiItem: {
+		Tooltip: ""
+		DisplayName: ゴールデンモアイ
+	}
+
+	GoldStatue4Item: {
+		Tooltip: ""
+		DisplayName: ギルデッドソウルの石像
+	}
+
+	GoldStatue3Item: {
+		Tooltip: ""
+		DisplayName: ギルデッドスカルの石像
+	}
+
+	GoldStatue2Item: {
+		Tooltip: ""
+		DisplayName: ギルデッドマウスの石像
+	}
+
+	GoldStatue1Item: {
+		Tooltip: ""
+		DisplayName: ギルデッドイービルフェイスの石像
+	}
+
+	GoldenPotItem: {
+		Tooltip: ""
+		DisplayName: アバリスのポット
+	}
+
+	GiantCoffinItem: {
+		Tooltip: ""
+		DisplayName: 古びれた木のカスケット
+	}
+
+	CatacombCrate2: {
+		Tooltip: <right>で開く
+		DisplayName: スカルクレート
+	}
+
+	CatacombCrate: {
+		Tooltip: <right>で開く
+		DisplayName: 骨のクレート
+	}
+
+	CatacombBrickPlatform2Item: {
+		Tooltip: ""
+		DisplayName: カタコンベレンガの足場（茶）
+	
+	}
+
+	CatacombBrickPlatform1Item: {
+		Tooltip: ""
+		DisplayName: カタコンベレンガの足場（灰）
+	
+	}
+
+	WinterSeed: {
+		Tooltip:
+			'''
+			さまざまなベリーの花を育てる植物を配置する
+			平らなブルームの土壌が必要
+			'''
+		DisplayName: スノー ベリー シュラブ
+	}
+
+	SummerSeed: {
+		Tooltip:
+			'''
+			さまざまなトロピカルな花を育てる植物を配置する
+			平らなブルームの土壌が必要
+			'''
+		DisplayName: ソーラーサンフラワーの種
+	}
+
+	SpringSeed: {
+		Tooltip:
+			'''
+			さまざまな花を育てる植物を配置する
+			平らなブルームの土壌が必要
+			'''
+		DisplayName: パフオブポーレン
+	}
+
+	FallSeed: {
+		Tooltip:
+			'''
+			さまざまなゴードの花を育てる植物を配置する
+			平らなブルームの土壌が必要
+			'''
+		DisplayName: パンプキンガッツ
+	}
+
+	DragonfruitSeed: {
+		Tooltip:
+			'''
+			奇妙な花を育てる侵略的な植物を配置する
+			平らなブルームの土壌が必要
+			成長するにつれて近くの他の植えた花を自身に変換する
+			'''
+		DisplayName: ディーバスプラウト
+	}
+
+	DandelionSeed: {
+		Tooltip:
+			'''
+			さまざまなタンポポの種の花を育てる植物を配置する
+			平らなブルームの土壌が必要
+			'''
+		DisplayName: タンポポの種
+	}
+
+	BloomSoilItem: {
+		Tooltip: 花を植え、育てられる
+		DisplayName: ブルームの土壌
+	}
+
+	VinylSneaky: {
+		Tooltip: ""
+		DisplayName: ビニールディスク (スニーキー)
+	}
+
+	VinylSleepy: {
+		Tooltip: ""
+		DisplayName: ビニールディスク (スリーピー)
+	}
+
+	VinylMysterious: {
+		Tooltip: ""
+		DisplayName: ビニールディスク (ミステリアス)
+	}
+
+	VinylLazy: {
+		Tooltip: ""
+		DisplayName: ビニールディスク (レイジー)
+	}
+
+	VinylAlley: {
+		Tooltip: ""
+		DisplayName: ビニールディスク (アリー)
+	}
+
+	RaveyardDisc2: {
+		Tooltip: "[c/6FE4A5:Graveyard Without The G (Legacy Version)] by BananaLizard & Lurak"
+		DisplayName: レイブヤード ビニール
+	}
+
+	RaveyardDisc1: {
+		Tooltip: "[c/6FE4A5:Deathrattlin' Raving (Legacy Version)] by Luxcapacitor"
+		DisplayName: レイブヤード ビニール
+	}
+
+	TortumorYoyo: {
+		Tooltip: 使用中に周囲にダメージを与える塊を生成する
+		DisplayName: トゥーマー スロー
+	}
+
+	TortumorStaff: {
+		Tooltip: 敵に血の塊を撃つ友好的なトゥーマーを召喚する
+		DisplayName: ゴアの杖
+	}
+
+	SnotWings: {
+		Tooltip:
+			'''
+			空を飛べ、落下速度を調整できる
+			「気持ち悪い...」
+			'''
+		DisplayName: 鼻水バグの翼
+	}
+
+	SnotRocket: {
+		Tooltip:
+			'''
+			移動するにつれて急速に加速する
+			敵に直接命中すると残留する鼻水に爆発する
+			'''
+		DisplayName: 鼻水ロケット
+	}
+
+	SnotMedication: {
+		Tooltip:
+			'''
+			オーズドデバフへの免疫
+			オーズドデバフを受けると正のバフに変化する
+			'''
+		DisplayName: アレルギー薬
+	}
+
+	SnotBullet: {
+		Tooltip: 命中時に近くの別の敵に跳ね返る
+		DisplayName: ムカスブレット
+	}
+
+	SnotArrow: {
+		Tooltip: 地表や敵に跳ね返る
+		DisplayName: ブーガーアロー
+	}
+
+	Sneezer: {
+		Tooltip:
+			'''
+			一定間隔でブーガーを放つ
+			10発ごとに大きく高速なブーガーを放つ
+			「ブーガーブラスターの弟」
+			'''
+		DisplayName: スニーザー
+	}
+
+	NerveWhip: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			命中した敵が多いほどダメージが増加し、5体で上限に達する
+			'''
+		DisplayName: エクスポーズドナーブ
+	}
+
+	MonsterBloodVial: {
+		Tooltip:
+			'''
+			動かないときにライフ自然回復を増進
+			移動中はクリティカル率が5%増加する
+			'''
+		DisplayName: モンスターの血液
+	}
+
+	LivingFleshWhip: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			命中するとまれに敵の防御力を短時間半減させる
+			'''
+		DisplayName: リビング めだまラッシャー
+	}
+
+	LivingFleshStaff: {
+		Tooltip:
+			'''
+			左クリックを押している間、カーソルを追う目を召喚する
+			左クリックを離すと目を放ち、標準ダメージの2倍を与える
+			最大数の目が活動している状態で左クリックを離すと爆発し、大ダメージを与える
+			一度に最大8つの目までしか召喚できない
+			'''
+		DisplayName: リビング レティナの杖
+	}
+
+	LivingFleshBow: {
+		Tooltip:
+			'''
+			矢を血の塊に変換する
+			20発ごとに敵をホーミングするめだまを放つ
+			'''
+		DisplayName: リビングシーア
+	}
+
+	LivingFleshAxe: {
+		Tooltip:
+			'''
+			ライフが半分以下の敵に対してのダメージが上昇
+			敵を攻撃すると多数の目を上空に飛ばす
+			'''
+		DisplayName: リビングフレッシュ ミンサー
+	}
+
+	FleshWhip: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵に命中するとまれに短時間防御力を減少させる
+			'''
+		DisplayName: めだまラッシャー
+	}
+
+	FleshStaff: {
+		Tooltip:
+			'''
+			左クリックを押している間、一定間隔でカーソルに追随するめだまを放つ
+			左クリックを離すとめだまを放ち、標準ダメージの2倍を与える
+			一度に最大5つまでめだまを放てる
+			'''
+		DisplayName: レティナの杖
+	}
+
+	FleshBow: {
+		Tooltip:
+			'''
+			矢を血の塊に変換する
+			10発ごとに敵をホーミングする目を放つ
+			'''
+		DisplayName: シーア
+	}
+
+	FleshAxe: {
+		Tooltip: ライフの低い敵に高ダメージを与える
+		DisplayName: フレッシュミンサー
+	}
+
+	BrainJar: {
+		Tooltip:
+			'''
+			プレイヤーの周りを浮遊する脳みそブレイニーを召喚する
+			毎分、彼が痙攣し、既存のすべてのミニオンを爆発させる
+			各爆発のダメージは各ミニオンの攻撃力に比例するに増幅する
+			脳みそブレイニーはミニオンスロットを消費しない
+			'''
+		DisplayName: 瓶入りの脳
+	}
+
+	Scycler: {
+		Tooltip: カーソルを追うディスクを投げ、プレイヤーに戻ってくる
+		DisplayName: サイクラー
+	}
+
+	MouthFlamethrower: {
+		Tooltip: 毒性のガスブレスを噴き出す
+		DisplayName: ベノム スプレーヤー
+	}
+
+	LeechWhip: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			敵に命中した際まれに肉片を剥ぎ取る
+			これらの肉片を拾うと少量のライフを回復する
+			'''
+		DisplayName: リーチャー
+	}
+
+	LeechStaff: {
+		Tooltip:
+			'''
+			素早く敵にダメージを与える弱いが敏捷なヒルを召喚する
+			ヒルはミニオンスロットの半分しか消費しない
+			'''
+		DisplayName: スウォーム セプター
+	}
+
+	EyeRocketLauncher: {
+		Tooltip: 押している間、敵をホーミングし爆発するめだまミサイルを撃つ
+		DisplayName: I.C.U
+	}
+
+	EyeFlail: {
+		Tooltip: 2つの長距離のめだまフレイルを振り回す
+		DisplayName: めだまチェインド
+	}
+
+	BoogerStaff: {
+		Tooltip: 敵めがけて上空より鼻水を放つ空飛ぶ鼻を召喚する
+		DisplayName: スニーズセプター
+	}
+
+	BoogerFlail: {
+		Tooltip: 発射時にブーガーが鎖から離れ、周囲に跳ねる
+		DisplayName: 鼻水ボール
+	}
+
+	BoogerBook: {
+		Tooltip: クリック中マウスに追随し、下方向に鼻水を降らせる鼻を発射する
+		DisplayName: 鼻水だらけな古書
+	}
+
+	BoogerBlaster: {
+		Tooltip:
+			'''
+			チャージして敵を遅くする厄介なブーガーを撃つ
+			チャージ時間が長いほど、ブーガーは強力で速くなる
+			最大3回までチャージ可能
+			'''
+		DisplayName: ブーガーブラスター
+	}
+
+	SentientHeart: {
+		Tooltip:
+			'''
+			強いモンスターから引き裂かれた奇妙な心臓
+			特定の武器に意識的な力を引き出させる
+			'''
+		DisplayName: センシエントハート
+	}
+
+	SentientVenusMagnum: {
+		Tooltip:
+			'''
+			唾液と貫通する歯を非常にゆっくり撃つが、続けて使用するにつれ早くなる
+			最大射撃速度の際に離すと爆発する唾液の塊を撃つ
+			「力が溢れてる！」
+			'''
+		DisplayName: 粘液の大砲
+	}
+
+	SentientToxikarp: {
+		Tooltip:
+			'''
+			地表に跳ね返る毒性の泡を発射する
+			まれに、異なる効果を持つ特別な色の泡を発射する
+			「めだま渓谷からのキラーフィッシュ！」
+			'''
+		DisplayName: バブル ベルチャー
+	}
+
+	SentientSphereStaff: {
+		Tooltip:
+			'''
+			敵を攻撃する翼付きのバイオマス塊を召喚する
+			単一の敵を長時間攻撃すると、バイオマスが標的を追いかけて爆発する
+			「おそらく健康の象徴ではない」
+			'''
+		DisplayName: リビング カドゥケウス
+	}
+
+	SentientSkullBook: {
+		Tooltip:
+			'''
+			敵に噛みつく速い魔法の頭蓋骨を放つ
+			「ノムノムノム！」
+			'''
+		DisplayName: ネクロノミコン
+	}
+
+	SentientShootius: {
+		Tooltip:
+			'''
+			敵にビームを撃つ生きためだま触手の哨兵を召喚する
+			「何でも見つめることができる」
+			'''
+		DisplayName: センシエントシューティウス
+	}
+
+	SentientRavenStaff: {
+		Tooltip:
+			'''
+			共に戦う傭兵ビリー-ボーを召喚する
+			1体までしか召喚できず、召喚には3つのミニオンスロットが必要
+			「その心臓はゆっくりと鼓動している」
+			'''
+		DisplayName: 鳥類の核
+	}
+
+	SentientPaladinsHammer: {
+		Tooltip:
+			'''
+			近くの敵を追う二面のハンマーを投げる
+			標的の敵に到達すると3回叩いてから戻ってくる
+			「彼らはしゃべり続けている」
+			'''
+		DisplayName: デイブ＆マイク
+	}
+
+	SentientMineLauncher: {
+		Tooltip:
+			'''
+			地面に残り接触で爆発する地雷を大量に放つ
+			地面に設置された状態で爆発すると大幅に高いダメージを与える
+			「まつ毛に大きな誇りを持っている」
+			'''
+		DisplayName: めだまベルチャー
+	}
+
+	SentientMagnetSphere: {
+		Tooltip:
+			'''
+			近くの敵を血の雷で攻撃する操作可能な心臓を召喚する
+			召喚時間が長いほど心臓は大きくなり、より強力になる
+			「注意：噛みついてくる可能性あり」
+			'''
+		DisplayName: ネクロノミコン第2巻
+	}
+
+	SentientLifeDrain: {
+		Tooltip:
+			'''
+			カーソル近くの敵から魂を吸い取り、ライフやマナを回復できる
+			20の魂を吸収すると杖から強力なオーラを放つ
+			「悪意を持ってプレイヤーを見つめてくる」
+			'''
+		DisplayName: ソウルサッカー
+	}
+
+	SentientLeatherWhip: {
+		Tooltip:
+			'''
+			攻撃を当てた敵にミニオンが集中攻撃する
+			長押しすることで鞭をチャージすると射程とダメージが増加
+			「命中したもののすべて味わう」
+			'''
+		DisplayName: リッカー
+	}
+
+	SentientLeafBlower: {
+		Tooltip:
+			'''
+			さまざまな有機物の塊を急速に吐き出し、それぞれ異なる効果を持つ
+			「心臓に良い！」
+			'''
+		DisplayName: キャリオンチャンカー
+	}
+
+	SentientKeybrand: {
+		Tooltip:
+			'''
+			2振りは剣として使用し、3回目はモーラーをブーメランとして投げる
+			敵に命中すると永続的に防御力を1減少させ、最大で15まで蓄積する
+			ライフ半分以下の敵に高いダメージを与える
+			「定期的に歯医者に連れて行くべき」
+			'''
+		DisplayName: モーラーモーラー
+	}
+
+	SentientKatana: {
+		Tooltip:
+			'''
+			敵に命中するとカーソルに斬撃を生み出す
+			「これがなんでむち打ちにならないかが不思議だ」
+			'''
+		DisplayName: コンシャスカッター
+	}
+
+	SentientImpStaff: {
+		Tooltip:
+			'''
+			共に戦うガーゴイルのグルグを召喚する
+			1体までしか召喚できず、召喚には2つのミニオンスロットが必要
+			「実はガーゴイルで、グラゴイルではない」
+			'''
+		DisplayName: ガーゴイル セプター
+	}
+
+	SentientGatligator: {
+		Tooltip:
+			'''
+			弾丸を非常に乱暴かつ不正確に連射する
+			まれに、敵に命中すると爆発する肉の塊を発射する
+			33%の確率で弾薬を消費しない
+			「半分アリゲーター、半分銃のこいつは、明らかに自我がありそうだ」
+			'''
+		DisplayName: ゲーターガン
+	}
+
+	SentientClingerStaff: {
+		Tooltip:
+			'''
+			地面に短時間呪いの炎柱を召喚し、敵に急速にダメージを与える
+			「その炎から面白い音がするよ」
+			'''
+		DisplayName: ムーチャーの杖
+	}
+
+	SentientChumCaster: {
+		Tooltip:
+			'''
+			2つの浮きで同時に釣りをする
+			血の湖から危険なモンスターを釣り上げることができる
+			「プレイヤーに唸っていやがる」
+			'''
+		DisplayName: ゴブリンシャークの杖
+	}
+
+	SentientChik: {
+		Tooltip:
+			'''
+			使用中クリスタルの涙を発射する
+			「実際に悲しいもので無いことを祈ります」
+			'''
+		DisplayName: ペンデロック
+	}
+
+	SentientCap: {
+		Tooltip:
+			'''
+			装着中プレイヤーに話しかけ、ひどい音を出す
+			「カッコつけてないといいね」
+			'''
+		DisplayName: キャプスワース
+	}
+
+	SentientBloodRainBow: {
+		Tooltip:
+			'''
+			上空に飛び上がった後、カーソルめがけて移動する歯を放つ
+			「ひどく脳にダメージを受けているように見える」
+			'''
+		DisplayName: アンキャナイン
+	}
+
+	SentientBladeTongue: {
+		Tooltip:
+			'''
+			舌で敵を攻撃するとまれに『混乱』デバフを付与
+			右クリックで霊液の雲を放つ
+			「舌が先か、クリーチャーが先か?」
+			'''
+		DisplayName: タンブレード
+	}
+
+	SpookyHellSolution: {
+		Tooltip:
+			'''
+			環境変更銃の弾
+			地下世界の土地をにめだま渓谷にする
+			'''
+		DisplayName: 環境変更液（赤と紫）
+	}
+
+	SpookyHellKey: {
+		Tooltip:
+			'''
+			ダンジョンのめだま渓谷の宝箱を解錠する
+			プランテラ撃破後まで使用できない
+			'''
+		DisplayName: めだま渓谷の鍵
+	}
+
+	SnotGlob: {
+		Tooltip: ""
+		DisplayName: 鼻水の塊
+	}
+
+	NoseTempleResetter: {
+		Tooltip:
+			'''
+			使用すると鼻の神殿内の時間を巻き戻し、すべての戦闘状況をリセットする
+			鼻の神殿内にプレイヤーがいる間は使用できない
+			'''
+		DisplayName: 巻き戻しノーズアイドル
+	}
+
+	LeechWhipGore: {
+		Tooltip: ""
+		DisplayName: ゴアフード
+	}
+
+	EyeValleyCompass: {
+		Tooltip: ホットバーに持つ地下世界の奇妙なバイオームの方向を指す
+		DisplayName: フレッシーコンパス
+	}
+
+	CreepyChunk: {
+		Tooltip: 「ほぼ食べられそう！」
+		DisplayName: モンスター ミート
+	}
+
+	ArteryPiece: {
+		Tooltip: 奇妙な血で満たされている
+		DisplayName: リビング アーテリー
+	}
+
+	TotalOrganPackage: {
+		Tooltip:
+			'''
+			すべての臓器アクセサリーの能力を付与する
+			近くの敵に命中するとまれにライフを奪う血管が付着し、ダメージをプレイヤーを回復する
+			敵に命中するとまれに追加ダメージを与えるグージョーズが付着する
+			敵に命中するとまれに胃痛を与え、死ぬとピンクの泡が爆発する
+			アイテムを使用していない間に腎臓石がチャージされ、フルチャージで攻撃すると石を放つ
+			アクセサリーホットキーを押すと残留する煙の雲を咳き出す
+			煙に巻かれた敵は短時間ランダムに煙の雲を咳き出す
+			攻撃中にダメージを与える音波を放つ耳の仲間を召喚する
+			'''
+		DisplayName: トータルオーガンパッケージ
+	}
+
+	VeinChain: {
+		Tooltip:
+			'''
+			近くの敵に命中するとまれにライフを奪う血管が付着する
+			プレイヤーがその敵に十分近い限り、鎖は敵に付着したままになる
+			異なる敵に最大3本の鎖を付けられ、プレイヤーのライフが低いとその本数が減る
+			'''
+		DisplayName: ツーウェイ ブラッドウェイ
+	}
+
+	StonedKidney: {
+		Tooltip:
+			'''
+			武器を使用していない間に結石の腎臓がチャージされる
+			フルチャージで攻撃すると高ダメージの腎臓石の拡散を放つ
+			'''
+		DisplayName: 結石の腎臓
+	}
+
+	SmokerLung: {
+		Tooltip:
+			'''
+			アクセサリーホットキーを押すと残留する煙の雲を放つ
+			煙に巻かれた敵はまれに短時間ランダムな煙の雲を放つ
+			1分間は別の煙の雲を作れない
+			'''
+		DisplayName: 喫煙者の肺
+	}
+
+	PeptoStomach: {
+		Tooltip:
+			'''
+			敵に命中するとまれに『胃痛』デバフを付与し、弱体化させる
+			このデバフを持つ敵は死ぬとダメージを与えるピンクの泡に爆発する
+			これらのピンクの泡はまれに敵に『胃痛』デバフを付与
+			'''
+		DisplayName: ペプトビスマル
+	}
+
+	GooChompers: {
+		Tooltip:
+			'''
+			敵に命中するとまれに追加ダメージを与える『グージョーズ』デバフを付与
+			与えるダメージはその命中のダメージ量に比例する
+			'''
+		DisplayName: コローディングチョンパーズ
+	}
+
+	GiantEar: {
+		Tooltip:
+			'''
+			攻撃中にダメージを与える音波を放つ耳の仲間を召喚する
+			爆発のダメージと頻度は現在使用している武器に比例する
+			'''
+		DisplayName: 共生し耳
+	}
+
+	Biojets: {
+		Tooltip:
+			'''
+			空を飛べ、落下速度を調整できる
+			下キーを押すことでホバリングする
+			「また快な汚れを生み出すかもしれない」
+			'''
+		DisplayName: バイオ-スラスターズ
+	}
+
+	GoreLegs: {
+		Tooltip:
+			'''
+			移動速度が20%増加する
+			クリティカル率が5%増加する
+			敵に狙われやすくなる
+			'''
+		DisplayName: ゴアのローブ
+	}
+
+    GoreHoodMouth: {
+        Tooltip:
+            '''
+            近接および遠距離ダメージが20%増加
+            近接速度が12%増加 
+            10%の確率での確率で弾薬を消費しない
+        	敵に狙われやすくなる
+            '''
+        DisplayName: ゴアのフード
+    }
+
+    GoreHoodEye: {
+        Tooltip:
+            '''
+            魔法および召喚ダメージが20%増加
+            マナ使用量が10%減少 
+            召喚できるミニオンの数が2体増える
+       		敵に狙われやすくなる
+            '''
+        DisplayName: ゴアのマスク
+    }
+
+    GoreBody: {
+        Tooltip:
+            '''
+            ダメージが10%増加
+            クリティカル率が12%増加
+        	敵に狙われやすくなる
+            '''
+        DisplayName: ゴアのチェストプレート
+    }
+
+    EyeLegs: {
+        Tooltip:
+            '''
+            召喚ダメージが6%増加 
+            移動速度が12%増加
+            '''
+        DisplayName: リビングフレッシュのすね当て
+    }
+
+    EyeHead: {
+        Tooltip: 召喚ダメージが8%増加
+        DisplayName: リビングフレッシュのマスク
+    }
+
+    EyeBody: {
+        Tooltip: 召喚できるミニオンの数とセントリーの数が1体増える
+        DisplayName: リビングフレッシュのチェストメイル
+    }
+
+    WarlockRobe: {
+        Tooltip:
+            '''
+            召喚できるミニオンの数が1体増える
+            移動速度が5%増加
+            '''
+        DisplayName: ウォーロックのクローク
+    }
+
+    ToiletPaper: {
+        Tooltip:
+            '''
+            トイレットペーパーのロールを投げる
+            「ハロウィンのいたずらにもってこい」
+            '''
+        DisplayName: トイレットペーパー
+    }
+
+    SkullWispStaff: {
+        Tooltip:
+            '''
+            一緒に戦うスカルウィスプを召喚する
+            「本当に腕まで取る必要あります?」
+            '''
+        DisplayName: ゾンボイド ウォーロックのスカル
+    }
+
+    ShroomWhip: {
+        Tooltip:
+            '''
+            ミニオンが絡まった敵に集中攻撃する
+            敵を攻撃するとまれに残留する胞子を作る
+            '''
+        DisplayName: スポアスマッカー
+    }
+
+    ShroomFlail: {
+        Tooltip: ""
+        DisplayName: ファンガル フレイル
+    }
+
+    OldWoodSword: {
+        Tooltip: ""
+        DisplayName: 古びれた木の剣
+    }
+
+    OldWoodStaff: {
+        Tooltip: マジックシャドーオーブを放つ
+        DisplayName: 古びれた木の杖
+    }
+
+    OldWoodSlingshot: {
+        Tooltip:
+            '''
+            長押しすることでパチンコを引いて、離して弾を飛ばす
+            モッシー ペブルを弾薬として使用
+            '''
+        DisplayName: 古びれた木のパチンコ
+    }
+
+    OldWoodHammer: {
+        Tooltip: ""
+        DisplayName: 古びれた木のハンマー
+    }
+
+    OldWoodGreatsword: {
+        Tooltip: 「剣というより棍棒に近いよこれ」
+        DisplayName: 古びれた木の大剣
+    }
+
+    OldWoodBow: {
+        Tooltip: ""
+        DisplayName: 古びれた木の弓
+    }
+
+    OldWoodArrow: {
+        Tooltip: 命中時まれに敵に刺さる
+        DisplayName: 古びれた木の矢
+    }
+
+    OldMossBow: {
+        Tooltip: 古びれた木の矢と一緒に使うとさらにダメージが増加
+        DisplayName: 古びれたモスボウ
+    }
+
+    NecromancyTome: {
+        Tooltip:
+            '''
+            あちこちに跳ねるさまざまなゾンビのパーツを召喚する
+            「完全なゾンビを召喚するにはまだ力が足りない」
+            '''
+        DisplayName: 初心者向け死霊魔法
+    }
+
+    MossyPebble: {
+        Tooltip: パチンコ等の弾薬として使用
+        DisplayName: モッシー ペブル
+    }
+
+    LeafBlower: {
+        Tooltip:
+            '''
+            異なる色の秋の葉を急速に放つ
+            「葉っぱ吹き機のようだ、もっと葉っぱを増やすんだ！」
+            '''
+        DisplayName: ポンプ式葉吹き機
+    }
+
+    GourdStaff: {
+        Tooltip: 敵に叩きつけるゴードグーバーを召喚する
+        DisplayName: ゴードの枝
+    }
+
+    GourdSlingshot: {
+        Tooltip:
+            '''
+            長押しすることでパチンコを引いて、離して弾を飛ばす
+            モッシー ペブルをカビたペレットに変換し、衝撃時にハエを作る
+            '''
+        DisplayName: スティンキー スリンガー
+    }
+
+    GourdFlail: {
+        Tooltip:
+            '''
+            振ると一定間隔でプレイヤーの周りにハエを出現させる
+            フレイルを離すとハエを飛ばす
+            '''
+        DisplayName: ロッティの怒り
+    }
+
+    GourdBook: {
+        Tooltip: 敵を臭くする臭い爆風を放つ
+        DisplayName: ジェリーの臭科学書
+    }
+
+    ElGourdo: {
+        Tooltip:
+            '''
+            ゆっくり動くゴード爆弾を投げ、少し経つと空中で停止する
+            数秒後、爆弾が爆発し、残留するギリシャ火を放つ
+            爆弾は敵に当たると自動的に爆発する
+            '''
+        DisplayName: エル ゴード
+    }
+
+    CreepyCandle: {
+        Tooltip: 魔法の射撃物がまれに敵に火をつける
+        DisplayName: クリーピーの蝋燭
+    }
+
+    CandyBag: {
+        Tooltip:
+            '''
+			プレイヤーを追う魔法のキャンディ袋を召喚する
+            召喚武器で敵を攻撃すると袋からホーミングキャンディを召喚する
+            '''
+        DisplayName: バッグ オ トリーツ
+    }
+
+    BustlingGlowshroom: {
+        Tooltip: じっとしているとライフ自然回復が増進に増進
+        DisplayName: バストリング グロウシュルーム
+    }
+
+    TinyMushroomItem: {
+        Tooltip: ""
+        DisplayName: タイニー マッシュルーム
+    }
+
+    TinyGhostItem: {
+        Tooltip: ""
+        DisplayName: タイニー ゴースト
+    }
+
+    SpookySolution: {
+        Tooltip:
+            '''
+            環境変更銃の弾
+            土地を奇妙な森にする
+            '''
+        DisplayName: 環境変更液（オレンジ）
+    }
+
+    SpookyGlowshroom: {
+        Tooltip: 「神秘的なエネルギーに満ちている」
+        DisplayName: 奇妙な光るキノコ
+    }
+
+    SpookyBiomeKey: {
+        Tooltip:
+            '''
+            ダンジョン内の奇妙な宝箱を解錠する
+            プランテラ撃破後まで使用できない
+            '''
+        DisplayName: 奇妙な森の鍵
+    }
+
+    ShroomHopperItem: {
+        Tooltip: ""
+        DisplayName: シュルーム ホッパー
+    }
+
+    RottenChunk: {
+        Tooltip: 「酷い臭いだ」
+        DisplayName: モルディ チャンク
+    }
+
+    PumpkinCarvingKit: {
+        Tooltip:
+            '''
+            これを持って奇妙な森のひょうたんを右クリックすると顔みたいに彫れる
+            彫ったひょうたんは使い古された蝋燭を入れて点灯させることもできる
+            '''
+        DisplayName: ひょうたん彫りキット
+    }
+
+    LittleSpiderItem: {
+        Tooltip: ""
+        DisplayName: 小さなクモ
+    }
+
+    LittleBonePot: {
+        Tooltip:
+            '''
+            スモールボーンが所有する魔法の植木鉢
+            使用するとスモールボーンをプレイヤーの場所に召喚する
+            '''
+        DisplayName: スモールボーンの植木鉢
+    }
+
+    FlySmallItem: {
+        Tooltip: ""
+        DisplayName: ハエ
+    }
+
+    FlyBigItem: {
+        Tooltip: ""
+        DisplayName: 大きなハエ
+    }
+
+    WizardGangsterLegs: {
+        Tooltip: 最大マナを20増加
+        DisplayName: ギルデッドメイジ ローブ
+    }
+
+    WizardGangsterHead2: {
+        Tooltip: 魔法ダメージが5%増加
+        DisplayName: ギルデッドマジシャン ハット
+    }
+
+    WizardGangsterHead: {
+        Tooltip: 魔法クリティカル率が5%増加
+        DisplayName: ギルデッドウィザード ハット
+    }
+
+    WizardGangsterBody: {
+        Tooltip: 魔法ダメージが10%増加
+        DisplayName: ギルデッドメイジ チュニック
+    }
+
+    OldWoodLegs: {
+        Tooltip: ""
+        DisplayName: 古びれた木グリーブス
+    }
+
+    OldWoodHead: {
+        Tooltip: ""
+        DisplayName: 古びれた木のマスク
+    }
+
+    OldWoodBody: {
+        Tooltip: ""
+        DisplayName: 古びれた木の胸当て
+    }
+
+    GourdLegs: {
+        Tooltip: 近接速度が5%増加
+        DisplayName: カビたひょうたんのすね当て
+    }
+
+    GourdHead: {
+        Tooltip: 近接クリティカル率が5%増加
+        DisplayName: カビたひょうたんのヘッド
+    }
+
+    GourdBody: {
+        Tooltip: 近接ダメージが5%増加
+        DisplayName: カビたひょうたんの胸当て
+    }
+
+    VenomHarpoon: {
+        Tooltip:
+            '''
+            毒のハープーンを発射し、敵に引っ掛けてプレイヤーの方へ引き寄せられる
+            敵がプレイヤーに引き寄せられると、スパイダープーンが毒の唾を吐く
+            '''
+        DisplayName: ヴェノマス スパイダープーン
+    }
+
+    TatantulaFlyTome: {
+        Tooltip:
+            '''
+            長押しすることで、カーソルを追うハエを一定間隔で召喚する
+            カーソルの周りに10匹のハエがいる状態で離すと、敵をホーミングする
+            '''
+        DisplayName: ハエのグリモア
+    }
+
+    TarantulaHawkBow: {
+        Tooltip:
+            '''
+            敵をわずかに追跡する翼付きの矢を撃つ
+            使用時間が長いほど射撃速度が速くなる
+            '''
+        DisplayName: スパイダー ウィング ロングボウ
+    }
+
+    SpiderSword: {
+        Tooltip: まれに敵に毒を付与する
+        DisplayName: スパイダー スタッバー
+    }
+
+    SpiderSummonEgg: {
+        Tooltip:
+            '''
+            ベビースパイダーのミニオンが孵化する卵を投げる
+            各ベビースパイダーはミニオンスロットの半分しか消費しない
+            '''
+        DisplayName: 不気味なスパイダーエッグ
+    }
+
+    SpiderSlingshot: {
+        Tooltip:
+            '''
+            長押しすることでパチンコを引いて、離して弾を飛ばす
+            モッシー ペブルを敵を遅くするウェブボールに変換する
+            '''
+        DisplayName: ウェブ フリンガー
+    }
+
+    SpiderLegStaff: {
+        Tooltip: 敵に埋め込まれる巨大なクモの脚を放つ
+        DisplayName: クモ脚の杖
+    }
+
+    SpiderEggCannon: {
+        Tooltip:
+            '''
+            布のようなクモの卵を撃ち出す
+            5発ごとに大きな卵を発射し、アタックスパイダーを召喚する
+            '''
+        DisplayName: スパイダー エッグ キャノン
+    }
+
+    SpiderCrossbow: {
+        Tooltip: 矢を貫通する毒矢に変換する
+        DisplayName: ヴェノマス クロスボウ
+    }
+
+    SphiderFlail: {
+        Tooltip: 振っている間糸の塊を発射する
+        DisplayName: 揺れるクモ
+    }
+
+    PheromoneWhip: {
+        Tooltip:
+            '''
+            攻撃を当てた敵にミニオンが集中攻撃する
+            敵を攻撃すると『フェロモン』デバフを付与する
+            『フェロモン』デバフを付与された敵はすべてのクモ関連ミニオンからより多くのダメージを受ける
+            '''
+        DisplayName: フェロモン スティンガー
+    }
+
+    OrbWeaverStaff: {
+        Tooltip: 周囲にスパイクを撃つオーブウィーバー セントリーを召喚する
+        DisplayName: ウィーバーの杖
+    }
+
+    OrbWeaverShield: {
+        Tooltip:
+            '''
+            移動速度が速いほどダメージが増加するスパイク付きシールドを構える
+            3秒間構えているとシールドのスパイクがチャージされる
+            チャージ時に離すとシールドのスパイクを放つ
+            '''
+        DisplayName: トゲ殻クラッシャー
+    }
+
+    OrbWeaverGiantStaff: {
+        Tooltip:
+            '''
+            周囲すべてにスパイクを撃つ大きなオーブウィーバーセントリーを召喚する
+            オーブウィーバーはまれに標的に向かってジャンプする
+            '''
+        DisplayName: ウィーバーの杖
+    }
+
+    OrbWeaverBoomerang: {
+        Tooltip:
+            '''
+            地表で跳ね返る戻ってくるオーブウィーバーのスパイクを投げる
+            ブーメランは地表で跳ねるたびに長く飛び出す
+            '''
+        DisplayName: ウィーバーラング
+    }
+
+    RustedBullet: {
+        Tooltip: 衝撃時に破片に分裂する
+        DisplayName: 錆びた弾丸
+    }
+
+    LegalShotgun: {
+        Tooltip:
+            '''
+            かなり反動を受けるが、強力な拡散弾を撃つ
+            「おそらく違法だ…」
+            '''
+        DisplayName: 完全合法の散弾銃
+    }
+
+    HunterScarf: {
+        Tooltip:
+            '''
+            近くの敵がマークされる
+            マークされた敵はプレイヤーの遠距離武器からより多くのダメージを受ける
+            '''
+        DisplayName: 古代ハンターのスカーフ
+    }
+
+    HighVelocitySlingshot: {
+        Tooltip:
+            '''
+            長押しすることでパチンコを引いて、離して弾を飛ばす
+            モッシー ペブルを非常に高い速度で放つ
+            '''
+        DisplayName: 高速パチンコ
+    }
+
+    GodGun: {
+        Tooltip:
+            '''
+            長く使いすぎると銃が過熱して爆発する
+            「神に選ばれし武器」
+            '''
+        DisplayName: ホーリーファイア
+    }
+
+    BoneBow: {
+        Tooltip: 敵の防御を50%無視する貫通する骨を放つ
+        DisplayName: ボーン ベンダー
+    }
+
+    SpiderKey: {
+        Tooltip:
+            '''
+            ダンジョン内のクモ洞窟の宝箱を解錠する
+            プランテラ撃破後まで使用できない
+            '''
+        DisplayName: クモ洞窟の鍵
+    }
+
+    SpiderChitin: {
+        Tooltip: クモのようなクリーチャーの硬い外骨格
+        DisplayName: スパイダー キチン
+    }
+
+    OldHunterTorso: {
+        Tooltip: 全身の骨格が入ったシャツ
+        DisplayName: 古代ハンター トルソー
+    }
+
+    OldHunterSkull: {
+        Tooltip: 古代人の朽ちた頭蓋骨
+        DisplayName: 古代ハンターの骨
+    }
+
+    OldHunterLegs: {
+        Tooltip: 骨格の脚が入った古いボロボロのズボン
+        DisplayName: 古代ハンターのすね当て
+    }
+
+    OldHunterHat: {
+        Tooltip: かつて生きていたハンターが所有していた帽子
+        DisplayName: 古代ハンターの帽子
+    }
+
+    InchwormOrangeItem: {
+        Tooltip: ""
+        DisplayName: オレンジ インチワーム
+    }
+
+    InchwormGreenItem: {
+        Tooltip: ""
+        DisplayName: グリーン インチワーム
+    }
+
+    InchwormBlackItem: {
+        Tooltip: ""
+        DisplayName: ブラック インチワーム
+    }
+
+    GrottoCompass: {
+        Tooltip: ホットバーに持つとクモ洞窟の位置を指す
+        DisplayName: ラスティッド コンパス
+    }
+
+    SpiderLegs: {
+        Tooltip:
+            '''
+            移動速度が15%増加
+            移動速度とジャンプの高さを増加
+            '''
+        DisplayName: スパイオプスのすね当て
+    }
+
+    SpiderHead: {
+        Tooltip:
+            '''
+            ダメージが10%増加
+            夜間視力を付与する
+            '''
+        DisplayName: スパイオプスバイザー
+    }
+
+    SpiderBody: {
+        Tooltip:
+            '''
+            クリティカル率が3%増加
+            大きなダメージを受けると短時間の速度ブーストが得られる
+            '''
+        DisplayName: スパイオプスの胸当て
+    }
+
+    RootLegs: {
+        Tooltip: ""
+        DisplayName: ルート ガーメンツ
+    }
+
+    RootHead: {
+        Tooltip: 遠距離クリティカル率が5%増加
+        DisplayName: ルートのマスク
+    }
+
+    RootBody: {
+        Tooltip: 遠距離ダメージが12%増加
+        DisplayName: ルートの胸当て
+    }
+
+    SummonItem4: {
+        Tooltip:
+            '''
+            苛立っためだま達を落ち着かせる
+            インベントリにある間、めだま渓谷のモンスターを引き寄せる
+            '''
+        DisplayName: めだまドロップス
+    }
+
+    SummonItem3: {
+        Tooltip:
+            '''
+            大きなクモのお気に入りのおやつ
+            インベントリにある間、クモ洞窟のモンスターを引き寄せる
+            '''
+        DisplayName: 真菌カブトムシ
+    }
+
+    SummonItem2: {
+        Tooltip:
+            '''
+            チョコレートの匂いがする
+            インベントリにある間、沼墓地のモンスターを引き寄せる
+            '''
+        DisplayName: コインズバッグ
+    }
+
+    SummonItem1: {
+        Tooltip:
+            '''
+            間違いなく美味しい匂いがする
+            インベントリにある間、奇妙な森のモンスターを引き寄せる
+            '''
+        DisplayName: 赤きベルベットケーキ
+    }
+
+    StitchedCloak: {
+        Tooltip:
+            '''
+            移動速度を増加
+            横方向か縦方向に2回入力することで高速ダッシュする
+            ダッシュした際、敵を捕らえてダメージを与えるクモの巣を生成する
+            一度使用した後しばらくダッシュが使えない
+            '''
+        DisplayName: 縫い合わせマント
+    }
+
+    SewingThread: {
+        Tooltip:
+            '''
+            アイテムを使用するとまれに貫通する糸を放つ
+            糸は貫通する敵が多いほどダメージが増加する
+            '''
+        DisplayName: ミシン糸
+    }
+
+    MagicEyeOrb: {
+        Tooltip:
+            '''
+            近くの敵を見るガラスのめだまを召喚する
+            めだまに見られている敵はプレイヤーの魔法攻撃からより多くのダメージを受ける
+            5回攻撃されると目が壊れ、30秒後に再び召喚される
+            '''
+        DisplayName: アイボールオブポンデリング
+    }
+
+    GhostBook: {
+        Tooltip:
+            '''
+            共に戦う墓荒らしの霊を1体召喚する
+            召喚される霊は本の目の色に依存する
+            アイテムを使用することで本が召喚する霊の種類を切り替えられる
+            '''
+        DisplayName: トームオブスピリッツ
+    }
+
+    BountyItem4: {
+        Tooltip:
+            '''
+            「これはもっと大きな目の…頭？」
+            バウンティクエストアイテム
+            '''
+        DisplayName: 切り取られた眼球
+    }
+
+    BountyItem3: {
+        Tooltip:
+            '''
+            「小さな目にとって非常に高価な布」
+            バウンティクエストアイテム
+            '''
+        DisplayName: つぎはぎの生地
+    }
+
+    BountyItem2: {
+        Tooltip:
+            '''
+            「二度と開けるべきではないだろう」
+            バウンティクエストアイテム
+            '''
+        DisplayName: ぼろぼろの古書
+    }
+
+    BountyItem1: {
+        Tooltip:
+            '''
+            「異常に長い人間のような舌だ」
+            バウンティクエストアイテム
+            '''
+        DisplayName: ゴブリンの舌
+    }
+
+    YellowSpore: {
+        Tooltip: 光を放つする小さなマッシュルームホッパーを召喚する
+        DisplayName: イエロースポア
+    }
+
+    ValleyNautilusShell: {
+        Tooltip: ベビーセファロポッドのペットを召喚する
+        DisplayName: クラレットシェル
+    }
+
+    SuspiciousBrownie: {
+        Tooltip:
+            '''
+            コロンボを召喚する
+            「僕の良心がこれは食べちゃダメだと言ってくる」
+            '''
+        DisplayName: 怪しげなお菓子
+    }
+
+    StickyEye: {
+        Tooltip: 暗闇で光るスティッキー アイボールを召喚する
+        DisplayName: 暗闇で光りしスティッキーアイ
+    }
+
+    SpiritLamp: {
+        Tooltip:
+            '''
+            道を照らす小さな魂を召喚する
+            「どんな魂がのランタンに取り憑いているんだろう?」
+            '''
+        DisplayName: 魂のランタン
+    }
+
+    SmallDaffodil: {
+        Tooltip:
+            '''
+            コーネリアスを召喚する
+            「とても美味しそうな匂いがするよ！」
+            '''
+        DisplayName: ダフォディルの芽
+    }
+
+    SkullSeed: {
+        Tooltip:
+            '''
+            光を放つベビーボーンを召喚する
+            「植物になるか、骨になるか?」
+            '''
+        DisplayName: スカルの種
+    }
+
+    SkullKey: {
+        Tooltip: プレイヤーの頭上を浮遊するペットスカルを召喚する
+        DisplayName: スカルキー
+    }
+
+    RottenGourd: {
+        Tooltip:
+            '''
+			後をついてくる小さなひょうたんを召喚する
+            「小さいけどひどい匂いがする」
+            '''
+        DisplayName: カビたひょうたん
+    }
+
+    PuttyCup: {
+        Tooltip: パティスライムの分隊を召喚する
+        DisplayName: パテ桶
+    }
+
+    PetscopTool3: {
+        Tooltip: ティアラを召喚する
+        DisplayName: ピンクツール
+    }
+
+    PetscopTool2: {
+        Tooltip: マービンを召喚する
+        DisplayName: グリーンツール
+    }
+
+    PetscopTool1: {
+        Tooltip: ガーディアンを召喚する
+        DisplayName: レッドツール
+    }
+
+    PandoraBean: {
+        Tooltip: 王豆の王位継承者フォン アンガストンVIを召喚する
+        DisplayName: 気味悪き豆
+    }
+
+    OrroboroRing: {
+        Tooltip:
+            '''
+            オーロボロリングを召喚する
+            「とても催眠的」
+            '''
+        DisplayName: オーロ&ボロ リング
+    }
+
+    OldSaddle: {
+        Tooltip:
+            '''
+            騎乗(トラップドアスパイダーマウント)を召喚する
+            壁や天井を移動可能
+            '''
+        DisplayName: 古びれたサドル
+    }
+
+    OddBrain: {
+        Tooltip: ゾンビノーズカルティストを召喚する
+        DisplayName: 奇妙な脳
+    }
+
+    MocoTissue: {
+        Tooltip:
+            '''
+            ペットのモクリングを召喚する
+            「人類に知られている最も不衛生なティッシュだろう」
+            '''
+        DisplayName: 怪しげなティッシュ
+    }
+
+    InchwormApple: {
+        Tooltip: ペットのインチワームを召喚する
+        DisplayName: オールドアップル
+    }
+
+    Honeycomb: {
+        Tooltip: 小さなポリネーター蜂を召喚する
+        DisplayName: ハニカムチャンク
+    }
+
+    GhostPetItem: {
+        Tooltip: 光を放つ小さなゴーストを召喚する
+        DisplayName: スポーキーゴースト
+    }
+
+    FuzzBall: {
+        Tooltip: ペットのファズバットを召喚する
+        DisplayName: ファズボール
+    }
+
+    ExpiredCheese: {
+        Tooltip: ペットのアルビノラットを召喚する
+        DisplayName: エクスパイアードチーズ
+    }
+
+    DissolvedBone: {
+        Tooltip:
+            '''
+			プレイヤーを追う謎のグーの山を召喚する
+            「うわっ！気持ち悪いグーで覆われてる！」
+            '''
+        DisplayName: やや溶けた骨
+    }
+
+    CatEyes: {
+        Tooltip: ペットの黒い子猫を召喚する
+        DisplayName: イービルアイズ
+    }
+
+    VampireGummy: {
+        Tooltip:
+            '''
+            食べると短時間のシュガーラッシュを付与
+            「口に装着して皆を驚かせちゃえ！」
+            '''
+        DisplayName: ヴァンパイアグミ
+    }
+
+    GoofyPretzel: {
+        Tooltip:
+            '''
+            全ステータスがわずかに増加
+            「不気味な見た目だ、生き物じゃないといいけど」
+            '''
+        DisplayName: 間抜けなプレッツェル
+    }
+
+    FrankenMarshmallow: {
+        Tooltip:
+            '''
+            全ステータスがわずかに増加
+            「噛み応えのある怪物だ」
+            '''
+        DisplayName: フランケン マシュマロ
+    }
+
+    EyeFruit: {
+        Tooltip:
+            '''
+            『フクロウの目』または『危険感知』バフを付与する
+            ただし、『毒』デバフを付与してくることもある
+            「いや、味なんて良くないぞ」
+            '''
+        DisplayName: めだまフルーツ
+    }
+
+    EyeChocolate: {
+        Tooltip:
+            '''
+            全ステータスがわずかに増加
+            「とても柔らかくて噛み応えがあるよ」
+            '''
+        DisplayName: めだまチョコレート
+    }
+
+    CaramelApple: {
+        Tooltip:
+            '''
+            全ステータスがわずかに増加
+            「リンゴにキャラメルがどうやってついたのかわからない」
+            '''
+        DisplayName: キャラメル アップル
+    }
+
+    CandyCorn: {
+        Tooltip:
+            '''
+            食べると短時間のシュガーラッシュを付与
+            「最高のハロウィンキャンディ」
+            '''
+        DisplayName: キャンディ コーン
+    }
+
+    BlackLicorice: {
+        Tooltip:
+            '''
+            全ステータスがわずかに低下
+            「なんでこれを食べるの?」
+            '''
+        DisplayName: ブラック リコリス
+    }
+
+    ZomboidFish: {
+        Tooltip: (奇妙な森で釣れる)
+        DisplayName: ゾンボイド フィッシュ
+    }
+
+    SpookySpiritFish: {
+        Tooltip: (沼墓地で釣れる)
+        DisplayName: スピリット コッド
+    }
+
+    HibiscusFish: {
+        Tooltip: (クリーピー カタコンベで釣れる)
+        DisplayName: スイミング ハイビスカス
+    }
+
+    GourdFish: {
+        Tooltip: (奇妙な森で釣れる)
+        DisplayName: モルディ ゴード フィッシュ
+    }
+
+    OrroEel: {
+        Tooltip: (めだま渓谷で釣れる)
+        DisplayName: オーロ イール
+    }
+
+    BoogerFish: {
+        Tooltip: (めだま渓谷で釣れる)
+        DisplayName: シュノーズ フィッシュ
+    }
+
+    ZomboidPyromancerHood: {
+        Tooltip: 「核爆弾を合法化しろ！」
+        DisplayName: パイロマンサーのフード
+    }
+
+    ZomboidNecromancerHood: {
+        Tooltip: 「ディープステートがスポンサー！」
+        DisplayName: ネクロマンサーのフード
+    }
+
+    WarlockHood: {
+        Tooltip: 「魔法をかけるのが大好き！」
+        DisplayName: ウォーロックのフード
+    }
+
+    WaasephiHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: ワセフィのマスク
+    }
+
+    TacoHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: タコのマスク
+    }
+
+    SpookySpiritMask: {
+        Tooltip: ""
+        DisplayName: スポーキースピリットのマスク
+    }
+
+    SirenHead: {
+        Tooltip: '実際のサイレン音は含まれていません'
+        DisplayName: サイレンヘッド
+    }
+
+    SeasaltHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: シーソルトのマスク
+    }
+
+    RotGourdMask: {
+        Tooltip: ""
+        DisplayName: ロットゴードのマスク
+    }
+
+    DandyHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: ダンディのマスク
+    }
+
+    PartySkeletonSkull: {
+        Tooltip: ""
+        DisplayName: パーティースケルトン スカル
+    }
+
+    OrroMask: {
+        Tooltip: ""
+        DisplayName: オーロのマスク
+    }
+
+    NoseCultistRobe: {
+        Tooltip: 「カルティストフードと一緒に着るとカルティストに変装できるぞ」
+        DisplayName: ノーズカルティストのローブ
+    }
+
+    NoseCultistHood: {
+        Tooltip: 「カルティストローブと一緒に着るとカルティストに変装できるぞ」
+        DisplayName: ノーズカルティストのフード
+    }
+
+    MocoMask: {
+        Tooltip: ""
+        DisplayName: モコのマスク
+    }
+
+    LittleEyeHat: {
+        Tooltip: 「その大きさ、君の頭にはでかすぎるよ」
+        DisplayName: 小さな目の魔法の帽子
+    }
+
+    KrakenHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: ヒュージクラーケンのマスク
+    }
+
+    HatHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: ハット イン ア リバーのマスク
+    }
+
+    FlowerPotHead: {
+        Tooltip: 「それ絶対正しい使い方じゃない」
+        DisplayName: 植木鉢のヘッド
+    }
+
+    DylanDoeHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: ディランドーのマスク
+    }
+
+    DaffodilMask: {
+        Tooltip: ""
+        DisplayName: ダフォディルのマスク
+    }
+
+    BoroMask: {
+        Tooltip: ""
+        DisplayName: ボロのマスク
+    }
+
+    BigBoneMask: {
+        Tooltip: ""
+        DisplayName: ビッグボーンのマスク
+    }
+
+    BanditHat: {
+        Tooltip: ""
+        DisplayName: バンディット ハット
+    }
+
+    BananalizardHead: {
+        Tooltip: 「Spooky Modの開発者を装うのに最適！」
+        DisplayName: バナナリザードのマスク
+    }
+
+    SpiritSword: {
+        Tooltip: 敵に命中すると爆発するスカルを上向きに放つ
+        DisplayName: スポーキーバスター
+    }
+
+    SpiritSlingshot: {
+        Tooltip:
+            '''
+            長押しすることでパチンコを引いて、離して弾を放つ
+            モッシー ペブルを地表や敵で激しく跳ね返るゴーストリー オーブに変換する
+            '''
+        DisplayName: ゴーストスリングショット
+    }
+
+    SpiritScroll: {
+        Tooltip:
+            '''
+            近くの敵に突進するパンプキンヘッドを召喚する
+            ミニオンスロットは消費しないが、一度に5体以上召喚できない
+            '''
+        DisplayName: 奇妙な巻物
+    }
+
+    SpiritHandStaff: {
+        Tooltip:
+            '''
+            近くの地表から奇妙な手を放つ
+            カーソルがどの地表からも遠すぎると手は召喚できない
+            '''
+        DisplayName: お手てロッド
+    }
+
+    PartyNailgun: {
+        Tooltip:
+            '''
+            「死霊術武器シーンで最新の自己防衛武器」
+            敵の防御を完全に無視するボルトを急速に放つ
+            内部に独自の特別な弾薬が蓄えられており、時間とともに再生する
+            '''
+        DisplayName: スポーキー-02 ネクロマンティック マシンピストル
+    }
+
+    GraveDiggerShovel: {
+        Tooltip: 錆びたシャベルで敵をぶっ叩く
+        DisplayName: 墓堀シャベル
+    }
+
+    DiscoSkull: {
+        Tooltip: 敵をホーミングする虹色のパーティースカルを放つ
+        DisplayName: ディスコ スカル
+    }
+
+    CemeterySolution: {
+        Tooltip:
+            '''
+            環境変更銃の弾
+            土地を沼墓地にする
+            '''
+        DisplayName: 環境変更液（深緑）
+    }
+
+    CemeteryKey: {
+        Tooltip:
+            '''
+            ダンジョン内の沼墓地の宝箱を解錠する
+            プランテラ撃破後まで使用できない
+            '''
+        DisplayName: 沼墓地の鍵
+    }
+
+    Creepypasta: {
+        Tooltip:
+            '''
+            すべてのクリーピーパスタアクセサリーの効果を付与
+            カーソルに5回チャージ分のダメージを与える青い螺旋を召喚し、敵にダメージを与える
+            近くの敵を攻撃するキュートな子犬を召喚する
+            クリティカル時まれにプレイヤーを周回し敵を攻撃する赤い音符を召喚する
+            近くの敵を攻撃する黒い触手を召喚し、それで倒した敵はまれに触手を強化するページをドロップする
+            敵にダメージを与えるとまれに赤い亡霊が現れ、大量のダメージを与える
+            アクセサリーホットキーを押すと雷を降らせ、敵を打ち、ボスに大量のダメージを与える
+            '''
+        DisplayName: クリーピー パスタ
+    }
+
+    AnalogHorrorTape: {
+        Tooltip:
+            '''
+            すべてのアナログホラーアクセサリーの効果を付与
+            まれに自然界のトゲを出現させ、敵からライフを吸い取る
+            アクセサリーホットキーを押すと近くの敵を遅くするオルタネートを召喚する
+            移動するとデバフを与える胞子を出現させ、満腹バフがあると強力になる
+            ライフ半分以上の近くの敵を腐敗させる浮遊する頭を召喚し、急速にライフを奪う
+            弱い敵の射撃物を反射し、敵にダメージを与える周回する月を召喚する
+            3回分の高い防御を与えるガラスのピラミッドを付与し、その後砕ける
+            ピラミッドが砕けた後10秒間ダメージが2倍になる
+            '''
+        DisplayName: アポカリプス ミックステープ
+    }
+
+    SmileDogPicture: {
+        Tooltip:
+            '''
+			プレイヤーを追いつつ近くの敵を攻撃するキュートな子犬を召喚する
+            3分ごとに犬がプレイヤーを攻撃し、その後元に戻る
+            「その犬なんかおかしいって」
+            '''
+        DisplayName: クリーピードッグフォト
+    }
+
+    SlendermanBuffPage: {
+        Tooltip: ""
+        DisplayName: クリーピー ページ
+    }
+
+    SlendermanPage: {
+        Tooltip:
+            '''
+			プレイヤーに付いた黒い触手を出現させ、近くの敵を攻撃する
+            触手で倒した敵はまれに拾えるページを落とす
+            これらのページを拾うと一時的に触手が強化される
+            「見ないで！！」
+            '''
+        DisplayName: 第八のページ
+    }
+
+    RedMistClarinet: {
+        Tooltip:
+            '''
+            クリティカルでまれに敵を追う周回する音符を召喚する
+            次の音符を召喚する前に2秒のクールダウンがある
+            「最悪で最後の演奏」
+            '''
+        DisplayName: 恐ろしきクラリネット
+    }
+
+    RedGodzillaCartridge: {
+        Tooltip:
+            '''
+            敵にダメージを与えるとまれに赤い亡霊を召喚する
+            赤い亡霊はプレイヤーが攻撃した敵に大量のダメージを与える
+            「怪獣の王だ」
+            '''
+        DisplayName: NESカートリッジ
+    }
+
+    PolybiusArcadeGame: {
+        Tooltip:
+            '''
+            カーソルにダメージを与える青い螺旋を召喚する
+            5回分のチャージを蓄え、敵に命中した際1チャージ消費する
+            敵に当たっていない間、チャージが自動的に回復する
+            「干渉すべきでない機密情報」
+            '''
+        DisplayName: アーケードキャビネット
+    }
+
+    MonumentMythosPyramid: {
+        Tooltip:
+            '''
+			プレイヤーを保護ガラスのピラミッドで包む
+            ピラミッドは3回分のダメージ軽減を大幅に増加させ、その後砕ける
+            砕けた後、すべての攻撃から10秒間ダメージが2倍になる
+            ピラミッドは1分後に再生する
+            「彼女は今ただ眠っているだけ」
+            '''
+        DisplayName: ガラス ピラミッド
+    }
+
+    MandelaCatalogueTV: {
+        Tooltip:
+            '''
+            アクセサリーホットキーを押すと一時的なオルタネートを召喚する
+            オルタネプレイヤーを追い、近くの敵を遅くする
+            1分間はオルタネートを再召喚できない
+    		「お前はプレイヤーじゃない」
+            '''
+        DisplayName: アナログTV
+    }
+
+    Local58Telescope: {
+        Tooltip:
+            '''
+			プレイヤーを常に周回する大きな月を出現させる
+            昼間プレイヤーに近く周回し、弱い敵の射撃物を反射する
+            夜間プレイヤーから遠く周回し、敵にダメージを与える
+            「彼の王座」
+            '''
+        DisplayName: テレスコープ
+    }
+
+    HerobrineAltar: {
+        Tooltip:
+            '''
+            アクセサリーホットキーを押すとカーソル位置に空から強力な雷を降らせる
+            命中すると敵に非常に高いダメージを与える
+            ボスに命中すると最大ライフの15%分をダメージとして受ける
+            この能力は再使用に2分のクールダウンがある
+            「ヒーローブラインを削除しました」
+            '''
+        DisplayName: ブロッキーオルター
+    }
+
+    GeminiEntertainmentGame: {
+        Tooltip:
+            '''
+            時折地面に短時間な自然界のトゲを出現させる
+            自然界のトゲは近くの敵からライフを吸いプレイヤーを回復する
+            「さて、森に餌やりだ」
+            '''
+        DisplayName: 不気味なビデオゲーム
+    }
+
+    CarnisFlavorEnhancer: {
+        Tooltip:
+            '''
+            移動中、敵にデバフを与える胞子の跡を作る
+            『満腹』バフがあると跡デバフがより強力なものになる
+            敵に与えるデバフは『満腹』バフの度合に比例してさらに変化する
+            「あらゆる食事に必要だ」
+            '''
+        DisplayName: 究極の調味料
+    }
+
+    BackroomsCorpse: {
+        Tooltip:
+            '''
+            プレイヤーの頭上に浮遊する頭を出現させ、近くの敵を腐敗させる
+            腐敗は敵のライフを急速に奪うが、ライフ半分以下の敵には効果がない
+            ボスには時間経過でダメージが減少する
+            「まるで身体の一部が朽ちるのをやめたみたいだ」
+            '''
+        DisplayName: 切り離されし頭部
+    }
+
+    SpiritHorsemanLegs: {
+        Tooltip: 移動速度が12%増加
+        DisplayName: スピリット ホースマンのグリーブス
+    }
+
+    SpiritHorsemanHead: {
+        Tooltip: クリティカル率が5%増加
+        DisplayName: スピリット ホースマンのパンプキン
+    }
+
+    SpiritHorsemanBody: {
+        Tooltip: ダメージが5%増加
+        DisplayName: スピリットホースマンのチェストメイル
+    }
+
+    ThornStaff: {
+        Tooltip:
+            '''
+            ボス以外の敵を絡めて『毒』デバフを付与するトゲの塊を放つ
+            15秒のクールタイムがある
+            ボスには通常より長く『毒』デバフを付与する
+            '''
+        DisplayName: 捕縛の杖
+    }
+
+    SkullAmulet: {
+        Tooltip:
+            '''
+            倒した敵の魂を吸収できる
+            10個の魂を吸収すると10秒間狂乱状態になる
+            狂乱中はさまざまなステータスが増加する
+            '''
+        DisplayName: スカル アミュレット
+    }
+
+    RustyRing: {
+        Tooltip:
+            '''
+            最大ライフを60増加
+            ライフ自然回復を増進
+            ダンジョンやカタコンベにいる間、『探検家』バフを付与
+            '''
+        DisplayName: 錆びついた指輪
+    }
+
+    PandoraRosary: {
+        Tooltip:
+            '''
+            最大5つまで、数秒ごとにゴーストハンドをプレイヤーの周りに召喚する
+            ダメージを受けるプレイヤーめがけて移動し、触れるとプレイヤーのライフを回復する
+            攻撃された後、手は12秒間再出現しない
+            「奇妙な日曜日」
+            '''
+        DisplayName: ガストリーロザリー
+    }
+
+    PandoraCuffs: {
+        Tooltip:
+            '''
+            ダメージと移動速度を10%減少
+            15秒間隔で近くの敵に5秒間鎖を付着する
+            鎖を付着された敵は50%多くのダメージを受ける
+            鎖は通常の敵よりもボスに優先して付着する
+            「苦しみが人格を築く」
+            '''
+        DisplayName: サムソンのカフス
+    }
+
+    PandoraCross: {
+        Tooltip:
+            '''
+            アクセサリーホットキーを押すと5秒間プレイヤーの周りに強力な音を放つ
+            音は周辺の敵にダメージを与えプレイヤーにも少しダメージを与える
+            この能力は再使用前に40秒のクールダウンがある
+            「心を砕く低音」
+            '''
+        DisplayName: ザ クロス
+    }
+
+    PandoraChalice: {
+        Tooltip:
+            '''
+            マナを回復するたびに最大6つまでエクトプラズムの塊を発射する
+            エクトプラズムの塊は数秒後に飛び出し、近くの敵をホーミングする
+            各塊のダメージは回復したマナの量に比例する
+            「これを飲んだら運転しないで！」
+            '''
+        DisplayName: 邪悪な聖杯
+    }
+
+    PandoraAmalgam: {
+        Tooltip:
+            '''
+            パンドラの箱のすべてのアクセサリーの効果を付与
+            マナを回復すると回復量に応じてダメージが増加するエクトプラズムの塊を出現させる
+            アクセサリーホットキーを押してプレイヤーと敵にダメージを与える音を放つ
+            数秒プレイヤーを追いかけて攻撃されると回復する手を出現させる
+            時折近くの敵にカフを発射し、それに付着した敵はより多くのダメージを受ける
+            '''
+        DisplayName: アマルゴール
+    }
+
+    OldRifle: {
+        Tooltip: 衝撃時に分裂する錆びた弾丸を撃ち出す
+        DisplayName: 古代ハンターのライフル
+    }
+
+    NineTails: {
+        Tooltip:
+            '''
+            攻撃を当てた敵にミニオンが集中攻撃する
+            短距離な鞭を複数同時に振り回す
+            「セーフワードなど無い」
+            '''
+        DisplayName: 九尾の鞭
+    }
+
+    HunterSoulScepter: {
+        Tooltip:
+            '''
+            古代ハンターのゴーストを召喚して一緒に戦う
+            古代ハンターには戦士、ショットガンナー、メイジの3種類がある
+            右クリックで各タイプを切り替える
+            '''
+        DisplayName: ハンターソウルセプター
+    }
+
+    HarvesterScythe: {
+        Tooltip:
+            '''
+            敵を攻撃するとプレイヤーの周りに残る魂を解き放つ
+            10個の魂が集まると、それらが飛び出し近くの敵をホーミングする
+            '''
+        DisplayName: 収穫者の鎌
+    }
+
+    GraveCrossbow: {
+        Tooltip:
+            '''
+            クロスボウをチャージして高速な貫通矢を放つ
+            チャージ時間が長いほど矢の速度とダメージが増加する
+            '''
+        DisplayName: 古代ハンターのクロスボウ
+    }
+
+    GlowBulb: {
+        Tooltip:
+            '''
+            地面にくっつく球根を投げる
+            球根は敵に当たると小さなトゲを散らしながら爆発する
+            '''
+        DisplayName: バルブボム
+    }
+
+    FlameIdol: {
+        Tooltip: 長押しすることで周囲に一定間隔で爆発を起こす
+        DisplayName: アイドルオブフレイム
+    }
+
+    FemurFracture: {
+        Tooltip:
+            '''
+            長押しでハンマーを振り回し、チャージ後に離して投げる
+            さらに長く押すことでハンマーをスーパーチャージできる
+            スーパーチャージ時に投げるとホーミングスカルを残す
+            「敵の骨を折るのに最適な武器！」
+            '''
+        DisplayName: 太もも破壊兵器
+    }
+
+    DaffodilStaff: {
+        Tooltip:
+            '''
+            近くの敵を殴る強力な植物の手を召喚する
+            各手はミニオンスロット1つを必要とするが、一度に2つまでしか召喚できない
+            '''
+        DisplayName: プラントパンチャーの杖
+    }
+
+    DaffodilRod: {
+        Tooltip: 敵にホーミングし地表で跳ね返る花を放つ
+        DisplayName: ヒマワリの杖
+    }
+
+    DaffodilBow: {
+        Tooltip:
+            '''
+            長押しすることで弓をチャージし、ハエを撃ち出す
+            チャージ時間が長いほど多くのハエを撃つ
+            '''
+        DisplayName: ハエショット
+    }
+
+    DaffodilBlade: {
+        Tooltip: まれに敵に『毒』デバフを付与
+        DisplayName: ソーンダガー
+    }
+
+    CrossCharm: {
+        Tooltip:
+            '''
+            15の追加防御を与える魔法の十字架を付与
+            攻撃されると十字架が消え、10秒後に再生する
+            '''
+        DisplayName: クロスチャーム
+    }
+
+    BigBoneStaff: {
+        Tooltip:
+            '''
+            左クリックでタイルで跳ね返る大きな火の玉を複数放つ
+            右クリックで敵をホーミングする高ダメージ超高速な火の玉ビームを撃つ
+            '''
+        DisplayName: フレイムオーブの杖
+    }
+
+    BigBoneScepter: {
+        Tooltip:
+            '''
+            左クリックで魔法弾を撃ちつつ敵に突進するスカルウィスプを召喚する
+            右クリックでカーソル位置に1分間持続する固定のスカルアイドルを召喚する
+            アイドルの範囲内にいるとさまざまなミニオン関連ステータスが増加する
+            '''
+        DisplayName: スカルトーテムセプター
+    }
+
+    BigBoneHammer: {
+        Tooltip:
+            '''
+            左クリックでハンマーを短距離に素早く投げる
+            右クリックを押してプレイヤーの周りでハンマーを振ってチャージする
+            完全にチャージしたら右クリックを離してハンマーを投げる
+            '''
+        DisplayName: スカルスマッシャー
+    }
+
+    BigBoneBow: {
+        Tooltip:
+            '''
+            左クリックでわずかに敵をホーミングする貫通するバラを急速に放つ
+            右クリックで敵に『トゲマーク』デバフを付与するトゲの花を発射する
+            『トゲマーク』デバフを持つ敵はこの武器からより多くのダメージを受ける
+            10%の確率で弾薬を消費しない
+            '''
+        DisplayName: フラワーショット
+    }
+
+    Slot4Unlocker: {
+        Tooltip: 4番目のブルームスロットを解放する
+        DisplayName: 1位ブルームリボン
+    }
+
+    Slot3Unlocker: {
+        Tooltip: 3番目のブルームスロットを解放する
+        DisplayName: 2位ブルームリボン
+    }
+
+    PlantChunk: {
+        Tooltip: 生きた植物物質の欠片
+        DisplayName: 植物のまとまり
+    }
+
+    CatacombKey3: {
+        Tooltip: オレンジのカタコンベバリアを解除する
+        DisplayName: オレンジバリアキー
+    }
+
+    CatacombKey2: {
+        Tooltip: 赤のカタコンベバリアを解除する
+        DisplayName: レッドバリアキー
+    }
+
+    CatacombKey1: {
+        Tooltip: 黄色のカタコンベバリアを解除する
+        DisplayName: イエローバリアキー
+    }
+
+    FlowerLegs: {
+        Tooltip:
+            '''
+            ノックバックへの免疫を付与
+            受けるダメージを8%減少
+            装備すると落下速度が大幅に速くなる
+            '''
+        DisplayName: 大きな植木鉢
+    }
+
+    FlowerHead: {
+        Tooltip:
+            '''
+            マナ使用量を15%減少
+            召喚できるミニオンの数が3体増える
+            召喚できるセントリーの数が1体増える
+            '''
+        DisplayName: フラワーのマスク
+    }
+
+    FlowerBody: {
+        Tooltip:
+            '''
+            ダメージとクリティカル率が15%増加
+            ダメージの一部を反射する
+            '''
+        DisplayName: ソーンステムのシャツ
+    }
+
+    StrangeCyst: {
+        Tooltip: インベントリにこれがある状態で巨大な卵を右クリックしてエッグ襲来を開始する
+        DisplayName: 異常な腫瘍
+    }
+
+    RottenSeed: {
+        Tooltip: 奇妙な森で使用するとロットゴードを召喚する
+        DisplayName: ひょうたんの種
+    }
+
+    Fertilizer: {
+        Tooltip:
+            '''
+            「土と骨が詰まった臭い袋」
+            巨大な植木鉢の近くで使用するとビッグボーンを召喚する
+            '''
+        DisplayName: 不気味な肥料
+    }
+
+    EMFReaderBroke: {
+        Tooltip: 「修理することでおばけを見つけることができる」
+        DisplayName: 壊れたEMFリーダー
+    }
+
+    EMFReader: {
+        Tooltip:
+            '''
+            消費不可
+            「おばけや超常現象を見つけるために使用」
+            夜に呪われた像で使用するとスポーキースピリットを召喚する
+            '''
+        DisplayName: EMFリーダー
+    }
+
+    CowBell: {
+        Tooltip: 「神秘的な起源を持つ古代の牛鈴」
+        DisplayName: 錆びた牛鈴
+    }
+
+    CottonSwab: {
+        Tooltip:
+            '''
+            消費不可
+            異常に大きな綿棒
+            鼻の神殿で使用すると鼻の儀式を開始する
+            '''
+        DisplayName: 綿棒
+    }
+
+    Concoction: {
+        Tooltip:
+            '''
+            消費不可
+            最も卑劣な材料から作られた非常に腐食性の物質
+            インベントリにこれがある状態で巨大な卵を右クリックし腐食させる
+            '''
+        DisplayName: 酸性の調合液
+    }
+
+    Brick: {
+        Tooltip:
+            '''
+            「怠惰なものを起こすために投げつける」
+            ダフォディルに投げることで彼女を目覚めさせる
+            '''
+        DisplayName: 重たいレンガ
+    }
+
+    BossBagSpookySpirit: {
+        Tooltip: <right>で開く
+        DisplayName: トレジャーバッグ (スポーキースピリット)
+    }
+
+    BossBagRotGourd: {
+        Tooltip: <right>で開く
+        DisplayName: トレジャーバッグ (ロットゴード)
+    }
+
+    BossBagOrroboro: {
+        Tooltip: <right>で開く
+        DisplayName: トレジャーバッグ (オーロ＆ボロ)
+    }
+
+    BossBagMoco: {
+        Tooltip: <right>で開く
+        DisplayName: トレジャーバッグ (モコ)
+    }
+
+    BossBagDaffodil: {
+        Tooltip: <right>で開く
+        DisplayName: トレジャーバッグ (ダフォディル)
+    }
+
+    BossBagBigBone: {
+        Tooltip: <right>で開く
+        DisplayName: トレジャーバッグ (ビッグボーン)
+    }
+
+    SpiritAmulet: {
+        Tooltip:
+            '''
+            移動速度が20%増加
+            攻撃を受けた際まれにプレイヤーの周りにホーミングスピリット粒子を放つ
+            '''
+        DisplayName: 精霊の魔除け
+    }
+
+    OrroboroEmbryo: {
+        Tooltip:
+            '''
+            死亡しても復活し、短時間高いライフ自然回復が得られる
+            この復活能力は再び発動する前に10分のクールダウンがある
+            クールダウン中、ダメージとクリティカル率が8%増加
+            '''
+        DisplayName: 不滅の胎児
+    }
+
+    MocoNoseBooger: {
+        Tooltip: ""
+        DisplayName: 鼻水
+    }
+
+    MocoNose: {
+        Tooltip:
+            '''
+            鼻水バーを与え、鼻水の塊を拾うと満タンになる
+            敵にダメージを与えるとまれに鼻水の塊がドロップする
+            バーが満タンになると、武器を使用するとホーミング鼻水の巨大な拡散を放つ
+            この効果が発動した後30秒間敵は鼻水をドロップしない
+            ホーミング鼻水のダメージと速度は使用する武器に依存する
+            '''
+        DisplayName: ドロッとした鼻
+    }
+
+    FlyCharm: {
+        Tooltip:
+            '''
+            一定間隔でプレイヤーの周りにハエを最大10匹まで召喚する
+            召喚された各ハエはプレイヤーの防御を1増加させる
+            攻撃を受けるとハエ達が死亡し、30秒後から再び召喚される
+            '''
+        DisplayName: ハエチャーム
+    }
+
+    DaffodilHairpin: {
+        Tooltip:
+            '''
+            敵が触れると大量のダメージを与える花びらのリングを召喚する
+            敵に攻撃されるとリングが消え、1分後に再生する
+            '''
+        DisplayName: フラワーヘアピン
+    }
+
+    BoneMask: {
+        Tooltip:
+            '''
+            飛行中または走行中にホーミングスカルウィスプを放つ
+            ウィスプの発射速度とダメージは現在の速度に比例する
+            '''
+        DisplayName: エンシェント スカルのマスク
+    }
+
+    WinterStrawberry: {
+        Tooltip:
+            '''
+            40秒ごとに拾える山頂いちごを出現させる
+            それらは10秒間ダメージ、クリティカル率、ノックバックを10%増加
+            5分間持続
+            '''
+        DisplayName: 山頂いちご
+    }
+
+    WinterGooseberry: {
+        Tooltip:
+            '''
+            3回目のダメージを与えるごとに33%の確率でグーズベリーを上空に放つ
+            グーズベリーを拾うと短時間ライフ自然回復が増進し移動速度も15%増加
+            グーズベリーは敵や敵の射撃物に接触すると破壊される
+            5分間持続
+            '''
+        DisplayName: 丸々したグーズベリー
+    }
+
+    WinterBlueberry: {
+        Tooltip:
+            '''
+            敵を攻撃するとまれに凍ったブルーベリージュースを与え、動きを遅くする
+            最初に攻撃した敵の近くの敵にも短時間それが付与される
+            4分間持続
+            '''
+        DisplayName: ベリーブルーズ
+    }
+
+    WinterBlackberry: {
+        Tooltip:
+            '''
+            食べたブルームの持続時間がまれに通常の2倍になる
+            2分間持続
+            '''
+        DisplayName: ブラックベリー グレイシャー
+    }
+
+    SummerSunflower: {
+        Tooltip:
+            '''
+            すべてのブルーム作物の成長速度を大幅に上昇
+            2分間『ハッピー！』バフを付与する
+            5分間持続
+            '''
+        DisplayName: サニーサイドアップ
+    }
+
+    SummerPineapple: {
+        Tooltip:
+            '''
+            クリティカル時のダメージが35%増加するが、全体のクリティカル率を半分にする
+            クリティカルを当てた際ライフが少量回復する
+            5分間持続
+            '''
+        DisplayName: ポーカーパイナップル
+    }
+
+    SummerOrange: {
+        Tooltip:
+            '''
+            敵にダメージを与え燃やす怒ったオレンジが周回する
+            プレイヤーが速く動くほどその速度、範囲、ダメージが増加する
+            5分間持続
+            '''
+        DisplayName: 怒れるオレンジ
+    }
+
+    SummerLemon: {
+        Tooltip:
+            '''
+            武器を使用するとまれに跳ねるレモンボムを撃つ
+            連続使用することで跳ねるレモンが増加する
+            5分間持続
+            '''
+        DisplayName: マルチレモンズ
+    }
+
+    SpringRose: {
+        Tooltip:
+            '''
+            敵に少量のダメージを与えるトゲのリングを付与
+            トゲのリングはまれの短時間『流血』デバフを付与
+            6分間持続
+            '''
+        DisplayName: トゲ付きバラ
+    }
+
+    SpringOrchid: {
+        Tooltip:
+            '''
+            武器を使用時まれにモンキーオーキッド手裏剣を放つ
+            手裏剣の攻撃力は使用した武器の攻撃力に比例する
+            4分間持続
+            '''
+        DisplayName: モンキーオーキッド
+    }
+
+    SpringIris: {
+        Tooltip:
+            '''
+            毎分、カーソル地点に大きなめだまを、プレイヤー地点にアイリス花びらと出現させる
+            アイリス花びらはめだまをゆっくり追いかけ、時間が経つにつれて加速しつつ触れたものにダメージを与える
+            花びらとめだまが衝突すると両方消滅する
+            5分間持続
+            '''
+        DisplayName: 膨張し虹彩
+    }
+
+    SpringHeartFlower: {
+        Tooltip:
+            '''
+            使用中のブルームスロットに応じてライフ自然回復が増進する
+            5分間持続
+            '''
+        DisplayName: ブリーディングハート
+    }
+
+    FallZucchini: {
+        Tooltip:
+            '''
+            時折数秒間近くの敵をズッキーニの電気で攻撃する
+            2分間持続
+            '''
+        DisplayName: ザッピーズッキーニ
+    }
+
+    FallWaterGourd: {
+        Tooltip:
+            '''
+            完全に育ったブルーム作物がまれに追加のブルームと種を生み出す
+            10分間持続
+            '''
+        DisplayName: 水差しひょうたん
+    }
+
+    FallSoulPumpkin: {
+        Tooltip:
+            '''
+            まれに近くの敵をホーミングするゴーストリーなカボチャを召喚する
+            カボチャに接触した敵を短時間燃やす
+            4分間持続
+            '''
+        DisplayName: パンプターガイスト
+    }
+
+    FallGourd: {
+        Tooltip:
+            '''
+            落下中にダメージが15%増加
+            5分間持続
+            '''
+        DisplayName: スカッシュ
+    }
+
+    Dragonfruit: {
+        Tooltip:
+            '''
+			プレイヤーを周回し近くの敵をホーミングするドラゴンフルーツを召喚する
+            敵に当たるとフルーツは消滅するが、数秒後に再び召喚される
+            このブルームの能力が有効な間にこのブルームを更に食べるとスタックとして増加する
+            最大10個分まで、スタック数に応じてドラゴンフルーツが追加召喚される
+            3分間持続
+            '''
+        DisplayName: ディーバドラゴフルーツ
+    }
+
+    DandelionTumbleweed: {
+        Tooltip:
+            '''
+            飛行中に敵を攻撃するとまれにダメージを与えるタンブルウィードを召喚する
+            5分間持続
+            '''
+        DisplayName: タンブリングウィード
+    }
+
+    DandelionMapleSeed: {
+        Tooltip:
+            '''
+            飛行中にプレイヤーの周りに滑空するメープルシードをまれに出現させる
+            これらのメープルシードを集めると飛行時間がわずかに増加
+            4分間持続
+            '''
+        DisplayName: ウィンドワール メープルの種
+    }
+
+    DandelionHerd: {
+        Tooltip:
+            '''
+            飛行中わずかに敵をホーミングするタンポポの種の塊を残す
+            種の塊は最大飛行時間が高いほどダメージが増加する
+            2分間持続
+            '''
+        DisplayName: ダンデライオン ハード
+    }
+
+    StrawberryBoost: {
+        Tooltip: ""
+        DisplayName: マウンテン ストロベリー
+    }
+}
+
+GameTips: {
+    BigBoneTip: カタコンベの植物の蔓延は、奥底に閉じ込められた奇妙な巨大な頭蓋骨植物が原因だと言われている。
+    OrroboroTip: 卵はさまざまな料理にすることができるが、めだま渓谷にある卵は、2匹の奇妙な怪物が守っているため食べてはいけない。
+    EggEventTip: めだま渓谷で卵を開ける際は準備をしておけ、強力な敵に待ち伏せされるかもしれない。
+    PandoraBoxTip: 深層カタコンベには、謎の宝物が入った箱が部屋の一つに紛失したまま残っている。それを開けると混沌とした結果を招くかもしれない…
+    DaffodilTip: カタコンベでは、知性を持つ大きな花が眠って過ごしている。彼女を倒せば、カタコンベのさらに奥へ進めるかもしれない。
+    MocoTip: 誰だって鼻に綿棒を入れられるのは好きじゃない。鼻の神殿でそれを使うと奇妙な生き物を引き寄せることがある。
+    SpookySpiritTip: 幽霊ハンターは詐欺師だと言う人もいる。でも、墓地で超常的な像を見たという人もいて、確かめてみる価値があるかもしれない。
+    RotGourdTip: 奇妙な森にいる巨大なひょうたんが種を失った。それを見つけられれば、彼を引き寄せられるかもしれない。
+    BloodFishingTip: めだま渓谷には血の湖があり、特別な釣り竿でしか釣りができない。ただし、潜んでいる生き物を引き寄せるかもしれないから注意して。
+    SpiderCaveTip: 地下のどこかに、湿った洞窟が虫や巨大なクモのような生き物に侵されている。クモ恐怖症の人は気をつけて！
+    CatacombTip: 沼墓地の下には、古代の宝物で満ちた巨大な地下カタコンベがある。松明をたくさん持って行き、迷子にならないように！
+    CemeteryTip: 沼墓地は、熱帯ジャングルの先に位置する放棄された墓地だ。超常現象がよく報告されているので注意して。
+    SpookyHellTip: めだま渓谷は、地下世界にある生きているように見える奇妙なバイオームだ。この敵対的な場所を探検する前に準備を整えろ！
+    LittleBoneTip: スモールボーンはしゃべる頭蓋骨植物で、Spooky MODで次に何をすべきか分からなくなった時に教えてくれる！彼は奇妙な森の家にいる。
+    SpookyForestTip: 奇妙な森は良いスタート地点で、役立つ資源がたくさんある。できる限り探索しよう！
+}
+
+EventsAndBosses: {
+    RaveyardEnd: 沼墓地でのダンスパーティーが終了した
+    RaveyardStart: 沼墓地でダンスパーティーが始まった！
+    EggEventOverBeaten: 卵の侵攻が終わりを迎えた
+    EggEventOver: 卵のバリアが破られた！
+    EggEventBegin: 卵の侵攻が始まった！
+    BigBoneDefeat: カタコンベの呪いが解かれた！
+    BigBoneSpawn: ビッグボーンが目覚めた！
+    OrroboroSpawn: オーロ&ボロが目覚めた！
+    DaffodilSpawn: ダフォディルが目覚めた！
+    MocoSpawn: モコが目覚めた！
+    SpookySpiritSpawn: スポーキースピリットが目覚めた！
+    RotGourdSpawn: ロットゴードが目覚めた！
+}
+
+DropConditions: {
+	PostMocoCondition: モコを撃破後にドロップ
+	PostOrroboroCondition: オーロ&ボロを撃破後にドロップ
+}
+
+Dialogue: {
+    TheHorse: お腹空いたの?
+
+	TheMan: {
+		Five: 5
+		Four: 4
+		Three: 3
+		Two: 2
+		One: 1
+	}
+
+	SentientCap: {
+		Dialogue6: ｸﾞﾙﾙﾙ...
+		Dialogue5: これってめっちゃバカバカしくない?
+		Dialogue4: キャップしてるよ！
+		Dialogue3: 君の頭に乗るの大好き！
+		Dialogue2: ナイトメア！！
+		Dialogue1: ﾊｲ!ﾊｲ!ﾊｲ!ﾊｲ!
+	}
+
+	PandoraBox: {
+		Dialogue: 奇妙なオーラを放つ不思議な箱だ。開きますか?
+		Button: 開く
+	}
+
+	NoseWinged: {
+		Dialogue4: この翼を手に入れるのに何年もかかったよ。リーダーと親しくなった後、彼がこれを作ってくれたんだ。
+		Dialogue3: 偉大たるモコ様は、我々が儀式でお供えをする限り、その鼻水を使って力を増すことを許してくださるのだ。
+		Dialogue2: この教団は強力であり、儀式によって偉大たるモコ様の力が増している。
+		Dialogue1: 翼のおかげで偉大たるモコ様に近づけるよ。
+	}
+
+	NoseMage: {
+		Dialogue6: 弱そうに見えるね。鼻の弟子として規律を守れば、いずれ鼻水魔法の祝福を受けられるよ。
+		Dialogue5: もしかしたら君自身が神秘の力を収穫して、さらに昇華して鼻水魔術師になれるかもしれない。
+		Dialogue4: モコは偉大な存在だ。この地に最初に鼻水をもたらした存在で、そのために我々は称賛で感謝する。
+		Dialogue3: 私の神秘の修行を邪魔しないでくれ。
+		Dialogue2: 我々は崇拝し、私は力を集めている。そしていつか君も我々と共に昇華するよ。
+		Dialogue1: 今、魔法に集中しようとしているんだ。話しかけないでくれ。
+	}
+
+	NoseLeader: {
+		Dialogue6: 鼻が鼻をくしゃみで出し、その鼻がまた鼻をくしゃみで出した。これが我々の種とこの世界を生み出した過程だ。
+		Dialogue5: 我々の儀式によって、聖なるモクリングを再び偉大な者に変えることができた。その栄光を目撃できるのは、ふさわしい者だけだ。
+		Dialogue4: クシュン... 君、もっと鼻水が必要そうに見えるね。クロークにね。
+		Dialogue3: なぜ神殿から離れているんだ?今は崇拝の時間だぞ。
+		Dialogue2: 聖なる鼻水ブラスターが切れてしまった。でも、君を一つに変えてあげられるよ。
+		Dialogue1: 私の小さな弟子よ、聖なる者のために自分を犠牲にしに来たのか?
+		NoseBlessingBroke: 聖なる鼻水なしで私に会いに来て、何かもらえるなんて期待したのか?恥ずかしいね君。
+		NoseBlessing: 私の小さな従者よ、君のために私の鼻から直接の祝福を授けよう。賢く使いなさい...
+		Button: 祝福（鼻水の塊を渡す）
+	}
+
+	NoseGunner: {
+		Dialogue4: 嫉妬してる?儀式を続ければ、君も鼻水ブラスターを扱えるようになるよ。
+		Dialogue3: 鼻水ブラスターに犠牲として捧げられるのは、想像できる最高の体験だ。いつかノーズフェラトゥが私にもその機会をくれると信じてる。
+		Dialogue2: 偉大な者の鼻水のおかげで、この武器を作って使えるようになった。一緒にお返しをするよ。
+		Dialogue1: 私の銃が私に語りかけ、聖なる鼻がもうすぐ来ると教えてくれる。感謝してるよ。
+	}
+
+	NoseGrunt: {
+		Dialogue5: リーダーが我々の渡す鼻水をどう使うのかわからないけど、きっとより大きな幸福のためだよね。
+		Dialogue4: 儀式を続ければ、いずれ偉大なお方が現れるのさ。
+		Dialogue3: モコ様万歳！
+		Dialogue2: モコ様... 偉大なお方よ...
+		Dialogue1: クシュン...
+	}
+
+	NoseBrute: {
+		Dialogue3: ｽﾉｵｵ...
+		Dialogue2: ｸﾞﾝﾄ...
+		Dialogue1: ﾌﾙｯﾝｸﾞ...
+	}
+
+	Daffodil: {
+		BackToSleep: スヤァ...
+		PostDefeatOutro2:
+			'''
+			結局なんで私を起こしてきたのかは
+			分からなかったけど、まあいいよ
+			'''
+		PostDefeatOutro1: 君、やっぱり強いね...
+		PreDefeatOutro2:
+			'''
+			いいわ、それならもっと深くの
+			カタコンベにも行かせてあげる
+			'''
+		PreDefeatOutro1: なるほど、君は本当に強いのね...
+		PostDefeatPhaseTransition2: それならこれ位なんてことないよねぇ?
+		PostDefeatPhaseTransition1: フフッ、やっぱり前戦った時より強くなってる...
+		PreDefeatPhaseTransition2: さぁ、君が本当にふさわしいのか見てやろう！
+		PreDefeatPhaseTransition1: なるほど、私を起こしてきただけはあるようね
+		PostDefeatIntro2: まぁいいよ、そういうことならまた戦ってあげるから...
+		PostDefeatIntro1: ウッ...なんでまた、起こすのよ...
+		PreDefeatIntro4: いいだろう、それならお前がふさわしいか見てやろう！
+		PreDefeatIntro3: ......
+		PreDefeatIntro2: この私を起こそうなんて、一体何様のつもり！?
+		PreDefeatIntro1: !!!!!!
+	}
+
+	DumbZomboid: {
+		Dialogue3: ｳｧｱ！！
+		Dialogue2: ｸﾞﾙﾙ~?
+		Dialogue1: ｳ~ﾙｸﾞｸﾞ...
+	}
+
+	SuspiciousSkeleton: {
+		Dialogue21: 本当の恐怖は、機会があるのに商品を買わねえことだ。
+		Dialogue20: 昔、俺の兄貴のトニーがここから遠く離れた変な町で迷子になったことがあるんだ。めっちゃ霧が濃くて何も見えなくて、めっちゃヤバいグールがいっぱいいたんだ。俺たちみたいなじゃなくて、俺が売ってるようなやつらさ。トニーはそこから何も取れなかったよ、だってコーン頭の変な奴がクレイモア持って追いかけてきたんだから。
+		Dialogue19: 『寝たら負け』それが俺のモットーだ、キッド。だから俺がここにいるうちに買っとけ！
+		Dialogue18: この中には、誰かにとって家族の大事な思い出があるものもあるらしい。ここにいる奴らには関係ないけどな、俺は家族カウンセラーやる時間ねえよ。欲しいならトニーの前に取っとくべきだったな。
+		Dialogue17: トニーはパーティー大好きだ。俺は嫌いだけど、仕事だから仕方ねえ。
+		Dialogue16: もっと商品が欲しいなら、でかい奴らを倒しに行けよ。それでトニーが余計な注目浴びずに密輸できるんだ。
+		Dialogue15: トニーが言うには、冒険で手に入れる物の中には変な磁力があるらしい。まるで接着剤みたいにくっつくんだって。なんか意味あるんじゃね?
+		Dialogue14: おい、俺は骨粉なんて売らねえよ。あのガラクタはマジでヤバいんだ、わかったか?頭大事にしたいなら近づくなよ。
+		Dialogue13: パーティーは嫌いだけど、売り物を隠すにはいいんだよな。
+		Dialogue12: ここら辺に俺の売ってるような物が転がってるって聞いたぞ。どうやって手に入れるかは知らねえ、トニーが試してるけどな。なんか変なもん見つけたら教えてくれよ?
+		Dialogue11: これが安全かって?知らねえよ。
+		Dialogue10: 「VHS」テープは絶対信用すんな、キッド。時代遅れの技術ってだけじゃねえ、誰かが直接売ってくるなら、たぶん中に悪魔が入ってるぞ。
+		Dialogue9: 俺の兄貴のトニーは昔、物売ってたんだ。どうやら想像を超えるホラーが、トニーが売るのを嫌ってるみたいでな、これが俺たちの解決策だ。
+		Dialogue8: ピザ好きかって?キッド、最後にピザ食った時、色とりどりのピザ屋のマスクに襲われそうになったんだ。今じゃピザは苦えよ。
+		Dialogue7: 変な密輸品が欲しい?多分、いいところに来たなぁ。俺のガラクタ買った奴の中には二度と戻らねえのもいるけどな。
+		Dialogue6: このセーター?アーケードで勝ち取ったんだ。変なアーケードマシンやってたら、黒服の男たちがタダでくれたぞ！
+		Dialogue5: 俺がこれを試したかって?キリストの兄弟よ、俺はそんなバカじゃねえ。だが君はそうみたいだな。さあ、もっと買えよ。
+		Dialogue4: 悪いな、キッド、今はあんま渡せるもんねえよ。トニーがいい物手に入れるには、でかい奴らをぶっ倒してくれ、わかるだろ?
+		Dialogue3: おい、キッド！遅えぞ！さっき誰かにでかい金の指輪売っちまった。そいつからしばらく連絡ねえけどな。
+		Dialogue2: 俺の兄貴トニーが供給元だ。どうやら君が戦ってるでかい奴らがボコボコにされると、物が手に入りやすくなるらしい。どういう仕組みかは聞くな、俺も知らねえんだ。
+		Dialogue1: おい、キッド、ナイトメアの燃料欲しいか?ピッタリハマるぜ。
+	}
+
+	SkeletonBouncer: {
+		Dialogue5: ...
+		Dialogue4: 会社が新しい異世界の銃を供給してくれてる。前よりいいって言うけど、わかんねえな、なんか叫び声聞いた気がするぜ。
+		Dialogue3: このパーティー、めっちゃ楽しいな。おい、犯罪事は起こすなよ、さもないとこのマシンピストルでぶっ殺すぜ。
+		Dialogue2: さっ、パーティーを楽しんでくれ。ただ、誰の邪魔もすんなよ。
+		Dialogue1: おお、新顔だな。トラブル起こすとこなんて見たくねえぞ。このパーティー、準備に相当の時間と労力かかってんだ。
+	}
+
+	PartySkeleton: {
+		Dialogue31: ゾンボイドからスケレトイドへの変化はまさに魔法だ。最も卑しい存在だった私たちが、今や最も尊敬される存在へと変わったんだ！
+		Dialogue30: みじめで骨に取り憑かれているって言われるよ。
+		Dialogue29: 黙れ！俺のパパは[Valve]で働いてて、お前の腐った死体をモデルのテクスチャに使うぞ！
+		Dialogue28: このパーティーの真の魂は俺だ。パーティーの主役になるなんて?みっともないね！
+		Dialogue27: あの巨大な光のビームってどこから来てるんだろう?俺にも分からないけど、めっちゃいい雰囲気だよね！
+		Dialogue26: 今俺たちが見えるってどういうこと?ずっとここにいたのに。
+		Dialogue25: 俺のお気に入りのビデオゲームが出るのを待ってるんだ…スケルトンになる前からね。
+		Dialogue24: スケルトンがどうやって酔っ払うのか考えたことある?考えない方がいいよ、その答えに耐えられないから。
+		Dialogue23: なんか男が走ってきて「ラーーの呪い！」って叫んだよ。一体何だよそれ?
+		Dialogue22: ふーん、ここら辺の出身じゃないんだね?なんかストレス溜まってそうに見える、それならここにいた方がいい！こんなパーティーそうそうないからさ。
+		Dialogue21: カタコンベのスケルトンが地下で暮らせると自慢するのにうんざりしてる。あいつらこんな風にパーティーできる?できないよね。
+		Dialogue20: ぶっ飛んだパーティーだろ?だが土の中で寝てるだけじゃなく、こうやって楽しめるの最高だよ。
+		Dialogue19: ネクロマンシーなしじゃパーティーじゃないよね。
+		Dialogue18: 音楽はどこだよ?パーティーって音楽があるはずじゃ—ああ、そうか、俺耳ないんだ、死にまくりだよ。
+		Dialogue17: パーティーが大好きだ！！グラァァァー！！！
+		Dialogue16: 俺は普通のスケルトンだよ、ここに何もないよ。
+		Dialogue15: セーター着たやつがいい感じのザザ売ってくれると思ったのに。今、影の人間が見えてるよ。
+		Dialogue14: 黒いセーターのやつからは離れてた方がいいよ。あいつ、ゾッとする感じがする。
+		Dialogue13: カタコンベの警備賃金を上げるために組合作るべきだ！
+		Dialogue12: カタコンベの警備から羽を伸ばせるっていいよね。
+		Dialogue11: 飲みすぎちゃって、今色が味わえるよ！
+		Dialogue10: アァァァァァァ…
+		Dialogue9: 何をやっている！?ここではパーティーするべきだ！バカな話してる場合じゃない！
+		Dialogue8: これ以上盛り上がったら、ホントに俺死ぬよ。
+		Dialogue7: ぶっちゃけ、スケルトンのダジャレにめっちゃ疲れてきたよ。
+		Dialogue6: 俺こそがパーティーの主役だ。
+		Dialogue5: 車の鍵忘れちゃって、家に帰れないよ、助けて！！
+		Dialogue4: このパーティー、最高にヤバいね！！
+		Dialogue3: ウオォォォォー!!!
+		Dialogue2: 死ぬまで踊れぇ！！！
+		Dialogue1: 兄弟、俺もうダメだ。
+	}
+
+	OldHunter: {
+		Default5: パチンコを使ったことあるか?俺の最先端高速パチンコを使ったことなんてないだろ！
+		Default4: 昔、洞窟にクモがいなかったって知ってたか?昔はしょっちゅう客が来てたけど、最近はクモが怖すぎるって人もたくさんいるもんでな。
+		Default3: ファンタジーの剣?クレイジーな魔法武器?普通の人間なら、いい感じの銃使うよね?
+		Default2: ハンティングは最高のスポーツだ！遠くから変なクモクリーチャーを狙撃したことあるか?
+		Default1: 銃が欲しいなら、いいところに来たぞ！誰にも超えられない古風な武器持ってるぜ！
+		Awaken: は?何だこれ?で、あんたは誰だ！?何が起こった、どれだけ寝ちまったんだ?...まぁ、どうでもいいか。あんた、けっこう強そうじゃん。俺のクレイジーな武器、買わねぇか?
+	}
+
+	LittleEye: {
+		Button2: 大釜
+		Button1: 報酬
+		Quest4Complete: ついにあの極悪な悪党を倒したね。君の努力に報いるため、この魔法の水晶玉を渡そう。じっくり考えて、有効活用してね。
+		Quest3Complete: やった！高価なフェルトを…って、え、これしか壊れなかったって?うわ、こんな小さいの、何も作れないよ…。まぁいいや、さっき一瞬で作ったこのクロークあげる。冒険で役立つといいな。
+		Quest2Complete: うわ、チョコ…じゃなくて本物の金貨、効いたね！とにかく、この本めっちゃ怖いし、Spooky Payで返品できないから、君が持ってて…。絶対ここに持ってこないでね。
+		Quest1Complete: 思ったより早く巨大ゴブリンを発見したね！それに...なんとか生き残ったんだね！すごいよ！とりあえず、ゴブリンを縫うのに使ったこの糸あげる。呪われてるかもしれないから、何が起こるかわからないよ。でも、君ならもっと活用できると思うな。
+		Quest5Accepted: 私が作った特別なフラスコを受け取って。君が想像もできない素材でできてるよ。これで卵のバリア魔法を解除できるはずだけど、何が起こるかはわからない。常に最悪に備えてね！
+		Quest4Accepted: 私の大好きな目薬の容器だよ。私のクローンも私と同じだから、これで引き寄せられるはず。急いで、できるだけ早くそいつを死なせて！
+		Quest3Accepted: よし、私の縫い物商品が半分クモだから、この死んだカビだらけの甲虫でいけるはず！じっと待ってれば、たぶん匂いで…いや、なんか私が仕込んだコンピュータで感知するかも。
+		Quest2Accepted: この金の袋があれば、悪辣なゴーストバンディットを引き寄せられるよ。そいつらを見つけて、私がせっかく作ったラボに軽い物損与えた結果を見せてやりな！
+		Quest1Accepted: よし、グレムリンを見つけるなら、たぶんお腹空いてるよ。私が取っておいたこの美味しそうなケーキのスライス持ってって、誘い出せると思うよ。
+		Upgrades: 私の大釜のこと、聞いたことない?センシエントハートを手に入れたら、特定の武器と組み合わせてちょっとクレイジーなものに変えられるよ。センシエントハートは大きくて強いクリーチャーが落とすから、気をつけて探して！あと、蛇のペアを倒すと、血の湖に強いクリーチャーが現れて、そいつも持ってるって噂だよ！
+		OrroBoro: ねえ、今、巨大なワームが君を追いかけてるよ。とりあえずそれどうにかした方がいいんじゃない?
+		Default8: あそこの巨大な血の池見た?超ヤバい奴らがいるんだけど、普通の釣り竿じゃ何も釣れないんだよ。
+		Default7: もし錬金術で作った物が派手にぶち壊れなかったなら、きっと何かミスってるね。
+		Default6: ここでやってる錬金術は科学って感じじゃない。適当なものを大釜にぶち込んで、わけわかんないこと言うのが錬金術って感じ！
+		Default5: 私の大釜、滅茶苦茶ヤバイよ。前に使った奴なんか、でかい蜂と戦うために火のエリクサー作りたかったらしいのに、コミカルに爆発しちゃったのさ。
+		Default4: 私の魔法の大釜使っていいよ、ただしそのためには魔法の言葉を…なんてね、冗談！いつでも使っていいよ。
+		Default3: 錬金術師って呼ぶ人もいるけど、私はただ笑いのためにヤバい調合物作ってるだけさ。
+		Default2: この辺に変な巨大な卵があるの知ってる?あれならきっとスクランブルエッグ何週間分も作れるよ！
+		Default1: ここさ、めっちゃヘンだよね！あの奇妙に浮いた肉達がガンガンぶつかるの、最高に面白い！
+		Awaken: おっと、昼寝しようとしてたのに！こんな奥まで来るなんて、よっぽど好奇心旺盛な冒険者だね。まぁ、ゆっくりしていきなよ。このでかいラボの修理はもう諦めたんだ。あ、ついでに見つけた変な水晶のガラクタ持ってきてよ。役立つかもよ。
+	}
+
+	LittleBone: {
+		Button2: 呼び出し
+		Button1: アドバイス
+		Hallow2: すごく綺麗で平和そうな場所なのに、めっちゃ危険な妖精がいっぱいいるね！
+		Hallow1: うわ、この場所キラキラしてて明るい！前からこんな所あったっけ?
+		Crimson2: なんてこった、こんなひどい場所がこの地に存在するなんて...僕でも怖すぎるよ。
+		Crimson1: ウワッウワッウワッ！なんて汚らしい場所だよ、これ！?
+		Corruption2: ここの化け物たち、めっちゃ気持ち悪い。見るのもヤダ！
+		Corruption1: この場所、なんかカッコいいね。悪いって噂で、触れるもの全部腐らせるとか聞くけど、もったいない。
+		Shimmer2: なんて神秘的でキラキラした湖！飛び込んだら何が起こるんだろう?
+		Shimmer1: 今まで見た湖の中で一番綺麗だ！
+		Dungeon: このダンジョン、めっちゃ怖い！遠くにいるスケルトンたちが、ハロウィンの楽しさを広めに来るのかな?
+		Mushroom2: こんな変な場所の話、聞いたことあったけど、実際に目にするなんて思わなかった！
+		Mushroom1: この場所、めっちゃいい感じだけど、なんでそんな目で僕の事見るの?
+		Jungle2: なんでここ、全部こんな敵対的なの?植物まで食おうとしてくる！
+		Jungle1: めっちゃ濃くてジメジメした森。めっちゃイケてる！
+		Desert3: どこか別のとこ行けない?砂が花鉢の中に入ってくる！
+		Desert2: イタッ！なんでこんなトゲトゲの痛い植物ばっかなの?植物って優しくてフレンドリーなはずじゃん！
+		Desert1: なんてひどい場所だよ?砂ばっかでめっちゃ暑い。嫌いだ、ここ。
+		Snow2: ちょっと怖い雰囲気だけど、めっちゃ寒いね！
+		Snow1: ブルッ、めっちゃ寒い森だ！
+		Forest3: この場所、好きだよ。このいい感じの森、まるで奇妙な森以外でも家みたい。
+		Forest2: いい場所見つけたね！めっちゃ落ち着いて平和。
+		Forest1: この森、普段いる奇妙な森みたい…でも、怖さどこ行った?
+		SpiderGrotto3: うわっ！めっちゃベトベトのクモの巣だらけ、早く出られない?
+		SpiderGrotto2: 光る目がどこにでもいる！猛毒のクモに噛まれないといいね。
+		SpiderGrotto1: 思ったより暗い場所だね。昔、ここにどんな人たちが住んでたんだろう?
+		CatacombSecondLayer3: この場所、なんか変だね。この植物クリーチャー、妙に馴染みがある。
+		CatacombSecondLayer2: 陽光が全くないのに、なんでこんなに植物が生えてるんだろう?
+		CatacombSecondLayer1: ここ、変な植物の侵入がすごいね。なんか、知的なのもいる！
+		CatacombFirstLayer3: この場所、なんか変だ。ここのアンデッドクリーチャー、ほかのどことも全然違う。
+		CatacombFirstLayer2: 気をつけて！でかい転がるドクロに押しつぶされた探検者の噂を聞いたよ！
+		CatacombFirstLayer1: 地下のカタコンベで、陽光がないのに植物めっちゃ多いね…
+		Cemetery3: 墓地って変な場所だよね。ゾンビとかアンデッドモンスターが生き返るんだ。気をつけて！
+		Cemetery2: 周りに気をつけて。うっかりした人間を憑依するゴーストがいるって聞いたよ。
+		Cemetery1: この場所、めっちゃ霧が濃くて怖い！でも大好き！
+		SpookyHell4: ここに住むクリーチャー、どことも全然違うし、なんで生きてるのもいるの?
+		SpookyHell3: このバイオーム、汚い臓器や触手が生えてて、気持ち悪いよ。
+		SpookyHell2: この場所、ゾッとする！近くに何もいないのに、なんかストーカーされてる気分。
+		SpookyHell1: 地獄にある場所なのに、なんか変に寒いね。
+		SpookyBiome3: この下に、変なキノコだらけの大きな洞窟があるらしいよ。探検したら楽しそう！
+		SpookyBiome2: この奇妙な森って住むのに最高！まぁ、夜の変なゾンボイド以外はね。
+		SpookyBiome1: 時々、ここに生えてくる頭蓋骨と話すの好きなんだけど、返事してくれないんだよね。
+		Default6: ...
+		Default5: 植物であるのも悪くないよ。少なくとも景色は楽しめるじゃん！
+		Default4: 冒険行くの楽しいね。花鉢の中で動けないのが残念だけど。
+		Default3: うわ、ハロウィンのノリだね！
+		Default2: ハロウィンシーズンっていつの事?いつだってハロウィンだよ！まぁ、僕視点ではね。
+		Default1: なんで踊ってるかって?楽しいからだよ。君もやってみな！
+		NoTransport: もう僕の魔法の植木鉢持ってるじゃないか。
+		Transport: ほら、僕の魔法の移動用鉢持ってて。これ使えば、冒険のどこでも僕を連れて行けるよ！一緒に旅して、必要な時に助けられたらいいなって。
+		NoAdvice: ごめん、今はアドバイスできることないや。
+		BigBone: カタコンベのアリーナに入れるようになったから、そこで大混乱起こしてる奴にやっと立ち向かえるよ。
+		OrroBoro: 巨大ロボットを全部倒したなら、クリーピー・めだま渓谷に戻ってみなよ。そこに住む腕利きの錬金術師が特別な物質を作れるって話だよ。
+		CatacombLayer2: ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭを倒したなら、カタコンベに戻ってみな。深いカタコンベのガーディアンを起こして倒せば、さらに奥を探検させてくれるらしいよ。
+		EyeValley: ジャングルの下、地獄にあるめっちゃクリーピーな目だらけのバイオームがあるよ！なんか見られてる感じで嫌いだけど、君なら探検できる気がするよ。
+		CatacombLayer1: カタコンベに入れるようになったなら、探検してみなよ。そこにはたくさんの忘れられた戦利品があるって！ジャングルを過ぎた墓地の建物の下にあるよ。
+		SpookySpirit: 沼墓地に住む巨大で強力なスピリットが、ふさわしいと思う相手に挑戦するって噂聞いたよ。君の今の強さなら、ふさわしいかもしれないね。
+		SpiderGrotto: この世界のどこかに、クモみたいな化け物だらけの巨大な洞窟があるよ。君なら探検できるかも。地下の深いとこにあるんだ。
+		CemeteryBiome: ジャングルを超えた先に、暗くて霧まみれの沼墓地があるよ。そこで戦利品を探せるかも！
+		RotGourd: そこそこいい装備手に入れて使ってみたいなら、家くらいデカい古い腐ったひょうたんがこのバイオームを見守ってるって話聞いたよ！この辺りに生えてるカボチャ壊せば、見つけられるかも。
+		SpookyBiome: まだ冒険始めたばかりみたいだね。この奇妙な森を探索してみて。いろんなもの見つけたり作ったりできるよ！
+		Awaken: お、新顔だね！『スモールボーン』って呼んでよ。次に何をすべきかアドバイスできるから、気軽に話しかけて！
+	}
+}
+
+DeathReasons: {
+    GodGunExplode: ホーリーファイアを長く使いすぎた。
+    BubbleExplosion: ブラッドバブルに爆破された。
+    VesicatorExplosion: ベシケーターに爆破された。
+    BiomassExplosion: バイオマターに爆破された。
+}
+
+Configs: {
+    SpookyServerConfig: {
+        HalloweenEnabled: {
+            Tooltip:
+                '''
+                Spooky modは、ゲーム内のハロウィン季節イベントを常に有効化し、生活の質を向上させる機能を提供できます
+                この設定をオンにすると、プレイ中にテラリアのハロウィン季節コンテンツが常に有効になります
+                この設定をオフにすると、Terrariaのハロウィンイベントは通常通りのタイミングでのみ発生します
+                （10月中や、パンプキンムーンのウェーブ15到達後の翌日など）
+                '''
+            Label: ハロウィンシーズン
+        }
+
+	DisplayName: Spooky Mod サーバー設定
+	}
+
+	SpookyConfig: {
+		DraggableUI: {
+			Tooltip:
+				'''
+				この設定をオンにすると、Spooky modが追加したUIを左クリックでドラッグして好きな場所に移動できます
+				この設定をオフにすると、各Spooky modのUIが固定され、移動できなくなります
+				UIを特定の位置に移動させてから固定したい場合に便利です
+				'''
+			Label: ドラッグ可能なUI
+		}
+
+		ScreenShakeIntensity: {
+			Tooltip:
+				'''
+				MOD内のさまざまな要因による画面揺れ効果の強さを調整します
+				この設定のデフォルト値は1で、通常の画面揺れ強度です
+				通常の強度より高くすると、画面揺れがより激しくなります
+				通常の強度より低くすると、画面揺れが弱くなります
+				これを0にすれば、MODの画面揺れ効果が完全に無効化されます
+				'''
+			Label: 画面揺れ強度倍率
+		}
+
+		OldHunterDramaticLight: {
+			Tooltip:
+				'''
+				古代ハンターが出来上がるとき、彼の出現アニメーションで画面が徐々に明るくなります
+				このオプションをオフにすると、彼の出現アニメーション中の画面の明るさ変化を無効にします
+				特に明るい光に敏感な場合は、これをオフにすることが重要です
+				'''
+			Label: 古代ハンターの刺激的な照明
+		}
+
+		SpookyForestSpawn: {
+			Tooltip:
+				'''
+				ワールド生成時に奇妙な森が配置される場所を変更します
+				これをオンにすると、デフォルトのオプションであるスポーン地点に配置されます
+				これをオフにすると、奇妙な森はスポーン地点から離れ、ダンジョン側のワールドに生成されます
+				このオプションは新しいワールドを作成する時のみ適用され、既存のワールドには影響しません
+				これをオフにすると、スポーン地点やその近くでワールド生成を追加する他のモッドと一緒にプレイする際に役立ちます
+				（このオプションをオフにして小さなワールドを作成すると、他のものを破壊したり上書きする可能性があります！）
+				'''
+			Label: スポーン地点の奇妙な森
+		}
+
+			DisplayName: Spooky Mod クライアント設定
+		}
+}
+
+Conditions: {
+    InSpiderCaveBiome: Mods.Spooky.Conditions.InSpiderCaveBiome
+    BigBoneDowned: ビッグボーンを撃破後
+    OrroboroDowned: オーロ&ボロを撃破後
+    DaffodilDowned: ダフォディルを撃破後
+    MocoDowned: モコを撃破後
+    SpookySpiritDowned: スポーキースピリットを撃破後
+    RotGourdDowned: ロットゴードを撃破後
+    InCemeteryBiome: 沼墓地にいる
+    InSpookyBiome: 奇妙な森にいる
+}
+
+Buffs: {
+	    SpookFishronMinionBuff: {
+        Description: ピグロンがあなたを守る
+        DisplayName: 奇妙なピグロン
+    }
+
+	SinisterSnailBuff: {
+		Description: すっかり成長したね！
+		DisplayName: シニスタースネイル
+	}
+
+	PuttyPetBuff: {
+		Description: パティたちがあなたと一緒に跳ねている
+		DisplayName: パティスライム分隊
+	}
+
+	RatPetBuff: {
+		Description: 可愛いけど、たぶん病気を持ってる！
+		DisplayName: アルビノラット
+	}
+
+	BeePetBuff: {
+		Description: あなたのハニカムに引き寄せられている
+		DisplayName: ポリネータービー
+	}
+
+	ZombieCultistPetBuff: {
+		Description: おそらく脳を取り戻したいと思っているのだろう
+		DisplayName: ゾンビノーズカルティスト
+	}
+
+	EggEventEnemyBuff: {
+		Description: ""
+		DisplayName: フレッシュボルスターバフ
+	}
+
+	OrroboroPetBuff: {
+		Description: ワームたちがゆっくりとお互いを食べている
+		DisplayName: オーロ&ボロリング
+	}
+
+	StitchedCloakWebSlow: {
+		Description: ""
+		DisplayName: 縫い合わせマントウェブスロー
+	}
+
+	StitchedCloakCooldown: {
+		Description: 縫い合わせマントのダッシュは使用できない
+		DisplayName: 縫い合わせマントクールダウン
+	}
+
+	GlassEyeCooldown: {
+		Description: ガラス製のめだまが砕けている
+		DisplayName: ガラスめだまシャッタード
+	}
+
+	GlassEyeDebuff: {
+		Description: ""
+		DisplayName: ガラスめだまデバフ
+	}
+
+	GhostBanditDefense: {
+		Description: 防御力が15増加
+		DisplayName: ブルーフォードのホーリーシールド
+	}
+
+	NoseBlessingBuff: {
+		Description: 敵を攻撃すると鼻水でダメージを与える
+		DisplayName: ノーズフェラトゥの祝福
+	}
+
+	NoseBlessingDebuffCooldown: {
+		Description: ""
+		DisplayName: ノーズブレッシングデバフクールダウン
+	}
+
+	NoseBlessingDebuff: {
+		Description: ""
+		DisplayName: ノーズブレッシングデバフ
+	}
+
+	SmokerCoughDebuff: {
+		Description: ""
+		DisplayName: スモーカーコフデバフ
+	}
+
+	SmokerLungCooldown: {
+		Description: 咳の能力が使用できない
+		DisplayName: スモーカーズラングスクールダウン
+	}
+
+	PeptoDebuff: {
+		Description: ""
+		DisplayName: ペプトデバフ
+	}
+
+	GooseberryBoostBuff: {
+		Description: ライフ自然回復と移動速度が上昇
+		DisplayName: グーズベリーブースト
+	}
+
+	BillyBuff: {
+		Description: 傭兵ビリーボーンがあなたを守る！
+		DisplayName: ビリーボーン
+	}
+
+	WingedBiomassBuff: {
+		Description: 翼のあるバイオマスがあなたを見守っている
+		DisplayName: ウィングドバイオマス
+	}
+
+	SentientKeybrandDebuff: {
+		Description: ""
+		DisplayName: センシエントキーブランドデバフ
+	}
+
+	ToothyDebuff: {
+		Description: ""
+		DisplayName: トゥーシーデバフ
+	}
+
+	LeechBuff: {
+		Description: ヒルが一緒に戦ってくれる
+		DisplayName: ヒル
+	}
+
+	StrawberryBoostBuff: {
+		Description: ダメージ、クリティカル率、ノックバックが上昇
+		DisplayName: ストロベリーブースト
+	}
+
+	BlueberryFrost: {
+		Description: ""
+		DisplayName: ブルーベリーフロスト
+	}
+
+	BeePollinationProcessBuff: {
+		Description: ""
+		DisplayName: ビーポリネーションプロセスバフ
+	}
+
+	BeeHealingBuff: {
+		Description: ""
+		DisplayName: ポリネーションヒーリング
+	}
+
+	BeeDamageBuff: {
+		Description: ""
+		DisplayName: ポリネーションダメージ
+	}
+
+	HunterScarfMark: {
+		Description: ""
+		DisplayName: ハンタースカーフマーク
+	}
+
+	SpiderBabyBuff: {
+		Description: 彼らはあなたに懐いているようだ
+		DisplayName: ベビースパイダーズ
+	}
+
+	TrapdoorSpiderMountBuff: {
+		Description: クモ恐怖症の人は要注意！
+		DisplayName: トラップドアスパイダーマウント
+	}
+
+	PheromoneWhipDebuff: {
+		Description: ""
+		DisplayName: フェロモンウィップデバフ
+	}
+
+	WhipSpiderAggression: {
+		Description: スパイダー洞窟のクリーチャーがより攻撃的に
+		DisplayName: スパイダーフェロモンズ
+	}
+
+	SpiderStealthCooldown: {
+		Description: スパイダーステルスに入れません
+		DisplayName: スパイオプスステルスクールダウン
+	}
+
+	SpiderArmorStealth: {
+		Description:
+			'''
+			敵にターゲットされません
+			ダメージ軽減が12%増加
+			'''
+		DisplayName: スパイオプスステルス
+	}
+
+	HerobrineAltarCooldown: {
+		Description: 雷を召喚できない
+		DisplayName: ブロッキーオルタークールダウン
+	}
+
+	SlendermanPageBuff: {
+		Description: あなたのスレンダーマンの触手が強化
+		DisplayName: スレンダーマンページバフ
+	}
+
+	InchwormBuff: {
+		Description: あなたのリンゴを欲しがっている
+		DisplayName: ペットインチワーム
+	}
+
+	MonumentMythosShatter: {
+		Description: すべての攻撃から受けるダメージが2倍になります
+		DisplayName: フリーダムコンテインメントシャッター
+	}
+
+	MonumentMythosCooldown: {
+		Description: あなたのガラス製ピラミッドが再生中です
+		DisplayName: フリーダムコンテインメントクールダウン
+	}
+
+	BackroomsDecay: {
+		Description: ""
+		DisplayName: バックルームズディケイ
+	}
+
+	AlternateCooldown: {
+		Description: オルタネートを召喚できません
+		DisplayName: オルタネートクールダウン
+	}
+
+	ValleyNautilusBuff: {
+		Description: 友好的な小さな頭足類が後をついてくる
+		DisplayName: ベビーセファロポッド
+	}
+
+	StickyEyeBuff: {
+		Description: 有毒な化学物質が含まれているかもしれない
+		DisplayName: グローインザダークスティッキーアイ
+	}
+
+	SpookySpiritPetBuff: {
+		Description: 小さな魂があなたの周りを漂っている
+		DisplayName: 小さな魂
+	}
+
+	SkullGoopBuff: {
+		Description: 神秘的なグープがあなたの後ろを這っている
+		DisplayName: スカルグープ
+	}
+
+	SkullEmojiBuff: {
+		Description: 永遠に回り続ける
+		DisplayName: フローティングスカル
+	}
+
+	ShroomHopperBuff: {
+		Description: あなたの胞子が好きなようだ
+		DisplayName: シュルームホッパー
+	}
+
+	RotGourdPetBuff: {
+		Description: 臭いけど可愛い
+		DisplayName: タイニーロットゴード
+	}
+
+	PetscopTiaraBuff: {
+		Description: ティアラが質の悪い音楽を奏でている
+		DisplayName: ペットスコープティアラバフ
+	}
+
+	PetscopMarvinBuff: {
+		Description: マーヴィンがツールを拾います
+		DisplayName: マーヴィン
+	}
+
+	PetscopBuff: {
+		Description: ニューメーカー
+		DisplayName: ガーディアン
+	}
+
+	PandoraBeanBuff: {
+		Description: 古代の王族が後をついてくる
+		DisplayName: フォンアングストンVI
+	}
+
+	MocoPetBuff: {
+		Description: クシュン…ハックション！
+		DisplayName: ベビーモコ
+	}
+
+	GhostPetBuff: {
+		Description: ちょっと怖い小さなゴーストがあなたを導きます
+		DisplayName: リトルゴースト
+	}
+
+	FuzzBatPetBuff: {
+		Description: なぜかはわからないけど、あなたについていくのが好きなようだ
+		DisplayName: グーフィーファズバット
+	}
+
+	FlyPetBuff: {
+		Description: 威圧的にあなたの周りを飛び回っています
+		DisplayName: コーネリアスザフライ
+	}
+
+	ColumboBuff: {
+		Description: クリーチャーがあなたの後ろに潜んでいます
+		DisplayName: コロンボ
+	}
+
+	CatBuff: {
+		Description: 邪悪な小さな子猫が後をついてくる
+		DisplayName: ブラックキトゥン
+	}
+
+	BigBonePetBuff: {
+		Description: あなたの栄養を吸収しているのかも
+		DisplayName: ベビーボーン
+	}
+
+	TortumorMinionBuff: {
+		Description: トーチュモアが一緒に戦ってくれる
+		DisplayName: フレンドリートーチュモア
+	}
+
+	SkullTotemBuff: {
+		Description: 召喚ダメージ、鞭の範囲が上昇し、召喚できるミニオンの数が2
+		
+		体増える
+		DisplayName: スカルアイドルエンパワーメント
+	}
+
+	SoulSkullBuff: {
+		Description: ソウルスカルが一緒に戦ってくれる
+		DisplayName: ソウルスカル
+	}
+
+	SkullWispBuff: {
+		Description: スカルウィスプが一緒に戦ってくれる
+		DisplayName: スカルウィスプ
+	}
+
+	RotGourdMinionBuff: {
+		Description: 小さなひょうたんが敵を粉砕する
+		DisplayName: ゴードグーバー
+	}
+
+	PumpkinHeadBuff: {
+		Description: かぼちゃ頭が一緒に戦ってくれる
+		DisplayName: パンプキンヘッド
+	}
+
+	OldHunterBuff: {
+		Description: ハンターの魂があなたを守る
+		DisplayName: オールドハンターソウルズ
+	}
+
+	NoseMinionBuff: {
+		Description: ハエ達があなたの周りをブンブン飛びます
+		DisplayName: ノーズフライ
+	}
+
+	GrugBuff: {
+		Description: ガーゴイルのグラグがあなたを守る！
+		DisplayName: ガーゴイル
+	}
+
+	EyeArmorMinionBuff: {
+		Description: 小さな目があなたを守る手助けをします！
+		DisplayName: リルアイ
+	}
+
+	EntityMinionBuff: {
+		Description: ベビーエンティティが一緒に戦ってくれる
+		DisplayName: リトルエンティティ
+	}
+
+	DaffodilHandBuff: {
+		DisplayName: プラントハンド
+	}
+
+	BrainyBuff: {
+		Description: ブレイニーが怪しげにあなたについてきます
+		DisplayName: ブレイニー
+	}
+
+	ThornMark: {
+		Description: ""
+		DisplayName: ソーンマーク
+	}
+
+	SadDebuff: {
+		Description: ダメージが10%減少し、移動速度が低下
+		DisplayName: 悲しい
+	}
+
+	Possessed: {
+		Description: 邪悪なゴーストに操られた！
+		DisplayName: ポゼスト
+	}
+
+	PandoraHandCooldown: {
+		Description: ロザリーハンドを召喚できません
+		DisplayName: ロザリーハンドクールダウン
+	}
+
+	PandoraCrossCooldown: {
+		Description: クロスサウンド能力を使用できません
+		DisplayName: クロスベースクールダウン
+	}
+
+	GourdDecay: {
+		Description: ""
+		DisplayName: ロッティング
+	}
+
+	FlyCooldown: {
+		Description: 防御用のハエを召喚できない
+		DisplayName: ハエチャームリチャージ
+	}
+
+	FlowerArmorCooldown: {
+		Description: これ以上花粉を召喚できない
+		DisplayName: ポーレンクールダウン
+	}
+
+	FleshWhipDefense2: {
+		Description: ""
+		DisplayName: アイラッシャーディフェンス
+	}
+
+	FleshWhipDefense: {
+		Description: ""
+		DisplayName: アイラッシャーディフェンス
+	}
+
+	FleshWhipCooldown: {
+		Description: ""
+		DisplayName: アイラッシャークールダウン
+	}
+
+	HallucinationDebuff4: {
+		Description: 無価値だと感じます
+		DisplayName: ザフレッシュ
+	}
+
+	HallucinationDebuff3: {
+		Description: 馬がここにいます…
+		DisplayName: ザホース
+	}
+
+	HallucinationDebuff2: {
+		Description: 泣いています
+		DisplayName: ザベビー
+	}
+
+	HallucinationDebuff1: {
+		Description: 逃げられない
+		DisplayName: ザマン
+	}
+
+	EnsnaredDebuff: {
+		Description: ""
+		DisplayName: エンスネアード
+	}
+
+	EnsnaredCooldown: {
+		Description: ""
+		DisplayName: エンスネアードクールダウン
+	}
+
+	EmbryoCooldown: {
+		Description:
+			'''
+			エンブリオの復活が再チャージ中です
+			すべてのダメージとクリティカル率が上昇
+			'''
+		DisplayName: エンブリオティックシャッター
+	}
+
+	CrossCooldown: {
+		Description: クロスプロテクションが再チャージ中です
+		DisplayName: クロスチャームクールダウン
+	}
+
+	CatacombDebuff: {
+		Description: 呪いによって視界が制限されています
+		DisplayName: カタコンベの呪い
+	}
+
+	BouncerDeathmark: {
+		Description: 止まれ！お前は法を犯したんだ！
+		DisplayName: スケルトンバウンサーデスマーク
+	}
+
+	SnottySchnozCooldown: {
+		Description: 鼻水の狂乱は再チャージ中
+		DisplayName: スノッティシュノーズクールダウン
+	}
+
+	SkullFrenzyBuff: {
+		Description: ダメージ、クリティカル率、ノックバック、移動速度が上昇
+		DisplayName: ネクロマンシックフレンジー
+	}
+
+	FlyBuff: {
+		Description: ハエの群れがあなたを守っています
+		DisplayName: フライスウォーム
+	}
+
+	EmbryoRevival: {
+		Description:
+			'''
+			エンブリオがあなたを死から救った
+			防御力とライフ自然回復が大幅に上昇
+			'''
+		DisplayName: エンブリオティックリバイバル
+	}
+
+	DaffodilHairpinCooldown: {
+		Description: 花びらのリングが再生中です
+		DisplayName: ソーンペタルクールダウン
+	}
+
+	BustlingGlowshroomHeal: {
+		Description: ライフ自然回復が大幅に増進
+		DisplayName: グローシュルームリジェネレーション
+	}
+}
+
+
+BossChecklistIntegration: {
+    EggEvent: {
+        SpawnInfo: インベントリに[i:Spooky/Concoction]を所持した状態でめだま渓谷の卵を右クリックする。すでにイベントを完了している場合は[i:Spooky/StrangeCyst]使用でも可能
+        EntryName: エッグ襲来
+    }
+
+	PandoraBox: {
+		SpawnInfo: カタコンベで神秘的なパンドラの箱を開ける
+		EntryName: パンドラの箱
+	}
+
+	}
+	Biomes: {
+		HallucinationZone: {
+			TownNPCDialogueName: 幻覚エンカウンター
+			DisplayName: 幻覚エンカウンター
+		}
+
+	SpiderCaveBiome: {
+		TownNPCDialogueName: クモ洞窟
+		DisplayName: クモ洞窟
+	}
+
+	SpookyHellLake: {
+		TownNPCDialogueName: 血の湖
+		DisplayName: 血の湖
+	}
+
+	SpookyHellEventBiome: {
+		TownNPCDialogueName: エッグ襲来
+		DisplayName: エッグ襲来
+	}
+
+	SpookyHellBiome: {
+		TownNPCDialogueName: めだま渓谷
+		DisplayName: めだま渓谷
+	}
+
+	PandoraBoxBiome: {
+		TownNPCDialogueName: パンドラの箱
+		DisplayName: パンドラの箱
+	}
+
+	NoseTempleBiome: {
+		TownNPCDialogueName: モコの寺院
+		DisplayName: モコの寺院
+	}
+
+	CatacombBiome2: {
+		TownNPCDialogueName: 深層カタコンベ
+		DisplayName: 深層カタコンベ
+	}
+
+	CatacombBiome: {
+		TownNPCDialogueName: クリーピーカタコンベ
+		DisplayName: クリーピーカタコンベ
+	}
+
+	RaveyardBiome: {
+		TownNPCDialogueName: レイヴヤード
+		DisplayName: レイヴヤード
+	}
+
+	CemeteryBiome: {
+		TownNPCDialogueName: 沼墓地
+		DisplayName: 沼墓地
+	}
+
+	SpookyBiomeUg: {
+		TownNPCDialogueName: 地下の奇妙な森
+		DisplayName: 奇妙な森(地下)
+	}
+
+	SpookyBiome: {
+		TownNPCDialogueName: 奇妙な森
+		DisplayName: 奇妙な森
+	}
+}
+
+Biomes: {
+    HallucinationZone: {
+        TownNPCDialogueName: 幻覚エンカウンター
+        DisplayName: 幻覚エンカウンター
+    }
+
+	SpiderCaveBiome: {
+		TownNPCDialogueName: クモ洞窟
+		DisplayName: クモ洞窟
+	}
+
+	SpookyHellLake: {
+		TownNPCDialogueName: 血の湖
+		DisplayName: 血の湖
+	}
+
+	SpookyHellEventBiome: {
+		TownNPCDialogueName: エッグ襲来
+		DisplayName: エッグ襲来
+	}
+
+	SpookyHellBiome: {
+		TownNPCDialogueName: めだま渓谷
+		DisplayName: めだま渓谷
+	}
+
+	PandoraBoxBiome: {
+		TownNPCDialogueName: パンドラの箱
+		DisplayName: パンドラの箱
+	}
+
+	NoseTempleBiome: {
+		TownNPCDialogueName: モコの寺院
+		DisplayName: モコの寺院
+	}
+
+	CatacombBiome2: {
+		TownNPCDialogueName: 深層カタコンベ
+		DisplayName: 深層カタコンベ
+	}
+
+	CatacombBiome: {
+		TownNPCDialogueName: クリーピーカタコンベ
+		DisplayName: クリーピーカタコンベ
+	}
+
+	RaveyardBiome: {
+		TownNPCDialogueName: レイヴヤード
+		DisplayName: レイヴヤード
+	}
+
+	CemeteryBiome: {
+		TownNPCDialogueName: 沼墓地
+		DisplayName: 沼墓地
+	}
+
+	SpookyBiomeUg: {
+		TownNPCDialogueName: 地下の奇妙な森
+		DisplayName: 奇妙な森(地下)
+	}
+
+	SpookyBiome: {
+		TownNPCDialogueName: 奇妙な森
+		DisplayName: 奇妙な森
+	}
+}
+
+Bestiary: {
+    BanditBook: 墓荒らしの魂がいたずらな行為により本に閉じ込められた集団。小さな目に売られた後、誤って本が開けられた。彼らは小さな目のラボから逃げ出し、かつて死ぬ前にしていたようにカタコンベから宝を盗むため墓地にたどり着いた。
+    FrankenGoblin: ラボの守護者を作ろうとした小さな目が、代わりに恐ろしいフランケンシュタイン風のゴブリンを作り上げた。非常に怠惰だが敵対的な性格を持ち、物を掴むための伸縮自在な腕を備え、戦闘では目を召喚して援護する。
+    EyeWizard: 小さな目の最も成功した実験で、彼自身の大きなクローン。強化された魔法能力を持ち、さまざまな呪文を使い、地面に固定されずに自由に動ける。スタイリッシュなクロークと帽子を見つけた後、小さな目のラボを離れてスキルを磨き、小さな目を非常に嫉妬させた。
+    StitchSpider: 縫い物の商品がキメラと化したこのクモのようなクリーチャーは、フェルトとクモの皮でできており、逃げ出した後クモ洞窟を這い回る。金属の牙と体内に搭載された迫撃砲を持ち、熱追尾ミサイルを発射できる。
+    SnotSlime: 呪術師の鼻水にはそれ自体で生きるほどの魔法の力があり、生きている塊の形で跳ね回る。
+    SnotMonster: 呪術師が魔法の鼻水で作り出した人型の存在。一時的な番兵として機能し、魔法が切れると爆発する。
+    NoseCultistLeader: カルトの偉大なリーダーで、最も強力なカルティスト。体内の鼻水魔法の量により不安定に呪文を放つが、それが彼を狂気に変えた。鼻カルトのリーダーに最適な特性。
+    NoseCultistBrute: かつて下級カルティストだった者たちが、神聖な鼻水魔法の祝福を受け、知性を失った強力な野獣に変貌。粘着性のある鼻水のフレイルを軽々と振り回す。
+    NoseCultistMage: カルトの下級者よりはるかに高位とされ、より大きく、魔法の鼻水で援軍を召喚できる。
+    NoseCultistWinged: カルトの上位者が変異して翼を生やし、素早く空中を移動できる。この独特な飛行能力から、彼らが崇拝する存在のように神聖視される。
+    NoseCultistGunner: カルト独自の創造物であるブーガーブラスターで武装。カルティストにとって重要な武器で、彼らはこれから神聖なテレパシーのメッセージを受け取ると主張する。
+    NoseCultistGrunt: 鼻カルトのメンバーであり、儀式に非常に忠実。常に鼻水が出続けており、それを敵に対して使うことができる。
+    NoseBallRed: ノーズフェラトゥによって作られ、気まぐれに動き回って注意を引きつける。自分を犠牲にした他のカルティストの部品を使って形成される。
+    NoseBallPurple: リーダーの魔法で融合した鼻の大きな塊。多くの鼻から空気を吹き出して表面を跳ね回る。
+    WhipSpider: このクリーチャーはクモというよりも甲殻類に近い。フェロモンをまとった長い鞭のような舌を持ち、他のクモの攻撃性を高める。
+    TrapdoorSpider2: 完全に成長したトラップドアスパイダーはさらに危険だ。成熟して増えた脚により、効率的に穴を掘り獲物を追いかける。
+    TrapdoorSpider1: まだ幼いクモであり、細い脚を使って地面へと掘り込み身を潜め、油断した獲物に飛びかかる。
+    TinySpider5: さまざまな色に適応し、他の種に自分の子だと騙して、気づかない親から資源を奪う。
+    TinySpider4: 洞窟で大きな卵を見かけたら、たぶんこれが中に入ってる。近づかないように。
+    TinySpider3: このクモは非常に賢い。卵に似せた絹の繭を作り、何かが触ると破裂して攻撃する。
+    TinySpider2: 卵のような絹の繭に隠れ、不意の探検者を驚かせて怖がらせる。
+    TinySpider1: 非常に弱いが、群れになると危険。洞窟の暗闇では見つけにくい。
+    TarantulaHawk3: タランチュラホークは大きなハエの姿に適応し、気づかれずに獲物に近づく。
+    TarantulaHawk2: 強い脚で小さなクモを獲物に運び、互いに食料を分け合う。興味深い共生関係だ。
+    TarantulaHawk1: 普通のクモでも変なのに、これは飛べる。洞窟でより強力で攻撃的な種。
+    OrbWeaverGiant: 洞窟をまれに徘徊する怖い変異オーブウィーバー。美しい殻に魅了されるが、実は危険なクモだと気づくのは遅い。
+    OrbWeaver3: オーブウィーバーの亜種で、棘は他のオーブウィーバーほど鋭くないが、危険な毒で覆われている。
+    OrbWeaver2: 殻のドクロのような模様は、侵入者や睡眠を邪魔するものを追い払うのに役立つ。
+    OrbWeaver1: 背中に巨大な殻を持つ小さなクモ。貯めた圧力で棘を撃ち、素早く再生して防御する。
+    Moth2: 珍しい茶色の毛を持つ蛾で、捕食者に地形の一部だと誤解させる。
+    Moth1: 洞窟を飛び回る可愛い毛むくじゃらの蛾。そこに住む唯一の友好的な見た目のクリーチャーかもしれない。
+    Mosquito3: 極端に貪欲な蚊で、体が風船のようにはち切れている。
+    Mosquito2: 吸った血で体が少し膨らんでいる蚊。
+    Mosquito1: 迷惑で病気を広げる害虫。
+    LeafSpider: とても賢いクリーチャーで、壊れやすい体を大きな葉で偽装して守る。危険を感じると、糸を飛ばし安全な所へ避難する。
+    JumpingSpider2: 巣をほとんど作らず、より攻撃的で活動的な生活を送る。強力な麻痺毒が牙にあり、噛まれると致命傷になりえる。
+    JumpingSpider1: 脚が小さく歩くのは遅いが、長い距離を正確に跳ぶよう進化した。
+    Inchworm3: 奇跡的に敵対的な外見に適応し、クモに狙われにくくなったシャクトリムシ。
+    Inchworm2: 湿った洞窟に住む可愛くて内気な小さな虫。クモに美味しく、よく食べられる。
+    Inchworm1: クモだらけの湿った洞窟を這う小さな虫。クモに食べられないよう隠れるのが苦手。
+    DaddyLongLegs: 長い脚で洞窟の粗い地形を歩く。噛む以外の攻撃手段がなく、見た目ほど怖くない。
+    Cockroach: 気持ち悪くて駆除しにくい害虫。幸い、普段は棲む洞窟の外にあまり出てこない。
+    BallSpider: 丸々としたクリーチャーで、短い脚では限られた移動しかできないが、巣を巧みに作り、天井からぶら下がって獲物を追う。
+    Ant2: 茶色ではなく明るい赤色の珍しいアリ。少し怒っているようにも見える。
+    Ant1: クモだらけの湿った洞窟にいる普通の昆虫。環境に溶け込むのが得意。
+    ValleyMerman: 血の湖に住む魚のような人型クリーチャー。血やバイオマスを飲み込み、有害な物質として吐き出す。
+    ValleyShark: 非常に攻撃的なグロテスクな人型サメ。顎を遠くまで射出し、遠くの獲物を捕まえる。
+    ValleyEel: 厚い膜に覆われた大きなウナギ。血と空気中を素早く動き、速くて巧みなハンターで、ほとんど何でも混乱させ追い越す。
+    ValleySquid: ガスで満たされた頭を使い、浮かんだり血から飛び出して飛ぶ。血のインクの塊を撃ち、獲物を遅くする。
+    ValleyNautilus: 血の湖に潜む強力な変異オウムガイ。体内に貯めた血と酸素を使い、浮かんでさまざまな有害な射出物を撃つ。
+    ValleyFish: 血の湖に一般的な小さな肉質の魚。小さいが、速い動きで準備不足の者を圧倒する。
+    TortumorGiantFleshy: めだま渓谷がなぜこの原始的なクリーチャーを作り続けるのか不明。肉でできた体は小さなトーチュモアを簡単に育て、それを攻撃に使う。
+    TortumorFleshy: めだま渓谷が最初に生み出したとされるクリーチャー。他の生命体を模倣する前は、このような無秩序な肉と骨の塊しか作れなかった。
+    TortumorGiant: まれにめだま渓谷を無目的に漂う変異トーチュモア。体内のガスは非常に不安定で、十分に傷つけると燃焼する。
+    Tortumor: 奇妙に非敵対的な肉の塊。特別なガスが体内にあり、予測不能に浮かんで推進する。
+    MrHandyFleshy: さらに不安定で、めだま渓谷は鋭い爪を持つように作り、獲物や望まぬ侵入者を引き裂く。
+    MrHandy: 非常にエネルギッシュな生きている手。ターゲットに向かって攻撃的に跳ねる。遠くでは滑稽に見えるが、近づくと危険。
+    Mocling: 鼻のような虫で、領地周辺を「モック」と呼ばれる群れでホバリングする。近づかれるのを嫌い、脅威に対して鼻水を撃つ。
+    ManHoleFleshy: めだま渓谷が作り、バイオマスを吸収するために獲物を食べる。地面に沈み、別の場所で浮上して獲物を惑わす。
+    ManHole: めだま渓谷の地面に形成される恐ろしい口。不意の探検者に非常に危険。遠くの獲物を消化するために唾液を吐く。
+    EyeBatFleshy: めだま渓谷が悪魔やヘルバットを模倣したもの。鋭い爪と歯で肉を簡単に突き刺す。
+    EyeBat: 飛行する忌まわしい存在で、素早く巧みなハンター。体全体に目があり、全方向を見ることができる。
+    ZomboidWind: 大きな金属のウィンドチャイムに突き刺さったゾンボイド。それでも平気で歩き回る。
+    ZomboidWarlock: 脳が死んでいないゾンボイドで、魔法を学び使い、呪文を放って敵を攻撃する。
+    ZomboidTomatoMold: ブラッドムーンにトマトを頭に被り、盲目で無謀に走り回る。倒されると地面に有害なトマトジュースを残す。
+    ZomboidTomato: ブラッドムーンの呪いで狂気に駆られ、その巨大なトマトに隠れる。
+    ZomboidThorn: 夜に現れるトゲだらけのよろめくモンスター。脳が死んでいても、準備不足なら危険。
+    ZomboidRain: 体が極端に腐敗し、雨水が噴水のようにながれる。それでも無意識によろめく。
+    ZomboidPumpkinFire: ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭの死から本領発揮。怒り狂い常に燃え、攻撃はさらに混沌とし、三度の火傷を引き起こす。
+    ZomboidPumpkin: 地面に根を張り、動けないため常に怒っている。根を操り、近くの敵を下から攻撃する。
+    ZomboidFungus: 奇妙な菌類に覆われたゾンボイド。盲目だが、ターゲットの位置を嗅ぎ分ける。
+    ZomboidClarinet: ゾンボイドはよく馬鹿げたな状況に陥る。彼は巨大な楽器に全身がはまってしまったようだ。
+    ZomboidArmored: ゾンボイドが賢く見えるまれな行動は、たいてい裏目に出る。鎧を作ったのは賢いが、雷を引き寄せる素材を使ってしまったのは実に愚かだ。
+    Witch: 邪悪な魔女の話は本当だった。ｳｫｰﾙｵﾌﾞﾌﾚｯｼｭの死で強力な奇妙な魔法が解き放たれ、夜に再び生き返り毒のフラスコを皆に投げつけてくる。
+    TinyMushroom: 奇妙な森のキノコが動くなんて！今知ったよ！！！
+    TinyGhostRare: 小さなオレンジ色のゴースト。見つけて捕まえられれば、友達になれる！
+    TinyGhostBoof: もっとも上品で礼儀正しいゴースト。パイプでタバコも吸う。
+    TinyGhost2: 奇妙な森で家主を悩ませる小さな悪意ある亡魂。
+    TinyGhost1: 夜に奇妙な森を徘徊するいたずら好きな小さなゴースト。
+    SinisterSnail: 奇妙なエネルギーを持つ珍しいカタツムリ。収穫月の夜に危険なクリーチャーを引き寄せると言われる。
+    ShroomHopper: 背中に巨大なキノコを持つ小さな虫。紫の苔に覆われたエリアを平和に跳ね回る。
+    ScarecrowShotgunner: 古の魂の解放により、復讐心に燃える霊に憑依されたカカシ。人間を見つけるとショットガンを躊躇なく使う。
+    PuttySlime3: 奇妙な生きているシリーパテの塊。パテのおかげで普通のスライムより高く跳べる。
+    PuttySlime2: 奇妙な森で命を吹き込まれた奇妙なパテでできたスライム。無意識に人を驚かそうと跳ね回る。
+    PuttySlime1: 奇妙な顔を持つ小さなパテの塊。奇妙な森を跳ね回り、遭遇者を怖がらせようとするが、たいてい失敗に終わる。
+    PuttyPumpkinling: パテパンプキンが危険にさらされると生み出す子孫。群れになるとすぐに圧倒する。
+    PuttyPumpkin: ジャック・オ・ランタンに似た巨大なパテスライム。危険時には小さなスライムに分裂し、敵を簡単に圧倒する。
+    MonsterEye4: 目なのに視力が悪く、その結果あまり攻撃的ではない。
+    MonsterEye3: 夜の暗闇で跳ねる時のクチュクチュ音で気づかれる目。
+    MonsterEye2: かつて大きなクリーチャーの一部だったが、元の体から離れても生き続ける。
+    MonsterEye1: 夜の奇妙な森を跳ね回るネバネバした目。視界内のものを攻撃する。
+    LittleSpider: 人間に広く恐れられているが、湿った地下の奇妙な森を平和に徘徊するクモ。
+    HoppingCandyBasket: 奇妙な森で命を吹き込まれた生きているキャンディバスケット。倒すと持っている美味しいキャンディが手に入るかも。
+    FlySmall: 奇妙な森を飛び回る気持ち悪くて迷惑なハエ。
+    FlyBig: さらに大きくなった気持ち悪いハエ。翼が小さすぎて飛べなさそうにも見えるが、しっかり飛べる。
+    FluffBatSmall2: 翼を持つ小さな毛玉。可愛く聞こえるが、実は非常に攻撃的で縄張り意識が強い。
+    FluffBatSmall1: 夜、厚い毛に覆われた奇妙なコウモリが目覚め、不意の冒険者を攻撃する。
+    FluffBatBig2: 地下の奇妙な森を飛ぶ大きな毛玉。洞窟コウモリの攻撃的な親戚で、侵入者を追い払う。
+    FluffBatBig1: 湿った地下の奇妙な森に住む大きな毛コウモリ。住処を侵されるのを嫌う。
+    Chungus: 地下のキノコ苔フィールドを跳ね回るずんぐりしたキノコ。冒険者を口から有害な胞子を吐いて歓迎する。
+    CandleMonster: どうやって形成されるかは不明だが、見た目ほど弱くないロウソク。口から溶けた蝋を不意の人間に吐く。
+    Bungus: 奇妙な森の奥深く、紫の苔に覆われたエリアにたむろする小さな人型キノコクリーチャー。
+    SuspiciousSkeleton: ワイルドなパーティーにたむろする変なスケルトン。買う気のあるバカに超変な物体や装飾品を売る。
+    SkeletonBouncer: レイヴヤードの警備員で、事態が手に負えなくなるのを防ぐ。数秒で誰でも撃ち倒せる超兵器を持つ。
+    PartySkeleton8: アンデッドなのに、ファッションセンスがいいスケルトンもいる。たぶん盗んだ服で着飾ってる。
+    PartySkeleton7: 何も飲んでないのに、なぜか酔っ払ったように振る舞う理由は全く不明だ。
+    PartySkeleton6: かつて地面に埋まった普通のスケルトン。レイヴヤードの力で、短い時間だけでも祝える。
+    PartySkeleton5: ネオンカラーはパーティーマジックと、パーティーで消費する謎の物質の結果らしい。
+    PartySkeleton4: ワイルドな性格で一緒にいると楽しい。残念ながらパーティーマジックがないとレイヴヤード外では存在できない。
+    PartySkeleton3: 敵対的なスケルトンと違い、誰にでも友好的で最高のパーティーゲストだ。
+    PartySkeleton2: クレイジーなパーティーで蘇る古代のスケルトン。オーバードーズ寸前に見える。
+    PartySkeleton1: レイヴヤードの力で蘇るカラフルで馬鹿げたスケルトン。パーティーの狂気を愛する。
+    OldHunter: とある洞窟がクモに占領される前、そこを故郷としていた古のハンター。銃や手に入る遠距離武器を集めるのが好き。
+    Musicman: 反逆したエイリアン科学者で、君の専属DJになった。なんかコミュニケーションしようとしてるみたい…
+    LittleEye: かっこいい魔法使いの帽子をかぶった奇妙で知的なめだま。そこそこ経験豊富な錬金術師なようで、基本的に他人をからかうためにスキルを使うが、たまには役立つ。
+    LittleBone: 植木鉢にたむろする友好的な頭蓋骨のモンスター。通りすがりの人にアドバイスをしていくのが好き。
+    DumbZomboid: 迷子になったゾンボイド。読むことも考えることもできない。
+    TongueBiter: 大きな口で獲物を噛みつぶす変異した舌。背中の多くの管をブースターとして使い、空中を推進する。
+    HoverBrain: サイキックパワーを持つ大きな脳。他のクリーチャーの脳を混乱させるビームを放ち、近距離でターゲットを仕留める。
+    HoppingHeart: 柔らかい肉で地面を跳ね返りやすく跳ぶ。頭の管で体内の圧力を使い、有害な血を撃つ。
+    GooSlug: 空腹で脳がないので、噛めるものや口に入るものは何でも食べようとする。幸い、味が悪いと吐き出す。
+    FleshBolster: 袋に付いた目の触手を使い、他のクリーチャーに直接力を注入して攻撃を無力化する。
+    ExplodingAppendix: それほど強力ではないが、体内に貯めた有害な霊液を放つために自爆する肉の袋。
+    EarWorm: 地面に潜る虫なのか、常に地面に付いているのか不明。高周波の叫び声を強力な音波爆発として攻撃する。
+    CruxBat: 奇妙な脳のような飛行クリーチャー。心臓から常に送り込まれる力で、サイキックパワーを使い、敵を弱らせるオーラを召喚する。
+    CoughLungs: 汚い霊液のガスで満たされ、咳き込んで有害な雲を残す。
+    Biojetter: 複数の伸縮可能な目で多角的に見え、バイオスラスターで汚い有機グーを噴出して飛ぶ。体に大量のグーを貯め、非常に不安定。
+    ZomboidGremlin: 他のゾンボイドに比べて異常な敵意を持つ小さなゾンボイド。コミカルに小さいが、ターゲットを追いかける。
+    ZomboidCasket: 底に脚がある動く棺桶。壊す勇気のある者には素晴らしいサプライズが！
+    TinyRat2: 小さくて可愛いネズミだが、どれだけ汚いかわからない。
+    TinyRat1: 墓地に住む小さなネズミ。静かに走り回る。
+    SpookyDance: この奇妙な月は一年中！少なくともこの楽しげなゴーストはそう信じている！
+    SmileGhost: とても幸せで陽気なスピリット。あまりにも幸せで、小さなフォロワーのグループまでいる。ただし、見た目ほど優しくない。
+    SadGhostSmall: 墓地をうろつく悲しきゴースト。近くにる者たちにも悲しみを波及させる。
+    SadGhostBig: なぜか大きくなった悲しきゴースト。墓地をさまよっており、感情さえ武器として使う。
+    Possessor: 夜の墓地を徘徊する邪悪なゴースト。憑依するターゲットに悪意を持って追いかけまわす。
+    MistGhostWiggle: 魔力で動くゴーストで、非常に不安定。その結果、墓を掘る者を攻撃する。
+    MistGhostFaces: 墓地に埋葬された魂が一つに融合したもの。墓を荒らされる事で魂達が乱され、この融合を引き起こす。
+    MistGhost: 墓荒らしは時に最悪な結果を招く。埋葬を邪魔されるのを嫌い、実際に行った者を攻撃する。
+    HungryGhost: 墓地を漂う非常に怠惰なゴースト。生き物を食べようとするが、幽霊の体は生き物をすり抜ける。
+    FeralRat2: 赤い月の間、墓地を素早く走り回る巨大な狂暴なネズミ。目の前にいるものをただただ攻撃する。
+    FeralRat1: ブラッドムーンの間、普段隠れている墓地のネズミが恐ろしいモンスターに変貌し、見るもの全てを追いかける。
+    BloatGhost: 近づくと怖がって膨らむゴースト。彼らの群れに近づくのは危険だ。
+    Chester: パンドラの箱で最強の魂。異常なほど強力なクラブと反射シールドを振り回す。
+    Sheldon: 特定の射出物を防ぐシールドを持つ大きな塊状のスピリット。ダッシュ攻撃に注意！
+    Stitch: パンドラの箱に閉じ込められたいたずら好きなスピリット。壊れやすい杖で敵に呪文を放つ。
+    Bobbert: 爆発する小さなゴースト。近づいたり倒された時に盛大に爆発する！
+    Sunflower3: 狩りの時は完全に静止し、寝る時も同じ。起こすとたぶんもっと怒る。
+    Sunflower2: 完全に立ち止まっているのが得意で、一見ただのヒマワリに見えるが、近づいた瞬間危害を加えようと素早く追いかける。
+    Sunflower1: 完全に静止し、侵入者に忍び寄るステルス能力を完璧にしている。
+    Smelly: 敵対的ではないにしろ、恐ろしい匂いとそれに伴って引き寄せる汚いハエは確実に危険だ。探索時には洗濯バサミか鼻栓を！
+    SkeletoidBandit: かつてカタコンベに宝を盗みに侵入した泥棒だったが、迷子になって死に、ファンシーなクロークでカタコンベをステルスし、静かにターゲットを撃つ。
+    PollinatorBeeHealing: カタコンベを無目的に飛び回り、特別な花粉を他の花クリーチャーに広げ、傷を癒す。
+    PollinatorBeeDamage: 完全に無害で刺すことさえできない蜂。ただし、花の仲間を受粉させ、短時間強くする。
+    PlantTrap3: 肉食植物で、手に負えるものなら他の植物クリーチャーでも狩る。
+    PlantTrap2: 完全に静止し、深層カタコンベの暗闇を利用して、誤って踏んだ愚か者を噛む。
+    PlantTrap1: 地面に留まり、不意のクリーチャーが踏むのを待つ。顎は見た目より強力。
+    PitcherPlant4: 遺伝異常で異常な生存成功率。毒と猛毒の唾を侵入者とみなすものに撃つ。
+    PitcherPlant3: まれに変異して頭が二つになる。協力して両側から獲物や侵入者を狩る。
+    PitcherPlant2: 非常に細い見た目だが、茎は驚くほど強く、大きなブーツで地面を押して跳び回る。
+    PitcherPlant1: 異常なほど大きなブーツの中で育つ。「スピッチャー」の名は、ピッチャーに貯めた毒酸を獲物に吐くからだ。
+    OrchidPurpleSmall: 実に綺麗な花びらだが、それは巧妙な罠だ。微細な棘で覆われており、擦るたびに痛みが広がる。
+    OrchidPurpleBig: 花びらは無数の小さな棘で覆われ、接触する侵入者にダメージを与え、食べられたり殺されたりしない。
+    OrchidPinkSmall: 伸びる茎で育った場所から少し離れて移動。知らないクリーチャーに近づかれるのを嫌う。
+    OrchidPinkBig: 穏やかに見える花だが、非常に縄張り意識が強い。エリアにさえ近づかなければ侵入者を無視するだろう。
+    LilySlime2Small: 必要な時に飲むために水を下に貯める。深いカタコンベを移動するのにも役立つ。
+    LilySlime1Small: 小さな水滴を使って跳ね回る幼いリリー。
+    LilySlime2Big: もっと水を探して大きくなるため、カタコンベを無目的に跳ね回る。水っぽい体は非常に柔らかく弾力。
+    LilySlime1Big: 花の下に余分な水を閉じ込め、弾力のあるスライムのような物質に変えて跳ね回る。
+    JumpingSeed3: この種の正確な起源は不明。深いカタコンベの他の植物クリーチャーに育つ種かもしれない。
+    JumpingSeed2: 非常に小さく危害を加えてくるのはまれだが、驚かされると飛び出してくる。
+    JumpingSeed1: 地面に埋まってやがて大きな植物に育つ小さな幼苗。
+    FlushBush2: 出したり引っ込めたりできる棘は危険な毒で覆われている。紙のようなクロークが本当の体を隠し、誰も見たことがない。
+    FlushBush1: 甘い香りの花でターゲットを誘い、背を向けた時に攻撃してくる。
+    Dahlia: 深層カタコンベのガーディアンを妬み、見た目を真似ようとした奇妙な花。ちょっとやりすぎたみたい。
+    CelebrationSkeletoid5: 深層カタコンベの植物侵入により、かつての祝賀会は地上に移された。
+    CelebrationSkeletoid4: 死後も、過剰なネクロマンシー魔法で深いカタコンベに生き続ける。
+    CelebrationSkeletoid3: 植物に侵される前、深層カタコンベで盛大な祝賀会を開いていた。
+    CelebrationSkeletoid2: 上部カタコンベのスケルトイド仲間より強力で、死の魔法を持つ。
+    CelebrationSkeletoid1: 死から蘇ったスケルトイドで、深層カタコンベで祝うために戻ってきた。
+    CatacombCrusher4: 金でできた珍しいクラッシャー。深層カタコンベの亡魂の富の象徴かもしれない。
+    CatacombCrusher3: これは生命なのか何なのか。罠だと言う者もいれば、復讐心に燃える霊に憑依された古代の偶像だと言う者もいる。見たもの全てに苦痛を与えたいかのようだ。
+    CatacombCrusher2: 非常に敵対的に地面を叩き続ける。望まぬ侵入者を殺す罠として作られたかもしれない。
+    CatacombCrusher1: 大きくひび割れた像で、地面を叩き続け、深層カタコンベ全体に激しい振動を引き起こす。
+    ZomboidSuspiciomancer: 巨大なクロークの下にいたずら好きなゾンビノの集団が隠れ、ゾンボイド魔術師の一人と偽装。なぜこんな滑稽な方法で一緒に旅するのか不明。
+    ZomboidPyromancer: 最も献身的なゾンボイド魔術師でも魔法の使い方を間違えることがある。焼けたクロークから、これが初めての爆発ではないようだ。
+    ZomboidNecromancer: カタコンベに閉じこもり、ネクロマンシーを学ぶゾンボイド。周囲のアンデッドクリーチャーの魂を利用して霊を召喚する。
+    SkeletoidBig: ビッグ・ジョンはかつて非常に大きく強い奴だったけど、ある時亡くなった。それでも今なおビッグ・ジョンだ。よかったね。
+    Skeletoid4: 棘と蔓の保護バリアを持ち、忍び寄ると厄介な敵。近接戦闘はおすすめしない。
+    Skeletoid3: スケルトイドにはファッションセンスがある。この個体は生い茂る蔓を独特なヘアスタイルにしているが、たぶん一時的なもの。
+    Skeletoid2: 生い茂る植物を利用。顔の花でエネルギービームを放つ。
+    Skeletoid1: ゾンボイドが長くアンデッドだったためスケルトイドに変形。カタコンベを普通の日かのように徘徊する。
+    RollingSkull4: 純金でできた豪華なドクロ。カタコンベに埋葬された者を称えるために作られたと言う者も。
+    RollingSkull3: カタコンベで探検者が経験する大きな衝撃音は、このアンデッドのドクロが高速で壁に衝突する音だ。
+    RollingSkull2: どうやってカタコンベに入ったのか誰も知らない。ほぼ何でも押しつぶし、高速で侵入者を追う。
+    RollingSkull1: カタコンベを無意識に転がり、道にあるものを押しつぶし破壊する巨大なドクロ。
+    GiantPutty: カタコンベを徘徊する巨大なスライムキューブ。通常より大きく、ターゲットの匂いを嗅ぐ能力を持つ。
+    BoneStacker3: この骨のスラブは秘密の武器、棘を持つ。鋭い棘は出血を引き起こす。
+    BoneStacker2: 基盤を壊すと放たれ、最後の手段として直接敵を攻撃する。
+    BoneStacker1: 互いに積み重なる骨のスラブ。基盤がなくなると、骨の殻の下の小さな脚で地面を歩く。
+    BoneStackerBase: 顔がついたレンガのスラブ。背中に多くの骨スラブを乗せ、侵入者がさらに探検するのを防ぐ壁のような物を生み出す。
+    CatacombGuardian: 許可なくカタコンベに入ろうとする愚か者は、カタコンベガーディアンの怒りに直面する。
+    TheMan: 常に観察している。
+    SpookySpirit: 巨大かついたずら好きな魂。像を邪魔する者に恐ろしい幻影を使い攻撃する。強力になりすぎた結果、かつて憑依していた巨大なひょうたんを捨て、沼墓地を支配する。
+    SpookSharkron: スポーキーフィシュロンが炎の竜巻で召喚する変異サメ。発射体として振り回され、死亡時は爆発する。
+    SpookFishron: フィッシュロンの中でも独特で特殊な個体だ。この個体は邪悪なカボチャ風味のラテを飲み、奇妙な魔法を得て強力になった。パンプキンムーンの夜に、好きなごちそうを狩るのは極めてまれなこと。
+    RotGourd: この巨大な腐った殻と小さなハエの友達は、領地の侵入者を嫌う。ロッティは攻撃的に跳び、ジェリーはタレットとして汚いカビの胞子と虫を吐く。
+    BoroHead: 盲目で攻撃的な蛇であり、領地を守るためオーロと協力する。古の神話では、めだま渓谷はこの蛇が互いに引きちぎった肉の塊でできていると言う。
+    OrroHead: 速く計算高い蛇であり、領地を守るためボロと協力する。この蛇は常に成長しており、互いを永遠に食べ続けている。
+    Moco: 伝説の飛行するシュノーズ。鼻カルティストの特別な儀式で祝福されたモクリングにのみ現れる。新たな力でサイズとパワーが劇的に変異し、他のモクリングを操り指揮する。
+    Daffodil: ほとんどの時間を寝て過ごす巨大で怠惰な花。深いカタコンベの入口を見張り、ふさわしいと認めた者だけを先に進ませる。
+    BigBone: スモールボーンの長く失われた兄で、巨大な力を持つためにカタコンベに閉じ込められている。花の魔法でカタコンベを支配し、奇妙な植物を広げ続ける。
+}
+
+ArmorSetBonus: {
+    GoreArmorBoro: ベビー・ボーロを召喚して一緒に戦う！
+    GoreArmorOrro: ベビー・オーロを召喚して一緒に戦う！
+    FlowerArmor:
+        '''
+        ライフ再生が大幅に増加
+        アーマーボーナスホットキーを押すと、花粉の塊を召喚して敵を攻撃
+        この能力は再使用まで30秒のクールダウン
+        '''
+    EyeArmor:
+        '''
+        鞭の範囲が10%増加
+        鞭で敵を攻撃すると、時折めだまを召喚して追加ダメージを与える
+        '''
+    SpiritHorsemanArmor: かぼちゃ頭が今、一緒に戦う！
+    SpiderArmor:
+        '''
+        アーマーボーナスホットキーを押すと10秒間スパイダー・ステルスに入る
+        ステルスに入ると近くの敵を一時的にスタン
+        ステルス中はダメージ軽減が12%増加
+        この能力は再使用まで2分のクールダウン
+        '''
+    RootArmor: 遠距離射出物が回復するチャンス
+    GourdArmor:
+        '''
+        近接武器が腐敗を付与し、時間経過で敵にダメージ
+        しばらくすると、腐敗は敵の攻撃力と防御力も下げる
+        '''
+    WizardGangsterArmor2:
+        '''
+        持っているゴールドコインごとにマナ使用量が2%減少
+        ゴールドコイン10枚が上限
+        '''
+    WizardGangsterArmor:
+        '''
+        持っているゴールドコインごとに魔法ダメージが2%増加
+        ゴールドコイン10枚が上限
+        '''
+    OldWoodArmor: 防御力が1増加
+}
+
+AnglerQuest: {
+    ZomboidFish: {
+        CatchLocation: 奇妙な森で釣れる
+        Description: 
+			'''
+			奇妙な森を歩き回る脳死のゾンボイド、めっちゃ醜いよね。
+			でももっと醜いのは幻のゾンボイドフィッシュなんだって！
+			それ、ボクのために持ってきてくれ！
+			'''
+    }
+
+	SpookySpiritFish: {
+		CatchLocation: 沼墓地で釣れる
+		Description: 
+			'''
+			墓地は超常現象が多いって言われてるけど、それは水中も例外じゃあない。
+			そこには何とも珍しいスピリットフィッシュが潜んでるらしいんだ！
+			報酬はやるから是非見せてくれ！
+			'''
+	}
+
+	OrroEel: {
+		CatchLocation: めだま渓谷で釣れる
+		Description: 
+			'''
+			互いに食い合う二匹の巨大な蛇の噂、聞いたことある?
+			正直ボク的にどうでもいいけど、それに酷似してかつ血の湖を泳ぐやつがいるってのは気になるんだ！
+			君ならそれ取ってきてくれるよね！
+			'''
+	}
+
+	HibiscusFish: {
+		CatchLocation: 深層カタコンベで釣れる
+		Description: 
+			'''
+			植物だらけのカタコンベに、植物から育って自分で泳ぐ珍しい魚がいるんだ！
+			そこに行って、ボクのために取ってくるんだ！
+			'''
+	}
+
+	GourdFish: {
+		CatchLocation: 奇妙な森で釣れる
+		Description: 
+			'''
+			この前、水の中で間抜けなカボチャ見た気がした…でも、ヒレがあって泳いでた！
+			それが本物か確かめたくてしょうがない、さっさと行ってきて！
+			'''
+	}
+
+	BoogerFish: {
+		CatchLocation: めだま渓谷で釣れる
+		Description: 
+			'''
+			病気になってクシャミを連発、めっちゃ最悪！
+			でも、人里離れた血の湖に常にクシャミしてる変な魚がいるって噂を聞いたんだ。
+			それ取ってきてよ！みんなにクシャミさせたいんだ！
+			'''
+	}
+}
+
