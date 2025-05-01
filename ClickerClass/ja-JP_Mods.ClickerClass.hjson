@@ -1209,7 +1209,7 @@ Prefixes: {
 
 	Common: {
 		RadiusBoost: "基本クリック範囲 {0}%"
-		ClickBoost: "{0} 回クリックする必要がある"
+		ClickBoost: "クリック効果に必要な回数 {0} 回"
 	}
 }
 
