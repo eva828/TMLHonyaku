@@ -1,0 +1,2737 @@
+Items: {
+	GarlandBody: {
+		DisplayName: ガーランドのボディ
+		Tooltip: ""
+	}
+
+	GarlandHead: {
+		DisplayName: ガーランド
+		Tooltip: ""
+	}
+
+	GarlandLegs: {
+		DisplayName: ガーランドのレッグ
+		Tooltip: ""
+	}
+
+	WarriorOfLightBody: {
+		DisplayName: はじまりの戦士のボディ
+		Tooltip: ""
+	}
+
+	WarriorOfLightHead: {
+		DisplayName: はじまりの戦士
+		Tooltip: ""
+	}
+
+	WarriorOfLightLegs: {
+		DisplayName: はじまりの戦士のレッグ
+		Tooltip: ""
+	}
+
+	AuronBody: {
+	DisplayName: アーロンのボディ
+	Tooltip: ""
+	}
+
+	AuronHead: {
+		DisplayName: アーロン
+		Tooltip: ""
+	}
+
+	AuronLegs: {
+		DisplayName: アーロンのレッグ
+		Tooltip: ""
+	}
+
+	JechtBody: {
+		DisplayName: ジェクトのボディ
+		Tooltip: ""
+	}
+	JechtHead: {
+		DisplayName: ジェクト
+		Tooltip: ""
+	}
+	JechtLegs: {
+		DisplayName: ジェクトのレッグ
+		Tooltip: ""
+	}
+
+	LuluBody: {
+		DisplayName: ルールーのボディ
+		Tooltip: ""
+	}
+	LuluHead: {
+		DisplayName: ルールー
+		Tooltip: ""
+	}
+	LuluLegs: {
+		DisplayName: ルールーのレッグ
+		Tooltip: ""
+	}
+
+	RikkuBody: {
+		DisplayName: リュックのボディ
+		Tooltip: ""
+	}
+	RikkuHead: {
+		DisplayName: リュック
+		Tooltip: ""
+	}
+	RikkuLegs: {
+		DisplayName: リュックのレッグ
+		Tooltip: ""
+	}
+
+	TidusBody: {
+		DisplayName: ティーダのボディ
+		Tooltip: ""
+	}
+	TidusHead: {
+		DisplayName: ティーダ
+		Tooltip: ""
+	}
+	TidusLegs: {
+		DisplayName: ティーダのレッグ
+		Tooltip: ""
+	}
+
+	WakkaBody: {
+		DisplayName: ワッカのボディ
+		Tooltip: ""
+	}
+	WakkaHead: {
+		DisplayName: ワッカ
+		Tooltip: ""
+	}
+	WakkaLegs: {
+		DisplayName: ワッカのレッグ
+		Tooltip: ""
+	}
+
+	YunaBody: {
+		DisplayName: ユウナのボディ
+		Tooltip: ""
+	}
+
+	YunaGunnerBody: {
+		DisplayName: ユウナ（ガンナー）のボディ
+		Tooltip: ""
+	}
+	YunaGunnerHead: {
+		DisplayName: ユウナ（ガンナー）
+		Tooltip: ""
+	}
+	YunaGunnerLegs: {
+		DisplayName: ユウナ（ガンナー）のレッグ
+		Tooltip: ""
+	}
+
+	YunaHead: {
+		DisplayName: ユウナ
+		Tooltip: ""
+	}
+
+	YunaLegs: {
+		DisplayName: ユウナのレッグ
+		Tooltip: ""
+	}
+
+	CurillaBody: {
+		DisplayName: クリルラのボディ
+		Tooltip: ""
+	}
+	CurillaHead: {
+		DisplayName: クリルラ
+		Tooltip: ""
+	}
+	CurillaLegs: {
+		DisplayName: クリルラのレッグ
+		Tooltip: ""
+	}
+
+	LilisetteBody: {
+		DisplayName: リリゼットのボディ
+		Tooltip: ""
+	}
+	LilisetteHead: {
+		DisplayName: リリゼット
+		Tooltip: ""
+	}
+	LilisetteLegs: {
+		DisplayName: リリゼットのレッグ
+		Tooltip: ""
+	}
+
+	PrisheBody: {
+		DisplayName: プリッシュのボディ
+		Tooltip: ""
+	}
+	PrisheHead: {
+		DisplayName: プリッシュ
+		Tooltip: ""
+	}
+	PrisheLegs: {
+		DisplayName: プリッシュのレッグ
+		Tooltip: ""
+	}
+
+	BaschBody: {
+		DisplayName: バッシュのボディ
+		Tooltip: ""
+	}
+	BaschHead: {
+		DisplayName: バッシュ
+		Tooltip: ""
+	}
+	BaschLegs: {
+		DisplayName: バッシュのレッグ
+		Tooltip: ""
+	}
+
+	FranBody: {
+		DisplayName: フランのボディ
+		Tooltip: ""
+	}
+	FranHead: {
+		DisplayName: フラン
+		Tooltip: ""
+	}
+	FranLegs: {
+		DisplayName: フランのレッグ
+		Tooltip: ""
+	}
+
+	GabranthBody: {
+		DisplayName: ガブラスのボディ
+		Tooltip: ""
+	}
+	GabranthHead: {
+		DisplayName: ガブラス
+		Tooltip: ""
+	}
+	GabranthLegs: {
+		DisplayName: ガブラスのレッグ
+		Tooltip: ""
+	}
+
+	VaanBody: {
+		DisplayName: ヴァンのボディ
+		Tooltip: ""
+	}
+	VaanHead: {
+		DisplayName: ヴァン
+		Tooltip: ""
+	}
+	VaanLegs: {
+		DisplayName: ヴァンのレッグ
+		Tooltip: ""
+	}
+
+	HopeBody: {
+		DisplayName: ホープのボディ
+		Tooltip: ""
+	}
+	HopeHead: {
+		DisplayName: ホープ
+		Tooltip: ""
+	}
+	HopeLegs: {
+		DisplayName: ホープのレッグ
+		Tooltip: ""
+	}
+
+	LightningBody: {
+		DisplayName: ライトニングのボディ
+		Tooltip: ""
+	}
+	LightningHead: {
+		DisplayName: ライトニング
+		Tooltip: ""
+	}
+	LightningLegs: {
+		DisplayName: ライトニングのレッグ
+		Tooltip: ""
+	}
+
+	SazhBody: {
+		DisplayName: サッズのボディ
+		Tooltip: ""
+	}
+	SazhHead: {
+		DisplayName: サッズ
+		Tooltip: ""
+	}
+	SazhLegs: {
+		DisplayName: サッズのレッグ
+		Tooltip: ""
+	}
+
+	SnowBody: {
+		DisplayName: スノウのボディ
+		Tooltip: ""
+	}
+	SnowHead: {
+		DisplayName: スノウ
+		Tooltip: ""
+	}
+	SnowLegs: {
+		DisplayName: スノウのレッグ
+		Tooltip: ""
+	}
+
+	MinfiliaBody: {
+		DisplayName: ミンフィリアのボディ
+		Tooltip: ""
+	}
+	MinfiliaHead: {
+		DisplayName: ミンフィリア
+		Tooltip: ""
+	}
+	MinfiliaLegs: {
+		DisplayName: ミンフィリアのレッグ
+		Tooltip: ""
+	}
+
+	ThrancedBody: {
+		DisplayName: サンクレッドのボディ
+		Tooltip: ""
+	}
+	ThrancedHead: {
+		DisplayName: サンクレッド
+		Tooltip: ""
+	}
+	ThrancedLegs: {
+		DisplayName: サンクレッドのレッグ
+		Tooltip: ""
+	}
+
+	YshtolaBody: {
+		DisplayName: ヤ・シュトラのボディ
+		Tooltip: ""
+	}
+	YshtolaHead: {
+		DisplayName: ヤ・シュトラ
+		Tooltip: ""
+	}
+	YshtolaLegs: {
+		DisplayName: ヤ・シュトラのレッグ
+		Tooltip: ""
+	}
+
+	NoctisBody: {
+		DisplayName: ノクティスのボディ
+		Tooltip: ""
+	}
+	NoctisHead: {
+		DisplayName: ノクティス
+		Tooltip: ""
+	}
+	NoctisLegs: {
+		DisplayName: ノクティスのレッグ
+		Tooltip: ""
+	}
+	EmperorBody: {
+		DisplayName: 皇帝のボディ
+		Tooltip: ""
+	}
+	EmperorHead: {
+		DisplayName: 皇帝
+		Tooltip: ""
+	}
+	EmperorLegs: {
+		DisplayName: 皇帝のレッグ
+		Tooltip: ""
+	}
+
+	FirionBody: {
+		DisplayName: フリオニールのボディ
+		Tooltip: ""
+	}
+	FirionHead: {
+		DisplayName: フリオニール
+		Tooltip: ""
+	}
+	FirionLegs: {
+		DisplayName: フリオニールのレッグ
+		Tooltip: ""
+	}
+
+	GuyBody: {
+		DisplayName: ガイのボディ
+		Tooltip: ""
+	}
+	GuyHead: {
+		DisplayName: ガイ
+		Tooltip: ""
+	}
+	GuyLegs: {
+		DisplayName: ガイのレッグ
+		Tooltip: ""
+	}
+
+	JosefBody: {
+		DisplayName: ヨーゼフのボディ
+		Tooltip: ""
+	}
+	JosefHead: {
+		DisplayName: ヨーゼフ
+		Tooltip: ""
+	}
+	JosefLegs: {
+		DisplayName: ヨーゼフのレッグ
+		Tooltip: ""
+	}
+
+	LeonBody: {
+		DisplayName: レオンハルトのボディ
+		Tooltip: ""
+	}
+	LeonHead: {
+		DisplayName: レオンハルト
+		Tooltip: ""
+	}
+	LeonLegs: {
+		DisplayName: レオンハルトのレッグ
+		Tooltip: ""
+	}
+
+	DeschBody: {
+		DisplayName: デッシュのボディ
+		Tooltip: ""
+	}
+	DeschHead: {
+		DisplayName: デッシュ
+		Tooltip: ""
+	}
+	DeschLegs: {
+		DisplayName: デッシュのレッグ
+		Tooltip: ""
+	}
+
+	IngusBody: {
+		DisplayName: イングズのボディ
+		Tooltip: ""
+	}
+	IngusHead: {
+		DisplayName: イングズ
+		Tooltip: ""
+	}
+	IngusLegs: {
+		DisplayName: イングズのレッグ
+		Tooltip: ""
+	}
+
+	LunethBody: {
+		DisplayName: ルーネスのボディ
+		Tooltip: ""
+	}
+	LunethHead: {
+		DisplayName: ルーネス
+		Tooltip: ""
+	}
+	LunethLegs: {
+		DisplayName: ルーネスのレッグ
+		Tooltip: ""
+	}
+
+	NESOnionKnightBody: {
+		DisplayName: たまねぎ剣士（FC版）のボディ
+		Tooltip: ""
+	}
+	NESOnionKnightHead: {
+		DisplayName: たまねぎ剣士（FC版）
+		Tooltip: ""
+	}
+	NESOnionKnightLegs: {
+		DisplayName: たまねぎ剣士（FC版）のレッグ
+		Tooltip: ""
+	}
+
+	OnionKnightBody: {
+		DisplayName: たまねぎ剣士のボディ
+		Tooltip: ""
+	}
+	OnionKnightHead: {
+		DisplayName: たまねぎ剣士
+		Tooltip: ""
+	}
+	OnionKnightLegs: {
+		DisplayName: たまねぎ剣士のレッグ
+		Tooltip: ""
+	}
+
+	RefiaBody: {
+		DisplayName: レフィアのボディ
+		Tooltip: ""
+	}
+	RefiaHead: {
+		DisplayName: レフィア
+		Tooltip: ""
+	}
+	RefiaLegs: {
+		DisplayName: レフィアのレッグ
+		Tooltip: ""
+	}
+
+	YoungOnionKnightBody: {
+		DisplayName: オニオンナイトのボディ
+		Tooltip: ""
+	}
+	YoungOnionKnightHead: {
+		DisplayName: オニオンナイト
+		Tooltip: ""
+	}
+	YoungOnionKnightLegs: {
+		DisplayName: オニオンナイトのレッグ
+		Tooltip: ""
+	}
+
+	BarbaricciaBody: {
+		DisplayName: バルバリシアのボディ
+		Tooltip: ""
+	}
+	BarbaricciaHead: {
+		DisplayName: バルバリシア
+		Tooltip: ""
+	}
+	BarbaricciaLegs: {
+		DisplayName: バルバリシアのレッグ
+		Tooltip: ""
+	}
+
+	CecilBody: {
+		DisplayName: セシルのボディ
+		Tooltip: ""
+	}
+	CecilHead: {
+		DisplayName: セシル
+		Tooltip: ""
+	}
+	CecilLegs: {
+		DisplayName: セシルのレッグ
+		Tooltip: ""
+	}
+
+	CidFF4Body: {
+		DisplayName: シド（FF4）のボディ
+		Tooltip: ""
+	}
+	CidFF4Head: {
+		DisplayName: シド（FF4）
+		Tooltip: ""
+	}
+	CidFF4Legs: {
+		DisplayName: シド（FF4）のレッグ
+		Tooltip: ""
+	}
+
+	DCecilBody: {
+		DisplayName: 暗黒騎士セシルのボディ
+		Tooltip: ""
+	}
+	DCecilHead: {
+		DisplayName: 暗黒騎士セシル
+		Tooltip: ""
+	}
+	DCecilLegs: {
+		DisplayName: 暗黒騎士セシルのレッグ
+		Tooltip: ""
+	}
+
+	EdgeBody: {
+		DisplayName: エッジのボディ
+		Tooltip: ""
+	}
+	EdgeHead: {
+		DisplayName: エッジ
+		Tooltip: ""
+	}
+	EdgeLegs: {
+		DisplayName: エッジのレッグ
+		Tooltip: ""
+	}
+
+	KainBody: {
+		DisplayName: カインのボディ
+		Tooltip: ""
+	}
+	KainHead: {
+		DisplayName: カイン
+		Tooltip: ""
+	}
+	KainLegs: {
+		DisplayName: カインのレッグ
+		Tooltip: ""
+	}
+
+	RosaBody: {
+		DisplayName: ローザのボディ
+		Tooltip: ""
+	}
+	RosaHead: {
+		DisplayName: ローザ
+		Tooltip: ""
+	}
+	RosaLegs: {
+		DisplayName: ローザのレッグ
+		Tooltip: ""
+	}
+
+	RubicanteBody: {
+		DisplayName: ルビカンテのボディ
+		Tooltip: ""
+	}
+	RubicanteHead: {
+		DisplayName: ルビカンテ
+		Tooltip: ""
+	}
+	RubicanteLegs: {
+		DisplayName: ルビカンテのレッグ
+		Tooltip: ""
+	}
+
+	RydiaBody: {
+		DisplayName: リディアのボディ
+		Tooltip: ""
+	}
+	RydiaHead: {
+		DisplayName: リディア
+		Tooltip: ""
+	}
+	RydiaLegs: {
+		DisplayName: リディアのレッグ
+		Tooltip: ""
+	}
+
+	TellahBody: {
+		DisplayName: テラのボディ
+		Tooltip: ""
+	}
+	TellahHead: {
+		DisplayName: テラ
+		Tooltip: ""
+	}
+	TellahLegs: {
+		DisplayName: テラのレッグ
+		Tooltip: ""
+	}
+
+	YangBody: {
+		DisplayName: ヤンのボディ
+		Tooltip: ""
+	}
+	YangHead: {
+		DisplayName: ヤン
+		Tooltip: ""
+	}
+	YangLegs: {
+		DisplayName: ヤンのレッグ
+		Tooltip: ""
+	}
+
+	BartzBody: {
+		DisplayName: バッツのボディ
+		Tooltip: ""
+	}
+	BartzHead: {
+		DisplayName: バッツ
+		Tooltip: ""
+	}
+	BartzLegs: {
+		DisplayName: バッツのレッグ
+		Tooltip: ""
+	}
+
+	ExdeathBody: {
+		DisplayName: エクスデスのボディ
+		Tooltip: ""
+	}
+	ExdeathHead: {
+		DisplayName: エクスデス
+		Tooltip: ""
+	}
+	ExdeathLegs: {
+		DisplayName: エクスデスのレッグ
+		Tooltip: ""
+	}
+
+	FarisBody: {
+		DisplayName: ファリスのボディ
+		Tooltip: ""
+	}
+	FarisHead: {
+		DisplayName: ファリス
+		Tooltip: ""
+	}
+	FarisLegs: {
+		DisplayName: ファリスのレッグ
+		Tooltip: ""
+	}
+
+	GilgameshBody: {
+		DisplayName: ギルガメッシュのボディ
+		Tooltip: ""
+	}
+	GilgameshHead: {
+		DisplayName: ギルガメッシュ
+		Tooltip: ""
+	}
+	GilgameshLegs: {
+		DisplayName: ギルガメッシュのレッグ
+		Tooltip: ""
+	}
+
+	KrileBody: {
+		DisplayName: クルルのボディ
+		Tooltip: ""
+	}
+	KrileHead: {
+		DisplayName: クルル
+		Tooltip: ""
+	}
+	KrileLegs: {
+		DisplayName: クルルのレッグ
+		Tooltip: ""
+	}
+
+	BanonBody: {
+		DisplayName: バナンのボディ
+		Tooltip: ""
+	}
+	BanonHead: {
+		DisplayName: バナン
+		Tooltip: ""
+	}
+	BanonLegs: {
+		DisplayName: バナンのレッグ
+		Tooltip: ""
+	}
+
+	CelesBody: {
+		DisplayName: セリスのボディ
+		Tooltip: ""
+	}
+	CelesHead: {
+		DisplayName: セリス
+		Tooltip: ""
+	}
+	CelesLegs: {
+		DisplayName: セリスのレッグ
+		Tooltip: ""
+	}
+
+	CelesDissidiaBody: {
+		DisplayName: セリス（ディシディア）のボディ
+		Tooltip: ""
+	}
+	CelesDissidiaHead: {
+		DisplayName: セリス（ディシディア）
+		Tooltip: ""
+	}
+	CelesDissidiaLegs: {
+		DisplayName: セリス（ディシディア）のレッグ
+		Tooltip: ""
+	}
+
+	CelesOperaBody: {
+		DisplayName: セリス（オペラ）のボディ
+		Tooltip: ""
+	}
+	CelesOperaHead: {
+		DisplayName: セリス（オペラ）
+		Tooltip: ""
+	}
+	CelesOperaLegs: {
+		DisplayName: セリス（オペラ）のレッグ
+		Tooltip: ""
+	}
+
+	CidBody: {
+		DisplayName: シドのボディ
+		Tooltip: ""
+	}
+	CidHead: {
+		DisplayName: シド
+		Tooltip: ""
+	}
+	CidLegs: {
+		DisplayName: シドのレッグ
+		Tooltip: ""
+	}
+
+	CyanBody: {
+		DisplayName: カイエンのボディ
+		Tooltip: ""
+	}
+	CyanHead: {
+		DisplayName: カイエン
+		Tooltip: ""
+	}
+	CyanLegs: {
+		DisplayName: カイエンのレッグ
+		Tooltip: ""
+	}
+
+	DancerBody: {
+		DisplayName: 踊り子のボディ
+		Tooltip: ""
+	}
+	DancerHead: {
+		DisplayName: 踊り子
+		Tooltip: ""
+	}
+	DancerLegs: {
+		DisplayName: 踊り子のレッグ
+		Tooltip: ""
+	}
+
+	DuncanBody: {
+		DisplayName: ダンカンのボディ
+		Tooltip: ""
+	}
+	DuncanHead: {
+		DisplayName: ダンカン
+		Tooltip: ""
+	}
+	DuncanLegs: {
+		DisplayName: ダンカンのレッグ
+		Tooltip: ""
+	}
+
+	EdgarBody: {
+		DisplayName: エドガーのボディ
+		Tooltip: ""
+	}
+	EdgarHead: {
+		DisplayName: エドガー
+		Tooltip: ""
+	}
+	EdgarLegs: {
+		DisplayName: エドガーのレッグ
+		Tooltip: ""
+	}
+
+	EmperorGestahlBody: {
+		DisplayName: ガストラ皇帝のボディ
+		Tooltip: ""
+	}
+	EmperorGestahlHead: {
+		DisplayName: ガストラ皇帝
+		Tooltip: ""
+	}
+	EmperorGestahlLegs: {
+		DisplayName: ガストラ皇帝のレッグ
+		Tooltip: ""
+	}
+
+	EsperTerraBody: {
+		DisplayName: ティナ（トランス）のボディ
+		Tooltip: ""
+	}
+	EsperTerraHead: {
+		DisplayName: ティナ（トランス）
+		Tooltip: ""
+	}
+	EsperTerraLegs: {
+		DisplayName: ティナ（トランス）のレッグ
+		Tooltip: ""
+	}
+
+	GauBody: {
+		DisplayName: ガウのボディ
+		Tooltip: ""
+	}
+	GauHead: {
+		DisplayName: ガウ
+		Tooltip: ""
+	}
+	GauLegs: {
+		DisplayName: ガウのレッグ
+		Tooltip: ""
+	}
+
+	GeradBody: {
+		DisplayName: ジェフのボディ
+		Tooltip: ""
+	}
+	GeradHead: {
+		DisplayName: ジェフ
+		Tooltip: ""
+	}
+	GeradLegs: {
+		DisplayName: ジェフのレッグ
+		Tooltip: ""
+	}
+
+	GogoBody: {
+		DisplayName: ゴゴのボディ
+		Tooltip: ""
+	}
+	GogoHead: {
+		DisplayName: ゴゴ
+		Tooltip: ""
+	}
+	GogoLegs: {
+		DisplayName: ゴゴのレッグ
+		Tooltip: ""
+	}
+
+	ImperialCadetBody: {
+		DisplayName: 帝国兵（訓練兵）のボディ
+		Tooltip: ""
+	}
+	ImperialCadetHead: {
+		DisplayName: 帝国兵（訓練兵）
+		Tooltip: ""
+	}
+	ImperialCadetLegs: {
+		DisplayName: 帝国兵（訓練兵）のレッグ
+		Tooltip: ""
+	}
+
+	ImperialCorporalBody: {
+		DisplayName: 帝国兵（伍長）のボディ
+		Tooltip: ""
+	}
+	ImperialCorporalHead: {
+		DisplayName: 帝国兵（伍長）
+		Tooltip: ""
+	}
+	ImperialCorporalLegs: {
+		DisplayName: 帝国兵（伍長）のレッグ
+		Tooltip: ""
+	}
+
+	ImperialSergeantBody: {
+		DisplayName: 帝国兵（軍曹）のボディ
+		Tooltip: ""
+	}
+	ImperialSergeantHead: {
+		DisplayName: 帝国兵（軍曹）
+		Tooltip: ""
+	}
+	ImperialSergeantLegs: {
+		DisplayName: 帝国兵（軍曹）のレッグ
+		Tooltip: ""
+	}
+
+	ImperialSoldierBody: {
+		DisplayName: 帝国兵のボディ
+		Tooltip: ""
+	}
+	ImperialSoldierHead: {
+		DisplayName: 帝国兵
+		Tooltip: ""
+	}
+	ImperialSoldierLegs: {
+		DisplayName: 帝国兵のレッグ
+		Tooltip: ""
+	}
+
+	KefkaBody: {
+		DisplayName: ケフカのボディ
+		Tooltip: ""
+	}
+	KefkaHead: {
+		DisplayName: ケフカ
+		Tooltip: ""
+	}
+	KefkaLegs: {
+		DisplayName: ケフカのレッグ
+		Tooltip: ""
+	}
+
+	LeoBody: {
+		DisplayName: レオ将軍のボディ
+		Tooltip: ""
+	}
+	LeoHead: {
+		DisplayName: レオ将軍
+		Tooltip: ""
+	}
+	LeoLegs: {
+		DisplayName: レオ将軍のレッグ
+		Tooltip: ""
+	}
+
+	LockeBody: {
+		DisplayName: ロックのボディ
+		Tooltip: ""
+	}
+	LockeHead: {
+		DisplayName: ロック
+		Tooltip: ""
+	}
+	LockeLegs: {
+		DisplayName: ロックのレッグ
+		Tooltip: ""
+	}
+
+	MerchantBody: {
+		DisplayName: 商人のボディ
+		Tooltip: ""
+	}
+	MerchantHead: {
+		DisplayName: 商人
+		Tooltip: ""
+	}
+	MerchantLegs: {
+		DisplayName: 商人のレッグ
+		Tooltip: ""
+	}
+
+	MogBody: {
+		DisplayName: モグのボディ
+		Tooltip: ""
+	}
+	MogHead: {
+		DisplayName: モグ
+		Tooltip: ""
+	}
+	MogLegs: {
+		DisplayName: モグのレッグ
+		Tooltip: ""
+	}
+
+	NarsheGuardBody: {
+		DisplayName: ナルシェガードのボディ
+		Tooltip: ""
+	}
+	NarsheGuardHead: {
+		DisplayName: ナルシェガード
+		Tooltip: ""
+	}
+	NarsheGuardLegs: {
+		DisplayName: ナルシェガードのレッグ
+		Tooltip: ""
+	}
+
+	RelmBody: {
+		DisplayName: リルムのボディ
+		Tooltip: ""
+	}
+	RelmHead: {
+		DisplayName: リルム
+		Tooltip: ""
+	}
+	RelmLegs: {
+		DisplayName: リルムのレッグ
+		Tooltip: ""
+	}
+
+	SabinBody: {
+		DisplayName: マッシュのボディ
+		Tooltip: ""
+	}
+	SabinHead: {
+		DisplayName: マッシュ
+		Tooltip: ""
+	}
+	SabinLegs: {
+		DisplayName: マッシュのレッグ
+		Tooltip: ""
+	}
+
+	SamuraiBody: {
+		DisplayName: サムライのボディ
+		Tooltip: ""
+	}
+	SamuraiHead: {
+		DisplayName: サムライ
+		Tooltip: ""
+	}
+	SamuraiLegs: {
+		DisplayName: サムライのレッグ
+		Tooltip: ""
+	}
+
+	SetzerBody: {
+		DisplayName: セッツァーのボディ
+		Tooltip: ""
+	}
+	SetzerHead: {
+		DisplayName: セッツァー
+		Tooltip: ""
+	}
+	SetzerLegs: {
+		DisplayName: セッツァーのレッグ
+		Tooltip: ""
+	}
+
+	ShadowBody: {
+		DisplayName: シャドウのボディ
+		Tooltip: ""
+	}
+	ShadowHead: {
+		DisplayName: シャドウ
+		Tooltip: ""
+	}
+	ShadowLegs: {
+		DisplayName: シャドウのレッグ
+		Tooltip: ""
+	}
+
+	SiegfriedBody: {
+		DisplayName: ジークフリードのボディ
+		Tooltip: ""
+	}
+	SiegfriedHead: {
+		DisplayName: ジークフリード
+		Tooltip: ""
+	}
+	SiegfriedLegs: {
+		DisplayName: ジークフリードのレッグ
+		Tooltip: ""
+	}
+
+	StragoBody: {
+		DisplayName: ストラゴスのボディ
+		Tooltip: ""
+	}
+	StragoHead: {
+		DisplayName: ストラゴス
+		Tooltip: ""
+	}
+	StragoLegs: {
+		DisplayName: ストラゴスのレッグ
+		Tooltip: ""
+	}
+
+	TerraBody: {
+		DisplayName: ティナのボディ
+		Tooltip: ""
+	}
+	TerraHead: {
+		DisplayName: ティナ
+		Tooltip: ""
+	}
+	TerraLegs: {
+		DisplayName: ティナのレッグ
+		Tooltip: ""
+	}
+
+	TerraDissidiaBody: {
+		DisplayName: ティナ（ディシディア）のボディ
+		Tooltip: ""
+	}
+	TerraDissidiaHead: {
+		DisplayName: ティナ（ディシディア）
+		Tooltip: ""
+	}
+	TerraDissidiaLegs: {
+		DisplayName: ティナ（ディシディア）のレッグ
+		Tooltip: ""
+	}
+
+	UmaroBody: {
+		DisplayName: ウーマロのボディ
+		Tooltip: ""
+	}
+	UmaroHead: {
+		DisplayName: ウーマロ
+		Tooltip: ""
+	}
+	UmaroLegs: {
+		DisplayName: ウーマロのレッグ
+		Tooltip: ""
+	}
+
+	VargasBody: {
+		DisplayName: バルガスのボディ
+		Tooltip: ""
+	}
+	VargasHead: {
+		DisplayName: バルガス
+		Tooltip: ""
+	}
+	VargasLegs: {
+		DisplayName: バルガスのレッグ
+		Tooltip: ""
+	}
+
+
+	AerithBody: {
+		DisplayName: エアリスのボディ
+		Tooltip: ""
+	}
+	AerithHead: {
+		DisplayName: エアリス
+		Tooltip: ""
+	}
+	AerithLegs: {
+		DisplayName: エアリスのレッグ
+		Tooltip: ""
+	}
+
+	AngealBody: {
+		DisplayName: アンジールのボディ
+		Tooltip: ""
+	}
+	AngealHead: {
+		DisplayName: アンジール
+		Tooltip: ""
+	}
+	AngealLegs: {
+		DisplayName: アンジールのレッグ
+		Tooltip: ""
+	}
+
+	BarretBody: {
+		DisplayName: バレットのボディ
+		Tooltip: ""
+	}
+	BarretHead: {
+		DisplayName: バレット
+		Tooltip: ""
+	}
+	BarretLegs: {
+		DisplayName: バレットのレッグ
+		Tooltip: ""
+	}
+
+	CaitSithBody: {
+		DisplayName: ケット・シーのボディ
+		Tooltip: ""
+	}
+	CaitSithHead: {
+		DisplayName: ケット・シー
+		Tooltip: ""
+	}
+	CaitSithLegs: {
+		DisplayName: ケット・シーのレッグ
+		Tooltip: ""
+	}
+
+	CidFF7Body: {
+		DisplayName: シド（FF7）のボディ
+		Tooltip: ""
+	}
+	CidFF7Head: {
+		DisplayName: シド（FF7）
+		Tooltip: ""
+	}
+	CidFF7Legs: {
+		DisplayName: シド（FF7）のレッグ
+		Tooltip: ""
+	}
+
+	CloudBody: {
+		DisplayName: クラウドのボディ
+		Tooltip: ""
+	}
+	CloudHead: {
+		DisplayName: クラウド
+		Tooltip: ""
+	}
+	CloudLegs: {
+		DisplayName: クラウドのレッグ
+		Tooltip: ""
+	}
+
+	CloudKHBody: {
+		DisplayName: クラウド（KH）のボディ
+		Tooltip: ""
+	}
+	CloudKHHead: {
+		DisplayName: クラウド（KH）
+		Tooltip: ""
+	}
+	CloudKHLegs: {
+		DisplayName: クラウド（KH）のレッグ
+		Tooltip: ""
+	}
+
+	ElenaBody: {
+		DisplayName: イリーナのボディ
+		Tooltip: ""
+	}
+	ElenaHead: {
+		DisplayName: イリーナ
+		Tooltip: ""
+	}
+	ElenaLegs: {
+		DisplayName: イリーナのレッグ
+		Tooltip: ""
+	}
+
+	RenoBody: {
+		DisplayName: レノのボディ
+		Tooltip: ""
+	}
+	RenoHead: {
+		DisplayName: レノ
+		Tooltip: ""
+	}
+	RenoLegs: {
+		DisplayName: レノのレッグ
+		Tooltip: ""
+	}
+
+	RudeBody: {
+		DisplayName: ルードのボディ
+		Tooltip: ""
+	}
+	RudeHead: {
+		DisplayName: ルード
+		Tooltip: ""
+	}
+	RudeLegs: {
+		DisplayName: ルードのレッグ
+		Tooltip: ""
+	}
+
+	RufusBody: {
+		DisplayName: ルーファウスのボディ
+		Tooltip: ""
+	}
+	RufusHead: {
+		DisplayName: ルーファウス
+		Tooltip: ""
+	}
+	RufusLegs: {
+		DisplayName: ルーファウスのレッグ
+		Tooltip: ""
+	}
+
+	SephirothBody: {
+		DisplayName: セフィロスのボディ
+		Tooltip: ""
+	}
+	SephirothHead: {
+		DisplayName: セフィロス
+		Tooltip: ""
+	}
+	SephirothLegs: {
+		DisplayName: セフィロスのレッグ
+		Tooltip: ""
+	}
+
+	TifaBody: {
+		DisplayName: ティファのボディ
+		Tooltip: ""
+	}
+	TifaHead: {
+		DisplayName: ティファ
+		Tooltip: ""
+	}
+	TifaLegs: {
+		DisplayName: ティファのレッグ
+		Tooltip: ""
+	}
+
+	VincentBody: {
+		DisplayName: ヴィンセントのボディ
+		Tooltip: ""
+	}
+	VincentHead: {
+		DisplayName: ヴィンセント
+		Tooltip: ""
+	}
+	VincentLegs: {
+		DisplayName: ヴィンセントのレッグ
+		Tooltip: ""
+	}
+
+	YuffieBody: {
+		DisplayName: ユフィのボディ
+		Tooltip: ""
+	}
+	YuffieHead: {
+		DisplayName: ユフィ
+		Tooltip: ""
+	}
+	YuffieLegs: {
+		DisplayName: ユフィのレッグ
+		Tooltip: ""
+	}
+
+	ZackBody: {
+		DisplayName: ザックスのボディ
+		Tooltip: ""
+	}
+	ZackHead: {
+		DisplayName: ザックス
+		Tooltip: ""
+	}
+	ZackLegs: {
+		DisplayName: ザックスのレッグ
+		Tooltip: ""
+	}
+
+	LagunaBody: {
+		DisplayName: ラグナのボディ
+		Tooltip: ""
+	}
+	LagunaHead: {
+		DisplayName: ラグナ
+		Tooltip: ""
+	}
+	LagunaLegs: {
+		DisplayName: ラグナのレッグ
+		Tooltip: ""
+	}
+
+	RinoaBody: {
+		DisplayName: リノアのボディ
+		Tooltip: ""
+	}
+	RinoaHead: {
+		DisplayName: リノア
+		Tooltip: ""
+	}
+	RinoaLegs: {
+		DisplayName: リノアのレッグ
+		Tooltip: ""
+	}
+
+	SeiferBody: {
+		DisplayName: サイファーのボディ
+		Tooltip: ""
+	}
+	SeiferHead: {
+		DisplayName: サイファー
+		Tooltip: ""
+	}
+	SeiferLegs: {
+		DisplayName: サイファーのレッグ
+		Tooltip: ""
+	}
+
+	SelphieBody: {
+		DisplayName: セルフィのボディ
+		Tooltip: ""
+	}
+	SelphieHead: {
+		DisplayName: セルフィ
+		Tooltip: ""
+	}
+	SelphieLegs: {
+		DisplayName: セルフィのレッグ
+		Tooltip: ""
+	}
+
+	SquallBody: {
+		DisplayName: スコールのボディ
+		Tooltip: ""
+	}
+	SquallHead: {
+		DisplayName: スコール
+		Tooltip: ""
+	}
+	SquallLegs: {
+		DisplayName: スコールのレッグ
+		Tooltip: ""
+	}
+
+	UltimeciaBody: {
+		DisplayName: アルティミシアのボディ
+		Tooltip: ""
+	}
+	UltimeciaHead: {
+		DisplayName: アルティミシア
+		Tooltip: ""
+	}
+	UltimeciaLegs: {
+		DisplayName: アルティミシアのレッグ
+		Tooltip: ""
+	}
+
+	BeatrixBody: {
+		DisplayName: ベアトリクスのボディ
+		Tooltip: ""
+	}
+	BeatrixHead: {
+		DisplayName: ベアトリクス
+		Tooltip: ""
+	}
+	BeatrixLegs: {
+		DisplayName: ベアトリクスのレッグ
+		Tooltip: ""
+	}
+
+	EikoBody: {
+		DisplayName: エーコのボディ
+		Tooltip: ""
+	}
+	EikoHead: {
+		DisplayName: エーコ
+		Tooltip: ""
+	}
+	EikoLegs: {
+		DisplayName: エーコのレッグ
+		Tooltip: ""
+	}
+
+	EikoTranceBody: {
+		DisplayName: エーコ（トランス）のボディ
+		Tooltip: ""
+	}
+	EikoTranceHead: {
+		DisplayName: エーコ（トランス）
+		Tooltip: ""
+	}
+	EikoTranceLegs: {
+		DisplayName: エーコ（トランス）のレッグ
+		Tooltip: ""
+	}
+
+	FreyaBody: {
+		DisplayName: フライヤのボディ
+		Tooltip: ""
+	}
+	FreyaHead: {
+		DisplayName: フライヤ
+		Tooltip: ""
+	}
+	FreyaLegs: {
+		DisplayName: フライヤのレッグ
+		Tooltip: ""
+	}
+
+	GarnetBody: {
+		DisplayName: ガーネットのボディ
+		Tooltip: ""
+	}
+	GarnetHead: {
+		DisplayName: ガーネット
+		Tooltip: ""
+	}
+	GarnetLegs: {
+		DisplayName: ガーネットのレッグ
+		Tooltip: ""
+	}
+
+	KujaBody: {
+		DisplayName: クジャのボディ
+		Tooltip: ""
+	}
+	KujaHead: {
+		DisplayName: クジャ
+		Tooltip: ""
+	}
+	KujaLegs: {
+		DisplayName: クジャのレッグ
+		Tooltip: ""
+	}
+
+	ShantottoBody: {
+		DisplayName: シャントットのボディ
+		Tooltip: ""
+	}
+	ShantottoHead: {
+		DisplayName: シャントット
+		Tooltip: ""
+	}
+	ShantottoLegs: {
+		DisplayName: シャントットのレッグ
+		Tooltip: ""
+	}
+
+	SteinerBody: {
+		DisplayName: スタイナーのボディ
+		Tooltip: ""
+	}
+	SteinerHead: {
+		DisplayName: スタイナー
+		Tooltip: ""
+	}
+	SteinerLegs: {
+		DisplayName: スタイナーのレッグ
+		Tooltip: ""
+	}
+
+	ViviBody: {
+		DisplayName: ビビのボディ
+		Tooltip: ""
+	}
+	ViviHead: {
+		DisplayName: ビビ
+		Tooltip: ""
+	}
+	ViviLegs: {
+		DisplayName: ビビのレッグ
+		Tooltip: ""
+	}
+
+	ZidaneBody: {
+		DisplayName: ジタンのボディ
+		Tooltip: ""
+	}
+	ZidaneHead: {
+		DisplayName: ジタン
+		Tooltip: ""
+	}
+	ZidaneLegs: {
+		DisplayName: ジタンのレッグ
+		Tooltip: ""
+	}
+
+	FinaBody: {
+		DisplayName: フィーナのボディ
+		Tooltip: ""
+	}
+	FinaHead: {
+		DisplayName: フィーナ
+		Tooltip: ""
+	}
+	FinaLegs: {
+		DisplayName: フィーナのレッグ
+		Tooltip: ""
+	}
+	LasswellBody: {
+		DisplayName: ラスウェルのボディ
+		Tooltip: ""
+	}
+	LasswellHead: {
+		DisplayName: ラスウェル
+		Tooltip: ""
+	}
+	LasswellLegs: {
+		DisplayName: ラスウェルのレッグ
+		Tooltip: ""
+	}
+	RainBody: {
+		DisplayName: レインのボディ
+		Tooltip: ""
+	}
+	RainHead: {
+		DisplayName: レイン
+		Tooltip: ""
+	}
+	RainLegs: {
+		DisplayName: レインのレッグ
+		Tooltip: ""
+	}
+
+	BenjaminBody: {
+		DisplayName: Benjaminのボディ
+		Tooltip: ""
+	}
+	BenjaminHead: {
+		DisplayName: Benjamin
+		Tooltip: ""
+	}
+	BenjaminLegs: {
+		DisplayName: Benjaminのレッグ
+		Tooltip: ""
+	}
+	KaeliBody: {
+		DisplayName: Kaeliのボディ
+		Tooltip: ""
+	}
+	KaeliHead: {
+		DisplayName: Kaeli
+		Tooltip: ""
+	}
+	KaeliLegs: {
+		DisplayName: Kaeliのレッグ
+		Tooltip: ""
+	}
+	PhoebeBody: {
+		DisplayName: Phoebeのボディ
+		Tooltip: ""
+	}
+	PhoebeHead: {
+		DisplayName: Phoebe
+		Tooltip: ""
+	}
+	PhoebeLegs: {
+		DisplayName: Phoebeのレッグ
+		Tooltip: ""
+	}
+	ReubenBody: {
+		DisplayName: Reubenのボディ
+		Tooltip: ""
+	}
+	ReubenHead: {
+		DisplayName: Reuben
+		Tooltip: ""
+	}
+	ReubenLegs: {
+		DisplayName: Reubenのレッグ
+		Tooltip: ""
+	}
+	TristamBody: {
+		DisplayName: Tristamのボディ
+		Tooltip: ""
+	}
+	TristamHead: {
+		DisplayName: Tristam
+		Tooltip: ""
+	}
+	TristamLegs: {
+		DisplayName: Tristamのレッグ
+		Tooltip: ""
+	}
+
+	AgriasBody: {
+	DisplayName: アグリアスのボディ
+	Tooltip: ""
+	}
+	AgriasHead: {
+		DisplayName: アグリアス
+		Tooltip: ""
+	}
+	AgriasLegs: {
+		DisplayName: アグリアスのレッグ
+		Tooltip: ""
+	}
+
+	DelitaBody: {
+		DisplayName: ディリータのボディ
+		Tooltip: ""
+	}
+	DelitaHead: {
+		DisplayName: ディリータ
+		Tooltip: ""
+	}
+	DelitaLegs: {
+		DisplayName: ディリータのレッグ
+		Tooltip: ""
+	}
+
+	MarcheBody: {
+		DisplayName: マーシュのボディ
+		Tooltip: ""
+	}
+	MarcheHead: {
+		DisplayName: マーシュ
+		Tooltip: ""
+	}
+	MarcheLegs: {
+		DisplayName: マーシュのレッグ
+		Tooltip: ""
+	}
+
+	MontblancBody: {
+		DisplayName: モンブランのボディ
+		Tooltip: ""
+	}
+	MontblancHead: {
+		DisplayName: モンブラン
+		Tooltip: ""
+	}
+	MontblancLegs: {
+		DisplayName: モンブランのレッグ
+		Tooltip: ""
+	}
+
+	OrlandeauBody: {
+		DisplayName: オルランドゥのボディ
+		Tooltip: ""
+	}
+	OrlandeauHead: {
+		DisplayName: オルランドゥ
+		Tooltip: ""
+	}
+	OrlandeauLegs: {
+		DisplayName: オルランドゥのレッグ
+		Tooltip: ""
+	}
+
+	RamzaBody: {
+		DisplayName: ラムザのボディ
+		Tooltip: ""
+	}
+	RamzaHead: {
+		DisplayName: ラムザ
+		Tooltip: ""
+	}
+	RamzaLegs: {
+		DisplayName: ラムザのレッグ
+		Tooltip: ""
+	}
+
+	AnotherRoxasBody: {
+		DisplayName: ロクサス（XIII機関）のボディ
+		Tooltip: ""
+	}
+
+	AnotherRoxasHead: {
+		DisplayName: ロクサス（XIII機関）
+		Tooltip: ""
+	}
+
+	AnotherRoxasLegs: {
+		DisplayName: ロクサス（XIII機関）のレッグ
+		Tooltip: ""
+	}
+
+	AxelBody: {
+		DisplayName: アクセルのボディ
+		Tooltip: ""
+	}
+
+	AxelHead: {
+		DisplayName: アクセル
+		Tooltip: ""
+	}
+
+	AxelLegs: {
+		DisplayName: アクセルのレッグ
+		Tooltip: ""
+	}
+
+	RoxasBody: {
+		DisplayName: ロクサスのボディ
+		Tooltip: ""
+	}
+
+	RoxasHead: {
+		DisplayName: ロクサス
+		Tooltip: ""
+	}
+
+	RoxasLegs: {
+		DisplayName: ロクサスのレッグ
+		Tooltip: ""
+	}
+
+	Sora3Body: {
+		DisplayName: ソラ（KH3）のボディ
+		Tooltip: ""
+	}
+
+	Sora3Head: {
+		DisplayName: ソラ（KH3）
+		Tooltip: ""
+	}
+
+	Sora3Legs: {
+		DisplayName: ソラ（KH3）のレッグ
+		Tooltip: ""
+	}
+
+	SoraBody: {
+		DisplayName: ソラのボディ
+		Tooltip: ""
+	}
+
+	SoraHead: {
+		DisplayName: ソラ
+		Tooltip: ""
+	}
+
+	SoraLegs: {
+		DisplayName: ソラのレッグ
+		Tooltip: ""
+	}
+
+	GarlandBag: {
+		DisplayName: ガーランドのバッグ
+		Tooltip: ""
+	}
+
+	WarriorOfLightBag: {
+		DisplayName: はじまりの戦士のバッグ
+		Tooltip: ""
+	}
+
+	AuronBag: {
+		DisplayName: アーロンのバッグ
+		Tooltip: ""
+	}
+
+	JechtBag: {
+		DisplayName: ジェクトのバッグ
+		Tooltip: ""
+	}
+
+	LuluBag: {
+		DisplayName: ルールーのバッグ
+		Tooltip: ""
+	}
+
+	RikkuBag: {
+		DisplayName: リュックのバッグ
+		Tooltip: ""
+	}
+
+	TidusBag: {
+		DisplayName: ティーダのバッグ
+		Tooltip: ""
+	}
+
+	WakkaBag: {
+		DisplayName: ワッカのバッグ
+		Tooltip: ""
+	}
+
+	YunaBag: {
+		DisplayName: ユウナのバッグ
+		Tooltip: ""
+	}
+
+	YunaGunnerBag: {
+		DisplayName: ユウナ（ガンナー）のバッグ
+		Tooltip: ""
+	}
+
+	CurillaBag: {
+		DisplayName: クリルラのバッグ
+		Tooltip: ""
+	}
+
+	PrisheBag: {
+		DisplayName: プリッシュのバッグ
+		Tooltip: ""
+	}
+
+	BaschBag: {
+		DisplayName: バッシュのバッグ
+		Tooltip: ""
+	}
+
+	FranBag: {
+		DisplayName: フランのバッグ
+		Tooltip: ""
+	}
+
+	GabranthBag: {
+		DisplayName: ガブラスのバッグ
+		Tooltip: ""
+	}
+
+	VaanBag: {
+		DisplayName: ヴァンのバッグ
+		Tooltip: ""
+	}
+
+	HopeBag: {
+		DisplayName: ホープのバッグ
+		Tooltip: ""
+	}
+
+	LightningBag: {
+		DisplayName: ライトニングのバッグ
+		Tooltip: ""
+	}
+
+	SazhBag: {
+		DisplayName: サッズのバッグ
+		Tooltip: ""
+	}
+
+	SnowBag: {
+		DisplayName: スノウのバッグ
+		Tooltip: ""
+	}
+
+	MinfiliaBag: {
+		DisplayName: ミンフィリアのバッグ
+		Tooltip: ""
+	}
+
+	ThrancedBag: {
+		DisplayName: サンクレッドのバッグ
+		Tooltip: ""
+	}
+
+	YshtolaBag: {
+		DisplayName: ヤ・シュトラのバッグ
+		Tooltip: ""
+	}
+
+	NoctisBag: {
+		DisplayName: ノクティスのバッグ
+		Tooltip: ""
+	}
+
+	EmperorBag: {
+		DisplayName: 皇帝のバッグ
+		Tooltip: ""
+	}
+
+	FirionBag: {
+		DisplayName: フリオニールのバッグ
+		Tooltip: ""
+	}
+
+	GuyBag: {
+		DisplayName: ガイのバッグ
+		Tooltip: ""
+	}
+
+	JosefBag: {
+		DisplayName: ヨーゼフのバッグ
+		Tooltip: ""
+	}
+
+	LeonBag: {
+		DisplayName: レオンハルトのバッグ
+		Tooltip: ""
+	}
+
+	DeschBag: {
+		DisplayName: デッシュのバッグ
+		Tooltip: ""
+	}
+
+	IngusBag: {
+		DisplayName: イングズのバッグ
+		Tooltip: ""
+	}
+
+	LunethBag: {
+		DisplayName: ルーネスのバッグ
+		Tooltip: ""
+	}
+
+	OnionKnightBag: {
+		DisplayName: たまねぎ剣士のバッグ
+		Tooltip: ""
+	}
+
+	RefiaBag: {
+		DisplayName: レフィアのバッグ
+		Tooltip: ""
+	}
+
+	CecilBag: {
+		DisplayName: セシルのバッグ
+		Tooltip: ""
+	}
+
+	CidFF4Bag: {
+		DisplayName: シド（FF4）のバッグ
+		Tooltip: ""
+	}
+
+	DCecilBag: {
+		DisplayName: 暗黒騎士セシルのバッグ
+		Tooltip: ""
+	}
+
+	EdgeBag: {
+		DisplayName: エッジのバッグ
+		Tooltip: ""
+	}
+
+	KainBag: {
+		DisplayName: カインのバッグ
+		Tooltip: ""
+	}
+
+	RosaBag: {
+		DisplayName: ローザのバッグ
+		Tooltip: ""
+	}
+
+	RydiaBag: {
+		DisplayName: リディアのバッグ
+		Tooltip: ""
+	}
+
+	TellahBag: {
+		DisplayName: テラのバッグ
+		Tooltip: ""
+	}
+
+	YangBag: {
+		DisplayName: ヤンのバッグ
+		Tooltip: ""
+	}
+
+	BartzBag: {
+		DisplayName: バッツのバッグ
+		Tooltip: ""
+	}
+
+	ExdeathBag: {
+		DisplayName: エクスデスのバッグ
+		Tooltip: ""
+	}
+
+	FarisBag: {
+		DisplayName: ファリスのバッグ
+		Tooltip: ""
+	}
+
+	GilgameshBag: {
+		DisplayName: ギルガメッシュのバッグ
+		Tooltip: ""
+	}
+
+	BanonBag: {
+		DisplayName: バナンのバッグ
+		Tooltip: ""
+	}
+
+	CelesBag: {
+		DisplayName: セリスのバッグ
+		Tooltip: ""
+	}
+
+	CelesDissidiaBag: {
+		DisplayName: セリス（ディシディア）のバッグ
+		Tooltip: ""
+	}
+
+	CelesOperaBag: {
+		DisplayName: セリス（オペラ）のバッグ
+		Tooltip: ""
+	}
+
+	CidBag: {
+		DisplayName: シドのバッグ
+		Tooltip: ""
+	}
+
+	CyanBag: {
+		DisplayName: カイエンのバッグ
+		Tooltip: ""
+	}
+
+	DancerBag: {
+		DisplayName: 踊り子のバッグ
+		Tooltip: ""
+	}
+
+	DuncanBag: {
+		DisplayName: ダンカンのバッグ
+		Tooltip: ""
+	}
+
+	EdgarBag: {
+		DisplayName: エドガーのバッグ
+		Tooltip: ""
+	}
+
+	EmperorGestahlBag: {
+		DisplayName: ガストラ皇帝のバッグ
+		Tooltip: ""
+	}
+
+	EsperTerraBag: {
+		DisplayName: ティナ（トランス）のバッグ
+		Tooltip: ""
+	}
+
+	GauBag: {
+		DisplayName: ガウのバッグ
+		Tooltip: ""
+	}
+
+	GeradBag: {
+		DisplayName: ジェフのバッグ
+		Tooltip: ""
+	}
+
+	GogoBag: {
+		DisplayName: ゴゴのバッグ
+		Tooltip: ""
+	}
+
+	ImperialCadetBag: {
+		DisplayName: 帝国兵（訓練兵）のバッグ
+		Tooltip: ""
+	}
+
+	ImperialCorporalBag: {
+		DisplayName: 帝国兵（伍長）のバッグ
+		Tooltip: ""
+	}
+
+	ImperialSergeantBag: {
+		DisplayName: 帝国兵（軍曹）のバッグ
+		Tooltip: ""
+	}
+
+	ImperialSoldierBag: {
+		DisplayName: 帝国兵のバッグ
+		Tooltip: ""
+	}
+
+	KefkaBag: {
+		DisplayName: ケフカのバッグ
+		Tooltip: ""
+	}
+
+	LeoBag: {
+		DisplayName: レオ将軍のバッグ
+		Tooltip: ""
+	}
+
+	LockeBag: {
+		DisplayName: ロックのバッグ
+		Tooltip: ""
+	}
+
+	MerchantBag: {
+		DisplayName: 商人のバッグ
+		Tooltip: ""
+	}
+
+	MogBag: {
+		DisplayName: モグのバッグ
+		Tooltip: ""
+	}
+
+	NarsheGuardBag: {
+		DisplayName: ナルシェガードのバッグ
+		Tooltip: ""
+	}
+
+	SabinBag: {
+		DisplayName: マッシュのバッグ
+		Tooltip: ""
+	}
+
+	SamuraiBag: {
+		DisplayName: サムライのバッグ
+		Tooltip: ""
+	}
+
+	SetzerBag: {
+		DisplayName: セッツァーのバッグ
+		Tooltip: ""
+	}
+
+	ShadowBag: {
+		DisplayName: シャドウのバッグ
+		Tooltip: ""
+	}
+
+	SiegfriedBag: {
+		DisplayName: ジークフリードのバッグ
+		Tooltip: ""
+	}
+
+	TerraBag: {
+		DisplayName: ティナのバッグ
+		Tooltip: ""
+	}
+
+	TerraDissidiaBag: {
+		DisplayName: ティナ（ディシディア）のバッグ
+		Tooltip: ""
+	}
+
+	UmaroBag: {
+		DisplayName: ウーマロのバッグ
+		Tooltip: ""
+	}
+
+	VargasBag: {
+		DisplayName: バルガスのバッグ
+		Tooltip: ""
+	}
+
+	AerithBag: {
+		DisplayName: エアリスのバッグ
+		Tooltip: ""
+	}
+
+	AngealBag: {
+		DisplayName: アンジールのバッグ
+		Tooltip: ""
+	}
+
+	BarretBag: {
+		DisplayName: バレットのバッグ
+		Tooltip: ""
+	}
+
+	CaitSithBag: {
+		DisplayName: ケット・シーのバッグ
+		Tooltip: ""
+	}
+
+	CidFF7Bag: {
+		DisplayName: シド（FF7）のバッグ
+		Tooltip: ""
+	}
+
+	CloudBag: {
+		DisplayName: クラウドのバッグ
+		Tooltip: ""
+	}
+
+	CloudKHBag: {
+		DisplayName: クラウド（KH）のバッグ
+		Tooltip: ""
+	}
+
+	ElenaBag: {
+		DisplayName: イリーナのバッグ
+		Tooltip: ""
+	}
+
+	RenoBag: {
+		DisplayName: レノのバッグ
+		Tooltip: ""
+	}
+
+	RudeBag: {
+		DisplayName: ルードのバッグ
+		Tooltip: ""
+	}
+
+	RufusBag: {
+		DisplayName: ルーファウスのバッグ
+		Tooltip: ""
+	}
+
+	SephirothBag: {
+		DisplayName: セフィロスのバッグ
+		Tooltip: ""
+	}
+
+	TifaBag: {
+		DisplayName: ティファのバッグ
+		Tooltip: ""
+	}
+
+	VincentBag: {
+		DisplayName: ヴィンセントのバッグ
+		Tooltip: ""
+	}
+
+	YuffieBag: {
+		DisplayName: ユフィのバッグ
+		Tooltip: ""
+	}
+
+	ZackBag: {
+		DisplayName: ザックスのバッグ
+		Tooltip: ""
+	}
+
+	RinoaBag: {
+		DisplayName: リノアのバッグ
+		Tooltip: ""
+	}
+
+	SeiferBag: {
+		DisplayName: サイファーのバッグ
+		Tooltip: ""
+	}
+
+	SelphieBag: {
+		DisplayName: セルフィのバッグ
+		Tooltip: ""
+	}
+
+	SquallBag: {
+		DisplayName: スコールのバッグ
+		Tooltip: ""
+	}
+
+	BeatrixBag: {
+		DisplayName: ベアトリクスのバッグ
+		Tooltip: ""
+	}
+
+	GarnetBag: {
+		DisplayName: ガーネットのバッグ
+		Tooltip: ""
+	}
+
+	KujaBag: {
+		DisplayName: クジャのバッグ
+		Tooltip: ""
+	}
+
+	ZidaneBag: {
+		DisplayName: ジタンのバッグ
+		Tooltip: ""
+	}
+
+	FinaBag: {
+		DisplayName: フィーナのバッグ
+		Tooltip: ""
+	}
+
+	LasswellBag: {
+		DisplayName: ラスウェルのバッグ
+		Tooltip: ""
+	}
+
+	RainBag: {
+		DisplayName: レインのバッグ
+		Tooltip: ""
+	}
+
+	BenjaminBag: {
+		DisplayName: Benjaminのバッグ
+		Tooltip: ""
+	}
+
+	KaeliBag: {
+		DisplayName: Kaeliのバッグ
+		Tooltip: ""
+	}
+
+	PhoebeBag: {
+		DisplayName: Phoebeのバッグ
+		Tooltip: ""
+	}
+
+	ReubenBag: {
+		DisplayName: Reubenのバッグ
+		Tooltip: ""
+	}
+
+	TristamBag: {
+		DisplayName: Tristamのバッグ
+		Tooltip: ""
+	}
+
+	AgriasBag: {
+		DisplayName: アグリアスのバッグ
+		Tooltip: ""
+	}
+
+	DelitaBag: {
+		DisplayName: ディリータのバッグ
+		Tooltip: ""
+	}
+
+	MarcheBag: {
+		DisplayName: マーシュのバッグ
+		Tooltip: ""
+	}
+
+	OrlandeauBag: {
+		DisplayName: オルランドゥのバッグ
+		Tooltip: ""
+	}
+
+	RamzaBag: {
+		DisplayName: ラムザのバッグ
+		Tooltip: ""
+	}
+
+	AnotherRoxasBag: {
+		DisplayName: ロクサス（XIII機関）のバッグ
+		Tooltip: ""
+	}
+
+	AxelBag: {
+		DisplayName: アクセルのバッグ
+		Tooltip: ""
+	}
+
+	RoxasBag: {
+		DisplayName: ロクサスのバッグ
+		Tooltip: ""
+	}
+
+	Sora3Bag: {
+		DisplayName: ソラ（KH3）のバッグ
+		Tooltip: ""
+	}
+
+	SoraBag: {
+		DisplayName: ソラのバッグ
+		Tooltip: ""
+	}
+
+	CatalogFF1: {
+		DisplayName: カタログ(FF1)
+		Tooltip: "FINAL FANTASYのキャラクターが載っている"
+	}
+
+	CatalogFF10: {
+		DisplayName: カタログ(FF10)
+		Tooltip: "FINAL FANTASY Xのキャラクターが載っている"
+	}
+
+	CatalogFF11: {
+		DisplayName: カタログ(FF11)
+		Tooltip: "FINAL FANTASY XIのキャラクターが載っている"
+	}
+
+	CatalogFF12: {
+		DisplayName: カタログ(FF12)
+		Tooltip: "FINAL FANTASY XIIのキャラクターが載っている"
+	}
+
+	CatalogFF13: {
+		DisplayName: カタログ(FF13)
+		Tooltip: "FINAL FANTASY XIIIのキャラクターが載っている"
+	}
+
+	CatalogFF14: {
+		DisplayName: カタログ(FF14)
+		Tooltip: "FINAL FANTASY XIVのキャラクターが載っている"
+	}
+
+	CatalogFF15: {
+		DisplayName: カタログ(FF15)
+		Tooltip: "FINAL FANTASY XVのキャラクターが載っている"
+	}
+
+	CatalogFF2: {
+		DisplayName: カタログ(FF2)
+		Tooltip: "FINAL FANTASY IIのキャラクターが載っている"
+	}
+
+	CatalogFF3: {
+		DisplayName: カタログ(FF3)
+		Tooltip: "FINAL FANTASY IIIのキャラクターが載っている"
+	}
+
+	CatalogFF4: {
+		DisplayName: カタログ(FF4)
+		Tooltip: "FINAL FANTASY IVのキャラクターが載っている"
+	}
+
+	CatalogFF5: {
+		DisplayName: カタログ(FF5)
+		Tooltip: "FINAL FANTASY Vのキャラクターが載っている"
+	}
+
+	CatalogFF6: {
+		DisplayName: カタログ(FF6)
+		Tooltip: "FINAL FANTASY VIのキャラクターが載っている"
+	}
+
+	CatalogFF7: {
+		DisplayName: カタログ(FF7)
+		Tooltip: "FINAL FANTASY VIIのキャラクターが載っている"
+	}
+
+	CatalogFF8: {
+		DisplayName: カタログ(FF8)
+		Tooltip: "FINAL FANTASY VIIIのキャラクターが載っている"
+	}
+
+	CatalogFF9: {
+		DisplayName: カタログ(FF9)
+		Tooltip: "FINAL FANTASY IXのキャラクターが載っている"
+	}
+
+	CatalogFFBE: {
+		DisplayName: カタログ(FFBE)
+		Tooltip: "FINAL FANTASY BRAVE EXVIUSのキャラクターが載っている"
+	}
+
+	CatalogFFMQ: {
+		DisplayName: カタログ(FFMQ)
+		Tooltip: "FINAL FANTASY MYSTIC QUESTのキャラクターが載っている"
+	}
+
+	CatalogFFT: {
+		DisplayName: カタログ(FFT)
+		Tooltip: "FINAL FANTASY TACTICSのキャラクターが載っている"
+	}
+
+	CatalogKH: {
+		DisplayName: カタログ(KH)
+		Tooltip: "KINGDOM HEARTSのキャラクターが載っている"
+	}
+
+	CatalogFFCC: {
+		DisplayName: カタログ(FFCC)
+		Tooltip: "FINAL FANTASY CRYSTAL CHRONICLESのキャラクターが載っている"
+	}
+
+
+	BaseItem: {
+		Tooltip: ""
+		DisplayName: Base Item
+	}
+
+	WarriorOfLightClassicBody: {
+		DisplayName: 光の戦士のボディ
+		Tooltip: ""
+	}
+	WarriorOfLightClassicHead: {
+		DisplayName: 光の戦士
+		Tooltip: ""
+	}
+	WarriorOfLightClassicLegs: {
+		DisplayName: 光の戦士のレッグ
+		Tooltip: ""
+	}
+
+	FishingNoctisBody: {
+		DisplayName: ノクティス（釣り）のボディ
+		Tooltip: ""
+	}
+	FishingNoctisHead: {
+		DisplayName: ノクティス（釣り）
+		Tooltip: ""
+	}
+	FishingNoctisLegs: {
+		DisplayName: ノクティス（釣り）のレッグ
+		Tooltip: ""
+	}
+
+	WarriorOfLightClassicBag: {
+		DisplayName: 光の戦士のバッグ
+		Tooltip: ""
+	}
+
+	LilisetteBag: {
+		DisplayName: リリゼットのバッグ
+		Tooltip: ""
+	}
+
+	FishingNoctisBag: {
+		DisplayName: ノクティス（釣り）のバッグ
+		Tooltip: ""
+	}
+
+	NESOnionKnightBag: {
+		DisplayName: たまねぎ剣士（FC）のバッグ
+		Tooltip: ""
+	}
+
+	YoungOnionKnightBag: {
+		DisplayName: オニオンナイトのバッグ
+		Tooltip: ""
+	}
+
+	BarbaricciaBag: {
+		DisplayName: バルバリシアのバッグ
+		Tooltip: ""
+	}
+
+	RubicanteBag: {
+		DisplayName: ルビカンテのバッグ
+		Tooltip: ""
+	}
+
+	KrileBag: {
+		DisplayName: クルルのバッグ
+		Tooltip: ""
+	}
+
+	RelmBag: {
+		DisplayName: リルムのバッグ
+		Tooltip: ""
+	}
+
+	StragoBag: {
+		DisplayName: ストラゴスのバッグ
+		Tooltip: ""
+	}
+
+	LagunaBag: {
+		DisplayName: ラグナのバッグ
+		Tooltip: ""
+	}
+
+	UltimeciaBag: {
+		DisplayName: アルティミシアのバッグ
+		Tooltip: ""
+	}
+
+	EikoBag: {
+		DisplayName: エーコのバッグ
+		Tooltip: ""
+	}
+
+	EikoTranceBag: {
+		DisplayName: エーコ（トランス）のバッグ
+		Tooltip: ""
+	}
+
+	FreyaBag: {
+		DisplayName: フライヤのバッグ
+		Tooltip: ""
+	}
+
+	ShantottoBag: {
+		DisplayName: シャントットのバッグ
+		Tooltip: ""
+	}
+
+	SteinerBag: {
+		DisplayName: スタイナーのバッグ
+		Tooltip: ""
+	}
+
+	ViviBag: {
+		DisplayName: ビビのバッグ
+		Tooltip: ""
+	}
+
+	MontblancBag: {
+		DisplayName: モンブランのバッグ
+		Tooltip: ""
+	}
+
+	ChelinkaBody: {
+		DisplayName: チェリンカのボディ
+		Tooltip: ""
+	}
+
+	ChelinkaHead: {
+		DisplayName: チェリンカ
+		Tooltip: ""
+	}
+
+	ChelinkaLegs: {
+		DisplayName: チェリンカのレッグ
+		Tooltip: ""
+	}
+
+	SherlottaBody: {
+		DisplayName: シェルロッタのボディ
+		Tooltip: ""
+	}
+
+	SherlottaHead: {
+		DisplayName: シェルロッタ
+		Tooltip: ""
+	}
+
+	SherlottaLegs: {
+		DisplayName: シェルロッタのレッグ
+		Tooltip: ""
+	}
+
+	YuriBody: {
+		DisplayName: ユーリィのボディ
+		Tooltip: ""
+	}
+
+	YuriHead: {
+		DisplayName: ユーリィ
+		Tooltip: ""
+	}
+
+	YuriLegs: {
+		DisplayName: ユーリィのレッグ
+		Tooltip: ""
+	}
+
+	ChelinkaBag: {
+		DisplayName: チェリンカのバッグ
+		Tooltip: ""
+	}
+
+	SherlottaBag: {
+		DisplayName: シェルロッタのバッグ
+		Tooltip: ""
+	}
+
+	YuriBag: {
+		DisplayName: ユーリィのバッグ
+		Tooltip: ""
+	}
+
+
+}
+
+NPCs: {
+	Shopkeep: {
+		DisplayName: 商人
+		TownNPCMood: {
+		Content: まあまあってとこだな。
+		NoHome: 家がねえのは落ち着かねえ。
+		FarFromHome: 家から離れすぎたな。
+		LoveSpace: 広くてのびのびできるな。
+		DislikeCrowded: 人が多くてイラつく。
+		HateCrowded: ごちゃごちゃしててやってらんねえ。
+		LikeBiome: "{BiomeName}は悪くねえな。"
+		DislikeBiome: "{BiomeName}は性に合わねえ。"
+		LikeNPC_Princess: "{NPCName}はまあ、付き合いやすいな。"
+		Princess_LovesNPC: "{NPCName}のこと、結構気に入ってる。"
+		}
+	}
+}

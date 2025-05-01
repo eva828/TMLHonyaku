@@ -1,28 +1,28 @@
+ClickEffect: {
+	WildMagicNew: {
+		Name: "{$Mods.ClickerClass.ClickEffect.WildMagic.Name}"
+		Description: "{$Mods.ClickerClass.ClickEffect.WildMagic.Description}"
+	}
+
+	ManiaNew: {
+		Name: "{$Mods.ClickerClass.ClickEffect.Mania.Name}"
+		Description: "{$Mods.ClickerClass.ClickEffect.Mania.Description}"
+	}
+}
+
+
 Configs: {
 	ClickerAPIConfig: {
-		OneClickClickerEffect: {
-			Tooltip: クリックするたびにクリッカー効果を切り替えられるようにする
-			Label: ワンクリックでクリッカー効果を切り替え
-		}
+		DisplayName: Clicker Extra API 設定
 
 		Headers: {
 			Debug: デバッグ設定
 		}
 
-		DisplayName: Clicker Extra API 設定
+		OneClickClickerEffect: {
+			Label: ワンクリックでクリック効果を発動
+			Tooltip: クリックするたびにクリック効果を発動できるようにします
+		}
 	}
 }
-
-ClickEffect: {
-	ManiaNew: {
-		Description: クリック効果が少ない場合、ランダムに作用する
-		Name: マニア
-	}
-
-	WildMagicNew: {
-		Description: 任意のクリック効果としてランダムに作用する
-		Name: ワイルド・マジック
-	}
-}
-
 
