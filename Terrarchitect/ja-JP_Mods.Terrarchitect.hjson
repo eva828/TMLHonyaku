@@ -1,26 +1,26 @@
 Items: {
 	WellItem: {
-		Tooltip: 流し台として機能する
+		Tooltip: 水辺として機能する
 		DisplayName: 井戸
 	}
 
 	WaterTapItem: {
-		Tooltip: 流し台として機能する
+		Tooltip: 水辺として機能する
 		DisplayName: 水道栓
 	}
 
 	WaterPumpItem: {
-		Tooltip: 流し台として機能する
+		Tooltip: 水辺として機能する
 		DisplayName: 水ポンプ
 	}
 
 	ThinVaseItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: 薄い花瓶
 	}
 
 	StripedVaseItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: ストライプの花瓶
 	}
 
@@ -35,7 +35,7 @@ Items: {
 	}
 
 	SmallGlassItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: 小型グラス
 	}
 
@@ -70,17 +70,17 @@ Items: {
 	}
 
 	MetalPanItem: {
-		Tooltip: 料理ができる
+		Tooltip: 料理可能
 		DisplayName: 金属鍋
 	}
 
 	MetalCookingPotItem: {
-		Tooltip: 料理ができる
+		Tooltip: 料理可能
 		DisplayName: 金属製調理鍋
 	}
 
 	JugItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: 水差し
 	}
 
@@ -90,7 +90,7 @@ Items: {
 	}
 
 	GrillItem: {
-		Tooltip: 料理ができる
+		Tooltip: 料理可能
 		DisplayName: グリル
 	}
 
@@ -100,12 +100,12 @@ Items: {
 	}
 
 	DrinkingGlassItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: 飲料用グラス
 	}
 
 	DivingBoardItem: {
-		Tooltip: 隙間に出っ張って置くことができる
+		Tooltip: 隙間に出っ張って設置できる
 		DisplayName: 飛び込み台
 	}
 
@@ -120,12 +120,12 @@ Items: {
 	}
 
 	CoffeeCupItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: コーヒーカップ
 	}
 
 	ChampagneGlassItem: {
-		Tooltip: 置きボトル工作台として機能する
+		Tooltip: ボトル有り作業台として機能する
 		DisplayName: シャンパングラス
 	}
 
@@ -135,12 +135,12 @@ Items: {
 	}
 
 	BigCauldronItem: {
-		Tooltip: 料理ができる
+		Tooltip: 料理可能
 		DisplayName: 大きな大鍋
 	}
 
 	BeeNestItem: {
-		Tooltip: 右クリックで驚きのサプライズ！
+		Tooltip: 「右クリックで驚きのサプライズが！」
 		DisplayName: 蜂の巣
 	}
 	
@@ -210,7 +210,7 @@ Items: {
 	}
 
 	BigCauldronItem: {
-		Tooltip: 料理ができる
+		Tooltip: 料理可能
 		DisplayName: 大きな大鍋
 	}
 
@@ -941,7 +941,7 @@ Items: {
 
 	EyeInAJarItem: {
 		Tooltip: ""
-		DisplayName: 瓶の中の目玉
+		DisplayName: 瓶入りのめだま
 	}
 
 	ElectronicComponentsItem: {
@@ -1011,7 +1011,7 @@ Items: {
 
 	WavyLinesWallpaperItem: {
 		Tooltip: ""
-		DisplayName: 波線の壁紙
+		DisplayName: 波線の壁
 	}
 
 	WateringCanItem: {
@@ -1031,17 +1031,17 @@ Items: {
 
 	VintageVineWallpaperItem: {
 		Tooltip: ""
-		DisplayName: ヴィンテージ・ヴァイン壁紙
+		DisplayName: ヴィンテージ・ヴァインの壁
 	}
 
 	VintageFlowerWallpaperItem: {
 		Tooltip: ""
-		DisplayName: ヴィンテージ・フラワー壁紙
+		DisplayName: ヴィンテージ・フラワーの壁
 	}
 
 	VerticalStripesWallpaperItem: {
 		Tooltip: ""
-		DisplayName: 縦縞の壁紙
+		DisplayName: 縦縞の壁
 	}
 
 	UrnItem: {
@@ -1276,7 +1276,7 @@ Items: {
 
 	RoyalWallpaperItem: {
 		Tooltip: ""
-		DisplayName: 王室の壁紙
+		DisplayName: 王室の壁
 	}
 
 	RoundPaneGlassWallItem: {
@@ -1471,7 +1471,7 @@ Items: {
 
 	PolkaDotsWallpaperItem: {
 		Tooltip: ""
-		DisplayName: 水玉模様の壁紙
+		DisplayName: 水玉模様の壁
 	}
 
 	PlasticBarItem: {
@@ -1651,7 +1651,7 @@ Items: {
 
 	HorizontalStripesWallpaperItem: {
 		Tooltip: ""
-		DisplayName: 横縞の壁紙
+		DisplayName: 横縞の壁
 	}
 
 	HoeItem: {

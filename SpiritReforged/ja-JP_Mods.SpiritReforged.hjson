@@ -1,0 +1,2177 @@
+Tiles: {
+	KillieFishbowlTile: {
+		MapEntry: Killie Fishbowl
+	}
+
+	GarInAJarTile: {
+		MapEntry: Gar In A Jar
+	}
+
+	TermiteJar_Tile: {
+		MapEntry: Termite Jar
+	}
+
+	HerosMemorialStatue: {
+		MapEntry: A Hero's Memorial
+	}
+
+	KoiTotemTile: {
+		MapEntry: Koi Totem
+	}
+
+	BambooBirdCage: {
+		MapEntry: Bamboo Bird Cage
+	}
+
+	LargeDriftwoodTile: {
+		MapEntry: Large Driftwood
+	}
+
+	MediumDriftwoodTile: {
+		MapEntry: Medium Driftwood
+	}
+
+	SmallDriftwoodTile: {
+		MapEntry: Small Driftwood
+	}
+
+	CloudstalkTile: {
+		MapEntry: Cloudstalk
+	}
+
+	GarInAJar_Tile: {
+		MapEntry: Gar in a Jar
+	}
+
+	KelpMapEntry: Kelp
+	CoralMapEntry: Coral
+
+	HydrothermalVent: {
+		MapEntry: Hydrothermal Vent
+	}
+
+	SunkenTreasureTile: {
+		MapEntry: Sunken Treasure
+	}
+}
+
+SetBonuses: {
+    Marksman:
+        '''
+        マークスマンアーマーを着用している間、集中力が高まる
+        集中している間、次の攻撃は必ずクリティカルとなり、より多くのダメージを与える
+        ダメージを受けると集中が途切れるが、静止することで素早くチャージする
+        '''
+    Botanist:
+        '''
+        あらゆる種類のハーブから得られる報酬が増加する
+        ハーブを見つけるための強力な視力を付与
+        '''
+    Drywood: 地上での移動速度が上昇する
+    Driftwood:
+        '''
+        着用者が水面に浮けるようになる
+        釣りパワーが向上する
+        '''
+    Cascade:
+        '''
+        敵にダメージを与えるとバブルシールドが構築される
+        バブルシールドが最大になると、次の攻撃に対して強力なダメージ耐性を付与し、
+        近くの敵にダメージを与えてノックバックさせる
+        '''
+}
+
+Projectiles: {
+	FallingBaobabFruit: {
+		DisplayName: Falling Baobab Fruit
+	}
+
+	ZiplineProj: {
+		DisplayName: Zipline Proj
+	}
+
+	SkullSentrySentry: {
+		DisplayName: Skull Sentry Sentry
+	}
+
+	SkullSentryMucus: {
+		DisplayName: Skull Sentry Mucus
+	}
+
+	SkullSentryEye: {
+		DisplayName: Skull Sentry Eye
+	}
+
+	CactusWallProj: {
+		DisplayName: Cactus Wall
+	}
+
+	RogueKnifeMinion: {
+		DisplayName: Rusted Knife
+	}
+
+	Zipline: {
+		DisplayName: Zipline
+	}
+
+	RoyalKhopeshHeld: {
+		DisplayName: Royal Khopesh
+	}
+
+	WheatgrassSeedProjectile: {
+		DisplayName: Wheatgrass Seed
+	}
+
+	SunStaffHeld: {
+		DisplayName: Sun Staff
+	}
+
+	SunOrb: {
+		DisplayName: Sun Orb
+	}
+
+	TumblerPet: {
+		DisplayName: Tumbler Pet
+	}
+
+	ToucanMinion: {
+		DisplayName: Toucan Minion
+	}
+
+	ToucanFeather: {
+		DisplayName: Toucan Feather
+	}
+
+	ButterflyMinion: {
+		DisplayName: Butterfly Minion
+	}
+
+	StarPowderProj: {
+		DisplayName: Star Powder
+	}
+
+	FairyProj: {
+		DisplayName: Magical Bolt
+	}
+
+	FairyMinion: {
+		DisplayName: Fairy Minion
+	}
+
+	JellyfishPet: {
+		DisplayName: Jellyfish Pet
+	}
+
+	ReefWrathProj: {
+		DisplayName: Coral Reef
+	}
+
+	JellyfishMinion: {
+		DisplayName: Little Jellyfish
+	}
+
+	JellyfishBolt: {
+		DisplayName: Electric Bolt
+	}
+
+	UrchinSpike: {
+		DisplayName: Urchin Spike
+	}
+
+	UrchinBall: {
+		DisplayName: Urchin Ball
+	}
+
+	Cannonbubble: {
+		DisplayName: Cannonbubble
+	}
+
+	HydrothermalVentPlume: {
+		DisplayName: Smoke Plume
+	}
+}
+
+Origins: {
+    Hiker: {
+        Description: 最高の高さの丘の上で、松明60個、蛍光灯30個、ロープ150本を持って開始する。
+        Flavor: 探求心が楽しさを増幅させ、ここには必要な物資だって揃ってる
+        DisplayName: ハイカー
+    }
+
+	Hunter: {
+		Description: サバンナでハンティングライフル、弾丸、そしてサファリの衣装セットを持って開始する。
+		Flavor: 野生の獲物が彼らのゲームだ。サバンナに暮らす動物同様、ここでは狩りが全て！
+		DisplayName: ハンター
+	}
+
+	Recluse: {
+		Description: 地下の釣り小屋で釣り人の帽子、グラスファイバーの釣り竿、いくつかの餌、松明25個、そして木箱を持って開始する。
+		Flavor: 彼らにとって、誰にも邪魔されない地下深くに隠れる方が楽だ。そしてここでの釣りは最高だね！
+		DisplayName: 引きこもり
+	}
+
+	Botanist: {
+		Description: かかしのそばで、フルボタニストの衣装セット、鎌、そしてハーブバッグをいくつか持って開始する。
+		Flavor: いわばハーブ学者。ハーブの収集と使用に非常に熟練している
+		DisplayName: ボタニスト
+	}
+
+	Diver: {
+		Description: 古代ダイバーの衣装セット、足ひれ、そしてマーフォークの宝を持って開始する。
+		Flavor: 凄惨な事故の後、ダイバーは新たな土地でまた、次なる海を見ようと懸命だ。
+		DisplayName: ダイバー
+	}
+}
+
+NPCs: {
+    HideZombieSmall: {
+        Entry: 彼らの服装は、最新のアンデッドファッションで大流行らしい。
+        DisplayName: ゾンビ
+    }
+
+	HideZombieBig: {
+		Entry: ハイエナ達は、毎夜蔓延るゾンビからいつも逃げ隠れなければならない。さもなければ彼らの皮は乗っ取られてしまうだろう。
+		DisplayName: ゾンビ
+	}
+
+	Hiker: {
+		Entry: 陽気で気楽そうだが、見た目とは裏腹にとても強い。ハイカーはほぼどこへでも行く道を知り尽くしている。ジャングル？お手の物。砂漠？地下雪原？スイスイと。宇宙？どうやってかはわからないけど…彼ならそこにだって行っちゃうさ。
+
+		Name: {
+			5: Porter
+			4: Rocky
+			3: Geoff
+			2: Geo
+			1: Shawn
+			0: Gary
+		}
+
+		Dialogue: {
+			FailPurchase: {
+				2: ダメじゃね、相棒よ。今は取引するつもりはないんじゃ。なに、ただちょっと準備万端すぎただけじゃ。...スナックはちょっと足りんが
+				1: すまんね、ワシこの荷物たちは手放せんよ。もう少し金銭を持ってきてもらわんと。いやいや、時間をかけてでも得る価値があるぞ！それに、ワシの荷物だって減らせるしの。
+				0: いやぁ、取引と呼ぶにゃあもう少し良い金額を見せてもらわんと。あぁ、食料がポケットでジャマしてるってなら別じゃがな、バッハッハ！
+			}
+
+			Purchase: {
+				4: 取引感謝じゃ！花でも楽しみたいところじゃが、おかしな植物がそこらにおるからのぉ。気をつけるんじゃ！
+				3: 空いたスペースを有効活用するんじゃぞ！ああ、これは聞いた話じゃが、天使の像をバッグに詰めまくると、驚くようなことが起こるらしいぞ。
+				2: 見知らぬものよ、よくぞ出会った！良き取引ほど絆を強めるものもなかろうて。
+				1: バッハッハ、ありがとう、相棒よ！皆がよく「あんた、そんな量の荷物どうやって入れてんだ」って聞いてくるんじゃよ。ああ、安心せい、ワシはお主にそんなこと詮索せんよ！
+				0: お、肩の荷が少し下りたのぉ！じゃが背中の痛みと引き換えに、リュックが重くなるならいつでも大歓迎じゃよ。
+			}
+
+			Idle: {
+				4: 賢いやつはいつも予備の物資を持ってるもんじゃ。でも、さすがに背中が痛いのぉ！持ちすぎたようじゃ…。どうじゃ、ポケットで小銭がうずうずしてるなら、取引してやろうぞ、バッハッハ！
+				3: 時々妖精に出会うとな、金やプラチナに導いてくれてのぉ。いつも興奮した様子を見せてるんじゃが、ホントはピッケルさえ持ってないんじゃ。だが彼女らが喜んでくれてると嬉しいのぉ。
+				2: ピンを使ったことあるかの？とても便利なんじゃよ。かつての相棒もいつも持ち歩いておった…最後に話したときは「浮島に登る方法を学ぶぜっ！」って。大変な仕事だとは思わんか？
+				1: かつての相棒が、松明の代わりにブリンクルートを使って探索しておってのぉ。「これの方が安全さ！」じゃと。変な奴じゃったのぉ。あいつは今どうしとるのかのぉ...
+				0: 洞窟の奥底へと突き進む探検ほど心躍るものもないのぉ。もっとも、全身がクモの巣まみれになるまでじゃが。さすがに興も冷めてしまうのぉ。
+			}
+
+			Hungry: {
+				Thanks: {
+					3: 長き探検の後食べる食事ほど最高なものはないのぉ。さあ相棒よ、このパックを持っていけぃ！無料じゃぞ！
+					2: 全く、感謝感激じゃ。ほれ相棒よ、このパック持っていきたまえ。
+					1: バッハッハ、最高じゃぁ！旨いスナックはいつもワシを気前よくさせよるわ、ホレ！タダでこいつらも持っていって良いぞぉ！
+					0: ありがとう、友よ。時には見知らぬ人の優しさも頼りになるもんじゃ。ホレ、この物資を持って行ってよい、知らない者同士ではないか！
+				}
+
+				Asking: {
+					3: "最後のプロテインバーを45分前に食べ終えてしもうてのぉ、足がガクガクなんじゃよ。お主、{0}を一つ分けてくれんかのぉ？"
+					2: "長き上り坂の探検は本当に疲れるのぉ。本当にクタクタじゃぁ...あぁ、{0}が食べたいのぉ…助けてくれんかのぉ？"
+					1: "家を出てから小腹がすいてくること、ないかのぉ？ワシは今まさにそうじゃ…{0}を、一つ分けてくれんかのぉ？"
+					0: "ちょい、そこの見知らぬ者よ、スナックを分けてくれんかのぉ？{0}を譲ってくれるなら、ワシも何かいいものあげようかのぉ。"
+				}
+			}
+		}
+
+		Buttons: {
+			Silver: 20シルバー
+			Supplies: 物資
+			Feed: 餌やり
+		}
+
+		DisplayName: ハイカー
+	}
+
+	Cartographer: {
+		Entry: 情熱的な探検心と極端な不器用さが妙に混ざったようなこの地図製作者は、ほとんど誰も探検していない場所へと足を踏み入れる。だが、ときには斬新さよりも安全を優先する。
+
+
+		Dialogue: {
+			Map: {
+				FirstPin: ホラ、君の「ピンのコレクション」にピンを追加しておいたぞ。これでマップの左下からいつでもいじれるぞ。
+
+				BloodAltar: {
+					2: ここに挑戦したい？俺は絶対ムリだ。血の臭いがするダンジョンに、変な祭壇が真ん中にある部屋があった…。あぁ、長くは居られなかったね。
+					1: これでいいはず！君ならできそうだ。俺、話の分かるアンデッドの奴に出会ったんだ、変だったけど、彼がこの…手、売ってくれた。それが指す方向を追ったら、不気味な墓地に着いた…。君なら何か得られるかもしれんが、俺は戻らないよ。
+					0: そして…ここ！地表を測るだけじゃ、表面だけだ。地下で変なものもたくさん見かけるけど、たいてい避けていくぞ…何でって？俺は地図製作者で、冒険者じゃないからだ！
+				}
+
+				WulfrumBunker: {
+					2: ここだ！忘れられないよ。こんなとこで工業なんて珍しいよな。俺は平気だが、それでもあの騒音は好きじゃない。特にエネルギーフィールドが出てきて、鉄くずが俺に飛び掛かってきたときはヤバかった。
+					1: ここだここ、俺の以前のキャンプ地だったんだ。丸一日歩いて休んでたら、大きな手を持った小さなマシンが俺のバッグを盗んでいきやがった！ちょうど休んでる最中だったからよかったけど、あんな小さい奴としばらく鬼ごっこをする羽目になったよ。
+					0: これで合ってるはず。いつものように歩いてたら、木の茂みの裏に変な緑の機械の場所があった。上でいろんなものが動いてて、下から機械の音が…いや、遠慮させていただこうか！
+				}
+
+				ButterflyShrine: {
+					2: ここがその場所だ。穴につまずくことくらい、よくある。でも、紫に光る穴なんて見たことない。あんな魔法みたいなナンセンス、関わりたくない、普通に別の場所歩き続けるよ。
+					1:
+						'''
+						ここ、マップのこのポイントだ！どう説明したらいいか分からないけど、目に浮かぶ光の点、説明できない小さな光、見たことある？
+						笑わないでくれよ、でもこの辺でピンクの蝶々が飛んでるの、絶対見た。でも本物じゃない！捕まえようとしたけど、光でできてて、説明できないんだ！
+						'''
+					0:
+						'''
+						ここ見てよ。寒くて不気味な夜、強い風が俺の地図をバックパックから吹き飛ばした。
+						大事な手仕事を拾うために地面にしゃがんだら、見たんだ。地面にピンの先みたいな小さな穴、紫に光ってた！あれには手を出さないけど、君は勇敢な冒険者っぽいね。
+						'''
+				}
+
+				Curiosity: {
+					2:
+						'''
+						ここを見ろよ。俺、地図屋だろ？もちろん地図は作る。で、時々ピンの場所を見失う…この地図にピンを刺したけど、なんで刺したか忘れちゃった。
+						わざわざ行って、帰ってきたのに、また忘れた。君にあげるよ、俺が忘れっぽいだけかもしれないけど、こんな呪われたガラクタはいらない。
+						'''
+					1:
+						'''
+						ここだった…かな？まぁ近いよ。俺みたいにたくさん探検してると、面白いものにたくさん出会う。時々、確認する価値のあるものも見つけるな。
+						俺ならすぐ取りに向かうがね。誰かに先取りされたらたまったもんじゃない！
+						'''
+					0:
+						'''
+						ほら、ここだ。俺ってさ、よく歩き回るんよ。景色を見て、考え事して…まぁ、そんなの地面に顔をぶつけたらどうでもよくなる。
+						ここで何かにつまずいたけど、何だったかは分からない。めっちゃイラついてて、見る気にもなれなかった。
+						'''
+				}
+
+				Hive: {
+					2: ここ見て…ほら、ここはいろいろとお宝が眠っててね。だが先に言っておくぞ、あそこにいる蜂たちの針はマジで痛い。十分に準備して行くんだぞ。
+					1: ほら！えぇっと…正直に言おう。この辺りで金脈なんて見つけても、それに必死になる程の価値ない。ひどい蜂だらけでさ…ビジネスじゃなく、ハイキングでもしな。
+					0: ピンは…こいつだ。大きい声では言いにくいが、ジャングルはおすすめしないぞ。キッツいんよ。でもまぁ、でかい巣を見つけたなら近くにハチミツがある。蜂に刺されるとしても価値あるご褒美だ。
+				}
+
+				Savanna: {
+					2:
+						'''
+						ちょっと前に、ジャングルのコウモリからどれだけ速く逃げられるか試したのさ。そしたら、ここ、この地図あたりで、空気がめっちゃ埃っぽくなった。サバンナが目の前に広がってた。すごい景色だったな！
+						ついでに、俺っていざとなればめっちゃ速く走れるって分かったよ。
+						'''
+					1:
+						'''
+						ここ見てよ。地面だけ見てまっすぐ歩いたことある？やめた方がいいよ。でも、ちょっと前にそうしてたら、草が鮮やかな緑から病気みたいな緑に変わってったのさ。
+						見上げたら、見たことないくらいでかい草。めっちゃ密集してた。で、俺は何したと思う？...振り向いて歩いて帰ったよ。あれを歩くの、流石にめんどくせーって。
+						'''
+					0:
+						'''
+						ほら、このピンはタダだぞ。いつものように朝の散歩して、木をガンガン殴ってリンゴを取ってたんだ。
+						2、3本木を殴った後、ふと見上げたら、なんかいつの間にかでっかい草原が目の前に！ ま、ちょっとしたらまた木を殴り続けたけどね。
+						'''
+				}
+
+				Shimmer: {
+					2:
+						'''
+						ここだ。こんな水を見たことあるかい？まるで夜空みたいに光ってるらしいのさ。なんつーか、この世のもんじゃないって感じ。
+						飲むのはおすすめしない、身体が偽物みたいになるらしい。上手くは説明できないんが、とにかく信じてほしい。
+						'''
+					1:
+						'''
+						えっと…この辺だったかな。海から帰る途中でつまずいて頭打った。目が覚めたら、小さな妖精みたいなのが変な場所に連れてった。
+						その後あんまり覚えてないけど、めっちゃパニックになった。あの妖精、急いで俺を連れ出したよ。
+						'''
+					0:
+						'''
+						どこだったかな…ここだ！暗くて危なっかしい洞窟を探検してたら、水平線にキラキラしたピンクの輝きが見えた。スゲェ綺麗なの。
+						そういう自然の神秘的なの、知ってるだろ？何、近づかない方がいいって？ああ、俺もそうした。
+						'''
+				}
+
+				EnchantedSword: {
+					2: ここだ！どうやってそこにあったかは知らないけど、石に刺さった剣を見つけた。あの伝説…アーサー王だっけ？変な武器には手を出さないけど、君にはうってつけかもな。
+					1: あ！ここだ。普通に見えるけど、地面の下にカッコいい剣が隠れてるって話だ。持って帰りたかったけど、ポケットは珍しいキノコと地図の紙でいっぱいだったんだ。
+					0: 何か見つけた…ここ！狭いトンネルの奥、信じられないけど、伝説通りの石に刺さった剣！ビビって逃げちゃったんだが、やっぱ俺にはふさわしくないよ。
+				}
+
+				FloatingIsland: {
+					2: ここを見てごらん！数週間前に空島を見つけた、カッコ良かったんだが、近所の住人がうるさかったな！俺が見つけられなかった何かを、君が見つけられるといいな。
+					1: ここ見て。めっちゃ上！ちょっと前にイタズラしてたら、空にたどり着いたのさ！宝物もあった気がするが、それよりどうやって降りるか考えるのに忙しくってな。
+					0: えっと…ここだ！可愛い浮島を見つけてな。どうやって行ったかって？ハーピーがこんな遠くまで運んでくれたのさ！
+				}
+			}
+
+			4: 一度その道を見つけるのは運でしかない。もう一度見つけるには良い地図が必要だ。
+			3: ヘイ、地図持ってる？ちょっと見せてくれないか？できればちゃんと整理されてるヤツ！
+			2: うわ…ピンを地面に落とすなんて、最悪だ。特に茶色いやつ。
+			1: なあ、丈夫でいい紙持ってないか？俺、すっかり使い切っちゃった。
+			0: 地図作りは大変だ。時々どこにいるか分からなくなって…あっ、ちょっと待って。
+		}
+
+		Names: {
+			5: Nessa
+			4: Wynn
+			3: '''"Clumsy"'''
+			2: Jesse
+			1: Kyra
+			0: Soleana
+		}
+
+		Buttons: {
+			Map: 地図
+		}
+
+		DisplayName: 地図製作者
+	}
+
+	SavannaJungleSlime: {
+		Entry: 花を飲み込んでしまったようだ！殺すには可愛すぎる…
+		DisplayName: ジャングルスライム
+	}
+
+	ButterflyCritter: {
+		Entry: 夜空を見上げれば、星の間にもいるかもしれない。彼らはその身体と同じくらい儚いダンスで舞う。
+		DisplayName: エーテルバタフライ
+	}
+
+	Ostrich: {
+		Entry: 空は飛ばないが、驚くほど速く走れる。それを幸運にも、君じゃなく虫を探すのに使ってる。
+		DisplayName: ダチョウ
+	}
+
+	Hyena: {
+		Entry: いたずら好きなハイエナは群れで狩りを行い、弱い野生動物を狙う。でも、テラリアンには敵対せずに逃げるようだ。
+		DisplayName: ハイエナ
+	}
+
+	TumbleZombie: {
+		Entry: ゾンビの姿の裏側...血や枝、胆汁の奥深くに、タンブラーとゾンビが意外な形で友情を育む感動的な物語が隠されている。
+		DisplayName: ゾンビ
+	}
+
+	SafariZombie: {
+		Entry: 楽観的に言うなら、すでにゾンビなら蛇だって何の害も及ぼさないよね。  
+		DisplayName: ゾンビ
+	}
+
+	Sparrow: {
+		DisplayName: スズメ
+		Entry: 森林にいる鳥のいとこで、世界的に有名な鳥と同じく単純明解だ。彼らは飛び回り、シロアリをついばみ、サバンナの空気を楽しんでいる。
+	}
+
+	PeevedTumbler: {
+		Entry: サバンナの生活は楽じゃない…でも、まぁ悪くもない。だが目に砂が入ったら、君だってイラつくだろうよ。
+		DisplayName: イライラタンブラー
+	}
+
+	SavannaSandSlime: {
+		Entry: ちょっと葉っぱっぽく、砂がなんだか少ない。だが危ないことには変わらない。
+		DisplayName: サンドスライム
+	}
+
+	Termite: {
+		Entry: この小さな虫たちは、複雑なトンネルの巨大な巣を作るために群がる。サバンナの乾いたカリカリの木が彼らの好物だ。
+		DisplayName: シロアリ
+	}
+
+	GoldKillifish: {
+		Entry: この輝く金色の鱗も、キリフィッシュの悩みを助けてはくれない。
+		DisplayName: ゴールドキリフィッシュ
+	}
+
+	Killifish: {
+		Entry: キリフィッシュは名前の通り、死にやすいことで有名だ。美しい虹色の鱗もあるけどね。
+		DisplayName: キリフィッシュ
+	}
+
+	TridentZombie: {
+		DisplayName: ゾンビ
+		Entry: そのトライデントは生きてるときに役に立たなかったようだ。まだかなり尖ってるから、気をつけよう。
+	}
+
+	SailorZombie: {
+		DisplayName: ゾンビ
+		Entry: 今はこんなだけど、生前は良質な豪華クルーザーを運営してたんだ、いつかチェックしてみて。
+	}
+
+	KelpZombie: {
+		DisplayName: ゾンビ
+		Entry: 魚は俺を恐れ、女は俺を恐れ、男は俺を恐れ、子供は俺を恐れる、なぜなら俺はアンデッドだから。
+	}
+
+	DiverZombie: {
+		DisplayName: ゾンビ
+		Entry: 酸素タンクに本物の酸素が必要だなんて、誰が言ったんだ？
+	}
+
+	OceanSlime: {
+		Entry: 上から来るぞ！気をつけろ！このずる賢いスライムは海岸にいて、皆がよく知るあのフルーツに巧妙に擬態している。
+		DisplayName: ココナッツスライム
+	}
+
+	GoldGar: {
+		Entry: この貴重ななゴールドガーを美味しいキャビアにするために引き裂こうなんて真似をするのは、モンスターだけだ。そう、モンスターだけ…
+		DisplayName: ゴールドガー
+	}
+
+	Gar: {
+		Entry: 鋭いハンターであり、普段は淡水に住んでいる。ガーと泳ぐときはいつも警戒が必要で、横からでも前からでも、果てには後ろからだって襲ってくる。
+		DisplayName: ガー
+	}
+
+	SandPiper: {
+		Entry: 波が掘り起こす食べ物を求めて海岸線をパトロールする、小さくて勇敢な鳥。
+		DisplayName: 浜辺のシギ
+	}
+
+	Tubeworm: {
+		Entry: キラキラした潮の下、光が届かない深いところには、熱水噴出孔から出るスモッグを食べる魅力的な生き物がいる。
+		DisplayName: チューブワーム
+	}
+
+	TinyCrab: {
+		Entry: この愛らしい小さな生き物は、より体の大きい親戚ほど敵対的じゃない。深い水に住んだことで、陽光が少なく色を失った。
+		DisplayName: ペールクラブ
+	}
+
+	Pelican: {
+		Entry: 獲物を捕食する特徴的なクチバシを持つ大きな海鳥。驚かせると獲物を落とすかもしれないけど、それは意地悪だよ。
+		DisplayName: ペリカン
+	}
+
+	Crinoid: {
+		Entry: この不思議な生き物はヒトデと近しい生態のようだ。いつも海の底に沈むものを食べている。
+		DisplayName: ウミシダ
+	}
+}
+
+MusicDisplay: {
+	DeepOcean: {
+		Author: By Salvati
+		DisplayName: Deep Ocean
+	}
+
+	SavannaNight: {
+		Author: By Salvati
+		DisplayName: Savanna Night
+	}
+
+	Savanna: {
+		Author: By Salvati, Sbubby
+		DisplayName: Savanna
+	}
+
+	Duststorm: {
+		Author: By Sbubby
+		DisplayName: Drifting Prairie (Duststorm Theme)
+	}
+
+	BySalvati: By Salvati
+	Sbubby: Sbubby
+	Salvati: Salvati
+	ModName: Spirit Reforged
+}
+
+Items: {
+    PinWulfrum: {
+        Tooltip: ""
+        DisplayName: ウルフラムピン
+    }
+
+	PinBlood: {
+		Tooltip: ""
+		DisplayName: ブラッドピン
+	}
+
+	SparrowCageItem: {
+		Tooltip: ""
+		DisplayName: テラリウム（スズメ）
+	}
+
+	KillieFishbowl: {
+		Tooltip: 「もっと大きい器の方が良かったかな？」
+		DisplayName: キリフィッシュの水槽
+	}
+
+	CampfireSpit: {
+		Tooltip: キャンプファイアに設置可能
+		DisplayName: ファイアスピット
+	}
+
+	OstrichPants: {
+		Tooltip: 「まるで生きてるようだ！」
+		DisplayName: ダチョウのパンツ
+	}
+
+	OceanDepthsBoxItem: {
+		Tooltip: ""
+		DisplayName: オルゴール（深海）
+	}
+
+	OceanSlimeBannerItem: {
+		DisplayName: ココナッツスライムのバナー
+	}
+
+	CloudstalkBoxItem: {
+		Tooltip: ""
+		DisplayName: クラウドストークのプランター
+	}
+
+	RemedyPotion: {
+		Tooltip:
+			'''
+			以下の効果に対する免疫を付与：
+			[list]
+			'''
+		DisplayName: レメディポーション
+	}
+
+	DriftwoodHammer: {
+		Tooltip: ""
+		DisplayName: 流木のハンマー
+	}
+
+	DriftwoodBow: {
+		Tooltip: ""
+		DisplayName: 流木の弓
+	}
+
+	Pearlberry: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			マナ自然回復を増進
+			「キラキラとまばゆく光る」
+			'''
+		DisplayName: パールベリー
+	}
+
+	NightSky: {
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			マナ自然回復を増進
+			「宇宙的な風味がする」
+			'''
+		DisplayName: ナイトスカイ
+	}
+
+	MidnightApple: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			マナ自然回復を増進
+			「星空のようにきらめいている」
+			'''
+		DisplayName: 闇夜のリンゴ
+	}
+
+	CrescentMelon: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			マナ自然回復を増進
+			'''
+		DisplayName: クレセントメロン
+	}
+
+	TatteredMap: {
+		Tooltip: ""
+		DisplayName: ボロボロの地図
+	}
+
+	CraneFeather: {
+		Tooltip: 空中での移動速度が上昇
+		DisplayName: 鶴の羽
+	}
+
+	SavannaPylonItem: {
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+		DisplayName: サバンナのパイロン
+	}
+
+	SavannaNightMusicBoxItem: {
+		Tooltip: ""
+		DisplayName: オルゴール（サバンナの夜）
+	}
+
+	DyeCrateItem: {
+		Tooltip:
+			'''
+			<right>で開く
+			「香りは…意外な程に爽やかだ！」
+			'''
+		DisplayName: 染料の木箱
+	}
+
+	PouchPack: {
+		Tooltip:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			「シンプルで快適、でもこぼれやすい」
+			'''
+		DisplayName: ポーチパック
+	}
+
+	PinkPack: {
+		Tooltip:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			「最適な色、実用的、遠くからでもよく見える」
+			'''
+		DisplayName: ピンクパック
+	}
+
+	Minipack: {
+		Tooltip:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			「小さく軽く、非常にコンパクト」
+			'''
+		DisplayName: ミニパック
+	}
+
+	HikingBackpack: {
+		Tooltip:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			「実用的で、耐久性があり、そして何よりも快適だ」
+			'''
+		DisplayName: ハイキングバックパック
+	}
+
+	FashionableBackpack: {
+		Tooltip:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			「洗練され、現代的でありながら、しっかり効率的だ」
+			'''
+		DisplayName: ファッショナブルバックパック
+	}
+
+	TornMapPiece: {
+		Tooltip: 周囲のマップ情報を開示する
+		DisplayName: 破れた地図の欠片
+	}
+
+	PinSword: {
+		Tooltip: ""
+		DisplayName: ソードピン
+	}
+
+	PinSky: {
+		Tooltip: ""
+		DisplayName: スカイピン
+	}
+
+	PinCuriosity: {
+		Tooltip: ""
+		DisplayName: キュリオシティピン
+	}
+
+	PinSavanna: {
+		Tooltip: ""
+		DisplayName: サバンナピン
+	}
+
+	PinFaeling: {
+		Tooltip: ""
+		DisplayName: フェイリングピン
+	}
+
+	PinButterfly: {
+		Tooltip: ""
+		DisplayName: バタフライピン
+	}
+
+	PinHive: {
+		Tooltip: ""
+		DisplayName: ハイブピン
+	}
+
+	PinYellow: {
+		Tooltip: ""
+		DisplayName: イエローピン
+	}
+
+	PinRed: {
+		Tooltip: ""
+		DisplayName: レッドピン
+	}
+
+	PinGreen: {
+		Tooltip: ""
+		DisplayName: グリーンピン
+	}
+
+	PinBlue: {
+		Tooltip: ""
+		DisplayName: ブルーピン
+	}
+
+	ArcaneNecklacePlatinum: {
+		Tooltip:
+			'''
+			最大マナを20増加
+			攻撃した敵からまれにマナスターがドロップする
+			'''
+		DisplayName: アルケインネックレス
+	}
+
+	ArcaneNecklaceGold: {
+		Tooltip:
+			'''
+			最大マナを20増加
+			攻撃した敵からまれにマナスターがドロップする
+			'''
+		DisplayName: アルケインネックレス
+	}
+
+	DriftwoodFenceItem: {
+		Tooltip: ""
+		DisplayName: 流木のフェンス
+	}
+
+	DriftwoodLanternItem: {
+		Tooltip: ""
+		DisplayName: 流木のランタン
+	}
+
+	DrywoodChandelierItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのシャンデリア
+	}
+
+	PearlString: {
+		Tooltip:
+			'''
+			倒した敵がより多くのコインをドロップ
+			「幸運な気分になる」
+			'''
+		DisplayName: パールストリング
+	}
+
+	CactusStaff: {
+		Tooltip: 前方にサボテンの壁を召喚する
+		DisplayName: サボテンの杖
+	}
+
+	LeatherCloakItem: {
+		Tooltip:
+			'''
+			砂嵐の強風に対する免疫
+			移動速度を5%、移動速度上昇を15%上昇
+			'''
+		DisplayName: レザークローク
+	}
+
+	ExplorerTreadsItem: {
+		Tooltip:
+			'''
+			ライフが10%減少するごとに移動速度+5%
+			罠や危険を50%の確率で回避する
+			「寺院の探索も楽になるだろう」
+			'''
+		DisplayName: 冒険者の古靴
+	}
+
+	LeatherPlate: {
+		Tooltip: ""
+		DisplayName: マークスマンの胸当て
+	}
+
+	LeatherLegs: {
+		Tooltip: ""
+		DisplayName: マークスマンのブーツ
+	}
+
+	LeatherHood: {
+		Tooltip: クリティカルヒット率を5%増加
+		DisplayName: マークスマンのフード
+	}
+
+	PeevedTumblerBannerItem: {
+		DisplayName: イライラタンブラーのバナー
+	}
+
+	SafekeeperRing: {
+		Tooltip:
+			'''
+			アンデッドに対するダメージをわずかに増加
+			「怪しげな輝きを放っている」 
+			'''
+		DisplayName: セーフキーパーの指輪
+	}
+
+	Blunderbuss: {
+		Tooltip: 拡散弾を撃つ
+		DisplayName: ブランダーバス
+	}
+
+	SparrowItem: {
+		Tooltip: ""
+		DisplayName: スズメ
+	}
+
+	GildedScarab: {
+		Tooltip:
+			'''
+			攻撃を受けた際に一時的に防御力が増加
+			増加する防御力は受けたダメージに応じて変化する
+			'''
+		DisplayName: 黄金の甲虫
+	}
+
+	RogueCrest: {
+		Tooltip:
+			'''
+			共に戦う錆びれた剣を召喚する
+			この剣はミニオンスロットを消費しない
+			まれに「開いた傷」デバフを付与し、近接または鞭攻撃で敵を攻撃すると「出血」デバフを付与する
+			'''
+		DisplayName: 盗賊の紋章
+	}
+
+	FrostbiteItem: {
+		Tooltip: 前方に小規模な吹雪を放つ
+		DisplayName: フロストバイト
+	}
+
+	ZiplineGun: {
+		AssistantOff: 右クリックでアシスタントを無効化
+		AssistantOn: 右クリックでアシスタントを有効化
+		Tooltip:
+			'''
+			カーソル位置にプレイヤーを運ぶレールを生成
+			レールはカーソルを合わせるか、右クリックで削除可能
+			「レールガンと混同しないように」
+			'''
+		DisplayName: レール・ガン
+	}
+
+	DrywoodWallItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの壁
+	}
+
+	DrywoodFenceItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのフェンス
+	}
+
+	SavannaFountainItem: {
+		Tooltip: ""
+		DisplayName: サバンナの噴水
+	}
+
+	SavannaCampfireItem: {
+		Tooltip: キャンプファイアの近くでライフ自然回復が増進
+		DisplayName: サバンナのキャンプファイア
+	}
+
+	OstrichBannerItem: {
+		DisplayName: ダチョウのバナー
+	}
+
+	HyenaBannerItem: {
+		DisplayName: ハイエナのバナー
+	}
+
+	MineralSlag: {
+		Tooltip: エクストラクティネーターで使用可能
+		DisplayName: ミネラルスラグ
+	}
+
+	SavannaCrate: {
+		Tooltip: <right>で開く
+		DisplayName: グラスランドの箱
+	}
+
+	SavannaCrateHardmode: {
+		Tooltip: <right>で開く
+		DisplayName: サファリの箱
+	}
+
+	MagmastoneItem: {
+		Tooltip: ""
+		DisplayName: マグマ石
+	}
+
+	GravelItem: {
+		Tooltip: ""
+		DisplayName: 砂利
+	}
+
+	SavannaDirtWallItem: {
+		Tooltip: ""
+		DisplayName: 粗い土の壁
+	}
+
+	DrywoodPlatformItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの足場
+	}
+
+	FishLure: {
+		Tooltip:
+			'''
+			水中に設置可能
+			近くの水域に魚の群れを引き寄せる
+			'''
+		DisplayName: 釣り用ルアー
+	}
+
+	SavannaSandstormMusicBoxItem: {
+		DisplayName: オルゴール（砂嵐）
+		Tooltip: ""
+	}
+
+	RoyalKhopesh: {
+		Tooltip: ""
+		DisplayName: ロイヤルコペシュ
+	}
+
+	WheatgrassSeedPouch: {
+		Tooltip:
+			'''
+			草の上に小麦草を育てる種をばらまく
+			「手で振るとシャカシャカと鳴る」
+			'''
+		DisplayName: 小麦草の種入りポーチ
+	}
+
+	TintedGlasses: {
+		Tooltip: 「カッコよさをアピールするから、暗くなってもつけておくべきだ」
+		DisplayName: ティンテッドグラス
+	}
+
+	SwimmingTrunks: {
+		Tooltip: 「防御には役立たないけど、間違いなくオシャレだ」
+		DisplayName: 海パン
+	}
+
+	BikiniTop: {
+		Tooltip: 「期待に反して、本当に防御力がないんだよ」
+		DisplayName: ビキニトップ
+	}
+
+	BikiniBottom: {
+		Tooltip: 「晴れた日に自由に動けるなら、鎧なんていらないよね！」
+		DisplayName: ビキニボトム
+	}
+
+	BeachTowel: {
+		Tooltip:「濡れずに済むけど、水に飛び込むときは脱いでね！」
+		DisplayName: ビーチタオル
+	}
+
+	BotanistLegs: {
+		Tooltip: 移動速度を10%増加
+		DisplayName: ボタニストジョガーズ
+	}
+
+	BotanistHat: {
+		Tooltip: 気分を高揚させる
+		DisplayName: ヒマワリの麦わら帽子
+	}
+
+	BotanistBody: {
+		Tooltip: ""
+		DisplayName: ボタニストのエプロン
+	}
+
+	ScarecrowItem: {
+		Tooltip: ""
+		DisplayName: かかし
+	}
+
+	WaningSunItem: {
+		Tooltip: "'E. Sibellius'"
+		DisplayName: 絵画「沈みゆく太陽」
+	}
+
+	StrongWindsItem: {
+		Tooltip: "'S. Yaki'"
+		DisplayName: 絵画「強風」
+	}
+
+	OrangeSkiesItem: {
+		Tooltip: "'S. Yaki'"
+		DisplayName: 絵画「橙色の空」
+	}
+
+	DustyFieldsItem: {
+		Tooltip: "'S. Yaki'"
+		DisplayName: 絵画「砂埃の平原」
+	}
+
+	HerosMemorialStatueItem: {
+		Tooltip: 「人々の記憶の中で永遠に生き続けるだろう」
+		DisplayName: 英雄の記念碑
+	}
+
+	DriftwoodWorkBenchItem: {
+		Tooltip: ""
+		DisplayName: 流木の作業台
+	}
+
+	DriftwoodToiletItem: {
+		Tooltip: ""
+		DisplayName: 流木のトイレ
+	}
+
+	DriftwoodTableItem: {
+		Tooltip: ""
+		DisplayName: 流木のテーブル
+	}
+
+	DriftwoodSinkItem: {
+		Tooltip: ""
+		DisplayName: 流木のシンク
+	}
+
+	DriftwoodPianoItem: {
+		Tooltip: ""
+		DisplayName: 流木のピアノ
+	}
+
+	DriftwoodLampItem: {
+		Tooltip: ""
+		DisplayName: 流木のランプ
+	}
+
+	DriftwoodDresserItem: {
+		Tooltip: ""
+		DisplayName: 流木のドレッサー
+	}
+
+	DriftwoodDoorItem: {
+		Tooltip: ""
+		DisplayName: 流木のドア
+	}
+
+	DriftwoodClockItem: {
+		Tooltip: ""
+		DisplayName: 流木の時計
+	}
+
+	DriftwoodChandelierItem: {
+		Tooltip: ""
+		DisplayName: 流木のシャンデリア
+	}
+
+	DriftwoodChairItem: {
+		Tooltip: ""
+		DisplayName: 流木の椅子
+	}
+
+	DriftwoodCandleItem: {
+		Tooltip: ""
+		DisplayName: 流木の蝋燭
+	}
+
+	DriftwoodCandelabraItem: {
+		Tooltip: ""
+		DisplayName: 流木の燭台
+	}
+
+	DriftwoodBookcaseItem: {
+		Tooltip: ""
+		DisplayName: 流木の本棚
+	}
+
+	DriftwoodBenchItem: {
+		Tooltip: ""
+		DisplayName: 流木のベンチ
+	}
+
+	DriftwoodBedItem: {
+		Tooltip: ""
+		DisplayName: 流木のベッド
+	}
+
+	DriftwoodBathtubItem: {
+		Tooltip: ""
+		DisplayName: 流木の浴場
+	}
+
+	DriftwoodBarrelItem: {
+		Tooltip: ""
+		DisplayName: 流木の樽
+	}
+
+	DrywoodDoorItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのドア
+	}
+
+	DrywoodChestItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの宝箱
+	}
+
+	DrywoodSofaItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのソファ
+	}
+
+	DrywoodLanternItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのランタン
+	}
+
+	DrywoodWorkBenchItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの作業台
+	}
+
+	DrywoodToiletItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのトイレ
+	}
+
+	DrywoodTableItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのテーブル
+	}
+
+	DrywoodSinkItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのシンク
+	}
+
+	DrywoodPianoItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのピアノ
+	}
+
+	DrywoodLampItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのランプ
+	}
+
+	DrywoodDresserItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのドレッサー
+	}
+
+	DrywoodCouchItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのカウチ
+	}
+
+	DrywoodClockItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの時計
+	}
+
+	DrywoodChairItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの椅子
+	}
+
+	DrywoodCandleItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの蝋燭
+	}
+
+	DrywoodCandelabraItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの燭台
+	}
+
+	DrywoodBookcaseItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの本棚
+	}
+
+	DrywoodBedItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドのベッド
+	}
+
+	DrywoodBathtubItem: {
+		Tooltip: ""
+		DisplayName: ドライウッドの浴場
+	}
+
+	SavannaMusicBoxItem: {
+		Tooltip: ""
+		DisplayName: オルゴール（サバンナ）
+	}
+
+	SunStaff: {
+		Tooltip: 太陽の光を降らす
+		DisplayName: サンライズセプター
+	}
+
+	SafariVest: {
+		Tooltip: ""
+		DisplayName: サファリベスト
+	}
+
+	SafariShorts: {
+		Tooltip: ""
+		DisplayName: サファリショーツ
+	}
+
+	SafariHat: {
+		Tooltip: ""
+		DisplayName: サファリハット
+	}
+
+	HuntingRifle: {
+		Tooltip: 遠くのターゲットを狙ったり静止している時にダメージが増加
+		DisplayName: ハンティングライフル
+	}
+
+	DrywoodSword: {
+		Tooltip: ""
+		DisplayName: ドライウッドの剣
+	}
+
+	DrywoodHelmet: {
+		Tooltip: ""
+		DisplayName: ドライウッドの兜
+	}
+
+	DrywoodHammer: {
+		Tooltip: ""
+		DisplayName: ドライウッドのハンマー
+	}
+
+	DrywoodGreaves: {
+		Tooltip: ""
+		DisplayName: ドライウッドのすね当て
+	}
+
+	DrywoodBreastplate: {
+		Tooltip: ""
+		DisplayName: ドライウッドの胸当て
+	}
+
+	DrywoodBow: {
+		Tooltip: ""
+		DisplayName: ドライウッドの弓
+	}
+
+	DrywoodItem: {
+		Tooltip: ""
+		DisplayName: ドライウッド
+	}
+
+	OstrichEgg: {
+		Tooltip: 全ステータスが少し強化
+		DisplayName: ダチョウの卵
+	}
+
+	Omelette: {
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「完璧な調理だ！」
+			'''
+		DisplayName: オムレツ
+	}
+
+	LoungeChairItem: {
+		Tooltip: ""
+		DisplayName: ラウンジチェア
+	}
+
+	SmallBuoy: {
+		Tooltip: 水中に設置可能
+		DisplayName: 小型ブイ
+	}
+
+	BigBuoy: {
+		Tooltip: 水中に設置可能
+		DisplayName: 大型ブイ
+	}
+
+	BeachUmbrellaItem: {
+		Tooltip: ""
+		DisplayName: ビーチアンブレラ
+	}
+
+	CustardApple: {
+		Tooltip: 全ステータスが少し強化
+		DisplayName: カスタードアップル
+	}
+
+	Caryocar: {
+		Tooltip: 全ステータスが少し強化
+		DisplayName: カリオカール
+	}
+
+	LeatherBackpack: {
+		Tooltip:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			「快適で、実用的でありながら、なおかつ魅力的」
+			'''
+		DisplayName: レザーバックパック
+	}
+
+	SavannaGrassSeeds: {
+		Tooltip: ""
+		DisplayName: サバンナの草の種
+	}
+
+	BaobabFruit: {
+		Tooltip: 全ステータスが少し強化
+		DisplayName: バオバブフルーツ
+	}
+
+	WrithingSticks: {
+		Tooltip: 友好的なタンブルウィードを召喚する
+		DisplayName: よじれた枝
+	}
+
+	LivingBaobabWand: {
+		Tooltip: ""
+		DisplayName: リビングバオバブの杖
+	}
+
+	LivingBaobabLeafWand: {
+		Tooltip: ""
+		DisplayName: リビングバオバブの葉の杖
+	}
+
+	LivingBaobabWallItem: {
+		Tooltip: ""
+		DisplayName: リビングバオバブの壁
+	}
+
+	LivingBaobabLeafWallItem: {
+		Tooltip: ""
+		DisplayName: リビングバオバブの葉の壁
+	}
+
+	QuenchPotion: {
+		Tooltip: 他のポーションの効果時間を25%延長
+		DisplayName: クエンチポーション
+	}
+
+	ToucaneItem: {
+		Tooltip: 共に戦うオオハシを召喚する
+		DisplayName: トゥケイン
+	}
+
+	PoolNoodle: {
+		Tooltip:
+			'''
+			3つの召喚タグのダメージ
+			攻撃を当てた敵にミニオンが集中攻撃する
+			ミニオンに攻撃された敵がまれに泡の爆発を放つ
+			'''
+		DisplayName: プールヌードル
+	}
+
+	ButterflyStaff: {
+		Tooltip:
+			'''
+			共に戦う魔法の蝶を召喚する
+			「理想的な桜の花から生まれた」
+			'''
+		DisplayName: エーテル蝶の杖
+	}
+
+	TermiteJar: {
+		Tooltip: 「生態系の悪夢」
+		DisplayName: シロアリ瓶
+	}
+
+	StarPowder: {
+		Tooltip: 草木に浴びせると星々で輝く
+		DisplayName: 星の粉
+	}
+
+	TermiteItem: {
+		Tooltip: ""
+		DisplayName: シロアリ
+	}
+
+	FairyWhistle: {
+		Tooltip: 周囲を漂い共に戦う妖精を召喚する
+		DisplayName: フェアリーホイッスル
+	}
+
+	KoiTotem: {
+		Tooltip:
+			'''
+			近くに設置することで釣りのスキルを向上
+			最後に使用した餌をまれに補充する
+			'''
+		DisplayName: コイトーテム
+	}
+
+	BambooKendoBlade: {
+		Tooltip: 右クリックで前方にダッシュする
+		DisplayName: 竹の竹刀
+	}
+
+	BambooHalberd: {
+		Tooltip: ""
+		DisplayName: 竹のハルバード
+	}
+
+	KillifishBannerItem: {
+		DisplayName: キリフィッシュのバナー
+	}
+
+	KillifishItem: {
+		Tooltip: ""
+		DisplayName: キリフィッシュ
+	}
+
+	GoldKillifishItem: {
+		Tooltip: ""
+		DisplayName: ゴールドキリフィッシュ
+	}
+
+	MessageBottle: {
+		Tooltip:
+			'''
+			イカダマウントを召喚
+			イカダに乗っている間、釣りの力が向上
+			'''
+		DisplayName: メッセージ入りボトル
+	}
+
+	Ambergris: {
+		Tooltip:
+			'''
+			非常に高額だ
+			「これの出所は知りたくないね」
+			'''
+		DisplayName: アンバーグリス
+	}
+
+	FishCrate: {
+		Tooltip: <right>で開く
+		DisplayName: 梱包済みの木箱
+	}
+
+	FloatingDriftwood: {
+		Tooltip: ""
+		DisplayName: 浮かんだ流木
+	}
+
+	HangingCloudstalkItem: {
+		Tooltip: ""
+		DisplayName: 吊られたクラウドストーク
+	}
+
+	FlightPotion: {
+		Tooltip: 飛行時間を25%増加
+		DisplayName: ソアリングポーション
+	}
+
+	DoubleJumpPotion: {
+		Tooltip: 一時的に二段ジャンプを付与
+		DisplayName: ゼファーポーション
+	}
+
+	CloudstalkSeed: {
+		Tooltip: ""
+		DisplayName: クラウドストークの種
+	}
+
+	Cloudstalk: {
+		Tooltip: 「よく高い所で生えている」
+		DisplayName: クラウドストーク
+	}
+
+	DriftwoodWallItem: {
+		Tooltip: ""
+		DisplayName: 流木の壁
+	}
+
+	DriftwoodSword: {
+		Tooltip: ""
+		DisplayName: 流木の剣
+	}
+
+	DriftwoodPlatformItem: {
+		Tooltip: ""
+		DisplayName: 流木の足場
+	}
+
+	DriftwoodLeggings: {
+		Tooltip: ""
+		DisplayName: 流木のすね当て
+	}
+
+	DriftwoodHelmet: {
+		Tooltip: ""
+		DisplayName: 流木の兜
+	}
+
+	DriftwoodChestplate: {
+		Tooltip: ""
+		DisplayName: 流木の胸当て
+	}
+
+	LargeDriftwoodItem: {
+		Tooltip: 「美的に魅力的」
+		DisplayName: 大きな流木
+	}
+
+	MediumDriftwoodItem: {
+		Tooltip: 「美的に魅力的」
+		DisplayName: 中型の流木
+	}
+
+	SmallDriftwoodItem: {
+		Tooltip: 「美的に魅力的」
+		DisplayName: 小型の流木
+	}
+
+	JellyCandle: {
+		Tooltip: 浮遊クラゲを召喚する
+		DisplayName: ジェリーの蝋燭
+	}
+
+	SteamedMussels: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「生き生きとして魅力的だ」
+			'''
+		DisplayName: 蒸されたムール貝
+	}
+
+	BambooPotItem: {
+		Tooltip: ""
+		DisplayName: 竹の植木鉢
+	}
+
+	BambooPikeItem: {
+		Tooltip: ""
+		DisplayName: 竹のパイク
+	}
+
+	BambooBirdCageItem: {
+		Tooltip: 右クリックで一部の鳥を中に入れられる
+		DisplayName: 竹の鳥籠
+	}
+
+	BambooBenchItem: {
+		Tooltip: ""
+		DisplayName: 竹のベンチ
+	}
+
+	BambooBarrelItem: {
+		Tooltip: ""
+		DisplayName: 竹の桶
+	}
+
+	StrippedBambooItem: {
+		Tooltip: ""
+		DisplayName: 剥ぎ取られた竹
+	}
+
+	SailorCap: {
+		Tooltip: 「さあ、乗船だ！」
+		DisplayName: セーラーキャップ
+	}
+
+	DiverLegs: {
+		Tooltip: ""
+		DisplayName: 古代ダイバーのパンツ
+	}
+
+	DiverHead: {
+		Tooltip: ""
+		DisplayName: 古代ダイバーのヘルメット
+	}
+
+	DiverBody: {
+		Tooltip: ""
+		DisplayName: 古代ダイバーの胸当て
+	}
+
+	CoconutMilk: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「器なんていらないね！」
+			'''
+		DisplayName: ココナッツミルク
+	}
+
+	GarBannerItem: {
+		DisplayName: ガーのバナー
+	}
+
+	GoldenCaviar: {
+		Tooltip:
+			'''
+			全ステータスが大きく強化
+			「料理芸術の極み」
+			'''
+		DisplayName: 黄金のキャビア
+	}
+
+	CookedMeat: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「理想的に焼き上げられた」
+			'''
+		DisplayName: 調理済みの肉
+	}
+
+	RawMeat: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「食べられるよ…でも、調理してからの方がいいかな？」
+			'''
+		DisplayName: 生肉
+	}
+
+	CrystalFish: {
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			魔法の力を強化
+			'''
+		DisplayName: クリスタライズドサーモン
+	}
+
+	FishChips: {
+		Tooltip: 全ステータスが少し強化
+		DisplayName: フィッシュアンドチップス
+	}
+
+	HoneySalmon: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「甘味と塩味による絶妙なミックス！」
+			'''
+		DisplayName: はちみつ照り焼きサーモン 
+	}
+
+	Nigiri: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			水中で自由に移動可能
+			「完璧な切れ具合だ」
+			'''
+		DisplayName: 握り寿司
+	}
+
+	Sushi: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			水中での呼吸を可能にする
+			「冷たくて新鮮！」
+			'''
+		DisplayName: 巻き寿司
+	}
+
+	GoldGarItem: {
+		Tooltip: ""
+		DisplayName: ゴールドガー
+	}
+
+	SavannaDirtItem: {
+		Tooltip: ""
+		DisplayName: 粗い土
+	}
+
+	GarItem: {
+		Tooltip: ""
+		DisplayName: ガー
+	}
+
+	GarInAJar: {
+		DisplayName: 瓶入りのガー
+		Tooltip: ""
+	}
+
+	UrchinStaff: {
+		Tooltip: ""
+		DisplayName: ウニロバー
+	}
+
+	SkullSentry: {
+		Tooltip: 近くの敵に赤い粘液を発射する、マニーターワームに侵された頭蓋骨を召喚する
+		DisplayName: マニータースカル
+	}
+
+	ReefSpear: {
+		Tooltip: 右クリックでトライデントを投げ、左クリックで与えるダメージを増加
+		DisplayName: リーフピアサー
+	}
+
+	OceanPendant: {
+		Tooltip: 水中での移動速度が大幅に上昇
+		DisplayName: マーフォークの宝
+	}
+
+	IridescentScale: {
+		Tooltip: 「水中で美しく輝いている」
+		DisplayName: 虹色の鱗
+	}
+
+	ClawCannon: {
+		Tooltip: ""
+		DisplayName: 爪の大砲
+	}
+
+	Lifesaver: {
+		Tooltip:
+			'''
+			騎乗(マンタレイ)を召喚する
+			マンタレイは陸上では移動できないが、液体の上をホバリング可能
+			'''
+		DisplayName: ライフセーバー
+	}
+
+	JellyfishStaff: {
+		Tooltip: 共に戦う小さなクラゲを召喚する
+		DisplayName: ジェリーフィッシュスタッフ
+	}
+
+	CascadeLeggings: {
+		Tooltip: 水中での移動速度が15%増加
+		DisplayName: リーフハンターのすね当て
+	}
+
+	CascadeHelmet: {
+		Tooltip: 水中での呼吸を可能にする
+		DisplayName: リーフハンターの兜
+	}
+
+	CascadeChestplate: {
+		Tooltip: ノックバック耐性が50%増加
+		DisplayName: リーフハンターの胸当て
+	}
+
+	TubewormItem: {
+		Tooltip: ""
+		DisplayName: チューブワーム
+	}
+
+	TinyCrabItem: {
+		Tooltip: ""
+		DisplayName: ペールクラブ
+	}
+
+	SandPiperItem: {
+		Tooltip: ""
+		DisplayName: 浜辺のシギ
+	}
+
+	PelicanItem: {
+		Tooltip: ""
+		DisplayName: ペリカン
+	}
+
+	CrinoidItem: {
+		Tooltip: ""
+		DisplayName: ウミシダ
+	}
+
+	MusselItem: {
+		Tooltip: ""
+		DisplayName: ムール貝
+	}
+
+	DriftwoodItem: {
+		Tooltip: ""
+		DisplayName: 流木
+	}
+
+	SunkenTreasure: {
+		Tooltip:
+			'''
+			右クリックで開く
+			「ひょっとしたらまだ貴重な宝物が詰まっているかもしれない」
+			'''
+		DisplayName: 沈んだ宝
+	}
+
+	RawFish: {
+		Tooltip:
+			'''
+			全ステータスが少し強化
+			「食べられるよ…でも、調理してからの方がいいかな？」
+			'''
+		DisplayName: 生魚
+	}
+
+	PirateKey: {
+		Tooltip: 「海賊たちが宝をどこかに隠したんだろう…」
+		DisplayName: 秘密の鍵
+	}
+
+	PirateChestItem: {
+		Tooltip: ""
+		DisplayName: 海賊の宝箱
+	}
+
+	Kelp: {
+		Tooltip: 水中に植える必要がある
+		DisplayName: 昆布
+	}
+
+	CommonTooltips: {
+		Shimmerable: "{0} がシマーによって変化"
+		Backpack:
+			'''
+			4つのアイテムを収納
+			外す前に中を空にする必要がある
+			'''
+	}
+}
+
+
+GameTips: {
+    ReforgedTip9: アイテムが海の表面にランダムに浮かんでいる時がある、定期的にチェックしよう！
+    ReforgedTip8: アカシアの木のてっぺんは、高さが必要な場合に立つことができる。
+    ReforgedTip7: クラウドストークは常に雲の下に生える。
+    ReforgedTip6: スターグラスは夜の暗闇で心地よい休息を提供する。
+    ReforgedTip5: 海の漆黒の虚空は多くの恩恵をもたらす。
+    ReforgedTip4: バックパック。今、もっとスペースがあるよ。
+    ReforgedTip3: サバンナの動物達は虫取り網で捕まえることができない。
+    ReforgedTip2: ピンは便利だ！マップの左下にあるピンのインベントリをチェックしよう。
+    ReforgedTip1: まれに、蝶が地下の木立に隠れていることが知られている。
+    ReforgedTip0: 常に食べ物を持ち歩こう。いつ役立つかわからないよ！
+}
+
+DamageSources: {
+    Impaling: {
+        1: "{0} は串刺しにされた。"
+        0: "{0} は突き刺された。"
+    }
+}
+
+Misc: {
+    MenuButton: メニュー形式を使用
+    GraveText: <wavy>文字は古く色あせており、何が書いてあるかよくわからない。
+    NoStock: 在庫切れ
+
+	Pins: {
+		UseItem: 右クリックでこのピンをコレクションに追加
+		Obtained: このピンはすでに追加済み
+		Move: ピンを移動
+		}
+}
+
+Conditions: {
+    PeevedTumbler: キラキラ輝いているとき
+    InSavanna: サバンナにいるとき
+}
+
+SlotContexts: {
+    Backpack: パック
+}
+
+Biomes: {
+    SavannaBiome: {
+        TownNPCDialogueName: サバンナ
+        DisplayName: サバンナ
+    }
+}
+
+Generation: {
+    Ecotones: エコトーンのマッピング
+    SavannaObjects: サバンナのオブジェクト配置
+    SavannaTerrain: 高原の作成
+    Gravel: 砂利の配置
+    PopulateOcean: 海のオブジェクト配置
+    FishingCoves: 釣りスポットの追加
+    Butterfly: 蝶の祠を隠す
+    HerosMemorial: 英雄を偲ぶ
+    Stargrass: きらきらな草木を育む
+    Discoveries: 発見の追加
+}
+
+Configs: {
+    ReforgedServerConfig: {
+        MaxFloatingItemCount: {
+            Tooltip: 世界に存在できる浮上アイテムの総数を調整します
+            Label: 浮上アイテムの上限
+        }
+
+        VentCritters: {
+            Tooltip:
+                '''
+                熱水噴出孔の周囲に多数のクリーチャーのスポーンを有効にします
+                これらのクリーチャーは通常の敵のスポーン率に影響を与えません
+                ただし、NPCの最大数には影響します
+                '''
+            Label: 噴出孔に沸くクリーチャー
+        }
+
+        DisplayName: Reforged サーバー設定
+    }
+
+    OceanShape: {
+        Piecewise_V: {
+            Label: ピースワイズ_V
+        }
+
+        Piecewise_M: {
+            Label: ピースワイズ_M
+        }
+
+        Piecewise: {
+            Label: ピースワイズ
+        }
+
+        SlantedSine: {
+            Label: 傾斜サイン
+        }
+
+        Default: {
+            Label: デフォルト
+        }
+
+        Tooltip: ""
+    }
+
+    ReforgeClientConfig: {
+        SurfaceWaterTransparency: {
+            Tooltip:
+                '''
+                オンにすると海洋の水が透明になります
+                他のバイオームには影響しません
+                '''
+            Label: 表面水の透明度
+        }
+
+        OceanShape: {
+            Tooltip:
+                '''
+                海洋の生成を変更します
+                デフォルトではピースワイズ_V生成です
+                Spirit プレイスルーにはピースワイズ_V生成が推奨されます
+                '''
+            Label: 海洋形状
+        }
+
+        DisplayName: Reforged クライアント設定
+    }
+}
+
+Buffs: {
+    OpenWounds: {
+        Description: 出血しやすい状態
+        DisplayName: 開いた傷
+    }
+
+    RemedyPotionBuff: {
+        Description: 一部の有害な効果に対する免疫
+        DisplayName: 治療
+    }
+
+    ExplorerSpeed: {
+        Description: 移動速度が大幅に向上
+        DisplayName: 探検者の速度
+    }
+
+    PoolNoodleBubbleBuff: {
+        Description: スピリット伝承の秘密の書を見つけた…！我々のスーパーボス、ダークスティール・フォールン・スターにご期待ください！
+        DisplayName: プールヌードルバブルバフ
+    }
+
+    GildedScarabBuff: {
+        Description: 防御力が{0}増加
+        DisplayName: スカラベの盾
+    }
+
+    Frozen: {
+        Description: 敵の移動速度が低下
+        DisplayName: 凍結
+    }
+
+    TumblerPetBuff: {
+        Description: 友好的なタンブルウィードがあなたを追いかける
+        DisplayName: 気まぐれタンブラー
+    }
+
+    QuenchPotion_Buff: {
+        Description: 他のポーションの効果時間が25%延長
+        DisplayName: 潤い
+    }
+
+    ToucanMinion_Buff: {
+        Description: トゥーカンが共に戦う
+        DisplayName: トゥケイン
+    }
+
+    ButterflyMinion_Buff: {
+        Description: エーテルの蝶が共に戦う
+        DisplayName: エーテルバタフライ
+    }
+
+    KoiTotemBuff: {
+        Description: 釣りのスキルが向上
+        DisplayName: 鯉のトーテム
+    }
+
+    Impaled: {
+        Description: 槍に刺された。痛い！
+        DisplayName: 刺突
+    }
+
+    FairyMinion_Buff: {
+        Description: ちょっと！気をつけて！
+        DisplayName: フェアリー
+    }
+
+    BottleMountBuff: {
+        Description: SOS信号を発信中
+        DisplayName: いかだ
+    }
+
+    FlightPotionBuff: {
+        Description: 飛行時間が25%増加
+        DisplayName: 舞い上がる
+    }
+
+    DoubleJumpPotionBuff: {
+        Description: 一時的に追加のジャンプが可能
+        DisplayName: ゼファージャンプ
+    }
+
+    JellyfishBuff: {
+        Description: この元気なクラゲはあなたについて回るのが大好き！
+        DisplayName: 友好的なクラゲ
+    }
+
+    JellyfishMinion_Buff: {
+        Description: かわいくて弾むクラゲが共に戦う！
+        DisplayName: クラゲ
+    }
+
+    MantarayBuff: {
+        Description: 潮の流れのように素早い！
+        DisplayName: レスキューレイ
+    }
+
+    EmpoweredSwim: {
+        Description: 水中がとても速く泳げる
+        DisplayName: 強化された泳ぎ
+    }
+}
+

@@ -1,0 +1,127 @@
+NPCs: {
+	Fox: {
+		DisplayName: キツネ
+	}
+
+	GoldFox: {
+		DisplayName: 黄金のキツネ
+	}
+
+	CorruptFox: {
+		DisplayName: 不浄のキツネ
+	}
+
+	ViciousFox: {
+		DisplayName: 真紅のキツネ
+	}
+}
+
+Items: {
+	FoxItem: {
+		DisplayName: キツネ
+		Tooltip: 使用して野に返せる
+	}
+
+	FoxCageItem: {
+		DisplayName: テラリウム（キツネ）
+		Tooltip: ケージの中に眠そうなキツネが入ってる
+	}
+
+	GoldFoxItem: {
+		DisplayName: Gold Fox
+		Tooltip: 使用して野に返せる
+	}
+
+	GoldFoxCageItem: {
+		DisplayName: テラリウム（黄金のキツネ）
+		Tooltip: ケージの中に眠そうな黄金のキツネが入ってる
+	}
+
+	FoxCouchItem: {
+		DisplayName: キツネのソファ
+		Tooltip: ""
+	}
+
+	GoldFoxCouchItem: {
+		DisplayName: 黄金のキツネのソファ
+		Tooltip: ""
+	}
+}
+
+Bestiary: {
+	Fox: {
+		Description: この恥ずかしがり屋の森の生き物は、安心していると時折あくびするそうだ。
+	}
+
+	GoldFox: {
+		Description: 伝説では、金色のキツネを見つけると幸運が訪れるとされているが、実際にそれを見れた幸運な人はほとんどいない。
+	}
+
+	CorruptFox: {
+		Description: 不浄によって汚染されたキツネで、暗闇をうろつく。
+	}
+
+	ViciousFox: {
+		Description: 真紅によって変形したキツネで、悪意を持って潜んでいる。
+	}
+}
+
+Tiles: {
+	FoxCageTile: {
+		MapEntry: Fox Cage
+	}
+
+	FoxCouchTile: {
+		MapEntry: Fox Couch
+	}
+
+	GoldFoxCageTile: {
+		MapEntry: Gold Fox Cage
+	}
+
+	GoldFoxCouchTile: {
+		MapEntry: Gold Fox Couch
+	}
+}
+
+Configs: {
+	FoxConfig: {
+		Headers: {
+			SpawnSettings: スポーン設定
+			HealthSettings: ライフ設定
+		}
+
+		SpawnRateMultiplier: {
+			Label: スポーンレート倍率
+			Tooltip: スポーンレートの倍率を調整します。値が高いほどスポーンが頻繁になります
+		}
+
+		EnableEvilFoxes: {
+			Label: 敵対キツネの有効化
+			Tooltip: オフにすると、不浄のキツネと真紅のキツネはスポーンせず、図鑑からも隠されます
+		}
+
+		AllowNight: {
+			Label: 夜間スポーン
+			Tooltip: キツネが夜間でもスポーンするか切り替えます
+		}
+
+		AllowNonSpreadingOverworld: {
+			Label: 全ての非拡散バイオームでスポーン
+			Tooltip: ジャングル、雪、砂漠、浜辺等でもキツネがスポーンします
+		}
+
+		AllowSpreadingOverworld: {
+			Label: 全ての拡散バイオームでスポーン
+			Tooltip: 聖域、不浄、真紅でもキツネがスポーンします
+		}
+
+		LifeMax: {
+			Label: キツネの最大ライフ
+			Tooltip: キツネの最大ライフを決定できます
+		}
+
+		DisplayName: Fox 設定
+	}
+}
+

@@ -1,0 +1,49 @@
+NPCs: {
+	SnowGolem: {
+		DisplayName: スノーゴーレム
+	}
+
+	SnowGolemNight: {
+		DisplayName: スノーゴーレム
+	}
+
+	SnowGolemNaked: {
+		DisplayName: スノーゴーレム
+	}
+
+	SnowMutant: {
+		DisplayName: ミュータントスノーゴーレム
+	}
+}
+
+Projectiles: {
+	Snowball: {
+		DisplayName: 雪玉
+	}
+
+	Golem: {
+		DisplayName: ゴーレム
+	}
+}
+
+Items: {
+	SnowGolemBanner: {
+		DisplayName: スノーゴーレムのバナー
+		Tooltip:　近くのプレイヤーはボーナスを獲得する: スノーゴーレム
+	}
+
+	GolemStaff: {
+		DisplayName: ゴーレムの杖
+		Tooltip:
+			'''
+			セントリーを召喚する
+			スノーゴーレムを召喚して敵に雪玉を投げます
+			'''
+	}
+
+	FrostShard: {
+		DisplayName: フロストシャード
+		Tooltip: ""
+	}
+}
+
