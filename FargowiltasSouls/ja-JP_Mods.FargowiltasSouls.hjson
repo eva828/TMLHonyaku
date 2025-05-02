@@ -2666,7 +2666,7 @@ Items: {
 	/////////////////////////////////////////////////////////////////////
 	//支配者のソウル系列
 	/////////////////////////////////////////////////////////////////////
-	//至高の死妖精系列
+	//至高のデスブリンガー・フェアリー系列
 	SlimyShield: {
 		DisplayName: ぬるぬるした盾
 		Tooltip:
@@ -2718,7 +2718,7 @@ Items: {
 	}
 
 	SupremeDeathbringerFairy: {
-		DisplayName: 至高の死妖精
+		DisplayName: 至高のデスブリンガー・フェアリー
 		Tooltip:
 			'''
 			[i:FargowiltasSouls/SlimyShield] スライム、 [i:FargowiltasSouls/AgitatingLens] 狂暴化、 [i:FargowiltasSouls/QueenStinger] 感染症、 [i:FargowiltasSouls/NecromanticBrew] 鈍重に対する免疫を付与する
