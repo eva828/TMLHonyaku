@@ -6932,8 +6932,8 @@ Toggler: {
 	ChalicePotionEffect: ポーションを消費せずにバフ効果を得る
 	MasoTrueEyeMinion: 真なる目玉たちの召喚
 	MutantArmorHeader: 真なるミュータントアーマー
-	MasoAbom: アボミネーションの召喚
-	MasoRing: 幻想の指輪の召喚
+	MasoAbom: アボミネーションの幻影召喚
+	MasoRing: 幻想の環召喚
 	UniverseHeader: "{$Mods.FargowiltasSouls.Items.UniverseSoul.DisplayName}"
 	MeleeSpeedEffect: 近接速度上昇効果
 	SniperScopeEffect: スナイパースコープの効果
