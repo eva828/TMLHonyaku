@@ -8497,9 +8497,7 @@ Buffs: {
 	}
 
 	SkullTotemBuff: {
-		Description: 召喚ダメージ、鞭の範囲が上昇し、召喚できるミニオンの数が2
-		
-		体増える
+		Description: 召喚ダメージ、鞭の範囲が上昇し、召喚できるミニオンの数が2体増える
 		DisplayName: スカルアイドルエンパワーメント
 	}
 
