@@ -1,12 +1,12 @@
 steam_id,display_name,internal_name,version,translators,note
 2562968836,Advanced World Generation,AdvancedWorldGen,3.1.7.4,ぽぷのべり,
 2831179995,Aimbot,Aimbot,0.3.1,ぽぷのべり,
-2599842771,AlchemistNPC Lite,AlchemistNPCLite,,hazamax405,翻訳時のMODバージョン不明。最新バージョンはv1.9.7。一部未翻訳(popunoberi)
+2599842771,AlchemistNPC Lite,AlchemistNPCLite,1.9.4,hazamax405,一部未翻訳(popunoberi) 推定バージョンを記載(eva828)
 3454561776,All The Challenges,AllTC,1.0.0.1,ぽぷのべり,
 2563082541,Angler Shop,NoFishingQuests,3.2.0.4,まめ,
 2818107739,Anime Vanity & Pets,AnimeOverhaul,3.2,ogatass,
 2564872136,Antisocial,Antisocial,1.6.0.3,ぽぷのべり,
-2658783282,Apacchii's Classes: Reborn,ApacchiisClassesMod2,,hazamax405,翻訳時のMODバージョン不明。最新バージョンはv1.5.7。設定・バフなど一部未翻訳(popunoberi)
+2658783282,Apacchii's Classes: Reborn,ApacchiisClassesMod2,1.5.6.3,hazamax405,設定・バフなど一部未翻訳(popunoberi) 推定バージョンを記載(eva828)
 2895682737,Arbour,Arbour,1.2.2.5,ぽぷのべり,
 2829105343,Archery Overhaul,bowmod,1.5.4.2,まめ,
 2817496179,Atmospheric Torches,ImprovedTorches,1.4.3,ぽぷのべり,
@@ -25,13 +25,13 @@ steam_id,display_name,internal_name,version,translators,note
 3201195744,Better Tooltips,PrettyRarities,1.4.4,ぽぷのべり,バージョン情報を更新(1.4.3→1.4.4) 翻訳内容の追加等はありません。
 2562953970,Better Zoom,BetterZoom,4.5.0.3,ぽぷのべり,
 3429640606,BetterChatBox,ChatImprover,1.7,ぽぷのべり,
-3018208290,Block's Leveling Mod,BSWLmod,,hazamax405,翻訳時のMODバージョン不明。最新バージョンはv1.5.1.5。設定など一部未翻訳(popunoberi)
+3018208290,Block's Leveling Mod,BSWLmod,1.3.2.4,hazamax405,設定など一部未翻訳(popunoberi) 推定バージョンを記載(eva828)
 2669644269,Boss Checklist,BossChecklist,2.2.2,katudonsan,
 2816694149,Boss Cursor,BossCursor,3.0.0,ponzu_ika,
 3044249615,Calamity - Fargo's Souls DLC,FargowiltasCrossmod,1.2.0.8,ogatass,
 3184307602,Calamity Clickers,CalamityClickers,1.2.0.1,ぽぷのべり,仮翻訳
 2466463382,Calamity Extra Music,CalmExtraMusic,2.0.0,Hurugitune,全て翻訳済み
-2824688072,Calamity Mod,CalamityMod,,hazamax405（機械翻訳＋下地作成）、Hurugitune（意訳・修正）,
+2824688072,Calamity Mod,CalamityMod,2.0.4.6,hazamax405（機械翻訳＋下地作成）、Hurugitune（意訳・修正）,推定バージョンを記載(eva828)
 3015412343,Calamity Mod Infernum Mode,InfernumMode,2.0.1.16,Hurugitune,バフ以外はほぼ全て翻訳済み。ほとんど推敲済み。
 2824688266,Calamity Mod Music,CalamityModMusic,2.0.4.3,Hurugitune,全て翻訳済み
 2860270524,Calamity Ranger Expansion,CalamityAmmo,1.2.1.6,gaba,
@@ -64,7 +64,7 @@ steam_id,display_name,internal_name,version,translators,note
 2822950837,Fancy Lighting,FancyLighting,0.9.14,ぽぷのべり,
 3070430423,Fancy Whips,FancyWhips,1.1,ぽぷのべり,
 2802867430,Fargo's Best of Both Worlds,FargoSeeds,0.5.2,まめ,
-2567580488,Fargo's Enemy Modifiers,FargoEnemyModifiers,,ponzu_ika,
+2567580488,Fargo's Enemy Modifiers,FargoEnemyModifiers,0.6.1,ponzu_ika,推定バージョンを記載(eva828)
 2567152289,Fargo's Fallen Stars,StarHell,2.2,ぽぷのべり,
 2570931073,Fargo's Mutant Mod,Fargowiltas,3.3.6.1,katudonsan、ogatass,
 2906451681,Fargo's Soul Mod Extras,FargowiltasSoulsDLC,0.6.2,ogatass,
@@ -95,7 +95,7 @@ steam_id,display_name,internal_name,version,translators,note
 2670628346,Lights And Shadows,Lights,1.4.2,ぽぷのべり,
 2847872897,Loot Beams,LootBeams,1.9.3,ぽぷのべり,
 3281805198,Low Health Effects,LowHealthEffects,1.0.4,Hurugitune,全て翻訳済み。推敲途中。
-2831752947,LuiAFK Reborn,miningcracks_take_on_luiafk,,katudonsan,翻訳時のバージョン不明、設定画面など一部未翻訳(popunoberi)
+2831752947,LuiAFK Reborn,miningcracks_take_on_luiafk,1.2.4,katudonsan,設定画面など一部未翻訳(popunoberi) 推定バージョンを記載(eva828)
 3222493606,Luminance,Luminance,1.0.9,katudonsan,翻訳完了
 3069195391,Lures Display Bait,LureBaitDisplay,1.0.3,ぽぷのべり,
 3024322683,Magic Builder,MagicBuilder,1.4.4.12,ぽぷのべり,
@@ -135,7 +135,7 @@ steam_id,display_name,internal_name,version,translators,note
 3114886209,Ragnarok,RagnarokMod,1.4.3.2,Hurugitune,全て翻訳済み。ほとんど推敲済み。
 2981525206,Rain Overhaul,RainOverhaul,1.7,ぽぷのべり,
 3400340796,Rare Drop Notification,RareDropNotification,1.3,HAKU,バージョン更新有り、一部未翻訳(popunoberi)
-2619954303,Recipe Browser,RecipeBrowser,,sysnote8,
+2619954303,Recipe Browser,RecipeBrowser,0.10.3,sysnote8,推定バージョンを記載(eva828)
 3301034468,Remember To Drink Water!,DrinkWatar,0.1,Hurugitune,全て翻訳済み
 2861542679,Remnants,Remnants,1.5.49,Hurugitune,
 3168223097,Roommates,Roommates,3.2.0.1,ぽぷのべり,
@@ -143,7 +143,7 @@ steam_id,display_name,internal_name,version,translators,note
 2815010161,Shared World Map,SharedMap,0.1.4.3,Hurugitune,すべて翻訳済み
 2925184535,Shirasagi's VOICEROID Skin Mod,ShirasagiMod,2.0.2,ぽぷのべり,
 2828370879,Shop Expander,ShopExpander,1.8.0,Hurugitune,すべて翻訳済み
-2562997415,Shorter Respawn Time,ShorterRespawn,,katudonsan,翻訳時のバージョン不明、一部未翻訳(popunoberi)
+2562997415,Shorter Respawn Time,ShorterRespawn,1.1.1.2,katudonsan,一部未翻訳(popunoberi) 推定バージョンを記載(eva828)
 2833811736,Shortswords+,MoreShortswords,1.4.2,ぽぷのべり,
 3260734079,Snow Golem Mod,Snowman,1.2,ぽぷのべり,
 3138615548,Spear Rework Mod,SpearMod,1.0.2,ぽぷのべり,
