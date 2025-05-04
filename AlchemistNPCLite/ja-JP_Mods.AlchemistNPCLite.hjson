@@ -362,7 +362,11 @@ Items: {
 
 	Dopamine: {
 		DisplayName: ドーパミン
-		Tooltip: 幸せな気持ちでいっぱいだ...
+		Tooltip: 
+			'''
+			幸せな気持ちでいっぱいだ...
+			Calamityのバフポーションではない
+			'''
 	}
 
 	DungeonTeleportationPotion: {
@@ -405,7 +409,9 @@ Items: {
 			'''
 			より強力な危険察知のバフを得る
 			敵の発射物を光らせる
+			一部の透明な発射物（例：ムーンロード）は見えにくくなることがあるので注意
 			この効果は全プレイヤーに適用される
+			Calamityのバフポーションではない
 			'''
 	}
 
@@ -718,7 +724,11 @@ Items: {
 
 	TrapsPotion: {
 		DisplayName: 罠師のポーション
-		Tooltip: 全ての罠を強化する
+		Tooltip: 
+			'''
+			全ての罠を強化する
+			Calamityのバフアイテムではない
+			'''
 	}
 
 	UltimaCake: {
@@ -1422,17 +1432,21 @@ AS10: 10th shop (燭台)
 
 ShopsChanger: ショップ切り替え
 
+Combinations: 複合ポーション
+
+Flasks: フラスコ
+
 ShopB1: 1st shop (バニラ)
 
 ShopB2: 2nd shop (Mod/Calamity)
 
 ShopB3: 3rd shop (Thorium/RG)
 
-ShopB4: 4th shop (MorePotions/Atheria)
+ShopB4: 4th shop (Atheria)
 
-ShopB5: 5th shop (UnuBattleRods/Tacklebox/Tremor)
+ShopB5: 5th shop (UnuBattleRods/Tacklebox)
 
-ShopB6: 6th shop (Wildlife/Sacred/Spirit/Cristilium/ExpSentr)
+ShopB6: 6th shop (Spirit)
 
 Lillian: Lillian
 
@@ -1518,13 +1532,15 @@ EntryJ9: " and I looks almost the same? It's because we're twin brothers."
 
 EntryJ10: Should you find enought of those torn notes, bring the to me and ill decipher them for you. Dont ask me why, just know that they hold a value for me.
 
-Shop2: 2nd shop
+Shop1: バニラのオルゴール
 
-Shop3: 3rd shop
+Shop2: バニラのオルゴール #2
 
-Shop4: 4th shop
+Shop3: その他のオルゴール
 
-Shop5: 5th shop
+Shop4: Modのオルゴール (Calamity)
+
+Shop5: Modのオルゴール (Calamity/Thorium)
 
 ShopChanger: ショップ切り替え
 
@@ -1726,6 +1742,12 @@ Entry9: ", is the coolest brewer ever, isn't she? She can brew the hardest potio
 
 Entry10: Certain combinations can only be brewed if certain types of magic are present in the world.
 
+Excavation1: 採掘能力が大幅に向上した
+
+Excavation2: 採掘範囲を設定: 
+
+Excavation3: CTRL+右クリックでバフを削除
+
 Tiles: {
 	HMCraftPound: {
 		MapEntry: Superb Crafting Pound
@@ -1868,4 +1890,3 @@ Configs: {
 		}
 	}
 }
-
