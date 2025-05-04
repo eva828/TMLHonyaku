@@ -79,7 +79,7 @@ Items: {
 		DisplayName: RGBのエンチャント
 		Tooltip:
 			'''
-			100回攻撃するごとに、対象位置にクロマティックバーストを発生させる
+			攻撃時にクロマティックバーストを放つことがある
 			[i:ClickerClass/BigRedButton]{$Mods.ClickerClass.Items.BigRedButton.DisplayName}の効果を得る
 			「ゲーミングキーボードだ！」
 			'''
