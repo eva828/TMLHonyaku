@@ -1,0 +1,56 @@
+Items: {
+	NekomiEnchantment: {
+		DisplayName: ネコミのエンチャント
+		Tooltip: ""
+	}
+
+	GaiaEnchantment: {
+		DisplayName: ガイアのエンチャント
+		Tooltip: ""
+	}
+
+	EridanusEnchantment: {
+		DisplayName: エリダヌスのエンチャント
+		Tooltip: ""
+	}
+
+	StyxEnchantment: {
+		DisplayName: スティクスのエンチャント
+		Tooltip: ""
+	}
+
+	TrueMutantEnchantment: {
+		DisplayName: 真なるミュータントのエンチャント
+		Tooltip: ""
+	}
+
+	EternityForce: {
+		DisplayName: 永遠のフォース
+		Tooltip: 
+		'''
+		[i:FargowiltasSoulsDLC/NekomiEnchantment] [i:FargowiltasSoulsDLC/GaiaEnchantment] [i:FargowiltasSoulsDLC/EridanusEnchantment] [i:FargowiltasSoulsDLC/StyxEnchantment] [i:FargowiltasSoulsDLC/TrueMutantEnchantment]
+		素材としたすべてのエンチャントの効果を得る
+		「木こりの力の0.00001%」
+		'''
+	}
+
+	PandorasBox: {
+		DisplayName: パンドラの箱
+		Tooltip: 
+			'''
+			ありとあらゆるものを召喚する
+			日中に使用すると友好的な生物が出やすい
+			'''
+	}
+
+	PandoraTwo: {
+		DisplayName: パンドラの書
+		Tooltip: ありとあらゆる物を発射する
+	}
+
+	VoidSoul: {
+		DisplayName: 虚無のソウル
+		Tooltip: ありとあらゆるペットを召喚する
+	}
+}
+

@@ -1,0 +1,1051 @@
+Configs: {
+	RightClicker: {
+		Motherboard: {
+			Label: マザーボード
+		}
+
+		Mice: {
+			Label: マウス
+		}
+
+		Tooltip: ""
+	}
+
+	ClickerAddonConfigClient: {
+
+		DisplayName: Clicker Addon 設定
+		
+		GoldenTicket: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/GoldenTicket] {$Mods.ClickerClass.Items.GoldenTicket.DisplayName}"
+		}
+
+		SMedal: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/SMedal] {$Mods.ClickerClass.Items.SMedal.DisplayName}"
+		}
+
+		ChocolateChip: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/ChocolateChip] {$Mods.ClickerClass.Items.ChocolateChip.DisplayName}"
+		}
+
+		Cookie: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/Cookie] {$Mods.ClickerClass.Items.Cookie.DisplayName}"
+		}
+
+		MasterKeychain: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/MasterKeychain] {$Mods.ClickerClass.Items.MasterKeychain.DisplayName}"
+		}
+
+		RegalClickingGlove: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/RegalClickingGlove] {$Mods.ClickerClass.Items.RegalClickingGlove.DisplayName}"
+		}
+
+		BigRedButton: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/BigRedButton] {$Mods.ClickerClass.Items.BigRedButton.DisplayName}"
+		}
+
+		OverclockEnch: {
+			Tooltip: ""
+			Label: "[i:ClickerAddonOfficial/OverclockEnchantment] {$Items.OverclockEnchantment.DisplayName}"
+		}
+
+		PrecursorEnch: {
+			Tooltip: ""
+			Label: "[i:ClickerAddonOfficial/PrecursorEnchantment] {$Items.PrecursorEnchantment.DisplayName}"
+		}
+
+		BottomlessBoxofPaperclips: {
+			Tooltip: ""
+			Label: "[i:ClickerClass/BottomlessBoxofPaperclips] {$Mods.ClickerClass.Items.BottomlessBoxofPaperclips.DisplayName}"
+		}
+
+
+		RGBEnch: {
+			Tooltip: ""
+			Label: "[i:ClickerAddonOfficial/RGBEnchantment] {$Items.RGBEnchantment.DisplayName}"
+		}
+
+		RightClick: {
+			Tooltip: ""
+			Label: 右クリックの効果 
+		}
+
+		InfinityHotWingsEffect: {
+			Tooltip: "{$Mods.ClickerClass.Buffs.HotWingsBuff.Description}"
+			Label: 常時{$Mods.ClickerClass.Buffs.HotWingsBuff.DisplayName}適用
+		}
+
+		InfinityArcaneEffect: {
+			Tooltip: "{$Mods.ClickerClass.Buffs.ArcaneEnchantment.Description}"
+			Label: 常時{$Mods.ClickerClass.Buffs.ArcaneEnchantment.DisplayName}適用
+		}
+
+		InfinityOverclockEffect: {
+			Tooltip: "クリック効果に必要なクリック回数を減少"
+			Label: 常時{$Mods.ClickerClass.Buffs.OverclockBuff.DisplayName}適用(ダメージ減少効果なし)
+		}
+
+		NoClickerRadius: {
+			Tooltip: ""
+			Label: クリック範囲無限化
+		}
+
+		IfAutoClicker: {
+			Tooltip: ""
+			Label: オートクリック有効化
+		}
+
+		CPS: {
+			Tooltip: ""
+			Label: 秒間オートクリック速度
+		}
+
+	}
+}
+
+Conditions: {
+	ClickerOfCult: Fargo's Modの適用が必要です
+}
+
+Tiles: {
+	ClickerAddonBanners: {
+		MapEntry: バナー
+	}
+}
+
+NPCs: {
+	MouseRover: {
+		DisplayName: マウスローヴァー
+	}
+
+	MouseDrone: {
+		DisplayName: マウスドローン
+	}
+}
+
+Projectiles: {
+	MouseLockEnemy: {
+		DisplayName: Mouse Lock Enemy
+	}
+
+	MouseHitEnemy: {
+		DisplayName: Hostile Click
+	}
+
+	ZClickerPro1: {
+		DisplayName: Z Clicker Pro1
+	}
+
+	ZClickerPro: {
+		DisplayName: Z Clicker Pro
+	}
+
+	VortexClickerProj: {
+		DisplayName: Vortex Clicker Proj
+	}
+
+	TerraClickerPro: {
+		DisplayName: Terra Clicker Pro
+	}
+
+	StardustHomingStar: {
+		DisplayName: Stardust Homing Star
+	}
+
+	SharkronClicker: {
+		DisplayName: Mini Sharkron
+	}
+
+	Needle: {
+		DisplayName: Needle
+	}
+
+	MouseLock: {
+		DisplayName: Mouse Lock
+	}
+
+	MouseHitFriendly: {
+		DisplayName: Mouse Hit Friendly
+	}
+
+	MiniSharkron: {
+		DisplayName: Mini Sharkron
+	}
+
+	LordsClickerProSuper: {
+		DisplayName: Lords Clicker Pro Super
+	}
+
+	KirbySword: {
+		DisplayName: Kirby Sword
+	}
+
+	KirbyMinion: {
+		DisplayName: Kirby Minion
+	}
+
+	FlameRing: {
+		DisplayName: Flame Ring
+	}
+
+	EnchantedClickerPro: {
+		DisplayName: Enchanted Clicker Pro
+	}
+
+	CultistLightningOrb: {
+		DisplayName: Lightning Orb
+	}
+
+	CultistLightningArc: {
+		DisplayName: Lightning Arc
+	}
+
+	CultistIceSpike: {
+		DisplayName: Ice Spike
+	}
+
+	CultistIceMist: {
+		DisplayName: Ice Mist
+	}
+
+	CultistFireball: {
+		DisplayName: Fireball
+	}
+
+	CultistDoomBall: {
+		DisplayName: Doomball
+	}
+
+	CultistDoom: {
+		DisplayName: Ancient Doom
+	}
+
+	ClickDiamond: {
+		DisplayName: Click Diamond
+	}
+
+	ClickBubble: {
+		DisplayName: Click Bubble
+	}
+
+	LoveClickerPro: {
+		DisplayName: Love Clicker Pro
+	}
+}
+
+ClickEffect: {
+	SuperConqueror: {
+		Name: 凶炎
+		Description: 広範囲の爆発を発生させる
+	}
+
+	CultClick: {
+		Name: 崇拝
+		Description: 狂気の崇拝者の攻撃をランダムに再現する
+	}
+
+	Carbonated: {
+		Name: 炭酸の気泡
+		Description: 泡を発射する
+	}
+
+	CookieEffect: {
+		Name: クッキーモンスター
+		Description: "{$BuffName.SugarRush}と{$Mods.ClickerClass.Buffs.CookieBuff.DisplayName}のバフを付与する"
+	}
+
+	Love: {
+		Name: I Love you
+		Description: I Love you
+	}
+
+	Kirby: {
+		Name: カービィ？
+		Description: 武器を構えているとカーソルの位置に戦うカービィを召喚する
+	}
+
+	Stardust: {
+		Name: スターダストフラッシュ
+		Description: 敵を追尾するスターダストの欠片を召喚する
+	}
+
+	Ultimate: {
+		Name: アルティメット
+		Description: 強力なクリック効果をランダムに発動する
+	}
+
+	Vortex: {
+		Name: ボルテックスオーラ
+		Description: ボルテックスの波動を発生させる
+	}
+
+	SolarAlt: {
+		Name: ソーラーリング（別形態）
+		Description: 炎のリングを作り出す
+	}
+
+	Solar: {
+		Name: ソーラーリング
+		Description: 炎のリングを作り出す
+	}
+
+	Nebula: {
+		Name: ネビュラパワー
+		Description: ランダムなネビュラブースターを2つ召喚する
+	}
+
+	ZClick: {
+		Name: 『Ｚ』enith
+		Description: 大量のクリッカーを召喚する
+	}
+
+	ShadowLash: {
+		Name: 真・シャドウラッシュ
+		Description: 周囲の敵を自動で追尾し爆発する影の弾を6発放つ
+	}
+
+	TripleClick: {
+		Name: トリプルクリック
+		Description: 1回の攻撃で3回ダメージを与える
+	}
+
+	HolyNova: {
+		Name: 真・ホーリーノヴァ
+		Description: 必ずクリティカルする光の波動を放つ
+	}
+
+	TerraDamage: {
+		Name: テラ・フォース
+		Description: 通常の50%分の攻撃力を持つ魔法弾を4つ発射する
+	}
+
+	BetsyExplosion: {
+		Name: ベッツィの炎
+		Description: 通常の75%分の攻撃力を持つベッツィの火球を降らせる
+	}
+
+	Sharkonado: {
+		Name: シャークネード
+		Description: 敵に向かってシャークロンを発射する竜巻を召喚する
+	}
+
+	MiniSharkrones: {
+		Name: ミニシャークロン
+		Description: 敵に向かって4体のミニシャークロンを発射する
+	}
+
+	Ench: {
+		Name: 魔力の炸裂
+		Description: 範囲内の敵にダメージを与える光を発生させる
+	}
+
+	Diamond: {
+		Name: ダイヤモンド
+		Description: 「{$BuffName.Midas}」デバフを付与するダイヤモンドをカーソルから発射する
+	}
+
+	Bee: {
+		Name: ハチだ！
+		Description: 蜂を召喚する
+	}
+
+}
+
+SetBonus: {
+	Mousetron:
+		'''
+		2秒後に15ダメージを与えるマーカーを設置する
+		マーカーは重複しない
+		'''
+	HallowedCap:
+		'''
+		{$ArmorSetBonus.Hallowed}
+		クリックのクリティカル率が4%増加
+		'''
+	ChlorophyteCap: "{$ArmorSetBonus.Chlorophyte}"
+	TitaniumCap: "{$ArmorSetBonus.Titanium}"
+	AdamantiteCap: クリックのクリティカル率が4%増加
+	OrichalcumCap: "{$ArmorSetBonus.Orichalcum}"
+	MythrilCap: クリックダメージが15%増加
+	PalladiumCap: "{$ArmorSetBonus.Palladium}"
+	CobaltCap: 5回クリックするごとに「{$Mods.ClickerClass.Buffs.Haste.DisplayName}」バフを得る
+}
+
+Items: {
+	AshwoodenClicker: {
+		DisplayName: アッシュウッドのクリッカー
+		Tooltip: ""
+	}
+
+	SpookyWoodenClicker: {
+		DisplayName: 不気味な木のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	UltimateClicker: {
+		DisplayName: 究極のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	MultioreClicker: {
+		DisplayName: マルチロールクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	SpritingContestantTagItem: {
+		DisplayName: ドット絵コンテスト参加者タグ
+		Tooltip: システム用アイテム
+	}
+
+	StatsClicker: {
+		DisplayName: ステータスシート（Clicker）
+		Tooltip: ""
+	}
+
+	MousetronLeggings: {
+		DisplayName: マウストロンのレギンス
+		Tooltip: ""
+	}
+
+	StickyObsidianKeychain: {
+		DisplayName: 黒曜石のスライムキーホルダー
+		Tooltip:
+			'''
+			10回クリックするごとに画面に粘液が張り付く
+			{$ItemTooltip.ObsidianSkull}
+			{$ItemTooltip.SharkToothNecklace}
+			'''
+	}
+
+	TheSuperClicker: {
+		DisplayName: 凶兆のクリッカー
+		Tooltip: ""
+	}
+
+	ClickerOfCult: {
+		DisplayName: 崇拝者のクリッカー
+		Tooltip: ""
+	}
+
+	#開発者Xより、エッセンス、ソウル、エンチャント系は旧ver(FargoClickerが正式版)と判断し、こちらのアクセサリーには古きを接頭詩に追加
+	RGBEnchantment: {
+		DisplayName: 古きRGBのエンチャント
+		Tooltip:
+			'''
+			20回クリックするごとに、カーソルからクロマティックバーストを放つ
+			{$Mods.ClickerClass.Items.BottomlessBoxofPaperclips.DisplayName}の効果を得る
+			'''
+	}
+
+	MiceEnchantment: {
+		DisplayName: 古きマウスのエンチャント
+		Tooltip: "{$Mods.ClickerClass.Items.MiceMask.SetBonus}"
+	}
+
+	PrecursorEnchantment: {
+		DisplayName: 古き先駆者のエンチャント
+		Tooltip:
+			'''
+			{$Mods.ClickerClass.Items.PrecursorHelmet.SetBonus}
+			{$Mods.ClickerClass.Items.BigRedButton.DisplayName}の効果を得る
+			'''
+	}
+
+	OverclockEnchantment: {
+		DisplayName: 古きオーバークロックのエンチャント
+		Tooltip:
+			'''
+			{$Common.Tooltips.Items.Tooltip.Overclock}
+			{$Mods.ClickerClass.Items.RegalClickingGlove.DisplayName}、{$Mods.ClickerClass.Items.PortableParticleAccelerator.DisplayName}の効果を得る
+			'''
+	}
+
+	MotherboardEnchantment: {
+		DisplayName: 古きマザーボードのエンチャント
+		Tooltip:
+			'''
+			{$Mods.ClickerClass.Items.MotherboardHelmet.SetBonus}
+			{$Mods.ClickerClass.Items.MasterKeychain.DisplayName}の効果を得る
+			'''
+	}
+
+
+	ForceOfProgramm: {
+		DisplayName: 古き電界のフォース
+		Tooltip:
+			'''
+			[i:ClickerAddonOfficial/MotherboardEnchantment] [i:ClickerAddonOfficial/RGBEnchantment]  [i:ClickerAddonOfficial/OverclockEnchantment] [i:ClickerAddonOfficial/PrecursorEnchantment] [i:ClickerAddonOfficial/MiceEnchantment]
+			素材としたすべての古きエンチャントの効果を得る
+			'''
+	}
+
+	GamerEssence: {
+		DisplayName: 古きゲーマーのエッセンス
+		Tooltip:
+			'''
+			クリックダメージが18%増加
+			クリックのクリティカル率が5%増加
+			基本クリック範囲が20%増加
+			'''
+	}
+
+	MasterPlayerSoul: {
+		DisplayName: 古き競技者のソウル
+		Tooltip:
+			'''
+			クリックダメージが30%増加
+			クリックのクリティカル率が15%増加
+			基本クリック範囲が75%増加
+			クリック効果に必要なクリック数を25%減らす
+			{$Mods.ClickerClass.Items.GamerCrate.DisplayName}、{$Mods.ClickerClass.Items.ChocolateMilkCookies.DisplayName}、{$Mods.ClickerClass.Items.AimbotModule.DisplayName}
+			{$Mods.ClickerClass.Items.RegalClickingGlove.DisplayName}、{$Mods.ClickerClass.Items.SMedal.DisplayName}、{$Mods.ClickerClass.Items.GoldenTicket.DisplayName}の効果を得る
+			{$Items.ForceOfProgramm.Tooltip}
+			'''
+	}
+
+
+	StardustClicker: {
+		DisplayName: スターダスト・クリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	VortexClicker: {
+		DisplayName: ボルテックス・クリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	SolarClicker: {
+		DisplayName: ソーラー・クリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	NebulaClicker: {
+		DisplayName: ネビュラ・クリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	LivingWoodenClicker: {
+		DisplayName: リビングウッドのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	ShadewoodenClicker: {
+		DisplayName: シェイドウッドのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	RichMahoganyClicker: {
+		DisplayName: リッチマホガニーのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	PearlwoodenClicker: {
+		DisplayName: パールウッドのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	PalmWoodenClicker: {
+		DisplayName: ヤシの木のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	EbonwoodenClicker: {
+		DisplayName: エボンウッドのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	BorealWoodedClicker: {
+		DisplayName: ボーリアルウッドのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	CookieClicker: {
+		DisplayName: クッキークリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	LoveClicker: {
+		DisplayName: 愛のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	KirbyClicker: {
+		DisplayName: カービィのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	ZClicker: {
+		DisplayName: 『Ｚ』クリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	TrueUmbralClicker: {
+		DisplayName: 真・漆黒のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	TrueTinClicker: {
+		DisplayName: 真・錫のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	TrueCopperClicker: {
+		DisplayName: 真・銅のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	TrueArthursClicker: {
+		DisplayName: 真・アーサー王のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	TerraClicker: {
+		DisplayName: テラクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	OldOneClicker: {
+		DisplayName: オールドワンズクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	FishronsClicker: {
+		DisplayName: フィッシュロンのクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	EnchantedClicker: {
+		DisplayName: エンチャントクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	CactusClicker: {
+		DisplayName: サボテンクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	BejeweledClicker: {
+		DisplayName: 宝石のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	BeeClicker: {
+		DisplayName: 蜂のクリッカー
+		Tooltip: "{$Mods.ClickerClass.Common.Tooltips.Clicker}"
+	}
+
+	MouseRoverBanner: {
+		DisplayName: マウスローヴァーのバナー
+		Tooltip: ""
+	}
+
+	MouseDroneBanner: {
+		DisplayName: マウスドローンのバナー
+		Tooltip: ""
+	}
+
+	BrokenMouse: {
+		DisplayName: 壊れたマウス
+		Tooltip: ""
+	}
+
+
+	RainbowGel: {
+		DisplayName: 虹のジェル
+		Tooltip: ""
+	}
+
+	GuideOfClickerAddon: {
+		DisplayName: ClickerAddon説明書
+		Tooltip:
+			'''
+			・仕立て屋が [i:ClickerAddonOfficial/BandOfClicking] {$Items.BandOfClicking.DisplayName}を販売
+			・魔法使いが [i:ClickerAddonOfficial/MagicSharpening] {$Items.MagicSharpening.DisplayName}を販売
+			・[i:ClickerAddonOfficial/TheDice] {$Items.TheDice.DisplayName}はアイザー（プランテラ撃破後の日食）からドロップ
+			・[i:ClickerAddonOfficial/BrokenHeroClicker] {$Items.BrokenHeroClicker.DisplayName}はモスロン（プランテラ撃破後の日食）からドロップ
+			・[i:ClickerAddonOfficial/Butter] {$Items.Butter.DisplayName}はプランテラ撃破後のダンジョンのメイジ系スケルトンからドロップ
+			'''
+	}
+
+	BrokenHeroClicker: {
+		DisplayName: 壊れた英雄のクリッカー
+		Tooltip: ""
+	}
+
+	CarbonatedPotion: {
+		DisplayName: 炭酸ポーション
+		Tooltip:
+			'''
+			クリック時に炭酸の気泡を発生させる効果が追加される
+			「{$BuffName.Sunflower}」バフの効果が強化される
+			'''
+	}
+
+	SpectreClickerEmblem: {
+		DisplayName: スペクター・クリックエンブレム
+		Tooltip:
+			'''
+			[c/FF0000:チート専用 または 近日実装予定]
+			クリック武器の攻撃が位置に関係なく敵に命中するようになる
+			'''
+	}
+
+	OverclockBuff: {
+		DisplayName: "{$Mods.ClickerClass.Buffs.OverclockBuff.DisplayName}バフ"
+		Tooltip:
+			'''
+			{$Common.Tooltips.CheatOnly}
+			「{$Mods.ClickerClass.Buffs.OverclockBuff.DisplayName}」バフを付与する
+			'''
+	}
+
+	InfinityClicker: {
+		DisplayName: インフィニティ・クリッカー
+		Tooltip: "{$Common.Tooltips.CheatOnly}"
+	}
+
+	EternitySoda: {
+		DisplayName: エタニティエナジーソーダ
+		Tooltip:
+			'''
+			{$Common.Tooltips.Experemental}
+			クリック効果に必要なクリック数を100%減少させる
+			'''
+	}
+
+	AutoClickerConfigurable: {
+		DisplayName: オートクリッカー（設定対応）
+		Tooltip:
+			'''
+			{$Common.Tooltips.CheatOnly}
+			クリック武器が自動で攻撃するようになる
+			攻撃速度は設定画面で確認可能
+			'''
+	}
+
+	AutoClicker10: {
+		DisplayName: オートクリッカー（10倍速）
+		Tooltip:
+			'''
+			{$Common.Tooltips.CheatOnly}
+			クリック武器が自動で攻撃するようになる
+			クリック武器の攻撃速度が10倍になる
+			'''
+	}
+
+	AutoClicker: {
+		DisplayName: オートクリッカー
+		Tooltip:
+			'''
+			{$Common.Tooltips.CheatOnly}
+			クリック武器が自動で攻撃するようになる
+			攻撃速度は設定から調整可能
+			'''
+	}
+
+	AutoClickBuff: {
+		DisplayName: "{$Mods.ClickerClass.Buffs.AutoClick.DisplayName}バフ"
+		Tooltip:
+			'''
+			{$Common.Tooltips.CheatOnly}
+			「{$Mods.ClickerClass.Buffs.AutoClick.DisplayName}」バフを付与する
+			'''
+	}
+
+
+	MousetronLegging: {
+		DisplayName: マウストロンのレギンス
+		Tooltip: ""
+	}
+
+	MousetronBodygear: {
+		DisplayName: マウストロンのボディギア
+		Tooltip: ""
+	}
+
+	MousetronHelmet: {
+		DisplayName: マウストロンのヘルメット
+		Tooltip: ""
+	}
+
+	HallowedCap: {
+		DisplayName: 古代の神聖なクリックギア
+		Tooltip:
+			'''
+			クリックダメージが12%増加
+			基本クリック範囲が20%増加
+			'''
+	}
+
+	AncientHallowedCap: {
+		DisplayName: 神聖なクリックギア
+		Tooltip:
+			'''
+			クリックダメージが12%増加
+			基本クリック範囲が20%増加
+			'''
+	}
+
+	ChlorophyteCap: {
+		DisplayName: クロロファイトのクリックギア
+		Tooltip:
+			'''
+			クリックダメージが15%増加
+			基本クリック範囲が35%増加
+			'''
+	}
+
+	TitaniumCap: {
+		DisplayName: チタンのクリックギア
+		Tooltip:
+			'''
+			クリックダメージが8%増加
+			基本クリック範囲が10%増加
+			'''
+	}
+
+	AdamantiteCap: {
+		DisplayName: アダマンタイトのクリックギア
+		Tooltip:
+			'''
+			クリックダメージが6%増加
+			基本クリック範囲が20%増加
+			'''
+	}
+
+	OrichalcumCap: {
+		DisplayName: オリハルコンのクリックギア
+		Tooltip: クリックダメージが10%増加
+	}
+
+	MythrilCap: {
+		DisplayName: ミスリルのクリックギア
+		Tooltip:
+			'''
+			クリックダメージが6%増加
+			基本クリック範囲が25%増加
+			'''
+	}
+
+	PalladiumCap: {
+		DisplayName: パラジウムのクリックギア
+		Tooltip: クリックダメージが5%増加
+	}
+
+
+	CobaltCap: {
+		DisplayName: コバルトのクリックギア
+		Tooltip:
+			'''
+			クリックダメージが4%増加
+			基本クリック範囲が20%増加
+			'''
+	}
+
+	WarmLED: {
+		DisplayName: 暖色LED
+		Tooltip:
+			'''
+			視覚効果が有効の場合、クリック時に光が発生する
+			クリックダメージが1%増加
+			'''
+	}
+
+	Motherboard: {
+		DisplayName: LEDゲーミングマザーボード
+		Tooltip:
+			'''
+			視覚効果が有効の場合、クリック時に魔法の光やゲーミングライトが発生する
+			クリックダメージが6%増加（他のLEDと重複しない）
+			25回クリックするごとに、大きな爆発が起こる
+			'''
+	}
+
+
+	MouseTrapnFinger: {
+		DisplayName: 挟まれたトリガー
+		Tooltip:
+			'''
+			{$Mods.ClickerClass.Items.TriggerFinger.Tooltip}
+			クリックダメージが5%増加
+			クリック時、たまに{$BuffName.Cursed}({$BuffDescription.Cursed})状態にかかってしまう
+			'''
+	}
+
+	WiFiKit: {
+		DisplayName: Wi-Fiキット
+		Tooltip:
+			'''
+			クリック時に[i:ClickerClass/StickyKeychain]スライム、[i:ClickerClass/HotKeychain]ホット、[i:ClickerClass/ClearKeychain]クリスタルのすべてのキーホルダーの効果を得る
+			{$Items.SmallRedButton.Tooltip}
+			{$Items.BandOfClicking.Tooltip}
+			{$Items.TheDice.Tooltip}
+			'''
+	}
+
+	TeaPartyKit: {
+		DisplayName: ティーパーティーキット
+		Tooltip:
+			'''
+			{$Items.ChocolateCookie.Tooltip}
+			{$Items.ChocolateMilk.Tooltip}
+			{$Items.Butter.Tooltip}
+			'''
+	}
+
+	PlatinumTicket: {
+		DisplayName: プラチナチケット
+		Tooltip:
+			'''
+			敵をクリックするとコインが発生する
+			{$ItemTooltip.DiscountCard}
+			{$ItemTooltip.CoinRing}
+			基本クリック範囲が10%増加
+			'''
+	}
+
+	MiceClickingGlove: {
+		DisplayName: マウスクリックグローブ
+		Tooltip:
+			'''
+			戦闘中、現在のカーソルの位置を自動的にクリックする（クールダウン0.3秒）
+			近接攻撃とクリック攻撃に炎上効果を付与する
+			クリックダメージが10%増加
+			クリックのクリティカル率が2%増加
+			'''
+	}
+
+	MagmaClickingGlove: {
+		DisplayName: マグマクリックグローブ
+		Tooltip:
+			'''
+			{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+			近接攻撃とクリック攻撃に炎上効果を付与する
+			'''
+	}
+
+	LunarGamerCrate: {
+		DisplayName: ムーンロードのゲーミングキット
+		Tooltip:
+			'''
+			クリックダメージが20%増加
+			基本クリック範囲が75%増加
+			クリック効果に必要なクリック数を20%減少
+			視覚効果が有効の場合、クリック時に魔法の光が発生する
+			{$Mods.ClickerClass.Items.HandCream.Tooltip}
+			{$Mods.ClickerAddonOfficial.Items.WiFiKit.Tooltip}
+			基本クリック範囲の半径50%以内の敵をクリックした時、ダメージが8増加する
+			'''
+	}
+
+	GamerBoots: {
+		DisplayName: ゲーマーブーツ
+		Tooltip:
+			'''
+			{$ItemTooltip.HermesBoots}
+			{$ItemTooltip.FrogLeg}
+			{$Items.BandOfClicking.Tooltip}
+			'''
+	}
+
+	EnchantedLED2: {
+		DisplayName: ダブルLED
+		Tooltip:
+			'''
+			視覚効果が有効の場合、クリック時に魔法の光やゲーミングライトが発生する
+			クリックダメージが4%増加（他のLEDと重複しない）
+			'''
+	}
+
+	ChocolateMilk: {
+		DisplayName: まろやかココア
+		Tooltip:
+			'''
+			1秒間のクリック数に応じて最大15%までクリックダメージが増加する
+			'''
+	}
+
+	ChocolateCookie: {
+		DisplayName: チョコレートクッキー
+		Tooltip:
+			'''
+			{$Mods.ClickerClass.Items.Cookie.Tooltip}
+			15回クリックするごとに、ダメージを与えるチョコレートを放つ
+			'''
+	}
+
+	TheDice: {
+		DisplayName: サイコロ
+		Tooltip: クリック時に10%の確率でダブルクリックが発動する
+	}
+
+	SmallRedButton: {
+		DisplayName: 小さな赤いボタン
+		Tooltip: クリック範囲が最大50%まで脈動するようになる
+	}
+
+	MagmaChair: {
+		DisplayName: マグマチェア
+		Tooltip:
+			'''
+			近接攻撃とクリック攻撃に炎上効果を付与する
+			「爆弾級のおならのあとに燃える椅子」
+			'''
+	}
+
+	Butter: {
+		DisplayName: バター入りグラス
+		Tooltip: 1秒間のクリック回数に応じて最大でクリックのクリティカル率が10%増加する
+	}
+
+	MagicSharpening: {
+		DisplayName: マジックアタッチメント
+		Tooltip:
+			'''
+			最大マナの25%以上を保持していると、クリックダメージが17.5%増加する
+			クリックごとに最大マナの5%を消費する（最低2マナ）
+			マナが尽きても攻撃は可能
+			'''
+	}
+
+	BandOfClicking: {
+		DisplayName: クリックバンド
+		Tooltip: 1秒間のクリック回数に応じて移動速度が増加する
+	}
+}
+
+Common: {
+	Tooltips: {
+		Items.Tooltip: {
+			Overclock:
+				'''
+				100クリックごとに短時間「{$Mods.ClickerClass.Buffs.OverclockBuff.DisplayName}」バフを付与し、クリック効果に必要な回数が減少する
+				ただしオーバークロック適用中はクリックダメージが25%減少
+				'''
+		}
+
+		DebugTool: "[c/FF0000:デバッグツール]"
+		Experemental: "[c/00FF00:-実験的機能-]"
+		CheatOnly: "[c/FF0000:チート専用]"
+	}
+}
+
+
+Buffs: {
+	MouselockedDebuff: {
+		DisplayName: マウスロック
+		Description: ""
+	}
+
+	CarbonatedBuff: {
+		DisplayName: 超ハッピー
+		Description: 「{$BuffName.Sunflower}」の効果が強化され、クリック時に炭酸の気泡を発生させる効果が追加
+	}
+}
+
