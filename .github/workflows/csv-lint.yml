@@ -1,0 +1,23 @@
+name: CSV Lint
+
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - main
+
+jobs:
+  csvlint:
+    name: CSV Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 👎 Invalid CSV file - Report as GitHub Annotations
+        uses: jbzoo/csv-blueprint@1.0.3
+        with:
+          csv: TranslatedMods.csv
+          schema: .github/resources/csv-lint-rule.yml
+          report: github

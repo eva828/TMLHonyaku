@@ -1,0 +1,45 @@
+name: Simple CSV Schema
+csv:
+  delimiter: ','
+
+columns:
+  - name: steam_id
+    required: true
+    rules:
+      not_empty: true
+      is_int: true
+    aggregate_rules:
+      is_unique: true
+
+  - name: display_name
+    required: true
+    rules:
+      not_empty: true
+      is_trimmed: true
+    aggregate_rules:
+      sorted: [ asc, numeric ]
+
+  - name: internal_name
+    required: true
+    rules:
+      not_empty: true
+      is_trimmed: true
+
+  - name: version
+    required: true
+    rules:
+      not_empty: true
+      # is_version: true
+      regex: /^\d+(\.\d+){1,3}$/
+
+  - name: translators
+    required: true
+    rules:
+      not_empty: true
+      is_trimmed: true
+      contains_none: [ 　 ]
+
+  - name: note
+    required: true
+    rules:
+      is_trimmed: true
