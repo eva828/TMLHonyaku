@@ -475,13 +475,13 @@ Configs: {
 	DisplayName: 設定
 
 	Headers: {
-	PetSummonItemAcquisition: [i:48] ペット召喚アイテムの入手
-	PetSettings: [i:509] ペット設定
-	MiscSettings: [i:207] その他の設定
+	PetSummonItemAcquisition: "[i:48] ペット召喚アイテムの入手"
+	PetSettings: "[i:509] ペット設定"
+	MiscSettings: "[i:207] その他の設定"
 	}
 
 	CosmogToggle: {
-	Label: [i:PokemonPetsMod/CosmogItem] コスモッグの切り替え
+	Label: "[i:PokemonPetsMod/CosmogItem] コスモッグの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ハードモード中に旅商人からコスモッグのペット召喚アイテムを購入できるようになります
@@ -491,7 +491,7 @@ Configs: {
 	}
 
 	ArchenToggle: {
-	Label: [i:PokemonPetsMod/ArchenItem] アーケンの切り替え
+	Label: "[i:PokemonPetsMod/ArchenItem] アーケンの切り替え"
 	Tooltip:
 	'''
 	オンにすると、砂利・水雪ブロック、または砂漠の化石から抽出することでアーケンのペット召喚アイテムを入手できます
@@ -500,7 +500,7 @@ Configs: {
 	}
 
 	GlaceonToggle: {
-	Label: [i:PokemonPetsMod/GlaceonItem] グレイシアの切り替え
+	Label: "[i:PokemonPetsMod/GlaceonItem] グレイシアの切り替え"
 	Tooltip:
 	'''
 	オンにすると、アイスゴーレムを倒すことでグレイシアのペット召喚アイテムを入手できます
@@ -509,7 +509,7 @@ Configs: {
 	}
 
 	HoppipToggle: {
-	Label: [i:PokemonPetsMod/HoppipItem] ハネッコの切り替え
+	Label: "[i:PokemonPetsMod/HoppipItem] ハネッコの切り替え"
 	Tooltip:
 	'''
 	オンにすると、マンイーター、スナッチャー、アングリートラッパーを倒すことでハネッコのペット召喚アイテムを入手できます
@@ -518,7 +518,7 @@ Configs: {
 	}
 
 	PorygonToggle: {
-	Label: [i:PokemonPetsMod/PorygonItem] ポリゴンの切り替え
+	Label: "[i:PokemonPetsMod/PorygonItem] ポリゴンの切り替え"
 	Tooltip:
 	'''
 	オンにすると、マーズピープルを倒すことでポリゴンのペット召喚アイテムを入手できます
@@ -527,7 +527,7 @@ Configs: {
 	}
 
 	MagikarpToggle: {
-	Label: [i:PokemonPetsMod/MagikarpItem] コイキングの切り替え
+	Label: "[i:PokemonPetsMod/MagikarpItem] コイキングの切り替え"
 	Tooltip:
 	'''
 	オンにすると、木のクレートやパールウッドクレートを開けることでコイキングのペット召喚アイテムを入手できます
@@ -536,7 +536,7 @@ Configs: {
 	}
 
 	GastlyToggle: {
-	Label: [i:PokemonPetsMod/GastlyItem] ゴースの切り替え
+	Label: "[i:PokemonPetsMod/GastlyItem] ゴースの切り替え"
 	Tooltip:
 	'''
 	オンにすると、レイスを倒すことでゴースのペット召喚アイテムを入手できます
@@ -570,11 +570,11 @@ Configs: {
 	オンにすると、カカシたちを倒すことでミミッキュのペット召喚アイテムを入手できます
 	オフにすると、入手できなくなります
 	'''
-	Label: [i:PokemonPetsMod/MimikyuItem] ミミッキュの切り替え
+	Label: "[i:PokemonPetsMod/MimikyuItem] ミミッキュの切り替え"
 	}
 
 	VolcaronaToggle: {
-	Label: [i:PokemonPetsMod/VolcaronaItem] ウルガモスの切り替え
+	Label: "[i:PokemonPetsMod/VolcaronaItem] ウルガモスの切り替え"
 	Tooltip:
 	'''
 	オンにすると、レッドデビルを倒すことでウルガモスのペット召喚アイテムを入手できます
@@ -593,7 +593,7 @@ Configs: {
 	}
 
 	NinjaskToggle: {
-	Label: [i:PokemonPetsMod/NinjaskItem] テッカニンの切り替え
+	Label: "[i:PokemonPetsMod/NinjaskItem] テッカニンの切り替え"
 	Tooltip:
 	'''
 	オンにすると、アントリオンスウォーマーを倒すことでテッカニンのペット召喚アイテムを入手できます
@@ -602,7 +602,7 @@ Configs: {
 	}
 
 	DrifloonToggle: {
-	Label: [i:PokemonPetsMod/DrifloonItem] フワンテの切り替え
+	Label: "[i:PokemonPetsMod/DrifloonItem] フワンテの切り替え"
 	Tooltip:
 	'''
 	オンにすると、風の強い日にパーティーガールからフワンテのペット召喚アイテムを購入できます
@@ -611,7 +611,7 @@ Configs: {
 	}
 
 	ShuckleToggle: {
-	Label: [i:PokemonPetsMod/ShuckleItem] ツボツボの切り替え
+	Label: "[i:PokemonPetsMod/ShuckleItem] ツボツボの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ジャイアントタートルやアイスタートルを倒すことでツボツボのペット召喚アイテムを入手できます
@@ -620,7 +620,7 @@ Configs: {
 	}
 
 	ShayminToggle: {
-	Label: [i:PokemonPetsMod/ShayminItem] シェイミの切り替え
+	Label: "[i:PokemonPetsMod/ShayminItem] シェイミの切り替え"
 	Tooltip:
 	'''
 	オンにすると、シマーでグロマーの花を変形させることでシェイミのペット召喚アイテムを入手できます
@@ -629,7 +629,7 @@ Configs: {
 	}
 
 	DarkraiToggle: {
-	Label: [i:PokemonPetsMod/DarkraiItem] ダークライの切り替え
+	Label: "[i:PokemonPetsMod/DarkraiItem] ダークライの切り替え"
 	Tooltip:
 	'''
 	オンにすると、リーパーを倒すことでダークライのペット召喚アイテムを入手できます
@@ -638,7 +638,7 @@ Configs: {
 	}
 
 	AegislashToggle: {
-	Label: [i:PokemonPetsMod/AegislashItem] ギルガルドの切り替え
+	Label: "[i:PokemonPetsMod/AegislashItem] ギルガルドの切り替え"
 	Tooltip:
 	'''
 	オンにすると、エンチャントソード、カースドハンマー、クリムゾンアックスを倒すことでギルガルドのペット召喚アイテムを入手できます
@@ -647,7 +647,7 @@ Configs: {
 	}
 
 	ShinyCharmDroprate: {
-	Label: [i:PokemonPetsMod/ShinyCharm] ひかるおまもりのドロップ率
+	Label: "[i:PokemonPetsMod/ShinyCharm] ひかるおまもりのドロップ率"
 	Tooltip:
 	'''
 	クイーンスライムを倒すことでひかるおまもりを入手する確率を調整します
@@ -661,7 +661,7 @@ Configs: {
 	}
 
 	VenipedeToggle: {
-	Label: [i:PokemonPetsMod/VenipedeItem] フシデの切り替え
+	Label: "[i:PokemonPetsMod/VenipedeItem] フシデの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ブラッドムーン中にウィッチドクターからフシデのペット召喚アイテムを購入できます
@@ -670,7 +670,7 @@ Configs: {
 	}
 
 	MewToggle: {
-	Label: [i:PokemonPetsMod/MewItem] ミュウの切り替え
+	Label: "[i:PokemonPetsMod/MewItem] ミュウの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ハードモードの神聖な木箱を開けることでミュウのペット召喚アイテムを入手できます
@@ -679,7 +679,7 @@ Configs: {
 	}
 
 	CelebiToggle: {
-	Label: [i:PokemonPetsMod/CelebiItem] セレビィの切り替え
+	Label: "[i:PokemonPetsMod/CelebiItem] セレビィの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ハードモードのイバラの木箱を開けることでセレビィのペット召喚アイテムを入手できます
@@ -688,7 +688,7 @@ Configs: {
 	}
 
 	ManaphyToggle: {
-	Label: [i:PokemonPetsMod/ManaphyItem] マナフィの切り替え
+	Label: "[i:PokemonPetsMod/ManaphyItem] マナフィの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ハードモードの海岸の木箱を開けることでマナフィのペット召喚アイテムを入手できます
@@ -727,7 +727,7 @@ Configs: {
 	}
 	
 	MythTrioShimmerToggle: {
-	Label: [i:5364] ミュウ、セレビィ、マナフィのシマーサイクルの切り替え
+	Label: "[i:5364] ミュウ、セレビィ、マナフィのシマーサイクルの切り替え"
 	Tooltip:
 	'''
 	ミュウ、セレビィ、マナフィをシマーで変形させて互いに交換できるかどうかを切り替えます
@@ -736,7 +736,7 @@ Configs: {
 	}
 
 	DiglettToggle: {
-	Label: [i:PokemonPetsMod/DiglettItem] ディグダの切り替え
+	Label: "[i:PokemonPetsMod/DiglettItem] ディグダの切り替え"
 	Tooltip:
 	'''
 	オンにすると、満月の日にスケルトンマーチャントからディグダのペット召喚アイテムを購入できます
@@ -745,7 +745,7 @@ Configs: {
 	}
 
 	DiancieToggle: {
-	Label: [i:PokemonPetsMod/DiancieItem] ディアンシーの切り替え
+	Label: "[i:PokemonPetsMod/DiancieItem] ディアンシーの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ジオードを壊すことでディアンシーのペット召喚アイテムを入手できます
@@ -754,7 +754,7 @@ Configs: {
 	}
 
 	LedybaToggle: {
-	Label: [i:PokemonPetsMod/LedybaItem] レディバの切り替え
+	Label: "[i:PokemonPetsMod/LedybaItem] レディバの切り替え"
 	Tooltip:
 	'''
 	オンにすると、旅商人からレディバのペット召喚アイテムを購入できます*
@@ -764,7 +764,7 @@ Configs: {
 	}
 
 	SnomToggle: {
-	Label: [i:PokemonPetsMod/SnomItem] ユキハミの切り替え
+	Label: "[i:PokemonPetsMod/SnomItem] ユキハミの切り替え"
 	Tooltip:
 	'''
 	オンにすると、アイススライムやスパイクドアイススライムを倒すことでユキハミのペット召喚アイテムを入手できます
@@ -773,7 +773,7 @@ Configs: {
 	}
 
 	MismagiusToggle: {
-	Label: [i:PokemonPetsMod/MismagiusItem] ムウマージの切り替え
+	Label: "[i:PokemonPetsMod/MismagiusItem] ムウマージの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ティムやルーンウィザードを倒すことでムウマージのペット召喚アイテムを入手できます
@@ -782,7 +782,7 @@ Configs: {
 	}
 
 	BeldumToggle: {
-	Label: [i:PokemonPetsMod/BeldumItem] ダンバルの切り替え
+	Label: "[i:PokemonPetsMod/BeldumItem] ダンバルの切り替え"
 	Tooltip:
 	'''
 	オンにすると、サイボーグからダンバルのペット召喚アイテムを購入できます
@@ -791,7 +791,7 @@ Configs: {
 	}
 
 	CyndaquilToggle: {
-	Label: [i:PokemonPetsMod/CyndaquilItem] ヒノアラシの切り替え
+	Label: "[i:PokemonPetsMod/CyndaquilItem] ヒノアラシの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ラバスライムを倒すことでヒノアラシのペット召喚アイテムを入手できます
@@ -800,7 +800,7 @@ Configs: {
 	}
 
 	PumpkabooToggle: {
-	Label: [i:PokemonPetsMod/PumpkabooItem] バケッチャの切り替え
+	Label: "[i:PokemonPetsMod/PumpkabooItem] バケッチャの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ヘッドレスホースマンを倒すことでバケッチャのペット召喚アイテムを入手できます
@@ -809,7 +809,7 @@ Configs: {
 	}
 
 	PidgeyToggle: {
-	Label: [i:PokemonPetsMod/PidgeyItem] ポッポの切り替え
+	Label: "[i:PokemonPetsMod/PidgeyItem] ポッポの切り替え"
 	Tooltip:
 	'''
 	オンにすると、ハーピーを倒すことでポッポのペット召喚アイテムを入手できます
@@ -851,6 +851,3 @@ VanityPetOrLightPetEnum: {
   }
 
 }
-
-
-
