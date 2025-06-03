@@ -10,7 +10,7 @@
 ## 使い方
 
 [External Localizer][steam:ExternalLocalizer]を使って読み込ませるとテラリアのModを日本語化できます。
-詳しくは、wiki[repo:wiki-HowToUse]を参照してください。
+詳しくは、[wiki][repo:wiki-HowToUse]を参照してください。
 
 ## ライセンス
 
