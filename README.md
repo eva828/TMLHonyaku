@@ -15,14 +15,14 @@
 ## ライセンス
 
 ### ・ Terraria/ja-JP.hjson
-テラリアの翻訳ファイル [Terraria/ja-JP.hjson][repo:Terraria/ja-JP.hjson] は、[synctam様][blog:synctam]による翻訳データをhjson形式に変換したものです。
+テラリアの翻訳ファイル [Terraria/ja-JP.hjson][repo:Terraria/ja-JP.hjson] は[synctam様][blog:synctam]による翻訳データをhjson形式に変換したものです。
 
 したがって、[Terraria/ja-JP.hjson][repo:Terraria/ja-JP.hjson]は「[CC BY-NC-SA 4.0（表示 - 非営利 - 継承 4.0 国際）][hp:CC]」を継承します。
 
 ### ・ 各MODの翻訳データ
 
-各MODの翻訳データは、それぞれ異なる翻訳者によって提供されているため、統一されたライセンスは設定されておりません。
-個人利用およびTMLHonyakuへの貢献以外の目的で、翻訳データの改変や再配布を行う場合は、必ず[Discord][discord:invite]にて該当の翻訳者へご確認ください。
+各MODの翻訳データはそれぞれ異なる翻訳者によって提供されているため、統一されたライセンスは設定されておりません。
+個人利用およびTMLHonyakuへの貢献以外の目的で翻訳データの改変や再配布を行う場合は、必ず[Discord][discord:invite]にて該当の翻訳者へご確認ください。
 
 ## 免責事項
 
