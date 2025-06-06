@@ -31,13 +31,14 @@
 // Modified by: eva828 1.2.0
 
 Items: {
+	// Deckbox
 	TerraTCGDeckbox: {
 		DisplayName: TerraTCGのデッキボックス
 		Tooltip:
 			'''
 			TerraTCGのデッキボックスだ！
-			これを開いてデッキを編集してから、
-			NPCに話しかけてTerraTCGに挑戦しよう。
+			これを開いてデッキを編集してから
+			NPCに話しかけてTerraTCGに挑戦しよう
 			'''
 	}
 
@@ -45,286 +46,19 @@ Items: {
 		DisplayName: TerraTCGのデバッグ用デッキボックス
 		Tooltip:
 			'''
-			TerraTCGのデッキエディタを開く。
-			すべてのカードにアクセスできる。
+			TerraTCGのデッキエディタを開く
+			すべてのカードにアクセスできる
 			'''
 	}
 
-	TerraTCGBoosterPack: {
-		DisplayName: Terra TCG ブースターパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			開封するとランダムで3枚のカードが手に入ります！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	CavernPack: {
-		DisplayName: 洞窟のパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			洞窟をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	DungeonPack: {
-		DisplayName: ダンジョンのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			ダンジョンをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	EvilPack: {
-		DisplayName: 邪悪なパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			不浄と真紅をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	ForestPack: {
-		DisplayName: 森林のパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			森林をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	GoblinPack: {
-		DisplayName: ゴブリンのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			森林をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	JunglePack: {
-		DisplayName: ジャングルのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			ジャングルをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	KingSlimePack: {
-		DisplayName: キングスライムのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなキングスライムカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	MushroomPack: {
-		DisplayName: キノコのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			キノコをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	OceanPack: {
-		DisplayName: 海のパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			海をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	QueenBeePack: {
-		DisplayName: 女王蜂のパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアな女王蜂カードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	SlimePack: {
-		DisplayName: スライムのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			スライムをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	BloodMoonPack: {
-		DisplayName: ブラッドムーンのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			ブラッドムーンをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	MimicPack: {
-		DisplayName: ミミックのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなミミックのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
+	// Invitation
 	InvitationToDuel: {
 		DisplayName: デュエルへの招待状
 		Tooltip:
 			'''
 			TerraTCGの栄光のために魂を賭けよう！
-			ハードモード前のボスの前で使用すると、魂を賭けたTerraTCGのゲームが開始される。
-			勝てば栄光と報酬が手に入るが、
-			もしも負ければ致命的な結果が降りかかる！
-			'''
-	}
-
-	BOCPack: {
-		DisplayName: クトゥルフの脳のパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなクトゥルフの脳のカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	EOCPack: {
-		DisplayName: クトゥルフの目のパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなクトゥルフの目のカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	EOWPack: {
-		DisplayName: イーターオブワールドのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなイーターオブワールドのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	SkeletronPack: {
-		DisplayName: スケルトロンのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなスケルトロンのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	WOFPack: {
-		DisplayName: ウォールオブフレッシュのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなウォールオブフレッシュのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	DeerclopsPack: {
-		DisplayName: ディアクロップスのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなディアクロップスのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	SnowPack: {
-		DisplayName: 雪のパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			雪をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	HallowedPack: {
-		DisplayName: 聖域のパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			聖域をテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	QueenSlimePack: {
-		DisplayName: クイーンスライムのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなクイーンスライムのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	BatPack: {
-		DisplayName: コウモリのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			コウモリをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	CritterPack: {
-		DisplayName: Critterのパック
-		Tooltip:
-			'''
-			TerraTCGのブースターパック！
-			Critterをテーマにしたカードが収録されています！
-			開けたら早速デッキボックスでデッキを構築しよう！
-			'''
-	}
-
-	DestroyerPack: {
-		DisplayName: デストロイヤーのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなデストロイヤーのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	SkeletronPrimePack: {
-		DisplayName: スケルトロンプライムのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなスケルトロンプライムのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
-			'''
-	}
-
-	TwinsPack: {
-		DisplayName: ツインズのパック
-		Tooltip:
-			'''
-			TerraTCGのプロモパック！レアなツインズのカードを収録！
-			TerraTCGデッキボックスでデッキを構築しよう。
+			ハードモード前のボスの前で使用すると、魂を賭けたTerraTCGのゲームが開始される
+			警告: 負ければ命を失う覚悟が必要です。
 			'''
 	}
 
@@ -334,6 +68,290 @@ Items: {
 			'''
 			TerraTCGで友達と対戦するためのツールです！
 			友達とこのアイテムを使えば、すぐにPvPゲームを楽しめます！
+			'''
+	}
+
+	// BoosterPacks
+	TerraTCGBoosterPack: {
+		DisplayName: Terra TCG ブースターパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ランダムなカードが3枚入っている
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	CavernPack: {
+		DisplayName: 洞窟のパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			洞窟をテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	DungeonPack: {
+		DisplayName: ダンジョンのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ダンジョンをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	EvilPack: {
+		DisplayName: 邪悪なパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			不浄と真紅をテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	ForestPack: {
+		DisplayName: 森林のパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			森林をテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	GoblinPack: {
+		DisplayName: ゴブリンのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ゴブリンをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	JunglePack: {
+		DisplayName: ジャングルのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ジャングルをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	MushroomPack: {
+		DisplayName: キノコのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			キノコをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	OceanPack: {
+		DisplayName: 海のパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			海をテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	SlimePack: {
+		DisplayName: スライムのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			スライムをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	BloodMoonPack: {
+		DisplayName: ブラッドムーンのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			ブラッドムーンをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	SnowPack: {
+		DisplayName: 雪のパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			雪をテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	HallowedPack: {
+		DisplayName: 聖域のパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			聖域をテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+
+	BatPack: {
+		DisplayName: コウモリのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			コウモリをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	CritterPack: {
+		DisplayName: Critterのパック
+		Tooltip:
+			'''
+			TerraTCGのブースターパック！
+			Critterをテーマにしたカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+
+	// PromoPacks
+	KingSlimePack: {
+		DisplayName: キングスライムのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなキングスライムのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	QueenBeePack: {
+		DisplayName: 女王蜂のパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアな女王蜂のカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	MimicPack: {
+		DisplayName: ミミックのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなミミックのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	BOCPack: {
+		DisplayName: クトゥルフの脳のパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなクトゥルフの脳のカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	EOCPack: {
+		DisplayName: クトゥルフの目のパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなクトゥルフの目のカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	EOWPack: {
+		DisplayName: イーターオブワールドのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなイーターオブワールドのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	SkeletronPack: {
+		DisplayName: スケルトロンのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなスケルトロンのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	WOFPack: {
+		DisplayName: ウォールオブフレッシュのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなウォールオブフレッシュのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	DeerclopsPack: {
+		DisplayName: ディアクロップスのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなディアクロップスのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	QueenSlimePack: {
+		DisplayName: クイーンスライムのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなクイーンスライムのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	DestroyerPack: {
+		DisplayName: デストロイヤーのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなデストロイヤーのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	SkeletronPrimePack: {
+		DisplayName: スケルトロンプライムのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなスケルトロンプライムのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
+			'''
+	}
+
+	TwinsPack: {
+		DisplayName: ツインズのパック
+		Tooltip:
+			'''
+			TerraTCGのプロモパック！
+			レアなツインズのカードを収録
+			TerraTCGデッキボックスでデッキを構築しよう
 			'''
 	}
 }
@@ -347,9 +365,7 @@ Cards: {
 			Name: スキル：丈夫な殻
 			Description:
 				'''
-				1ターンの間、味方のサラマンダ
-				ーとザリガニの被ダメージが1
-				減少する。
+				1ターンの間、味方のサラマンダーとザリガニの被ダメージが1減少する。
 				'''
 		}
 	}
@@ -362,9 +378,7 @@ Cards: {
 			Name: スキル：爪の援護
 			Description:
 				'''
-				1ターンの間、味方のサラマンダ
-				ーとジャイアントシェリーの与ダメ
-				ージが1増加する。
+				1ターンの間、味方のサラマンダーとジャイアントシェリーの与ダメージが1増加する。
 				'''
 		}
 	}
@@ -377,9 +391,7 @@ Cards: {
 			Name: スキル：絹のような鱗
 			Description:
 				'''
-				1ターンの間、味方のザリガニと
-				ジャイアントシェリーの攻撃に必
-				要なMPが1減る。
+				1ターンの間、味方のザリガニとジャイアントシェリーの攻撃に必要なMPが1減る。
 				'''
 		}
 	}
@@ -406,8 +418,7 @@ Cards: {
 			Name: 母なるスライム
 			Description:
 				'''
-				味方のスライム1体につき、1ダメ
-				ージを追加で与える。
+				味方のスライム1体につき、1ダメージを追加で与える。
 				'''
 		}
 	}
@@ -419,15 +430,13 @@ Cards: {
 			Name: べとべと噛みつき
 			Description:
 				'''
-				味方にスライムがいる場合、与
-				ダメージが1増加する。
+				味方にスライムがいる場合、与ダメージが1増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			味方にスライムがいる場合、被
-			ダメージが1減少する。
+			味方にスライムがいる場合、被ダメージが1減少する。
 			'''
 	}
 
@@ -438,8 +447,7 @@ Cards: {
 			Name: ピンクスライム
 			Description:
 				'''
-				味方のスライム1体につき、マナ
-				コストが1少なくなる。
+				味方のスライム1体につき、マナコストが1少なくなる。
 				'''
 		}
 	}
@@ -449,8 +457,7 @@ Cards: {
 		Attack.Name: 冷たい一噛み
 		Modifier.Description:
 			'''
-			{$ModifierNames.FREEZING}: 敵の攻撃のマナコストが1
-			増える。
+			{$ModifierNames.FREEZING}：敵の攻撃のマナコストが1増える。
 			'''
 	}
 
@@ -459,9 +466,7 @@ Cards: {
 		Attack.Name: 氷翼の急襲
 		Modifier.Description:
 			'''
-			{$ModifierNames.FREEZING}: 敵の攻撃のマナコストが1
-			増える。
-			{$ModifierNames.EVASIVE}.
+			{$ModifierNames.FREEZING}：敵の攻撃のマナコストが1増える。{$ModifierNames.EVASIVE}.
 			'''
 	}
 
@@ -482,12 +487,10 @@ Cards: {
 		Attack.Name: よちよち
 
 		Skill: {
-			Name: スキル: 雪の旋律
+			Name: スキル :雪の旋律
 			Description:
 				'''
-				味方1体に{$ModifierNames.FREEZING}を与える
-				(このカードに対する次の敵のマ
-				ナコスト+1)
+				味方1体に{$ModifierNames.FREEZING}を与える (このカードに対する次の敵のマナコスト+1)
 				'''
 		}
 	}
@@ -499,8 +502,7 @@ Cards: {
 			Name: 巨大なアゴ
 			Description:
 				'''
-				攻撃対象に{$ModifierNames.BLEEDING}を与える。
-				(被ダメージ+1)
+				攻撃対象に{$ModifierNames.BLEEDING}を与える。 (被ダメージ+1)
 				'''
 		}
 	}
@@ -512,8 +514,7 @@ Cards: {
 			Name: 吸血
 			Description:
 				'''
-				攻撃対象に{$ModifierNames.BLEEDING}を与える。
-				(被ダメージ+1)
+				攻撃対象に{$ModifierNames.BLEEDING}を与える。(被ダメージ+1)
 				'''
 		}
 	}
@@ -522,8 +523,7 @@ Cards: {
 		Name: "{$NPCName.Creeper}"
 		Modifier.Description:
 			'''
-			ボスのしもべ: クトゥルフの脳の
-			攻撃が{$ModifierNames.BLEEDING}を与える。
+			ボスのしもべ：クトゥルフの脳の攻撃が{$ModifierNames.BLEEDING}を与える。
 			'''
 		Attack.Name: 悪意の視線
 	}
@@ -532,8 +532,7 @@ Cards: {
 		Name: "{$NPCName.BrainofCthulhu}"
 		Modifier.Description:
 			'''
-			血塗れの渇望: {$ModifierNames.BLEEDING}の敵に2の
-			追加ダメージを与える。
+			血塗れの渇望：{$ModifierNames.BLEEDING}の敵に2の追加ダメージを与える。
 			活力.
 			'''
 		Attack.Name: 痛い頭痛
@@ -543,8 +542,7 @@ Cards: {
 		Name: "{$NPCName.QueenBee}"
 		Modifier.Description:
 			'''
-			ロイヤルハニー: 味方を攻撃し
-			た敵を{$ModifierNames.POISON}にする。
+			ロイヤルハニー：味方を攻撃した敵を{$ModifierNames.POISON}にする。
 			'''
 		Attack.Name: 女王の轟音
 	}
@@ -553,9 +551,8 @@ Cards: {
 		Name: "{$NPCName.SlimeSpiked}"
 		Modifier.Description:
 			'''
-			ボスのしもべ: {$ModifierNames.SPIKED}.
-			キングスライムが{$ModifierNames.SPIKED}を得
-			る。
+			ボスのしもべ：{$ModifierNames.SPIKED}.
+			キングスライムが{$ModifierNames.SPIKED}を得る。
 			'''
 		Attack.Name: 王のしもべ
 	}
@@ -567,9 +564,7 @@ Cards: {
 			Name: 王の勅令
 			Description:
 				'''
-				1ターンの間、味方のスライムの与
-				ダメージが1増加する。さらに、味
-				方のスライムのHPを1回復する。
+				1ターンの間、味方のスライムの与ダメージが1増加する。さらに味方のスライムのHPを1回復する。
 				'''
 		}
 
@@ -581,7 +576,7 @@ Cards: {
 		Attack.Name: キノキノ噛みつき
 		Modifier.Description:
 			'''
-			{$ModifierNames.LIFESTEAL}: 攻撃後にHPを1回復する。
+			{$ModifierNames.LIFESTEAL}：攻撃後にHPを1回復する。
 			'''
 	}
 
@@ -590,7 +585,7 @@ Cards: {
 		Attack.Name: キノコボーン
 		Modifier.Description:
 			'''
-			{$ModifierNames.LIFESTEAL}: 攻撃後にHPを1回復する。
+			{$ModifierNames.LIFESTEAL}：攻撃後にHPを1回復する。
 			'''
 	}
 
@@ -605,11 +600,10 @@ Cards: {
 		Attack.Name: 輝く殻
 
 		Skill: {
-			Name: スキル: 胞子の拡散
+			Name: スキル :胞子の拡散
 			Description:
 				'''
-				1ターンの間、味方は{$ModifierNames.LIFESTEAL}を得る。
-				(攻撃後HPを1回復)
+				1ターンの間、味方は{$ModifierNames.LIFESTEAL}を得る。 (攻撃後HPを1回復)
 				'''
 		}
 	}
@@ -621,14 +615,13 @@ Cards: {
 			Name: 伝染
 			Description:
 				'''
-				敵を攻撃した味方のHPを1回復
-				する。
+				敵を攻撃した味方のHPを1回復する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			{$ModifierNames.LIFESTEAL}: 攻撃後にHPを1回復する。
+			{$ModifierNames.LIFESTEAL}：攻撃後にHPを1回復する。
 			'''
 	}
 
@@ -637,8 +630,7 @@ Cards: {
 		Attack.Name: 祟り
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -647,7 +639,7 @@ Cards: {
 		Attack.Name: 呪われた鎧
 		Modifier.Description:
 			'''
-			{$ModifierNames.DEFENSE_BOOST}: 被ダメージが1減少する。
+			{$ModifierNames.DEFENSE_BOOST}：被ダメージが1減少する。
 			'''
 	}
 
@@ -655,9 +647,7 @@ Cards: {
 		Name: クトゥルフのしもべ
 		Modifier.Description:
 			'''
-			ボスのしもべ: クトゥルフの目は
-			HPが半分以下になると{$ModifierNames.DEFENSE_BOOST}を
-			得る。
+			ボスのしもべ：クトゥルフの目はHPが半分以下になると{$ModifierNames.DEFENSE_BOOST}を得る。
 			'''
 		Attack.Name: 王のしもべ
 	}
@@ -666,16 +656,14 @@ Cards: {
 		Name: "{$NPCName.EyeofCthulhu}"
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 
 		Attack: {
 			Name: 眼の噛みつき
 			Description:
 				'''
-				HPが半分以下の時、2倍のダメ
-				ージを与える。
+				HPが半分以下の時、2倍のダメージを与える。
 				'''
 		}
 	}
@@ -684,16 +672,14 @@ Cards: {
 		Name: "{$NPCName.WanderingEye}"
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 
 		Attack: {
 			Name: 眼の噛みつき
 			Description:
 				'''
-				HPが半分以下の時、追加で2
-				ダメージを与える。
+				HPが半分以下の時、追加で2ダメージを与える。
 				'''
 		}
 	}
@@ -703,8 +689,7 @@ Cards: {
 		Attack.Name: 冷徹な視線
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -715,15 +700,13 @@ Cards: {
 			Name: 血の雫
 			Description:
 				'''
-				このカードが場に出たターンは
-				与ダメージが2増加する。
+				このカードが場に出たターンは与ダメージが2増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			活力: このカードは場に出たター
-			ンから行動できる。
+			活力: このカードは場に出たターンから行動できる。
 			'''
 	}
 
@@ -745,15 +728,13 @@ Cards: {
 			Name: 血塗れの鱗
 			Description:
 				'''
-				このカードが場に出たターンは
-				与ダメージが1増加する。
+				このカードが場に出たターンは与ダメージが1増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			活力: このカードは場に出たター
-			ンから行動できる。
+			活力：このカードは場に出たターンから行動できる。
 			'''
 	}
 
@@ -762,12 +743,10 @@ Cards: {
 		Attack.Name: 鮮血キック
 
 		Skill: {
-			Name: スキル: 出血援護
+			Name: スキル :出血援護
 			Description:
 				'''
-				1ターンの間、味方1体の与ダメー
-				ジが1増加する。さらに、{$ModifierNames.BLEEDING}を与
-				える。(被ダメージ+1)
+				1ターンの間、味方1体の与ダメージが1増加する。さらに{$ModifierNames.BLEEDING}を与える。 (被ダメージ+1)
 				'''
 		}
 	}
@@ -779,15 +758,13 @@ Cards: {
 			Name: 血の涙
 			Description:
 				'''
-				このカードが場に出たターンは
-				与ダメージが1増加する。
+				このカードが場に出たターンは与ダメージが1増加する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			活力: このカードは場に出たター
-			ンから行動できる。
+			活力：このカードは場に出たターンから行動できる。
 			'''
 	}
 
@@ -798,15 +775,13 @@ Cards: {
 			Name: 急降下爆撃
 			Description:
 				'''
-				味方全員が防御列の敵を攻撃
-				できるようになる。
+				味方全員が防御列の敵を攻撃できるようになる。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -815,11 +790,10 @@ Cards: {
 		Attack.Name: カタい甲羅
 
 		Skill: {
-			Name: スキル: 守護者
+			Name: スキル :守護者
 			Description:
 				'''
-				次のターン、相手は攻撃しなけ
-				ればならない。
+				次のターン、相手は攻撃しなければならない。
 				'''
 		}
 	}
@@ -829,9 +803,8 @@ Cards: {
 		Attack.Name: 甲羅落とし
 		Modifier.Description:
 			'''
-			トゲトゲ甲羅: {$ModifierNames.SPIKED}.
-			敵はHPが最も低い味方を攻撃
-			できない。
+			トゲトゲ甲羅：{$ModifierNames.SPIKED}.
+			敵はHPが最も低い味方を攻撃できない。
 			'''
 	}
 
@@ -842,8 +815,7 @@ Cards: {
 			Name: 致死の噛みつき
 			Description:
 				'''
-				攻撃対象に{$ModifierNames.BLEEDING}を与える。
-				(被ダメージ+1)
+				攻撃対象に{$ModifierNames.BLEEDING}を与える。 (被ダメージ+1)
 				'''
 		}
 	}
@@ -855,8 +827,7 @@ Cards: {
 			Name: 苔むした蜂の針
 			Description:
 				'''
-				敵1体に{$ModifierNames.POISON}を与える。
-				(毎ターンHPが1減少)
+				敵1体に{$ModifierNames.POISON}を与える。 (毎ターンHPが1減少)
 				'''
 		}
 	}
@@ -868,8 +839,7 @@ Cards: {
 			Name: 蜂の針
 			Description:
 				'''
-				敵1体に{$ModifierNames.POISON}を与える。
-				(毎ターンHPが1減少)
+				敵1体に{$ModifierNames.POISON}を与える。 (毎ターンHPが1減少)
 				'''
 		}
 	}
@@ -879,11 +849,10 @@ Cards: {
 		Attack.Name: 蜂の針
 
 		Skill: {
-			Name: スキル: 毒の蜜
+			Name: スキル :毒の蜜
 			Description:
 				'''
-				味方1体は攻撃時に{$ModifierNames.POISON}を与える。
-				(毎ターンHPが1減少)
+				味方1体は攻撃時に{$ModifierNames.POISON}を与える。(毎ターンHPが1減少)
 				'''
 		}
 	}
@@ -893,8 +862,7 @@ Cards: {
 		Attack.Name: 滲む毒
 		Modifier.Description:
 			'''
-			{$ModifierNames.SPIKED}: このカードを攻撃した
-			敵は2ダメージを受ける。
+			{$ModifierNames.SPIKED}：このカードを攻撃した敵は2ダメージを受ける。
 			'''
 	}
 
@@ -905,8 +873,7 @@ Cards: {
 			Name: 動物相の探求
 			Description:
 				'''
-				味方のCritters1体につき1ダ
-				メージを与える。
+				味方のCritters1体につき1ダメージを与える。
 				'''
 		}
 	}
@@ -916,8 +883,7 @@ Cards: {
 		Attack.Name: 挟む
 		Modifier.Description:
 			'''
-			{$ModifierNames.RELENTLESS}: 毎ターン追加で攻撃でき
-			る。
+			{$ModifierNames.RELENTLESS}：毎ターン追加で攻撃できる。
 			'''
 	}
 
@@ -926,8 +892,7 @@ Cards: {
 		Attack.Name: クラゲの針
 		Modifier.Description:
 			'''
-			{$ModifierNames.RELENTLESS}: 毎ターン追加で攻撃でき
-			る。
+			{$ModifierNames.RELENTLESS}：毎ターン追加で攻撃できる。
 			'''
 	}
 
@@ -936,8 +901,7 @@ Cards: {
 		Attack.Name: ジョーズ
 		Modifier.Description:
 			'''
-			{$ModifierNames.RELENTLESS}: 毎ターン追加で攻撃でき
-			る。
+			{$ModifierNames.RELENTLESS}：毎ターン追加で攻撃できる。
 			'''
 	}
 
@@ -948,8 +912,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備しているモンスターは{$ModifierNames.RELENTLESS}
-				を得る。 (毎ターン追加行動)
+				装備しているモンスターは{$ModifierNames.RELENTLESS}を得る。 (毎ターン追加行動)
 				'''
 		}
 	}
@@ -961,9 +924,7 @@ Cards: {
 			Name: マジックミサイル
 			Description:
 				'''
-				このゲームで使用したアイテム
-				カード1つにつき、1ダメージを与
-				える。
+				このゲームで使用したアイテムカード1つにつき、1ダメージを与える。
 				'''
 		}
 	}
@@ -973,8 +934,7 @@ Cards: {
 		Attack.Name: 嘘泣き
 		Modifier.Description:
 			'''
-			ターン中にアイテムカードを引い
-			た場合、このカードは変身する。
+			ターン中にアイテムカードを引いた場合、このカードは変身する。
 			'''
 	}
 
@@ -983,8 +943,7 @@ Cards: {
 		Attack.Name: 甘い嘘
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -992,9 +951,7 @@ Cards: {
 		Name: "{$NPCName.Dryad}の加護"
 		Modifier.Description:
 			'''
-			行動済み状態でなく、かつエキ
-			スパートでない味方1体を手札
-			に戻す。
+			行動済み状態でなく、かつエキスパートでない味方1体を手札に戻す。
 			'''
 	}
 
@@ -1002,9 +959,7 @@ Cards: {
 		Name: "{$NPCName.PartyGirl}の寵愛"
 		Modifier.Description:
 			'''
-			味方1体の行動済み状態を解除
-			し、このターンのマナコストを1減少
-			させる。
+			味方1体の行動済み状態を解除し、このターンのマナコストを1減少させる。
 			'''
 	}
 
@@ -1012,8 +967,7 @@ Cards: {
 		Name: "{$NPCName.Nurse}の手当"
 		Modifier.Description:
 			'''
-			味方1体のHPを3回復し、すべて
-			のデバフを解除する。
+			味方1体のHPを3回復し、すべてのデバフを解除する。
 			'''
 	}
 
@@ -1021,9 +975,7 @@ Cards: {
 		Name: 苛まれた霊
 		Modifier.Description:
 			'''
-			自分のHPが相手のHPより少ない
-			場合、自分のデッキからボスを1体
-			手札に加える。
+			自分のHPが相手のHPより少ない場合、自分のデッキからボスを1体手札に加える。
 			'''
 	}
 
@@ -1031,9 +983,7 @@ Cards: {
 		Name: "{$NPCName.ArmsDealer}の狙い"
 		Modifier.Description:
 			'''
-			味方1体の行動済み状態を解除
-			し、1ターンの間、2の追加ダメージ
-			を与える。
+			味方1体の行動済み状態を解除し、1ターンの間、2の追加ダメージを与える。
 			'''
 	}
 
@@ -1051,8 +1001,7 @@ Cards: {
 		Name: "{$NPCName.OldMan}の呪い"
 		Modifier.Description:
 			'''
-			敵1体を空いている列に移動さ
-			せる。
+			敵1体を空いている列に移動させる。
 			'''
 	}
 
@@ -1063,8 +1012,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				敵1体に{$ModifierNames.BLEEDING}を与える。
-				(被ダメージ+1)
+				敵1体に{$ModifierNames.BLEEDING}を与える。 (被ダメージ+1)
 				'''
 		}
 	}
@@ -1076,8 +1024,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者の死亡時、味方全体の
-				与ダメージが1増加する。
+				装備者の死亡時、味方全体の与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1089,8 +1036,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は攻撃した敵に{$ModifierNames.BLEEDING}を
-				与える。 (被ダメージ+1)
+				装備者は攻撃した敵に{$ModifierNames.BLEEDING}を与える。 (被ダメージ+1)
 				'''
 		}
 	}
@@ -1102,9 +1048,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				1ターンの間、味方1体が攻撃時
-				に{$ModifierNames.POISON}を与える。
-				(毎ターンHPが1減少)
+				1ターンの間、味方1体が攻撃時に{$ModifierNames.POISON}を与える。 (毎ターンHPが1減少)
 				'''
 		}
 	}
@@ -1116,8 +1060,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は攻撃した敵に{$ModifierNames.POISON}を与
-				える。(毎ターンHPが1減少)
+				装備者は攻撃した敵に{$ModifierNames.POISON}を与える。 (毎ターンHPが1減少)
 				'''
 		}
 	}
@@ -1129,8 +1072,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者の与ダメージが1増加す
-				る。
+				装備者の与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1142,8 +1084,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者の与ダメージが2増加す
-				る。
+				装備者の与ダメージが2増加する。
 				'''
 		}
 	}
@@ -1167,9 +1108,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者の被ダメージが2減少す
-				る。効果を発動すると{$ItemName.Shackle}は壊れ
-				る。
+				装備者の被ダメージが2減少する。効果を発動すると{$ItemName.Shackle}は壊れる。
 				'''
 		}
 	}
@@ -1181,8 +1120,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は{$ModifierNames.DEFENSE_BOOST}を得る。
-				(被ダメージが1減少)
+				装備者は{$ModifierNames.DEFENSE_BOOST}を得る。 (被ダメージが1減少)
 				'''
 		}
 	}
@@ -1194,8 +1132,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は{$ModifierNames.FREEZING}を得る。(このカード
-				に対する次の敵のマナコスト+1)
+				装備者は{$ModifierNames.FREEZING}を得る。 (このカードに対する次の敵のマナコスト+1)
 				'''
 		}
 	}
@@ -1216,9 +1153,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				次のターンの間、味方1体が
-				{$ModifierNames.SPIKED}を2つ得る。
-				(被攻撃時、敵に2ダメージ)
+				次のターンの間、味方1体が{$ModifierNames.SPIKED}を2つ得る。 (被攻撃時、敵に2ダメージ)
 				'''
 		}
 	}
@@ -1230,8 +1165,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は{$ModifierNames.SPIKED}を得る。
-				(被攻撃時、敵に1ダメージ)
+				装備者は{$ModifierNames.SPIKED}を得る。 (被攻撃時、敵に1ダメージ)
 				'''
 		}
 	}
@@ -1243,8 +1177,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は毎ターンHPを1回復す
-				る。
+				装備者は毎ターンHPを1回復する。
 				'''
 		}
 	}
@@ -1256,8 +1189,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者はマナコストが1減少す
-				る。
+				装備者はマナコストが1減少する。
 				'''
 		}
 	}
@@ -1269,9 +1201,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				次のターンの間、
-				味方1体が{$ModifierNames.DEFENSE_BOOST}を2つ得る。
-				(被ダメージが2減少)
+				次のターンの間、味方1体が{$ModifierNames.DEFENSE_BOOST}を2つ得る。 (被ダメージが2減少)
 				'''
 		}
 	}
@@ -1304,8 +1234,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				1ターンの間、対象の与ダメージ
-				が2増加する。
+				1ターンの間、対象の与ダメージが2増加する。
 				'''
 		}
 	}
@@ -1317,8 +1246,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				味方1体の次の与ダメージを1増
-				加させる。
+				味方1体の次の与ダメージを1増加させる。
 				'''
 		}
 	}
@@ -1330,8 +1258,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者は{$ModifierNames.EVASIVE}を得る。
-				(防御列の敵を攻撃できる)
+				装備者は{$ModifierNames.EVASIVE}を得る。 (防御列の敵を攻撃できる)
 				'''
 		}
 	}
@@ -1343,8 +1270,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				{$NPCName.CaveBat}にのみ装備可能。
-				装備者は{$ModifierNames.RELENTLESS}と{$ModifierNames.LIFESTEAL}を得る。
+				{$NPCName.CaveBat}にのみ装備可能。装備者は{$ModifierNames.RELENTLESS}と{$ModifierNames.LIFESTEAL}を得る。
 				'''
 		}
 	}
@@ -1357,9 +1283,7 @@ Cards: {
 			// Critterの訳し方がよくわからん
 			Description:
 				'''
-				Critters以外に装備する。装
-				備者がいる間、敵はCritters
-				を攻撃できない。
+				Critters以外に装備する。装備者がいる間、敵はCrittersを攻撃できない。
 				'''
 		}
 	}
@@ -1369,11 +1293,10 @@ Cards: {
 		Attack.Name: 工具
 
 		Skill: {
-			Name: スキル: スリ
+			Name: スキル :スリ
 			Description:
 				'''
-				1ターンの間、アイテムを使用した
-				時、カードを1枚引く。
+				1ターンの間、アイテムを使用した時、カードを1枚引く。
 				'''
 		}
 	}
@@ -1385,15 +1308,13 @@ Cards: {
 			Name: 偵察
 			Description:
 				'''
-				このターンに使用したアイテム1つ
-				につき、1の追加ダメージを与える。
+				このターンに使用したアイテム1つにつき、1の追加ダメージを与える。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			活力: このカードは場に出たター
-			ンから行動できる。
+			活力：このカードは場に出たターンから行動できる。
 			'''
 	}
 
@@ -1404,15 +1325,13 @@ Cards: {
 			Name: 鋭い射撃
 			Description:
 				'''
-				このターンに使用したアイテム1つ
-				につき、1の追加ダメージを与える。
+				このターンに使用したアイテム1つにつき、1の追加ダメージを与える。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -1423,8 +1342,7 @@ Cards: {
 			Name: シャドウフレイム
 			Description:
 				'''
-				アイテムを使用するたびに与ダ
-				メージが1増加する。
+				アイテムを使用するたびに与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1436,14 +1354,13 @@ Cards: {
 			Name: 罠
 			Description:
 				'''
-				この試合で使用したアイテム1つ
-				につき、マナコストが1減少する。
+				この試合で使用したアイテム1つにつき、マナコストが1減少する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			{$ModifierNames.DEFENSE_BOOST}: 被ダメージが1減少する。
+			{$ModifierNames.DEFENSE_BOOST}：被ダメージが1減少する。
 			'''
 	}
 
@@ -1454,15 +1371,13 @@ Cards: {
 			Name: 氷の罠
 			Description:
 				'''
-				攻撃対象のマナコストに応じて、
-				マナコストが減少する。
+				攻撃対象のマナコストに応じて、マナコストが減少する。
 				'''
 		}
 
 		Modifier.Description:
 			'''
-			{$ModifierNames.FREEZING}: 敵の次の攻撃のマナコス
-			トが1増える。
+			{$ModifierNames.FREEZING}：敵の次の攻撃のマナコストが1増える。
 			'''
 	}
 
@@ -1470,16 +1385,14 @@ Cards: {
 		Name: "{$NPCName.IceElemental}"
 		Modifier.Description:
 			'''
-			{$ModifierNames.FREEZING}: 敵の次の攻撃のマナコス
-			トが1増える。
+			{$ModifierNames.FREEZING}：敵の次の攻撃のマナコストが1増える。
 			'''
 
 		Attack: {
 			Name: 氷の刃
 			Description:
 				'''
-				攻撃対象のマナコストに等しい
-				ダメージを与える。
+				攻撃対象のマナコストに等しいダメージを与える。
 				'''
 		}
 	}
@@ -1504,8 +1417,7 @@ Cards: {
 			Name: 冷徹な指
 			Description:
 				'''
-				攻撃対象のマナコストに等しい
-				ダメージを与える。
+				攻撃対象のマナコストに等しいダメージを与える。
 				'''
 		}
 	}
@@ -1514,8 +1426,7 @@ Cards: {
 		Name: "{$NPCName.EnchantedSword}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
-			与ダメージが1増加する。
+			神の恵み: 中央のモンスターの与ダメージが1増加する。
 			'''
 		Attack.Name: 神罰
 	}
@@ -1524,8 +1435,7 @@ Cards: {
 		Name: "{$NPCName.Gastropod}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
-			マナコストが1減少する。
+			神の恵み: 中央のモンスターのマナコストが1減少する。
 			'''
 		Attack.Name: カタツムリのレーザー
 	}
@@ -1534,8 +1444,7 @@ Cards: {
 		Name: "{$NPCName.Unicorn}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターの
-			マナコストが1減少する。
+			神の恵み: 中央のモンスターのマナコストが1減少する。
 			'''
 		Attack.Name: 閃光突進
 	}
@@ -1544,8 +1453,7 @@ Cards: {
 		Name: "{$NPCName.Pixie}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターが
-			毎ターン1HP回復する。
+			神の恵み: 中央のモンスターが毎ターン1HP回復する。
 			'''
 		Attack.Name: 閃光の掌打
 	}
@@ -1554,8 +1462,7 @@ Cards: {
 		Name: "{$NPCName.IlluminantBat}"
 		Modifier.Description:
 			'''
-			神の恵み: 中央のモンスターが
-			{$ModifierNames.EVASIVE}を得る。
+			神の恵み: 中央のモンスターが{$ModifierNames.EVASIVE}を得る。
 			'''
 		Attack.Name: 閃光の急襲
 	}
@@ -1564,8 +1471,7 @@ Cards: {
 		Name: "{$NPCName.QueenSlimeBoss}"
 		Modifier.Description:
 			'''
-			聖なる君王: 中央のモンスターが
-			{$ModifierNames.RELENTLESS}を得る。
+			聖なる君王: 中央のモンスターが{$ModifierNames.RELENTLESS}を得る。
 			'''
 		Attack.Name: 輝くスライム
 	}
@@ -1591,9 +1497,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備したモンスターのスキルが
-				「味方1体と位置を入れ替える。」
-				に変わる。
+				装備したモンスターのスキルが「味方1体と位置を入れ替える。」に変わる。
 				'''
 		}
 	}
@@ -1603,8 +1507,7 @@ Cards: {
 		Attack.Name: 回転ドクロ
 		Modifier.Description:
 			'''
-			このカードが場に出たとき、スケ
-			ルトロンの手を2つ召喚する。
+			このカードが場に出たとき、スケルトロンの手を2つ召喚する。
 			'''
 	}
 
@@ -1631,10 +1534,7 @@ Cards: {
 		Attack.Name: 回転ドクロ
 		Modifier.Description:
 			'''
-			二つの手と共に召喚される。
-			このカードに装備されているすべ
-			てのアイテムは手にコピーされる。
-			装備には1MPが必要。
+			二つの手と共に召喚される。このカードに装備されているすべてのアイテムは手にコピーされる。装備には1MPが必要。
 			'''
 	}
 
@@ -1655,9 +1555,7 @@ Cards: {
 		Attack.Name: 虫の猛威
 		Modifier.Description:
 			'''
-			このカードが場に出たとき、2回複
-			製される。ダメージを受けたとき、
-			手札に{$NPCName.Probe}を1枚加える。
+			このカードが場に出たとき、2回複製される。ダメージを受けたとき、手札に{$NPCName.Probe}を1枚加える。
 			'''
 	}
 
@@ -1696,9 +1594,7 @@ Cards: {
 		Attack.Name: ダブルゲイズ
 		Modifier.Description:
 			'''
-			このカードが場に出たとき、
-			{$NPCName.Retinazer}と{$NPCName.Retinazer}に
-			変化する。
+			このカードが場に出たとき、{$NPCName.Retinazer}と{$NPCName.Retinazer}に変化する。
 			'''
 	}
 
@@ -1707,9 +1603,7 @@ Cards: {
 		Attack.Name: レーザーゲイズ
 		Modifier.Description:
 			'''
-			{$NPCName.Spazmatism}のHPが半分以上のとき、
-			{$ModifierNames.SPIKED}を2得る。
-			HPが半分以下のとき、与ダメージが2増加する。
+			{$NPCName.Spazmatism}のHPが半分以上のとき、{$ModifierNames.SPIKED}を2得る。HPが半分以下のとき、与ダメージが2増加する。
 			'''
 	}
 
@@ -1718,9 +1612,7 @@ Cards: {
 		Attack.Name: レーザーゲイズ
 		Modifier.Description:
 			'''
-			{$NPCName.Retinazer}のHPが半分以上のとき、
-			{$ModifierNames.DEFENSE_BOOST}を得る。
-			HPが半分以下のとき、{$ModifierNames.RELENTLESS}を得る。
+			{$NPCName.Retinazer}のHPが半分以上のとき、{$ModifierNames.DEFENSE_BOOST}を得る。HPが半分以下のとき、{$ModifierNames.RELENTLESS}を得る。
 			'''
 	}
 
@@ -1731,9 +1623,7 @@ Cards: {
 			Name: 消費
 			Description:
 				'''
-				味方1体のHPを1回復する。全ての
-				同じバイオーム&役割の味方の
-				HPを1回復する。
+				味方1体のHPを1回復する。全ての同じバイオーム&役割の味方のHPを1回復する。
 				'''
 		}
 	}
@@ -1745,9 +1635,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				味方1体と、全ての同じバイオーム
-				&役割の味方の与ダメージが1
-				増加する。
+				味方1体と、全ての同じバイオーム&役割の味方の与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1759,9 +1647,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				味方1体が「ターンに使用したア
-				イテム1つにつき与えるダメージ
-				が1増加する」を得る。
+				味方1体が「ターンに使用したアイテム1つにつき与えるダメージが1増加する」を得る。
 				'''
 		}
 	}
@@ -1771,9 +1657,7 @@ Cards: {
 		Attack.Name: 肉の壁
 		Modifier.Description:
 			'''
-			不可避: このカードが場に出たと
-			き、目を2枚召喚する。毎ターンHP
-			を1回復する。
+			不可避：このカードが場に出たとき、目を2枚召喚する。毎ターンHPを1回復する。
 			'''
 	}
 
@@ -1781,8 +1665,7 @@ Cards: {
 		Name: "{$NPCName.WallofFlesh}の目"
 		Modifier.Description:
 			'''
-			{$ModifierNames.DEFENSE_BOOST}. 攻撃できない。
-			毎ターン{$NPCName.WallofFlesh}の与ダメージが1増加する。
+			{$ModifierNames.DEFENSE_BOOST}. 攻撃できない。毎ターン{$NPCName.WallofFlesh}の与ダメージが1増加する。
 			'''
 	}
 
@@ -1791,9 +1674,7 @@ Cards: {
 		Attack.Name: 吸血
 		Modifier.Description:
 			'''
-			ボスのしもべ: ウォールオブフレ
-			ッシュの1ターンごとの回復量が1
-			増加する。
+			ボスのしもべ：ウォールオブフレッシュの1ターンごとの回復量が1増加する。
 			'''
 	}
 
@@ -1802,8 +1683,7 @@ Cards: {
 		Attack.Name: ミミズの世界
 		Modifier.Description:
 			'''
-			{$ModifierNames.SPIKED}. {$ModifierNames.LIFESTEAL}. 
-			HPが半分になると変身する。
+			{$ModifierNames.SPIKED}. {$ModifierNames.LIFESTEAL}. HPが半分になると変身する。
 			'''
 	}
 
@@ -1812,8 +1692,7 @@ Cards: {
 		Attack.Name: ミミズの世界
 		Modifier.Description:
 			'''
-			{$ModifierNames.MORBID}: このカードの死亡時、他の
-			味方は{$ModifierNames.SPIKED}を得る。
+			{$ModifierNames.MORBID}：このカードの死亡時、他の味方は{$ModifierNames.SPIKED}を得る。
 			{$ModifierNames.SPIKED}.
 			'''
 	}
@@ -1823,8 +1702,7 @@ Cards: {
 		Attack.Name: ミミズの世界
 		Modifier.Description:
 			'''
-			{$ModifierNames.MORBID}: このカードの死亡時、他の
-			味方は{$ModifierNames.LIFESTEAL}を得る。
+			{$ModifierNames.MORBID}：このカードの死亡時、他の味方は{$ModifierNames.LIFESTEAL}を得る。
 			{$ModifierNames.LIFESTEAL}.
 			'''
 	}
@@ -1834,8 +1712,7 @@ Cards: {
 		Attack.Name: 魂喰らい
 		Modifier.Description:
 			'''
-			{$ModifierNames.MORBID}: このカードの死亡時、他の
-			味方は{$ModifierNames.DEFENSE_BOOST}を得る。
+			{$ModifierNames.MORBID}：このカードの死亡時、他の味方は{$ModifierNames.DEFENSE_BOOST}を得る。
 			'''
 	}
 
@@ -1844,8 +1721,7 @@ Cards: {
 		Attack.Name: ピクピク動く
 		Modifier.Description:
 			'''
-			{$ModifierNames.MORBID}: このカードの死亡時、他の
-			味方の与ダメージが1増加する。
+			{$ModifierNames.MORBID}：このカードの死亡時、他の味方の与ダメージが1増加する。
 			'''
 	}
 
@@ -1855,9 +1731,7 @@ Cards: {
 		Attack.Name: ミミズの願い
 		Modifier.Description:
 			'''
-			{$ModifierNames.MORBID}: このカードの死亡時、プレ
-			イヤーは1MPを得る。さらに、カード
-			を1枚引く。
+			{$ModifierNames.MORBID}：このカードの死亡時、プレイヤーは1MPを得る。さらに、カードを1枚引く。
 			'''
 	}
 
@@ -1866,7 +1740,7 @@ Cards: {
 		Attack.Name: ウサキック
 
 		Skill: {
-			Name: スキル: 森の願い
+			Name: スキル :森の願い
 			Description: MPを1回復する。
 		}
 	}
@@ -1878,9 +1752,7 @@ Cards: {
 			Name: ウサギ爆弾
 			Description:
 				'''
-				3ダメージを与える。ただし、味方
-				のCritters1枚につき1ダメージ
-				減少する。
+				3ダメージを与える。ただし、味方のCritters1枚につき1ダメージ減少する。
 				'''
 		}
 	}
@@ -1890,11 +1762,10 @@ Cards: {
 		Attack.Name: 鼻でつつく
 
 		Skill: {
-			Name: スキル: 海の願い
+			Name: スキル :海の願い
 			Description:
 				'''
-				1ターンの間、味方1体のマナコス
-				トを1減少させる。
+				1ターンの間、味方1体のマナコストを1減少させる。
 				'''
 		}
 	}
@@ -1904,11 +1775,10 @@ Cards: {
 		Attack.Name: どんぐりトス
 
 		Skill: {
-			Name: スキル: 森の援護
+			Name: スキル :森の援護
 			Description:
 				'''
-				1ターンの間、味方1体の次の与
-				ダメージが1増加する。
+				1ターンの間、味方1体の次の与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1918,7 +1788,7 @@ Cards: {
 		Attack.Name: 足ひれ打ち
 
 		Skill: {
-			Name: スキル: 池の癒し
+			Name: スキル :池の癒し
 			Description: 味方1体のHPを1回復する。
 		}
 	}
@@ -1928,8 +1798,7 @@ Cards: {
 		Attack.Name: 急降下
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -1938,8 +1807,7 @@ Cards: {
 		Attack.Name: ジャングル急降下
 		Modifier.Description:
 			'''
-			{$ModifierNames.EVASIVE}: 防御列の敵を攻撃
-			できる
+			{$ModifierNames.EVASIVE}：防御列の敵を攻撃できる
 			'''
 	}
 
@@ -1948,10 +1816,7 @@ Cards: {
 		Attack.Name: ジャイアント急降下
 		Modifier.Description:
 			'''
-			全てのコウモリから進化可能。
-			味方のコウモリは与ダメージが
-			1増加し、マナコストが1減少する。
-			{$ModifierNames.EVASIVE}.
+			全てのコウモリから進化可能。味方のコウモリは与ダメージが1増加し、マナコストが1減少する。{$ModifierNames.EVASIVE}.
 			'''
 	}
 
@@ -1967,8 +1832,7 @@ Cards: {
 			Name: 強撃ツルハシ
 			Description:
 				'''
-				このカードの装備品1つにつき、
-				マナコストが1少なくなる。
+				このカードの装備品1つにつき、マナコストが1少なくなる。
 				'''
 		}
 	}
@@ -1980,8 +1844,7 @@ Cards: {
 			Name: 氷の斧
 			Description:
 				'''
-				このカードの装備品1つにつき、
-				与ダメージが1増加する。
+				このカードの装備品1つにつき、与ダメージが1増加する。
 				'''
 		}
 	}
@@ -1990,8 +1853,7 @@ Cards: {
 		Name: "{$NPCName.AngryBones}"
 		Modifier.Description:
 			'''
-			アイテムを装備する際のマナコ
-			ストが1減少する。
+			アイテムを装備する際のマナコストが1減少する。
 			'''
 		Attack.Name: 呪われた斧
 	}
@@ -2000,16 +1862,14 @@ Cards: {
 		Name: アーマードスケルトン
 		Modifier.Description:
 			'''
-			アイテムを装備する際のマナコ
-			ストが1減少する。
+			アイテムを装備する際のマナコストが1減少する。
 			'''
 
 		Attack: {
 			Name: 強振
 			Description:
 				'''
-				装備されたアイテム1つにつき、
-				マナコストが1減少する。
+				装備されたアイテム1つにつき、マナコストが1減少する。
 				'''
 		}
 	}
@@ -2021,8 +1881,7 @@ Cards: {
 			Name: 腐食
 			Description:
 				'''
-				対象の敵の最新の装備を破壊
-				する。
+				対象の敵の最新の装備を破壊する。
 				'''
 		}
 	}
@@ -2034,8 +1893,7 @@ Cards: {
 			Name: 呪詛
 			Description:
 				'''
-				次のターンの間、対象の敵のマ
-				ナコストを2増加させる。
+				次のターンの間、対象の敵のマナコストを2増加させる。
 				'''
 		}
 	}
@@ -2047,8 +1905,7 @@ Cards: {
 			Name: 呪い
 			Description:
 				'''
-				次のターンの間、対象の敵はス
-				キルを使用できない。
+				次のターンの間、対象の敵はスキルを使用できない。
 				'''
 		}
 
@@ -2060,9 +1917,7 @@ Cards: {
 		Attack.Name: 霊魂の火
 		Modifier.Description:
 			'''
-			サンドストーム: 味方が敵を攻撃
-			するとき、敵の前が空いているな
-			らその列に移動させる。
+			サンドストーム：味方が敵を攻撃するとき、敵の前が空いているならその列に移動させる。
 			'''
 	}
 
@@ -2073,9 +1928,7 @@ Cards: {
 			Name: 装備
 			Description:
 				'''
-				装備者が敵を攻撃するとき、敵と
-				同じ列が空いているならその列
-				に移動する。
+				装備者が敵を攻撃するとき、敵と同じ列が空いているならその列に移動する。
 				'''
 		}
 	}
@@ -2085,9 +1938,7 @@ Cards: {
 		Attack.Name: 拘束
 		Modifier.Description:
 			'''
-			サンドストーム: 味方が敵を攻撃
-			するとき、敵と同じ列にいるならば
-			マナコストを1減少させる。
+			サンドストーム：味方が敵を攻撃するとき、敵と同じ列にいるならばマナコストを1減少させる。
 			'''
 	}
 
@@ -2098,8 +1949,7 @@ Cards: {
 			Name: 虫の噛みつき
 			Description:
 				'''
-				敵と同じ列から攻撃するとき、与
-				ダメージが1増加する。
+				敵と同じ列から攻撃するとき、与ダメージが1増加する。
 				'''
 		}
 
@@ -2113,8 +1963,7 @@ Cards: {
 			Name: サンドスワーム
 			Description:
 				'''
-				敵と同じ列から攻撃するとき、与
-				ダメージが1増加する。
+				敵と同じ列から攻撃するとき、与ダメージが1増加する。
 				'''
 		}
 
@@ -2128,8 +1977,7 @@ Cards: {
 			Name: 死者の眼差し
 			Description:
 				'''
-				敵と同じ列から攻撃するとき、与
-				ダメージが1増加する。
+				敵と同じ列から攻撃するとき、与ダメージが1増加する。
 				'''
 		}
 	}
@@ -2139,12 +1987,10 @@ Cards: {
 		Attack.Name: 毒針
 
 		Skill: {
-			Name: スキル: 砂の歌
+			Name: スキル :砂の歌
 			Description:
 				'''
-				1ターンの間、対象の味方1体が、
-				敵と同じ列から攻撃するときの与
-				ダメージが1増加する。
+				1ターンの間、対象の味方1体が、敵と同じ列から攻撃するときの与ダメージが1増加する。
 				'''
 		}
 	}
@@ -2154,9 +2000,7 @@ Cards: {
 		Attack.Name: トゲ噛みつき
 		Modifier.Description:
 			'''
-			サンドストーム: 敵と同じ列から
-			攻撃するとき、行動済み状態に
-			ならない。
+			サンドストーム：敵と同じ列から攻撃するとき、行動済み状態にならない。
 			'''
 	}
 
@@ -2165,10 +2009,7 @@ Cards: {
 		Attack.Name: 石の視線
 		Modifier.Description:
 			'''
-			このカードが場に出たとき、同じ
-			列の敵に2ダメージを与える。さ
-			らに、このモンスターのHPを2回
-			復する。
+			このカードが場に出たとき、同じ列の敵に2ダメージを与える。さらに、このモンスターのHPを2回復する。
 			'''
 	}
 
@@ -2177,8 +2018,7 @@ Cards: {
 		Attack.Name: 漁る
 		Modifier.Description:
 			'''
-			敵と同じ列から攻撃するとき、
-			{$ModifierNames.EVASIVE}を得る。
+			敵と同じ列から攻撃するとき、{$ModifierNames.EVASIVE}を得る。
 			'''
 	}
 
@@ -2186,9 +2026,7 @@ Cards: {
 		Name: "{$NPCName.DyeTrader}のダンス"
 		Modifier.Description:
 			'''
-			味方1体を任意の列に移動する。
-			(その列が埋まっている場合は入
-			れ替える)
+			味方1体を任意の列に移動する。(その列が埋まっている場合は入れ替える)
 			'''
 	}
 
@@ -2241,7 +2079,7 @@ Cards: {
 		POISON: 毒
 		RELENTLESS: 非情
 		EVASIVE: 防壁突破
-		ZEALOUS: 狂気
+		ZEALOUS: 活力
 		SPIKED: トゲトゲ
 		LIFESTEAL: 吸収
 		MORBID: 伝染
@@ -2534,8 +2372,7 @@ Cards: {
 		Slide29:
 			'''
 			作業台で5個の木材をから作成できるTerraTCGデッキボックスは、デッキの編集に
-			使用できます。ブースターパックから手に入れたカードを試しながら、より難しい対
-			戦相手に挑戦しましょう！
+			使用できます。ブースターパックから手に入れたカードを試しながら、より強い相手に挑戦しましょう！
 			'''
 		Slide30:
 			'''
