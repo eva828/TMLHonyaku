@@ -487,7 +487,7 @@ Cards: {
 		Attack.Name: よちよち
 
 		Skill: {
-			Name: スキル :雪の旋律
+			Name: スキル：雪の旋律
 			Description:
 				'''
 				味方1体に{$ModifierNames.FREEZING}を与える (このカードに対する次の敵のマナコスト+1)
@@ -600,7 +600,7 @@ Cards: {
 		Attack.Name: 輝く殻
 
 		Skill: {
-			Name: スキル :胞子の拡散
+			Name: スキル：胞子の拡散
 			Description:
 				'''
 				1ターンの間、味方は{$ModifierNames.LIFESTEAL}を得る。 (攻撃後HPを1回復)
@@ -743,7 +743,7 @@ Cards: {
 		Attack.Name: 鮮血キック
 
 		Skill: {
-			Name: スキル :出血援護
+			Name: スキル：出血援護
 			Description:
 				'''
 				1ターンの間、味方1体の与ダメージが1増加する。さらに{$ModifierNames.BLEEDING}を与える。 (被ダメージ+1)
@@ -790,7 +790,7 @@ Cards: {
 		Attack.Name: カタい甲羅
 
 		Skill: {
-			Name: スキル :守護者
+			Name: スキル：守護者
 			Description:
 				'''
 				次のターン、相手は攻撃しなければならない。
@@ -849,7 +849,7 @@ Cards: {
 		Attack.Name: 蜂の針
 
 		Skill: {
-			Name: スキル :毒の蜜
+			Name: スキル：毒の蜜
 			Description:
 				'''
 				味方1体は攻撃時に{$ModifierNames.POISON}を与える。(毎ターンHPが1減少)
@@ -1293,7 +1293,7 @@ Cards: {
 		Attack.Name: 工具
 
 		Skill: {
-			Name: スキル :スリ
+			Name: スキル：スリ
 			Description:
 				'''
 				1ターンの間、アイテムを使用した時、カードを1枚引く。
@@ -1740,7 +1740,7 @@ Cards: {
 		Attack.Name: ウサキック
 
 		Skill: {
-			Name: スキル :森の願い
+			Name: スキル：森の願い
 			Description: MPを1回復する。
 		}
 	}
@@ -1762,7 +1762,7 @@ Cards: {
 		Attack.Name: 鼻でつつく
 
 		Skill: {
-			Name: スキル :海の願い
+			Name: スキル：海の願い
 			Description:
 				'''
 				1ターンの間、味方1体のマナコストを1減少させる。
@@ -1775,7 +1775,7 @@ Cards: {
 		Attack.Name: どんぐりトス
 
 		Skill: {
-			Name: スキル :森の援護
+			Name: スキル：森の援護
 			Description:
 				'''
 				1ターンの間、味方1体の次の与ダメージが1増加する。
@@ -1788,7 +1788,7 @@ Cards: {
 		Attack.Name: 足ひれ打ち
 
 		Skill: {
-			Name: スキル :池の癒し
+			Name: スキル：池の癒し
 			Description: 味方1体のHPを1回復する。
 		}
 	}
@@ -1987,7 +1987,7 @@ Cards: {
 		Attack.Name: 毒針
 
 		Skill: {
-			Name: スキル :砂の歌
+			Name: スキル：砂の歌
 			Description:
 				'''
 				1ターンの間、対象の味方1体が、敵と同じ列から攻撃するときの与ダメージが1増加する。
