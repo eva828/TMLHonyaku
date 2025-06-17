@@ -3,8 +3,6 @@ import os
 import sys
 
 print("Directory Checker")
-# Found hjson files: 249
-
 
 csv_file = "TranslatedMods.csv"
 f = open(csv_file, newline="", encoding="utf-8")
@@ -14,7 +12,7 @@ header = next(reader)
 lines = list(enumerate(reader, start=2))
 
 print(f"Found entries: {len(lines)}")
-print("Checking directories:")
+print("\nChecking directories:")
 
 failureMods = []
 for line_num, line in lines:
