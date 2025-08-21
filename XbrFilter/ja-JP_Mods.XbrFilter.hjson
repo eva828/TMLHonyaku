@@ -1,0 +1,71 @@
+Configs: {
+	XbrFilterConfig: {
+		DisplayName: フィルター設定
+
+		EnableXbrFilter: {
+			Label: フィルターを有効化
+			Tooltip: ""
+		}
+
+		LuminanceWeight: {
+			Label: 輝度ウェイト
+			Tooltip: オリジナル画像の彩度が低い場合、この値を増やしてください
+		}
+
+		EqualColorTolerance: {
+			Label: 色の均等許容度
+			Tooltip: オリジナル画像にノイズが多い場合、この値を増やしてください
+		}
+
+		DominantDirectionThreshold: {
+			Label: 主方向閾値
+			Tooltip: 値が大きいほどエッジがシャープになります
+		}
+
+		SteepDirectionThreshold: {
+			Label: 急峻方向閾値
+			Tooltip: 値が大きいほど線のブレンドが少なくなります
+		}
+
+		EnableAsyncProcess: {
+			Label: テクスチャ非同期処理
+			Tooltip: フレームレートを大幅に向上させることができます
+		}
+
+		Enable4xScale: {
+			Label: 4倍スケールを有効化
+			Tooltip: MODが競合する場合、最初にこれを無効化してみてください
+		}
+
+		ImageBrightness: {
+			Label: 画像の明るさ
+			Tooltip: ""
+		}
+
+		ImageSaturation: {
+			Label: 画像の彩度
+			Tooltip: ""
+		}
+
+		ImageContrast: {
+			Label: 画像のコントラスト
+			Tooltip: ""
+		}
+
+		ImageTemperatureShift: {
+			Label: 画像の色温度シフト
+			Tooltip: ""
+		}
+
+		EnableMod: {
+			Label: MODを有効化
+			Tooltip: ""
+		}
+
+		LowResolutionTexture: {
+			Label: 低解像度テクスチャ
+			Tooltip: ""
+		}
+	}
+}
+

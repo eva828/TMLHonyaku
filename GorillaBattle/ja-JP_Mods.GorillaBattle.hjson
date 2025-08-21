@@ -1,0 +1,29 @@
+NPCs: {
+	GorillaBoss: {
+		DisplayName: ゴリラ
+	}
+}
+
+Projectiles: {
+	ShockwaveProjectile: {
+		DisplayName: 衝撃波
+
+		Deaths: {
+			0: "{0}はゴリラの力で粉々になった。"
+			1: 絶対的な力のもと、{0}は完全に叩き潰された。
+			2: "{0}は『衝撃波』に耐えられなかった。"
+		}
+	}
+}
+
+Items: {
+	GoldenBanana: {
+		DisplayName: 黄金のバナナ
+		Tooltip:
+			'''
+			ゴリラを召喚する
+			「ゴリラ達の究極の夢」
+			'''
+	}
+}
+

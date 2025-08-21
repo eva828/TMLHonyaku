@@ -1,0 +1,38 @@
+UI: {
+	Next: 次へ
+	Unknown: 不明
+	WorldSizeVanillaDescription: サイズに関する変更はありません。
+	WorldSizeMicro: ミクロ
+	WorldSizeMicroDescription: スモールワールドの半分サイズで、砂漠ワールドに適しています。
+	WorldSizeTiny: タイニー
+	WorldSizeTinyDescription: よりスモールなワールド。砂漠ワールドに適しています。
+	WorldTypeNormal: ノーマル
+	WorldTypeNormalDescription: 通常のワールド生成で、バニラと同様です。
+	WorldTypeSingleBiome: シングルバイオーム
+	WorldTypeSingleBiomeDescription: 単一のバイオーム生成で、内容は下の選択設定に基づきます。
+	WorldEvilPurified: 浄化
+	WorldEvilPurifiedDescription: シングルバイオームはあらゆる汚染環境を持たずに生成されます。
+	WorldEvilHallowed: 聖域
+	WorldEvilHallowedDescription: シングルバイオームは輝き、虹がかかった状態で生成されます。
+	WorldEvilCorrupt: 不浄
+	WorldEvilCorruptDescription: シングルバイオームは病気と悪意に覆われて生成されます...
+	WorldEvilCrimson: 真紅
+	WorldEvilCrimsonDescription: シングルバイオームは肉と血に覆われて生成されます...
+	WorldBiomeForest: "森林 "
+	WorldBiomeForestDescription: 森林世界で、キャンプに適しているでしょう。
+	WorldBiomeJungle: ジャングル
+	WorldBiomeJungleDescription: ジャングル世界で、湿った環境に包まれるでしょう。
+	WorldBiomeDesert: 砂漠
+	WorldBiomeDesertDescription: 砂漠世界で、見渡す限り広がる荒れ地を目撃しよう。
+	WorldBiomeSnow: 雪原
+	WorldBiomeSnowDescription: 雪原世界で、氷河期を生き延びよう。
+	WorldBiomeMushroom: キノコ群生
+	WorldBiomeMushroomDescription: キノコ生い茂る世界で、一帯に胞子が降り注がれています...
+}
+
+WorldGenMessage: {
+	AdditionalDesertification: より一層の砂漠化中
+	HallowInfection: 世界を聖域で包む...
+	MushroomInfection: 世界を菌糸に覆いこむ
+}
+

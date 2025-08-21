@@ -1,0 +1,11 @@
+Configs: {
+	SurfaceSoulsConfig: {
+		DisplayName: Surface Souls 設定
+
+		SurfaceDropChance: {
+			Label: 地表でのドロップ率
+			Tooltip: ""
+		}
+	}
+}
+

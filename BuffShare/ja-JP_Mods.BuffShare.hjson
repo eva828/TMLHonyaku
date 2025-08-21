@@ -1,0 +1,111 @@
+Keybinds: {
+	"Share Buffs": {
+		DisplayName: バフ共有
+	}
+}
+
+Configs: {
+	BuffShareConfig: {
+		DisplayName: Buff Share 設定
+
+		ShareIronSkin: {
+			Label: 共有（鉄の肌）
+			Tooltip: ""
+		}
+
+		ShareRegeneration: {
+			Label: 共有（ライフ自然回復増進）
+			Tooltip: ""
+		}
+
+		ShareEndurance: {
+			Label: 共有（忍耐）
+			Tooltip: ""
+		}
+
+		ShareSwiftness: {
+			Label: 共有（俊足）
+			Tooltip: ""
+		}
+
+		ShareInferno: {
+			Label: 共有（獄炎）
+			Tooltip: ""
+		}
+
+		ShareLifeForce: {
+			Label: 共有（生命強化）
+			Tooltip: ""
+		}
+
+		ShareRage: {
+			Label: 共有（怒り）
+			Tooltip: ""
+		}
+
+		Headers: {
+			BuffShare: バフ共有
+			GeneralCombat: 一般戦闘
+			Melee: 近接
+			Ranged: 遠距離
+			Mage: 魔法
+			Summoner: 召喚
+		}
+
+		ShareSummoning: {
+			Label: 共有（召喚）
+			Tooltip: ""
+		}
+
+		ShareThorns: {
+			Label: 共有（イバラ）
+			Tooltip: ""
+		}
+
+		ShareTitan: {
+			Label: 共有（タイタン）
+			Tooltip: ""
+		}
+
+		ShareAmmoReservation: {
+			Label: 共有（弾薬節約）
+			Tooltip: ""
+		}
+
+		ShareArchery: {
+			Label: 共有（弓使い）
+			Tooltip: ""
+		}
+
+		ShareAle: {
+			Label: 共有（エール）
+			Tooltip: ""
+		}
+
+		ShareSake: {
+			Label: 共有（日本酒）
+			Tooltip: ""
+		}
+
+		ShareFlaskOfPoison: {
+			Label: 共有（毒のフラスコ）
+			Tooltip: ""
+		}
+
+		ShareFlaskOfFire: {
+			Label: 共有（火のフラスコ）
+			Tooltip: ""
+		}
+
+		ShareManaRegeneration: {
+			Label: 共有（マナ自然回復増進）
+			Tooltip: ""
+		}
+
+		ShareMagicPower: {
+			Label: 共有（魔法強化）
+			Tooltip: ""
+		}
+	}
+}
+

@@ -1,0 +1,34 @@
+Configs: {
+	Config: {
+		DisplayName: 設定
+		Headers: {
+			General: 一般設定
+		}
+
+		PrefixCount: {
+			Label: モディファイア付与数
+			Tooltip: 現在はシステムの制約により、最大2回まで。
+		}
+
+		AllowSamePrefix: {
+			Label: 同モディファイアの許可
+			Tooltip: 武器に同じモディファイアが付く可能性を有効にします(例：伝説の伝説の銅の短剣)
+		}
+
+		PrefixChance: {
+			Label: 追加モディファイア確率(%)
+			Tooltip: 鍛え直した際アイテムに追加でモディファイアが付く確率を調整します
+		}
+
+		TinkerCostFromValue: {
+			Label: 改良コスト（価値基準）
+			Tooltip: アイテムの価値に応じて改良にかかるコストを設定します（通常の鍛え直しは約30%程度）
+		}
+
+		ShowPrefixDebug: {
+			Label: 鍛え直しデバッグ情報の表示
+			Tooltip: ""
+		}
+	}
+}
+

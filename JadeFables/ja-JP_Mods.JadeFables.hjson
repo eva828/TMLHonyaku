@@ -1,0 +1,720 @@
+Tiles: {
+	JadePylonTile: {
+		MapEntry: Jade Pylon Tile
+	}
+
+	WarriorStatue: {
+		MapEntry: Warrior Statue
+	}
+
+	SpringChest: {
+		MapEntry: Spring Chest
+	}
+
+	OvergrownJadeSandTile: {
+		MapEntry: Overgrown Jade Sand Tile
+	}
+
+	JasmineFlowerTile: {
+		MapEntry: Jasmine Flower Tile
+	}
+
+	JadeTorchTile: {
+		MapEntry: Jade Torch Tile
+	}
+
+	JadeSeaweedTile: {
+		MapEntry: Jade Seaweed Tile
+	}
+
+	JadeSandstoneTile: {
+		MapEntry: Jade Sandstone Tile
+	}
+
+	JadeSandTile: {
+		MapEntry: Jade Sand Tile
+	}
+
+	JadeSandPile8: {
+		MapEntry: Jade Sand Pile8
+	}
+
+	JadeSandPile7: {
+		MapEntry: Jade Sand Pile7
+	}
+
+	JadeSandPile6: {
+		MapEntry: Jade Sand Pile6
+	}
+
+	JadeSandPile5: {
+		MapEntry: Jade Sand Pile5
+	}
+
+	JadeSandPile4: {
+		MapEntry: Jade Sand Pile4
+	}
+
+	JadeSandPile3: {
+		MapEntry: Jade Sand Pile3
+	}
+
+	JadeSandPile2: {
+		MapEntry: Jade Sand Pile2
+	}
+
+	JadeSandPile1: {
+		MapEntry: Jade Sand Pile1
+	}
+
+	JadeSandCastle2: {
+		MapEntry: Jade Sand Castle2
+	}
+
+	JadeSandCastle1: {
+		MapEntry: Jade Sand Castle1
+	}
+
+	JadeOre: {
+		MapEntry: Jade Ore
+	}
+
+	JadeLanternFurniture: {
+		MapEntry: Jade Lantern Furniture
+	}
+
+	JadeLantern: {
+		MapEntry: Jade Lantern
+	}
+
+	JadeFountain: {
+		MapEntry: Jade Fountain
+	}
+
+	HardenedJadeSandTile: {
+		MapEntry: Hardened Jade Sand Tile
+	}
+
+	SpringCrateTile: {
+		MapEntry: Spring Crate Tile
+	}
+
+	DragonCrateTile: {
+		MapEntry: Dragon CrateSpringCrateTile.MapEntry: Spring CrateHardenedJadeSandTile.MapEntry: Hardened Spring SandJadeFountain.MapEntry: Spring FountainJadeLantern.MapEntry: Spring LanternJadeLanternFurniture.MapEntry: Spring LanternJadeOre.MapEntry: Jade OreJadeSandCastle1.MapEntry: Jade SandcastleJadeSandCastle2.MapEntry: Jade SandcastleJadeSandPile1.MapEntry: Jade SandcastleJadeSandPile2.MapEntry: Jade SandcastleJadeSandPile3.MapEntry: Jade SandcastleJadeSandPile4.MapEntry: Jade SandcastleJadeSandPile5.MapEntry: Jade SandcastleJadeSandPile6.MapEntry: Jade SandcastleJadeSandPile7.MapEntry: Jade SandcastleJadeSandPile8.MapEntry: Jade SandcastleJadeSandTile.MapEntry: Spring SandJadeSandstoneTile.MapEntry: Spring SandstoneJadeSeaweedTile.MapEntry: Spring SeaweedJadeTorchTile.MapEntry: TorchJasmineFlowerTile.MapEntry: Jasmine FlowerOvergrownJadeSandTile.MapEntry: Overgrown Spring SandSpringChest.MapEntry: Spring ChestWarriorStatue.MapEntry: Warrior StatueSpringCrateTile.MapEntry: Spring Crate TileHardenedJadeSandTile.MapEntry: Hardened Jade Sand TileJadeFountain.MapEntry: Jade FountainJadeLantern.MapEntry: Jade LanternJadeLanternFurniture.MapEntry: Jade Lantern FurnitureJadeOre.MapEntry: Jade OreJadeSandCastle1.MapEntry: Jade Sand Castle1JadeSandCastle2.MapEntry: Jade Sand Castle2JadeSandPile1.MapEntry: Jade Sand Pile1JadeSandPile2.MapEntry: Jade Sand Pile2JadeSandPile3.MapEntry: Jade Sand Pile3JadeSandPile4.MapEntry: Jade Sand Pile4JadeSandPile5.MapEntry: Jade Sand Pile5JadeSandPile6.MapEntry: Jade Sand Pile6JadeSandPile7.MapEntry: Jade Sand Pile7JadeSandPile8.MapEntry: Jade Sand Pile8JadeSandTile.MapEntry: Jade Sand TileJadeSandstoneTile.MapEntry: Jade Sandstone TileJadeSeaweedTile.MapEntry: Jade Seaweed TileJadeTorchTile.MapEntry: Jade Torch TileJasmineFlowerTile.MapEntry: Jasmine Flower TileOvergrownJadeSandTile.MapEntry: Overgrown Jade Sand TileSpringChest.MapEntry: Spring ChestWarriorStatue.MapEntry: Warrior StatueSpringCrateTile.MapEntry: Spring Crate TileHardenedJadeSandTile.MapEntry: Hardened Jade Sand TileJadeFountain.MapEntry: Jade FountainJadeLantern.MapEntry: Jade LanternJadeLanternFurniture.MapEntry: Jade Lantern FurnitureJadeOre.MapEntry: Jade OreJadeSandCastle1.MapEntry: Jade Sand Castle1JadeSandCastle2.MapEntry: Jade Sand Castle2JadeSandPile1.MapEntry: Jade Sand Pile1JadeSandPile2.MapEntry: Jade Sand Pile2JadeSandPile3.MapEntry: Jade Sand Pile3JadeSandPile4.MapEntry: Jade Sand Pile4JadeSandPile5.MapEntry: Jade Sand Pile5JadeSandPile6.MapEntry: Jade Sand Pile6JadeSandPile7.MapEntry: Jade Sand Pile7JadeSandPile8.MapEntry: Jade Sand Pile8JadeSandTile.MapEntry: Jade Sand TileJadeSandstoneTile.MapEntry: Jade Sandstone TileJadeSeaweedTile.MapEntry: Jade Seaweed TileJadeTorchTile.MapEntry: Jade Torch TileJasmineFlowerTile.MapEntry: Jasmine Flower TileOvergrownJadeSandTile.MapEntry: Overgrown Jade Sand TileSpringChest.MapEntry: Spring ChestWarriorStatue.MapEntry: Warrior Statue
+	}
+}
+
+Projectiles: {
+	EelFistProj: {
+		DisplayName: Eel Fist Proj
+	}
+
+	NewJadeStaffPulse: {
+		DisplayName: New Jade Staff Pulse
+	}
+
+	WarriorStatueProj: {
+		DisplayName: Warrior Statue Proj
+	}
+
+	JadeWaterfallProj: {
+		DisplayName: Jade Waterfall Proj
+	}
+
+	JadeSeaweedProj: {
+		DisplayName: Jade Seaweed Proj
+	}
+
+	JadeSandProjectile: {
+		DisplayName: Jade Sand Projectile
+	}
+
+	PufferfishProj: {
+		DisplayName: Pufferfish Proj
+	}
+
+	JadeMantisSpear: {
+		DisplayName: Jade Mantis Spear
+	}
+
+	GiantSnailDamager: {
+		DisplayName: Giant Snail Damager
+	}
+
+	Bullfrog_Tongue: {
+		DisplayName: Bullfrog_ Tongue
+	}
+
+	AirBubble: {
+		DisplayName: Air Bubble
+	}
+
+	HwachaProj: {
+		DisplayName: Hwacha Proj
+	}
+
+	HwachaArrow: {
+		DisplayName: Hwacha Arrow
+	}
+
+	RingerProj: {
+		DisplayName: Ringer Proj
+	}
+
+	GongProj: {
+		DisplayName: Gong Proj
+	}
+
+	FireworkPackProj: {
+		DisplayName: Firework Pack Proj
+	}
+
+	FireworkPackExplosion: {
+		DisplayName: Firework Pack Explosion
+	}
+
+	Ying: {
+		DisplayName: Ying
+	}
+
+	Yang: {
+		DisplayName: Yang
+	}
+
+	MiniYing: {
+		DisplayName: Mini Ying
+	}
+
+	MiniYang: {
+		DisplayName: Mini Yang
+	}
+
+	ChopstickProj: {
+		DisplayName: Chopstick Proj
+	}
+
+	SpineProj: {
+		DisplayName: Spine Proj
+	}
+
+	JasmineTeaFire: {
+		DisplayName: Jasmine Tea Fire
+	}
+
+	JadeStaffProj: {
+		DisplayName: Jade Staff Proj
+	}
+
+	JadeStaffPortal: {
+		DisplayName: Jade Staff Portal
+	}
+
+	JadeStaffFirePulse: {
+		DisplayName: Jade Staff Fire Pulse
+	}
+
+	JadeStaffDragon: {
+		DisplayName: Jade Staff Dragon
+	}
+
+	JadeKunaiProjectile: {
+		DisplayName: Jade Kunai Projectile
+	}
+
+	JadeKunaiHitEffect: {
+		DisplayName: Jade Kunai Hit Effect
+	}
+
+	JadeHookProjectile: {
+		DisplayName: Jade Hook Projectile
+	}
+
+	JadeHarpoonShockwave: {
+		DisplayName: Jade Harpoon Shockwave
+	}
+
+	JadeHarpoonJumpRing: {
+		DisplayName: Jade Harpoon Jump Ring
+	}
+
+	JadeHarpoonHook: {
+		DisplayName: Jade Harpoon Hook
+	}
+
+	JadeBowProj: {
+		DisplayName: Jade Bow Proj
+	}
+
+	JadeBowHitbox: {
+		DisplayName: Jade Bow Hitbox
+	}
+
+	FestivalLanternProj: {
+		DisplayName: Festival Lantern Proj
+	}
+
+	KoiPopperBubble: {
+		DisplayName: Koi Popper Bubble
+	}
+
+	KoiPop: {
+		DisplayName: Koi Pop
+	}
+
+	ArowanaProj: {
+		DisplayName: Arowana Proj
+	}
+
+	BullfrogTongueProj: {
+		DisplayName: Bullfrog Tongue Proj
+	}
+
+	BullfrogLegRingAlt: {
+		DisplayName: Bullfrog Leg Ring Alt
+	}
+
+	BullfrogLegRing: {
+		DisplayName: RingBullfrogLegRingAlt.DisplayName: RingBullfrogTongueProj.DisplayName: Bullfrog TongueArowanaProj.DisplayName: ArowanaKoiPop.DisplayName: BubbleKoiPopperBubble.DisplayName: BubbleFestivalLanternProj.DisplayName: LanternJadeBowHitbox.DisplayName: Jade BowJadeBowProj.DisplayName: Jade BowJadeHarpoonHook.DisplayName: Jade HarpoonJadeHarpoonJumpRing.DisplayName: RingJadeHarpoonShockwave.DisplayName: ShockwaveJadeHookProjectile.DisplayName: Jade HookJadeStaffDragon.DisplayName: Jade StaffJadeStaffFirePulse.DisplayName: Fire PulseJadeStaffPortal.DisplayName: Fire PortalJadeStaffProj.DisplayName: Jade StaffJasmineTeaFire.DisplayName: Jasmine FireSpineProj.DisplayName: SpineFireworkPackExplosion.DisplayName: FireworksFireworkPackProj.DisplayName: FireworkGongProj.DisplayName: GongRingerProj.DisplayName: RingerHwachaArrow.DisplayName: HwachaHwachaProj.DisplayName: HwachaAirBubble.DisplayName: Air BubbleBullfrog_Tongue.DisplayName: BullfrogGiantSnailDamager.DisplayName: Giant SnailPufferfishProj.DisplayName: SpikeJadeSandProjectile.DisplayName: Example Sand BallJadeSeaweedProj.DisplayName: Spring SeaweedJadeWaterfallProj.DisplayName: Jade WaterfallJadeKunaiHitEffect.DisplayName: Jade Kunai Hit EffectJadeKunaiProjectile.DisplayName: Jade Kunai ProjectileChopstickProj.DisplayName: Chopstick ProjWarriorStatueProj.DisplayName: Warrior Statue ProjYang.DisplayName: YangYing.DisplayName: YingMiniYang.DisplayName: Mini YangMiniYing.DisplayName: Mini YingJadeMantisSpear.DisplayName: Jade Mantis SpearBullfrogLegRingAlt.DisplayName: Bullfrog Leg Ring AltBullfrogTongueProj.DisplayName: Bullfrog Tongue ProjArowanaProj.DisplayName: Arowana ProjKoiPop.DisplayName: Koi PopKoiPopperBubble.DisplayName: Koi Popper BubbleFestivalLanternProj.DisplayName: Festival Lantern ProjJadeBowHitbox.DisplayName: Jade Bow HitboxJadeBowProj.DisplayName: Jade Bow ProjJadeHarpoonHook.DisplayName: Jade Harpoon HookJadeHarpoonJumpRing.DisplayName: Jade Harpoon Jump RingJadeHarpoonShockwave.DisplayName: Jade Harpoon ShockwaveJadeHookProjectile.DisplayName: Jade Hook ProjectileJadeKunaiHitEffect.DisplayName: Jade Kunai Hit EffectJadeKunaiProjectile.DisplayName: Jade Kunai ProjectileJadeStaffDragon.DisplayName: Jade Staff DragonJadeStaffFirePulse.DisplayName: Jade Staff Fire PulseJadeStaffPortal.DisplayName: Jade Staff PortalJadeStaffProj.DisplayName: Jade Staff ProjJasmineTeaFire.DisplayName: Jasmine Tea FireSpineProj.DisplayName: Spine ProjChopstickProj.DisplayName: Chopstick ProjMiniYang.DisplayName: Mini YangMiniYing.DisplayName: Mini YingYang.DisplayName: YangYing.DisplayName: YingFireworkPackExplosion.DisplayName: Firework Pack ExplosionFireworkPackProj.DisplayName: Firework Pack ProjGongProj.DisplayName: Gong ProjRingerProj.DisplayName: Ringer ProjHwachaArrow.DisplayName: Hwacha ArrowHwachaProj.DisplayName: Hwacha ProjAirBubble.DisplayName: Air BubbleBullfrog_Tongue.DisplayName: Bullfrog_ TongueGiantSnailDamager.DisplayName: Giant Snail DamagerJadeMantisSpear.DisplayName: Jade Mantis SpearPufferfishProj.DisplayName: Pufferfish ProjJadeSandProjectile.DisplayName: Jade Sand ProjectileJadeSeaweedProj.DisplayName: Jade Seaweed ProjJadeWaterfallProj.DisplayName: Jade Waterfall ProjWarriorStatueProj.DisplayName: Warrior Statue ProjBullfrogLegRingAlt.DisplayName: Bullfrog Leg Ring AltBullfrogTongueProj.DisplayName: Bullfrog Tongue ProjArowanaProj.DisplayName: Arowana ProjKoiPop.DisplayName: Koi PopKoiPopperBubble.DisplayName: Koi Popper BubbleFestivalLanternProj.DisplayName: Festival Lantern ProjJadeBowHitbox.DisplayName: Jade Bow HitboxJadeBowProj.DisplayName: Jade Bow ProjJadeHarpoonHook.DisplayName: Jade Harpoon HookJadeHarpoonJumpRing.DisplayName: Jade Harpoon Jump RingJadeHarpoonShockwave.DisplayName: Jade Harpoon ShockwaveJadeHookProjectile.DisplayName: Jade Hook ProjectileJadeKunaiHitEffect.DisplayName: Jade Kunai Hit EffectJadeKunaiProjectile.DisplayName: Jade Kunai ProjectileJadeStaffDragon.DisplayName: Jade Staff DragonJadeStaffFirePulse.DisplayName: Jade Staff Fire PulseJadeStaffPortal.DisplayName: Jade Staff PortalJadeStaffProj.DisplayName: Jade Staff ProjJasmineTeaFire.DisplayName: Jasmine Tea FireSpineProj.DisplayName: Spine ProjChopstickProj.DisplayName: Chopstick ProjMiniYang.DisplayName: Mini YangMiniYing.DisplayName: Mini YingYang.DisplayName: YangYing.DisplayName: YingFireworkPackExplosion.DisplayName: Firework Pack ExplosionFireworkPackProj.DisplayName: Firework Pack ProjGongProj.DisplayName: Gong ProjRingerProj.DisplayName: Ringer ProjHwachaArrow.DisplayName: Hwacha ArrowHwachaProj.DisplayName: Hwacha ProjAirBubble.DisplayName: Air BubbleBullfrog_Tongue.DisplayName: Bullfrog_ TongueGiantSnailDamager.DisplayName: Giant Snail DamagerJadeMantisSpear.DisplayName: Jade Mantis SpearPufferfishProj.DisplayName: Pufferfish ProjJadeSandProjectile.DisplayName: Jade Sand ProjectileJadeSeaweedProj.DisplayName: Jade Seaweed ProjJadeWaterfallProj.DisplayName: Jade Waterfall ProjWarriorStatueProj.DisplayName: Warrior Statue Proj
+	}
+}
+
+NPCs: {
+	Eel: {
+		DisplayName: ウナギ
+	}
+
+	Pufferfish: {
+		DisplayName: フグ
+	}
+
+	MediumKoi: {
+		DisplayName: 中型コイ
+	}
+
+	GiantSnail: {
+		DisplayName: 巨大カタツムリ
+	}
+
+	FishingSpot: {
+		DisplayName: 釣り場
+	}
+
+	Lilypad: {
+		DisplayName: ""
+	}
+
+	JadeMantis: {
+		DisplayName: ヒスイカマキリ
+	}
+
+	Bullfrog: {
+		DisplayName: ウシガエル
+	}
+}
+
+Items: {
+	EelFists: {
+		DisplayName: ウナギの拳
+		Tooltip: ""
+	}
+
+	JadePylonItem: {
+		Tooltip:
+			'''
+			２人以上の住民が近くにいる別のパイロンへテレポート
+			１種につき１つだけ、適したバイオームに設置することができる
+			'''
+		DisplayName: ヒスイのパイロン
+	}
+
+	JadeMantisBannerItem: {
+		DisplayName: ヒスイカマキリのバナー
+		Tooltip: ""
+	}
+
+	DuelingSpirits: {
+		Tooltip: ""
+		DisplayName: 決闘の精霊
+	}
+
+	PufferfishBannerItem: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：フグ
+		DisplayName: フグのバナー
+	}
+
+	MediumKoiBannerItem: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：中型コイ
+		DisplayName: 中型コイのバナー
+	}
+
+	GiantSnailBannerItem: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：巨大カタツムリ
+		DisplayName: 巨大カタツムリのバナー
+	}
+
+	BullfrogBannerItem: {
+		Tooltip: 以下のモンスターに対してボーナスを得る：ウシガエル
+		DisplayName: ウシガエルのバナー
+	}
+
+	JadeTorch: {
+		Tooltip: ""
+		DisplayName: ヒスイのたいまつ
+	}
+
+	WarriorStatueItem: {
+		Tooltip: ""
+		DisplayName: 戦士の石像
+	}
+
+	SpringChestItem: {
+		Tooltip: ""
+		DisplayName: 泉の宝箱
+	}
+
+	JadeGrassSeeds: {
+		Tooltip: 設置可能
+		DisplayName: 泉草の種
+	}
+
+	JasmineFlower: {
+		Tooltip: 「形容しがたい香りを放つ」
+		DisplayName: ジャスミンの花
+	}
+
+	JadeWaterfallBucket: {
+		Tooltip:
+			'''
+			滝の水が少し入っている
+			注ぐことができる
+			'''
+		DisplayName: 滝入りバケツ
+	}
+
+	JadeSeaweedItem: {
+		Tooltip: ""
+		DisplayName: 泉の海藻
+	}
+
+	JadeSandWallItem: {
+		Tooltip: ""
+		DisplayName: 泉石の壁
+	}
+
+	JadeSandstoneItem: {
+		Tooltip: ""
+		DisplayName: 泉の砂岩
+	}
+
+	JadeSandItem: {
+		Tooltip: ""
+		DisplayName: 泉の砂
+	}
+
+	JadeLanternItemDebug: {
+		Tooltip: ""
+		DisplayName: 泉のランタン（テスト用）
+	}
+
+	JadeLanternItem: {
+		Tooltip:
+			'''
+			既にあるランタンの上に設置することで延長可能
+			その際ランタンの消費無し
+			'''
+		DisplayName: 泉のランタン
+	}
+
+	JadeFountainItem: {
+		Tooltip: 周囲の水を輝かせる
+		DisplayName: 泉の噴水
+	}
+
+	HardenedJadeSandItem: {
+		Tooltip: ""
+		DisplayName: 硬化した泉の砂
+	}
+
+	BlossomWallItem: {
+		Tooltip: ""
+		DisplayName: 桜の壁
+	}
+
+	TanookiLeaf: {
+		Tooltip:
+			'''
+			移動速度とジャンプ高度が上昇する
+			空中でジャンプボタンを押して低速落下が可能
+			'''
+		DisplayName: タヌキの葉っぱ
+	}
+
+	Hwacha: {
+		Tooltip:
+			'''
+			共に戦う火車を召喚する
+			火車を鞭で叩くことでインベントリ内の矢を放つ
+			<right> 長押しで火車を移動可能
+			'''
+		DisplayName: 火車
+	}
+
+	GongItem: {
+		Tooltip:
+			'''
+			<left> でドラを投げる
+			<right> でタイミングよくドラを叩いて勢いと攻撃力を増加させる
+			'''
+		DisplayName: ドラ&バチ
+	}
+
+	FireworkPack: {
+		Tooltip:
+			'''
+			15ダメージ
+			敵を撃破した際、ダメージを与える花火が打ち上げられる
+			'''
+		DisplayName: 花火セット
+	}
+
+	Chopsticks: {
+		Tooltip: 剣の攻撃範囲が増加し、全方向に攻撃可能となる
+		DisplayName: お箸
+	}
+
+	SpringWater: {
+		Tooltip:
+			'''
+			ほぼすべてのデバフを解除する
+			ただし15秒間ポーション酔いを引き起こす
+			'''
+		DisplayName: 湧き水
+	}
+
+	SpinePotion: {
+		Tooltip: ダメージを受けた際に近くの敵めがけて針を放つ
+		DisplayName: 針のポーション
+	}
+
+	SpineItem: {
+		Tooltip: ""
+		DisplayName: 針
+	}
+
+	JasmineTea: {
+		Tooltip: 「なぜ私が西の龍と呼ばれるか知ってる？」
+		DisplayName: ジャスミン茶
+	}
+
+	HeartbeatPotion: {
+		Tooltip: 落ちるハートがより大きくなり、回復量が増加する
+		DisplayName: 鼓動のポーション
+	}
+
+	BigHeartItem: {
+		Tooltip: 『このアイテムは表示されるべきではない』
+		DisplayName: 大きなハート
+	}
+
+	Dumpling: {
+		Tooltip:
+			'''
+			全ステータスが中程度強化
+			「ほとんど見分けがつかないや」
+			'''
+		DisplayName: 団子
+	}
+
+	LotusHammer: {
+		Tooltip: すべての天然壁を回収可能
+		DisplayName: 蓮のハンマー
+	}
+
+	LotusFiber: {
+		Tooltip: ""
+		DisplayName: 蓮糸
+	}
+
+	LotusLeggings: {
+		Tooltip: フィッシング・パワーが向上する
+		DisplayName: 蓮のすね当て
+	}
+
+	LotusHelmet: {
+		Tooltip: フィッシング・パワーが向上する
+		DisplayName: 蓮の兜
+	}
+
+	LotusChestplate: {
+		Tooltip: フィッシング・パワーが向上する
+		DisplayName: 蓮の胸当て
+	}
+
+	JadeStaff: {
+		Tooltip:
+			'''
+			長押しでプレイヤー中心の火花を連射
+			一定時間後にドラゴンを召喚する
+			離すことでドラゴンが放たれる
+			'''
+		DisplayName: ヒスイの杖
+	}
+
+	JadePickaxe: {
+		Tooltip: 岩を砕いた際より多くの生物が出現する
+		DisplayName: ヒスイのつるはし
+	}
+
+	JadeKunai: {
+		Tooltip: 連続攻撃で他の武器によるダメージが増加
+		DisplayName: ヒスイのクナイ
+	}
+
+	JadeHookItem: {
+		Tooltip: タイルにフックをかけると爆発を起こす
+		DisplayName: ヒスイフック
+	}
+
+	JadeHarpoon: {
+		Tooltip: 敵に引っ掛け、反動の力で跳ね返る事が出来る
+		DisplayName: ヒスイハープーン
+	}
+
+	JadeChunk: {
+		Tooltip: ""
+		DisplayName: ヒスイの欠片
+	}
+
+	JadeBow: {
+		Tooltip:
+			'''
+			小動物達に放つことで仲間として戦わせる
+			タウンNPCに放つことでシールドを付与
+			'''
+		DisplayName: ヒスイの弓
+	}
+
+	JadeAxe: {
+		Tooltip: 木を切った際より多くの果実が落ちる
+		DisplayName: ヒスイの斧
+	}
+
+	JadeRobe: {
+		Tooltip: 移動速度と走行加速が7%上昇
+		DisplayName: ヒスイのローブ
+	}
+
+	JadeHat: {
+		Tooltip: ダメージとクリティカル率が10%上昇する
+		DisplayName: ヒスイの帽子
+	}
+
+	FestivalLantern: {
+		Tooltip: ランタンナイトを始める
+		DisplayName: 祝宴のランタン
+	}
+
+	KoiPopper: {
+		Tooltip:
+			'''
+			泡を拡散して撃つ
+			<right> で全泡を破裂させ、近くの敵にダメージを与える
+			'''
+		DisplayName: 鯉バブルガン
+	}
+
+	SpringCrate: {
+		Tooltip: <right>で開く
+		DisplayName: 湧き水の箱
+	}
+
+	DragonCrate: {
+		Tooltip: <right>で開く
+		DisplayName: 龍の箱
+	}
+
+	Arowana: {
+		Tooltip: カーソル周辺を飛行し、近くの敵を引き付ける
+		DisplayName: 飛行アロワナ
+	}
+
+	KoiItem: {
+		Tooltip: 「私をからかうつもり！？」
+		DisplayName: コイ
+	}
+
+	FrogInFroggle: {
+		Tooltip:
+			'''
+			移動中のジャンプで前方に加速する
+			二段ジャンプ時に水平方向の力を加える
+			'''
+		DisplayName: カエルの小物
+	}
+
+	BullfrogTongue: {
+		Tooltip: ""
+		DisplayName: ウシガエルの舌
+	}
+
+	BullfrogLegs: {
+		Tooltip: 移動中のジャンプで前方に加速する
+		DisplayName: ウシガエルの脚
+	}
+
+	BullfrogBaubleBelt: {
+		Tooltip:
+			'''
+			移動中のジャンプでより強く前方に加速する
+			二段ジャンプ時に水平方向の力を加える
+			移動速度と加速が上昇する
+			身につけると光を放つ
+			'''
+		DisplayName: ウシガエルの装飾ベルト
+	}
+
+	Bulfrauble: {
+		Tooltip:
+			'''
+			移動中のジャンプでより強く前方に加速する
+			移動速度と加速が上昇する
+			身につけると光を放つ
+			'''
+		DisplayName: ウシガエルの輝玉
+	}
+}
+
+Buffs: {
+	BullfrogTongueTag: {
+		Description: Mods.JadeFables.Buffs.BullfrogTongueTag.Description
+		DisplayName: ウシガエルの舌
+	}
+
+	SpringWaterBuff: {
+		Description: 全デバフが浄化！
+		DisplayName: 湧き水
+	}
+
+	SpineBuff: {
+		Description: ダメージを受けた際近くの敵に針を発射
+		DisplayName:針
+	}
+
+	JasmineTeaBuff: {
+		Description: ミントも必要だ！
+		DisplayName: ジャスミン茶
+	}
+
+	HeartbeatBuff: {
+		Description: ハートがより大きな物へと置き換わる
+		DisplayName: 鼓動
+	}
+}
+
+Biomes: {
+	JadeLakeBiome: {
+		TownNPCDialogueName: ヒスイ湖バイオーム
+		DisplayName: 泉
+	}
+}
+
