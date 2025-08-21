@@ -1,0 +1,247 @@
+Plushie: ぬいぐるみ
+
+Configs: {
+	ClientConfig: {
+		DisplayName: クライアント設定
+
+		MaxAnimations: {
+			Label: 最大アニメーション数
+			Tooltip:
+				'''
+				ぬいぐるみのアニメーションを同時に動かせる最大数を調整します
+				値を増やすことでアニメーションが途切れにくくなりますが、処理が重くなるかもしれません
+				値を減らすことで負荷の軽減が期待できますが、アニメーションが不安定になるかもしれません
+				[c/ff0000:測ってないけど、パフォーマンス全体への影響は小さいハズ]
+				[c/707070:範囲： 1 - 50]
+				[c/707070:デフォルト： 8]
+				'''
+		}
+
+		AnimationSpeed: {
+			Label: アニメーション速度
+			Tooltip:
+				'''
+				ぬいぐるみの「ぷにぷに」アニメーションのスピードを変更します
+				[c/707070:範囲： 0.1 - 2]
+				[c/707070:デフォルト： 1]
+				'''
+		}
+
+		ColoredHoverIcon: {
+			Label: カーソルカラー反映
+			Tooltip:
+				'''
+				オンの場合、ぬいぐるみに合わせたカーソルが設定した色になる
+				[c/707070:デフォルト：オフ]
+				'''
+		}
+	}
+}
+
+Items: {
+	PlushieHoverIcon: {
+		DisplayName: ぬいぐるみホバーアイコン
+		Tooltip:
+			'''
+			ぬいぐるみにカーソルを合わせたときに表示されるアイコン
+			...って、なんでこれ見れてるの？
+			'''
+	}
+
+	PlushieButton_Item: {
+		DisplayName: 小さなぬいぐるみ（ボタン）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「スイッチの代わりとしてバッチリ！」
+			'''
+	}
+
+	PlushieButtonFaulty_Item: {
+		DisplayName: 小さなぬいぐるみ（壊れたボタン）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			ワイヤーを10%の確率でしか作動させない
+			「ワイヤーがぐにゃぐにゃで噛まれてる」
+			'''
+	}
+
+	PlushieGip_Item: {
+		DisplayName: 小さなぬいぐるみ（ギップ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「イチゴの甘い香りがするよ」
+			'''
+	}
+
+	PlushieGeep_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ギープ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「イチゴたっぷりのボウルみたいな香りがするよ」
+			'''
+	}
+
+	PlushieGup_Item: {
+		DisplayName: 大きなビーズクッション（ガップ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「イチゴ畑の甘い香りが漂う！」
+			'''
+	}
+
+	PlushieSlimeRainbow_Item: {
+		DisplayName: 大きなぬいぐるみ（レインボースライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「巨大マンゴーを思わせるカラフルなジェルの塊」
+			'''
+	}
+
+	PlushieSlimeBlue_Item: {
+		DisplayName: 小さなぬいぐるみ（ブルースライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「巨大ブルーベリーを思わせる青いジェルの塊」
+			'''
+	}
+
+	PlushieSlimeGreen_Item: {
+		DisplayName: 小さなぬいぐるみ（グリーンスライむ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「特大キャベツを思わせる緑のジェルの塊」
+			'''
+	}
+
+	PlushieSlimeBlack_Item: {
+		DisplayName: 小さなぬいぐるみ（ブラックスライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「巨大プラムを思わせる黒いジェルの塊」
+			'''
+	}
+
+	PlushieSlimePurple_Item: {
+		DisplayName: 小さなぬいぐるみ（パープルスライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「巨大ブドウを思わせる紫のジェルの塊」
+			'''
+	}
+
+	PlushieSlimeRed_Item: {
+		DisplayName: 小さなぬいぐるみ（レッドスライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「大きなザクロを思わせる赤いジェルの塊」
+			'''
+	}
+
+	PlushieSlimeYellow_Item: {
+		DisplayName: 小さなぬいぐるみ（イエロースライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「大きなレモンを思わせる黄色いジェルの塊」
+			'''
+	}
+
+	PlushieSlimeOrange_Item: {
+		DisplayName: 小さなぬいぐるみ（オレンジスライム）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「巨大なオレンジを思わせるオレンジ色のジェルの塊」
+			'''
+	}
+
+	PlushieSlimePinky_Item: {
+		DisplayName: 小さなぬいぐるみ（ピンキー）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			「巨大なクランベリーを思わせるピンク色のジェルの塊」
+			'''
+	}
+
+	PlushieSharkBlue_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ブルーブラハジ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			:D
+			'''
+	}
+
+	PlushieSharkPink_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ピンクブラハジ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			:D
+			'''
+	}
+
+	PlushieTiktik_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ティクティク）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			壁や天井に設置可能
+			'''
+	}
+
+	PlushieBunny_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ウサギ）
+		Tooltip: <right> でプニッと押す
+	}
+
+	PlushieBabyBunny_Item: {
+		DisplayName: 小さなぬいぐるみ（ベビーウサギ）
+		Tooltip: <right> でプニッと押す
+	}
+
+	PlushieGnarpy_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ナーピー）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			天井に設置可能
+			'''
+	}
+
+	PlushieMaxwell_Item: {
+		DisplayName: 中サイズのぬいぐるみ（マクスウェル）
+		Tooltip: <right> でプニッと押す
+	}
+
+	PlushieSharkGreen_Item: {
+		DisplayName: 中サイズのぬいぐるみ（ミントブラハジ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			:D
+			'''
+	}
+
+	PlushieSharkTrans_Item: {
+		DisplayName: 中サイズのぬいぐるみ（トランスブラハジ）
+		Tooltip:
+			'''
+			<right> でプニッと押す
+			:3
+			'''
+	}
+}
+

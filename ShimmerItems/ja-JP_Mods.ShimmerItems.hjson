@@ -1,0 +1,65 @@
+Items: {
+	ShimmerBucket: {
+		DisplayName: シマーバケツ
+		Tooltip:
+			'''
+			シマーが少し入っている
+			注ぐことができる
+			'''
+	}
+
+	ShimmerBomb: {
+		DisplayName: シマー爆弾
+		Tooltip: シマーをまき散らす小さな爆発を起こす
+	}
+
+	ShimmerRocket: {
+		DisplayName: シマーロケット
+		Tooltip: 当たるとシマーが飛び散る
+	}
+
+	BottledShimmer: {
+		DisplayName: 瓶詰めのシマー
+		Tooltip: ランダムなデバフを一つ解除する
+	}
+
+	ShimmerSwimmingPotion: {
+		DisplayName: シマー遊泳ポーション
+		Tooltip: シマー中デバフの免疫
+	}
+}
+
+Projectiles: {
+	ShimmerBomb: {
+		DisplayName: Shimmer Bomb
+	}
+
+	ShimmerGrenade: {
+		DisplayName: Shimmer Grenade
+	}
+
+	ShimmerMine: {
+		DisplayName: Shimmer Mine
+	}
+
+	ShimmerRocket: {
+		DisplayName: Shimmer Rocket
+	}
+
+	ShimmerSnowmanRocket: {
+		DisplayName: Shimmer Snowman Rocket
+	}
+}
+
+Buffs: {
+	ShimmerShock: {
+		DisplayName: シマーショック
+		Description: 瓶詰めのシマーを使えない
+	}
+
+	ShimmerSwimming: {
+		DisplayName: シマー遊泳
+		Description: シマー中デバフに免疫を得た
+	}
+}
+

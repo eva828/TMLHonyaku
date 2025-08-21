@@ -1,0 +1,35 @@
+Configs: {
+	RainbowSolutionConfig: {
+		DisplayName: 設定
+
+		requiresBlockAmount: {
+			Label: タイル変換に必要なブロック数
+			Tooltip:
+				'''
+				[0-300]
+				環境変更液(虹) でタイルを変換するために必要なブロック数を指定します
+				注意：環境変更液(虹) を使用中に値を変更しないでください！
+				'''
+		}
+	}
+}
+
+Items: {
+	AnyBlockSolution: {
+		DisplayName: 環境変更液(虹)
+		Tooltip:
+			'''
+			任意のブロックを拡散させる
+			あらゆるブロックを置き換え可能
+			使用には X 個分のブロックが必要です
+			環境変更銃の弾
+			'''
+	}
+}
+
+Projectiles: {
+	AnyBlockSpray: {
+		DisplayName: ブロック噴射
+	}
+}
+

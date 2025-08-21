@@ -1,0 +1,41 @@
+Configs: {
+	FancyHooksConfig: {
+		DisplayName: Fancy Hooks 設定
+
+		DisabledHooks: {
+			Label: ブラックリスト
+			Tooltip: ""
+		}
+
+		DisableAllVanilla: {
+			Label: 全バニラフックをクイック追加
+			Tooltip: ""
+		}
+
+		DisableAllMod: {
+			Label: 全MODフックをクイック追加
+			Tooltip: ""
+		}
+
+		HooksPhysicsIntensity: {
+			Label: フックの物理強度
+			Tooltip: ""
+		}
+
+		FlailsPhysicsIntensity: {
+			Label: フレイルの物理強度
+			Tooltip: ""
+		}
+
+		DisableAllVanillaFlails: {
+			Label: 全バニラフレイルをクイック追加
+			Tooltip: ""
+		}
+
+		DisableAllModFlails: {
+			Label: 全MODフレイルをクイック追加
+			Tooltip: ""
+		}
+	}
+}
+

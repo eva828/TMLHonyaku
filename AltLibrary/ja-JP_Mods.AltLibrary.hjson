@@ -1,0 +1,535 @@
+MoonEclipse: 月食が発生中！
+
+Analysis: 分析
+
+AnalysisNext: 次のページ
+
+AnalysisPage: (ページ番号 {0})
+
+AnalysisDone: やあ、{0}、{1}についてデータ解析したんだ。チェックして！
+
+BiomeOrOreModSecret: 誰にも言えない秘密だよ
+
+Analyser: {
+	Dialog: {
+		0: "1"
+		1: "2"
+		2: "3"
+	}
+}
+
+TownNPCMood: {
+	PieChartTownNPC: {
+		Content: 特に報告することはないね。
+		NoHome: 危険な世界には慣れてるけど、落ち着ける家があると嬉しいね。
+		LoveSpace: ちょうどいい広さで、邪魔されずに済むよ！
+		FarFromHome: 今回の冒険は面白かったけど、そろそろ家に帰りたいな。
+		DislikeCrowded: こんなに人がいると気が散るよ。
+		HateCrowded: 人が多すぎる！これじゃ何もできないよ！
+		LikeBiome: "{BiomeName}の爽やかな風のおかげで、装備がバッチリ動くよ！"
+		LoveBiome:  "{BiomeName}にいると、ファイル整理が楽ちんだよ！"
+		DislikeBiome: "{BiomeName}は好きじゃないな。機器がすぐオーバーヒートする。"
+		HateBiome: "{BiomeName}は調査には最適だけど、滞在はごめんだね。"
+		LikeNPC:  "{NPCName}のおかげで、データがどんどん集まる！"
+		LoveNPC: "{NPCName}といると、なんだかよく分からない気持ちになるよ！"
+		DislikeNPC: "{NPCName}が、ほっといてくれないんだよね。"
+		HateNPC: "{NPCName}は、一刻も早くいなくなってくれ！"
+	}
+}
+
+BlessBase: "{0}の祝福を受けた！"
+
+WorldBreak: この世界のバイオームが1つ削除されました。これにより重大な問題が起こる可能性があります！
+
+AddedBy: 追加：
+
+ChooseBiome: クリックしてバイオームを選択
+
+ChooseOre: クリックして鉱石を選択
+
+ChooseHardmodeOre: ハードモード鉱
+
+Config: {
+	Randomization: ランダム設定
+
+	PreviewVisible: {
+		Label: ワールド生成プレビュー
+		Tooltip: ワールド生成プレビューに表示するレイヤーを選択します
+	}
+
+	BiomeIconsVisibleOutsideBiomeUI: {
+		Label: バイオームUI外でのバイオームアイコン表示
+		Tooltip: オンにすると、ワールド生成時に常時バイオームアイコンを表示します
+	}
+
+	OreIconsVisibleOutsideOreUI: {
+		Label: 鉱石UI外での鉱石アイコン表示
+		Tooltip: オンにすると、ワールド生成時に常時鉱石アイコンを表示します
+	}
+
+	SpecialSeedWorldPreview: {
+		Label: 特別シードのプレビュー
+		Tooltip: オンにすると、秘密のシードに基づいて世界のプレビュー画像が変わります
+	}
+
+	VanillaShowUpIfOnlyAltVarExist: {
+		Label: 代替バイオームが存在する場合のみ表示
+		Tooltip: オンにすると、代替バイオームがない一部バイオームが表示されません
+	}
+
+	HardmodeGenRandom: {
+		Label: 『Drunk』ワールドにおけるハードモード生成時のランダムバイオーム
+		Tooltip: オンにすると、聖域がランダムなジャングル代替バイオームに、悪がランダムな地下世界代替バイオームに置き換わる可能性があります
+	}
+
+	SecretFeatures: {
+		Label: 秘密シード
+		Tooltip: オフにすると、隠し機能は一切表示されず、読み込まれません
+	}
+}
+
+OreHelpTextBase: 地獄のかまどと{0}鉱石を組み合わせてみな！きっとすごいものを作れるよ！
+
+HallowBunnyCageTooltip: 「絶対に後悔させてやる！
+
+AltOreName: {
+	RandomCopper: ランダム銅ランク
+	RandomIron: ランダム鉄ランク
+	RandomSilver: ランダム銀ランク
+	RandomGold: ランダム金ランク
+	RandomCobalt: ランダムコバルトランク
+	RandomMythril: ランダムミスリルランク
+	RandomAdamantite: ランダムアダマンタイトランク
+	Copper: 銅
+	Tin: 鈴
+	Iron: 鉄
+	Lead: 鉛
+	Silver: 銀
+	Tungsten: タングステン
+	Gold: 金
+	Platinum: プラチナ
+	Cobalt: コバルト
+	Palladium: パラジウム
+	Mythril: ミスリル
+	Orichalcum: オリハルコン
+	Adamantite: アダマンタイト
+	Titanium: チタニウム
+}
+
+AltOreDescription: {
+	RandomCopper: 銅ランクの鉱石をランダムに選択！
+	RandomIron: 鉄ランクの鉱石をランダムに選択！
+	RandomSilver: 銀ランクの鉱石をランダムに選択！
+	RandomGold: 金ランクの鉱石をランダムに選択！
+	RandomCobalt: コバルトランクの鉱石をランダムに選択！
+	RandomMythril: ミスリルランクの鉱石をランダムに選択！
+	RandomAdamantite: アダマンタイトランクの鉱石をランダムに選択！
+}
+
+AltBiomeName: {
+	Evil: 邪悪
+	Hallow: 聖域
+	Jungle: ジャングル
+	Hell: 地下世界
+	CorruptBiome: 不浄
+	CrimsonBiome: クリムｚン
+	HallowBiome: 聖域
+	JungleBiome: ジャングル
+	UnderworldBiome: 地下世界
+}
+
+AltBiomeDescription: {
+	RandomEvilBiome: 邪悪なバイオームをランダムに選択！
+	RandomHallowBiome: 神聖なバイオームをランダムに選択！
+	RandomJungleBiome: 熱帯バイオームをランダムに選択！
+	RandomUnderworldBiome: 地下世界バイオームをランダムに選択！
+	CorruptBiome: 腐敗した敵が棲む紫のバイオーム。腐った敵達が、命がけでこの地を守るだろう。
+	CrimsonBiome: 深紅のバイオーム。血に染まった大地が生んだ化け物達が、命がけでこの地を守るだろう。
+	HallowBiome: 聖域のバイオーム。希望と夢にあふれ、ユニコーンや妖精が住んでいる。
+	JungleBiome: 樹木が生い茂り、蜂が飛び交う活気ある場所。ジャングルの奥深くに古代寺院が存在する。
+	UnderworldBiome: 溶岩と悪魔が徘徊する、時と共に荒廃した灼熱の大地。
+}
+
+Warn: {
+	VanillaBiome: このバイオームは『Terraria』由来です
+	ModdedBiome: このバイオームは『{0}』由来です
+	VanillaOre: この鉱石は『Terraria』由来です
+	ModdedOre: この鉱石は『{0}』由来です
+}
+
+RecipeGroups: {
+	EvilOres: 邪悪な鉱石
+	EvilBars: 邪悪なインゴット
+	HallowBars: 聖なるインゴット
+	HellBars: 地下世界のインゴット
+	JungleBars: 熱帯のインゴット
+	MushroomBars: キノコ群生地のインゴット
+	EvilSwords: 邪悪な剣
+	HallowSwords: 聖なる剣
+	HellSwords: 地下世界の剣
+	JungleSwords: 熱帯の剣
+	ComboSwords: コンビネーションソード
+	TrueComboSwords: トゥルーコンビネーションソード
+	TrueHallowSwords: 真なる神聖な剣
+	RottenChunks: 邪悪な残骸
+	PixieDusts: 光の粉
+	UnicornHorns: ユニコーンの角
+	CrystalShards: クリスタルの欠片
+	CursedFlames: 呪われし炎
+	ShadowScales: 邪悪なボスドロップ
+	JungleSpores: ジャングルの胞子
+	Deathweed: デスウィード
+	Fireblossom: ファイアブロッサム
+	Moonglow: ムーングロウ
+	Hellforges: 地下世界のかまど
+	CopperBars: 銅のインゴット
+	IronBars: 鉄のインゴット
+	SilverBars: 銀のインゴット
+	GoldBars: 金のインゴット
+	CobaltBars: コバルトのインゴット
+	MythrilBars: ミスリルのインゴット
+	AdamantiteBars: アダマンタイトのインゴット
+	GoldCandles: 金の蝋燭
+	CopperWatches: 銅の時計
+	SilverWatches: 銀の時計
+	GoldWatches: 金の時計
+	IronOres: 鉄鉱石
+	GoldOres: 金鉱石
+}
+
+DryadSpecialText: {
+	WorldStatusGoodEvil: "{0}は{1}%が聖域で、{2}%が邪悪だよ。"
+	WorldStatusGood: "{0}は{1}%聖域だよ。"
+	WorldStatusEvil: "{0}は{1}%邪悪だよ。"
+	WorldStatusCorrupt: 不浄
+	WorldStatusCrimson: クリムゾン
+	WorldStatusHallow: 聖域
+	WorldStatusPart: "{0}% {1}"
+	WorldStatusConnection: "、 "
+	WorldStatusLastConnection: ", と "
+	WorldStatus: "{0} は {1}。"
+}
+
+DropRule: {
+	Base: "{0}があるワールドでドロップする"
+}
+
+Condition: {
+	Base: "{0}があるワールドで"
+	NotBase: "{0}がないワールドで"
+}
+
+Common: {
+	DevTooltip: Mod制作者になりきるのに最適！
+	FormerDevTooltip: Alternatives Libraryの元開発者になりきるのに最適！
+	キツネツールチップ: Katastrophenmacherenになりきるのに最適！
+}
+
+BunReason: {
+	0: "{0}はウサギに食い尽くされた。"
+	1: "{0}はゲームの残酷なルールで破壊された。"
+	2: "{0}はウサギに全滅させられた。"
+	3: "{0}はウサギの穴に落ちた。"
+	4: "{0}は可愛さの過剰摂取でやられた。"
+	5: "{0}が自らの創造物にやられた！"
+	6: "{0}は残酷にウサギに叩きのめされた。"
+}
+
+Items: {
+	CaceEars: {
+		DisplayName: ケイスの耳飾り
+		Tooltip: 元開発者ツールチップ
+	}
+
+	FoxMask: {
+		DisplayName: キツネのマスク
+		Tooltip: キツネツールチップ
+	}
+
+	FoxPants: {
+		DisplayName: キツネのパンツ
+		Tooltip: キツネツールチップ
+	}
+
+	FoxShirt: {
+		DisplayName: キツネのシャツ
+		Tooltip: キツネツールチップ
+	}
+}
+
+Configs: {
+	AltLibraryConfig: {
+		DisplayName: Alt Library 設定
+
+		VanillaShowUpIfOnlyAltVarExist: {
+			Label: 代替バイオームが存在する場合のみ表示
+			Tooltip: オンにすると、代替バイオームがない一部バイオームが表示されません
+		}
+
+		SpecialSeedWorldPreview: {
+			Label: 特別シードのプレビュー
+			Tooltip: オンにすると、秘密のシードに基づいて世界のプレビュー画像が変わります
+		}
+
+		PreviewVisible: {
+			Label: ワールド生成プレビュー
+			Tooltip: ワールド生成プレビューに表示するレイヤーを選択します
+		}
+
+		BiomeIconsVisible: {
+			Label: バイオームアイコン表示
+			Tooltip: オフにすると、バイオーム選択アイコンが標準バージョンのバイオームになります
+		}
+
+		OreIconsVisible: {
+			Label: 鉱石アイコン表示
+			Tooltip: オフにすると、鉱石選択アイコンが標準バージョンの鉱石になります
+		}
+
+		ZenithIconJank: {
+			Label: 追加のグリッチゼニスアイコン
+			Tooltip: ""
+		}
+
+		OldWorldCreationUI: {
+			Label: 旧ワールド作成UI
+			Tooltip: ""
+		}
+
+		DrunkMaxBiomes: {
+			Label: 『Drunk』ワールドの最大悪バイオーム数
+			Tooltip: 0に設定すると、『Drunk』ワールドで生成される悪バイオームの数に制限がなくなります
+		}
+	}
+
+	AltLibraryServerConfig: {
+		DisplayName: Alt Library サーバー設定
+
+		SecretFeatures: {
+			Label: 秘密シード
+			Tooltip: オフにすると、隠し機能は一切表示されず、読み込まれません
+		}
+
+		HardmodeGenRandom: {
+			Label: 『Drunk』ワールドのハードモード生成でランダムバイオーム
+			Tooltip: オンにすると、聖域がランダムなジャングル代替バイオームに、悪がランダムな地下世界代替バイオームに置き換わる可能性があります
+		}
+	}
+}
+
+AltBiomes: {
+	CrimsonBiome: {
+		DisplayName: 真紅
+		Description: 異様でグロテスクな「真紅」があなたのワールドにもたらされる。
+		GenPassName: 真紅バイーム
+	}
+
+	CorruptBiome: {
+		DisplayName: 不浄
+		Description: 病気のような「不浄」があなたのワールドにもたらされる。
+		GenPassName: 不浄バイオーム
+	}
+
+	DebuggingHallowBiome: {
+		DisplayName: デバッグ聖域バイオーム
+		Description: デバッグ聖域バイオーム
+		GenPassName: デバッグ聖域バイオーム
+		DryadTextDescriptor: デバッグ聖域バイオーム
+	}
+
+	DebuggingHellBiome: {
+		DisplayName: AltLibrary
+		Description: デバッグ地獄バイオーム
+		GenPassName: デバッグ地獄バイオーム
+		DryadTextDescriptor: デバッグ地獄バイオーム
+	}
+
+	DebuggingJungleBiome: {
+		DisplayName: デバッグジャングルバイオーム
+		Description: デバッグジャングルバイオーム
+		GenPassName: デバッグジャングルバイオーム
+		DryadTextDescriptor: デバッグジャングルバイオーム
+	}
+
+	Deconvert: {
+		DisplayName: 浄化
+		Description: 浄化
+		GenPassName: 浄化
+		DryadTextDescriptor: 浄化
+	}
+
+	DesertBiome: {
+		DisplayName: 砂漠バイオーム
+		Description: 砂漠バイオーム
+		GenPassName: 砂漠バイオーム
+		DryadTextDescriptor: 砂漠バイオーム
+	}
+
+	ForestBiome: {
+		DisplayName: 森林バイオーム
+		Description: 森林バイオーム
+		GenPassName: 森林バイオーム
+		DryadTextDescriptor: 森林バイオーム
+	}
+
+	HallowBiome: {
+		DisplayName: 聖域
+		Description: 聖域バイオーム
+		GenPassName: 聖域バイオーム
+	}
+
+	JungleBiome: {
+		DisplayName: ジャングル
+		Description: ジャングルバイオーム
+		GenPassName: ジャングルバイオーム
+		DryadTextDescriptor: ジャングルバイオーム
+	}
+
+	Mushroom: {
+		DisplayName: キノコ群生地
+		Description: キノコ群生地
+		GenPassName: キノコ群生地
+		DryadTextDescriptor: キノコ群生地
+	}
+
+	SnowBiome: {
+		DisplayName: 雪原バイオーム
+		Description: 雪原バイオーム
+		GenPassName: 雪原バイオーム
+		DryadTextDescriptor: 雪原バイオーム
+	}
+
+	UnderworldBiome: {
+		DisplayName: 地下世界
+		Description: 地下世界バイオーム
+		GenPassName: 地下世界バイオーム
+		DryadTextDescriptor: 地下世界バイオーム
+	}
+
+	RandomOptionBiome: {
+		DisplayName: ランダム {0}
+		Description: "{0}をランダムに選択"
+	}
+
+	DebuggingNoneBiome: {
+		DisplayName: デバッグ無バイオーム
+		Description: デバッグ無バイオーム
+		GenPassName: デバッグ無バイオーム
+		DryadTextDescriptor: デバッグ無バイオーム
+	}
+
+	DebuggingNoneBiome2: {
+		DisplayName: デバッグ無バイオーム2
+		Description: デバッグ無バイオーム2
+		GenPassName: デバッグ無バイオーム2
+		DryadTextDescriptor: デバッグ無バイオーム2
+	}
+}
+
+AltOres: {
+	RandomOptionOre: {
+		DisplayName: ランダム {0}
+		Description: "{0}をランダムに選択！"
+	}
+
+	AdamantiteAltOre: {
+		DisplayName: アダマンタイト
+		Description: ""
+	}
+
+	CobaltAltOre: {
+		DisplayName: コバルト
+		Description: ""
+	}
+
+	CopperAltOre: {
+		DisplayName: 銅
+		Description: ""
+	}
+
+	GoldAltOre: {
+		DisplayName: 金
+		Description: ""
+	}
+
+	IronAltOre: {
+		DisplayName: 鉄
+		Description: ""
+	}
+
+	LeadAltOre: {
+		DisplayName: 鉛
+		Description: ""
+	}
+
+	MythrilAltOre: {
+		DisplayName: ミスリル
+		Description: ""
+	}
+
+	OrichalcumAltOre: {
+		DisplayName: オリハルコン
+		Description: ""
+	}
+
+	PalladiumAltOre: {
+		DisplayName: パラジウム
+		Description: ""
+	}
+
+	PlatinumAltOre: {
+		DisplayName: プラチナ
+		Description: ""
+	}
+
+	SilverAltOre: {
+		DisplayName: 銀
+		Description: ""
+	}
+
+	TinAltOre: {
+		DisplayName: 鈴
+		Description: ""
+	}
+
+	TitaniumAltOre: {
+		DisplayName: チタニウム
+		Description: ""
+	}
+
+	TungstenAltOre: {
+		DisplayName: タングステン
+		Description: ""
+	}
+}
+
+AltOreSlot: {
+	AdamantiteOreSlot: {
+		DisplayName: アダマンタイトランクの鉱石
+	}
+
+	CobaltOreSlot: {
+		DisplayName: コバルトランクの鉱石
+	}
+
+	CopperOreSlot: {
+		DisplayName: 銅ランクの鉱石
+	}
+
+	GoldOreSlot: {
+		DisplayName: 金ランクの鉱石
+	}
+
+	IronOreSlot: {
+		DisplayName: 鉄ランクの鉱石
+	}
+
+	MythrilOreSlot: {
+		DisplayName: ミスリルランクの鉱石
+	}
+
+	SilverOreSlot: {
+		DisplayName: 銀ランクの鉱石
+	}
+}
+
