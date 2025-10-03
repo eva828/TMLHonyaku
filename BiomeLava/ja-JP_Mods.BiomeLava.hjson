@@ -1,3 +1,40 @@
+Items: {
+	PurityObsidianFountain: {
+		Tooltip: ""
+		DisplayName: 澄んだ溶岩噴水
+	}
+
+	JungleObsidianFountain: {
+		Tooltip: ""
+		DisplayName: ジャングルの溶岩噴水
+	}
+
+	IceObsidianFountain: {
+		Tooltip: ""
+		DisplayName: 冷たい溶岩噴水
+	}
+
+	HallowObsidianFountain: {
+		Tooltip: ""
+		DisplayName: 聖域の溶岩噴水
+	}
+
+	DesertObsidianFountain: {
+		Tooltip: ""
+		DisplayName: 砂漠の溶岩噴水
+	}
+
+	CrimsonObsidianFountain: {
+		Tooltip: ""
+		DisplayName: 真紅の溶岩噴水
+	}
+
+	CorruptObsidianFountain: {
+		Tooltip: ""
+		DisplayName: 不浄の溶岩噴水
+	}
+}
+
 Buffs: {
 	HolyFire: {
 		Description: 地獄の炎で煮えたぎる
@@ -24,3 +61,4 @@ Configs: {
 		DisplayName: Biome Lava 設定
 	}
 }
+
