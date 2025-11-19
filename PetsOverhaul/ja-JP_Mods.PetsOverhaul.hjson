@@ -789,8 +789,8 @@ PetItemTooltips: {
 			* Surface levelにいる場合。
 			* 風力が10mph以上の場合。
 			* 浮きが風が来る方向と反対側にある場合。
-		- 完了した釣り人クエストごとに釣り力を<anglerPower>%増加させます、最大<max釣り人Power>%。
-			* 完了した釣り人クエスト: <anglerQuests>、現在の釣り力増加: <current釣り人Power>%。
+		- 完了した釣り人クエストごとに釣り力を<anglerPower>%増加させます、最大<maxAnglerPower>%。
+			* 完了した釣り人クエスト: <anglerQuests>、現在の釣り力増加: <currentAnglerPower>%。
 		'''
 	EyeOfCthulhuPetItem:
 		'''
@@ -950,7 +950,7 @@ PetItemTooltips: {
 	DukeFishronPetItem:
 		'''
 		- 釣り力を<baseMult>倍 + anglerクエストごとに<anglerFishingPower>増加、最大1倍。
-			* 完了した釣り人クエスト: <anglerQuests>、現在の釣り力倍率: <current釣り人WithBaseMult>倍
+			* 完了した釣り人クエスト: <anglerQuests>、現在の釣り力倍率: <currentAnglerWithBaseMult>倍
 		- 釣り力の<flatChance>% + <fishingPowerChance>%をダブルドロップ確率として獲得します。
 		- 現在の浮きと一緒に追加の浮きを投げる<bobberChance>%の確率を獲得します。
 		'''
