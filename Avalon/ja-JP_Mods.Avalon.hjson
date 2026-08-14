@@ -7,16 +7,6 @@ LoadingTips_Default: {
 
 UI.WorldDescriptionEvilRandom: 不浄、真紅、伝染のどれがワールドを汚染するかを自然の成り行きに任せる。
 
-BiomeTitles: {
-	Title: {
-		Avalon: {
-			PhantomGardens: Phantom Gardens
-			Hellcastle: Hellcastle
-			Contagion: Contagion
-		}
-	}
-}
-
 AltLibrary: {
 	AltOres: {
 		CobaltAltOre: {
@@ -55,75 +45,6 @@ AltLibrary: {
 			BlessMessage: "[c/B9C2D7:{$Mods.AltLibrary.BlessBase}]"
 		}
 	}
-}
-
-ThoriumMod: {
-	Items: {
-		IronShield: {
-			DisplayName: 鉄の盾
-			Tooltip:
-				'''
-				防御力が1増加
-				常に11のライフシールドを生成
-				'''
-		}
-
-		LeadShield: {
-			DisplayName: 鉛の盾
-			Tooltip:
-				'''
-				防御力が1増加
-				常に12のライフシールドを生成
-				'''
-		}
-
-		SilverBulwark: {
-			DisplayName: 銀の防盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に14のライフシールドを生成
-				'''
-		}
-
-		TungstenBulwark: {
-			DisplayName: タングステンの防盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に15のライフシールドを生成
-				'''
-		}
-
-		GoldAegis: {
-			DisplayName: 金の護盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に17のライフシールドを生成
-				'''
-		}
-
-		PlatinumAegis: {
-			DisplayName: プラチナの護盾
-			Tooltip:
-				'''
-				防御力が2増加
-				常に18のライフシールドを生成
-				'''
-		}
-
-		ThoriumShield: {
-			DisplayName: トリウムの盾
-			Tooltip:
-				'''
-				防御力が3増加
-				常に20のライフシールドを生成
-				'''
-		}
-	}
-
-	Bestiary.Sickubus: 伝染の陰湿な影響の証拠。悪魔でさえも、その蔓延から逃れることはできない。
 }
 
 TrackNames: {
@@ -577,7 +498,7 @@ Bestiary: {
 	FallenHero: 血に染まった英雄。ブラッドムーンの夜、あてもなく彷徨う。
 	Pyrasite: 伝染によって生み出された巨大な扁形動物であるこれらの生物は、巨人やその他の大型生物の胃袋に残った食べ残しを好んで食べる。
 	BacteriumPrime: この巨大な伝染の目は決して止むことなく、決して完全に閉じることはない。その視線に晒された者は、同じようにその疫病によって滅ぼされるだろう。
-	DesertBeak: 砂漠の守護者であるこの大きなハゲワシは、小型の仲間を呼び集めて戦闘に加わらせる。鋭い爪で獲物を持ち上げ、そして落下させて破滅へと導く。
+	DesertBeak: 砂漠の守護者であるこの大きなハゲワシは、小型の仲間を呼び集めて戦闘に加わらせる。
 	IrateBones: これらのアングリーボーンたちは、怒りをさらに燃え上がらせるために鎧を身に着けた。
 	CursedScepter: ダンジョンの邪悪な力によって魔法をかけられたこのような武器は、侵入者を容赦なく叩き潰す。
 	CursedFlamer: コラプターの従兄弟であるこれらの邪悪な生物は、不浄の領域に侵入しようとする者全てに呪炎を放つ。
@@ -590,7 +511,7 @@ Bestiary: {
 	Fly: 腐った肉や腐った野菜を好む、本当に厄介な虫たち。名前の通り、実に気持ち悪い。
 	AmberSlime: ゼラチン質のシンプルな生物だが、なぜかコハクのような性質も持ち合わせている。消化には非常に時間がかかる。
 	InfestedAmberSlime: サバンナに生息する虫を継続的に摂取することで、これらのスライムは倒された際に無数の虫をばら撒くようになった。
-	OreSlime: 鉱石が詰まったゼラチン状の生物で、内部に含まれる鉱石を落とす。
+	OreSlime: コスメを趣味にし始めた、まばゆいスライム。
 	MineralSlime: 鉱石が詰まったゼラチン状の生物で、内部に含まれる鉱石を落とす。
 	PoisonDartFrog: サバンナに生息する、非常に毒性の強いカエル。皮膚に触れた者は、しばしば毒に侵されて死に至る。
 	Mosquito: これらの厄介な昆虫は、病原体を媒介することで知られている。彼らはあなたの血液を吸い取り、止まった場所に感染症を残していく。
@@ -602,6 +523,9 @@ Bestiary: {
 	EvilVulture: 不浄に染まったハゲワシ。その性質は歪み、邪悪なものへと変貌した。
 	BloodyVulture: 真紅に食われたハゲワシであるこの鳥も、同様に獲物を食らおうとする。
 	SicklyVulture: 伝染に感染したハゲワシ。その細胞は、猛威を振るうウイルスによって突然変異を起こしている。
+	Undine: かつてダンジョンに住んでいた者たち。再活性化の前に肉体を失い、その魂が水に宿り動き出した存在だ。骸骨となった仲間や家族に比べ、彼らは精神をより色濃く保っている。
+	AngryFairy: 森を守る役目を担った、強力なフェアリーたち。彼らは、あなたの森林伐採を快く思っていない。
+	BloodGusher: 完全に成長したクリメラ。その飢餓感は凄まじく、食事を終える前に次の獲物を狙い始めるほどだ。
 }
 
 Keybinds: {
@@ -777,8 +701,6 @@ TooltipEdits: {
 	Blowpipes: 吹き矢と併用して使う
 	TempleKey: ジャングル寺院のドアを開く
 	PoisonDart: 吹き矢と吹き銃と併用して使う
-	IceBlade: 巨大な雪の結晶を放つ
-	Frostbrand: 巨大な雪の結晶を複数放つ
 	Extractinator: <right>でホットバー上の接頭辞の付いたアイテムに使用すると接頭辞を消せる
 	MonsterBanner: 以下の理由でダメージと防御力の増加:
 	UpgradeStage: "強化ダメージ: "
@@ -802,7 +724,6 @@ TooltipEdits: {
 		「ピックソーと混同すんなよ」
 		クロロファイト、キサントファイト、セシウムの採掘が可能
 		'''
-	MandibleBlade: 敵を混乱させる砂を放つ
 }
 
 Jukebox: {
@@ -1197,7 +1118,7 @@ Items: {
 
 	AeonsEternity: {
 		DisplayName: イーオンズエタニティ
-		Tooltip: 時折、爆発する星座を放つ
+		Tooltip: 爆発する星座を放つ
 	}
 
 	TomeoftheDistantPast: {
@@ -2185,7 +2106,11 @@ Items: {
 
 	OsmiumGreatsword: {
 		DisplayName: オスミウムの大剣
-		Tooltip: ""
+		Tooltip:
+			'''
+			攻撃をやめると剣を飛ばし、光った瞬間に左クリックでクリティカルが出る
+			剣のダメージは速度に応じて増加する
+			'''
 	}
 
 	OsmiumHelmet: {
@@ -2214,7 +2139,11 @@ Items: {
 
 	OsmiumLongbow: {
 		DisplayName: オスミウムの長弓
-		Tooltip: 完全に引き絞ると矢の貫通数が増加し、弾速が上昇
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇する
+			完全に引き絞ると矢が敵か地形に当たると爆発して破片をばら撒く
+			'''
 	}
 
 	OsmiumBrick: {
@@ -2346,17 +2275,17 @@ Items: {
 
 	CaesiumBruteBanner: {
 		DisplayName: セシウムブルートのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}セシウムブルート"
 	}
 
 	CaesiumSeekerBanner: {
 		DisplayName: セシウムシーカーのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}セシウムシーカー"
 	}
 
 	CaesiumStalkerBanner: {
 		DisplayName: セシウムストーカーのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}セシウムストーカー"
 	}
 
 	CloudBatBanner: {
@@ -2421,7 +2350,7 @@ Items: {
 
 	EvilVultureBanner: {
 		DisplayName: 邪悪なハゲワシのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.EvilVulture.DisplayName}"
 	}
 
 	EyeBonesBanner: {
@@ -2496,7 +2425,7 @@ Items: {
 
 	MimeBanner: {
 		DisplayName: マイムのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}マイム"
 	}
 
 	PoisonDartFrogBanner: {
@@ -2566,7 +2495,7 @@ Items: {
 
 	DesertLongSword: {
 		DisplayName: 砂漠の長剣
-		Tooltip: 敵を混乱させる砂を放つ
+		Tooltip: 砂の竜巻を放つ
 	}
 
 	SanguineKatana: {
@@ -2781,12 +2710,12 @@ Items: {
 
 	HeartsickPotion: {
 		DisplayName: ハートシックポーション
-		Tooltip: ハートのライフ回復量が5増加
+		Tooltip: ライフ回復アイテムによるライフの回復量が25%増加
 	}
 
 	AdvHeartsickPotion: {
 		DisplayName: ハートシックエリクサー
-		Tooltip: ハートのライフ回復量が10増加
+		Tooltip: ライフ回復アイテムによるライフの回復量が50%増加
 	}
 
 	ImmortalityPotion: {
@@ -3404,22 +3333,34 @@ Items: {
 
 	IridiumGreatsword: {
 		DisplayName: イリジウムの大剣
-		Tooltip: ""
+		Tooltip: 泡を放ち、攻撃をやめると泡が破裂する
 	}
 
 	RhodiumGreatsword: {
 		DisplayName: ロジウムの大剣
-		Tooltip: ""
+		Tooltip:
+			'''
+			最初は攻撃速度が遅いが敵に攻撃を当てるたびに早くなっていく
+			攻撃をやめると敵に攻撃を当てた回数に応じて強力になる衝撃波を放つ
+			'''
 	}
 
 	IridiumLongbow: {
 		DisplayName: イリジウムの長弓
-		Tooltip: 完全に引き絞ると矢の貫通数が増加し、弾速が上昇
+		Tooltip: 
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇する
+			完全に引き絞ると矢が敵か地形に当たるとエネルギーアローが他の敵に飛んでいく
+			'''
 	}
 
 	RhodiumLongbow: {
 		DisplayName: ロジウムの長弓
-		Tooltip: 完全に引き絞ると矢の貫通数が増加し、弾速が上昇
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇する
+			完全に引き絞ると矢が敵か地形に当たるとエネルギーアローで追撃する
+			'''
 	}
 
 	VertexOfExcalibur: {
@@ -3787,7 +3728,7 @@ Items: {
 
 	JourneysBeginning: {
 		DisplayName: 絵画『旅の始まり』
-		Tooltip: 「A.アイゼンメンガー」
+		Tooltip: 「E.アイゼンメンガー」
 	}
 
 	TheBastion: {
@@ -4022,7 +3963,11 @@ Items: {
 
 	DevilsScythe: {
 		DisplayName: デビルズサイス
-		Tooltip: 地獄の炎の鎌を放つ
+		Tooltip:
+			'''
+			地獄の審判の鎌を放つ
+			敵をデバフに弱くする
+			'''
 	}
 
 	ImperviousBrickWallItem: {
@@ -5173,7 +5118,7 @@ Items: {
 		Tooltip: "[c/C39FDD:[11周年記念コンテスト受賞者 - sapphirephly][c/C39FDD:]]"
 	}
 
-	CoughwoodFence: {
+	CoughwoodFenceItem: {
 		DisplayName: コフウッドのフェンス
 		Tooltip: ""
 	}
@@ -5638,7 +5583,7 @@ Items: {
 		Tooltip: ""
 	}
 
-	SepsisBlockWall: {
+	SepsisBlockWallItem: {
 		DisplayName: ゼプシスの壁
 		Tooltip: ""
 	}
@@ -5693,22 +5638,22 @@ Items: {
 		Tooltip: ""
 	}
 
-	ContagionBoilWall: {
+	ContagionBoilWallItem: {
 		DisplayName: 伝染の沸騰した壁
 		Tooltip: ""
 	}
 
-	ContagionCystWall: {
+	ContagionCystWallItem: {
 		DisplayName: 伝染の嚢胞の壁
 		Tooltip: ""
 	}
 
-	ContagionLumpWall: {
+	ContagionLumpWallItem: {
 		DisplayName: 伝染の腫瘤の壁
 		Tooltip: ""
 	}
 
-	ContagionMouldWall: {
+	ContagionMouldWallItem: {
 		DisplayName: 伝染のカビの壁
 		Tooltip: ""
 	}
@@ -5824,8 +5769,12 @@ Items: {
 	}
 
 	Longbow: {
-		DisplayName: 長弓
-		Tooltip: ""
+		DisplayName: ゴブリンの戦弓
+		Tooltip:
+			'''
+			左クリックを押し続けると矢のダメージが増加し、弾速が上昇し、
+			完全に引き絞ると敵を複数貫通する
+			'''
 	}
 
 	BondrewdHelmet: {
@@ -7156,7 +7105,7 @@ Items: {
 			'''
 	}
 
-	ContagionGrassWall: {
+	ContagionGrassWallItem: {
 		DisplayName: 伝染の草の壁
 		Tooltip: ""
 	}
@@ -7760,8 +7709,8 @@ Items: {
 	}
 
 	EnergyRevolver: {
-		DisplayName: エナジーリボルバー
-		Tooltip: ""
+		DisplayName: エネルギーリボルバー
+		Tooltip: <right>で弾速が遅いが高いダメージを与えるエネルギー弾を撃つ
 	}
 
 	IckyArrow: {
@@ -7810,7 +7759,7 @@ Items: {
 
 	TrueAeonsEternity: {
 		DisplayName: トゥルーイーオンズエタニティ
-		Tooltip: ""
+		Tooltip: 爆発する星座を放つ
 	}
 
 	SoulEdge: {
@@ -8162,14 +8111,14 @@ Items: {
 
 	ForsakenRelic: {
 		DisplayName: 見捨てられた遺物
-		Tooltip: 無敵時間の間、ダメージが7%増加し、クリティカル率が7%上昇
+		Tooltip: 無敵時間の間、ダメージが25%増加し、クリティカル率が7%上昇
 	}
 
 	ForsakenCross: {
 		DisplayName: 見捨てられた十字架
 		Tooltip:
 			'''
-			無敵時間の間、ダメージが7%増加し、クリティカル率が7%上昇
+			無敵時間の間、ダメージが25%増加し、クリティカル率が7%上昇
 			被ダメージ後の無敵時間を延長
 			'''
 	}
@@ -8569,7 +8518,7 @@ Items: {
 	}
 
 	BrokenVigilanteTome: {
-		DisplayName: 壊れた自警団の書
+		DisplayName: ボロボロの自警団の書
 		Tooltip: ""
 	}
 
@@ -9540,7 +9489,11 @@ Items: {
 
 	ResourceBarSkin: {
 		DisplayName: リソースバーのスキン
-		Tooltip: ""
+		Tooltip:
+			'''
+			ライフ、マナ、スタミナのバーを染色できる
+			衣装スロットでも機能する
+			'''
 	}
 
 	StaffStatue: {
@@ -9550,12 +9503,12 @@ Items: {
 
 	BloodyVultureBanner: {
 		DisplayName: 血まみれのハゲワシのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.BloodyVulture.DisplayName}"
 	}
 
 	SicklyVultureBanner: {
 		DisplayName: 病弱なハゲワシのバナー
-		Tooltip: ""
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.SicklyVulture.DisplayName}"
 	}
 
 	InactiveCoating: {
@@ -10038,6 +9991,149 @@ Items: {
 		DisplayName: 聖なる大剣
 		Tooltip: ""
 	}
+
+	AshWoodClub: {
+		DisplayName: アッシュウッドのこん棒
+		Tooltip: ""
+	}
+
+	BleachedEbonyClub: {
+		DisplayName: 漂白された黒檀のこん棒
+		Tooltip: ""
+			}
+
+	BorealWoodClub: {
+		DisplayName: ボーリアルウッドのこん棒
+		Tooltip: ""
+	}
+
+	CoughwoodClub: {
+		DisplayName: コフウッドのこん棒
+		Tooltip: ""
+	}
+
+	EbonwoodClub: {
+		DisplayName: エボンウッドのこん棒
+		Tooltip: ""
+	}
+
+	PalmWoodClub: {
+		DisplayName: ヤシの木のこん棒
+		Tooltip: ""
+	}
+
+	PearlwoodClub: {
+		DisplayName: パールウッドのこん棒
+		Tooltip: ""
+	}
+
+	ResistantWoodClub: {
+		DisplayName: 耐候性の木のこん棒
+		Tooltip: ""
+	}
+
+	RichMahoganyClub: {
+		DisplayName: リッチマホガニーのこん棒
+		Tooltip: ""
+	}
+
+	ShadewoodClub: {
+		DisplayName: シェイドウッドのこん棒
+		Tooltip: ""
+	}
+
+	CaesiumSlab: {
+		DisplayName: セシウムのスラブ
+		Tooltip: ""
+	}
+
+	BacciliteCore.DisplayName: ストレージコア (バクシライト)
+
+	BacciliteStorageUnitItem: {
+		DisplayName: バクシライトのストレージユニット
+		Tooltip:
+			'''
+			マジックストレージのシステムにアイテムを保管するための部品
+			80アイテムを保管できる
+			'''
+	}
+
+	BacciliteUpgrade: {
+		DisplayName: バクシライトのストレージアップグレード
+		Tooltip:
+			'''
+			ストレージユニットの容量を80に増やす
+			ストレージユニットに<right>で容量を増やせる
+			'''
+	}
+
+	EnemyGauntletStarter: {
+		DisplayName: エネミーガントレットスターター
+		Tooltip: ""
+	}
+
+	TilePlacer: {
+		DisplayName: タイル・プレイサー
+		Tooltip: 上か下でスタイルを変更する
+	}
+
+	DyeSlimeBanner: {
+		DisplayName: 染料スライムのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}染料スライム"
+	}
+
+	ForsakenCuffs: {
+		DisplayName: 見捨てられた者のカフス
+		Tooltip:
+			'''
+			{$Mods.Avalon.Items.ForsakenRelic.Tooltip}
+			{$ItemTooltip.MagicCuffs}
+			'''
+	}
+
+	ForsakenHeartNecklace: {
+		DisplayName: 見捨てられたハートネックレス
+		Tooltip:
+			'''
+			{$Mods.Avalon.Items.ForsakenRelic.Tooltip}
+			{$ItemTooltip.SweetheartNecklace}
+			'''
+	}
+
+	ShadlopodBanner: {
+		DisplayName: シャドロポッドのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.Shadlopod.DisplayName}"
+	}
+
+	UndineBanner: {
+		DisplayName: ウンディーネのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.Undine.DisplayName}"
+	}
+
+	StasisRifle: {
+		DisplayName: ステイシスライフル
+		Tooltip:
+			'''
+			「相応しくないものを凍らせろ」
+			[c/C39FDD:[10周年記念コンテスト受賞者 - Maykal (4年遅れて実装されたから、たぶん彼女は去ってしまった)][c/C39FDD:]]
+			'''
+	}
+
+	AngryFairyBanner: {
+		DisplayName: アングリーフェアリーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.AngryFairy.DisplayName}"
+	}
+
+	Zapshock: {
+		DisplayName: ザップショック
+		Tooltip: ""
+	}
+
+	BloodGusherBanner: {
+		DisplayName: ブラッドガッシャーのバナー
+		Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.Avalon.NPCs.BloodGusher.DisplayName}"
+	}
+
 }
 
 InfoDisplays: {
@@ -10286,6 +10382,20 @@ Projectiles: {
 	OutbreakProj.DisplayName: アウトブレイクのダニ
 	CanisterFire.DisplayName: キャニスターファイア
 	CanisterFireLinger.DisplayName: キャニスターファイア
+	TendrilShot.DisplayName: 触手弾
+	CougherCough.DisplayName: コフカーの咳
+	ShadlopodInk.DisplayName: シャドロポッドの墨
+	DesertLongswordTornado.DisplayName: 砂の竜巻
+	IridiumLongbowEnergyArrow.DisplayName: イリジウムの長弓
+	OsmiumShrapnel.DisplayName: オスミウムの破片
+	RhodiumLongbowEnergyArrow.DisplayName: ロジウムの長弓
+	IridiumGreatswordBubble.DisplayName: イリジウムの大剣の泡
+	RhodiumGreatswordBeam.DisplayName: ロジウムの大剣のビーム
+	IridiumGreatswordSpike.DisplayName: イリジウムの大剣の棘
+	EnergyBall.DisplayName: エネルギーボール
+	UndineTear.DisplayName: ウンディーネの涙
+	ZapshockProjectile.DisplayName: ザップショック
+	BloodgusherBlood.DisplayName: ブラッドガッシャ―の血
 }
 
 NPCs: {
@@ -10582,7 +10692,7 @@ NPCs: {
 		DeathText: {
 			0: "がドラゴンに連れ去られてしまいました。"
 			1: "が塔に鎖で繋がれてしまいました。"
-			2: "は笏を飲み込んでしまいましたた。"
+			2: "は笏を飲み込んでしまいました。"
 			3: "が自身のドレスにつまずきました。"
 			4: "はガラスの靴の耐久性を考慮しませんでした。"
 		}
@@ -10756,6 +10866,12 @@ NPCs: {
 	SnakeBody.DisplayName: 蛇の体
 	SnakeHead.DisplayName: 蛇の頭
 	SnakeTail.DisplayName: 蛇の尾
+	BacteriumTendril.DisplayName: バクテリウムの触手
+	EnemyGauntletPortal.DisplayName: ""
+	DyeSlime.DisplayName: 染料スライム
+	Undine.DisplayName: ウンディーネ
+	AngryFairy.DisplayName: アングリーフェアリー
+	BloodGusher.DisplayName: ブラッドガッシャー
 }
 
 Buffs: {
@@ -10831,12 +10947,12 @@ Buffs: {
 
 	Heartsick: {
 		DisplayName: ハートシック
-		Description: ハートのライフ回復量が5増加
+		Description: ライフ回復アイテムによるライフの回復量が25%増加
 	}
 
 	AdvHeartsick: {
 		DisplayName: 強化ハートシック
-		Description: ハートのライフ回復量が10増加
+		Description: ライフ回復アイテムによるライフの回復量が50%増加
 	}
 
 	ImmortalityCooldown: {
@@ -11494,7 +11610,7 @@ Buffs: {
 
 	ShadowCurse: {
 		DisplayName: 影の呪い
-		Description: 被ダメージが2倍になる
+		Description: 被ダメージが{0}%増加
 	}
 
 	XanthophyteTree: {
@@ -11560,6 +11676,26 @@ Buffs: {
 	Dissolving: {
 		DisplayName: 溶解
 		Description: ライフが徐々に減っていく
+	}
+
+	EnergyRevolver: {
+		DisplayName: エネルギーリボルバー
+		Description: Mods.Avalon.Buffs.EnergyRevolver.Description
+	}
+
+	InfernalJudgement: {
+		DisplayName: 地獄の審判
+		Description: ライフが急激に減っていき、デバフに弱くなる
+	}
+
+	CryoStasis: {
+		DisplayName: 極低温凍結
+		Description: Mods.Avalon.Buffs.CryoStasis.Description
+	}
+
+	AttackSpeedDown: {
+		DisplayName: 攻撃速度低下
+		Description: 攻撃速度が低下する
 	}
 }
 
@@ -11784,9 +11920,21 @@ Tiles: {
 		MapEntry1: ロックされた伝染の宝箱
 	}
 
+	ContagionChest: {
+		MapEntry0: 伝染の宝箱
+		MapEntry1: ロックされた伝染の宝箱
+		}
+
 	UnderworldChest: {
 		MapEntry0: 地下世界の宝箱
 		MapEntry1: ロックされた地下世界の宝箱
+	}
+
+	EnemyGauntletChest: {
+		MapEntry0: 雪の神殿の宝箱
+		MapEntry1: 呪われた雪の神殿の宝箱
+		MapEntry2: 砂の神殿の宝箱
+		MapEntry3: 呪われた砂の神殿の宝箱
 	}
 
 	ContagionPot.MapEntry: ポット
@@ -11860,6 +12008,7 @@ Tiles: {
 	AcidDropletTile.MapEntry: 滴る酸
 	BloodDropletTile.MapEntry: 滴る血
 	AlkalineJellyfishJarTile.MapEntry: アルカリ性のクラゲ入りの瓶
+	BacciliteStorageUnitTile.MapEntry: バクシライトのストレージユニット
 }
 
 Prefixes: {
@@ -12215,11 +12364,11 @@ Tools: {
 Liquids: {
 	Blood: {
 		RecipeEntry: 血の近く
-		MapEntry: Mods.Avalon.Liquids.Blood.MapEntry
+		MapEntry: 血
 	}
 
 	Acid: {
 		RecipeEntry: 酸の近く
-		MapEntry: Mods.Avalon.Liquids.Acid.MapEntry
+		MapEntry: 酸
 	}
 }
