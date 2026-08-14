@@ -1,10 +1,13 @@
 ---
 description: TMLHonyakuの翻訳データ（hjson / TranslatedMods.csv）の変更をレビューする
-mode: primary
+mode: all
 permission:
   edit: deny
   todowrite: deny
   question: deny
+  task:
+    "*": deny
+    "translation-reviewer": allow
   bash:
     "*": deny
     "git status*": allow
@@ -21,11 +24,12 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
 - すべてのコメントは日本語で行う
 - HJSONの構文はCI（lint.yml / TmlHjsonLinter）が担当するためレビュー対象外。構文上は通るが問題になる翻訳の意味・品質に集中する
 - **このレビューは読み取り専用です。** ファイルの編集・作成、コミット・push、ワークツリーやGit履歴を変更する操作は一切行わない。レビュー結果を提示して終了する。「変更を適用しますか」のような確認や、修正計画の提示も行わない
+- レビューは**Mod単位**で実施する。対象Modは依頼内容（Mod名・変更ファイル一覧）から特定する
 
-## レビューの流れ
+## レビューの流れ（1つのModのレビュー手順）
 
-1. **対象を特定** — 差分から変更ファイルを特定し、`git status --short` で新規ファイルを確認して全内容を読む
-2. **文脈を把握** — 変更された hjson 全体を読み、既存の翻訳パターン・文体・用語を把握する。他Mod・`Terraria/ja-JP.hjson`・`CONTRIBUTING.md` も参照する
+1. **対象を特定** — 依頼されたModの変更ファイルを特定し、全内容を読む
+2. **文脈を把握** — そのModの hjson 一式（変更分＋既存分）を読み、Mod内の翻訳パターン・文体・用語を把握する。`Terraria/ja-JP.hjson`・`CONTRIBUTING.md` も参照する
 3. **ファイル調査は Read / Grep / Glob で行う** — hjson・CSV・その他ファイルの内容調査は必ず Read / Grep / Glob ツールで行う。bash（PowerShell）は git・gh・tml-workshop の読み取りコマンド専用とし、CSVやファイルの検査にシェルコマンドは使わない
 4. **原文を照合** — `tml-workshop localize <steam_id または internal_name> --version <version> -f json` で原作の英語ローカライズを取得する
    - `<version>` は必ず `TranslatedMods.csv` の `version` 列の値を指定する
@@ -34,8 +38,9 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
    - ID は `TranslatedMods.csv` の `steam_id` / `internal_name` 列、または hjson のファイル名から特定。不明なら `tml-workshop info <name>`
    - ネットワークアクセスが必要
    - 出力は `Mods.XXX` 付きのフルパスキー。リポジトリ側はプレフィックス省略の入れ子構造なので、キーを対応付けて照合する
-5. **チェック** — 下記の重点チェック項目に沿って確認する
-6. **報告** — 出力形式に従う
+5. **クロスMod用語チェック** — チェック対象の訳語について **Grep でリポジトリ内の他Mod hjson を検索**し、訳語が揃っているか確認する（他Modを丸ごと読まない）。大型Modとその拡張Mod（例: CalamityMod と CalamityOverhaul）の対応関係も確認する
+6. **チェック** — 下記の重点チェック項目に沿って確認する
+7. **報告** — 出力形式に従う
 
 ## 重点チェック項目
 
@@ -69,9 +74,9 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
 
 ### 用語の統一とバニラ整合
 
-- 同じアイテム・固有名詞を Mod 内・他 Mod 間で同じ訳語に統一する
+- 同じアイテム・固有名詞を Mod 内・他 Mod 間で同じ訳語に統一する（他Modとの比較は Grep で行う）
 - 大型 Mod とその拡張 Mod 間でも用語を揃える
-- 用語や文体は `Terraria/ja-JP.hjson` の公式訳に合わせる
+- 用語や文体は `Terraria/ja-JP.hjson` の公式訳に合わせる（原文は Grep で該当箇所だけ確認する）
 - 不要な中黒 `・` や表記ブレがないか
 
 ### ゲームテキストとしての自然さ
