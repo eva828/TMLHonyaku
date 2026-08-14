@@ -1,11 +1,11 @@
 ---
 description: 翻訳データ（hjson / TranslatedMods.csv）の変更をレビューします
 agent: translation-reviewer
-subtask: true
+subtask: false
 ---
 翻訳データの変更をレビューします。
 
-> **レビュー専用**: ファイルの編集・作成、コミット、`gh pr review` の投稿は行わないでください。
+> **レビュー専用**: ファイルの編集・作成、コミット、`gh pr review` の投稿、変更の適用確認は行わない。レビュー結果を提示して終了すること。
 
 Input: $ARGUMENTS
 
