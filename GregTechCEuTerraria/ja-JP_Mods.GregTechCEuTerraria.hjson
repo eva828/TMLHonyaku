@@ -38983,7 +38983,7 @@ Items: {
 				@bender         - bender(折り曲げ機)のレシピのみ表示
 				@assemb         - Assembler(組立機) と Assembly Line(組立ライン) の両方を検索（設備名の一部一致）
 				@bend ir pla    - 「鉄」の「プレート」を使用する「折り曲げ機」のレシピを検索
-			 
+
 			[c/FFE68C:操作方法]
 				左クリック     - 検索欄を選択して入力開始
 				右クリック     - 検索内容を消去
@@ -40065,7 +40065,7 @@ MachineTooltip: {
 	cleanroom_4: "[c/AAAAAA:天井部分（外周を除く）に][c/FFFFFF:フィルターケーシング][c/AAAAAA:の設置が必要です]"
 	cleanroom_5: "[c/FFFFFF:ドアを4枚まで][c/AAAAAA:設置可能です、ドアを開けても清浄度は維持されます]"
 	cleanroom_6: 発電機、マフラーハッチ、ドリル、原始的機械は汚染が激しすぎるため設置できません！
-	cleanroom_7: "[c/AAAAAA:壁面の][c/FFFFFF:機械ケーシング][c/AAAAAA:または][c/FFFFFF:ダイオード][c/AAAAAA:を介して電力を供給してください。]"
+	cleanroom_7: "[c/AAAAAA:壁面の][c/FFFFFF:機械筐体][c/AAAAAA:または][c/FFFFFF:ダイオード][c/AAAAAA:を介して電力を供給してください。]"
 	coke_oven: 鋼鉄製造と発電に適した燃料を生産する
 	coke_oven_hatch: "[c/AAAAAA:コークス炉への自動搬入・搬出を可能にする]"
 	combustion: "[c/AAAAAA:可燃性の液体燃料が必要]"
@@ -40187,7 +40187,7 @@ MachineTooltip: {
 	hv_sifter: "[c/AAAAAA:「選別は落ち着いて行うこと。」]"
 	hv_thermal_centrifuge: "[c/AAAAAA:鉱石をより精密に分離する]"
 	hv_wiremill: "[c/AAAAAA:電線を効率よく製造する]"
-	implosion_compressor: 「爆発を歓迎される唯一の機械。」
+	implosion_compressor: 「爆発させたい唯一の機械。」
 	item_collector: 周囲のアイテムを回収する
 	iv_alloy_smelter: "[c/AAAAAA:合金を作り出す]"
 	iv_arc_furnace: "[c/AAAAAA:放電によって加熱する]"
@@ -40346,7 +40346,7 @@ MachineTooltip: {
 	mv_chemical_bath: "[c/AAAAAA:鉱石を薬液で処理して分離する]"
 	mv_chemical_reactor: "[c/AAAAAA:化学物質同士を反応させる]"
 	mv_circuit_assembler: "[c/AAAAAA:電子部品を自動で配置・組立する]"
-	mv_compressor: "[c/AAAAAA:「別名：なんでも圧縮マシンC-77」]"
+	mv_compressor: "[c/AAAAAA:「別名：なんでも圧縮マシンC77」]"
 	mv_cutter: "[c/AAAAAA:「バラバラにしてやる」]"
 	mv_distillery: "[c/AAAAAA:流体から有用な成分を抽出する]"
 	mv_electric_furnace: "[c/AAAAAA:「昔のコンピューターよりさらに速く加熱する」]"
@@ -49918,4 +49918,3 @@ Tiles: {
 		MapEntry: パイプ交差点
 	}
 }
-
