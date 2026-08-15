@@ -19,6 +19,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 3688116442,Ancient Crimson Armor set,AncientCrimsonArmor,1.1,ぽぷのべり,,
 3021285778,androLib,androLib,1.0.7.17,ぽぷのべり,,
 2563082541,Angler Shop,NoFishingQuests,3.2.0.5,まめ,,
+3620213814,Angler's Arsenal,AnglersArsenal,0.2,serekau,,
 2818107739,Anime Vanity & Pets,AnimeOverhaul,3.2,ogatass,,
 2564872136,Antisocial,Antisocial,1.7,ぽぷのべり,,
 2658783282,Apacchii's Classes: Reborn,ApacchiisClassesMod2,1.5.6.3,hazamax405,設定・バフなど一部未翻訳(popunoberi),設定・バフなど一部未翻訳
@@ -106,6 +107,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 2566083800,Chat Source,ChatSource,1.1.1.4,Hurugitune,すべて翻訳済み,
 2882397317,Cheap Reforging,CheapReforging,1.1.0.0,ぽぷのべり,,
 2563784437,Cheat Sheet,CheatSheet,0.7.7.1,sysnote8,,
+3450253281,Chem's Vanilla Plus,ChemVanillaPlus,1.0.13,serekau,,
 3627201377,Chroma Katana: The One Blade [BETA],ChromaKatana,0.7.0,ぽぷのべり,,
 2564306249,Chromakey Wall,ChromaKeyWallMod,0.1.5.0,ぽぷのべり,,
 3028584450,Clamity Addon,Clamity,1.0.3.13,katudonsan(原文)、gaba,Projectile未翻訳,
@@ -437,6 +439,7 @@ steam_id,display_name,internal_name,version,translators,internal_note,display_no
 2563098343,Team Spectate,TeamSpectate,4.0,katudonsan,済,
 2789237440,Teleport All NPC Home,TownNPCHome,1.4,ぽぷのべり,,
 3613112004,Teleport To Map Death,TeleportMapDeath,0.6,ぽぷのべり,,
+3072658398,Terralands: Project Vaulthalla,Vaulthalla,2.1.2,serekau,,
 2799559538,Terrarchitect,Terrarchitect,1.7.0.3,ぽぷのべり,,
 2811905172,Terraria Ambience,TerrariaAmbience,0.3.6.9,ぽぷのべり,,
 2826615136,Terraria Ambience API,TerrariaAmbienceAPI,1.3.6.8,ぽぷのべり,,
