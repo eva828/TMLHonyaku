@@ -594,7 +594,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -604,7 +604,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -714,7 +714,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -724,7 +724,7 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemtooltip.ForItems.ActivatedAbility}{$CommonItemtooltip.ForItems.ArcanaStimulator}
-			
+
 			[placeholder]
 			'''
 	}
@@ -1484,7 +1484,7 @@ Items: {
 			ダメージが4%増加
 			クリティカル率が2%上昇
 			移動速度が5%上昇
-			「この鎧の中にいる闇の魂は、さらなる防御力を与えるために利用されている」
+			「この鎧の中の闇の魂は、さらなる防御力を与えるために利用されている」
 			'''
 	}
 
@@ -1598,9 +1598,9 @@ Items: {
 		Tooltip:
 			'''
 			ライト付き、視界が広がる
-			宝と鉱石が光って見える 
+			宝と鉱石が光って見える
 			敵が光って見える
-			罠がよく見える 
+			罠がよく見える
 			{$Items.GazersGoggles.Tooltip}
 			「究極の洞窟探検」
 			'''
@@ -1735,7 +1735,7 @@ Items: {
 			ライト付き、視界が広がる
 			壁を登ることが可能
 			ジャンプ速度が増加し、自動ジャンプが可能となる
-			落下耐性を増加 
+			落下耐性を増加
 			氷上で滑らずに移動可能
 			'''
 	}
@@ -1843,7 +1843,7 @@ Items: {
 		Tooltip:
 			'''
 			回復ポーションの再使用間隔を10%短縮させる
-			被ダメージ後の無敵時間を延長 
+			被ダメージ後の無敵時間を延長
 			ダメージを受けると回復ポーションの再使用間隔がわずかに短縮されることがある
 			'''
 	}
@@ -1878,7 +1878,7 @@ Items: {
 		DisplayName: スーパー磁石
 		Tooltip:
 			'''
-			アイテムを拾う距離が大きく広がる 
+			アイテムを拾う距離が大きく広がる
 			スター、コイン、ハートを拾う距離が広がる
 			装備していない状態では、弱体化を敵に与えることがある
 			'''
@@ -2123,7 +2123,7 @@ Items: {
 
 	AquaticBoots: {
 		DisplayName: アクアティックブーツ
-		Tooltip: 水と蜂蜜の上を歩行可能になり、泳げるようになる 
+		Tooltip: 水と蜂蜜の上を歩行可能になり、泳げるようになる
 	}
 
 	MerfolkBoots: {
@@ -2132,7 +2132,7 @@ Items: {
 			'''
 			超高速走行できる
 			ジャンプ速度が増加し、自動ジャンプが可能となる
-			落下耐性を増加 
+			落下耐性を増加
 			水と蜂蜜の上を歩行可能になり、泳げるようになる
 			'''
 	}

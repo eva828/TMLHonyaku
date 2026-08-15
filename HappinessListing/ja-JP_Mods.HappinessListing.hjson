@@ -98,7 +98,7 @@ Configs: {
 		}
 
 		BestiaryFlavorTextEntry: {
-			Label: "[i:DontHurtNatureBook] 動物図鑑に幸福度に関する説明を追加"
+			Label: "[i:DontHurtNatureBook] 図鑑に幸福度に関する説明を追加"
 			Tooltip:
 				'''
 				タウンNPCの図鑑での説明に好み/嫌いに関する情報を追加します
@@ -485,7 +485,7 @@ Configs: {
 		}
 
 		Emoticons: {
-			Label: 顔文字
+			Label: 絵文字
 			Tooltip:
 				'''
 				{$Label}
@@ -664,7 +664,7 @@ UI: {
 		Dislike: 嫌い
 		Hate: 増悪
 		None: なし
-		RetreivalError: 好みを拾得できませんでした
+		RetreivalError: 好みを取得できませんでした
 		PrincessLovesAll: "{$NPCName.Princess}は全てのタウンNPCを愛している"
 	}
 }

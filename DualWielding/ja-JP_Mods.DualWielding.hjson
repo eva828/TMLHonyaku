@@ -37,7 +37,7 @@ Configs: {
 		}
 
 		PassiveBalancePenalties: {
-			Label: 常にペナルティを適応
+			Label: 常にペナルティを適用
 			Tooltip: ""
 		}
 
@@ -67,7 +67,7 @@ Configs: {
 		}
 
 		BaseSpreadDegrees: {
-			Label: 拡散の乗数
+			Label: 追加の拡散角度
 			Tooltip: ""
 		}
 	}
@@ -75,4 +75,3 @@ Configs: {
 
 Tooltips.Memory: 記録したオフハンドのアイテム
 Keybinds.UseOffhand.DisplayName: オフハンドのアイテムを使用
-
