@@ -1436,17 +1436,6 @@ Items: {
 			'''
 	}
 
-	EmblemCuffs: {
-		DisplayName: 紋章のカフス
-		Tooltip:
-			'''
-			星を拾う距離が広がる
-			ダメージを受けるとマナが回復する
-			最大マナが20増加
-			魔法ダメージが12%増加
-			'''
-	}
-
 	ExplorersNecklace: {
 		DisplayName: 探検家のネックレス
 		Tooltip:
@@ -2206,14 +2195,18 @@ Items: {
 		DisplayName: 混沌の剣
 		Tooltip:
 			'''
-			カオスボルトを放つ
-			左クリックを押し続けると攻撃とカオスボルトの複数発射を交互に行う
+			ランダムな色のビームを放つ
+			ビームは色によって挙動が違う
 			'''
 	}
 
 	BoomBox: {
 		DisplayName: ブームボックス
-		Tooltip: 自身の周囲に音符を発射する
+		Tooltip: 
+			'''
+			周囲に敵を追尾する音符を発射する
+			敵の防御力を15無視する
+			'''
 	}
 
 	ChaosbringerBossBag: {
@@ -2243,7 +2236,11 @@ Items: {
 
 	ChaosClaymore: {
 		DisplayName: 混沌の大剣
-		Tooltip: 虹のソードビームを放つ
+		Tooltip:
+			'''
+			敵を混乱させることがある
+			右クリックで投げ、投げた剣は近くの敵を追尾する
+			'''
 	}
 
 	ChaosDisc: {
@@ -2281,15 +2278,6 @@ Items: {
 			'''
 			カオスブリンガーを召喚する
 			夜間の聖域で使用できる
-			'''
-	}
-
-	VoidEye: {
-		DisplayName: 虚無の目
-		Tooltip:
-			'''
-			召喚した敵はクリックした敵を集中攻撃する
-			右クリックで視界を広げることができる
 			'''
 	}
 
@@ -2445,10 +2433,9 @@ Items: {
 		DisplayName: マナの香
 		Tooltip:
 			'''
-			敵を倒すと25%の確率でマナが全回復するが、
-			マナ消費量が30%増加
-			残りマナの割合が少なくなるほど魔法ダメージが増加
-			ダメージはマナが最大時の-5%から+20%まで変化する
+			最大マナが20増加
+			敵を倒すと25%の確率でマナが全回復する
+			残りマナの割合が少なくなるほど魔法ダメージが最大で25%増加
 			'''
 	}
 
@@ -2467,8 +2454,9 @@ Items: {
 			'''
 			マナスターを拾う距離が広がる
 			ダメージを受けるとマナが回復する
-			最大マナが20増加
-			マナ消費量が20%減少
+			最大マナが40増加
+			敵を倒すと25%の確率でマナが全回復する
+			残りマナの割合が少なくなるほど魔法ダメージが最大で25%増加
 			'''
 	}
 
@@ -2913,16 +2901,6 @@ Items: {
 
 	GrandAntlionTrophy: {
 		DisplayName: 巨大なアントリオンのトロフィー
-		Tooltip: ""
-	}
-
-	SandballCannon: {
-		DisplayName: 砂玉キャノン
-		Tooltip: 弾薬として砂玉を使用する
-	}
-
-	Sandball: {
-		DisplayName: 砂玉
 		Tooltip: ""
 	}
 
@@ -3903,33 +3881,19 @@ Items: {
 		Tooltip: 近接ダメージが15%増加し、近接攻撃速度が15%上昇
 	}
 
-	PurifiedBar: {
-		DisplayName: 純粋なインゴット
-		Tooltip: ""
-	}
-
-	PurifiedBlade: {
-		DisplayName: 純粋な剣
-		Tooltip: 胞子雲を放つ
-	}
-
-	PurifiedBoomerang: {
-		DisplayName: 純粋なブーメラン
-		Tooltip: ""
-	}
 
 	PurifiedBreastplate: {
 		DisplayName: 純粋な胸当て
-		Tooltip: 召喚ダメージが10%増加
+		Tooltip:
+			'''
+			召喚ダメージが10%増加
+			召喚できるミニオンの数が1体増える
+			'''
 	}
 
 	PurifiedHelmet: {
 		DisplayName: 純粋な兜
-		Tooltip:
-			'''
-			召喚できるミニオンの数が1体増える
-			召喚ダメージが5%増加
-			'''
+		Tooltip: 召喚ダメージが5%増加
 	}
 
 	PurifiedLeggings: {
@@ -3939,71 +3903,6 @@ Items: {
 			召喚ダメージが5%増加
 			移動速度が10%上昇
 			'''
-	}
-
-	PurifiedSpore: {
-		DisplayName: 純粋な胞子
-		Tooltip: 「数千年経ってもなお、これほど純粋なまま」
-	}
-
-	RustyAxe: {
-		DisplayName: 錆びた斧
-		Tooltip: ""
-	}
-
-	RustyBow: {
-		DisplayName: 錆びた弓
-		Tooltip: ""
-	}
-
-	RustyBroadsword: {
-		DisplayName: 錆びた剣
-		Tooltip: ""
-	}
-
-	RustyChunk: {
-		DisplayName: 錆びた塊
-		Tooltip: 「役に立たなそうだ…」
-	}
-
-	RustyHammer: {
-		DisplayName: 錆びたハンマー
-		Tooltip: ""
-	}
-
-	RustyIngot: {
-		DisplayName: 錆びたインゴット
-		Tooltip: 「これが崩壊しないのは不思議だ」
-	}
-
-	RustyPickaxe: {
-		DisplayName: 錆びたつるはし
-		Tooltip: ""
-	}
-
-	RustyShortsword: {
-		DisplayName: 錆びた短剣
-		Tooltip: ""
-	}
-
-	RustySpear: {
-		DisplayName: 錆びた槍
-		Tooltip: ""
-	}
-
-	BrokenScubaHelmet: {
-		DisplayName: 壊れたスキューバヘルメット
-		Tooltip: ""
-	}
-
-	BrokenScubaLeggings: {
-		DisplayName: 壊れたスキューバのレギンス
-		Tooltip: ""
-	}
-
-	BrokenScubaSuit: {
-		DisplayName: 壊れたスキューバスーツ
-		Tooltip: ""
 	}
 
 	ScubaHelmet: {
@@ -4286,7 +4185,12 @@ Items: {
 
 	BlueFlashlight: {
 		DisplayName: 懐中電灯（青）
-		Tooltip: 「全てが寒そうに見えるけど、クールだ」
+		Tooltip:
+			'''
+			青い光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「全てが寒そうに見えるけど、クールだ」
+			'''
 	}
 
 	Crowbar: {
@@ -4296,32 +4200,62 @@ Items: {
 
 	Flashlight: {
 		DisplayName: 懐中電灯
-		Tooltip: 「光が道を照らすだろう」
+		Tooltip:
+			'''
+			光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「光が道を照らすだろう」
+			'''
 	}
 
 	GreenFlashlight: {
 		DisplayName: 懐中電灯（緑）
-		Tooltip: 「力強い輝き」
+		Tooltip:
+			'''
+			緑の光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「力強い輝き」
+			'''
 	}
 
 	PurpleFlashlight: {
 		DisplayName: 懐中電灯（紫）
-		Tooltip: 「なんて素敵な輝きなんだ」
+		Tooltip:
+			'''
+			紫の光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「なんて素敵な輝きなんだ」
+			'''
 	}
 
 	RainbowFlashlight: {
 		DisplayName: 懐中電灯（虹）
-		Tooltip: 「全ての色！」
+		Tooltip:
+			'''
+			虹の光を放つ	
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「全ての色！」
+			'''
 	}
 
 	RedFlashlight: {
 		DisplayName: 懐中電灯（赤）
-		Tooltip: 「全てが熱く、怒りに満ちているように見える」
+		Tooltip:
+			'''
+			赤い光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「全てが熱く、怒りに満ちているように見える」
+			'''
 	}
 
 	YellowFlashlight: {
 		DisplayName: 懐中電灯（黄）
-		Tooltip: 「恐れるな」
+		Tooltip:
+			'''
+			黄の光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「恐れるな」
+			'''
 	}
 
 	ZombieLeg: {
@@ -6951,6 +6885,56 @@ Items: {
 			右クリックで投げる
 			'''
 	}
+
+	OrangeFlashlight: {
+		DisplayName: 懐中電灯（オレンジ）
+		Tooltip:
+			'''
+			オレンジの光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「力強く輝く」
+			'''
+	}
+
+	WhiteFlashlight: {
+		DisplayName: 懐中電灯（白）
+		Tooltip:
+			'''
+			白い光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「最も強い輝き」
+			'''
+	}
+
+	LivingChakram: {
+		DisplayName: 生茂のチャクラム
+		Tooltip: トゲの蔓をランダムな方向に広げる
+	}
+
+	SandSlinger: {
+		DisplayName: サンドスリンガー
+		Tooltip:
+			'''
+			弾薬としてビー玉を使用する
+			砂の塊を発射する
+			5回目は砂の塊を複数発射する
+			'''
+	}
+
+	SpelunkerFlashlight: {
+		DisplayName: 探検家の懐中電灯
+		Tooltip:
+			'''
+			お宝を探知する光を放つ
+			インベントリ内にあるなら自動選択で切り替えることができる
+			「文字通り、豊かな輝きを放つ…」
+			'''
+	}
+
+	SoulboundBallista: {
+		DisplayName: 魂縛のバリスタ
+		Tooltip: 木の矢を敵か地形に当たると近くの敵を追尾する魂縛の矢に変換する
+	}
 }
 
 NPCs: {
@@ -7194,7 +7178,7 @@ NPCs: {
 			LikeBiome: "{BiomeName}が好きだ。"
 			DislikeBiome: "{BiomeName}が嫌いだ。"
 			LoveNPC: "{NPCName}を愛している。"
-			LikeNPC: "{NPCName が好きだ。"
+			LikeNPC: "{NPCName}が好きだ。"
 			DislikeNPC: "{NPCName}が嫌いだ。"
 			HateNPC: "{NPCName}が大嫌いだ。"
 			LikeNPC_Princess: "{NPCName}が好きだ。"
@@ -7581,13 +7565,8 @@ Projectiles: {
 	ChaosJackhammerProj.DisplayName: 混沌の機械槌
 	ChaosMace2Proj.DisplayName: 混沌のメイス
 	ChaosMaceProj.DisplayName: 混沌のメイス
-	ChaosNote1Proj.DisplayName: 混沌の音符
-	ChaosNote2Proj.DisplayName: 混沌の音符
-	ChaosNote3Proj.DisplayName: 混沌の音符
 	ChaosNoteHomingProj.DisplayName: 追尾する混沌の音符
-	ChaosSaber2Proj.DisplayName: 混沌の剣
 	ChaosSaberProj.DisplayName: 混沌の剣
-	ChaosSaberSlashProj.DisplayName: 混沌の剣の斬撃
 	CheeseWheelProj.DisplayName: チーズホイール
 	CherryBombProj.DisplayName: チェリーボム
 	ChlorophyteBallProjA.DisplayName: クロロファイトボール
@@ -7685,12 +7664,8 @@ Projectiles: {
 	PlatinumSpearProj.DisplayName: プラチナの槍
 	PocketSandProj.DisplayName: ポケットサンド
 	PufferfishCloudProj.DisplayName: フグの毒雲
-	PurifiedBladeProj.DisplayName: 純粋な剣
-	PurifiedBoomerangProj.DisplayName: 純粋なブーメラン
 	RetilazerProj.DisplayName: ティレイザー
 	RoughstoneProj.DisplayName: ラフストーン
-	RustyShortswordProj.DisplayName: 錆びた短剣
-	RustySpearProj.DisplayName: 錆びた槍
 	SandballProj.DisplayName: 砂玉
 	SandthrowerProj.DisplayName: サンドスロワー
 	ScrewdriverProj.DisplayName: ドライバー
@@ -7790,7 +7765,6 @@ Projectiles: {
 	EruptionExplosionProj.DisplayName: イラプション
 	EruptionProj.DisplayName: イラプション
 	DownpourProj.DisplayName: ダウンプア
-	ChaosSaberHoldout.DisplayName: 混沌の剣
 	CrystalBlast2Proj.DisplayName: クリスタルバースト
 	CrystalBlastProj.DisplayName: クリスタルバースト
 	DarkbloodScrollProj.DisplayName: ダークブラッドの巻物
@@ -8155,6 +8129,20 @@ Projectiles: {
 	Goldflower2Proj.DisplayName: 蜂蜜の塊
 	Goldflower3Proj.DisplayName: 蜂蜜だまり
 	SkyBlossom2Proj.DisplayName: 花粉
+	OrangeFlashlightProj.DisplayName: 懐中電灯（オレンジ）
+	WhiteFlashlightProj.DisplayName: 懐中電灯（白）
+	TerraWandHoldoutProj.DisplayName: テラワンド
+	TerraWandShockwaveProj.DisplayName: テラワンド
+	SnowballBlasterHoldout.DisplayName: スノーボールブラスター
+	LivingChakramProj.DisplayName: 生茂のチャクラム
+	LivingChakramThornSpawnProj.DisplayName: トゲの蔓
+	LivingChakramThornProj.DisplayName: トゲの蔓
+	ChaosClaymoreThrowProj.DisplayName: 混沌の大剣
+	SpelunkerFlashlightProj.DisplayName: 探検家の懐中電灯
+	SoulboundBallistaHoldout.DisplayName: 魂縛のバリスタ
+	SoulboundBallistaProj.DisplayName: 魂縛の矢
+	BoomBoxProj.DisplayName: ブームボックス
+	BoomBoxNoteProj.DisplayName: 音符
 }
 
 Prefixes: {
