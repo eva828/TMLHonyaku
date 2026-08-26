@@ -3351,7 +3351,7 @@ Items: {
 
 	MachineDyeApplicator: {
 		DisplayName: 機械式染料塗布装置
-		Tooltip: ドローンとタレットに染料を適応する
+		Tooltip: ドローンとタレットに染料を適用する
 	}
 
 	LithiumBar: {
@@ -3973,7 +3973,7 @@ Projectiles: {
 	LithiumLightning.DisplayName: リチウムの電撃
 	LithiumRound.DisplayName: リチウムの弾丸
 	LithiumBullet.DisplayName: リチウムの弾丸
-	ShroomiteRound.DisplayName: リチウムの弾丸
+	ShroomiteRound.DisplayName: シュルーマイトの弾丸
 	ShroomiteShockwave.DisplayName: シュルーマイトの衝撃波
 }
 

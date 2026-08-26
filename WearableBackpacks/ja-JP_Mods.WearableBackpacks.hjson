@@ -405,7 +405,7 @@ Projectiles.DogBackpackPuppyProjectile.DisplayName: バックパックを背負�
 Configs: {
 	WearableBackpacksStorageConfig: {
 		DisplayName: Wearable Backpacks 容量設定
-		Headers.BackpackStorage: パックパックの容量
+		Headers.BackpackStorage: バックパックの容量
 
 		Backpack01Slots: {
 			Label: キャンプサイズのバックパック
@@ -498,7 +498,7 @@ Configs: {
 			Tooltip:
 				'''
 				あふれた分のみに設定するとインベントリが一杯のときのみバックパックに入れ、
-				バックパックを優先だと常にパックパックに入れます
+				バックパックを優先だと常にバックパックに入れます
 				自動的に入れないは拾ったアイテムをインベントリに入れます
 				'''
 		}
@@ -516,8 +516,8 @@ Configs: {
 			Label: ボス戦中にドッグのバッグをロック
 			Tooltip:
 				'''
-				オンにするとボス戦中、ドッグのパックパックを右クリックしても、
-				パックパックが開かなくなります
+				オンにするとボス戦中、ドッグのバッグパックを右クリックしても、
+				バッグパックが開かなくなります
 				ドッグのバックパックを開くは機能します
 				'''
 		}
@@ -559,7 +559,7 @@ Configs: {
 
 		Slots: {
 			Label: スロットのカラー
-			Tooltip: アイテムトロットのカラー
+			Tooltip: アイテムスロットのカラー
 		}
 
 		Tooltip: ""
