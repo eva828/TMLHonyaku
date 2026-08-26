@@ -72,7 +72,7 @@ Buffs: {
 	}
 
 	GoldenInferno: {
-		DisplayName: Inferno +
+		DisplayName: 獄炎+
 		Description: 周囲の敵を地獄の炎で燃やす
 	}
 
@@ -158,7 +158,11 @@ Buffs: {
 
 	GoldenWaterWalking: {
 		DisplayName: 水上歩行+
-		Description: 下入力で水に潜れる
+		Description:
+				'''
+				液体の上を歩け、液体面に浮ける
+				下を押し続けると水に潜れる
+				'''
 	}
 
 	GoldenWrath: {
@@ -220,7 +224,7 @@ Items: {
 		Tooltip:
 			'''
 			落下速度が大きく低下
-			上入力で浮遊
+			上を押し続けると浮遊し、下を押し続けると通常通り落下
 			'''
 	}
 
@@ -372,9 +376,8 @@ Items: {
 		DisplayName: 黄金の水上歩行ポーション
 		Tooltip:
 			'''
-			液体の上を歩ける
-			液体面に浮ける
-			下入力で水に潜る
+			液体の上を歩け、液体面に浮ける
+			下を押し続けると水に潜れる
 			'''
 	}
 
