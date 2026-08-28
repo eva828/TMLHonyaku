@@ -919,7 +919,7 @@ PlayerManager: {
 		Admin: {
 			Name: 管理者
 			Description: 管理者権限を持つプレイヤー
-			Toggle: 凍結ボタンの表示/非表示を切り替え
+			Toggle: 管理者ボタンの表示/非表示を切り替え
 		}
 
 		Dead: {
