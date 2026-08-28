@@ -40,8 +40,8 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
 4. **原文を照合** — `tml-workshop localize <steam_id または internal_name> --version <version> -f json` で原作の英語ローカライズを取得する
    - `<version>` は必ず `TranslatedMods.csv` の `version` 列の値を指定する
    - **レビュー対象はCSVに記載されたバージョンである。最新版かどうかは考慮・指摘しない**
-   - **PRレビューでは、ローカルの `TranslatedMods.csv`（main時点）のversionをそのまま使わない。** `gh api repos/<repo>/pulls/<num>/files --jq '.[] | select(.filename=="TranslatedMods.csv") | .patch'` でCSV差分を確認し、対象Modの**PR適用後のversion**を求めて `--version` に使う（CSVがPRで変更されていないModはローカルCSVの値でよい）
-   - **コミットレビューでも同様に**、コミットでCSVが変更されている場合は `git show <hash> -- TranslatedMods.csv` の差分からそのコミット適用後のversionを求める
+   - **PRレビューでは、ローカルの `TranslatedMods.csv`（main時点）のversionをそのまま使わない。** `gh pr view <num> --json baseRefOid,headRefOid --jq '{baseRefOid, headRefOid}'` でOIDを取得し、`git show <headRefOid>:TranslatedMods.csv` で**PR適用後のCSV**から対象Mod行の `version` を取得して `--version` に使う（`TranslatedMods.csv` がPRで変更されていない場合でも、ローカルではなく必ず `head` 版の値を用いる）
+   - **コミットレビューでも同様に**、`git show <hash>:TranslatedMods.csv` でそのコミット適用後のCSVから `version` を取得する（差分の有無で分岐しない）
    - CSV に該当Modが無い場合は、CSV 未更新自体を指摘する（最新版を取得して代替しないこと）
    - ID は `TranslatedMods.csv` の `steam_id` / `internal_name` 列、または hjson のファイル名から特定。不明なら `tml-workshop info <name>`
    - ネットワークアクセスが必要
