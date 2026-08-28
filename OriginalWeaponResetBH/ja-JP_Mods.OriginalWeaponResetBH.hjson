@@ -711,7 +711,7 @@ Projectiles: {
 	RubyStaffHoldout.DisplayName: ルビーの杖
 	SapphireStaffHoldout.DisplayName: サファイアの杖
 	TopazStaffHoldout.DisplayName: トパーズの杖
-	GemStaffHoldout.DisplayName: G宝石の杖
+	GemStaffHoldout.DisplayName: 宝石の杖
 	RinbowStaffShot.DisplayName: 虹の杖の虹
 	AquaScepterHoldout.DisplayName: アクアセプター
 	CrimsonRodHoldout.DisplayName: クリムゾンロッド
@@ -3950,7 +3950,7 @@ Items: {
 			最大マナが100増加し、最大アーケインが{0}増加
 			アーケイン再生の腕輪と神秘注入の本の効果を得る
 			魔法武器でマナを消費するとアーケインを得る
-			アーケインが最大時に[c/8d0ae6:{0}]でアーケインを消費してライフを回復し、神秘注入を得る
+			アーケインが最大時に[c/8d0ae6:{1}]でアーケインを消費してライフを回復し、神秘注入を得る
 			下位のアクセサリとは重複しない
 			マナポーションを自動で使用してくれる
 			このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる
@@ -4248,7 +4248,7 @@ Items: {
 			アーケイン再生の腕輪と神秘注入の本の効果を得る
 			アーケインの獲得効率が上昇する
 			魔法武器でマナを消費するとアーケインを得る
-			アーケインが最大時に[c/8d0ae6:{0}]でアーケインを消費してライフを回復し、神秘注入を得る
+			アーケインが最大時に[c/8d0ae6:{1}]でアーケインを消費してライフを回復し、神秘注入を得る
 			下位のアクセサリとは重複しない
 			マナポーションを自動で使用してくれる
 			このアクセサリーを非表示にすると、自動でマナポーションを使用する機能を無効化できる
