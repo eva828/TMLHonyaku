@@ -1,24 +1,49 @@
 ---
 description: TMLHonyakuの翻訳データ（hjson / TranslatedMods.csv）の変更をレビューする
 mode: all
-permission:
-  edit: deny
-  todowrite: deny
-  question: deny
-  task:
-    "*": deny
-    "translation-reviewer": allow
-  bash:
-    "*": deny
-    "git status*": allow
-    "git diff*": allow
-    "git show*": allow
-    "git log*": allow
-    "git rev-parse*": allow
-    "tml-workshop *": allow
-    "gh pr view*": allow
-    "gh pr diff*": allow
-    "gh api*": allow
+permissions:
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: question
+    resource: "*"
+    effect: deny
+  - action: subagent
+    resource: "*"
+    effect: deny
+  - action: subagent
+    resource: translation-reviewer
+    effect: allow
+  - action: shell
+    resource: "*"
+    effect: deny
+  - action: shell
+    resource: "git status *"
+    effect: allow
+  - action: shell
+    resource: "git diff *"
+    effect: allow
+  - action: shell
+    resource: "git show *"
+    effect: allow
+  - action: shell
+    resource: "git log *"
+    effect: allow
+  - action: shell
+    resource: "git rev-parse *"
+    effect: allow
+  - action: shell
+    resource: "tml-workshop *"
+    effect: allow
+  - action: shell
+    resource: "gh pr view *"
+    effect: allow
+  - action: shell
+    resource: "gh pr diff *"
+    effect: allow
+  - action: shell
+    resource: "gh api *"
+    effect: allow
 ---
 TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳データの変更をレビューし、実用的なフィードバックを提供します。
 
@@ -36,7 +61,7 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
    - **PR**: ローカルgit・ローカルファイルをレビュー対象にしない。リポジトリを `gh pr view <num> --json repository --jq .repository.nameWithOwner` で取得し、`gh api repos/<repo>/pulls/<num>/files --paginate --jq '.[] | select(.filename | startswith("<ModDir>/")) | {filename, status, patch}'` で**PR版の変更**を取得する（新規Modは patch に全文が含まれる）
    - **ブランチ名**: `git diff <branch>...HEAD` で差分を確認する
 2. **文脈を把握** — そのModの hjson 一式（変更分＋既存分）を読み、Mod内の翻訳パターン・文体・用語を把握する。`Terraria/ja-JP.hjson`・`CONTRIBUTING.md` も参照する（ローカルファイルは文脈・用語把握用。PRレビュー時は変更内容をステップ1で確認済み）
-3. **ファイル調査は Read / Grep / Glob で行う** — hjson・CSV・その他ファイルの内容調査は必ず Read / Grep / Glob ツールで行う。bash（PowerShell）は git・gh・tml-workshop の読み取りコマンド専用とし、CSVやファイルの検査にシェルコマンドは使わない
+3. **ファイル調査は Read / Grep / Glob で行う** — hjson・CSV・その他ファイルの内容調査は必ず Read / Grep / Glob ツールで行う。shellは git・gh・tml-workshop の読み取りコマンド専用とし、CSVやファイルの検査にシェルコマンドは使わない
 4. **原文を照合** — `tml-workshop localize <steam_id または internal_name> --version <version> -f json` で原作の英語ローカライズを取得する
    - `<version>` は必ず `TranslatedMods.csv` の `version` 列の値を指定する
    - **レビュー対象はCSVに記載されたバージョンである。最新版かどうかは考慮・指摘しない**
@@ -46,6 +71,8 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
    - ID は `TranslatedMods.csv` の `steam_id` / `internal_name` 列、または hjson のファイル名から特定。不明なら `tml-workshop info <name>`
    - ネットワークアクセスが必要
    - 出力は `Mods.XXX` 付きのフルパスキー。リポジトリ側はプレフィックス省略の入れ子構造なので、キーを対応付けて照合する
+   - `tml-workshop` の実行が失敗した場合はフォールバックしない（最新版の取得・バージョンの推測・原文なしでのレビュー継続を禁止する）。該当Modのレビューを中断し、実行したコマンド・終了状態／エラー出力・使用しようとしたIDと `version` を明記して報告し終了する
+   - 手順5以降でMod固有のエラーが発生した場合も同様に、当該Modのレビューを中断し、原因と判明済みの範囲を報告する。推測でレビューを完遂したように見せない
 5. **クロスMod用語チェック** — チェック対象の訳語について **Grep でリポジトリ内の他Mod hjson を検索**し、訳語が揃っているか確認する（他Modを丸ごと読まない）。大型Modとその拡張Mod（例: CalamityMod と CalamityOverhaul）の対応関係も確認する（比較対象はローカルの他Mod翻訳。PRで同時に変更される場合は patch 側を優先する）
 6. **チェック** — 下記の重点チェック項目に沿って確認する
 7. **報告** — 出力形式に従う

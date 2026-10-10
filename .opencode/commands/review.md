@@ -1,7 +1,7 @@
 ---
 description: 翻訳データ（hjson / TranslatedMods.csv）の変更をレビューします
 agent: translation-reviewer
-subtask: false
+subagent: false
 ---
 翻訳データの変更をレビューします。
 
@@ -33,6 +33,7 @@ Input: $ARGUMENTS
    - 新規Mod・既存Modの区別なく依頼する
 4. サブエージェントの結果を**Modごとに集約して提示**し、終了する
    - 終了後は追加の作業提案・修正計画を出さない
+   - サブエージェントがエラー報告を返した場合は再試行・推測補完せず、そのまま集約して提示する
 5. `TranslatedMods.csv` が変更された場合: **自身が Read / Grep でCSVチェック**する（列の妥当性・`display_name`昇順・`internal_name`=ディレクトリ名一致・新規/更新Modの行更新有無）。**PRレビューでは `gh api` でPRのCSV patchを取得し、PR適用後の状態で確認する**
 6. `Terraria/` が変更された場合: サブエージェントにレビューを依頼する（バニラ翻訳のため **原文照合はスキップ**）
 
