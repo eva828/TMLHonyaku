@@ -58,10 +58,10 @@ TMLHonyaku（tModLoader用日本語翻訳）のレビュアーです。翻訳デ
 1. **対象を特定** — 依頼されたModの変更ファイルを特定し、全内容を読む
    - **未コミット変更**: ローカル作業ツリーをそのまま確認する
    - **コミットハッシュ**: `git show <hash>` で差分を確認し、`git show <hash>:<パス>` で該当コミット版を参照する（ローカルファイルはHEAD時点のため注意）
-   - **PR**: ローカルgit・ローカルファイルをレビュー対象にしない。リポジトリを `gh pr view <num> --json repository --jq .repository.nameWithOwner` で取得し、`gh api repos/<repo>/pulls/<num>/files --paginate --jq '.[] | select(.filename | startswith("<ModDir>/")) | {filename, status, patch}'` で**PR版の変更**を取得する（新規Modは patch に全文が含まれる）
+   - **PR**: ローカルgit・ローカルファイルをレビュー対象にしない。リポジトリを `gh pr view <num> --json headRepository --jq .headRepository.nameWithOwner` で取得し、`gh api repos/<repo>/pulls/<num>/files --paginate --jq '.[] | select(.filename | startswith("<ModDir>/")) | {filename, status, patch}'` で**PR版の変更**を取得する（新規Modは patch に全文が含まれる）
    - **ブランチ名**: `git diff <branch>...HEAD` で差分を確認する
 2. **文脈を把握** — そのModの hjson 一式（変更分＋既存分）を読み、Mod内の翻訳パターン・文体・用語を把握する。`Terraria/ja-JP.hjson`・`CONTRIBUTING.md` も参照する（ローカルファイルは文脈・用語把握用。PRレビュー時は変更内容をステップ1で確認済み）
-3. **ファイル調査は Read / Grep / Glob で行う** — hjson・CSV・その他ファイルの内容調査は必ず Read / Grep / Glob ツールで行う。shellは git・gh・tml-workshop の読み取りコマンド専用とし、CSVやファイルの検査にシェルコマンドは使わない
+3. **ファイル調査は Read / Grep / Glob で行う** — hjson・CSV・その他ファイルの内容調査は必ず Read / Grep / Glob ツールで行う。shellは git・gh・tml-workshop の読み取りコマンド専用とし、CSVやファイルの検査にシェルコマンドは使わない。shellは単発で実行し、`;`・`&&`・`|` による複合や `echo` などの許可外コマンドの混入を禁止する（複合内の1件の不許可で全体が実行不可になる）。許可外のコマンドが必要になった場合は手順4の中断・報告ルールに従う
 4. **原文を照合** — `tml-workshop localize <steam_id または internal_name> --version <version> -f json` で原作の英語ローカライズを取得する
    - `<version>` は必ず `TranslatedMods.csv` の `version` 列の値を指定する
    - **レビュー対象はCSVに記載されたバージョンである。最新版かどうかは考慮・指摘しない**
